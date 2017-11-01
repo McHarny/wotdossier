@@ -438,4 +438,36 @@ TVP T-50 - дальнейшее развитие послевоенной кон
   <data name="h07_newyear_box/title" xml:space="preserve">
     <value>Это ящик с подарками</value>
   </data>
+  <data name="halloween_supply_drop_tier_1/desc" xml:space="preserve">
+    <value>Таинственный саркофаг, созданный из пепла сгоревшей техники. Кто знает, что таится внутри?</value>
+  </data>
+  <data name="halloween_supply_drop_tier_1/title" xml:space="preserve">
+    <value>Обычная награда</value>
+  </data>
+  <data name="halloween_supply_drop_tier_2/desc" xml:space="preserve">
+    <value>Древний мерцающий саркофаг, собранный из осколков брони приспешников Левиафана. Чуть тёплый на ощупь.</value>
+  </data>
+  <data name="halloween_supply_drop_tier_2/title" xml:space="preserve">
+    <value>Редкая награда</value>
+  </data>
+  <data name="halloween_supply_drop_tier_3/desc" xml:space="preserve">
+    <value>Саркофаг, выкованный из оторванных бронепластин Левиафана. Вы слышите доносящиеся изнутри стоны тысяч истерзанных душ.</value>
+  </data>
+  <data name="halloween_supply_drop_tier_3/title" xml:space="preserve">
+    <value>Еженедельная награда</value>
+  </data>
+  <data name="halloween_supply_drop_tier_4/desc" xml:space="preserve">
+    <value>Саркофаг из мрачных могильников древних технобогов, сотканный из плоти и крови поборников хаоса. Открывать на свой страх и риск!</value>
+  </data>
+  <data name="halloween_supply_drop_tier_4/title" xml:space="preserve">
+    <value>Эпическая награда</value>
+  </data>
+  <data name="leviathan/desc" xml:space="preserve">
+    <value>Левиафан правит миром, в который попадает бронетехника после уничтожения. Целую вечность он вершит суд над теми, кто пал в битве. Возвышаясь над остальными, он перемалывает недостойных своими гигантскими гусеницами.
+
+Не желая более быть просто хранителем этих мрачных земель, Левиафан решил прорваться сквозь Врата в мир смертных. Терзаемый жаждой господства, он готов собрать мрачный урожай смертных душ... если только ему не помешают.</value>
+  </data>
+  <data name="leviathan/title" xml:space="preserve">
+    <value>Левиафан</value>
+  </data>
 </root>

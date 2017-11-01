@@ -1453,10 +1453,10 @@
     <value>You start in the green base with three options for beginning your attack. Choose the appropriate tactics to win the battle.</value>
   </data>
   <data name="eventMessage" xml:space="preserve">
-    <value>++++ eventMessage ++++</value>
+    <value>Halloween Modes: Fight in the Fallen Tanks</value>
   </data>
   <data name="eventTitle" xml:space="preserve">
-    <value>++++ eventTitle ++++</value>
+    <value>Leviathan's Invasion</value>
   </data>
   <data name="sandbox0" xml:space="preserve">
     <value>You spawn in area 1 (for tanks and tank destroyers) or 2 (for SPGs). Apply everything you have learned during battle training and claim victory.</value>
@@ -1562,5 +1562,131 @@
   </data>
   <data name="ranked/9/title" xml:space="preserve">
     <value>Awards</value>
+  </data>
+  <data name="halloweenPVE/0/body" xml:space="preserve">
+    <value>Leviathan moves from somewhere at the top of the Dark Crucible toward the Gate at the bottom right. Hunt it down before it escapes!</value>
+  </data>
+  <data name="halloweenPVE/0/title" xml:space="preserve">
+    <value>Defeating Leviathan</value>
+  </data>
+  <data name="halloweenPVE/1/body" xml:space="preserve">
+    <value>Leviathan's Minions are located around the Dark Crucible. They will attack you and drop valuable health packs if destroyed.</value>
+  </data>
+  <data name="halloweenPVE/1/title" xml:space="preserve">
+    <value>Leviathan's Minions</value>
+  </data>
+  <data name="halloweenPVE/2/body" xml:space="preserve">
+    <value>In addition to its regular guns, Leviathan will shoot landmines at players who come within range. They will land around your vehicle. Be careful not to drive over them!</value>
+  </data>
+  <data name="halloweenPVE/2/title" xml:space="preserve">
+    <value>Leviathan's Landmines</value>
+  </data>
+  <data name="halloweenPVE/3/body" xml:space="preserve">
+    <value>Leviathan has multiple guns with different damage and attack rates. Be especially careful to avoid its main guns!</value>
+  </data>
+  <data name="halloweenPVE/3/title" xml:space="preserve">
+    <value>Leviathan's Attacks</value>
+  </data>
+  <data name="halloweenPVE/4/body" xml:space="preserve">
+    <value>Get too close to Leviathan, and it will attack you with a fiery volley. Besides, if it touches your vehicle, you are done for!</value>
+  </data>
+  <data name="halloweenPVE/4/title" xml:space="preserve">
+    <value>Proximity to Leviathan</value>
+  </data>
+  <data name="halloweenPVE/5/body" xml:space="preserve">
+    <value>Remember to use both the main and secondary gun in order to have the best chance of destroying Leviathan.</value>
+  </data>
+  <data name="halloweenPVE/5/title" xml:space="preserve">
+    <value>Attacking Leviathan</value>
+  </data>
+  <data name="halloweenPVE/6/body" xml:space="preserve">
+    <value>A well-organized team will hunt down Leviathan early in the battle before it gets too close to the Gate.</value>
+  </data>
+  <data name="halloweenPVE/6/title" xml:space="preserve">
+    <value>Defeating Leviathan</value>
+  </data>
+  <data name="halloweenPVE/7/body" xml:space="preserve">
+    <value>Remember: it may be worth focusing your fire on one of Leviathan's Minions in order to destroy it for its health pack.</value>
+  </data>
+  <data name="halloweenPVE/7/title" xml:space="preserve">
+    <value>Tactical Decisions</value>
+  </data>
+  <data name="halloweenPVE/8/body" xml:space="preserve">
+    <value>A health pack heals the whole team, not just the vehicle that picked it up!</value>
+  </data>
+  <data name="halloweenPVE/8/title" xml:space="preserve">
+    <value>Health Packs</value>
+  </data>
+  <data name="halloweenPVE/9/body" xml:space="preserve">
+    <value>To use push-to-talk during the event, change the key binding for that action, as Q is overridden for secondary gun firing.</value>
+  </data>
+  <data name="halloweenPVE/9/title" xml:space="preserve">
+    <value>Push-to-Talk</value>
+  </data>
+  <data name="halloweenPVP/0/body" xml:space="preserve">
+    <value>By default, you can fire the secondary gun by pressing Q (Fire secondary only). To fire both guns simultaneously, double-click the fire button.</value>
+  </data>
+  <data name="halloweenPVP/0/title" xml:space="preserve">
+    <value>Firing the secondary gun</value>
+  </data>
+  <data name="halloweenPVP/1/body" xml:space="preserve">
+    <value>The secondary turret will not be disabled by enemy fire, but enemy fire that hits it will still damage your vehicle.</value>
+  </data>
+  <data name="halloweenPVP/1/title" xml:space="preserve">
+    <value>Damage to Secondary Turret</value>
+  </data>
+  <data name="halloweenPVP/10/body" xml:space="preserve">
+    <value>Your multi-turret vehicles' crews begin the Halloween Event with enough Crew XP to train 3 crew skills per vehicle. Take advantage of it!</value>
+  </data>
+  <data name="halloweenPVP/10/title" xml:space="preserve">
+    <value>Event Crew XP</value>
+  </data>
+  <data name="halloweenPVP/2/body" xml:space="preserve">
+    <value>The secondary gun on a fallen vehicle has unlimited ammunition.</value>
+  </data>
+  <data name="halloweenPVP/2/title" xml:space="preserve">
+    <value>Secondary Gun Ammunition</value>
+  </data>
+  <data name="halloweenPVP/3/body" xml:space="preserve">
+    <value>The second gun can't always see the same target as the primary. Make sure you can hit your target with both guns before firing.</value>
+  </data>
+  <data name="halloweenPVP/3/title" xml:space="preserve">
+    <value>Secondary Gun Shots</value>
+  </data>
+  <data name="halloweenPVP/4/body" xml:space="preserve">
+    <value>The multi-turret fallen vehicles are only available during the Halloween event in the Halloween Mayhem and Leviathan's Onslaught battle modes.</value>
+  </data>
+  <data name="halloweenPVP/4/title" xml:space="preserve">
+    <value>Franken/Stein</value>
+  </data>
+  <data name="halloweenPVP/5/body" xml:space="preserve">
+    <value>Stein's gun aims backward by default, so you may need to turn your gun to the side in order to fire both guns simultaneously.</value>
+  </data>
+  <data name="halloweenPVP/5/title" xml:space="preserve">
+    <value>Stein's Secondary Gun</value>
+  </data>
+  <data name="halloweenPVP/6/body" xml:space="preserve">
+    <value>Read the vehicle descriptions in the Garage to learn the strengths and weaknesses of the Franken and Stein multi-turret vehicles.</value>
+  </data>
+  <data name="halloweenPVP/6/title" xml:space="preserve">
+    <value>Using Multi-Turret Vehicles</value>
+  </data>
+  <data name="halloweenPVP/7/body" xml:space="preserve">
+    <value>Use the position of your secondary turret to your advantage to expose the hull of your vehicle as little as possible.</value>
+  </data>
+  <data name="halloweenPVP/7/title" xml:space="preserve">
+    <value>Secondary Turret Positioning</value>
+  </data>
+  <data name="halloweenPVP/8/body" xml:space="preserve">
+    <value>Your gun's depression angle may be improved by turning the turret to the side. Consider the limited turret traverse angles.</value>
+  </data>
+  <data name="halloweenPVP/8/title" xml:space="preserve">
+    <value>Turret Depression Angle</value>
+  </data>
+  <data name="halloweenPVP/9/body" xml:space="preserve">
+    <value>To use push-to-talk during the event, change the key binding for that action, as Q is overridden for secondary gun firing.</value>
+  </data>
+  <data name="halloweenPVP/9/title" xml:space="preserve">
+    <value>Push-to-Talk</value>
   </data>
 </root>

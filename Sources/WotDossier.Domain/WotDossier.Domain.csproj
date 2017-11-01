@@ -86,6 +86,7 @@
     <Compile Include="Entities\RankedBattlesStatisticEntity.cs" />
     <Compile Include="Entities\TankGrandBattleBattlesStatisticEntity.cs" />
     <Compile Include="Entities\TankRankedBattlesStatisticEntity.cs" />
+    <Compile Include="Entities\VehicleEntity.cs" />
     <Compile Include="Folder.cs" />
     <Compile Include="GameplayDescription.cs" />
     <Compile Include="Interfaces\IFortAchievements.cs" />
@@ -151,6 +152,7 @@
     <Compile Include="Replay\FirstBlock.cs" />
     <Compile Include="Replay\BattleType.cs" />
     <Compile Include="Replay\Gameplay.cs" />
+    <Compile Include="Replay\JsonConverters.cs" />
     <Compile Include="Replay\Personal.cs" />
     <Compile Include="Replay\Player.cs" />
     <Compile Include="Replay\Replay.cs" />
@@ -192,6 +194,7 @@
     <Compile Include="Settings\StatisticPeriod.cs" />
     <Compile Include="Settings\TankFilterSettings.cs" />
     <Compile Include="TankType.cs" />
+    <Compile Include="Tank\AchievementDescription.cs" />
     <Compile Include="Tank\AchievementsFallout.cs" />
     <Compile Include="Tank\AchievementsFort.cs" />
     <Compile Include="Tank\AchievementsHistorical.cs" />
@@ -245,7 +248,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" />
+      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" BuildVersion_DetectChanges="True" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

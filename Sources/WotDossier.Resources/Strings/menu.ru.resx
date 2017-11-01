@@ -3331,7 +3331,7 @@
     <value>Исторический бой</value>
   </data>
   <data name="bonusType/9" xml:space="preserve">
-    <value>Специальный игровой режим</value>
+    <value>Вечная битва (PvP)</value>
   </data>
   <data name="contextMenu/selectVehicleInHangar" xml:space="preserve">
     <value>Перейти к машине в Ангаре</value>
@@ -3541,13 +3541,13 @@
     <value>Нажмите, чтобы покинуть режим.</value>
   </data>
   <data name="loading/battleTypes/7" xml:space="preserve">
-    <value>Специальный игровой режим</value>
+    <value>Вечная битва (PvP)</value>
   </data>
   <data name="loading/battleTypes/8" xml:space="preserve">
     <value>Вылазки</value>
   </data>
   <data name="loading/battleTypes/desc/7" xml:space="preserve">
-    <value> </value>
+    <value>Уничтожьте противника и покиньте это ужасное место</value>
   </data>
   <data name="loading/battleTypes/desc/8" xml:space="preserve">
     <value> </value>
@@ -4305,7 +4305,7 @@
     <value>Редактировать заметку</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad" xml:space="preserve">
-    <value>+++Лунный взвод+++</value>
+    <value>Призрачный взвод</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad/descr" xml:space="preserve">
     <value>5 игроков</value>
@@ -5173,7 +5173,7 @@
     <value>Тип ресурса:</value>
   </data>
   <data name="contextMenu/createEventSquad" xml:space="preserve">
-    <value>Создать ++ивентный++ взвод</value>
+    <value>Создать Призрачный взвод</value>
   </data>
   <data name="hangar/ammunitionPanel/technicalMaitenance/messageText" xml:space="preserve">
     <value>Установка снаряжения
@@ -5252,7 +5252,7 @@
     <value>Не подходит</value>
   </data>
   <data name="headerButtons/battle/types/squad/event" xml:space="preserve">
-    <value>+++: событие+++</value>
+    <value>: Призрачный взвод</value>
   </data>
   <data name="headerButtons/battle/types/squad/randomBattle" xml:space="preserve">
     <value>: случайный бой</value>
@@ -6187,5 +6187,133 @@
   </data>
   <data name="headerButtons/personalMissions" xml:space="preserve">
     <value>Кампании</value>
+  </data>
+  <data name="awardWindow/halloweenMission/awardsGranted" xml:space="preserve">
+    <value>Получена награда Хэллоуина!</value>
+  </data>
+  <data name="awardWindow/halloweenMission/closeButton" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="awardWindow/halloweenMission/nextButton" xml:space="preserve">
+    <value>К награде</value>
+  </data>
+  <data name="awardWindow/halloweenMission/rewardOpened" xml:space="preserve">
+    <value>Награда получена!</value>
+  </data>
+  <data name="bonusType/26" xml:space="preserve">
+    <value>Вторжение (PvE)</value>
+  </data>
+  <data name="fittingSelectPopoverMulti/main" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="fittingSelectPopoverMulti/secondary" xml:space="preserve">
+    <value>Вспомогательное</value>
+  </data>
+  <data name="hangar/leviathanPreview/backDescr" xml:space="preserve">
+    <value>В АНГАР</value>
+  </data>
+  <data name="hangar/leviathanPreview/close" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="hangar/leviathanPreview/headerDesc" xml:space="preserve">
+    <value>Левиафан сжигает вашу душу.</value>
+  </data>
+  <data name="hangar/leviathanPreview/headerTitle" xml:space="preserve">
+    <value>Левиафан</value>
+  </data>
+  <data name="hangar/leviathanPreview/infoButton" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="hangar/leviathanPreview/summary" xml:space="preserve">
+    <value>Главное проклятье Хэллоуина</value>
+  </data>
+  <data name="hangar/leviathanPreview/vehicleInfo" xml:space="preserve">
+    <value>Левиафан правит миром, в который попадает бронетехника после уничтожения. Целую вечность он вершит суд над теми, кто пал в битве. Возвышаясь над остальными, он перемалывает недостойных своими гигантскими гусеницами.
+
+Не желая более быть просто хранителем этих мрачных земель, Левиафан решил прорваться сквозь Врата в мир смертных. Терзаемый жаждой господства, он готов собрать мрачный урожай смертных душ... если только ему не помешают.</value>
+  </data>
+  <data name="headerButtons/fightBtn/tooltip/halloween/invalid/level/body" xml:space="preserve">
+    <value>Присоединиться к бою можно только на исследуемой и премиум технике %(levels)s уровня.</value>
+  </data>
+  <data name="loading/battleTypes/21" xml:space="preserve">
+    <value>Вторжение (PvE)</value>
+  </data>
+  <data name="loading/battleTypes/desc/21" xml:space="preserve">
+    <value>Уничтожьте Левиафана до того, как он достигнет Врат</value>
+  </data>
+  <data name="pveHalloween/queue/message" xml:space="preserve">
+    <value>Сбор команд...</value>
+  </data>
+  <data name="pveHalloween/queue/more_n_minutes" xml:space="preserve">
+    <value>более %(minutes)s мин.</value>
+  </data>
+  <data name="pveHalloween/queue/player-waiting-time" xml:space="preserve">
+    <value>В очереди: </value>
+  </data>
+  <data name="pveHalloween/queue/title" xml:space="preserve">
+    <value>Очередь в бой</value>
+  </data>
+  <data name="pveHalloween/queue/units" xml:space="preserve">
+    <value>%(units)s c</value>
+  </data>
+  <data name="tank_params/aimingTime_Secondary" xml:space="preserve">
+    <value>Время сведения </value>
+  </data>
+  <data name="tank_params/avgDamagePerMinute_Secondary" xml:space="preserve">
+    <value>Средний урон в минуту </value>
+  </data>
+  <data name="tank_params/avgDamage_Secondary" xml:space="preserve">
+    <value>Средний урон за выстрел </value>
+  </data>
+  <data name="tank_params/avgPiercingPower_Secondary" xml:space="preserve">
+    <value>Средняя бронепробиваемость </value>
+  </data>
+  <data name="tank_params/clipFireRate_Secondary" xml:space="preserve">
+    <value>Перезарядка (магазина/снаряда/кол-во)</value>
+  </data>
+  <data name="tank_params/gunYawLimits_Secondary" xml:space="preserve">
+    <value>Углы горизонтальной наводки </value>
+  </data>
+  <data name="tank_params/leviathan/monstrous" xml:space="preserve">
+    <value>Монструозная</value>
+  </data>
+  <data name="tank_params/leviathan/unbelievable" xml:space="preserve">
+    <value>Невероятная</value>
+  </data>
+  <data name="tank_params/leviathan/unknown" xml:space="preserve">
+    <value>Нет данных</value>
+  </data>
+  <data name="tank_params/leviathan/unstoppable" xml:space="preserve">
+    <value>Шокирующая</value>
+  </data>
+  <data name="tank_params/paramTitle_PrimaryTurret" xml:space="preserve">
+    <value>Основное орудие </value>
+  </data>
+  <data name="tank_params/paramTitle_SecondaryTurret" xml:space="preserve">
+    <value>Вспомогательное орудие </value>
+  </data>
+  <data name="tank_params/pitchLimits_Secondary" xml:space="preserve">
+    <value>Углы вертикальной наводки </value>
+  </data>
+  <data name="tank_params/reloadTimeSecs_Secondary" xml:space="preserve">
+    <value>Перезарядка орудия </value>
+  </data>
+  <data name="tank_params/reloadTime_Secondary" xml:space="preserve">
+    <value>Скорострельность орудия </value>
+  </data>
+  <data name="tank_params/shotDispersionAngle_Secondary" xml:space="preserve">
+    <value>Разброс на 100 м </value>
+  </data>
+  <data name="tank_params/turretArmor_Primary" xml:space="preserve">
+    <value>Бронирование основной башни </value>
+  </data>
+  <data name="tank_params/turretArmor_Secondary" xml:space="preserve">
+    <value>Бронирование вспомогательной башни </value>
+  </data>
+  <data name="tank_params/turretRotationSpeed_Secondary" xml:space="preserve">
+    <value>Скорость поворота башни </value>
+  </data>
+  <data name="tank_params/turretYawLimits_Secondary" xml:space="preserve">
+    <value>Углы поворота башни </value>
   </data>
 </root>

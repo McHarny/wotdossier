@@ -6303,7 +6303,7 @@ Suitable for small sound systems, laptop speakers, and low-end headphones. Ensur
     <value>Earn credits in battle, sell surplus items from your storage, or exchange gold to acquire more.</value>
   </data>
   <data name="event/squad/disable/body" xml:space="preserve">
-    <value>Для высадки на тёмной стороне Луны выберите %(tankName)s</value>
+    <value>To join the Squad of the Fallen select %(tankName)s</value>
   </data>
   <data name="event/squad/disable/header" xml:space="preserve">
     <value>Attention!</value>
@@ -6448,13 +6448,13 @@ Uses the positioning principle of the 2.0/2.1 Sound System preset but adjusts th
     <value>Type of Audio Device</value>
   </data>
   <data name="squadWindow/buttons/leaveEventSquad/body" xml:space="preserve">
-    <value>+Нажмите, чтобы выйти из состава ивентного взвода.+</value>
+    <value>Click to leave the Squad of the Fallen.</value>
   </data>
   <data name="squadWindow/buttons/leaveEventSquad/header" xml:space="preserve">
-    <value>+Покинуть ивентный взвод+</value>
+    <value>Leave the Squad of the Fallen</value>
   </data>
   <data name="squadWindow/eventVehicle" xml:space="preserve">
-    <value>Для высадки на тёмной стороне Луны выберите %(tankName)s</value>
+    <value>To join the Squad of the Fallen select %(tankName)s</value>
   </data>
   <data name="squadWindow/infoIcon/tech/body" xml:space="preserve">
     <value>The Platoon should comprise vehicles of the same tier.</value>
@@ -8253,28 +8253,28 @@ You can quit the competition until %(date)s</value>
   </data>
   <data name="elen/excel/addParam/sumAll/damageAssisted/body" xml:space="preserve">
     <value>Ratio of total base experience points earned to the number of battles fought in the competition.
-The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/excel/addParam/sumAll/damageAssisted/header" xml:space="preserve">
     <value>Average Base Experience per Battle</value>
   </data>
   <data name="elen/excel/addParam/sumAll/damageDealt/body" xml:space="preserve">
     <value>Ratio of total base experience points earned to the number of battles fought in the competition.
-The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/excel/addParam/sumAll/damageDealt/header" xml:space="preserve">
     <value>Average Base Experience per Battle</value>
   </data>
   <data name="elen/excel/addParam/sumAll/originalXP/body" xml:space="preserve">
     <value>Ratio of total base experience points earned to the number of battles fought in the competition.
-The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/excel/addParam/sumAll/originalXP/header" xml:space="preserve">
     <value>Average Base Experience per Battle</value>
   </data>
   <data name="elen/excel/addParam/sumAll/wins/body" xml:space="preserve">
     <value>Ratio of total base experience points earned to the number of battles fought in the competition.
-The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/excel/addParam/sumAll/wins/header" xml:space="preserve">
     <value>Average Base Experience per Battle</value>
@@ -9091,7 +9091,7 @@ You are awarded with one component for completing each final mission in a set.</
     <value>Awarded for completing with honors the %(operationName)s operation of the 1st personal mission campaign.</value>
   </data>
   <data name="personalMissions/status/addInProgress/body" xml:space="preserve">
-    <value>Improving all mission conditions. Fulfill all primary and secondary conditions to complete the mission with honors.</value>
+    <value>Fulfill all primary and secondary conditions to complete the mission with honors.</value>
   </data>
   <data name="personalMissions/status/addInProgress/header" xml:space="preserve">
     <value>Result Improvement</value>
@@ -9149,5 +9149,101 @@ You are awarded with one component for completing each final mission in a set.</
   </data>
   <data name="personalMissions/tankgirlsBlock/header" xml:space="preserve">
     <value>Non-Recruited Female Crew Members</value>
+  </data>
+  <data name="hangar/leviathanPreview/closeButton/description" xml:space="preserve">
+    <value>Close the preview to return to the main screen of the Garage.</value>
+  </data>
+  <data name="hangar/leviathanPreview/closeButton/header" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="hangar/leviathanPreview/redButtonDisabled/description" xml:space="preserve">
+    <value>Unable to join battle while examining Leviathan. Please return to the main screen of the Garage first.</value>
+  </data>
+  <data name="hangar/leviathanPreview/redButtonDisabled/header" xml:space="preserve">
+    <value>Unable to Join Battle</value>
+  </data>
+  <data name="moduleFits/cannon/primary" xml:space="preserve">
+    <value>Main gun:</value>
+  </data>
+  <data name="moduleFits/cannon/secondary" xml:space="preserve">
+    <value>Secondary gun:</value>
+  </data>
+  <data name="moduleFits/turret/primary" xml:space="preserve">
+    <value>Main turret:</value>
+  </data>
+  <data name="moduleFits/turret/secondary" xml:space="preserve">
+    <value>Secondary turret:</value>
+  </data>
+  <data name="quests/bonuses/halloween/1/body" xml:space="preserve">
+    <value>A dark sarcophagus containing rewards for completing a Halloween event mission.</value>
+  </data>
+  <data name="quests/bonuses/halloween/1/header" xml:space="preserve">
+    <value>Halloween Reward</value>
+  </data>
+  <data name="quests/bonuses/halloween/2/body" xml:space="preserve">
+    <value>A dark sarcophagus containing rewards for completing a challenging Halloween event mission.</value>
+  </data>
+  <data name="quests/bonuses/halloween/2/header" xml:space="preserve">
+    <value>Elite Halloween Reward</value>
+  </data>
+  <data name="quests/bonuses/halloween/3/body" xml:space="preserve">
+    <value>A dark sarcophagus containing rewards for completing all weekly Halloween missions for one week of the event.</value>
+  </data>
+  <data name="quests/bonuses/halloween/3/header" xml:space="preserve">
+    <value>Weekly Halloween Reward</value>
+  </data>
+  <data name="quests/bonuses/halloween/4/body" xml:space="preserve">
+    <value>A dark sarcophagus containing rewards for completing all weekly and all event-long Halloween Missions during the event.</value>
+  </data>
+  <data name="quests/bonuses/halloween/4/header" xml:space="preserve">
+    <value>Ultimate Halloween Reward</value>
+  </data>
+  <data name="tank_params/desc/aimingTime_Secondary" xml:space="preserve">
+    <value>Time it takes for the aiming circle diameter to decrease by 60%.</value>
+  </data>
+  <data name="tank_params/desc/avgDamagePerMinute_Secondary" xml:space="preserve">
+    <value>Amount of damage that can potentially be caused to an enemy vehicle within 1 minute if all hits penetrate the armor.</value>
+  </data>
+  <data name="tank_params/desc/avgDamage_Secondary" xml:space="preserve">
+    <value>Average damage caused by a standard shell after an armor-penetrating hit.</value>
+  </data>
+  <data name="tank_params/desc/avgPiercingPower_Secondary" xml:space="preserve">
+    <value>Average thickness of armor penetrated by a standard shell adjusted for shell normalization.</value>
+  </data>
+  <data name="tank_params/desc/clipFireRate_Secondary" xml:space="preserve">
+    <value>Time between firing the last shell in a magazine and loading a new magazine. / Time between firing a shell and loading the next shell in the same magazine. / Number of shells in one magazine.</value>
+  </data>
+  <data name="tank_params/desc/paramTitle_PrimaryTurret" xml:space="preserve">
+    <value>A set of parameters that show the effectiveness of the vehicle's primary turret.</value>
+  </data>
+  <data name="tank_params/desc/paramTitle_SecondaryTurret" xml:space="preserve">
+    <value>A set of parameters that show the effectiveness of the vehicle's secondary turret.</value>
+  </data>
+  <data name="tank_params/desc/pitchLimits_Secondary" xml:space="preserve">
+    <value>Maximum angles of gun depression/elevation with respect to its default position.</value>
+  </data>
+  <data name="tank_params/desc/relativePower_Secondary" xml:space="preserve">
+    <value>A set of parameters that show the effectiveness of destroying enemy vehicles with the secondary gun.</value>
+  </data>
+  <data name="tank_params/desc/reloadTimeSecs_Secondary" xml:space="preserve">
+    <value>Time it takes to reload the gun after firing.</value>
+  </data>
+  <data name="tank_params/desc/reloadTime_Secondary" xml:space="preserve">
+    <value>Number of rounds per minute.</value>
+  </data>
+  <data name="tank_params/desc/shotDispersionAngle_Secondary" xml:space="preserve">
+    <value>Gun dispersion characterized by the maximum shell deviation from the aiming point at a distance of 100 m.</value>
+  </data>
+  <data name="tank_params/desc/turretArmor_Primary" xml:space="preserve">
+    <value>Thickness of main turret armor: front / sides / rear respectively.</value>
+  </data>
+  <data name="tank_params/desc/turretArmor_Secondary" xml:space="preserve">
+    <value>Thickness of secondary turret armor: front / sides / rear respectively.</value>
+  </data>
+  <data name="tank_params/desc/turretRotationSpeed_Secondary" xml:space="preserve">
+    <value>Degrees of turret traverse per second.</value>
+  </data>
+  <data name="tank_params/desc/turretYawLimits_Secondary" xml:space="preserve">
+    <value>Maximum turret traverse angles relative to the longitudinal axis of a vehicle when the hull is stationary.</value>
   </data>
 </root>

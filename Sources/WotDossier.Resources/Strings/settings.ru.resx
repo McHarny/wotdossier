@@ -2760,4 +2760,7 @@ HD клиент (Бета) — полная версия игры, включа�
   <data name="gameplay/epic_standard" xml:space="preserve">
     <value>Генеральное сражение (только для техники X уровня)</value>
   </data>
+  <data name="keyboard/keysBlocks/command/fire_secondary" xml:space="preserve">
+    <value>Выстрел из орудия вспомогательной башни</value>
+  </data>
 </root>

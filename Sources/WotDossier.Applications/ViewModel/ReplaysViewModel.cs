@@ -544,7 +544,6 @@ namespace WotDossier.Applications.ViewModel
                 ReplayFolder root = ReplaysFolders.First();
 
                 root.Count = ReplaysFolders.GetAll().Skip(1).Sum(x => x.Count);
-				/*
                 IList<ReplayEntity> dbReplays = DossierRepository.GetReplays();
                 dbReplays.Join(_replays, x => new { x.PlayerId, x.ReplayId }, y => new { y.PlayerId, y.ReplayId },
                     (x, y) => new { ReplayEntity = x, ReplayFile = y })
@@ -563,12 +562,14 @@ namespace WotDossier.Applications.ViewModel
                             {
 	                            try
 	                            {
-		                            return new DbReplay(CompressHelper.DecompressObject<Domain.Replay.Replay>(x.Raw),
-			                            ReplaysManager.DeletedFolder.Id);
+		                            var dcData = CompressHelper.DecompressObject<Domain.Replay.Replay>(x.Raw);
+
+									return new DbReplay(dcData, ReplaysManager.DeletedFolder.Id);
 	                            }
 	                            catch
 	                            {
 		                            // ignored
+									var xx = 0;
 	                            }
 	                            return null;
                             }
@@ -593,7 +594,7 @@ namespace WotDossier.Applications.ViewModel
                     }
                 }
                 deletedFolder.Count = collection.Count;
-				*/
+				
                 reporter.Report(100, Resources.Resources.Progress_DataLoadCompleted);
 
                 //restore folder selection

@@ -1807,4 +1807,98 @@ Maximum stun duration %(stunMaxDuration)s (s)</value>
   <data name="personalMissions/tip/noQuests/vehicleType" xml:space="preserve">
     <value>No active missions for this vehicle type.</value>
   </data>
+  <data name="efficiencyRibbons/healed" xml:space="preserve">
+    <value>Healed by</value>
+  </data>
+  <data name="efficiencyRibbons/healthpackPickup" xml:space="preserve">
+    <value>Total team health replenished</value>
+  </data>
+  <data name="efficiencyRibbons/healthpackWasted" xml:space="preserve">
+    <value>The healing kit has been wasted</value>
+  </data>
+  <data name="halloween/briefing_banner" xml:space="preserve">
+    <value>FIND AND DESTROY LEVIATHAN</value>
+  </data>
+  <data name="halloween_eye/mainLabel" xml:space="preserve">
+    <value>Main gun is targeting you!</value>
+  </data>
+  <data name="halloween_eye/secondaryLabel" xml:space="preserve">
+    <value>Secondary gun is targeting you!</value>
+  </data>
+  <data name="halloween_lobby/BattleType_PvE_Message" xml:space="preserve">
+    <value>Battle against Leviathan</value>
+  </data>
+  <data name="halloween_lobby/BattleType_PvE_Title" xml:space="preserve">
+    <value>Onslaught</value>
+  </data>
+  <data name="halloween_lobby/BattleType_PvP_Message" xml:space="preserve">
+    <value>15 vs 15</value>
+  </data>
+  <data name="halloween_lobby/BattleType_PvP_Title" xml:space="preserve">
+    <value>Mayhem</value>
+  </data>
+  <data name="halloween_minion_death_panel/countLabel" xml:space="preserve">
+    <value>Minions destroyed</value>
+  </data>
+  <data name="halloween_minion_death_panel/hint" xml:space="preserve">
+    <value>Each destroyed Minion drops a health pack that can heal you and your allies</value>
+  </data>
+  <data name="halloween_minion_death_panel/preposition" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="halloween_minion_death_panel/title" xml:space="preserve">
+    <value>DESTROY MINIONS</value>
+  </data>
+  <data name="halloween_pve_defeat_panel/commentary" xml:space="preserve">
+    <value>You could not stop Leviathan.
+The Mortal Realm is doomed!</value>
+  </data>
+  <data name="halloween_pve_defeat_panel/iconMessage" xml:space="preserve">
+    <value>Leviathan escaped</value>
+  </data>
+  <data name="halloween_pve_defeat_panel/title" xml:space="preserve">
+    <value>DEFEATED</value>
+  </data>
+  <data name="halloween_pve_gate_capture/LeviathanCaptureMsg" xml:space="preserve">
+    <value>LEVIATHAN IS CAPTURING THE GATE!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/EngragedLeviathanMsg" xml:space="preserve">
+    <value>Leviathan is enraged!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/EnragedLeviathanTitle" xml:space="preserve">
+    <value>DESTROY LEVIATHAN</value>
+  </data>
+  <data name="halloween_pve_goal_hint/EntersCaptureMsg" xml:space="preserve">
+    <value>Leviathan is at the Gate! Hurry!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/EntersCaptureTitle" xml:space="preserve">
+    <value>NOW OR NEVER!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/HalfwayLeviathanMsg" xml:space="preserve">
+    <value>Leviathan has passed half the distance!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/HalfwayLeviathanTitle" xml:space="preserve">
+    <value>LEVIATHAN</value>
+  </data>
+  <data name="halloween_pve_goal_hint/KillLeviathanMsg" xml:space="preserve">
+    <value>Stop it before it reaches the portal.</value>
+  </data>
+  <data name="halloween_pve_goal_hint/KillLeviathanTitle" xml:space="preserve">
+    <value>DESTROY LEVIATHAN</value>
+  </data>
+  <data name="halloween_pve_goal_hint/LeviathanCloseMsg" xml:space="preserve">
+    <value>Leviathan is nearly there!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/LeviathanCloseTitle" xml:space="preserve">
+    <value>LEVIATHAN</value>
+  </data>
+  <data name="halloween_pve_victory_panel/commentary" xml:space="preserve">
+    <value>Leviathan has been banished. The Mortal Realm is safe!</value>
+  </data>
+  <data name="halloween_pve_victory_panel/iconMessage" xml:space="preserve">
+    <value>Leviathan defeated</value>
+  </data>
+  <data name="halloween_pve_victory_panel/title" xml:space="preserve">
+    <value>VICTORY</value>
+  </data>
 </root>

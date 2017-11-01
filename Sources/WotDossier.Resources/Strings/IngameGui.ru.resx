@@ -1825,4 +1825,98 @@ Home/End — перемотка в начало/конец
   <data name="personalMissions/tip/noQuests/vehicleType" xml:space="preserve">
     <value>Для данного типа техники нет принятых к исполнению боевых задач.</value>
   </data>
+  <data name="efficiencyRibbons/healed" xml:space="preserve">
+    <value>Восстановлено</value>
+  </data>
+  <data name="efficiencyRibbons/healthpackPickup" xml:space="preserve">
+    <value>Прочность, восстановленная всей команде</value>
+  </data>
+  <data name="efficiencyRibbons/healthpackWasted" xml:space="preserve">
+    <value>Лечение ПОТРАЧЕНО!</value>
+  </data>
+  <data name="halloween/briefing_banner" xml:space="preserve">
+    <value>НАЙТИ И УНИЧТОЖИТЬ ЛЕВИАФАНА</value>
+  </data>
+  <data name="halloween_eye/mainLabel" xml:space="preserve">
+    <value>Вы в прицеле основного орудия!</value>
+  </data>
+  <data name="halloween_eye/secondaryLabel" xml:space="preserve">
+    <value>Вы в прицеле вспомогательного орудия!</value>
+  </data>
+  <data name="halloween_lobby/BattleType_PvE_Message" xml:space="preserve">
+    <value>Бой против Левиафана</value>
+  </data>
+  <data name="halloween_lobby/BattleType_PvE_Title" xml:space="preserve">
+    <value>Вторжение</value>
+  </data>
+  <data name="halloween_lobby/BattleType_PvP_Message" xml:space="preserve">
+    <value>15 x 15</value>
+  </data>
+  <data name="halloween_lobby/BattleType_PvP_Title" xml:space="preserve">
+    <value>Вечная битва</value>
+  </data>
+  <data name="halloween_minion_death_panel/countLabel" xml:space="preserve">
+    <value>Уничтожено приспешников</value>
+  </data>
+  <data name="halloween_minion_death_panel/hint" xml:space="preserve">
+    <value>Приспешник оставит ремнабор, исцеляющий вас и ваших союзников</value>
+  </data>
+  <data name="halloween_minion_death_panel/preposition" xml:space="preserve">
+    <value>из</value>
+  </data>
+  <data name="halloween_minion_death_panel/title" xml:space="preserve">
+    <value>УНИЧТОЖЬТЕ ПРИСПЕШНИКОВ</value>
+  </data>
+  <data name="halloween_pve_defeat_panel/commentary" xml:space="preserve">
+    <value>Вам не остановить Левиафана!
+Мир смертных обречён!</value>
+  </data>
+  <data name="halloween_pve_defeat_panel/iconMessage" xml:space="preserve">
+    <value>Левиафан скрылся</value>
+  </data>
+  <data name="halloween_pve_defeat_panel/title" xml:space="preserve">
+    <value>ПОРАЖЕНИЕ</value>
+  </data>
+  <data name="halloween_pve_gate_capture/LeviathanCaptureMsg" xml:space="preserve">
+    <value>ЛЕВИАФАН ЗАХВАТЫВАЕТ ВРАТА!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/EngragedLeviathanMsg" xml:space="preserve">
+    <value>Левиафан в бешенстве!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/EnragedLeviathanTitle" xml:space="preserve">
+    <value>УНИЧТОЖЬТЕ ЛЕВИАФАНА</value>
+  </data>
+  <data name="halloween_pve_goal_hint/EntersCaptureMsg" xml:space="preserve">
+    <value>Левиафан у Врат! Поторопитесь!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/EntersCaptureTitle" xml:space="preserve">
+    <value>СЕЙЧАС ИЛИ НИКОГДА!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/HalfwayLeviathanMsg" xml:space="preserve">
+    <value>Левиафан прошёл половину пути!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/HalfwayLeviathanTitle" xml:space="preserve">
+    <value>ЛЕВИАФАН</value>
+  </data>
+  <data name="halloween_pve_goal_hint/KillLeviathanMsg" xml:space="preserve">
+    <value>Помешайте ему достичь Портала!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/KillLeviathanTitle" xml:space="preserve">
+    <value>УНИЧТОЖЬТЕ ЛЕВИАФАНА</value>
+  </data>
+  <data name="halloween_pve_goal_hint/LeviathanCloseMsg" xml:space="preserve">
+    <value>Левиафан уже близко!</value>
+  </data>
+  <data name="halloween_pve_goal_hint/LeviathanCloseTitle" xml:space="preserve">
+    <value>ЛЕВИАФАН</value>
+  </data>
+  <data name="halloween_pve_victory_panel/commentary" xml:space="preserve">
+    <value>С Левиафаном покончено! Мир смертных в безопасности.</value>
+  </data>
+  <data name="halloween_pve_victory_panel/iconMessage" xml:space="preserve">
+    <value>Левиафан повержен</value>
+  </data>
+  <data name="halloween_pve_victory_panel/title" xml:space="preserve">
+    <value>ПОБЕДА</value>
+  </data>
 </root>

@@ -38,6 +38,8 @@
 
 	    BOOTCAMP = 23,
 
+	    Event2 = 26,
+
 
 
 		ctf = 101,

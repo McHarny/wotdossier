@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
 using WotDossier.Dal;
+using WotDossier.Domain.Replay;
 using WotDossier.Framework;
 
 namespace WotDossier.Applications.ViewModel.Replay
@@ -11,25 +12,7 @@ namespace WotDossier.Applications.ViewModel.Replay
     {
 
 
-	    public class PersonalAchievementsConverter : JsonConverter
-	    {
-		    public override bool CanConvert(Type objectType)
-		    {
-			    return false;
-		    }
-
-		    public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
-		    {
-			    throw new NotImplementedException();
-		    }
-
-		    public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
-		    {
-				throw new NotImplementedException();
-			}
-	    }
-
-		private readonly Domain.Replay.Replay _replay;
+	    private readonly Domain.Replay.Replay _replay;
 
 	    public static DbReplay GetReplay(string jsonData, Guid folderId)
 	    {

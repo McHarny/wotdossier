@@ -675,4 +675,16 @@ Please wait until you can connect to "%s" or use the Autosearch option (to find 
   <data name="download/badges" xml:space="preserve">
     <value>Synchronizing personal data...</value>
   </data>
+  <data name="halloweenSearching_1" xml:space="preserve">
+    <value>Searching for items of interest...</value>
+  </data>
+  <data name="halloweenSearching_2" xml:space="preserve">
+    <value>Searching for items of interest...</value>
+  </data>
+  <data name="halloweenSearching_3" xml:space="preserve">
+    <value>Searching for items of interest...</value>
+  </data>
+  <data name="halloweenSearching_4" xml:space="preserve">
+    <value>Searching for items of interest...</value>
+  </data>
 </root>

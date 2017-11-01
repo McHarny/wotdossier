@@ -678,4 +678,16 @@
   <data name="download/badges" xml:space="preserve">
     <value>Синхронизация данных игрока...</value>
   </data>
+  <data name="halloweenSearching_1" xml:space="preserve">
+    <value>Подбираем подходящий саркофаг...</value>
+  </data>
+  <data name="halloweenSearching_2" xml:space="preserve">
+    <value>Подбираем подходящий саркофаг...</value>
+  </data>
+  <data name="halloweenSearching_3" xml:space="preserve">
+    <value>Подбираем подходящий саркофаг...</value>
+  </data>
+  <data name="halloweenSearching_4" xml:space="preserve">
+    <value>Подбираем подходящий саркофаг...</value>
+  </data>
 </root>

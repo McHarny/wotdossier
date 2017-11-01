@@ -2358,4 +2358,40 @@ Personal rating is updated with increasing number of battles fought.</value>
   <data name="warrior_standard_descr" xml:space="preserve">
     <value>    %(condition)s — Standard Battle, Assault, Encounter.</value>
   </data>
+  <data name="HE17A1" xml:space="preserve">
+    <value>Sign of the Beast</value>
+  </data>
+  <data name="HE17A1_condition" xml:space="preserve">
+    <value>Win 25 battles against Leviathan.</value>
+  </data>
+  <data name="HE17A1_descr" xml:space="preserve">
+    <value>You were victorious over Leviathan in 25 battles during Leviathan's Invasion.</value>
+  </data>
+  <data name="HE17A1_notification" xml:space="preserve">
+    <value>You vanquished Leviathan for the 25th time!</value>
+  </data>
+  <data name="HE17A2" xml:space="preserve">
+    <value>The Undead</value>
+  </data>
+  <data name="HE17A2_condition" xml:space="preserve">
+    <value>Banish Leviathan 10 times without getting destroyed.</value>
+  </data>
+  <data name="HE17A2_descr" xml:space="preserve">
+    <value>You banished Leviathan 10 times without getting destroyed during Leviathan's Invasion.</value>
+  </data>
+  <data name="HE17A2_notification" xml:space="preserve">
+    <value>You banished Leviathan without getting destroyed for the 10th time!</value>
+  </data>
+  <data name="HE17A3" xml:space="preserve">
+    <value>Redemption</value>
+  </data>
+  <data name="HE17A3_condition" xml:space="preserve">
+    <value>Complete all week-long and event-long missions in Leviathan's Invasion.</value>
+  </data>
+  <data name="HE17A3_descr" xml:space="preserve">
+    <value>You completed all week-long and event-long missions in Leviathan's Invasion.</value>
+  </data>
+  <data name="HE17A3_notification" xml:space="preserve">
+    <value>You completed all week-long and event-long missions in Leviathan's Invasion.</value>
+  </data>
 </root>

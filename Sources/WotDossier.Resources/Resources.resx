@@ -1820,6 +1820,9 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   <data name="BattleType_Ctf30x30" xml:space="preserve">
     <value>Grand Battle</value>
   </data>
+  <data name="BattleType_Event2" xml:space="preserve">
+    <value>Event Battles</value>
+  </data>
   <data name="BattleType_Ranked" xml:space="preserve">
     <value>Ranked Battle</value>
   </data>
@@ -3227,7 +3230,7 @@ up to 500 m</value>
     <value>Earned</value>
   </data>
   <data name="BattleType_Event" xml:space="preserve">
-    <value>Event Battle</value>
+    <value>Event Battle (old)</value>
   </data>
   <data name="Column_Ratings_Platoon" xml:space="preserve">
     <value>Platoon</value>
@@ -3565,5 +3568,8 @@ Date: {Date:dd.MM.yyyy}</value>
   </data>
   <data name="Country_Poland" xml:space="preserve">
     <value>Poland</value>
+  </data>
+  <data name="BattleType_leviathan" xml:space="preserve">
+    <value>Leviathan's Onslaught</value>
   </data>
 </root>

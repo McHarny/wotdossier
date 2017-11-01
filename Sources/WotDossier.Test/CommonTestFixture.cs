@@ -225,52 +225,7 @@ namespace WotDossier.Test
             
         }
 
-        [Test]
-        public void ImportTanksComponentsXmlTest()
-        {
-            var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks"), "shells.xml",
-                SearchOption.AllDirectories);
-
-            List<JObject> result = new List<JObject>();
-
-            foreach (var xml in strings)
-            {
-                BigWorldXmlReader reader = new BigWorldXmlReader();
-                FileInfo info = new FileInfo(xml);
-
-                using (BinaryReader br = new BinaryReader(info.OpenRead()))
-                {
-                    var xmlContent = reader.DecodePackedFile(br, "shell");
-                    XmlDocument doc = new XmlDocument();
-                    doc.LoadXml(xmlContent);
-                    string jsonText = JsonConvert.SerializeXmlNode(doc, Formatting.Indented);
-
-                    var dictionary = JsonConvert.DeserializeObject<Dictionary<string, JObject>>(jsonText);
-                    dictionary = dictionary["shell"].ToObject<Dictionary<string, JObject>>();
-                    dictionary.Remove("icons");
-
-                    jsonText = JsonConvert.SerializeObject(dictionary, Formatting.Indented);
-
-                    var path = Path.Combine(Environment.CurrentDirectory, @"Output\Externals\shells");
-
-                    if (!Directory.Exists(path))
-                    {
-                        Directory.CreateDirectory(path);
-                    }
-
-                    path = Path.Combine(path, info.Directory.Parent.Name + "_" + info.Name.Replace(info.Extension, ".json"));
-
-                    var stream = File.OpenWrite(path.ToLower());
-                    using (StreamWriter writer = new StreamWriter(stream))
-                    {
-                        writer.Write(jsonText);
-                    }
-
-                }
-            }
-        }
-
- 	    public void ImportTanksXml(ClientInfo client)
+        public void ImportTanksXml(ClientInfo client)
 		{
 			var scriptsPath = Path.Combine(ResourcePath, $@"{client.PatchVer}\scripts");
 			var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Vehicles");
@@ -329,13 +284,12 @@ namespace WotDossier.Test
 						//var key = userString.Split(':')[1];
 						var key = element.Name.LocalName;
 
-						var tankDef = LoadTankDefinition(countryid, key);
+						var tankDef = LoadTankDefinition(client, countryid, key);
 						int health = 0;
 						if (tankDef != null)
 						{
-							health = Convert.ToInt32(tankDef.Element("hull").Element("maxHealth").Value.Trim(' ', '\t')) +
-							         Convert.ToInt32(tankDef.Element("turrets0").Elements().First().Element("maxHealth").Value
-								         .Trim(' ', '\t'));
+							health = Convert.ToInt32(Convert.ToDecimal(tankDef.Element("hull").Element("maxHealth").Value.Trim(' ', '\t').Replace(".", ",")) +
+							         Convert.ToDecimal(tankDef.Element("turrets0").Elements().First().Element("maxHealth").Value.Trim(' ', '\t').Replace(".", ",")));
 							//Console.WriteLine(tankDef.ToString(Formatting.Indented));
 							//var health = tankDef.SelectToken("$.vehicles.hull.maxHealth").Value<int>() + tankDef.SelectTokens("$.vehicles.turrets0..maxHealth").First().Value<int>();
 							//tankDescription["health"] = health;
@@ -570,9 +524,9 @@ namespace WotDossier.Test
             return TankType.Unknown;
         }
 
-	    private XElement LoadTankDefinition(int countryid, string tankName)
+	    private XElement LoadTankDefinition(ClientInfo client, int countryid, string tankName)
 	    {
-		    var fileName = Path.Combine(ResourcePath, $@"{patchVer}\scripts\item_defs\vehicles", ((Country)countryid).ToString(), tankName + ".xml");
+		    var fileName = Path.Combine(ResourcePath, $@"{client.PatchVer}\scripts\item_defs\vehicles", ((Country)countryid).ToString(), tankName + ".xml");
 		    if (File.Exists(fileName))
 		    {
 			    var file = new FileInfo(fileName);

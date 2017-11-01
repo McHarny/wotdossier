@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System.CodeDom;
+using System.Collections.Generic;
 using System.Runtime.Serialization;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace WotDossier.Domain.Replay
@@ -10,6 +12,7 @@ namespace WotDossier.Domain.Replay
         [DataMember]
         public long accountDBID { get; set; }
         [DataMember]
+		[JsonConverter(typeof(PersonalAchievementsConverter))]
         public List<int> achievements { get; set; }
         [DataMember]
         public int capturePoints { get; set; }

@@ -2713,7 +2713,7 @@ on your vehicle</value>
     <value>Subwoofer</value>
   </data>
   <data name="keyboard/keysBlocks/command/trajectory_view" xml:space="preserve">
-    <value>Trajectory view</value>
+    <value>Trajectory View</value>
   </data>
   <data name="mouse/sensitivity/art2" xml:space="preserve">
     <value>Trajectory view</value>
@@ -2768,5 +2768,8 @@ on your vehicle</value>
   </data>
   <data name="gameplay/epic_standard" xml:space="preserve">
     <value>Grand Battle (Tier X vehicles only)</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/fire_secondary" xml:space="preserve">
+    <value>Fire secondary only</value>
   </data>
 </root>

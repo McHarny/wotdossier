@@ -1980,7 +1980,7 @@
     <value>Стремительный</value>
   </data>
   <data name="inscription/ussr/red" xml:space="preserve">
-    <value>Красная армия всех сильней!</value>
+    <value>Красная Армия всех сильней!</value>
   </data>
   <data name="inscription/ussr/runaway" xml:space="preserve">
     <value>Неудержимый</value>
@@ -5237,7 +5237,7 @@
     <value>%(bonus)d%% к незаметности машины в движении</value>
   </data>
   <data name="camouflage/PM_desert_ob260/description" xml:space="preserve">
-    <value>Камуфляж «Амёба» состоит из пятен неправильной формы коричневого, белого и чёрного цветов. Был разработан во второй половине 20-х годов и широко использовался Красной армией.</value>
+    <value>Камуфляж «Амёба» состоит из пятен неправильной формы коричневого, белого и чёрного цветов. Был разработан во второй половине 20-х годов и широко использовался Красной Армией.</value>
   </data>
   <data name="camouflage/PM_desert_ob260/label" xml:space="preserve">
     <value>«Амёба»: пустынный</value>

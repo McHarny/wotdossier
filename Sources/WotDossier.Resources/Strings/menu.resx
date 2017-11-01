@@ -3456,7 +3456,7 @@ purchase a vehicle</value>
     <value>Historical Battle</value>
   </data>
   <data name="bonusType/9" xml:space="preserve">
-    <value>Special Event</value>
+    <value>Halloween Mayhem (PvP)</value>
   </data>
   <data name="contextMenu/blackmail" xml:space="preserve">
     <value>Out of Game Threat</value>
@@ -3540,13 +3540,13 @@ purchase a vehicle</value>
     <value>Click to exit mode.</value>
   </data>
   <data name="loading/battleTypes/7" xml:space="preserve">
-    <value>Special Event</value>
+    <value>Battle of the Fallen (PvP)</value>
   </data>
   <data name="loading/battleTypes/8" xml:space="preserve">
     <value>Skirmishes</value>
   </data>
   <data name="loading/battleTypes/desc/7" xml:space="preserve">
-    <value> </value>
+    <value>Defeat the other team and escape the Fallen Plane</value>
   </data>
   <data name="loading/battleTypes/desc/8" xml:space="preserve">
     <value> </value>
@@ -4304,7 +4304,7 @@ for Completion</value>
     <value>Edit note</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad" xml:space="preserve">
-    <value>+++Лунный взвод+++</value>
+    <value>Squad of the Fallen</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad/descr" xml:space="preserve">
     <value>5 players</value>
@@ -5220,7 +5220,7 @@ for Completion</value>
     <value>Purchase (%(count)s)</value>
   </data>
   <data name="contextMenu/createEventSquad" xml:space="preserve">
-    <value>++++</value>
+    <value>Create Squad of the Fallen</value>
   </data>
   <data name="contextMenu/showVehiclePreview" xml:space="preserve">
     <value>Preview vehicle</value>
@@ -5238,7 +5238,7 @@ for Completion</value>
     <value>Platoon</value>
   </data>
   <data name="headerButtons/battle/types/squad/event" xml:space="preserve">
-    <value>++++</value>
+    <value>: Squad of the Fallen</value>
   </data>
   <data name="headerButtons/battle/types/squad/randomBattle" xml:space="preserve">
     <value>: Random Battle</value>
@@ -6138,5 +6138,133 @@ allows the vehicle to switch between Siege and Travel mode</value>
   </data>
   <data name="headerButtons/personalMissions" xml:space="preserve">
     <value>Campaign</value>
+  </data>
+  <data name="awardWindow/halloweenMission/awardsGranted" xml:space="preserve">
+    <value>Halloween Rewards Earned!</value>
+  </data>
+  <data name="awardWindow/halloweenMission/closeButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="awardWindow/halloweenMission/nextButton" xml:space="preserve">
+    <value>Go to Reward</value>
+  </data>
+  <data name="awardWindow/halloweenMission/rewardOpened" xml:space="preserve">
+    <value>Reward Received!</value>
+  </data>
+  <data name="bonusType/26" xml:space="preserve">
+    <value>Leviathan's Onslaught (PvE)</value>
+  </data>
+  <data name="fittingSelectPopoverMulti/main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="fittingSelectPopoverMulti/secondary" xml:space="preserve">
+    <value>Secondary</value>
+  </data>
+  <data name="hangar/leviathanPreview/backDescr" xml:space="preserve">
+    <value>TO GARAGE</value>
+  </data>
+  <data name="hangar/leviathanPreview/close" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="hangar/leviathanPreview/headerDesc" xml:space="preserve">
+    <value>Terror of Leviathan fills your soul.</value>
+  </data>
+  <data name="hangar/leviathanPreview/headerTitle" xml:space="preserve">
+    <value>Leviathan</value>
+  </data>
+  <data name="hangar/leviathanPreview/infoButton" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="hangar/leviathanPreview/summary" xml:space="preserve">
+    <value>Halloween Event Boss</value>
+  </data>
+  <data name="hangar/leviathanPreview/vehicleInfo" xml:space="preserve">
+    <value>Leviathan rules over the Armored Afterlife. It has spent eons passing judgment on those who fall in battle. Towering over all others, it grinds the unworthy beneath its titanic treads.
+
+No longer content with being a mere steward of the Armored Afterlife, Leviathan has decided to storm the Gate and cross over to the Mortal Plane. Claiming all for itself, it will unleash armageddon upon the souls of the living... unless it can be stopped.</value>
+  </data>
+  <data name="headerButtons/fightBtn/tooltip/halloween/invalid/level/body" xml:space="preserve">
+    <value>You can only join the battle in researchable or Premium vehicles of Tier %(levels)s.</value>
+  </data>
+  <data name="loading/battleTypes/21" xml:space="preserve">
+    <value>Leviathan's Onslaught (PvE)</value>
+  </data>
+  <data name="loading/battleTypes/desc/21" xml:space="preserve">
+    <value>Destroy Leviathan before it reaches the Gate</value>
+  </data>
+  <data name="pveHalloween/queue/message" xml:space="preserve">
+    <value>Assembling teams...</value>
+  </data>
+  <data name="pveHalloween/queue/more_n_minutes" xml:space="preserve">
+    <value>more than %(minutes)s min</value>
+  </data>
+  <data name="pveHalloween/queue/player-waiting-time" xml:space="preserve">
+    <value>In queue: </value>
+  </data>
+  <data name="pveHalloween/queue/title" xml:space="preserve">
+    <value>Queue for Halloween</value>
+  </data>
+  <data name="pveHalloween/queue/units" xml:space="preserve">
+    <value>%(units)s s</value>
+  </data>
+  <data name="tank_params/aimingTime_Secondary" xml:space="preserve">
+    <value>Aiming Time </value>
+  </data>
+  <data name="tank_params/avgDamagePerMinute_Secondary" xml:space="preserve">
+    <value>Average Damage per Minute </value>
+  </data>
+  <data name="tank_params/avgDamage_Secondary" xml:space="preserve">
+    <value>Average Damage per Shot </value>
+  </data>
+  <data name="tank_params/avgPiercingPower_Secondary" xml:space="preserve">
+    <value>Average Penetration </value>
+  </data>
+  <data name="tank_params/clipFireRate_Secondary" xml:space="preserve">
+    <value>Load (magazine/shell/number of shells)</value>
+  </data>
+  <data name="tank_params/gunYawLimits_Secondary" xml:space="preserve">
+    <value>Gun Traverse Limits </value>
+  </data>
+  <data name="tank_params/leviathan/monstrous" xml:space="preserve">
+    <value>Monstrous</value>
+  </data>
+  <data name="tank_params/leviathan/unbelievable" xml:space="preserve">
+    <value>Unbelievable</value>
+  </data>
+  <data name="tank_params/leviathan/unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="tank_params/leviathan/unstoppable" xml:space="preserve">
+    <value>Unstoppable</value>
+  </data>
+  <data name="tank_params/paramTitle_PrimaryTurret" xml:space="preserve">
+    <value>Main Gun </value>
+  </data>
+  <data name="tank_params/paramTitle_SecondaryTurret" xml:space="preserve">
+    <value>Secondary Gun </value>
+  </data>
+  <data name="tank_params/pitchLimits_Secondary" xml:space="preserve">
+    <value>Gun Depression/Elevation Angles </value>
+  </data>
+  <data name="tank_params/reloadTimeSecs_Secondary" xml:space="preserve">
+    <value>Reload Time </value>
+  </data>
+  <data name="tank_params/reloadTime_Secondary" xml:space="preserve">
+    <value>Rate of Fire </value>
+  </data>
+  <data name="tank_params/shotDispersionAngle_Secondary" xml:space="preserve">
+    <value>Dispersion at 100 m </value>
+  </data>
+  <data name="tank_params/turretArmor_Primary" xml:space="preserve">
+    <value>Main Turret Armor </value>
+  </data>
+  <data name="tank_params/turretArmor_Secondary" xml:space="preserve">
+    <value>Secondary Turret Armor </value>
+  </data>
+  <data name="tank_params/turretRotationSpeed_Secondary" xml:space="preserve">
+    <value>Turret Traverse Speed </value>
+  </data>
+  <data name="tank_params/turretYawLimits_Secondary" xml:space="preserve">
+    <value>Turret Traverse Angles </value>
   </data>
 </root>

@@ -384,4 +384,16 @@
   <data name="crosshairControls/timeLeft" xml:space="preserve">
     <value>7:42</value>
   </data>
+  <data name="halloween_turret_hint/DoubleClickFiring" xml:space="preserve">
+    <value>Дважды нажмите $LMB$ для стрельбы из обоих орудий, наведённых на одну цель.</value>
+  </data>
+  <data name="halloween_turret_hint/FiringSecondTurret" xml:space="preserve">
+    <value>Нажмите $Q$ для выстрела из вспомогательного орудия.</value>
+  </data>
+  <data name="halloween_turret_hint/noBindingDoubleClickFiring" xml:space="preserve">
+    <value>Клавиша стрельбы из основного орудия не назначена.</value>
+  </data>
+  <data name="halloween_turret_hint/noBindingFiringSecondTurret" xml:space="preserve">
+    <value>Клавиша стрельбы из вспомогательного орудия не назначена.</value>
+  </data>
 </root>

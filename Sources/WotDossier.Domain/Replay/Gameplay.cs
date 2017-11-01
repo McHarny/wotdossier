@@ -17,6 +17,7 @@
         fallout4 = 32768,
         fallout5 = 65536,
         fallout6 = 131072,
-        ctf30x30 = 262144
-    }
+        ctf30x30 = 262144,
+	    leviathan = 15
+	}
 }

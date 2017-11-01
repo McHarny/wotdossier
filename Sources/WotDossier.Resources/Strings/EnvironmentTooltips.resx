@@ -416,4 +416,36 @@ In 2016, they once again confirmed their superiority by claiming victory over th
   <data name="navi/title" xml:space="preserve">
     <value>Natus Vincere</value>
   </data>
+  <data name="halloween_supply_drop_tier_1/desc" xml:space="preserve">
+    <value>A mysterious dark sarcophagus has risen from the dust of the Armored Afterlife. Who knows what it may contain?</value>
+  </data>
+  <data name="halloween_supply_drop_tier_1/title" xml:space="preserve">
+    <value>Halloween Reward</value>
+  </data>
+  <data name="halloween_supply_drop_tier_2/desc" xml:space="preserve">
+    <value>A mysterious shimmering sarcophagus has risen from the dust of the Armored Afterlife. Who knows what it may contain?</value>
+  </data>
+  <data name="halloween_supply_drop_tier_2/title" xml:space="preserve">
+    <value>Elite Halloween Reward</value>
+  </data>
+  <data name="halloween_supply_drop_tier_3/desc" xml:space="preserve">
+    <value>A rare and mysterious sarcophagus has risen from the dust of the Armored Afterlife. Who knows what it may contain?</value>
+  </data>
+  <data name="halloween_supply_drop_tier_3/title" xml:space="preserve">
+    <value>Weekly Halloween Reward</value>
+  </data>
+  <data name="halloween_supply_drop_tier_4/desc" xml:space="preserve">
+    <value>An extraordinary and rare sarcophagus has risen from the dust of the Armored Afterlife. Who knows what it may contain?</value>
+  </data>
+  <data name="halloween_supply_drop_tier_4/title" xml:space="preserve">
+    <value>Ultimate Halloween Reward</value>
+  </data>
+  <data name="leviathan/desc" xml:space="preserve">
+    <value>Leviathan rules over the Armored Afterlife. It has spent eons passing judgment on those who fall in battle. Towering over all others, it grinds the unworthy beneath its titanic tracks.
+
+No longer content with being a mere steward of the Armored Afterlife, Leviathan has decided to storm the Gate and cross over to the Mortal Plane. Claiming all for itself, it will unleash armageddon upon the souls of the living... unless it can be stopped.</value>
+  </data>
+  <data name="leviathan/title" xml:space="preserve">
+    <value>Leviathan</value>
+  </data>
 </root>

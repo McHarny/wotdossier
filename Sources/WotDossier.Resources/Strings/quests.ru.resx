@@ -5173,4 +5173,136 @@
   <data name="quest/condition/or" xml:space="preserve">
     <value>или</value>
   </data>
+  <data name="bonuses/halloween/drop/1" xml:space="preserve">
+    <value>Обычная награда</value>
+  </data>
+  <data name="bonuses/halloween/drop/2" xml:space="preserve">
+    <value>Редкая награда</value>
+  </data>
+  <data name="bonuses/halloween/drop/3" xml:space="preserve">
+    <value>Еженедельная награда</value>
+  </data>
+  <data name="bonuses/halloween/drop/4" xml:space="preserve">
+    <value>Эпическая награда</value>
+  </data>
+  <data name="details/conditions/cumulative/bossDamageReceived" xml:space="preserve">
+    <value>Урон от Левиафана</value>
+  </data>
+  <data name="details/conditions/cumulative/bossHazardDamageReceived" xml:space="preserve">
+    <value>Полученный урон от мин</value>
+  </data>
+  <data name="details/conditions/cumulative/bossSecondaryTurretKill" xml:space="preserve">
+    <value>Добивающий выстрел по Левиафану</value>
+  </data>
+  <data name="details/conditions/cumulative/healthPickups" xml:space="preserve">
+    <value>Собрано ремнаборов</value>
+  </data>
+  <data name="details/conditions/cumulative/primaryTurretKills" xml:space="preserve">
+    <value>Уничтожено основным орудием</value>
+  </data>
+  <data name="details/conditions/cumulative/secondaryDirectHits" xml:space="preserve">
+    <value>Попадания из вспомогательного орудия</value>
+  </data>
+  <data name="details/conditions/cumulative/secondaryTurretKills" xml:space="preserve">
+    <value>Уничтожено вспомогательным орудием</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_1/1" xml:space="preserve">
+    <value>Уничтожить Левиафана</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_10/1" xml:space="preserve">
+    <value>Нанести указанное количество урона Левиафану</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_11/1" xml:space="preserve">
+    <value>Уничтожить Левиафана указанное количество раз</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_12/1" xml:space="preserve">
+    <value>Попадания с уроном по Левиафану</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_2/1" xml:space="preserve">
+    <value>Нанести Левиафану указанное количество урона</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_3/1" xml:space="preserve">
+    <value>Выжить при контакте с миной</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_4/1" xml:space="preserve">
+    <value>Пережить указанное количество попаданий минами</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_5/1" xml:space="preserve">
+    <value>Собрать указанное количество ремнаборов</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_6/1" xml:space="preserve">
+    <value>Нанести указанное количество урона</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_6/2" xml:space="preserve">
+    <value>Восполнить прочность союзникам</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_7/1" xml:space="preserve">
+    <value>Уничтожить указанное количество приспешников</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVP_1/1" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVP_2/1" xml:space="preserve">
+    <value>Уничтожить машину противника</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVP_3/1" xml:space="preserve">
+    <value>Заблокировать указанное количество урона</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVP_4/1" xml:space="preserve">
+    <value>Нанести указанное количество урона тараном</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVP_5/1" xml:space="preserve">
+    <value>Нанести указанное количество урона с расстояния 300+ м</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVP_6/1" xml:space="preserve">
+    <value>Нанести урон указанному количеству разных машин</value>
+  </data>
+  <data name="quest/halloween/HE17_PVE_1_S/1" xml:space="preserve">
+    <value>Уничтожить Левиафана указанное количество раз</value>
+  </data>
+  <data name="quest/halloween/HE17_WIN_PVE/1" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="quest/halloween/HE17_WIN_PVP/1" xml:space="preserve">
+    <value>Навести порядок в мире смертных</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_1/1" xml:space="preserve">
+    <value>Нанести Левиафану указанное количество урона</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_10/1" xml:space="preserve">
+    <value>Нанести Левиафану указанное количество урона и не получить урона от него</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_2/1" xml:space="preserve">
+    <value>Восполнить прочность союзникам</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_5/1" xml:space="preserve">
+    <value>Занять указанное место среди своей команды по урону</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_6/1" xml:space="preserve">
+    <value>Нанести урон Левиафану и указанному количеству других машин противника</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_7/1" xml:space="preserve">
+    <value>Указанное количество раз попасть из орудий по Левиафану</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_8/1" xml:space="preserve">
+    <value>Уничтожить Левиафана и занять указанное место по урону среди своей команды</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_9/1" xml:space="preserve">
+    <value>Добить Левиафана из орудия вспомогательной башни</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVP_1/1" xml:space="preserve">
+    <value>Уничтожить указанное количество машин противника</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVP_2/1" xml:space="preserve">
+    <value>Нанести наибольшее количество урона орудием вспомогательной башни</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVP_3/1" xml:space="preserve">
+    <value>Занять указанное место по урону среди своей команды</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVP_4/1" xml:space="preserve">
+    <value>Уничтожить машину противника из орудия вспомогательной башни и выжить в бою</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVP_5/1" xml:space="preserve">
+    <value>Уничтожить указанное количество машин противника из орудия вспомогательной башни</value>
+  </data>
 </root>

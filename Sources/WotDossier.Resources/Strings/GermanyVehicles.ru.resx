@@ -4352,4 +4352,22 @@ TRM P45</value>
   <data name="_105mm_BK_L7" xml:space="preserve">
     <value>10,5 cm Bordkanone L7</value>
   </data>
+  <data name="G150_Leviathan" xml:space="preserve">
+    <value>Левиафан</value>
+  </data>
+  <data name="G150_Leviathan_descr" xml:space="preserve">
+    <value>Левиафан правит миром, в который попадает бронетехника после уничтожения. В нём он вершит суд над павшими машинами, которые обречены вечно сражаться друг с другом на мрачных землях Левиафана.</value>
+  </data>
+  <data name="G150_Leviathan_short" xml:space="preserve">
+    <value>Левиафан</value>
+  </data>
+  <data name="Gun_1_G150_Leviathan_Mk1" xml:space="preserve">
+    <value>Нечестивое орудие</value>
+  </data>
+  <data name="Leviathan_Mk1_Engine" xml:space="preserve">
+    <value>Нечестивый двигатель</value>
+  </data>
+  <data name="Leviathan_Mk1_Engine_short" xml:space="preserve">
+    <value>Двигатель</value>
+  </data>
 </root>

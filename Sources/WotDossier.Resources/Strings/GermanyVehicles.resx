@@ -4348,4 +4348,22 @@ TRM P45</value>
   <data name="_105mm_BK_L7" xml:space="preserve">
     <value>10,5 cm Bordkanone L7</value>
   </data>
+  <data name="G150_Leviathan" xml:space="preserve">
+    <value>Leviathan</value>
+  </data>
+  <data name="G150_Leviathan_descr" xml:space="preserve">
+    <value>Lord of the Armored Afterlife, Leviathan passes judgement on the countless fallen vehicles who are doomed to eternal battles in its domain.</value>
+  </data>
+  <data name="G150_Leviathan_short" xml:space="preserve">
+    <value>Lev</value>
+  </data>
+  <data name="Gun_1_G150_Leviathan_Mk1" xml:space="preserve">
+    <value>The Uber Gun</value>
+  </data>
+  <data name="Leviathan_Mk1_Engine" xml:space="preserve">
+    <value>The Uber Engine</value>
+  </data>
+  <data name="Leviathan_Mk1_Engine_short" xml:space="preserve">
+    <value>Engine</value>
+  </data>
 </root>

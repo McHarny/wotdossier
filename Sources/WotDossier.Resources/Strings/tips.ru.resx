@@ -1450,10 +1450,10 @@
     <value>Вы появляетесь в точке 1 (для танка или ПТ-САУ) или 2 (для САУ). Используя навыки, полученные в Боевом обучении, одержите победу над противником.</value>
   </data>
   <data name="eventMessage" xml:space="preserve">
-    <value>++++ eventMessage ++++</value>
+    <value>Новое игровое событие: «Вторжение Левиафана»!</value>
   </data>
   <data name="eventTitle" xml:space="preserve">
-    <value>++++ eventTitle ++++</value>
+    <value>Вторжение Левиафана</value>
   </data>
   <data name="sandbox02" xml:space="preserve">
     <value>Вы появляетесь на зелёной базе, откуда можно начать атаку по одному из трёх ключевых направлений. Используйте желаемую тактику для победы над противником.</value>
@@ -1562,5 +1562,131 @@
   </data>
   <data name="ranked/9/title" xml:space="preserve">
     <value>Награды</value>
+  </data>
+  <data name="halloweenPVE/0/body" xml:space="preserve">
+    <value>Левиафан появляется в противоположном от Врат конце Пекла. Уничтожьте его, пока он не пересёк карту!</value>
+  </data>
+  <data name="halloweenPVE/0/title" xml:space="preserve">
+    <value>Уничтожение Левиафана</value>
+  </data>
+  <data name="halloweenPVE/1/body" xml:space="preserve">
+    <value>Приспешники Левиафана заполоняют всё Пекло. Они агрессивны и опасны, но при их уничтожении оставят ремнаборы.</value>
+  </data>
+  <data name="halloweenPVE/1/title" xml:space="preserve">
+    <value>Приспешники Левиафана</value>
+  </data>
+  <data name="halloweenPVE/2/body" xml:space="preserve">
+    <value>Кроме своих лютых орудий, Левиафан выпускает мины в игрока, попавшего в радиус их действия. Остерегайтесь мин — они могут подорвать вашу машину!</value>
+  </data>
+  <data name="halloweenPVE/2/title" xml:space="preserve">
+    <value>Мины Левиафана</value>
+  </data>
+  <data name="halloweenPVE/3/body" xml:space="preserve">
+    <value>У Левиафана несколько орудий с разными характеристиками. Будьте осторожны, главный калибр Левиафана особо опасен!</value>
+  </data>
+  <data name="halloweenPVE/3/title" xml:space="preserve">
+    <value>Вооружение Левиафана</value>
+  </data>
+  <data name="halloweenPVE/4/body" xml:space="preserve">
+    <value>Если вы приблизитесь вплотную к Левиафану, он накроет вас огненным залпом. Попадёте под него — вам конец!</value>
+  </data>
+  <data name="halloweenPVE/4/title" xml:space="preserve">
+    <value>Ближний бой</value>
+  </data>
+  <data name="halloweenPVE/5/body" xml:space="preserve">
+    <value>Не забывайте использовать оба своих орудия для наибольшей плотности огня по Левиафану.</value>
+  </data>
+  <data name="halloweenPVE/5/title" xml:space="preserve">
+    <value>Стрельба по Левиафану</value>
+  </data>
+  <data name="halloweenPVE/6/body" xml:space="preserve">
+    <value>Слаженные командные действия способствуют быстрому уничтожению Левиафана до того, как он доберётся до Врат.</value>
+  </data>
+  <data name="halloweenPVE/6/title" xml:space="preserve">
+    <value>Уничтожение Левиафана</value>
+  </data>
+  <data name="halloweenPVE/7/body" xml:space="preserve">
+    <value>Помните: сфокусированный огонь по одному из приспешников Левиафана ради получения ремнабора — не худшая идея.</value>
+  </data>
+  <data name="halloweenPVE/7/title" xml:space="preserve">
+    <value>Советы по тактике</value>
+  </data>
+  <data name="halloweenPVE/8/body" xml:space="preserve">
+    <value>Ремнабор восстановит прочность всей команде, а не только той машине, что его подобрала.</value>
+  </data>
+  <data name="halloweenPVE/8/title" xml:space="preserve">
+    <value>Ремнаборы</value>
+  </data>
+  <data name="halloweenPVE/9/body" xml:space="preserve">
+    <value>Для активации голосовой связи в рамках события перенастройте горячую клавишу (Q) заново, так как теперь это огонь из вспомогательного орудия.</value>
+  </data>
+  <data name="halloweenPVE/9/title" xml:space="preserve">
+    <value>Голосовая связь</value>
+  </data>
+  <data name="halloweenPVP/0/body" xml:space="preserve">
+    <value>Огонь из орудия вспомогательной башни по умолчанию настроен на Q. Для залпа из всех орудий, дважды щёлкните кнопку стрельбы.</value>
+  </data>
+  <data name="halloweenPVP/0/title" xml:space="preserve">
+    <value>Вспомогательное орудие</value>
+  </data>
+  <data name="halloweenPVP/1/body" xml:space="preserve">
+    <value>Вспомогательная башня не может быть выведена из строя, но попадания по ней нанесут урон вашей машине в целом.</value>
+  </data>
+  <data name="halloweenPVP/1/title" xml:space="preserve">
+    <value>Урон по вспомогательной башне</value>
+  </data>
+  <data name="halloweenPVP/10/body" xml:space="preserve">
+    <value>Экипажи Фрэнки и Штейна имеют достаточно опыта для развития на 100% 3 умений или навыков каждому члену экипажа.</value>
+  </data>
+  <data name="halloweenPVP/10/title" xml:space="preserve">
+    <value>Опытный экипаж</value>
+  </data>
+  <data name="halloweenPVP/2/body" xml:space="preserve">
+    <value>Количество снарядов в боекомплекте вспомогательного орудия не ограничено.</value>
+  </data>
+  <data name="halloweenPVP/2/title" xml:space="preserve">
+    <value>Боекомплект</value>
+  </data>
+  <data name="halloweenPVP/3/body" xml:space="preserve">
+    <value>Цель не всегда будет в простреле вспомогательного орудия. Перед выстрелом убедитесь, что оба орудия наведены на цель.</value>
+  </data>
+  <data name="halloweenPVP/3/title" xml:space="preserve">
+    <value>Эффективный огонь</value>
+  </data>
+  <data name="halloweenPVP/4/body" xml:space="preserve">
+    <value>Эти танки доступны только для двух особых режимов во время празднования Хэллоуина 2017 года.</value>
+  </data>
+  <data name="halloweenPVP/4/title" xml:space="preserve">
+    <value>Фрэнки и Штейн</value>
+  </data>
+  <data name="halloweenPVP/5/body" xml:space="preserve">
+    <value>Вспомогательное орудие Штейна по умолчанию смотрит назад. Поверните танк бортом для одновременной стрельбы из обоих орудий.</value>
+  </data>
+  <data name="halloweenPVP/5/title" xml:space="preserve">
+    <value>Вспомогательное орудие Штейна</value>
+  </data>
+  <data name="halloweenPVP/6/body" xml:space="preserve">
+    <value>Прочитайте описание этих машин в Ангаре и узнайте о ключевых особенностях Фрэнки и Штейна.</value>
+  </data>
+  <data name="halloweenPVP/6/title" xml:space="preserve">
+    <value>Многобашенные машины</value>
+  </data>
+  <data name="halloweenPVP/7/body" xml:space="preserve">
+    <value>Старайтесь не подставлять свой корпус под обстрел, ведя огонь из орудия вспомогательной башни.</value>
+  </data>
+  <data name="halloweenPVP/7/title" xml:space="preserve">
+    <value>Не подставляйтесь под огонь!</value>
+  </data>
+  <data name="halloweenPVP/8/body" xml:space="preserve">
+    <value>УВН вашего орудия можно увеличить, повернув его на борт. Не забывайте также об ограничении углов поворота башни.</value>
+  </data>
+  <data name="halloweenPVP/8/title" xml:space="preserve">
+    <value>Углы поворота башни</value>
+  </data>
+  <data name="halloweenPVP/9/body" xml:space="preserve">
+    <value>Для активации голосовой связи в рамках события перенастройте горячую клавишу (Q) заново, так как теперь это огонь из вспомогательного орудия.</value>
+  </data>
+  <data name="halloweenPVP/9/title" xml:space="preserve">
+    <value>Голосовая связь</value>
   </data>
 </root>

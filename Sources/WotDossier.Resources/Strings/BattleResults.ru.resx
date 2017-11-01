@@ -1184,4 +1184,19 @@
   <data name="details/crystal" xml:space="preserve">
     <value>Боны</value>
   </data>
+  <data name="team/stats/labels_bossDamageDealt" xml:space="preserve">
+    <value>	урон по Левиафану</value>
+  </data>
+  <data name="team/stats/labels_bossDamageTurretHazardReceived" xml:space="preserve">
+    <value>Повреждение от орудий/мин Левиафана</value>
+  </data>
+  <data name="team/stats/labels_healthPackStats" xml:space="preserve">
+    <value>Использовано ремнаборов/восполнено прочности</value>
+  </data>
+  <data name="team/stats/labels_multiTurretDamageDealt" xml:space="preserve">
+    <value>	основное/вспомогательное</value>
+  </data>
+  <data name="team/stats/labels_secondaryTurretHits" xml:space="preserve">
+    <value>	попадания/пробития вспомогательными орудиями</value>
+  </data>
 </root>

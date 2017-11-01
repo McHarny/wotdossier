@@ -512,4 +512,10 @@ The perk cannot be reset.</value>
   <data name="tankman/skills/fireFighting" xml:space="preserve">
     <value>Firefighting</value>
   </data>
+  <data name="vehicle/tags/HE2017_2C/name" xml:space="preserve">
+    <value>Stein</value>
+  </data>
+  <data name="vehicle/tags/HE2017_F1/name" xml:space="preserve">
+    <value>Franken</value>
+  </data>
 </root>

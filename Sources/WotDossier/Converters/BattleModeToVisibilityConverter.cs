@@ -12,17 +12,15 @@ namespace WotDossier.Converters
     /// </summary>
     public class BattleModeToVisibilityConverter : IValueConverter
     {
-        private static readonly BattleModeToVisibilityConverter _defaultInstance = new BattleModeToVisibilityConverter();
-
-        /// <summary>
+	    /// <summary>
         /// Gets the default instance.
         /// </summary>
         /// <value>
         /// The default.
         /// </value>
-        public static BattleModeToVisibilityConverter Default { get { return _defaultInstance; } }
+        public static BattleModeToVisibilityConverter Default { get; } = new BattleModeToVisibilityConverter();
 
-        /// <summary>
+	    /// <summary>
         /// Converts a value.
         /// </summary>
         /// <param name="value">The value produced by the binding source.</param>

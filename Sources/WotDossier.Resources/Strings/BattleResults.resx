@@ -1184,4 +1184,19 @@ including damage from Combat Reserves.</value>
   <data name="details/crystal" xml:space="preserve">
     <value>Bonds</value>
   </data>
+  <data name="team/stats/labels_bossDamageDealt" xml:space="preserve">
+    <value>	damage to Leviathan</value>
+  </data>
+  <data name="team/stats/labels_bossDamageTurretHazardReceived" xml:space="preserve">
+    <value>Leviathan gun damage/landmine damage</value>
+  </data>
+  <data name="team/stats/labels_healthPackStats" xml:space="preserve">
+    <value>Health packs used/healing done</value>
+  </data>
+  <data name="team/stats/labels_multiTurretDamageDealt" xml:space="preserve">
+    <value>	primary/secondary</value>
+  </data>
+  <data name="team/stats/labels_secondaryTurretHits" xml:space="preserve">
+    <value>	secondary direct hits/penetrations</value>
+  </data>
 </root>

@@ -3915,7 +3915,7 @@ Please note that vehicle characteristics shown in your Garage are relevant if th
     <value>Do not stun enemy vehicles of nation: %(nation)s; type: %(type)s; Tier %(level)s for any duration</value>
   </data>
   <data name="details/conditions/vehicleStun/not" xml:space="preserve">
-    <value>Do not stun enemy vehicles for the indicated duration</value>
+    <value>Do not stun enemy vehicles</value>
   </data>
   <data name="details/conditions/vehicleStun/title" xml:space="preserve">
     <value>Stun</value>
@@ -5159,5 +5159,137 @@ in the corresponding section of the Missions section.</value>
   </data>
   <data name="quest/condition/or" xml:space="preserve">
     <value>or</value>
+  </data>
+  <data name="bonuses/halloween/drop/1" xml:space="preserve">
+    <value>Halloween Reward</value>
+  </data>
+  <data name="bonuses/halloween/drop/2" xml:space="preserve">
+    <value>Elite Halloween Reward</value>
+  </data>
+  <data name="bonuses/halloween/drop/3" xml:space="preserve">
+    <value>Weekly Halloween Reward</value>
+  </data>
+  <data name="bonuses/halloween/drop/4" xml:space="preserve">
+    <value>Ultimate Halloween Reward</value>
+  </data>
+  <data name="details/conditions/cumulative/bossDamageReceived" xml:space="preserve">
+    <value>Damage from Leviathan</value>
+  </data>
+  <data name="details/conditions/cumulative/bossHazardDamageReceived" xml:space="preserve">
+    <value>Landmine damage received</value>
+  </data>
+  <data name="details/conditions/cumulative/bossSecondaryTurretKill" xml:space="preserve">
+    <value>Kill shot on Leviathan</value>
+  </data>
+  <data name="details/conditions/cumulative/healthPickups" xml:space="preserve">
+    <value>Health packs collected</value>
+  </data>
+  <data name="details/conditions/cumulative/primaryTurretKills" xml:space="preserve">
+    <value>Destroyed with primary gun</value>
+  </data>
+  <data name="details/conditions/cumulative/secondaryDirectHits" xml:space="preserve">
+    <value>Direct hits with the secondary gun</value>
+  </data>
+  <data name="details/conditions/cumulative/secondaryTurretKills" xml:space="preserve">
+    <value>Destroyed with the secondary gun</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_1/1" xml:space="preserve">
+    <value>Defeat Leviathan</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_10/1" xml:space="preserve">
+    <value>Damage caused to Leviathan</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_11/1" xml:space="preserve">
+    <value>Leviathan destroyed</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_12/1" xml:space="preserve">
+    <value>Damaging hits to Leviathan</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_2/1" xml:space="preserve">
+    <value>Cause damage to Leviathan</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_3/1" xml:space="preserve">
+    <value>Survive landmine attacks</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_4/1" xml:space="preserve">
+    <value>Survive landmine hits</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_5/1" xml:space="preserve">
+    <value>Collect health packs</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_6/1" xml:space="preserve">
+    <value>Cause damage</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_6/2" xml:space="preserve">
+    <value>Heal your allies</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVE_7/1" xml:space="preserve">
+    <value>Destroy Minions</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVP_1/1" xml:space="preserve">
+    <value>Win the battle</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVP_2/1" xml:space="preserve">
+    <value>Destroy a vehicle</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVP_3/1" xml:space="preserve">
+    <value>Block damage</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVP_4/1" xml:space="preserve">
+    <value>Cause ramming damage</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVP_5/1" xml:space="preserve">
+    <value>Cause damage from a distance of 300+ m</value>
+  </data>
+  <data name="quest/halloween/HE17_D_PVP_6/1" xml:space="preserve">
+    <value>Damage different enemy vehicles</value>
+  </data>
+  <data name="quest/halloween/HE17_PVE_1_S/1" xml:space="preserve">
+    <value>Defeat Leviathan</value>
+  </data>
+  <data name="quest/halloween/HE17_WIN_PVE/1" xml:space="preserve">
+    <value>Win the battle</value>
+  </data>
+  <data name="quest/halloween/HE17_WIN_PVP/1" xml:space="preserve">
+    <value>Bring order to the Fallen Plane</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_1/1" xml:space="preserve">
+    <value>Cause damage to Leviathan</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_10/1" xml:space="preserve">
+    <value>Cause damage to Leviathan without being damaged by it</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_2/1" xml:space="preserve">
+    <value>Heal your allies</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_5/1" xml:space="preserve">
+    <value>Be the top player on your team by damage caused</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_6/1" xml:space="preserve">
+    <value>Cause damage to Leviathan and other enemy vehicles</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_7/1" xml:space="preserve">
+    <value>Hit Leviathan</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_8/1" xml:space="preserve">
+    <value>Defeat Leviathan and be the top damage dealer</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVE_9/1" xml:space="preserve">
+    <value>Deliver the final blow to Leviathan with the secondary gun</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVP_1/1" xml:space="preserve">
+    <value>Destroy enemy vehicles</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVP_2/1" xml:space="preserve">
+    <value>Cause the most damage with the secondary gun</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVP_3/1" xml:space="preserve">
+    <value>Be the top player on your team by damage caused</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVP_4/1" xml:space="preserve">
+    <value>Destroy a vehicle with the secondary gun and survive</value>
+  </data>
+  <data name="quest/halloween/HE17_W_PVP_5/1" xml:space="preserve">
+    <value>Destroy vehicles with the secondary gun</value>
   </data>
 </root>

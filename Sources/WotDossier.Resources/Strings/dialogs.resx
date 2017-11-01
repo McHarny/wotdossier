@@ -3731,4 +3731,22 @@ After you quit the competition &lt;font color='#ff0000'&gt;YOU CANNOT ENTER IT A
   <data name="leaveStartedEvent/title" xml:space="preserve">
     <value>Quit Competition</value>
   </data>
+  <data name="halloween/supply_drop/claim/failed/cancel" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="halloween/supply_drop/claim/failed/message" xml:space="preserve">
+    <value>Your reward claim temporarily failed. Please try again later.</value>
+  </data>
+  <data name="halloween/supply_drop/claim/failed/title" xml:space="preserve">
+    <value>Temporary Claim Failure</value>
+  </data>
+  <data name="halloween/supply_drop/claim/platoon/cancel" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="halloween/supply_drop/claim/platoon/message" xml:space="preserve">
+    <value>You cannot claim a reward while in a Platoon. Please claim your reward later when not part of a Platoon.</value>
+  </data>
+  <data name="halloween/supply_drop/claim/platoon/title" xml:space="preserve">
+    <value>Try Again Later</value>
+  </data>
 </root>

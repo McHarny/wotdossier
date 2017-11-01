@@ -21,7 +21,8 @@ namespace WotDossier.Applications
 				BattleType.Regular,
 				BattleType.CompanyWar,
 				BattleType.ClanWar,
-				BattleType.Event
+				BattleType.Event,
+				BattleType.Event2
 			};
 
 			if (list.Contains(battleType))
@@ -37,6 +38,10 @@ namespace WotDossier.Applications
 				if (gameplayId == Gameplay.nations)
 				{
 					return Resources.Resources.BattleType_nations;
+				}
+				if (gameplayId == Gameplay.leviathan)
+				{
+					return Resources.Resources.BattleType_leviathan;
 				}
 				return Resources.Resources.BattleType_assault;
 			}

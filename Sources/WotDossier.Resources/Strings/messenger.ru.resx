@@ -2469,8 +2469,7 @@
 IV уровня и выше, чтобы получать больше опыта</value>
   </data>
   <data name="dialogs/squadChannel/headerMsg/eventFormationRestriction" xml:space="preserve">
-    <value>+++ event +++
-+++ event +++</value>
+    <value>Используйте только технику Хэллоуина</value>
   </data>
   <data name="dialogs/squadChannel/headerMsg/squadFormation" xml:space="preserve">
     <value>Дополнительный опыт за бой

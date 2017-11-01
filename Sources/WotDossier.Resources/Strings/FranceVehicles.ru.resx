@@ -2603,4 +2603,107 @@ mle. 1934</value>
   <data name="Turret_2_Bat_Chatillon155_55" xml:space="preserve">
     <value>Batignolles-Châtillon 155 mle. 56</value>
   </data>
+  <data name="Chassis_F77_FCM_2C_HE2017" xml:space="preserve">
+    <value>Fallen FCM 2C</value>
+  </data>
+  <data name="Chassis_F79_FCM_F1_Mle1940" xml:space="preserve">
+    <value>FCM F1</value>
+  </data>
+  <data name="Chassis_F80_FCM_F1_Mle1940_HE2017" xml:space="preserve">
+    <value>Fallen FCM F1</value>
+  </data>
+  <data name="ER_28_HE2017" xml:space="preserve">
+    <value>66.5 FM</value>
+  </data>
+  <data name="F77_FCM_2C_HE2017" xml:space="preserve">
+    <value>Штейн</value>
+  </data>
+  <data name="F77_FCM_2C_HE2017_Minion" xml:space="preserve">
+    <value>Гневный приспешник</value>
+  </data>
+  <data name="F77_FCM_2C_HE2017_descr" xml:space="preserve">
+    <value>Павший в давно позабытом сражении французский танк FCM 2C. Оснащён двумя полноценными башнями. Танк пробуждается только во время Хэллоуина и только на карте «Пекло». Броня Штейна не уступает броне тяжёлых танков VIII уровня. Спереди и на корме смонтированы орудийные башни — главное его оружие в борьбе с Левиафаном и его прихвостнями. Штейн набирает скорость быстрее, чем Фрэнки, и при этом лучше бронирован. Его лёгкие орудия не так эффективны на большом расстоянии, однако их высокая скорострельность позволяет Штейну эффективно сражаться на коротких дистанциях.
+
+Вспомогательное орудие Штейна имеет ограниченные углы горизонтальной наводки и по умолчанию направлено назад. Разворачивайте танк таким образом, чтобы вести огонь по цели из обоих орудий одновременно.</value>
+  </data>
+  <data name="F77_FCM_2C_HE2017_short" xml:space="preserve">
+    <value>Штейн</value>
+  </data>
+  <data name="F79_FCM_F1_Mle1940" xml:space="preserve">
+    <value>FCM F1</value>
+  </data>
+  <data name="F79_FCM_F1_Mle1940_descr" xml:space="preserve">
+    <value>Хорошая, годная машина.</value>
+  </data>
+  <data name="F79_FCM_F1_Mle1940_short" xml:space="preserve">
+    <value>FCM F1</value>
+  </data>
+  <data name="F80_FCM_F1_Mle1940_HE2017" xml:space="preserve">
+    <value>Фрэнки</value>
+  </data>
+  <data name="F80_FCM_F1_Mle1940_HE2017_Minion" xml:space="preserve">
+    <value>Яростный приспешник</value>
+  </data>
+  <data name="F80_FCM_F1_Mle1940_HE2017_descr" xml:space="preserve">
+    <value>Павший в давно позабытом сражении французский танк FCM F1. Оснащён двумя полноценными башнями. Танк пробуждается только во время Хэллоуина и только на карте «Пекло». Броня Фрэнки не уступает броне ПТ-САУ VIII уровня. Спереди и на корме смонтированы орудийные башни — главное его оружие в борьбе с Левиафаном и его прихвостнями. Фрэнки набирает скорость медленнее, чем Штейн, и при этом обладает не столь мощным бронированием. Его грозные орудия исключительно эффективны на большом расстоянии, однако их невысокая скорострельность означает, что Фрэнки лучше всего бороться с противником издалека.
+
+Вспомогательное орудие Фрэнки имеет ограниченные углы горизонтальной наводки и по умолчанию направлено вперёд, поэтому танк лучше всего проявляет себя, атакуя в лоб. Угол склонения основного орудия лучше на борт: учитывайте это в бою.</value>
+  </data>
+  <data name="F80_FCM_F1_Mle1940_HE2017_short" xml:space="preserve">
+    <value>Фрэнки</value>
+  </data>
+  <data name="Gun_1_F77_FCM_2C_HE2017" xml:space="preserve">
+    <value>Spectral 105 mm Cannon</value>
+  </data>
+  <data name="Gun_2_F77_FCM_2C_HE2017" xml:space="preserve">
+    <value>Spectral 35 mm Cannon</value>
+  </data>
+  <data name="Hispano_219CV_V8_HE2017" xml:space="preserve">
+    <value>Fallen Engine</value>
+  </data>
+  <data name="Turret_1_F77_FCM_2C_HE2017" xml:space="preserve">
+    <value>Fallen FCM 2C Основная</value>
+  </data>
+  <data name="Turret_1_F79_FCM_F1_Mle1940" xml:space="preserve">
+    <value>FCM F1</value>
+  </data>
+  <data name="Turret_1_F80_FCM_F1_Mle1940_HE2017" xml:space="preserve">
+    <value>Fallen FCM F1 Основная</value>
+  </data>
+  <data name="Turret_2_F77_FCM_2C_HE2017" xml:space="preserve">
+    <value>Fallen FCM 2C Вспомогательная</value>
+  </data>
+  <data name="Turret_2_F80_FCM_F1_Mle1940_HE2017" xml:space="preserve">
+    <value>Fallen FCM F1 Вспомогательная</value>
+  </data>
+  <data name="_105mm_APCR_FCM-2C_HE2017" xml:space="preserve">
+    <value>Hurlant A-LS</value>
+  </data>
+  <data name="_105mm_AP_FCM-2C_HE2017" xml:space="preserve">
+    <value>Gémissant A-LS</value>
+  </data>
+  <data name="_105mm_HE_FCM-2C_HE2017" xml:space="preserve">
+    <value>Grondant A-LS</value>
+  </data>
+  <data name="_35mm_FCM-2C_HE2017" xml:space="preserve">
+    <value>Criant A-LS</value>
+  </data>
+  <data name="_47mm_Odr_mle._1936_HE2017" xml:space="preserve">
+    <value>Criant A-LS</value>
+  </data>
+  <data name="_47mm_SA37_ameliore_HE2017" xml:space="preserve">
+    <value>Spectral 47 mm SA37 amélioré</value>
+  </data>
+  <data name="_90mm_FrtPrf1944_HE2017" xml:space="preserve">
+    <value>Hurlant A-LS</value>
+  </data>
+  <data name="_90mm_OE_mle_1924_HE2017" xml:space="preserve">
+    <value>Grondant A-LS</value>
+  </data>
+  <data name="_90mm_Prf1941_HE2017" xml:space="preserve">
+    <value>Gémissant A-LS</value>
+  </data>
+  <data name="_90mm_canon_DCA_45_HE2017" xml:space="preserve">
+    <value>Spectral 90 mm DCA 45</value>
+  </data>
 </root>

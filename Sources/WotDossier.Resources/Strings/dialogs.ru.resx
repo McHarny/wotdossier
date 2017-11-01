@@ -3754,4 +3754,22 @@
   <data name="leaveStartedEvent/title" xml:space="preserve">
     <value>Покинуть соревнование</value>
   </data>
+  <data name="halloween/supply_drop/claim/failed/cancel" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="halloween/supply_drop/claim/failed/message" xml:space="preserve">
+    <value>Невозможно получить награду. Попробуйте позже.</value>
+  </data>
+  <data name="halloween/supply_drop/claim/failed/title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="halloween/supply_drop/claim/platoon/cancel" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="halloween/supply_drop/claim/platoon/message" xml:space="preserve">
+    <value>Невозможно получить награду, находясь во взводе. Покиньте взвод и повторите попытку.</value>
+  </data>
+  <data name="halloween/supply_drop/claim/platoon/title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
 </root>

@@ -3295,7 +3295,7 @@
     <value>Заработано</value>
   </data>
   <data name="BattleType_Event" xml:space="preserve">
-    <value>Ивент</value>
+    <value>Ивент (старый)</value>
   </data>
   <data name="Column_Ratings_Platoon" xml:space="preserve">
     <value>Взвод</value>
@@ -3654,5 +3654,11 @@
   </data>
   <data name="BattleType_GlobalMap" xml:space="preserve">
     <value>Глобальная карта</value>
+  </data>
+  <data name="BattleType_Event2" xml:space="preserve">
+    <value>Ивент</value>
+  </data>
+  <data name="BattleType_leviathan" xml:space="preserve">
+    <value>Вторжение</value>
   </data>
 </root>

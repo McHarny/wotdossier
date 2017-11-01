@@ -601,13 +601,13 @@ from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
     <value>Steel Hunt</value>
   </data>
   <data name="invites/note/change_and_leave/EVENT" xml:space="preserve">
-    <value>Приняв приглашение, вы покинете режим «+++Event battle+++» и будете перемещены на сервер %(host)s.</value>
+    <value>Once you accept the invitation, you will exit the Leviathan's Invasion and transferred to %(host)s server.</value>
   </data>
   <data name="invites/note/leave/EVENT" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Once you accept the invitation, you will be automatically removed from the Squad of the Fallen.</value>
   </data>
   <data name="invites/text/EVENT" xml:space="preserve">
-    <value>++%(titleStartTag)sПриглашение войти в состав взвода%(titleEndTag)s++</value>
+    <value>%(titleStartTag)sInvitation to join Squad of the Fallen%(titleEndTag)s</value>
   </data>
   <data name="clans/state/app/error/inClanEnterCooldown" xml:space="preserve">
     <value>The player's two-day penalty for leaving their previous clan has not yet expired.</value>

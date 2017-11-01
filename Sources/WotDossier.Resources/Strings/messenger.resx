@@ -2468,8 +2468,7 @@ Other clans can now attack you—stay prepared!</value>
 to receive more experience</value>
   </data>
   <data name="dialogs/squadChannel/headerMsg/eventFormationRestriction" xml:space="preserve">
-    <value>+++ event +++
-+++ event +++</value>
+    <value>Must use Fallen Tanks</value>
   </data>
   <data name="dialogs/squadChannel/headerMsg/squadFormation" xml:space="preserve">
     <value>Additional experience per battle

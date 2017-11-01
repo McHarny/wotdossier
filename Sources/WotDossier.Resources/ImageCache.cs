@@ -25,12 +25,11 @@ namespace WotDossier.Resources
                 try
                 {
                     bitmapImage = new BitmapImage(uriSource);
-                }
+
+					if (bitmapImage.DpiX != 96)
+		                bitmapImage = ConvertBitmapTo96DPI(bitmapImage);
+				}
                 catch (Exception) { }
-
-	            if (bitmapImage.DpiX != 96)
-		            bitmapImage = ConvertBitmapTo96DPI(bitmapImage);
-
 
 				_cache.Add(uriSource, bitmapImage);
             }

@@ -6225,7 +6225,7 @@
     <value>Внимание!</value>
   </data>
   <data name="event/squad/disable/body" xml:space="preserve">
-    <value>Для высадки на тёмной стороне Луны выберите %(tankName)s</value>
+    <value>Чтобы создать Призрачный взвод, выберите танки: %(tankName)s</value>
   </data>
   <data name="event/squad/disable/header" xml:space="preserve">
     <value>Внимание!</value>
@@ -6325,7 +6325,7 @@
     <value>Нажмите, чтобы выйти из состава лунного взвода.</value>
   </data>
   <data name="squadWindow/eventVehicle" xml:space="preserve">
-    <value>Для высадки на тёмной стороне Луны выберите %(tankName)s</value>
+    <value>Чтобы создать Призрачный взвод, выберите танки: %(tankName)s</value>
   </data>
   <data name="tankCaruselTooltip/vehicleType/normal/AT-SPG" xml:space="preserve">
     <value>ПТ-САУ</value>
@@ -6503,10 +6503,10 @@
     <value>Тип устройства воспроизведения</value>
   </data>
   <data name="squadWindow/buttons/leaveEventSquad/body" xml:space="preserve">
-    <value>+Нажмите, чтобы выйти из состава ивентного взвода.+</value>
+    <value>Нажмите, чтобы покинуть Призрачный взвод.</value>
   </data>
   <data name="squadWindow/buttons/leaveEventSquad/header" xml:space="preserve">
-    <value>+Покинуть ивентный взвод+</value>
+    <value>Покинуть Призрачный взвод</value>
   </data>
   <data name="squadWindow/infoIcon/tech/body" xml:space="preserve">
     <value>Взвод должен состоять из машин одного уровня.</value>
@@ -9279,5 +9279,101 @@
   </data>
   <data name="personalMissions/tankgirlsBlock/header" xml:space="preserve">
     <value>Нерекрутированные девушки-танкисты</value>
+  </data>
+  <data name="hangar/leviathanPreview/closeButton/description" xml:space="preserve">
+    <value>Закройте это окно, чтобы вернуться в Ангар.</value>
+  </data>
+  <data name="hangar/leviathanPreview/closeButton/header" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="hangar/leviathanPreview/redButtonDisabled/description" xml:space="preserve">
+    <value>Пока вы изучаете Левиафана, выйти в бой нельзя. Вернитесь на основной экран Ангара.</value>
+  </data>
+  <data name="hangar/leviathanPreview/redButtonDisabled/header" xml:space="preserve">
+    <value>Невозможно выйти в бой</value>
+  </data>
+  <data name="moduleFits/cannon/primary" xml:space="preserve">
+    <value>Основное орудие:</value>
+  </data>
+  <data name="moduleFits/cannon/secondary" xml:space="preserve">
+    <value>Вспомогательное орудие:</value>
+  </data>
+  <data name="moduleFits/turret/primary" xml:space="preserve">
+    <value>Основная башня:</value>
+  </data>
+  <data name="moduleFits/turret/secondary" xml:space="preserve">
+    <value>Вспомогательная башня:</value>
+  </data>
+  <data name="quests/bonuses/halloween/1/body" xml:space="preserve">
+    <value>Этот саркофаг выдаётся за выполнение определённой боевой задачи во время проведения Хэллоуина.</value>
+  </data>
+  <data name="quests/bonuses/halloween/1/header" xml:space="preserve">
+    <value>Обычная награда</value>
+  </data>
+  <data name="quests/bonuses/halloween/2/body" xml:space="preserve">
+    <value>Этот саркофаг выдаётся за выполнение определённого испытания во время проведения Хэллоуина.</value>
+  </data>
+  <data name="quests/bonuses/halloween/2/header" xml:space="preserve">
+    <value>Редкая награда</value>
+  </data>
+  <data name="quests/bonuses/halloween/3/body" xml:space="preserve">
+    <value>Этот саркофаг выдаётся за выполнение еженедельных задач во время проведения Хэллоуина.</value>
+  </data>
+  <data name="quests/bonuses/halloween/3/header" xml:space="preserve">
+    <value>Еженедельная награда</value>
+  </data>
+  <data name="quests/bonuses/halloween/4/body" xml:space="preserve">
+    <value>Этот саркофаг выдаётся за выполнение всех задач за время проведения Хэллоуина.</value>
+  </data>
+  <data name="quests/bonuses/halloween/4/header" xml:space="preserve">
+    <value>Эпическая награда</value>
+  </data>
+  <data name="tank_params/desc/aimingTime_Secondary" xml:space="preserve">
+    <value>Время, за которое прицел уменьшается в 2,5 раза.</value>
+  </data>
+  <data name="tank_params/desc/avgDamagePerMinute_Secondary" xml:space="preserve">
+    <value>Количество урона, потенциально наносимого противнику за 1 минуту при постоянном пробитии брони.</value>
+  </data>
+  <data name="tank_params/desc/avgDamage_Secondary" xml:space="preserve">
+    <value>Средний урон, наносимый базовым снарядом за один выстрел при пробитии брони.</value>
+  </data>
+  <data name="tank_params/desc/avgPiercingPower_Secondary" xml:space="preserve">
+    <value>Средняя толщина брони, пробиваемая базовым снарядом с учетом его нормализации.</value>
+  </data>
+  <data name="tank_params/desc/clipFireRate_Secondary" xml:space="preserve">
+    <value>Время между выстрелом последнего снаряда и заряжанием нового магазина. / Время между выстрелом снаряда и заряжанием следующего снаряда в том же магазине. / Количество снарядов в одном магазине.</value>
+  </data>
+  <data name="tank_params/desc/paramTitle_PrimaryTurret" xml:space="preserve">
+    <value>Комплекс параметров, показывающий эффективность основной башни.</value>
+  </data>
+  <data name="tank_params/desc/paramTitle_SecondaryTurret" xml:space="preserve">
+    <value>Комплекс параметров, показывающий эффективность вспомогательной башни.</value>
+  </data>
+  <data name="tank_params/desc/pitchLimits_Secondary" xml:space="preserve">
+    <value>Максимальные углы, на которые орудие отклоняется по вертикали вниз и вверх относительно его расположения по умолчанию.</value>
+  </data>
+  <data name="tank_params/desc/relativePower_Secondary" xml:space="preserve">
+    <value>Комплекс параметров, показывающий эффективность уничтожения противника огнём орудия вспомогательной башни.</value>
+  </data>
+  <data name="tank_params/desc/reloadTimeSecs_Secondary" xml:space="preserve">
+    <value>Время, за которое орудие будет готово к очередному выстрелу.</value>
+  </data>
+  <data name="tank_params/desc/reloadTime_Secondary" xml:space="preserve">
+    <value>Количество выстрелов в минуту.</value>
+  </data>
+  <data name="tank_params/desc/shotDispersionAngle_Secondary" xml:space="preserve">
+    <value>Показывает, на сколько метров снаряд может отклониться от точки прицеливания за каждые 100 метров расстояния до цели.</value>
+  </data>
+  <data name="tank_params/desc/turretArmor_Primary" xml:space="preserve">
+    <value>Толщина брони основной башни: лоб/борт/корма соответственно.</value>
+  </data>
+  <data name="tank_params/desc/turretArmor_Secondary" xml:space="preserve">
+    <value>Толщина брони вспомогательной башни: лоб/борт/корма соответственно.</value>
+  </data>
+  <data name="tank_params/desc/turretRotationSpeed_Secondary" xml:space="preserve">
+    <value>Количество градусов, на которое повернётся башня за 1 секунду.</value>
+  </data>
+  <data name="tank_params/desc/turretYawLimits_Secondary" xml:space="preserve">
+    <value>Максимальные углы поворота башни относительно продольной оси машины при неподвижном корпусе.</value>
   </data>
 </root>

@@ -864,4 +864,13 @@
   <data name="type/domination30x30/name" xml:space="preserve">
     <value>Encounter Battle</value>
   </data>
+  <data name="120_kharkiv_halloween/description" xml:space="preserve">
+    <value>The Armored Afterlife, where Leviathan reigns over an endless battle.</value>
+  </data>
+  <data name="120_kharkiv_halloween/name" xml:space="preserve">
+    <value>Dark Crucible</value>
+  </data>
+  <data name="type/leviathan/description" xml:space="preserve">
+    <value>Banish Leviathan before it can escape to the Mortal Plane.</value>
+  </data>
 </root>

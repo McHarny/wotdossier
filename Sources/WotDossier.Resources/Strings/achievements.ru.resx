@@ -2364,4 +2364,40 @@
   <data name="warrior_standard_descr" xml:space="preserve">
     <value>    %(condition)s — Стандартный бой, Штурм, Встречный бой.</value>
   </data>
+  <data name="HE17A1" xml:space="preserve">
+    <value>«...И восстали машины из пепла ядерного огня...»</value>
+  </data>
+  <data name="HE17A1_condition" xml:space="preserve">
+    <value>Одержать 25 побед над Левиафаном.</value>
+  </data>
+  <data name="HE17A1_descr" xml:space="preserve">
+    <value>Вы победили Левиафана 25 раз в рамках события «Вторжение Левиафана» 2017 года.</value>
+  </data>
+  <data name="HE17A1_notification" xml:space="preserve">
+    <value>Вы победили Левиафана 25 раз!</value>
+  </data>
+  <data name="HE17A2" xml:space="preserve">
+    <value>«Десять жизней»</value>
+  </data>
+  <data name="HE17A2_condition" xml:space="preserve">
+    <value>Победить Левиафана 10 раз, не будучи уничтоженным в бою.</value>
+  </data>
+  <data name="HE17A2_descr" xml:space="preserve">
+    <value>В рамках события «Вторжение Левиафана» 2017 года вы победили Левиафана 10 раз и не были уничтожены в этих боях.</value>
+  </data>
+  <data name="HE17A2_notification" xml:space="preserve">
+    <value>Вы победили Левиафана 10 раз и не были уничтожены в этих боях!</value>
+  </data>
+  <data name="HE17A3" xml:space="preserve">
+    <value>«Граница на замке»</value>
+  </data>
+  <data name="HE17A3_condition" xml:space="preserve">
+    <value>Завершить все задачи в рамках события «Вторжение Левиафана» 2017 года.</value>
+  </data>
+  <data name="HE17A3_descr" xml:space="preserve">
+    <value>Вы завершили все задачи в рамках события «Вторжение Левиафана» 2017 года.</value>
+  </data>
+  <data name="HE17A3_notification" xml:space="preserve">
+    <value>Все задачи события «Вторжение Левиафана» 2017 года завершены!</value>
+  </data>
 </root>

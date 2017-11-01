@@ -883,4 +883,13 @@
   <data name="type/domination30x30/name" xml:space="preserve">
     <value>Встречный бой</value>
   </data>
+  <data name="120_kharkiv_halloween/description" xml:space="preserve">
+    <value>Мир тьмы, искорёженных остовов и горящего топлива, где на полях бесконечных битв господствует Левиафан.</value>
+  </data>
+  <data name="120_kharkiv_halloween/name" xml:space="preserve">
+    <value>Пекло</value>
+  </data>
+  <data name="type/leviathan/description" xml:space="preserve">
+    <value>Победить Левиафана до того, как он доберётся до Врат в мир смертных.</value>
+  </data>
 </root>

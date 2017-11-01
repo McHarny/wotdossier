@@ -129,7 +129,7 @@ namespace WotDossier.Applications.Parser
                 Formatting = Formatting.Indented,
             };
             settings.Converters.Add(new MyConverter());
-            //File.WriteAllText($"Logs\\{ProcessedVersion}.Packets.json", JsonConvert.SerializeObject(pcList, settings));
+            File.WriteAllText($"Logs\\{ProcessedVersion}.Packets.json", JsonConvert.SerializeObject(pcList, settings));
 
 
 
@@ -168,52 +168,61 @@ namespace WotDossier.Applications.Parser
                     Time = TimeSpan.FromSeconds(time),
                     Clock = time
                 };
-                //battle level setup 
-                if (packet.StreamPacketType == 0x00)
-                {
-                    _log.Trace("Process packet 0x00");
-                    ProcessPacketBattleLevel(packet);
-                }
-                else
-                    //player position
-                if (packet.StreamPacketType == PacketPosition)
-                {
-                    _log.Trace("Process packet 'Player position'");
-                    ProcessPacketPlayerPosition(packet);
-                }
-                else
-                    //minimap click
-                if (packet.StreamPacketType == 0x21)
-                {
-                    _log.Trace("Process packet 0x21");
-                    ProcessPacket_0x21(packet);
-                }
-                else
-                    //replay version
-                if (packet.StreamPacketType == PacketVersion)
-                {
-                    _log.Trace($"Process version packet {PacketVersion}");
-                    ProcessPacket_Version(packet);
-                }
-                else
-                    //in game updates
-                if (packet.StreamPacketType == PacketBattleUpdateEvent)
-                {
-                    _log.Trace("Process packet 0x08");
-                    ProcessPacketStateUpdate(packet);
-                }
-                else if (packet.StreamPacketType == PacketHealth)
-                {
-                    _log.Trace("Process packet 0x07");
-                    ProcessPacketHealth(packet);
-                }
-                else
-                    //chat
-                if (packet.StreamPacketType == PacketChat)
-                {
-                    _log.Trace("Process packet 0x1f");
-                    ProcessPacket_0x1f(packet);
-                }
+	            try
+	            {
+
+		            //battle level setup 
+		            if (packet.StreamPacketType == 0x00)
+		            {
+			            _log.Trace("Process packet 0x00");
+			            ProcessPacketBattleLevel(packet);
+		            }
+		            else
+			            //player position
+		            if (packet.StreamPacketType == PacketPosition)
+		            {
+			            _log.Trace("Process packet 'Player position'");
+			            ProcessPacketPlayerPosition(packet);
+		            }
+		            else
+			            //minimap click
+		            if (packet.StreamPacketType == 0x21)
+		            {
+			            _log.Trace("Process packet 0x21");
+			            ProcessPacket_0x21(packet);
+		            }
+		            else
+			            //replay version
+		            if (packet.StreamPacketType == PacketVersion)
+		            {
+			            _log.Trace($"Process version packet {PacketVersion}");
+			            ProcessPacket_Version(packet);
+		            }
+		            else
+			            //in game updates
+		            if (packet.StreamPacketType == PacketBattleUpdateEvent)
+		            {
+			            _log.Trace("Process packet 0x08");
+			            ProcessPacketStateUpdate(packet);
+		            }
+		            else if (packet.StreamPacketType == PacketHealth)
+		            {
+			            _log.Trace("Process packet 0x07");
+			            ProcessPacketHealth(packet);
+		            }
+		            else
+			            //chat
+		            if (packet.StreamPacketType == PacketChat)
+		            {
+			            _log.Trace("Process packet 0x1f");
+			            ProcessPacket_0x1f(packet);
+		            }
+	            }
+	            catch(Exception e)
+	            {
+		            _log.Error($"Can't process packet {packet}. Error: {e}");
+		            packet.Type = PacketType.Unknown;
+	            }
                 pcList.Add(packet);
             }
 

@@ -8,7 +8,7 @@ namespace WotDossier.Common.Reflection
     /// <summary>
     /// Replection extension methods 
     /// </summary>
-    public static class ReflectionExtensions
+    public static partial class ReflectionExtensions
     {
         /// <summary>
         /// Gets the public properties.

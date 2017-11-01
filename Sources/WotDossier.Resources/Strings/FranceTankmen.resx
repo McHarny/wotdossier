@@ -4848,4 +4848,310 @@
   <data name="names/fran11045" xml:space="preserve">
     <value>Viviane</value>
   </data>
+  <data name="names/fraevent4001" xml:space="preserve">
+    <value>Bergeron</value>
+  </data>
+  <data name="names/fraevent4002" xml:space="preserve">
+    <value>Bergman</value>
+  </data>
+  <data name="names/fraevent4003" xml:space="preserve">
+    <value>Blackard</value>
+  </data>
+  <data name="names/fraevent4004" xml:space="preserve">
+    <value>Blish</value>
+  </data>
+  <data name="names/fraevent4005" xml:space="preserve">
+    <value>Bogue</value>
+  </data>
+  <data name="names/fraevent4006" xml:space="preserve">
+    <value>Bretz</value>
+  </data>
+  <data name="names/fraevent4007" xml:space="preserve">
+    <value>Cable</value>
+  </data>
+  <data name="names/fraevent4008" xml:space="preserve">
+    <value>Campbell</value>
+  </data>
+  <data name="names/fraevent4009" xml:space="preserve">
+    <value>Castro</value>
+  </data>
+  <data name="names/fraevent4010" xml:space="preserve">
+    <value>Coleman</value>
+  </data>
+  <data name="names/fraevent4011" xml:space="preserve">
+    <value>Duran</value>
+  </data>
+  <data name="names/fraevent4012" xml:space="preserve">
+    <value>Evans</value>
+  </data>
+  <data name="names/fraevent4013" xml:space="preserve">
+    <value>Fleming</value>
+  </data>
+  <data name="names/fraevent4014" xml:space="preserve">
+    <value>Flora</value>
+  </data>
+  <data name="names/fraevent4015" xml:space="preserve">
+    <value>Fox</value>
+  </data>
+  <data name="names/fraevent4016" xml:space="preserve">
+    <value>Gonzales</value>
+  </data>
+  <data name="names/fraevent4017" xml:space="preserve">
+    <value>Grubner</value>
+  </data>
+  <data name="names/fraevent4018" xml:space="preserve">
+    <value>Hoberman</value>
+  </data>
+  <data name="names/fraevent4019" xml:space="preserve">
+    <value>Hutchins</value>
+  </data>
+  <data name="names/fraevent4020" xml:space="preserve">
+    <value>Inman</value>
+  </data>
+  <data name="names/fraevent4021" xml:space="preserve">
+    <value>Janowitz</value>
+  </data>
+  <data name="names/fraevent4022" xml:space="preserve">
+    <value>Jobe</value>
+  </data>
+  <data name="names/fraevent4023" xml:space="preserve">
+    <value>Kercher</value>
+  </data>
+  <data name="names/fraevent4024" xml:space="preserve">
+    <value>Kim</value>
+  </data>
+  <data name="names/fraevent4025" xml:space="preserve">
+    <value>Knox</value>
+  </data>
+  <data name="names/fraevent4026" xml:space="preserve">
+    <value>Krasny</value>
+  </data>
+  <data name="names/fraevent4027" xml:space="preserve">
+    <value>Layman</value>
+  </data>
+  <data name="names/fraevent4028" xml:space="preserve">
+    <value>Lepanen</value>
+  </data>
+  <data name="names/fraevent4029" xml:space="preserve">
+    <value>Maclean</value>
+  </data>
+  <data name="names/fraevent4030" xml:space="preserve">
+    <value>Mates</value>
+  </data>
+  <data name="names/fraevent4031" xml:space="preserve">
+    <value>McCready</value>
+  </data>
+  <data name="names/fraevent4032" xml:space="preserve">
+    <value>Midgley</value>
+  </data>
+  <data name="names/fraevent4033" xml:space="preserve">
+    <value>Moss</value>
+  </data>
+  <data name="names/fraevent4034" xml:space="preserve">
+    <value>Nichols</value>
+  </data>
+  <data name="names/fraevent4035" xml:space="preserve">
+    <value>Niswander</value>
+  </data>
+  <data name="names/fraevent4036" xml:space="preserve">
+    <value>Patoprsty</value>
+  </data>
+  <data name="names/fraevent4037" xml:space="preserve">
+    <value>Petraitis</value>
+  </data>
+  <data name="names/fraevent4038" xml:space="preserve">
+    <value>Slegeir</value>
+  </data>
+  <data name="names/fraevent4039" xml:space="preserve">
+    <value>Smith</value>
+  </data>
+  <data name="names/fraevent4040" xml:space="preserve">
+    <value>Sutton</value>
+  </data>
+  <data name="names/fraevent4041" xml:space="preserve">
+    <value>Taylor</value>
+  </data>
+  <data name="names/fraevent4042" xml:space="preserve">
+    <value>Treadwell</value>
+  </data>
+  <data name="names/fraevent4043" xml:space="preserve">
+    <value>Udovickij</value>
+  </data>
+  <data name="names/fraevent4044" xml:space="preserve">
+    <value>Wang</value>
+  </data>
+  <data name="names/fraevent4045" xml:space="preserve">
+    <value>Wattenbarger</value>
+  </data>
+  <data name="names/fraevent4046" xml:space="preserve">
+    <value>Welch</value>
+  </data>
+  <data name="names/fraevent4047" xml:space="preserve">
+    <value>Yenomit</value>
+  </data>
+  <data name="names/fraevent4048" xml:space="preserve">
+    <value>Zagorski</value>
+  </data>
+  <data name="names/fraeventn4001" xml:space="preserve">
+    <value>Alex</value>
+  </data>
+  <data name="names/fraeventn4002" xml:space="preserve">
+    <value>Andy</value>
+  </data>
+  <data name="names/fraeventn4003" xml:space="preserve">
+    <value>Bill</value>
+  </data>
+  <data name="names/fraeventn4004" xml:space="preserve">
+    <value>Brett</value>
+  </data>
+  <data name="names/fraeventn4005" xml:space="preserve">
+    <value>Bryan</value>
+  </data>
+  <data name="names/fraeventn4006" xml:space="preserve">
+    <value>Byron</value>
+  </data>
+  <data name="names/fraeventn4007" xml:space="preserve">
+    <value>Clint</value>
+  </data>
+  <data name="names/fraeventn4008" xml:space="preserve">
+    <value>Dajo</value>
+  </data>
+  <data name="names/fraeventn4009" xml:space="preserve">
+    <value>Dan</value>
+  </data>
+  <data name="names/fraeventn4010" xml:space="preserve">
+    <value>David</value>
+  </data>
+  <data name="names/fraeventn4011" xml:space="preserve">
+    <value>Devin</value>
+  </data>
+  <data name="names/fraeventn4012" xml:space="preserve">
+    <value>Dylan</value>
+  </data>
+  <data name="names/fraeventn4013" xml:space="preserve">
+    <value>Elliot</value>
+  </data>
+  <data name="names/fraeventn4014" xml:space="preserve">
+    <value>Evad</value>
+  </data>
+  <data name="names/fraeventn4015" xml:space="preserve">
+    <value>Gary</value>
+  </data>
+  <data name="names/fraeventn4016" xml:space="preserve">
+    <value>Geoff</value>
+  </data>
+  <data name="names/fraeventn4017" xml:space="preserve">
+    <value>Geoffrey</value>
+  </data>
+  <data name="names/fraeventn4018" xml:space="preserve">
+    <value>Hyung</value>
+  </data>
+  <data name="names/fraeventn4019" xml:space="preserve">
+    <value>Jason</value>
+  </data>
+  <data name="names/fraeventn4020" xml:space="preserve">
+    <value>John</value>
+  </data>
+  <data name="names/fraeventn4021" xml:space="preserve">
+    <value>Josef</value>
+  </data>
+  <data name="names/fraeventn4022" xml:space="preserve">
+    <value>Kevin</value>
+  </data>
+  <data name="names/fraeventn4023" xml:space="preserve">
+    <value>Konstantin</value>
+  </data>
+  <data name="names/fraeventn4024" xml:space="preserve">
+    <value>Luis</value>
+  </data>
+  <data name="names/fraeventn4025" xml:space="preserve">
+    <value>Martin</value>
+  </data>
+  <data name="names/fraeventn4026" xml:space="preserve">
+    <value>Matt</value>
+  </data>
+  <data name="names/fraeventn4027" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="names/fraeventn4028" xml:space="preserve">
+    <value>Michael</value>
+  </data>
+  <data name="names/fraeventn4029" xml:space="preserve">
+    <value>Mike</value>
+  </data>
+  <data name="names/fraeventn4030" xml:space="preserve">
+    <value>Nathan</value>
+  </data>
+  <data name="names/fraeventn4031" xml:space="preserve">
+    <value>Patrick</value>
+  </data>
+  <data name="names/fraeventn4032" xml:space="preserve">
+    <value>Paul</value>
+  </data>
+  <data name="names/fraeventn4033" xml:space="preserve">
+    <value>Pete</value>
+  </data>
+  <data name="names/fraeventn4034" xml:space="preserve">
+    <value>Phil</value>
+  </data>
+  <data name="names/fraeventn4035" xml:space="preserve">
+    <value>Richard</value>
+  </data>
+  <data name="names/fraeventn4036" xml:space="preserve">
+    <value>Rick</value>
+  </data>
+  <data name="names/fraeventn4037" xml:space="preserve">
+    <value>Robert</value>
+  </data>
+  <data name="names/fraeventn4038" xml:space="preserve">
+    <value>Ryan</value>
+  </data>
+  <data name="names/fraeventn4039" xml:space="preserve">
+    <value>Samuel</value>
+  </data>
+  <data name="names/fraeventn4040" xml:space="preserve">
+    <value>Scott</value>
+  </data>
+  <data name="names/fraeventn4041" xml:space="preserve">
+    <value>Stephen</value>
+  </data>
+  <data name="names/fraeventn4042" xml:space="preserve">
+    <value>Tim</value>
+  </data>
+  <data name="names/fraeventn4043" xml:space="preserve">
+    <value>Tyler</value>
+  </data>
+  <data name="ranksfra/banshee" xml:space="preserve">
+    <value>Banshee</value>
+  </data>
+  <data name="ranksfra/daemon" xml:space="preserve">
+    <value>Zombie</value>
+  </data>
+  <data name="ranksfra/ghost" xml:space="preserve">
+    <value>Démon</value>
+  </data>
+  <data name="ranksfra/jinn" xml:space="preserve">
+    <value>Fantôme</value>
+  </data>
+  <data name="ranksfra/mogwai" xml:space="preserve">
+    <value>Ombre</value>
+  </data>
+  <data name="ranksfra/penumbra" xml:space="preserve">
+    <value>Mauvais esprit</value>
+  </data>
+  <data name="ranksfra/phantasm" xml:space="preserve">
+    <value>Ectoplasme</value>
+  </data>
+  <data name="ranksfra/revenant" xml:space="preserve">
+    <value>Revenant</value>
+  </data>
+  <data name="ranksfra/shadow" xml:space="preserve">
+    <value>Spectre</value>
+  </data>
+  <data name="ranksfra/spectre" xml:space="preserve">
+    <value>Esprit</value>
+  </data>
+  <data name="ranksfra/wraith" xml:space="preserve">
+    <value>Apparition</value>
+  </data>
 </root>

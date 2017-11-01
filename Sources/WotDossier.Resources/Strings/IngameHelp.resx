@@ -384,4 +384,16 @@
   <data name="crosshairControls/timeLeft" xml:space="preserve">
     <value>7:42</value>
   </data>
+  <data name="halloween_turret_hint/DoubleClickFiring" xml:space="preserve">
+    <value>Double-click $LMB$ to fire both guns when aiming at the same target.</value>
+  </data>
+  <data name="halloween_turret_hint/FiringSecondTurret" xml:space="preserve">
+    <value>Press $Q$ to fire the secondary gun.</value>
+  </data>
+  <data name="halloween_turret_hint/noBindingDoubleClickFiring" xml:space="preserve">
+    <value>The key for firing the main gun is not assigned.</value>
+  </data>
+  <data name="halloween_turret_hint/noBindingFiringSecondTurret" xml:space="preserve">
+    <value>The key for firing the secondary gun is not assigned.</value>
+  </data>
 </root>

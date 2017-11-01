@@ -513,4 +513,10 @@
   <data name="tankman/skills/fireFighting" xml:space="preserve">
     <value>Пожаротушение</value>
   </data>
+  <data name="vehicle/tags/HE2017_2C/name" xml:space="preserve">
+    <value>Штейн</value>
+  </data>
+  <data name="vehicle/tags/HE2017_F1/name" xml:space="preserve">
+    <value>Фрэнки</value>
+  </data>
 </root>

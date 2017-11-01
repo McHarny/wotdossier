@@ -467,8 +467,12 @@
     <EmbeddedResource Include="Strings\Achievements.ru.resx" />
     <EmbeddedResource Include="Strings\AOGAS.resx" />
     <EmbeddedResource Include="Strings\AOGAS.ru.resx" />
-    <EmbeddedResource Include="Strings\Arenas.resx" />
-    <EmbeddedResource Include="Strings\Arenas.ru.resx" />
+    <EmbeddedResource Include="Strings\Arenas.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\Arenas.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings\Artefacts.resx" />
     <EmbeddedResource Include="Strings\Artefacts.ru.resx" />
     <EmbeddedResource Include="Strings\Badge.resx" />
@@ -542,7 +546,9 @@
     <EmbeddedResource Include="Strings\IgrVehicles.resx" />
     <EmbeddedResource Include="Strings\IgrVehicles.ru.resx" />
     <EmbeddedResource Include="Strings\IngameGui.resx" />
-    <EmbeddedResource Include="Strings\IngameGui.ru.resx" />
+    <EmbeddedResource Include="Strings\IngameGui.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings\IngameHelp.resx" />
     <EmbeddedResource Include="Strings\IngameHelp.ru.resx" />
     <EmbeddedResource Include="Strings\Invites.resx" />
@@ -562,8 +568,11 @@
     <EmbeddedResource Include="Strings\Menu.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Menu.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Strings\Menu.ru.resx" />
+    <EmbeddedResource Include="Strings\Menu.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings\Messenger.resx" />
     <EmbeddedResource Include="Strings\Messenger.ru.resx" />
     <EmbeddedResource Include="Strings\Miniclient.resx" />
@@ -587,6 +596,7 @@
     <EmbeddedResource Include="Strings\Profile.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Profile.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Strings\Profile.ru.resx" />
     <EmbeddedResource Include="Strings\Quests.resx" />
@@ -602,6 +612,7 @@
     <EmbeddedResource Include="Strings\Settings.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Strings\Settings.ru.resx" />
     <EmbeddedResource Include="Strings\SwedenTankmen.resx" />
@@ -2338,10 +2349,26 @@
   <ItemGroup>
     <Resource Include="Achievements\Images\Custom\battleHero.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Minimap\120_kharkiv_halloween.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Stats\120_kharkiv_halloween.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\france-F77_FCM_2C_HE2017.png" />
+    <Resource Include="Vehicles\Images\Vehicle\france-F80_FCM_F1_Mle1940_HE2017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Vehicles\Images\Vehicle\germany-G150_Leviathan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Vehicles\Images\Vehicle\unknown-tank.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" />
+      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" BuildVersion_DetectChanges="True" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

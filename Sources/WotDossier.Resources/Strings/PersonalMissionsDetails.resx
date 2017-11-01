@@ -1032,7 +1032,7 @@
     <value>• Win the battle.</value>
   </data>
   <data name="quest_1_5_4_condition_description_vehicleStun" xml:space="preserve">
-    <value>• Stun an enemy heavy tank or tank destroyer for 30 seconds in total</value>
+    <value>Stun an enemy heavy tank or tank destroyer for 30 seconds in total</value>
   </data>
   <data name="quest_1_5_4_condition_main" xml:space="preserve">
     <value>• Stun an enemy heavy tank or tank destroyer for at least 30 seconds in total.</value>
@@ -4049,7 +4049,7 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_4_4_7_condition_description_vehicleKills" xml:space="preserve">
-    <value>• Destroy 4 vehicles, having received no prior damage to your vehicle</value>
+    <value>Destroy 4 vehicles, having received no prior damage to your vehicle</value>
   </data>
   <data name="quest_4_4_7_condition_main" xml:space="preserve">
     <value>• Destroy at least 4 enemy vehicles, having received no prior damage to your vehicle.</value>
@@ -4206,7 +4206,7 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_4_5_4_condition_description_vehicleStun" xml:space="preserve">
-    <value>• Stun an enemy heavy tank or tank destroyer for 120 seconds in total</value>
+    <value>Stun an enemy heavy tank or tank destroyer for 120 seconds in total</value>
   </data>
   <data name="quest_4_5_4_condition_main" xml:space="preserve">
     <value>• Stun an enemy heavy tank or tank destroyer for at least 120 seconds in total.</value>

@@ -1772,11 +1772,20 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Event Battle.
+        ///   Looks up a localized string similar to Event Battle (old).
         /// </summary>
         public static string BattleType_Event {
             get {
                 return ResourceManager.GetString("BattleType_Event", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Event Battles.
+        /// </summary>
+        public static string BattleType_Event2 {
+            get {
+                return ResourceManager.GetString("BattleType_Event2", resourceCulture);
             }
         }
         
@@ -1822,6 +1831,15 @@ namespace WotDossier.Resources {
         public static string BattleType_Ladder {
             get {
                 return ResourceManager.GetString("BattleType_Ladder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Leviathan&apos;s Onslaught.
+        /// </summary>
+        public static string BattleType_leviathan {
+            get {
+                return ResourceManager.GetString("BattleType_leviathan", resourceCulture);
             }
         }
         

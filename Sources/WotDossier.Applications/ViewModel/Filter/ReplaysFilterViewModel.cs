@@ -545,8 +545,9 @@ namespace WotDossier.Applications.ViewModel.Filter
                 new ListItem<BattleType>(BattleType.Training, Resources.Resources.BattleType_Training), 
                 new ListItem<BattleType>(BattleType.Sorties,Resources.Resources.BattleType_Sorties), 
                 new ListItem<BattleType>(BattleType.FortBattles,Resources.Resources.BattleType_FortBattles), 
-                new ListItem<BattleType>(BattleType.Event,Resources.Resources.BattleType_Event), 
-            };
+                new ListItem<BattleType>(BattleType.Event,Resources.Resources.BattleType_Event),
+	            new ListItem<BattleType>(BattleType.Event2,Resources.Resources.BattleType_Event2),
+			};
 
         /// <summary>
         /// Gets the battle types.

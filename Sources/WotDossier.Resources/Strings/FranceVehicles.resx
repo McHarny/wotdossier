@@ -2602,4 +2602,103 @@ mle. 1934</value>
   <data name="Turret_2_Bat_Chatillon155_55" xml:space="preserve">
     <value>Batignolles-Châtillon 155 mle. 56</value>
   </data>
+  <data name="Chassis_F77_FCM_2C_HE2017" xml:space="preserve">
+    <value>Fallen FCM 2C</value>
+  </data>
+  <data name="Chassis_F79_FCM_F1_Mle1940" xml:space="preserve">
+    <value>FCM F1</value>
+  </data>
+  <data name="Chassis_F80_FCM_F1_Mle1940_HE2017" xml:space="preserve">
+    <value>Fallen FCM F1</value>
+  </data>
+  <data name="ER_28_HE2017" xml:space="preserve">
+    <value>Fallen Radio</value>
+  </data>
+  <data name="F77_FCM_2C_HE2017" xml:space="preserve">
+    <value>Stein</value>
+  </data>
+  <data name="F77_FCM_2C_HE2017_Minion" xml:space="preserve">
+    <value>Fallen FCM 2C Minion</value>
+  </data>
+  <data name="F77_FCM_2C_HE2017_descr" xml:space="preserve">
+    <value>A fallen version of the French FCM 2C tank, from a long-forgotten battle. It is equipped with two fully operable turrets. It can be used only during the Halloween Event on the Dark Crucible map. The armor of the Stein is on par with Tier VIII heavy tanks, with more powerful variants of the front and rear turrets well-suited for fighting Leviathan and its Minions. The Stein is faster to accelerate than the Franken and has heavier armor. While its lighter guns do less damage at long range, its faster reload speeds and a burst-fire secondary turret make it especially useful for close-up brawling. The vehicle's secondary turret with limited traverse angles faces backward by default, making it essential to attack in a broadside position in order to focus its full firepower on targets.</value>
+  </data>
+  <data name="F77_FCM_2C_HE2017_short" xml:space="preserve">
+    <value>Stein</value>
+  </data>
+  <data name="F79_FCM_F1_Mle1940" xml:space="preserve">
+    <value>FCM F1</value>
+  </data>
+  <data name="F79_FCM_F1_Mle1940_descr" xml:space="preserve">
+    <value>A very nice tank indeed.</value>
+  </data>
+  <data name="F79_FCM_F1_Mle1940_short" xml:space="preserve">
+    <value>FCM F1</value>
+  </data>
+  <data name="F80_FCM_F1_Mle1940_HE2017" xml:space="preserve">
+    <value>Franken</value>
+  </data>
+  <data name="F80_FCM_F1_Mle1940_HE2017_Minion" xml:space="preserve">
+    <value>Fallen FCM F1 Minion</value>
+  </data>
+  <data name="F80_FCM_F1_Mle1940_HE2017_descr" xml:space="preserve">
+    <value>A fallen version of the French FCM F1 tank, from a long-forgotten battle... It is equipped with 2 fully operable turrets. It can be used only during the Halloween Event on the Dark Crucible map. The armor of the Fallen FCM F1 Tank is on par with Tier VIII tank destroyers, with more powerful variants of the front and rear turrets well-suited for fighting Leviathan and his minions. The Fallen FCM F1 is slower to accelerate than the Fallen FCM 2C, and with lighter armor. But its heavier cannons do more damage at range. Its longer reload times mean that it is most suited to sniping at a distance. Its secondary turret faces forward by default with a limited angle of traversal, encouraging forward facing attacks, although primary turret depression angles improve somewhat in side-on positions.</value>
+  </data>
+  <data name="F80_FCM_F1_Mle1940_HE2017_short" xml:space="preserve">
+    <value>Franken</value>
+  </data>
+  <data name="Gun_1_F77_FCM_2C_HE2017" xml:space="preserve">
+    <value>Spectral 105 mm</value>
+  </data>
+  <data name="Gun_2_F77_FCM_2C_HE2017" xml:space="preserve">
+    <value>Spectral 35 mm</value>
+  </data>
+  <data name="Hispano_219CV_V8_HE2017" xml:space="preserve">
+    <value>Fallen Engine</value>
+  </data>
+  <data name="Turret_1_F77_FCM_2C_HE2017" xml:space="preserve">
+    <value>Fallen FCM 2C Main</value>
+  </data>
+  <data name="Turret_1_F79_FCM_F1_Mle1940" xml:space="preserve">
+    <value>FCM F1</value>
+  </data>
+  <data name="Turret_1_F80_FCM_F1_Mle1940_HE2017" xml:space="preserve">
+    <value>Fallen FCM F1 Main</value>
+  </data>
+  <data name="Turret_2_F77_FCM_2C_HE2017" xml:space="preserve">
+    <value>Fallen FCM 2C Secondary</value>
+  </data>
+  <data name="Turret_2_F80_FCM_F1_Mle1940_HE2017" xml:space="preserve">
+    <value>Fallen FCM F1 Secondary</value>
+  </data>
+  <data name="_105mm_APCR_FCM-2C_HE2017" xml:space="preserve">
+    <value>Hurlant A-LS</value>
+  </data>
+  <data name="_105mm_AP_FCM-2C_HE2017" xml:space="preserve">
+    <value>Gémissant A-LS</value>
+  </data>
+  <data name="_105mm_HE_FCM-2C_HE2017" xml:space="preserve">
+    <value>Grondant A-LS</value>
+  </data>
+  <data name="_35mm_FCM-2C_HE2017" xml:space="preserve">
+    <value>Criant A-LS</value>
+  </data>
+  <data name="_47mm_Odr_mle._1936_HE2017" xml:space="preserve">
+    <value>Criant A-LS</value>
+  </data>
+  <data name="_47mm_SA37_ameliore_HE2017" xml:space="preserve">
+    <value>Spectral 47 mm SA37 amélioré</value>
+  </data>
+  <data name="_90mm_FrtPrf1944_HE2017" xml:space="preserve">
+    <value>Hurlant A-LS</value>
+  </data>
+  <data name="_90mm_OE_mle_1924_HE2017" xml:space="preserve">
+    <value>Grondant A-LS</value>
+  </data>
+  <data name="_90mm_Prf1941_HE2017" xml:space="preserve">
+    <value>Gémissant A-LS</value>
+  </data>
+  <data name="_90mm_canon_DCA_45_HE2017" xml:space="preserve">
+    <value>Spectral 90 mm DCA 45</value>
+  </data>
 </root>

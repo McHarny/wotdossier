@@ -92,6 +92,32 @@
   <ItemGroup>
     <Compile Include="ApiRequestException.cs" />
     <Compile Include="CountryHelper.cs" />
+    <Compile Include="DataAccess\DataRecordExtension.cs" />
+    <Compile Include="DataAccess\DataRowRecord.cs" />
+    <Compile Include="DataAccess\DbCommandExtension.cs" />
+    <Compile Include="DataAccess\DbRecord.cs" />
+    <Compile Include="DataAccess\DbStatement.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataAccess\DbTypeExtensions.cs" />
+    <Compile Include="DataAccess\Exceptions\CoreSqlException.cs" />
+    <Compile Include="DataAccess\Exceptions\NullDataFieldException.cs" />
+    <Compile Include="DataAccess\Interfaces\IDbParameterValue.cs" />
+    <Compile Include="DataAccess\Interfaces\IJeffDataProviderHelper.cs" />
+    <Compile Include="DataAccess\JeffDataProviderFactory.cs" />
+    <Compile Include="DataAccess\JeffDBContext.cs" />
+    <Compile Include="DataAccess\Providers\MSSQL\SqlDataProviderHelper.cs" />
+    <Compile Include="DataAccess\Providers\MSSQL\SqlStatement.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataAccess\Providers\SQLite\CoreSQLiteException.cs" />
+    <Compile Include="DataAccess\Providers\SQLite\SQLiteDataProviderHelper.cs" />
+    <Compile Include="DataAccess\Providers\SQLite\SQLiteDbTypeExtensions.cs" />
+    <Compile Include="DataAccess\Providers\SQLite\SQLiteStatement.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataAccess\ProviderType.cs" />
+    <Compile Include="DataAccess\XRowRecord.cs" />
     <Compile Include="DataMapper.cs" />
     <Compile Include="DossierRepository.cs" />
     <Compile Include="IDataProvider.cs" />
@@ -160,7 +186,7 @@
   </Target>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" />
+      <UserProperties BuildVersion_DetectChanges="True" BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
