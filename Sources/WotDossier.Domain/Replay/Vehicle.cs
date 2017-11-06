@@ -17,6 +17,8 @@ namespace WotDossier.Domain.Replay
         [DataMember]
         public int team { get; set; }
         [DataMember]
+        public int crewGroup { get; set; }
+        [DataMember]
         public string vehicleType { get; set; }
     }
 }

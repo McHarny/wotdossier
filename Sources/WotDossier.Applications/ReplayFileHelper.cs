@@ -317,6 +317,8 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
             DateTime playTime = DateTime.Parse(replay.datablock_1.dateTime, CultureInfo.GetCultureInfo("ru-RU"));
             Version version = ResolveVersion(replay.datablock_1.Version, playTime);
 
+            var versionId = replay.datablock_1.VersionId;
+
             if (version <= new Version("0.8.1.0"))
             {
                 return new Parser81();
@@ -393,11 +395,13 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
 	        {
 		        return new Parser9191();
 	        }
-	        if (version < new Version("0.9.20.1"))
+            if (versionId < 92001010000)
+            //if (version < new Version("0.9.20.1"))
 	        {
 		        return new Parser920();
 	        }
-			return new Parser9201();
+            
+			return new Parser92011();
         }
 
 

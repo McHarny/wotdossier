@@ -16,6 +16,76 @@ namespace WotDossier.Applications.ViewModel.Replay
         private List<int> _achievements;
 
         private TankDescription _tankDescription;
+
+        public TeamMember(Version version, KeyValuePair<long, Vehicle> vehicle, int replayPlayerTeam,
+            string regionCode, Dictionary<long, Player> players, Dictionary<long, VehicleResult> vehicles)
+        {
+            Id = vehicle.Key;
+
+            TankDescription = Dictionaries.Instance.GetReplayTankDescription(vehicle.Value.vehicleType.Replace(":", "-"), version);
+
+            LevelRange = TankDescription.LevelRange ?? LevelRange.All;
+            Tank = !string.IsNullOrEmpty(TankDescription.Title) ? TankDescription.Title : vehicle.Value.vehicleType;
+            ClanAbbrev = vehicle.Value.clanAbbrev;
+            Name = vehicle.Value.name;
+            FullName = string.Format("{0}{1}", Name, GetClanAbbrev(ClanAbbrev));
+            VehicleType = vehicle.Value.vehicleType;
+            Team = vehicle.Value.team;
+            IsAlive = vehicle.Value.isAlive;
+
+            //ClanDBID = player.Value.clanDBID;
+            //platoonID = player.Value.platoonID;
+
+            //AccountDBID = vehicleResult.Value.accountDBID;
+            //achievements = vehicleResult.Value.achievements;
+            BattleMedals = new List<Medal>();
+            //CapturePoints = vehicleResult.Value.capturePoints;
+            //Credits = vehicleResult.Value.credits;
+            //DamageAssisted = vehicleResult.Value.damageAssisted;
+            //DamageDealt = vehicleResult.Value.damageDealt;
+            //DamageReceived = vehicleResult.Value.damageReceived;
+            //Damaged = vehicleResult.Value.damaged;
+            //DroppedCapturePoints = vehicleResult.Value.droppedCapturePoints;
+            //FreeXp = vehicleResult.Value.freeXP;
+            //Gold = vehicleResult.Value.gold;
+            //HEHits = vehicleResult.Value.he_hits;
+            //Health = vehicleResult.Value.health;
+            //Hits = vehicleResult.Value.hits;
+            //IsTeamKiller = vehicleResult.Value.isTeamKiller;
+            //KillerId = vehicleResult.Value.killerID;
+            //Kills = vehicleResult.Value.kills;
+            //LifeTime = vehicleResult.Value.lifeTime;
+            //Mileage = vehicleResult.Value.mileage;
+            //Pierced = vehicleResult.Value.pierced;
+            //PotentialDamageReceived = vehicleResult.Value.potentialDamageReceived;
+            //DamageBlockedByArmor = vehicleResult.Value.damageBlockedByArmor;
+            //Repair = vehicleResult.Value.repair;
+            //Shots = vehicleResult.Value.shots;
+            //ShotsReceived = vehicleResult.Value.shotsReceived;
+            //Spotted = vehicleResult.Value.spotted;
+            //StunNum = vehicleResult.Value.stunNum;
+            //DamageAssistedStun = vehicleResult.Value.damageAssistedStun;
+            //TDamage = $"{vehicleResult.Value.tkills}/{vehicleResult.Value.tdamageDealt}";
+            //TypeCompDescr = vehicleResult.Value.typeCompDescr;
+            //Xp = vehicleResult.Value.xp;
+            //SniperDamageDealt = vehicleResult.Value.sniperDamageDealt;
+
+            TeamMate = Team == replayPlayerTeam;
+
+            StatisticLink = string.Format(RatingHelper.NOOBMETER_STATISTIC_LINK_FORMAT, GetServer(regionCode), GetName(regionCode));
+
+            //DeathReason = (DeathReason)vehicleResult.Value.deathReason;
+
+            //if (vehicles.TryGetValue(KillerId, out var vehKiller))
+            //{
+            //    if (players.TryGetValue(vehKiller.accountDBID, out var killer))
+            //        Killer = killer;
+            //}
+            //NoDamageDirectHitsReceived = vehicleResult.Value.noDamageShotsReceived;
+            //PiercingsReceived = vehicleResult.Value.piercedReceived;
+            //HEHitsReceived = vehicleResult.Value.heHitsReceived;
+        }
+
         public TeamMember(Version version, KeyValuePair<long, Player> player, KeyValuePair<long, VehicleResult> vehicleResult, KeyValuePair<long, Vehicle> vehicle, int replayPlayerTeam, string regionCode, Dictionary<long, Player> players, Dictionary<long, VehicleResult> vehicles)
         {
             Id = vehicle.Key;

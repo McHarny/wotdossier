@@ -703,15 +703,19 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         private static List<TeamMember> GetTeamMembers(Domain.Replay.Replay replay, int myTeamId)
         {
-            List<KeyValuePair<long, Player>> players = replay.datablock_battle_result.players.ToList();
-            List<KeyValuePair<long, VehicleResult>> vehicleResults = replay.datablock_battle_result.vehicles.ToList();
-            List<KeyValuePair<long, Vehicle>> vehicles = replay.datablock_1.vehicles.ToList();
-            List<TeamMember> teamMembers =
-                players.Join(vehicleResults, p => p.Key, vr => vr.Value.accountDBID, Tuple.Create)
-                    .Join(vehicles, pVr => pVr.Item2.Key, v => v.Key,
-                        (pVr, v) => new TeamMember(replay.datablock_1.Version, pVr.Item1, pVr.Item2, v, myTeamId, replay.datablock_1.regionCode, replay.datablock_battle_result.players, replay.datablock_battle_result.vehicles))
-                    .ToList();
-            return teamMembers;
+            //джойним vehicleResult и players, потом для каждого vehicle, пытаемся найти result+player, если нашли, делаем полноценный TeamMember, если нет то куцый
+            return replay.datablock_1.vehicles
+                .GroupJoin(
+                    replay.datablock_battle_result.players.Join(replay.datablock_battle_result.vehicles,
+                        p => p.Key, vr => vr.Value.accountDBID,
+                        (pair, valuePair) => new {pairPlayer = pair, pairResult = valuePair}), v => v.Key,
+                    res => res.pairResult.Key, (v, outer) => new {veh = v, outer})
+                .SelectMany(seq => seq.outer.DefaultIfEmpty(), (itemVeh, pair) => (pair != null)
+                    ? new TeamMember(replay.datablock_1.Version, pair.pairPlayer, pair.pairResult, itemVeh.veh,
+                        myTeamId, replay.datablock_1.regionCode, replay.datablock_battle_result.players,
+                        replay.datablock_battle_result.vehicles)
+                    : new TeamMember(replay.datablock_1.Version, itemVeh.veh, myTeamId, replay.datablock_1.regionCode,
+                        replay.datablock_battle_result.players, replay.datablock_battle_result.vehicles)).ToList();
         }
 
         private BattleStatus GetBattleStatus(Domain.Replay.Replay replay)
