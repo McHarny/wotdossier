@@ -8,9 +8,9 @@ using System.Windows;
 [assembly: AssemblyTitle("WotDossier.ReplaysManager")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WotDossier.ReplaysManager")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCompany(VersionInfo.CompanyName)]
+[assembly: AssemblyProduct(VersionInfo.ProductName)]
+[assembly: AssemblyCopyright(VersionInfo.Copyright)]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -49,4 +49,5 @@ using System.Windows;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("4.1710.17.8")]
+[assembly: AssemblyVersion("4.17.1109.3")]
+[assembly: AssemblyInformationalVersion(VersionInfo.InformationVersion)]

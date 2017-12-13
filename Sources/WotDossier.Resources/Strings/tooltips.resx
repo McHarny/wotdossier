@@ -8854,7 +8854,7 @@ Battles in the series: %(cardinality)s.</value>
     <value>Unavailable for players in Platoons</value>
   </data>
   <data name="hangar/elen/header/name" xml:space="preserve">
-    <value>Competition: %(name)s</value>
+    <value>%(name)s</value>
   </data>
   <data name="hangar/elen/header/toend" xml:space="preserve">
     <value>Ends in:</value>
@@ -9245,5 +9245,8 @@ You are awarded with one component for completing each final mission in a set.</
   </data>
   <data name="tank_params/desc/turretYawLimits_Secondary" xml:space="preserve">
     <value>Maximum turret traverse angles relative to the longitudinal axis of a vehicle when the hull is stationary.</value>
+  </data>
+  <data name="elen/status/cantJoin/reason/byVehicle" xml:space="preserve">
+    <value>Suitable vehicles</value>
   </data>
 </root>

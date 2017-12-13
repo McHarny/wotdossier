@@ -775,7 +775,7 @@ III УРОВНЯ</value>
     <value>ВЫЙДИТЕ В БОЙ</value>
   </data>
   <data name="chain7/hint/noPremiumVehicle" xml:space="preserve">
-    <value>НЕТ ПРЕМИУМНОЙ
+    <value>НЕТ ПРЕМИУМ
 ТЕХНИКИ</value>
   </data>
   <data name="chain7/hint/selectPremiumVehicle" xml:space="preserve">

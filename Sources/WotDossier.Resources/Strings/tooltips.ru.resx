@@ -234,10 +234,10 @@
     <value>Кредиты</value>
   </data>
   <data name="customization/camouflage/current/drop/body" xml:space="preserve">
-    <value>Удалить текущий камуфляж.</value>
+    <value>Снять текущий камуфляж.</value>
   </data>
   <data name="customization/camouflage/current/drop/header" xml:space="preserve">
-    <value>Удалить камуфляж</value>
+    <value>Снять камуфляж</value>
   </data>
   <data name="customization/horn/current/drop/body" xml:space="preserve">
     <value>Удалить текущий клаксон.</value>
@@ -1098,28 +1098,28 @@
     <value>зимний</value>
   </data>
   <data name="customization/emblemLeft/current/drop/body" xml:space="preserve">
-    <value>Удалить текущую эмблему 1.</value>
+    <value>Снять текущую эмблему 1.</value>
   </data>
   <data name="customization/emblemLeft/current/drop/header" xml:space="preserve">
-    <value>Удалить эмблему 1</value>
+    <value>Снять эмблему 1</value>
   </data>
   <data name="customization/emblemRight/current/drop/body" xml:space="preserve">
-    <value>Удалить текущую эмблему 2.</value>
+    <value>Снять текущую эмблему 2.</value>
   </data>
   <data name="customization/emblemRight/current/drop/header" xml:space="preserve">
-    <value>Удалить эмблему 2</value>
+    <value>Снять эмблему 2</value>
   </data>
   <data name="customization/inscriptionLeft/current/drop/body" xml:space="preserve">
-    <value>Удалить текущую надпись 1.</value>
+    <value>Снять текущую надпись 1.</value>
   </data>
   <data name="customization/inscriptionLeft/current/drop/header" xml:space="preserve">
-    <value>Удалить надпись 1</value>
+    <value>Снять надпись 1</value>
   </data>
   <data name="customization/inscriptionRight/current/drop/body" xml:space="preserve">
-    <value>Удалить текущую надпись 2.</value>
+    <value>Снять текущую надпись 2.</value>
   </data>
   <data name="customization/inscriptionRight/current/drop/header" xml:space="preserve">
-    <value>Удалить надпись 2</value>
+    <value>Снять надпись 2</value>
   </data>
   <data name="deviceFits/already_installed/header" xml:space="preserve">
     <value>Установлено на:</value>
@@ -3430,7 +3430,7 @@
     <value>Игроков в сети</value>
   </data>
   <data name="header/menu/description" xml:space="preserve">
-    <value>Нажмите, чтобы открыть игровое меню, где можно сменить сервер, открыть игровые настройки или выйти из игры.</value>
+    <value>Нажмите, чтобы открыть игровое меню, где можно сменить сервер, перейти на Учебный полигон, открыть игровые настройки или выйти из игры.</value>
   </data>
   <data name="header/menu/playersOnServer" xml:space="preserve">
     <value>Игроков на сервере / в регионе</value>
@@ -3702,31 +3702,31 @@
     <value>Снять и поместить на Склад текущий камуфляж.</value>
   </data>
   <data name="customization/camouflage/current/dismount/header" xml:space="preserve">
-    <value>Удалить камуфляж</value>
+    <value>Снять камуфляж</value>
   </data>
   <data name="customization/emblemLeft/current/dismount/body" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущую эмблему 1.</value>
+    <value>Снять и поместить на Склад текущую эмблему 1.</value>
   </data>
   <data name="customization/emblemLeft/current/dismount/header" xml:space="preserve">
-    <value>Удалить эмблему 1</value>
+    <value>Снять эмблему 1</value>
   </data>
   <data name="customization/emblemRight/current/dismount/body" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущую эмблему 2.</value>
+    <value>Снять и поместить на Склад текущую эмблему 2.</value>
   </data>
   <data name="customization/emblemRight/current/dismount/header" xml:space="preserve">
-    <value>Удалить эмблему 2</value>
+    <value>Снять эмблему 2</value>
   </data>
   <data name="customization/inscriptionLeft/current/dismount/body" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущую надпись 1.</value>
+    <value>Снять и поместить на Склад текущую надпись 1.</value>
   </data>
   <data name="customization/inscriptionLeft/current/dismount/header" xml:space="preserve">
-    <value>Удалить надпись 1</value>
+    <value>Снять надпись 1</value>
   </data>
   <data name="customization/inscriptionRight/current/dismount/body" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущую надпись 2.</value>
+    <value>Снять и поместить на Склад текущую надпись 2.</value>
   </data>
   <data name="customization/inscriptionRight/current/dismount/header" xml:space="preserve">
-    <value>Удалить надпись 2</value>
+    <value>Снять надпись 2</value>
   </data>
   <data name="cyberSport/unitLevel/body/maxTotalLevelError" xml:space="preserve">
     <value>Перебор. Набрано очков: %(sumLevels)s.</value>
@@ -6225,7 +6225,7 @@
     <value>Внимание!</value>
   </data>
   <data name="event/squad/disable/body" xml:space="preserve">
-    <value>Чтобы создать Призрачный взвод, выберите танки: %(tankName)s</value>
+    <value>Для высадки на тёмной стороне Луны выберите %(tankName)s</value>
   </data>
   <data name="event/squad/disable/header" xml:space="preserve">
     <value>Внимание!</value>
@@ -6325,7 +6325,7 @@
     <value>Нажмите, чтобы выйти из состава лунного взвода.</value>
   </data>
   <data name="squadWindow/eventVehicle" xml:space="preserve">
-    <value>Чтобы создать Призрачный взвод, выберите танки: %(tankName)s</value>
+    <value>Для высадки на тёмной стороне Луны выберите %(tankName)s</value>
   </data>
   <data name="tankCaruselTooltip/vehicleType/normal/AT-SPG" xml:space="preserve">
     <value>ПТ-САУ</value>
@@ -7665,8 +7665,7 @@
   </data>
   <data name="actionPrice/severalActions" xml:space="preserve">
     <value>На покупку %(deviceName)s действует несколько скидок.
-Максимальная скидка: в рамках акции
-%(actionName)s</value>
+%(action)s</value>
   </data>
   <data name="awardItem/crystal/body" xml:space="preserve">
     <value>Редкая специализированная валюта, за которую покупаются уникальные товары, недоступные за другую валюту.</value>
@@ -7955,7 +7954,7 @@
     <value>Награды:</value>
   </data>
   <data name="quests/bonuses/token/body" xml:space="preserve">
-    <value>Данная марка — уникальная награда, необходимая для доступа к определённым боевым задачам или для их выполнения.</value>
+    <value>Данная марка — наградной элемент, необходимый для выполнения определённой боевой задачи.</value>
   </data>
   <data name="quests/bonuses/token/header" xml:space="preserve">
     <value>Марка %(userName)s</value>
@@ -8332,7 +8331,7 @@
     <value>Нажмите, чтобы выбрать один из рейтингов соревнования.</value>
   </data>
   <data name="elen/button/raiting/header" xml:space="preserve">
-    <value>Все рейтинги</value>
+    <value>Список рейтингов</value>
   </data>
   <data name="elen/button/registration/notStarted/body" xml:space="preserve">
     <value>Нажмите, чтобы результаты ваших боёв учитывались с началом соревнования, и вы смогли попасть в рейтинг и получить награду.</value>
@@ -8612,7 +8611,7 @@
     <value>Нажмите, чтобы выбрать один из рейтингов соревнования.</value>
   </data>
   <data name="elen/excel/selectRatingBtn/tooltip/header" xml:space="preserve">
-    <value>Все рейтинги</value>
+    <value>Список рейтингов</value>
   </data>
   <data name="elen/header/participate/button/leaveNotStarted/body" xml:space="preserve">
     <value>Результаты ваших боёв не станут учитываться в этом соревновании. Вы не сможете попасть в рейтинг и получить награду.
@@ -8952,7 +8951,7 @@
 Количество боёв в серии: %(cardinality)s.</value>
   </data>
   <data name="hangar/elen/bottom/allperiphery/body" xml:space="preserve">
-    <value>Учитываются следующие типы Случайных боёв: Стандартный бой, Штурм и Встречный бой.</value>
+    <value>Генеральные сражения не учитываются. Учитываются следующие типы Случайных боёв: Стандартный бой, Штурм и Встречный бой.</value>
   </data>
   <data name="hangar/elen/bottom/allperiphery/header" xml:space="preserve">
     <value>Генеральные сражения не учитываются</value>
@@ -8982,7 +8981,7 @@
     <value>Недоступно во взводе с игроками</value>
   </data>
   <data name="hangar/elen/header/name" xml:space="preserve">
-    <value>Соревнование: %(name)s</value>
+    <value>%(name)s</value>
   </data>
   <data name="hangar/elen/header/toend" xml:space="preserve">
     <value>До завершения:</value>
@@ -9375,5 +9374,185 @@
   </data>
   <data name="tank_params/desc/turretYawLimits_Secondary" xml:space="preserve">
     <value>Максимальные углы поворота башни относительно продольной оси машины при неподвижном корпусе.</value>
+  </data>
+  <data name="actionPrice/buyPrice/actionPrice" xml:space="preserve">
+    <value>Стоимость покупки со скидкой %(value)s</value>
+  </data>
+  <data name="actionPrice/buyPrice/defaultPrice" xml:space="preserve">
+    <value>Прежняя стоимость покупки</value>
+  </data>
+  <data name="actionPrice/rentPrice/1day" xml:space="preserve">
+    <value>Стоимость аренды на 1 день со скидкой %(value)s</value>
+  </data>
+  <data name="actionPrice/rentPrice/3day" xml:space="preserve">
+    <value>Стоимость аренды на 3 дня со скидкой %(value)s</value>
+  </data>
+  <data name="actionPrice/rentPrice/days" xml:space="preserve">
+    <value>Стоимость аренды на %(days)s дней со скидкой %(value)s</value>
+  </data>
+  <data name="actionPrice/rentPrice/defaultPrice" xml:space="preserve">
+    <value>Стоимость покупки</value>
+  </data>
+  <data name="actionPrice/severalActions/action" xml:space="preserve">
+    <value>Максимальная скидка: в рамках акции
+%(actionName)s</value>
+  </data>
+  <data name="actionPrice/severalActions/personal" xml:space="preserve">
+    <value>Максимальной является ваша персональная скидка.</value>
+  </data>
+  <data name="c11nHistoricallyAccurate/body" xml:space="preserve">
+    <value>При включённой настройке будут отображаться только историчные элементы внешнего вида на технике игроков. При этом:
+• при изменении настройки в бою эффект наступит после выхода из боя;
+• если на машине другого игрока будет хотя бы один неисторичный элемент, то ни один элемент внешнего вида отображаться не будет;
+• настройка не влияет на внешний вид лично вашей машины.</value>
+  </data>
+  <data name="c11nHistoricallyAccurate/header" xml:space="preserve">
+    <value>Скрывать неисторичные элементы</value>
+  </data>
+  <data name="customization/filter/counter/body" xml:space="preserve">
+    <value>Отображает элементы, соответствующие установленным требованиям.</value>
+  </data>
+  <data name="customization/filter/counter/close/body" xml:space="preserve">
+    <value>Нажмите, чтобы сбросить фильтр</value>
+  </data>
+  <data name="customization/filter/counter/close/header" xml:space="preserve">
+    <value>Сбросить фильтр</value>
+  </data>
+  <data name="customization/filter/counter/header" xml:space="preserve">
+    <value>Фильтр элементов</value>
+  </data>
+  <data name="customization/nonHistoricIndicator/body" xml:space="preserve">
+    <value>Показать/скрыть неисторичные элементы.
+Нажмите чтобы увидеть список неисторичных элементов.</value>
+  </data>
+  <data name="customization/nonHistoricIndicator/header" xml:space="preserve">
+    <value>Неисторичные элементы</value>
+  </data>
+  <data name="customization/scrollbar/bookmark/header" xml:space="preserve">
+    <value>%(bookmark)s</value>
+  </data>
+  <data name="customization/tabs/camouflage/body" xml:space="preserve">
+    <value>Камуфляж изменяет внешний вид машины и добавляет бонус к маскировке.</value>
+  </data>
+  <data name="customization/tabs/emblem/body" xml:space="preserve">
+    <value>Эмблемы наносятся на технику и подчёркивают индивидуальность конкретной машины.</value>
+  </data>
+  <data name="customization/tabs/inscription/body" xml:space="preserve">
+    <value>Надписи наносятся на технику и подчёркивают индивидуальность конкретной машины.</value>
+  </data>
+  <data name="customization/tabs/modification/body" xml:space="preserve">
+    <value>Эффекты изменяют внешний вид покрытия машины: старят его или наоборот делают новее.</value>
+  </data>
+  <data name="customization/tabs/paint/body" xml:space="preserve">
+    <value>Краска изменяет базовый цвет машины.</value>
+  </data>
+  <data name="customizationBuyWindow/fromStorage" xml:space="preserve">
+    <value>Элемент со склада</value>
+  </data>
+  <data name="elen/condition/battletype/notrandom" xml:space="preserve">
+    <value>Проводите бои на этой машине, займите по итогам соревнования призовую позицию в рейтинге и получите награды.</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/damageAssisted/body" xml:space="preserve">
+    <value>Количество урона, нанесённого с помощью игрока за лучший бой в лучшей серии боёв в соревновании.</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/damageAssisted/header" xml:space="preserve">
+    <value>Урон, нанесённый с помощью игрока за лучший бой</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/damageDealt/body" xml:space="preserve">
+    <value>Количество нанесённого урона за лучший бой в лучшей серии боёв в соревновании.</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/damageDealt/header" xml:space="preserve">
+    <value>Урон за лучший бой</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/originalXP/body" xml:space="preserve">
+    <value>Количество «чистого» опыта, заработанного за лучший бой в лучшей серии боёв в соревновании.
+Учитывается опыт без надбавок от премиум аккаунта и премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/originalXP/header" xml:space="preserve">
+    <value>«Чистый» опыт за лучший бой</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/xp/body" xml:space="preserve">
+    <value>Количество опыта, заработанного за лучший бой в лучшей серии боёв в соревновании.
+Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/xp/header" xml:space="preserve">
+    <value>Опыт за лучший бой</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/damageAssisted/body" xml:space="preserve">
+    <value>Сумма урона, нанесённого с помощью игрока за лучшую серию боёв в соревновании.</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/damageAssisted/header" xml:space="preserve">
+    <value>Сумма урона, нанесённого с помощью игрока</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/damageDealt/body" xml:space="preserve">
+    <value>Сумма урона, нанесённого за лучшую серию боёв в соревновании.</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/damageDealt/header" xml:space="preserve">
+    <value>Сумма урона</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/originalXP/body" xml:space="preserve">
+    <value>Сумма «чистого» опыта, заработанного за лучшую серию боёв в соревновании.
+Учитывается опыт без надбавок от премиум аккаунта и премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/originalXP/header" xml:space="preserve">
+    <value>Сумма «чистого» опыта</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/xp/body" xml:space="preserve">
+    <value>Сумма опыта, заработанного за лучшую серию боёв в соревновании.
+Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.
+Надбавка от премиум аккаунта учитывается.</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/xp/header" xml:space="preserve">
+    <value>Сумма опыта</value>
+  </data>
+  <data name="elen/status/cantJoin/reason/byVehicle" xml:space="preserve">
+    <value>Наличие подходящей техники</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/damageAssisted/body" xml:space="preserve">
+    <value>Сумма урона, нанесённого с помощью игрока за лучшую серию боёв в соревновании.</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/damageAssisted/header" xml:space="preserve">
+    <value>Сумма урона, нанесённого с помощью игрока</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/damageDealt/body" xml:space="preserve">
+    <value>Сумма урона, нанесённого за лучшую серию боёв в соревновании.</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/damageDealt/header" xml:space="preserve">
+    <value>Сумма урона</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/originalXP/body" xml:space="preserve">
+    <value>Сумма «чистого» опыта, заработанного за лучшую серию боёв в соревновании.
+Учитывается опыт без надбавок от премиум аккаунта и премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/originalXP/header" xml:space="preserve">
+    <value>Сумма «чистого» опыта</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/xp/body" xml:space="preserve">
+    <value>Сумма опыта, заработанного за лучшую серию боёв в соревновании.
+Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.
+Надбавка от премиум аккаунта учитывается.</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/xp/header" xml:space="preserve">
+    <value>Сумма опыта</value>
+  </data>
+  <data name="elen/task/selection/sumMSeqN" xml:space="preserve">
+    <value>Учитывается лучшая сумма показателя, по которому строится рейтинг за лучшие бои в серии.
+Количество боёв в серии: %(cardinality)s.
+Количество учитываемых боёв: %(distance)s.</value>
+  </data>
+  <data name="filter/popover/showonlyfilters/acquired/body" xml:space="preserve">
+    <value>Показывать только элементы в инвентаре</value>
+  </data>
+  <data name="filter/popover/showonlyfilters/historic/body" xml:space="preserve">
+    <value>Показывать только историчные элементы</value>
+  </data>
+  <data name="hangar/elen/bottom/allperiphery/notrandom/body" xml:space="preserve">
+    <value>Проводите бои на этой машине, займите по итогам соревнования призовую позицию в рейтинге и получите награды.</value>
+  </data>
+  <data name="hangar/header/nyquests/header" xml:space="preserve">
+    <value>Новогоднее наступление</value>
+  </data>
+  <data name="summary/status/tooltip" xml:space="preserve">
+    <value>Обновление данных происходит раз в %(interval)s мин.</value>
   </data>
 </root>

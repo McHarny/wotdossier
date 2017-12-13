@@ -286,54 +286,66 @@
     <value>Выдаётся за выполнение всех личных боевых задач всех операций I кампании с отличием.</value>
   </data>
   <data name="badge_19" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Танковый ас: VII уровень</value>
   </data>
   <data name="badge_19_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Попасть в топ-10 участников события «Марш наций» на технике VII уровня.</value>
   </data>
   <data name="badge_20" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Танковый ас: VIII уровень</value>
   </data>
   <data name="badge_20_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Попасть в топ-10 участников события «Марш наций» на технике VIII уровня.</value>
   </data>
   <data name="badge_21" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Танковый ас: IX уровень</value>
   </data>
   <data name="badge_21_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Попасть в топ-10 участников события «Марш наций» на технике IX уровня.</value>
   </data>
   <data name="badge_22" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Танковый ас: X уровень</value>
   </data>
   <data name="badge_22_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Попасть в топ-10 участников события «Марш наций» на технике X уровня.</value>
   </data>
   <data name="badge_23" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Мастер-танкист: VII уровень</value>
   </data>
   <data name="badge_23_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Попасть в топ-1000 участников события «Марш наций» на технике VII уровня.</value>
   </data>
   <data name="badge_24" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Мастер-танкист: VIII уровень</value>
   </data>
   <data name="badge_24_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Попасть в топ-1000 участников события «Марш наций» на технике VIII уровня.</value>
   </data>
   <data name="badge_25" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Мастер-танкист: IX уровень</value>
   </data>
   <data name="badge_25_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Попасть в топ-1000 участников события «Марш наций» на технике IX уровня.</value>
   </data>
   <data name="badge_26" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Мастер-танкист: X уровень</value>
   </data>
   <data name="badge_26_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Попасть в топ-1000 участников события «Марш наций» на технике X уровня.</value>
   </data>
   <data name="badgesPage/header/descr" xml:space="preserve">
     <value>Нашивка демонстрирует ваши определённые достижения в игре, и её видят игроки обеих команд.</value>
+  </data>
+  <data name="badge_27" xml:space="preserve">
+    <value>Легенда Глобальной карты</value>
+  </data>
+  <data name="badge_27_descr" xml:space="preserve">
+    <value>За выдающиеся достижения на Глобальной карте.</value>
+  </data>
+  <data name="badge_28" xml:space="preserve">
+    <value>Герой операции «Гамбит»</value>
+  </data>
+  <data name="badge_28_descr" xml:space="preserve">
+    <value>За попадание в число 10% лучших игроков операции «Гамбит» — игрового события на Глобальной карте.</value>
   </data>
 </root>

@@ -7,7 +7,6 @@ using System.Text;
 using System.Threading.Tasks;
 using LiaSoft.Jeff.DataAccess;
 using LiteDB;
-using Nejdb;
 //using Nejdb;
 //using Nejdb.Bson;
 using NUnit.Framework;
@@ -61,56 +60,56 @@ namespace WotDossier.Test
 				}
 			).ToList();
 
-			using (var tCommand = dsContext.CreateStatement($"SELECT * FROM Tank"))
-			{
-			}
+//			using (var tCommand = dsContext.CreateStatement($"SELECT * FROM Tank"))
+//			{
+//			}
 
-			var dbFile = Path.Combine(Environment.CurrentDirectory, $@"Data\dossier.ejdb");
-			using (var lib = Library.Create())
-			{
-				using (var db = lib.CreateDatabase())
-				{
-					db.Open(dbFile);
-					var tanks = db.CreateCollection("VehicleEntities", new CollectionOptions(false, true, 128000, 0));
-					var tables = new[]
-					{
-/*"TankTeamBattleStatistic", "TankHistoricalBattleStatistic",*/ "TankRandomBattlesStatistic"
-					};
-					foreach (var table in tables)
-					{
-						var i = 0;
-						using (var tCommand = dsContext.CreateStatement($"SELECT * FROM {table}"))
-						{
-							Transaction trans = tanks.BeginTransaction();
+//			var dbFile = Path.Combine(Environment.CurrentDirectory, $@"Data\dossier.ejdb");
+//			using (var lib = Library.Create())
+//			{
+//				using (var db = lib.CreateDatabase())
+//				{
+//					db.Open(dbFile);
+//					var tanks = db.CreateCollection("VehicleEntities", new CollectionOptions(false, true, 128000, 0));
+//					var tables = new[]
+//					{
+///*"TankTeamBattleStatistic", "TankHistoricalBattleStatistic",*/ "TankRandomBattlesStatistic"
+//					};
+//					foreach (var table in tables)
+//					{
+//						var i = 0;
+//						using (var tCommand = dsContext.CreateStatement($"SELECT * FROM {table}"))
+//						{
+//							Transaction trans = tanks.BeginTransaction();
 							
-							foreach (var rec in tCommand.OpenReader())
-							{
-								if (i % 1000 == 0)
-								{
-									trans.Commit();
-									tanks.BeginTransaction();
-								}
+//							foreach (var rec in tCommand.OpenReader())
+//							{
+//								if (i % 1000 == 0)
+//								{
+//									trans.Commit();
+//									tanks.BeginTransaction();
+//								}
 
-								var data = rec.Get<byte[]>("Raw");
-								if (data == null) continue;
+//								var data = rec.Get<byte[]>("Raw");
+//								if (data == null) continue;
 
-								var v = new VehicleEntity
-								{
-									Id = rec.Get<int>("Id"),
-									Statistics = CompressHelper.DecompressObject<TankJson>(data)
-								};
+//								var v = new VehicleEntity
+//								{
+//									Id = rec.Get<int>("Id"),
+//									Statistics = CompressHelper.DecompressObject<TankJson>(data)
+//								};
 
-								tanks.Save(v, false);
-								i++;
-							}
+//								tanks.Save(v, false);
+//								i++;
+//							}
 
-							trans.Commit();
+//							trans.Commit();
 
-						}
-					}
-				}
+//						}
+//					}
+//				}
 
-			}
+			//}
 		}
 	}
 }

@@ -881,7 +881,7 @@
     <value>Задача: захватить базу или уничтожить всю технику противника.</value>
   </data>
   <data name="type/domination30x30/name" xml:space="preserve">
-    <value>Встречный бой</value>
+    <value>Генеральное сражение</value>
   </data>
   <data name="120_kharkiv_halloween/description" xml:space="preserve">
     <value>Мир тьмы, искорёженных остовов и горящего топлива, где на полях бесконечных битв господствует Левиафан.</value>
@@ -891,5 +891,20 @@
   </data>
   <data name="type/leviathan/description" xml:space="preserve">
     <value>Победить Левиафана до того, как он доберётся до Врат в мир смертных.</value>
+  </data>
+  <data name="1001_respawn_test/description" xml:space="preserve">
+    <value>Тестовая карта для проверки функциональности возрождения. Нажмите Ctrl+R в тренировочной комнате для возрождения.</value>
+  </data>
+  <data name="217_er_alaska/description" xml:space="preserve">
+    <value>Расположенный в северной части рудник дает преимущество быстрым танкам прорыва. В центральной части карты, рядом с шоссе, найдет себе применение хорошо бронированная техника. На юге, в дельте реки, большие открытые пространства располагают к позиционному бою машин с хорошей точностью орудий.</value>
+  </data>
+  <data name="217_er_alaska/name" xml:space="preserve">
+    <value>Клондайк</value>
+  </data>
+  <data name="type/ctf30x30/217_er_alaska/name" xml:space="preserve">
+    <value>ГС - Стандартный</value>
+  </data>
+  <data name="type/domination30x30/217_er_alaska/name" xml:space="preserve">
+    <value>ГС - Встречный</value>
   </data>
 </root>

@@ -470,4 +470,10 @@ TVP T-50 - дальнейшее развитие послевоенной кон
   <data name="leviathan/title" xml:space="preserve">
     <value>Левиафан</value>
   </data>
+  <data name="lootbox/desc" xml:space="preserve">
+    <value>Нажмите, чтобы вскрыть ящик, который содержит ценные награды.</value>
+  </data>
+  <data name="lootbox/title" xml:space="preserve">
+    <value>Ящик с наградами</value>
+  </data>
 </root>

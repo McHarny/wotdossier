@@ -5292,4 +5292,19 @@ in the corresponding section of the Missions section.</value>
   <data name="quest/halloween/HE17_W_PVP_5/1" xml:space="preserve">
     <value>Destroy vehicles with the secondary gun</value>
   </data>
+  <data name="action/auto/calendar" xml:space="preserve">
+    <value>New offer in the Advent Calendar every day.</value>
+  </data>
+  <data name="action/button/calendar" xml:space="preserve">
+    <value>Go to Calendar</value>
+  </data>
+  <data name="action/full/calendar" xml:space="preserve">
+    <value>Following tradition, the Advent Calendar will feature special Premium Shop offers every day, all through the event. Each day, there will be a different offer available, so don’t mull it over for too long and make sure you come back daily to discover new offers and receive the mission of the day!</value>
+  </data>
+  <data name="action/hero/full/calendar" xml:space="preserve">
+    <value>Following tradition, the Advent Calendar will feature special Premium Shop offers every day, all through the event. Each day, there will be a different offer available, so don’t mull it over for too long and make sure you come back daily to discover new offers and receive the mission of the day!</value>
+  </data>
+  <data name="action/short/calendar" xml:space="preserve">
+    <value>Advent Calendar</value>
+  </data>
 </root>

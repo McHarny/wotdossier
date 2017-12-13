@@ -2737,7 +2737,7 @@ HD клиент (Бета) — полная версия игры, включа�
     <value>Стандартная</value>
   </data>
   <data name="sounds/sixthSense/body" xml:space="preserve">
-    <value>Использование своей озвучки. Для этого файл с названием sixthSense в формате mp3 поместите в папку resaudioww.</value>
+    <value>Использование своей озвучки. Для этого файл с названием sixthSense в формате mp3 поместите в папку res/audioww.</value>
   </data>
   <data name="sounds/sixthSense/header" xml:space="preserve">
     <value>Пользовательские</value>
@@ -2762,5 +2762,8 @@ HD клиент (Бета) — полная версия игры, включа�
   </data>
   <data name="keyboard/keysBlocks/command/fire_secondary" xml:space="preserve">
     <value>Выстрел из орудия вспомогательной башни</value>
+  </data>
+  <data name="game/c11nHistoricallyAccurate" xml:space="preserve">
+    <value>Скрывать неисторичные элементы</value>
   </data>
 </root>

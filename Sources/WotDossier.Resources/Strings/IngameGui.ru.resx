@@ -1919,4 +1919,7 @@ Home/End — перемотка в начало/конец
   <data name="halloween_pve_victory_panel/title" xml:space="preserve">
     <value>ПОБЕДА</value>
   </data>
+  <data name="marker/meters" xml:space="preserve">
+    <value>м</value>
+  </data>
 </root>

@@ -337,10 +337,10 @@
     <value>Отменить</value>
   </data>
   <data name="customization/camouflageDrop/message" xml:space="preserve">
-    <value>Удалить текущий камуфляж?</value>
+    <value>Снять текущий камуфляж?</value>
   </data>
   <data name="customization/camouflageDrop/submit" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Снять</value>
   </data>
   <data name="customization/camouflageDrop/title" xml:space="preserve">
     <value>Камуфляж</value>
@@ -1416,10 +1416,10 @@
     <value>Отменить</value>
   </data>
   <data name="customization/emblemLeftDrop/message" xml:space="preserve">
-    <value>Удалить текущую эмблему 1?</value>
+    <value>Снять текущую эмблему 1?</value>
   </data>
   <data name="customization/emblemLeftDrop/submit" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Снять</value>
   </data>
   <data name="customization/emblemLeftDrop/title" xml:space="preserve">
     <value>Эмблема 1</value>
@@ -1428,10 +1428,10 @@
     <value>Отменить</value>
   </data>
   <data name="customization/emblemRightDrop/message" xml:space="preserve">
-    <value>Удалить текущую эмблему 2?</value>
+    <value>Снять текущую эмблему 2?</value>
   </data>
   <data name="customization/emblemRightDrop/submit" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Снять</value>
   </data>
   <data name="customization/emblemRightDrop/title" xml:space="preserve">
     <value>Эмблема 2</value>
@@ -1440,10 +1440,10 @@
     <value>Отменить</value>
   </data>
   <data name="customization/inscriptionLeftDrop/message" xml:space="preserve">
-    <value>Удалить текущую надпись 1?</value>
+    <value>Снять текущую надпись 1?</value>
   </data>
   <data name="customization/inscriptionLeftDrop/submit" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Снять</value>
   </data>
   <data name="customization/inscriptionLeftDrop/title" xml:space="preserve">
     <value>Надпись 1</value>
@@ -1452,10 +1452,10 @@
     <value>Отменить</value>
   </data>
   <data name="customization/inscriptionRightDrop/message" xml:space="preserve">
-    <value>Удалить текущую надпись 2?</value>
+    <value>Снять текущую надпись 2?</value>
   </data>
   <data name="customization/inscriptionRightDrop/submit" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Снять</value>
   </data>
   <data name="customization/inscriptionRightDrop/title" xml:space="preserve">
     <value>Надпись 2</value>
@@ -2468,10 +2468,10 @@
     <value>Отменить</value>
   </data>
   <data name="customization/camouflageDismount/message" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущий камуфляж?</value>
+    <value>Снять и поместить на Склад текущий камуфляж?</value>
   </data>
   <data name="customization/camouflageDismount/submit" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Снять</value>
   </data>
   <data name="customization/camouflageDismount/title" xml:space="preserve">
     <value>Камуфляж</value>
@@ -2480,10 +2480,10 @@
     <value>Отменить</value>
   </data>
   <data name="customization/emblemLeftDismount/message" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущую эмблему 1?</value>
+    <value>Снять и поместить на Склад текущую эмблему 1?</value>
   </data>
   <data name="customization/emblemLeftDismount/submit" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Снять</value>
   </data>
   <data name="customization/emblemLeftDismount/title" xml:space="preserve">
     <value>Эмблема 1</value>
@@ -2492,10 +2492,10 @@
     <value>Отменить</value>
   </data>
   <data name="customization/emblemRightDismount/message" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущую эмблему 2?</value>
+    <value>Снять и поместить на Склад текущую эмблему 2?</value>
   </data>
   <data name="customization/emblemRightDismount/submit" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Снять</value>
   </data>
   <data name="customization/emblemRightDismount/title" xml:space="preserve">
     <value>Эмблема 2</value>
@@ -2504,10 +2504,10 @@
     <value>Отменить</value>
   </data>
   <data name="customization/inscriptionLeftDismount/message" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущую надпись 1?</value>
+    <value>Снять и поместить на Склад текущую надпись 1?</value>
   </data>
   <data name="customization/inscriptionLeftDismount/submit" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Снять</value>
   </data>
   <data name="customization/inscriptionLeftDismount/title" xml:space="preserve">
     <value>Надпись 1</value>
@@ -2516,10 +2516,10 @@
     <value>Отменить</value>
   </data>
   <data name="customization/inscriptionRightDismount/message" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущую надпись 2?</value>
+    <value>Снять и поместить на Склад текущую надпись 2?</value>
   </data>
   <data name="customization/inscriptionRightDismount/submit" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Снять</value>
   </data>
   <data name="customization/inscriptionRightDismount/title" xml:space="preserve">
     <value>Надпись 2</value>
@@ -2939,7 +2939,7 @@
     <value>Отменить</value>
   </data>
   <data name="customization/close/message" xml:space="preserve">
-    <value>У вас есть неоплаченные элементы внешнего вида, которые будут удалены при возврате в Ангар. Вы действительно хотите вернуться в Ангар?</value>
+    <value>На выбранную машину добавлены новые элементы внешнего вида. Подтвердить выход, не применив указанные изменения?</value>
   </data>
   <data name="customization/close/submit" xml:space="preserve">
     <value>Подтвердить</value>
@@ -2951,13 +2951,13 @@
     <value>Отменить</value>
   </data>
   <data name="customization/filter/message" xml:space="preserve">
-    <value>Все элементы будут удалены. Продолжить?</value>
+    <value>Все элементы будут сняты. Продолжить?</value>
   </data>
   <data name="customization/filter/submit" xml:space="preserve">
-    <value>Удалить всё</value>
+    <value>Снять всё</value>
   </data>
   <data name="customization/filter/title" xml:space="preserve">
-    <value>Удаление элементов</value>
+    <value>Снятие элементов</value>
   </data>
   <data name="customization/install_invoice_item/permanent/cancel" xml:space="preserve">
     <value>Отменить</value>
@@ -3771,5 +3771,65 @@
   </data>
   <data name="halloween/supply_drop/claim/platoon/title" xml:space="preserve">
     <value>Ошибка</value>
+  </data>
+  <data name="confirmApplyVehicleDiscount/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="confirmApplyVehicleDiscount/message" xml:space="preserve">
+    <value>Активировать %(discount_tag_open)s%(discount)s%%%(tag_close)s скидку на машину %(veh_type_tag_open)s%(vehicleType)s%(veh_type_tag_close)s%(vehicle_tag_open)s%(vehicleName)s%(tag_close)s?</value>
+  </data>
+  <data name="confirmApplyVehicleDiscount/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="confirmApplyVehicleDiscount/title" xml:space="preserve">
+    <value>Активация скидки</value>
+  </data>
+  <data name="confirmHighLevelToyBreak/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="confirmHighLevelToyBreak/message" xml:space="preserve">
+    <value>Вы действительно хотите разбить украшение %(tag_open)s V уровня %(tag_close)s?</value>
+  </data>
+  <data name="confirmHighLevelToyBreak/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="confirmHighLevelToyBreak/title" xml:space="preserve">
+    <value>Подтверждение операции</value>
+  </data>
+  <data name="confirmToysBreak/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="confirmToysBreak/message" xml:space="preserve">
+    <value>Разбить украшения и получить %(tag_open)s%(fragments_amount)s%(tag_close)s%(shards_icon)s?</value>
+  </data>
+  <data name="confirmToysBreak/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="confirmToysBreak/title" xml:space="preserve">
+    <value>Подтверждение операции</value>
+  </data>
+  <data name="customizationConfirmSell/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customizationConfirmSell/message" xml:space="preserve">
+    <value>Продать «%(name)s» за %(price)s%(creditsIcon)s?</value>
+  </data>
+  <data name="customizationConfirmSell/submit" xml:space="preserve">
+    <value>Продать</value>
+  </data>
+  <data name="customizationConfirmSell/title" xml:space="preserve">
+    <value>Подтверждение продажи</value>
+  </data>
+  <data name="nextBattleOptionConfirmation/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="nextBattleOptionConfirmation/message" xml:space="preserve">
+    <value>Изменения некоторых настроек вступят в силу со следующего боя. Продолжить?</value>
+  </data>
+  <data name="nextBattleOptionConfirmation/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="nextBattleOptionConfirmation/title" xml:space="preserve">
+    <value>Изменение настроек</value>
   </data>
 </root>

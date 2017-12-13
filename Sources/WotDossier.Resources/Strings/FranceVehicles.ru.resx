@@ -926,7 +926,7 @@ Ordnance QF 6-pounder с дульным тормозом специально р
     <value>S35 CA</value>
   </data>
   <data name="S_35CA_descr" xml:space="preserve">
-    <value>В соответствии с эскизным проектом, предполагалось переоборудовать танки в ПТ-САУ путём установки 17-фунтового английского орудия в открытую сверху легкобронированную рубку.</value>
+    <value>Разработана на базе устаревших танков R35 и S35. Простая конструкция предполагала установку открытой рубки на корпус машины с использованием британского 17-фунтового орудия. Однако нехватка устаревших довоенных шасси, а также нестандартность и низкая эффективность орудия машины привели к прекращению работ на стадии эскизного проектирования.</value>
   </data>
   <data name="S_35CA_short" xml:space="preserve">
     <value>S35 CA</value>
@@ -944,7 +944,7 @@ Ordnance QF 6-pounder с дульным тормозом специально р
     <value>Somua SAu 40</value>
   </data>
   <data name="Somua_Sau_40_descr" xml:space="preserve">
-    <value>Проект ПТ-САУ на базе танка Somua S35. Существовал только в эскизах.</value>
+    <value>САУ была создана по заказу кавалерии в 1935–1937 годах на базе танков S35 и S40 для оснащения лёгких механизированных дивизий. Машина имела изменённую верхнюю часть броневого корпуса с установленной в ней 75-мм казематной пушкой Mle 1929. На крыше рубки устанавливалась одноместная башенка с 7,5-мм пулемётом Mle 1931. Заказ на серийное производство SAu 40 был выдан в октябре 1939 года. Прототип и (по некоторым данным) ещё четыре предсерийных SAu 40 были отправлены на фронт в июне 1940 года и использовались в боевых действиях.</value>
   </data>
   <data name="Somua_Sau_40_short" xml:space="preserve">
     <value>SAu 40</value>
@@ -2705,5 +2705,140 @@ mle. 1934</value>
   </data>
   <data name="_90mm_canon_DCA_45_HE2017" xml:space="preserve">
     <value>Spectral 90 mm DCA 45</value>
+  </data>
+  <data name="AN_VRC_7" xml:space="preserve">
+    <value>AN/VRC-7</value>
+  </data>
+  <data name="Chassis_F81_Char_de_65t" xml:space="preserve">
+    <value>AMX 65 t</value>
+  </data>
+  <data name="Chassis_F81_Char_de_65t_2" xml:space="preserve">
+    <value>AMX 65 t bis</value>
+  </data>
+  <data name="Chassis_F82_AMX_M4_Mle1949_Ter" xml:space="preserve">
+    <value>AMX M4 mle. 54</value>
+  </data>
+  <data name="Chassis_F83_AMX_M4_Mle1949_Bis" xml:space="preserve">
+    <value>AMX M4 mle. 51</value>
+  </data>
+  <data name="Chassis_F83_AMX_M4_Mle1949_Bis_2" xml:space="preserve">
+    <value>AMX M4 mle. 52</value>
+  </data>
+  <data name="Chassis_F97_ELC_EVEN_90" xml:space="preserve">
+    <value>ELC EVEN 90</value>
+  </data>
+  <data name="F81_Char_de_65t" xml:space="preserve">
+    <value>AMX 65 t</value>
+  </data>
+  <data name="F81_Char_de_65t_descr" xml:space="preserve">
+    <value>Аванпроект тяжёлого танка был предложен компанией AMX в 1950 году и разрабатывался параллельно с AMX 50 100. Машина должна была получить усиленное бронирование с характерным «щучьим носом» и рациональными углами наклона. В остальном компоновка и конструкция корпуса напоминала «Королевского тигра». Существовал только в эскизах.</value>
+  </data>
+  <data name="F81_Char_de_65t_short" xml:space="preserve">
+    <value>AMX 65 t</value>
+  </data>
+  <data name="F82_AMX_M4_Mle1949_Ter" xml:space="preserve">
+    <value>AMX M4 mle. 54</value>
+  </data>
+  <data name="F82_AMX_M4_Mle1949_Ter_descr" xml:space="preserve">
+    <value>Вариант тяжёлого танка AMX M4 с усиленной лобовой бронёй. За основу был взят «Проект 141»; планировалось усилить лобовую броню путём установки 280-мм накладной плиты. Все расчёты были завершены, однако проект не получил дальнейшего развития.</value>
+  </data>
+  <data name="F82_AMX_M4_Mle1949_Ter_short" xml:space="preserve">
+    <value>AMX M4 54</value>
+  </data>
+  <data name="F83_AMX_M4_Mle1949_Bis" xml:space="preserve">
+    <value>AMX M4 mle. 51</value>
+  </data>
+  <data name="F83_AMX_M4_Mle1949_Bis_descr" xml:space="preserve">
+    <value>«Проект 141» являлся вариантом тяжёлого танка AMX M4 с усиленной лобовой бронёй. Разрабатывался с ноября 1949 года, однако не был реализован в металле. В рамках данного проекта было произведено множество расчётов для различных корпусов на идентичной ходовой базе.</value>
+  </data>
+  <data name="F83_AMX_M4_Mle1949_Bis_short" xml:space="preserve">
+    <value>AMX M4 51</value>
+  </data>
+  <data name="F97_ELC_EVEN_90" xml:space="preserve">
+    <value>ELC EVEN 90</value>
+  </data>
+  <data name="F97_ELC_EVEN_90_descr" xml:space="preserve">
+    <value>Серия машин, разработанная компанией BRUNON-VALETTE в рамках программы ELC во второй половине 50-х годов. Целью программы было создание лёгкой, аэромобильной машины огневой поддержки. Машина отличалась малыми размерами и высокой мобильностью. Было изготовлено 10 предсерийных экземпляров с различным вооружением, которые активно испытывались, но от серийного производства было решено отказаться.</value>
+  </data>
+  <data name="F97_ELC_EVEN_90_short" xml:space="preserve">
+    <value>ELC EVEN 90</value>
+  </data>
+  <data name="Maybach_HL_295_a_injection_d_essence" xml:space="preserve">
+    <value>Maybach HL 295 à injection d'essence</value>
+  </data>
+  <data name="SOFAM_G_s_c_4" xml:space="preserve">
+    <value>SOFAM G s c 4</value>
+  </data>
+  <data name="Turret_1_F81_Char_de_65t" xml:space="preserve">
+    <value>AMX M4 mle. 49 Modifié</value>
+  </data>
+  <data name="Turret_1_F82_AMX_M4_Mle1949_Ter" xml:space="preserve">
+    <value>AMX M4 mle. 54 TCB 120</value>
+  </data>
+  <data name="Turret_1_F83_AMX_M4_Mle1949_Bis" xml:space="preserve">
+    <value>AMX M4 mle. 51 TCA 120</value>
+  </data>
+  <data name="Turret_1_F97_ELC_EVEN_90" xml:space="preserve">
+    <value>ELC EVEN tourelle de 90</value>
+  </data>
+  <data name="Turret_2_F81_Char_de_65t" xml:space="preserve">
+    <value>AMX 65 t tourelle classique de 120</value>
+  </data>
+  <data name="Turret_2_F83_AMX_M4_Mle1949_Bis" xml:space="preserve">
+    <value>AMX M4 mle. 52 TCB 120</value>
+  </data>
+  <data name="_120mm_D_1203" xml:space="preserve">
+    <value>120 mm D. 1203</value>
+  </data>
+  <data name="_120mm_D_1203_A" xml:space="preserve">
+    <value>120 mm D. 1203 A</value>
+  </data>
+  <data name="_120mm_D_1203_B" xml:space="preserve">
+    <value>120 mm D. 1203 B</value>
+  </data>
+  <data name="_120mm_FrtPrf1951" xml:space="preserve">
+    <value>Frt.Prf. mle. 1951</value>
+  </data>
+  <data name="_120mm_OE_mle_1951" xml:space="preserve">
+    <value>OE mle. 1951</value>
+  </data>
+  <data name="_120mm_Prf1951" xml:space="preserve">
+    <value>Prf. mle. 1951</value>
+  </data>
+  <data name="_127mm_54_Model_1948" xml:space="preserve">
+    <value>127 mm/54 Model 1948</value>
+  </data>
+  <data name="_127mm_Capped_Common" xml:space="preserve">
+    <value>Capped Common</value>
+  </data>
+  <data name="_127mm_Capped_Common_Semi_AP" xml:space="preserve">
+    <value>Capped Common Semi-AP</value>
+  </data>
+  <data name="_127mm_Common_HE" xml:space="preserve">
+    <value>Common HE</value>
+  </data>
+  <data name="_130mm_45_Model_1935" xml:space="preserve">
+    <value>130 mm/45 Model 1935</value>
+  </data>
+  <data name="_130mm_Capped_Common" xml:space="preserve">
+    <value>Capped Common</value>
+  </data>
+  <data name="_130mm_Capped_Common_Semi_AP" xml:space="preserve">
+    <value>Capped Common Semi-AP</value>
+  </data>
+  <data name="_130mm_Common_HE" xml:space="preserve">
+    <value>Common HE</value>
+  </data>
+  <data name="_90mm_D_919" xml:space="preserve">
+    <value>90 mm D. 919</value>
+  </data>
+  <data name="_90mm_OE_90_D_919" xml:space="preserve">
+    <value>OE-90 D. 919</value>
+  </data>
+  <data name="_90mm_OFL_90_D_919" xml:space="preserve">
+    <value>OFL-90 D. 919</value>
+  </data>
+  <data name="_90mm_POT_90_D_919" xml:space="preserve">
+    <value>POT-90 D. 919</value>
   </data>
 </root>

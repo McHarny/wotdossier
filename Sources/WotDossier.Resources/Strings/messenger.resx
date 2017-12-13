@@ -2635,4 +2635,13 @@ For successful completion of personal missions you receive the following rewards
   <data name="serviceChannelMessages/invoiceReceived/freeAwardListsDebited" xml:space="preserve">
     <value>Orders deducted</value>
   </data>
+  <data name="serviceChannelMessages/gift/button" xml:space="preserve">
+    <value>Recruit</value>
+  </data>
+  <data name="serviceChannelMessages/gift/header" xml:space="preserve">
+    <value>New member in your Barracks!</value>
+  </data>
+  <data name="serviceChannelMessages/gift/text" xml:space="preserve">
+    <value>You received a free female crew member with a bunk in the Barracks.</value>
+  </data>
 </root>

@@ -581,6 +581,7 @@
     <EmbeddedResource Include="Strings\MotivationQuests.ru.resx" />
     <EmbeddedResource Include="Strings\Nations.resx" />
     <EmbeddedResource Include="Strings\Nations.ru.resx" />
+    <EmbeddedResource Include="Strings\Ny.ru.resx" />
     <EmbeddedResource Include="Strings\PersonalMissions.resx" />
     <EmbeddedResource Include="Strings\PersonalMissions.ru.resx" />
     <EmbeddedResource Include="Strings\PersonalMissionsDetails.resx" />
@@ -2365,10 +2366,40 @@
   <ItemGroup>
     <EmbeddedResource Include="Vehicles\Images\Vehicle\unknown-tank.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WotDossier.Common\WotDossier.Common.csproj">
+      <Project>{1268b707-a866-4723-89c7-2e9bd92e6aa6}</Project>
+      <Name>WotDossier.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Stats\217_er_alaska.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Minimap\217_er_alaska.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\france-F81_Char_de_65t.png" />
+    <Resource Include="Vehicles\Images\Vehicle\france-F82_AMX_M4_Mle1949_Ter.png" />
+    <Resource Include="Vehicles\Images\Vehicle\france-F83_AMX_M4_Mle1949_Bis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\france-F97_ELC_EVEN_90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\germany-G138_VK168_02_Mauerbrecher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\germany-G85_Aufklarungspanzer_V.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\uk-GB92_FV217.png" />
+    <Resource Include="Vehicles\Images\Vehicle\uk-GB93_Caernarvon_AX.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" BuildVersion_DetectChanges="True" />
+      <UserProperties BuildVersion_DetectChanges="False" BuildVersion_StartDate="2000/1/1" BuildVersion_UseGlobalSettings="True" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

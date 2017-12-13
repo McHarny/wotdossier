@@ -2528,7 +2528,7 @@ Ausf. K</value>
     <value>Aufklärungspanzer Panther</value>
   </data>
   <data name="Auf_Panther_descr" xml:space="preserve">
-    <value>Проект тяжёлой разведывательной машины. Планировалось использовать корпус «Пантеры», что облегчило бы запуск серийного производства. Предполагалось, что на машину будет установлена башня «Леопарда» с орудием, не выходящим за габариты танка, что обеспечило бы манёвренность в условиях лесистой местности. Не было построено ни одного прототипа.</value>
+    <value>Проект тяжёлой разведывательной машины на базе танка Panther. Использование корпуса и ходовой серийной машины значительно бы облегчило налаживание серийного производства. Установка меньшей по габаритам башни снижала вес машины, что положительно отразилось бы на ходовых характеристиках. Однако работы были завершены ещё на стадии проектирования.</value>
   </data>
   <data name="Auf_Panther_short" xml:space="preserve">
     <value>Aufkl.Panther</value>
@@ -4296,7 +4296,7 @@ TRM P45</value>
     <value>VK 168.01 (P)</value>
   </data>
   <data name="G138_VK168_02_descr" xml:space="preserve">
-    <value>Летом 1942 года фирма Porsche получила заказ на проведение опытно-конструкторских работ по созданию танка прорыва с максимально допустимыми уровнями защиты и мощности вооружения. Typ 205 (Oktober) являлся развитием эскизного проекта Typ 205 «Mäuschen». Основным отличием было переднее расположение башни. Проект не вышел за рамки эскизов.</value>
+    <value>Летом 1942 года фирма Porsche получила заказ на проведение опытно-конструкторских работ по созданию танка прорыва с максимально допустимыми уровнями защиты и мощности вооружения. VK 168.01 являлся развитием эскизного проекта «Mäuschen». Основным отличием было переднее расположение башни. Проект не вышел за рамки эскизов.</value>
   </data>
   <data name="G138_VK168_02_short" xml:space="preserve">
     <value>VK 168.01 P</value>
@@ -4369,5 +4369,47 @@ TRM P45</value>
   </data>
   <data name="Leviathan_Mk1_Engine_short" xml:space="preserve">
     <value>Двигатель</value>
+  </data>
+  <data name="APCNR1945" xml:space="preserve">
+    <value>Pzgr. 43/44</value>
+  </data>
+  <data name="APCNRHE1945" xml:space="preserve">
+    <value>Sgrgr. 43/44</value>
+  </data>
+  <data name="Chassis_G138_VK168_02_Mauerbrecher" xml:space="preserve">
+    <value>VK 168.01 (M)</value>
+  </data>
+  <data name="Chassis_G85_Aufklarungspanzer_V" xml:space="preserve">
+    <value>Aufklärungspanzer V</value>
+  </data>
+  <data name="G138_VK168_02_Mauerbrecher" xml:space="preserve">
+    <value>VK 168.01 Mauerbrecher</value>
+  </data>
+  <data name="G138_VK168_02_Mauerbrecher_descr" xml:space="preserve">
+    <value>Летом 1942 года фирма Porsche получила заказ на проведение опытно-конструкторских работ по созданию танка прорыва с максимально допустимыми уровнями защиты и мощности вооружения. VK 168.01 являлся развитием эскизного проекта «Mäuschen». Основным отличием было переднее расположение башни. Проект не вышел за рамки эскизов.</value>
+  </data>
+  <data name="G138_VK168_02_Mauerbrecher_short" xml:space="preserve">
+    <value>Mauerbrecher</value>
+  </data>
+  <data name="G85_Aufklarungspanzer_V" xml:space="preserve">
+    <value>Aufklärungspanzer V</value>
+  </data>
+  <data name="G85_Aufklarungspanzer_V_descr" xml:space="preserve">
+    <value>Проект тяжёлой разведывательной машины на базе танка Panther. Использование корпуса и ходовой серийной машины значительно бы облегчило налаживание серийного производства. Установка меньшей по габаритам башни снижала вес машины, что положительно отразилось бы на ходовых характеристиках. Однако работы были завершены ещё на стадии проектирования.</value>
+  </data>
+  <data name="G85_Aufklarungspanzer_V_short" xml:space="preserve">
+    <value>Aufkl.Pz. V</value>
+  </data>
+  <data name="Maybach_HL_234_TRM_P45_Leicht" xml:space="preserve">
+    <value>Maybach HL 295 Ausf. A</value>
+  </data>
+  <data name="Turret_1_G138_VK168_02_Mauerbrecher" xml:space="preserve">
+    <value>VK 168.01 (M)</value>
+  </data>
+  <data name="Turret_1_G85_Aufklarungspanzer_V" xml:space="preserve">
+    <value>Aufklärungspanzer V</value>
+  </data>
+  <data name="_75mm_Waffe0725_1944" xml:space="preserve">
+    <value>7,5/5,5 cm Kw.K. 44 L/53</value>
   </data>
 </root>

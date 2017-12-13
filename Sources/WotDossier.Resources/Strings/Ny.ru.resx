@@ -1,0 +1,2286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="applyDiscount/buttons/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="applyDiscount/buttons/select" xml:space="preserve">
+    <value>Активировать скидку</value>
+  </data>
+  <data name="applyDiscount/compatibleCheckBox/label" xml:space="preserve">
+    <value>Показывать уже исследованную технику</value>
+  </data>
+  <data name="applyDiscount/infoText" xml:space="preserve">
+    <value>Выберите машину %(level)s уровня, которую хотите купить со скидкой в %(discount)s</value>
+  </data>
+  <data name="applyDiscount/title" xml:space="preserve">
+    <value>Активация скидки на покупку</value>
+  </data>
+  <data name="atmosphere/level/1" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="atmosphere/level/10" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="atmosphere/level/2" xml:space="preserve">
+    <value>II</value>
+  </data>
+  <data name="atmosphere/level/3" xml:space="preserve">
+    <value>III</value>
+  </data>
+  <data name="atmosphere/level/4" xml:space="preserve">
+    <value>IV</value>
+  </data>
+  <data name="atmosphere/level/5" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="atmosphere/level/6" xml:space="preserve">
+    <value>VI</value>
+  </data>
+  <data name="atmosphere/level/7" xml:space="preserve">
+    <value>VII</value>
+  </data>
+  <data name="atmosphere/level/8" xml:space="preserve">
+    <value>VIII</value>
+  </data>
+  <data name="atmosphere/level/9" xml:space="preserve">
+    <value>IX</value>
+  </data>
+  <data name="boxPopover/boxTitle/any" xml:space="preserve">
+    <value>Коробка со случайными украшениями</value>
+  </data>
+  <data name="boxPopover/boxTitle/asian" xml:space="preserve">
+    <value>Коробка Китайского Нового года</value>
+  </data>
+  <data name="boxPopover/boxTitle/modernWestern" xml:space="preserve">
+    <value>Коробка современного Рождества</value>
+  </data>
+  <data name="boxPopover/boxTitle/soviet" xml:space="preserve">
+    <value>Новогодняя коробка</value>
+  </data>
+  <data name="boxPopover/boxTitle/traditionalWestern" xml:space="preserve">
+    <value>Коробка традиционного Рождества</value>
+  </data>
+  <data name="boxPopover/button/boxOpen/label" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="boxPopover/title" xml:space="preserve">
+    <value>Коробки с украшениями</value>
+  </data>
+  <data name="boxPopover/toEarn" xml:space="preserve">
+    <value>Заработать</value>
+  </data>
+  <data name="boxPopover/toShop/bigBox/link" xml:space="preserve">
+    <value>Купить коробки</value>
+  </data>
+  <data name="boxPopover/toShop/smallBox/description" xml:space="preserve">
+    <value>Покупайте коробки себе или друзьям %(link)s</value>
+  </data>
+  <data name="boxPopover/toShop/smallBox/link" xml:space="preserve">
+    <value>на странице «Новогоднего наступления».</value>
+  </data>
+  <data name="breakScreen/backBtn/to/hangar" xml:space="preserve">
+    <value>К КОЛЛАЙДЕРУ</value>
+  </data>
+  <data name="breakScreen/balanceToyFragment/title" xml:space="preserve">
+    <value>В наличии:</value>
+  </data>
+  <data name="breakScreen/breakBtn/label" xml:space="preserve">
+    <value>Разбить украшения</value>
+  </data>
+  <data name="breakScreen/breakBtn/labelCount" xml:space="preserve">
+    <value>Разбить %(count)d шт.</value>
+  </data>
+  <data name="breakScreen/breakToyFragment/title" xml:space="preserve">
+    <value>Разбить на сумму</value>
+  </data>
+  <data name="breakScreen/cancelBtn/label" xml:space="preserve">
+    <value>К коллайдеру</value>
+  </data>
+  <data name="breakScreen/cancelFilterBtn/label" xml:space="preserve">
+    <value>Сбросить фильтр</value>
+  </data>
+  <data name="breakScreen/decorations/filter/label" xml:space="preserve">
+    <value>Показано</value>
+  </data>
+  <data name="breakScreen/enoughToyFragment/title" xml:space="preserve">
+    <value>У вас достаточно осколков
+для создания украшения</value>
+  </data>
+  <data name="breakScreen/lackToyFragment/title" xml:space="preserve">
+    <value>Для создания не хватает</value>
+  </data>
+  <data name="breakScreen/noToys/label" xml:space="preserve">
+    <value>В инвентаре нет украшений. Выполняйте боевые
+задачи или покупайте коробки с подарками
+в премиум магазине.</value>
+  </data>
+  <data name="breakScreen/noToysInFilter/label" xml:space="preserve">
+    <value>Ничего не найдено. Измените настройки фильтра
+или сбросьте фильтр на состояние по умолчанию.</value>
+  </data>
+  <data name="breakScreen/title" xml:space="preserve">
+    <value>Разборка украшений</value>
+  </data>
+  <data name="breakScreen/tooltip/filter/body" xml:space="preserve">
+    <value>Изменяйте настройки фильтра и подбирайте украшения согласно указанным параметрам.</value>
+  </data>
+  <data name="breakScreen/tooltip/filter/header" xml:space="preserve">
+    <value>Фильтр украшений</value>
+  </data>
+  <data name="breakScreen/waitingMsg" xml:space="preserve">
+    <value>Пожалуйста, подождите...</value>
+  </data>
+  <data name="chestView/backBtn/descr/toHangar" xml:space="preserve">
+    <value>В АНГАР</value>
+  </data>
+  <data name="chestView/backBtn/descr/toXmasTree" xml:space="preserve">
+    <value>К ЁЛКЕ</value>
+  </data>
+  <data name="chestView/backBtn/label" xml:space="preserve">
+    <value>НАЗАД</value>
+  </data>
+  <data name="chestView/btnLabel/backToTree" xml:space="preserve">
+    <value>Вернуться к наряжанию</value>
+  </data>
+  <data name="chestView/btnLabel/open" xml:space="preserve">
+    <value>Вскрыть ящик</value>
+  </data>
+  <data name="chestView/btnLabel/openNext" xml:space="preserve">
+    <value>Вскрыть следующий</value>
+  </data>
+  <data name="chestView/closeBtnLabel" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="chestView/getAward" xml:space="preserve">
+    <value>Получена награда</value>
+  </data>
+  <data name="chestView/statusLabel" xml:space="preserve">
+    <value>Вскрыть ещё (есть %(count)s)</value>
+  </data>
+  <data name="chestView/statusLabel/noItems" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="collections/award" xml:space="preserve">
+    <value>НАГРАДА</value>
+  </data>
+  <data name="collections/backBtn/label" xml:space="preserve">
+    <value>НАЗАД</value>
+  </data>
+  <data name="collections/bonus_info" xml:space="preserve">
+    <value>Бонус коллекции</value>
+  </data>
+  <data name="collections/btn" xml:space="preserve">
+    <value>КОЛЛЕКЦИИ
+УКРАШЕНИЙ</value>
+  </data>
+  <data name="collections/level/1" xml:space="preserve">
+    <value>I УРОВЕНЬ</value>
+  </data>
+  <data name="collections/level/2" xml:space="preserve">
+    <value>II УРОВЕНЬ</value>
+  </data>
+  <data name="collections/level/3" xml:space="preserve">
+    <value>III УРОВЕНЬ</value>
+  </data>
+  <data name="collections/level/4" xml:space="preserve">
+    <value>IV УРОВЕНЬ</value>
+  </data>
+  <data name="collections/level/5" xml:space="preserve">
+    <value>V УРОВЕНЬ</value>
+  </data>
+  <data name="collections/status" xml:space="preserve">
+    <value>Собрано украшений: %(value)s / %(max)d</value>
+  </data>
+  <data name="collections/title" xml:space="preserve">
+    <value>Бонус за %(setting)s</value>
+  </data>
+  <data name="collections/title/asian" xml:space="preserve">
+    <value>коллекцию Китайского Нового года</value>
+  </data>
+  <data name="collections/title/modernWestern" xml:space="preserve">
+    <value>коллекцию современного Рождества</value>
+  </data>
+  <data name="collections/title/soviet" xml:space="preserve">
+    <value>коллекцию Нового года</value>
+  </data>
+  <data name="collections/title/traditionalWestern" xml:space="preserve">
+    <value>коллекцию традиционного Рождества</value>
+  </data>
+  <data name="collections/tooltip/awards/nations/header" xml:space="preserve">
+    <value>Действует на технику наций:</value>
+  </data>
+  <data name="collections/tooltip/bonus/celebration/level/title" xml:space="preserve">
+    <value>Уровень атмосферы</value>
+  </data>
+  <data name="collections/tooltip/bonus/celebration/title" xml:space="preserve">
+    <value>Размер бонуса</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/header" xml:space="preserve">
+    <value>Как увеличить бонус:</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/reward/header" xml:space="preserve">
+    <value>Размер бонуса %(sign)s</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/reward/value" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/toys/header" xml:space="preserve">
+    <value>Собрать украшений %(sign)s</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/toys/header/count" xml:space="preserve">
+    <value>шт.</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/toys/more" xml:space="preserve">
+    <value>более %(count)d</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/toys/values" xml:space="preserve">
+    <value>%(min)d-%(max)d</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/value/sign" xml:space="preserve">
+    <value>(%(value)s)</value>
+  </data>
+  <data name="collections/tooltip/bonus/toys" xml:space="preserve">
+    <value>Собрано украшений в коллекции: %(value)s / %(max)d</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo" xml:space="preserve">
+    <value>Расчёт бонуса:</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bonuses/credits" xml:space="preserve">
+    <value>Кредиты за бой</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bonuses/crew" xml:space="preserve">
+    <value>Опыт экипажа</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bonuses/vehicle" xml:space="preserve">
+    <value>Опыт за бой</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bottom/decorations" xml:space="preserve">
+    <value>%(count)s</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bottom/description" xml:space="preserve">
+    <value>Бонус добавляется к опыту за бой, кредитам и опыту экипажа. На X уровне атмосферы базовый бонус умножается на %(value)s</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bottom/header" xml:space="preserve">
+    <value>Как увеличить бонус:</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bottom/line1" xml:space="preserve">
+    <value>• Соберите ещё украшений: %(count)s для роста
+бонуса до %(bonus)s%%</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bottom/line2" xml:space="preserve">
+    <value>• Повышайте уровень атмосферы (текущий: x%(level)s)</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/descr" xml:space="preserve">
+    <value>Бонус начисляется по итогам боя и действует до окончания новогоднего события.</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/header/asian" xml:space="preserve">
+    <value>Бонус за коллекцию Китайского Нового года</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/header/modernWestern" xml:space="preserve">
+    <value>Бонус за коллекцию современного Рождества</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/header/soviet" xml:space="preserve">
+    <value>Бонус за коллекцию Нового года</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/header/traditionalWestern" xml:space="preserve">
+    <value>Бонус за коллекцию традиционного Рождества</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/nations/header" xml:space="preserve">
+    <value>Действует на технику наций:</value>
+  </data>
+  <data name="collections/tooltip/decoration/notObtained" xml:space="preserve">
+    <value>Украшение не получено</value>
+  </data>
+  <data name="collections/tooltip/decoration/obtained" xml:space="preserve">
+    <value>Украшение получено</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/bonus/text" xml:space="preserve">
+    <value>Учитываются все украшения, полученные во время события, в т.ч. разбитые.</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/bonus/title" xml:space="preserve">
+    <value>Собирайте и увеличивайте бонус</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/howto/text" xml:space="preserve">
+    <value>Создавайте в коллайдере украшения из осколков или открывайте коробки с подарками.</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/howto/title" xml:space="preserve">
+    <value>Как получить</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/tips/stayInCollection" xml:space="preserve">
+    <value>останется в коллекции</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/tips/text" xml:space="preserve">
+    <value>• Разбитое украшение %(text)s.
+• Уровень атмосферы можно как увеличивать, так и уменьшать, повесив или сняв украшение.</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/tips/title" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="collections/tooltip/entry/body" xml:space="preserve">
+    <value>Собирайте новогодние украшения и получайте дополнительные бонусы по итогам боёв. Нажмите, чтобы узнать подробности.</value>
+  </data>
+  <data name="collections/tooltip/entry/header" xml:space="preserve">
+    <value>Коллекции украшений</value>
+  </data>
+  <data name="collections/tooltip/level/1/body" xml:space="preserve">
+    <value>Нажмите, чтобы увидеть список украшений выбранного уровня.</value>
+  </data>
+  <data name="collections/tooltip/level/1/header" xml:space="preserve">
+    <value>I уровень</value>
+  </data>
+  <data name="collections/tooltip/level/2/body" xml:space="preserve">
+    <value>Нажмите, чтобы увидеть список украшений выбранного уровня.</value>
+  </data>
+  <data name="collections/tooltip/level/2/header" xml:space="preserve">
+    <value>II уровень</value>
+  </data>
+  <data name="collections/tooltip/level/3/body" xml:space="preserve">
+    <value>Нажмите, чтобы увидеть список украшений выбранного уровня.</value>
+  </data>
+  <data name="collections/tooltip/level/3/header" xml:space="preserve">
+    <value>III уровень</value>
+  </data>
+  <data name="collections/tooltip/level/4/body" xml:space="preserve">
+    <value>Нажмите, чтобы увидеть список украшений выбранного уровня.</value>
+  </data>
+  <data name="collections/tooltip/level/4/header" xml:space="preserve">
+    <value>IV уровень</value>
+  </data>
+  <data name="collections/tooltip/level/5/body" xml:space="preserve">
+    <value>Нажмите, чтобы увидеть список украшений выбранного уровня.</value>
+  </data>
+  <data name="collections/tooltip/level/5/header" xml:space="preserve">
+    <value>V уровень</value>
+  </data>
+  <data name="collections/tooltip/nations/header" xml:space="preserve">
+    <value>Наносится на технику наций:</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/emblems/descr" xml:space="preserve">
+    <value>Эмблема выдаётся за собранную коллекцию %(collection)s 2018 года.</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/emblems/title/asian" xml:space="preserve">
+    <value>Эмблема «Жёлтая собака»</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/emblems/title/modernWestern" xml:space="preserve">
+    <value>Эмблема «Рождественский чулок»</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/emblems/title/soviet" xml:space="preserve">
+    <value>Эмблема «Голова Деда Мороза»</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/emblems/title/traditionalWestern" xml:space="preserve">
+    <value>Эмблема «Колокольчик»</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/style/description" xml:space="preserve">
+    <value>Уникальный набор из базового цвета, камуфляжа, надписи и эмблемы.</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/style/title" xml:space="preserve">
+    <value>Стиль «%(style)s»</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/descr" xml:space="preserve">
+    <value>Надпись выдаётся за собранную коллекцию %(collection)s 2018 года.</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/descr/collection/asian" xml:space="preserve">
+    <value>Китайского Нового Года</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/descr/collection/modernWestern" xml:space="preserve">
+    <value>современного Рождества</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/descr/collection/soviet" xml:space="preserve">
+    <value>Нового года</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/descr/collection/traditionalWestern" xml:space="preserve">
+    <value>традиционного Рождества</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/title/asian" xml:space="preserve">
+    <value>Праздничная надпись</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/title/modernWestern" xml:space="preserve">
+    <value>4 праздничные надписи</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/title/soviet" xml:space="preserve">
+    <value>Праздничная надпись</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/title/traditionalWestern" xml:space="preserve">
+    <value>4 праздничные надписи</value>
+  </data>
+  <data name="collections/tooltip/progressBar/header/title" xml:space="preserve">
+    <value>Награда за сбор всей коллекции</value>
+  </data>
+  <data name="collections/tooltip/settings/asian/body" xml:space="preserve">
+    <value>Нажмите, чтобы увидеть список украшений коллекции Китайского Нового года.</value>
+  </data>
+  <data name="collections/tooltip/settings/asian/header" xml:space="preserve">
+    <value>Коллекция Китайского Нового года</value>
+  </data>
+  <data name="collections/tooltip/settings/modernWestern/body" xml:space="preserve">
+    <value>Нажмите, чтобы увидеть список украшений коллекции современного Рождества.</value>
+  </data>
+  <data name="collections/tooltip/settings/modernWestern/header" xml:space="preserve">
+    <value>Коллекция современного Рождества</value>
+  </data>
+  <data name="collections/tooltip/settings/soviet/body" xml:space="preserve">
+    <value>Нажмите, чтобы увидеть список украшений новогодней коллекции.</value>
+  </data>
+  <data name="collections/tooltip/settings/soviet/header" xml:space="preserve">
+    <value>Коллекция Нового года</value>
+  </data>
+  <data name="collections/tooltip/settings/traditionalWestern/body" xml:space="preserve">
+    <value>Нажмите, чтобы увидеть список украшений коллекции традиционного Рождества.</value>
+  </data>
+  <data name="collections/tooltip/settings/traditionalWestern/header" xml:space="preserve">
+    <value>Коллекция традиционного Рождества</value>
+  </data>
+  <data name="collectionsGroup/backBtn/label" xml:space="preserve">
+    <value>НАЗАД</value>
+  </data>
+  <data name="collectionsGroup/backBtn/to/nyCollection" xml:space="preserve">
+    <value>Назад к альбому</value>
+  </data>
+  <data name="collectionsGroup/backBtn/to/nyCollectionsGroups" xml:space="preserve">
+    <value>К КОЛЛЕКЦИЯМ</value>
+  </data>
+  <data name="collectionsGroup/backBtn/to/nyScreen" xml:space="preserve">
+    <value>К НАРЯЖАНИЮ!</value>
+  </data>
+  <data name="collectionsGroup/title" xml:space="preserve">
+    <value>Коллекции украшений</value>
+  </data>
+  <data name="contextMenu/breakToy" xml:space="preserve">
+    <value>Разбить украшение</value>
+  </data>
+  <data name="contextMenu/breakToyInSlot" xml:space="preserve">
+    <value>Разбить украшение</value>
+  </data>
+  <data name="contextMenu/placeToy" xml:space="preserve">
+    <value>Установить украшение</value>
+  </data>
+  <data name="contextMenu/removeToy" xml:space="preserve">
+    <value>Снять украшение</value>
+  </data>
+  <data name="craftScreen/backBtn/to/hangar" xml:space="preserve">
+    <value>К НАРЯЖАНИЮ</value>
+  </data>
+  <data name="craftScreen/buttons/craftBtn" xml:space="preserve">
+    <value>СОЗДАТЬ УКРАШЕНИЕ</value>
+  </data>
+  <data name="craftScreen/buttons/shardsBtn" xml:space="preserve">
+    <value>ПОЛУЧИТЬ ОСКОЛКИ</value>
+  </data>
+  <data name="craftScreen/contour/toyLevel" xml:space="preserve">
+    <value>%(level)s уровень</value>
+  </data>
+  <data name="craftScreen/contour/toyType" xml:space="preserve">
+    <value>Украшение %(type)s</value>
+  </data>
+  <data name="craftScreen/description" xml:space="preserve">
+    <value>В наличии:</value>
+  </data>
+  <data name="craftScreen/levelSlider/title" xml:space="preserve">
+    <value>УРОВЕНЬ</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/1/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного уровня.</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/1/header" xml:space="preserve">
+    <value>I уровень</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/2/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного уровня.</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/2/header" xml:space="preserve">
+    <value>II уровень</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/3/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного уровня.</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/3/header" xml:space="preserve">
+    <value>III уровень</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/4/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного уровня.</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/4/header" xml:space="preserve">
+    <value>IV уровень</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/5/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного уровня.</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/5/header" xml:space="preserve">
+    <value>V уровень</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/any/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение случайного уровня.</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/any/header" xml:space="preserve">
+    <value>Случайный уровень</value>
+  </data>
+  <data name="craftScreen/nationSlider/asia" xml:space="preserve">
+    <value>КИТАЙСКАЯ</value>
+  </data>
+  <data name="craftScreen/nationSlider/christmas" xml:space="preserve">
+    <value>СОВРЕМЕННАЯ</value>
+  </data>
+  <data name="craftScreen/nationSlider/european" xml:space="preserve">
+    <value>ТРАДИЦИОННАЯ</value>
+  </data>
+  <data name="craftScreen/nationSlider/random" xml:space="preserve">
+    <value>СЛУЧАЙНАЯ</value>
+  </data>
+  <data name="craftScreen/nationSlider/title" xml:space="preserve">
+    <value>КОЛЛЕКЦИЯ</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/any/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать параметр.</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/any/header" xml:space="preserve">
+    <value>Случайная коллекция</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/asian/body" xml:space="preserve">
+    <value>Бонус коллекции действует на нации:
+Китай.</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/asian/header" xml:space="preserve">
+    <value>Коллекция Китайского Нового года</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/modernWestern/body" xml:space="preserve">
+    <value>Бонус коллекции действует на нации:
+США, Великобритания, Швеция, Япония.</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/modernWestern/header" xml:space="preserve">
+    <value>Коллекция современного Рождества</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/soviet/body" xml:space="preserve">
+    <value>Бонус коллекции действует на нацию:
+СССР.</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/soviet/header" xml:space="preserve">
+    <value>Новогодняя коллекция</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/traditionalWestern/body" xml:space="preserve">
+    <value>Бонус коллекции действует на нации:
+Германия, Чехословакия, Франция, Польша.</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/traditionalWestern/header" xml:space="preserve">
+    <value>Коллекция традиционного Рождества</value>
+  </data>
+  <data name="craftScreen/nationSlider/ussr" xml:space="preserve">
+    <value>НОВОГОДНЯЯ</value>
+  </data>
+  <data name="craftScreen/title" xml:space="preserve">
+    <value>Новый годный коллайдер</value>
+  </data>
+  <data name="craftScreen/toysCount" xml:space="preserve">
+    <value>Создано новых украшений:</value>
+  </data>
+  <data name="craftScreen/typeSlider/title" xml:space="preserve">
+    <value>ТИП</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/any/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение случайного типа.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/any/header" xml:space="preserve">
+    <value>Случайный тип</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/garland/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного типа.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/garland/header" xml:space="preserve">
+    <value>Гирлянда</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/gift/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного типа.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/gift/header" xml:space="preserve">
+    <value>Украшение под ёлку</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/hanging/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного типа.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/hanging/header" xml:space="preserve">
+    <value>Подвесное украшение</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/house_decoration/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного типа.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/house_decoration/header" xml:space="preserve">
+    <value>Дом</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/house_lamp/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного типа.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/house_lamp/header" xml:space="preserve">
+    <value>Освещение</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/snowman/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного типа.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/snowman/header" xml:space="preserve">
+    <value>Снеговик</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/street_garland/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного типа.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/street_garland/header" xml:space="preserve">
+    <value>Столбы и дворик</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/top/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать украшение указанного типа.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/top/header" xml:space="preserve">
+    <value>Навершие</value>
+  </data>
+  <data name="decorations/tooltip/atmosphere_scores" xml:space="preserve">
+    <value>Очков атмосферы праздника</value>
+  </data>
+  <data name="decorations/tooltip/booster_credits" xml:space="preserve">
+    <value>к кредитам за бой</value>
+  </data>
+  <data name="decorations/tooltip/booster_crew_xp" xml:space="preserve">
+    <value>к опыту экипажа</value>
+  </data>
+  <data name="decorations/tooltip/booster_free_xp" xml:space="preserve">
+    <value>к свободному опыту</value>
+  </data>
+  <data name="decorations/tooltip/booster_xp" xml:space="preserve">
+    <value>к опыту за бой</value>
+  </data>
+  <data name="decorations/tooltip/chest/body" xml:space="preserve">
+    <value>Нажмите, чтобы вскрыть ящик, который содержит ценные награды.</value>
+  </data>
+  <data name="decorations/tooltip/chest/header" xml:space="preserve">
+    <value>Ящик с наградами</value>
+  </data>
+  <data name="decorations/tooltip/decoration_level" xml:space="preserve">
+    <value>Уровень украшения</value>
+  </data>
+  <data name="decorations/tooltip/empty/body" xml:space="preserve">
+    <value>Нажмите, чтобы посмотреть доступные украшения.</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/any" xml:space="preserve">
+    <value>Случайное украшение</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/garland" xml:space="preserve">
+    <value>Гирлянда</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/gift" xml:space="preserve">
+    <value>Украшение под ёлку</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/hanging" xml:space="preserve">
+    <value>Подвесное украшение</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/house_decoration" xml:space="preserve">
+    <value>Украшение дома</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/house_lamp" xml:space="preserve">
+    <value>Освещение</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/snowman" xml:space="preserve">
+    <value>Снеговик</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/street_garland" xml:space="preserve">
+    <value>Столбы и дворик</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/top" xml:space="preserve">
+    <value>Навершие</value>
+  </data>
+  <data name="decorations/tooltip/flakes_price" xml:space="preserve">
+    <value>Стоимость в осколках</value>
+  </data>
+  <data name="decorations/tooltip/levelHeader" xml:space="preserve">
+    <value>уровень</value>
+  </data>
+  <data name="decorations/tooltip/nation_bonus" xml:space="preserve">
+    <value>Бонус к технике:</value>
+  </data>
+  <data name="discount/format" xml:space="preserve">
+    <value>-%(discount)s%%</value>
+  </data>
+  <data name="hangar/bonusFlagInfo/tooltip/text" xml:space="preserve">
+    <value>Новогодняя коробка (x%(count)d)</value>
+  </data>
+  <data name="hangar/bonusInfo" xml:space="preserve">
+    <value>Бонус на</value>
+  </data>
+  <data name="hangar/bonusInfo/tooltip/body" xml:space="preserve">
+    <value>В коробке содержится 3 случайных украшения и дополнительная награда.</value>
+  </data>
+  <data name="hangar/bonusInfo/tooltip/header" xml:space="preserve">
+    <value>Коробка с украшениями</value>
+  </data>
+  <data name="hangar/rewards/btn" xml:space="preserve">
+    <value>Список наград</value>
+  </data>
+  <data name="levelUp/buttons/open/label" xml:space="preserve">
+    <value>Вскрыть ящик</value>
+  </data>
+  <data name="levelUp/closeBtn/label" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="levelUp/description" xml:space="preserve">
+    <value>Новый уровень атмосферы праздника!</value>
+  </data>
+  <data name="levelUp/giftDescription" xml:space="preserve">
+    <value>А вот и ящик с наградами!</value>
+  </data>
+  <data name="missionRewardScreen/closeBtnLabel" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="missionRewardScreen/header" xml:space="preserve">
+    <value>Поздравляем!</value>
+  </data>
+  <data name="missionRewardScreen/headerExtra" xml:space="preserve">
+    <value>Неожиданный приз!</value>
+  </data>
+  <data name="missionRewardWindow/boxName/asian" xml:space="preserve">
+    <value>коробка Китайского Нового года</value>
+  </data>
+  <data name="missionRewardWindow/boxName/modernWestern" xml:space="preserve">
+    <value>коробка современного Рождества</value>
+  </data>
+  <data name="missionRewardWindow/boxName/soviet" xml:space="preserve">
+    <value>новогодняя коробка</value>
+  </data>
+  <data name="missionRewardWindow/boxName/traditionalWestern" xml:space="preserve">
+    <value>коробка традиционного Рождества</value>
+  </data>
+  <data name="missionRewardWindow/button/statusLabel" xml:space="preserve">
+    <value>Открыть ещё (есть %(count)s)</value>
+  </data>
+  <data name="missionRewardWindow/button/statusLabel/noItems" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="missionRewardWindow/description/any" xml:space="preserve">
+    <value>За выполнение боевой задачи вы получаете
+подарочную коробку с ценной наградой.</value>
+  </data>
+  <data name="missionRewardWindow/description/setting" xml:space="preserve">
+    <value>Куплена (или была подарена) %(boxName)s
+с украшениями V уровня.</value>
+  </data>
+  <data name="missionRewardWindow/header/any" xml:space="preserve">
+    <value>Получена коробка!</value>
+  </data>
+  <data name="missionRewardWindow/header/setting" xml:space="preserve">
+    <value>Получена коробка!</value>
+  </data>
+  <data name="missionRewardWindow/rewardBtnLabel" xml:space="preserve">
+    <value>Открыть коробку</value>
+  </data>
+  <data name="missionRewardWindow/title/any" xml:space="preserve">
+    <value>Время вскрывать посылки</value>
+  </data>
+  <data name="missionRewardWindow/title/setting" xml:space="preserve">
+    <value>Время вскрывать посылки</value>
+  </data>
+  <data name="missionRewardWindow/warning/noItems" xml:space="preserve">
+    <value>Все коробки были открыты</value>
+  </data>
+  <data name="popover/decorations/currentToy/body" xml:space="preserve">
+    <value>Нажмите, чтобы освободить место для другого украшения.</value>
+  </data>
+  <data name="popover/decorations/currentToy/header" xml:space="preserve">
+    <value>Снять</value>
+  </data>
+  <data name="popover/decorations/filter/header" xml:space="preserve">
+    <value>Фильтр украшений</value>
+  </data>
+  <data name="popover/decorations/filter/label" xml:space="preserve">
+    <value>Показано</value>
+  </data>
+  <data name="popover/decorations/formHeader" xml:space="preserve">
+    <value>Тип украшений</value>
+  </data>
+  <data name="popover/decorations/header/house" xml:space="preserve">
+    <value>Украшения дома</value>
+  </data>
+  <data name="popover/decorations/header/house_light" xml:space="preserve">
+    <value>Освещение</value>
+  </data>
+  <data name="popover/decorations/header/lampposts" xml:space="preserve">
+    <value>Столбы и дворик</value>
+  </data>
+  <data name="popover/decorations/header/snowman" xml:space="preserve">
+    <value>Украшения снеговика</value>
+  </data>
+  <data name="popover/decorations/header/top" xml:space="preserve">
+    <value>Навершия</value>
+  </data>
+  <data name="popover/decorations/header/tree_garland" xml:space="preserve">
+    <value>Гирлянды</value>
+  </data>
+  <data name="popover/decorations/header/tree_handing" xml:space="preserve">
+    <value>Подвесные украшения</value>
+  </data>
+  <data name="popover/decorations/header/under_tree" xml:space="preserve">
+    <value>Украшения под ёлку</value>
+  </data>
+  <data name="popover/decorations/noFilteredToys/description" xml:space="preserve">
+    <value>Ничего не найдено. Измените настройки фильтра или сбросьте фильтр на состояние по умолчанию.</value>
+  </data>
+  <data name="popover/decorations/noFilteredToys/resetBtn" xml:space="preserve">
+    <value>Сбросить фильтр</value>
+  </data>
+  <data name="popover/decorations/noToys/description" xml:space="preserve">
+    <value>Выполняйте боевые задачи и зарабатывайте украшения, чтобы сделать свой Ангар праздничным.</value>
+  </data>
+  <data name="popover/decorations/noToys/toTasksBtn" xml:space="preserve">
+    <value>Перейти к задачам</value>
+  </data>
+  <data name="popover/decorations/settings/closeBtn" xml:space="preserve">
+    <value>Применить фильтр</value>
+  </data>
+  <data name="popover/decorations/settings/level/1" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="popover/decorations/settings/level/2" xml:space="preserve">
+    <value>II</value>
+  </data>
+  <data name="popover/decorations/settings/level/3" xml:space="preserve">
+    <value>III</value>
+  </data>
+  <data name="popover/decorations/settings/level/4" xml:space="preserve">
+    <value>IV</value>
+  </data>
+  <data name="popover/decorations/settings/level/5" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="popover/decorations/settings/levelHeader" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="popover/decorations/settings/nationHeader" xml:space="preserve">
+    <value>Коллекция</value>
+  </data>
+  <data name="popover/decorations/settings/nations/all" xml:space="preserve">
+    <value>Все коллекции</value>
+  </data>
+  <data name="popover/decorations/settings/nations/christmas" xml:space="preserve">
+    <value>Современное Рождество</value>
+  </data>
+  <data name="popover/decorations/settings/nations/eastern_new_year" xml:space="preserve">
+    <value>Китайский Новый год</value>
+  </data>
+  <data name="popover/decorations/settings/nations/new_year" xml:space="preserve">
+    <value>Новый год</value>
+  </data>
+  <data name="popover/decorations/settings/nations/old_christmas" xml:space="preserve">
+    <value>Традиционное Рождество</value>
+  </data>
+  <data name="popover/decorations/settings/tooltip/reset/body" xml:space="preserve">
+    <value>Нажмите, чтобы установить настройки фильтра
+элементов внешнего вида на состояние по умолчанию.</value>
+  </data>
+  <data name="popover/decorations/settings/tooltip/reset/header" xml:space="preserve">
+    <value>Установить по умолчанию</value>
+  </data>
+  <data name="rewardsScreen/rewards/tankWoman/recruited" xml:space="preserve">
+    <value>Рекрутирована</value>
+  </data>
+  <data name="rewardsScreen/rewards/tankWoman/toRecruit" xml:space="preserve">
+    <value>Рекрутировать</value>
+  </data>
+  <data name="rewardsScreen/rewards/vehicle/applied" xml:space="preserve">
+    <value>Скидка использована</value>
+  </data>
+  <data name="rewardsScreen/rewards/vehicle/btn" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="rewardsScreen/rewards/vehicle/giftTank" xml:space="preserve">
+    <value>Танк в подарок</value>
+  </data>
+  <data name="rewardsScreen/rewards/vehicle/received" xml:space="preserve">
+    <value>Получите награду,
+вскрыв ящик</value>
+  </data>
+  <data name="rewardsScreen/title" xml:space="preserve">
+    <value>Награды за уровни атмосферы</value>
+  </data>
+  <data name="rewardsScreen/tooltip/gift/vehicle/body" xml:space="preserve">
+    <value>Это наш вам новогодний подарок — машина %(level)s уровня %(name)s.</value>
+  </data>
+  <data name="rewardsScreen/tooltip/gift/vehicle/header" xml:space="preserve">
+    <value>Подарок на Новый год</value>
+  </data>
+  <data name="rewardsScreen/tooltip/unlock/body" xml:space="preserve">
+    <value>Повышайте атмосферу праздника и
+украшайте Ангар, чтобы получить награды.</value>
+  </data>
+  <data name="rewardsScreen/tooltip/unlock/header" xml:space="preserve">
+    <value>Уровень атмосферы не достигнут</value>
+  </data>
+  <data name="rewardsScreen/tooltip/vehicle/applied/body" xml:space="preserve">
+    <value>Скидка в %(discount)s%% активирована для %(name)s</value>
+  </data>
+  <data name="rewardsScreen/tooltip/vehicle/body" xml:space="preserve">
+    <value>Скидка в %(discount)s%% на выбранную вами
+исследуемую машину %(level)s уровня.</value>
+  </data>
+  <data name="rewardsScreen/tooltip/vehicle/header" xml:space="preserve">
+    <value>Скидка на машину %(level)s уровня</value>
+  </data>
+  <data name="rewardsScreen/tooltip/vehicleUnknown/applied/body" xml:space="preserve">
+    <value>Скидка %(discount)s%% активирована</value>
+  </data>
+  <data name="screen/backBtn/label" xml:space="preserve">
+    <value>НАЗАД</value>
+  </data>
+  <data name="screen/backBtn/to/hangar" xml:space="preserve">
+    <value>В АНГАР</value>
+  </data>
+  <data name="screen/box/label" xml:space="preserve">
+    <value>x%(count)d</value>
+  </data>
+  <data name="screen/craftBtn/label" xml:space="preserve">
+    <value>Создать украшение</value>
+  </data>
+  <data name="screen/header" xml:space="preserve">
+    <value>Атмосфера праздника</value>
+  </data>
+  <data name="screen/sidebar/label/house" xml:space="preserve">
+    <value>Дом и освещение</value>
+  </data>
+  <data name="screen/sidebar/label/light" xml:space="preserve">
+    <value>Столбы и дворик</value>
+  </data>
+  <data name="screen/sidebar/label/snowman" xml:space="preserve">
+    <value>Снеговик</value>
+  </data>
+  <data name="screen/sidebar/label/tree" xml:space="preserve">
+    <value>Ёлка</value>
+  </data>
+  <data name="system_messages/applyDiscount/tankmen/success" xml:space="preserve">
+    <value>Рекрутирование девушки-танкиста выполнено успешно</value>
+  </data>
+  <data name="system_messages/battleResult/boxes" xml:space="preserve">
+    <value>Новогодний подарок (x%(count)s)</value>
+  </data>
+  <data name="system_messages/breakToys/error/invalidRequest" xml:space="preserve">
+    <value>Ошибка разборки украшения: заданы неправильные параметры.</value>
+  </data>
+  <data name="system_messages/breakToys/error/server_error" xml:space="preserve">
+    <value>Ошибка разборки украшения: серверный сбой.</value>
+  </data>
+  <data name="system_messages/craftToy/error/invalidRequest" xml:space="preserve">
+    <value>Ошибка создания украшения: заданы неправильные параметры.</value>
+  </data>
+  <data name="system_messages/craftToy/error/server_error" xml:space="preserve">
+    <value>Ошибка создания украшения: серверный сбой.</value>
+  </data>
+  <data name="system_messages/discountSelect/error/NOT_FOUND" xml:space="preserve">
+    <value>Ошибка активации скидки: скидка на данную машину не найдена.</value>
+  </data>
+  <data name="system_messages/discountSelect/error/NO_DISCOUNTS" xml:space="preserve">
+    <value>Ошибка активации скидки на технику: скидок не найдено.</value>
+  </data>
+  <data name="system_messages/discountSelect/error/inhangar" xml:space="preserve">
+    <value>Ошибка активации скидки на технику: машина уже куплена.</value>
+  </data>
+  <data name="system_messages/discountSelect/error/server_error" xml:space="preserve">
+    <value>Ошибка активации скидки на технику: серверный сбой.</value>
+  </data>
+  <data name="system_messages/discountSelect/success" xml:space="preserve">
+    <value>Вы активировали %(discount)d%% скидку на машину %(vehicle)s</value>
+  </data>
+  <data name="system_messages/finished" xml:space="preserve">
+    <value>У вас остались неиспользованные награды. Не забудьте активировать их до начала марта!</value>
+  </data>
+  <data name="system_messages/finished/button" xml:space="preserve">
+    <value>К наградам</value>
+  </data>
+  <data name="system_messages/invoiceReceived/allBoxesOpened" xml:space="preserve">
+    <value>Мы открыли за вас коробки и начиcлили награды за «Новогоднее наступление»</value>
+  </data>
+  <data name="system_messages/invoiceReceived/chestOpened/body" xml:space="preserve">
+    <value>Вам присвоены следующие награды:</value>
+  </data>
+  <data name="system_messages/invoiceReceived/chestOpened/header" xml:space="preserve">
+    <value>Поздравляем!</value>
+  </data>
+  <data name="system_messages/invoiceReceived/debitedToys" xml:space="preserve">
+    <value>Списаны новогодние украшения</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toy" xml:space="preserve">
+    <value>«%(name)s» (x%(count)s)</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/garland" xml:space="preserve">
+    <value>Гирлянда</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/gift" xml:space="preserve">
+    <value>Украшение под ёлку</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/hanging" xml:space="preserve">
+    <value>Подвесная игрушка</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/house_decoration" xml:space="preserve">
+    <value>Украшение дома</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/house_lamp" xml:space="preserve">
+    <value>Освещение</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/snowman" xml:space="preserve">
+    <value>Снеговик</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/street_garland" xml:space="preserve">
+    <value>Столбы и дворик</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/top" xml:space="preserve">
+    <value>Навершие</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toys" xml:space="preserve">
+    <value>Начислены новогодние украшения</value>
+  </data>
+  <data name="system_messages/open/error/NO_ITEMS" xml:space="preserve">
+    <value>Ошибка получения подарка: коробок или ящиков не найдено.</value>
+  </data>
+  <data name="system_messages/open/error/server_error" xml:space="preserve">
+    <value>Ошибка получения подарка: серверный сбой.</value>
+  </data>
+  <data name="system_messages/open/error/underOpening" xml:space="preserve">
+    <value>Ошибка получения подарка: дождитесь завершения предыдущей операции.</value>
+  </data>
+  <data name="system_messages/open/success" xml:space="preserve">
+    <value>Подарок успешно получен.</value>
+  </data>
+  <data name="system_messages/placeToy/error/invalidRequest" xml:space="preserve">
+    <value>Ошибка размещения украшения: заданы неправильные параметры.</value>
+  </data>
+  <data name="system_messages/placeToy/error/server_error" xml:space="preserve">
+    <value>Ошибка размещения украшения: серверный сбой.</value>
+  </data>
+  <data name="system_messages/presentBox/body" xml:space="preserve">
+    <value>Ваш друг прислал вам подарок:
+%(settingStartTag)s%(setting)s%(settingEndTag)s с украшениями V уровня (х%(countStartTag)s%(count)d%(countEndTag)s)</value>
+  </data>
+  <data name="system_messages/presentBox/header" xml:space="preserve">
+    <value>Вам посылка</value>
+  </data>
+  <data name="system_messages/presentBox/setting/name/asian" xml:space="preserve">
+    <value>Коробка Китайского Нового года</value>
+  </data>
+  <data name="system_messages/presentBox/setting/name/modernWestern" xml:space="preserve">
+    <value>Коробка современного Рождества</value>
+  </data>
+  <data name="system_messages/presentBox/setting/name/soviet" xml:space="preserve">
+    <value>Новогодняя коробка</value>
+  </data>
+  <data name="system_messages/presentBox/setting/name/traditionalWestern" xml:space="preserve">
+    <value>Коробка традиционного Рождества</value>
+  </data>
+  <data name="system_messages/request/error/common" xml:space="preserve">
+    <value>Операция временно недоступна. Попробуйте позже.</value>
+  </data>
+  <data name="system_messages/request/error/cooldown" xml:space="preserve">
+    <value>Ошибка: операция временно заморожена (не май месяц).</value>
+  </data>
+  <data name="system_messages/request/error/requestIsBeingProcess" xml:space="preserve">
+    <value>Операция недоступна. Дождитесь выполнения предыдущего запроса такого же типа.</value>
+  </data>
+  <data name="system_messages/request/error/time out" xml:space="preserve">
+    <value>Ошибка: отведённое на операцию время истекло.</value>
+  </data>
+  <data name="system_messages/setting/collected/emblem/asian" xml:space="preserve">
+    <value>«Жёлтая собака»</value>
+  </data>
+  <data name="system_messages/setting/collected/emblem/modernWestern" xml:space="preserve">
+    <value>«Рождественский чулок»</value>
+  </data>
+  <data name="system_messages/setting/collected/emblem/soviet" xml:space="preserve">
+    <value>«Голова Деда Мороза»</value>
+  </data>
+  <data name="system_messages/setting/collected/emblem/traditionalWestern" xml:space="preserve">
+    <value>«Колокольчик»</value>
+  </data>
+  <data name="system_messages/setting/collected/message/body" xml:space="preserve">
+    <value>За составление всей коллекции %(setting)s вам присвоены следующие награды:
+Стили: «%(styles)s»
+Надписи: %(titles)s
+Эмблемы: %(emblem)s</value>
+  </data>
+  <data name="system_messages/setting/collected/message/header" xml:space="preserve">
+    <value>Коллекция собрана!</value>
+  </data>
+  <data name="system_messages/setting/collected/titles/asian" xml:space="preserve">
+    <value>«С Новым годом!»</value>
+  </data>
+  <data name="system_messages/setting/collected/titles/modernWestern" xml:space="preserve">
+    <value>«Happy New Year!», «Gott nytt år!», «С Рождеством!»</value>
+  </data>
+  <data name="system_messages/setting/collected/titles/soviet" xml:space="preserve">
+    <value>«Побед в новом году!»</value>
+  </data>
+  <data name="system_messages/setting/collected/titles/traditionalWestern" xml:space="preserve">
+    <value>«Bonne Annee!», «Stastny Novy Rok!», «Szczęśliwego Nowego Roku», «Frohe Weihnachten»</value>
+  </data>
+  <data name="system_messages/setting/name/asian" xml:space="preserve">
+    <value>Китайского Нового года</value>
+  </data>
+  <data name="system_messages/setting/name/modernWestern" xml:space="preserve">
+    <value>современного Рождества</value>
+  </data>
+  <data name="system_messages/setting/name/soviet" xml:space="preserve">
+    <value>Нового года</value>
+  </data>
+  <data name="system_messages/setting/name/traditionalWestern" xml:space="preserve">
+    <value>традиционного Рождества</value>
+  </data>
+  <data name="system_messages/started/body" xml:space="preserve">
+    <value>Украшайте Ангар и зарабатывайте ценные награды.</value>
+  </data>
+  <data name="system_messages/started/button" xml:space="preserve">
+    <value>Посмотреть награды</value>
+  </data>
+  <data name="system_messages/started/header" xml:space="preserve">
+    <value>Началось «Новогоднее наступление»!</value>
+  </data>
+  <data name="system_messages/state/error/notAvailable" xml:space="preserve">
+    <value>«Новогоднее наступление» временно приостановлено.</value>
+  </data>
+  <data name="system_messages/state/finished" xml:space="preserve">
+    <value>«Новогоднее наступление» завершено, спасибо за участие — и увидимся в следующем году!</value>
+  </data>
+  <data name="system_messages/state/restored" xml:space="preserve">
+    <value>«Новогоднее наступление» возобновлено.</value>
+  </data>
+  <data name="system_messages/tankmanRecruit/error/NOT_FOUND" xml:space="preserve">
+    <value>Ошибка рекрутирования девушки-танкиста: рекрутируемая не найдена.</value>
+  </data>
+  <data name="system_messages/tankmanRecruit/error/NO_DISCOUNTS" xml:space="preserve">
+    <value>Ошибка рекрутирования девушки-танкиста: скидок не найдено.</value>
+  </data>
+  <data name="system_messages/tankmanRecruit/error/server_error" xml:space="preserve">
+    <value>Ошибка активации скидки на технику: серверный сбой.</value>
+  </data>
+  <data name="system_messages/tankmanRecruit/success" xml:space="preserve">
+    <value>Девушка-танкист успешно рекрутирована.</value>
+  </data>
+  <data name="tooltip/atmosphere/vehicle/header" xml:space="preserve">
+    <value>Скидка на машину
+%(level)s уровня</value>
+  </data>
+  <data name="tooltip/box/buy/body" xml:space="preserve">
+    <value>Приобретайте коробки с украшениями любой коллекции для себя и друзей на странице «Новогоднего наступления».</value>
+  </data>
+  <data name="tooltip/box/buy/header" xml:space="preserve">
+    <value>Где купить:</value>
+  </data>
+  <data name="tooltip/box/header" xml:space="preserve">
+    <value>Коробка с украшениями</value>
+  </data>
+  <data name="tooltip/box/win/body" xml:space="preserve">
+    <value>Выдаются за выполнение новогодних боевых задач.</value>
+  </data>
+  <data name="tooltip/box/win/header" xml:space="preserve">
+    <value>Как заработать:</value>
+  </data>
+  <data name="tooltip/carouselItem/awards/girl" xml:space="preserve">
+    <value>Девушка-танкист</value>
+  </data>
+  <data name="tooltip/carouselItem/awards/header" xml:space="preserve">
+    <value>Ближайшие награды:</value>
+  </data>
+  <data name="tooltip/carouselItem/awards/vehicle/lvl" xml:space="preserve">
+    <value>уровня</value>
+  </data>
+  <data name="tooltip/carouselItem/awards/vehicle/sale" xml:space="preserve">
+    <value>скидка в кредитах на машину</value>
+  </data>
+  <data name="tooltip/carouselItem/disable/body" xml:space="preserve">
+    <value>По техническим причинам «Новогоднее наступление»
+приостановлено. Неполадки устраним к завтрашнему
+утру. Отдохните, покушайте мандаринок.</value>
+  </data>
+  <data name="tooltip/carouselItem/disable/header" xml:space="preserve">
+    <value>Праздник на паузе</value>
+  </data>
+  <data name="tooltip/carouselItem/noProgress/body" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к украшению ёлки и окружения. Чем выше станет уровень атмосферы праздника, тем ценнее награды вы получите.</value>
+  </data>
+  <data name="tooltip/carouselItem/progress/header/decorations" xml:space="preserve">
+    <value>Атмосфера праздника</value>
+  </data>
+  <data name="tooltip/carouselItem/progress/header/noDecorations" xml:space="preserve">
+    <value>Ёлка и новогоднее окружение</value>
+  </data>
+  <data name="tooltip/carouselItem/progress/header/subTitle" xml:space="preserve">
+    <value>Прогресс атмосферы праздника</value>
+  </data>
+  <data name="tooltip/flakes/body" xml:space="preserve">
+    <value>Ценный новогодний реагент</value>
+  </data>
+  <data name="tooltip/flakes/descr" xml:space="preserve">
+    <value>Разбивайте ненужные украшения и создавайте новые из полученных осколков.</value>
+  </data>
+  <data name="tooltip/flakes/header" xml:space="preserve">
+    <value>Осколки</value>
+  </data>
+  <data name="tooltip/flakes/in_stock" xml:space="preserve">
+    <value>В наличии</value>
+  </data>
+  <data name="tooltip/settings/nations/christmas" xml:space="preserve">
+    <value>Современное Рождество</value>
+  </data>
+  <data name="tooltip/settings/nations/eastern_new_year" xml:space="preserve">
+    <value>Китайский Новый год</value>
+  </data>
+  <data name="tooltip/settings/nations/new_year" xml:space="preserve">
+    <value>Новый год</value>
+  </data>
+  <data name="tooltip/settings/nations/old_christmas" xml:space="preserve">
+    <value>Традиционное Рождество</value>
+  </data>
+  <data name="tooltip/settings/toys/toy0" xml:space="preserve">
+    <value>Красная гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy10" xml:space="preserve">
+    <value>Бело-зелёная гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy100" xml:space="preserve">
+    <value>Сложная снежинка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy100/descr" xml:space="preserve">
+    <value>(U+2744), (U+2745) и (U+2746) — всё, что вам нужно.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy101" xml:space="preserve">
+    <value>Самая Красная Звезда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy101/descr" xml:space="preserve">
+    <value>[Помогите, у меня забрали паспорт и заставляют писать новогодние тексты. Саня.]</value>
+  </data>
+  <data name="tooltip/settings/toys/toy102" xml:space="preserve">
+    <value>Навершие-пагода</value>
+  </data>
+  <data name="tooltip/settings/toys/toy102/descr" xml:space="preserve">
+    <value>Глядя на это навершие, вы остро чувствуете неумолимое циклическое развёртывание вселенского бытия в строго определённом порядке.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy103" xml:space="preserve">
+    <value>Колпак Санты</value>
+  </data>
+  <data name="tooltip/settings/toys/toy103/descr" xml:space="preserve">
+    <value>«...До марта я свободен, а в марте я пасхальный заяц.»</value>
+  </data>
+  <data name="tooltip/settings/toys/toy104" xml:space="preserve">
+    <value>Сугроб из искусственного снега</value>
+  </data>
+  <data name="tooltip/settings/toys/toy105" xml:space="preserve">
+    <value>Красненькая коробочка с подарочком</value>
+  </data>
+  <data name="tooltip/settings/toys/toy106" xml:space="preserve">
+    <value>Санки</value>
+  </data>
+  <data name="tooltip/settings/toys/toy107" xml:space="preserve">
+    <value>Красный фонарик-оригами</value>
+  </data>
+  <data name="tooltip/settings/toys/toy108" xml:space="preserve">
+    <value>Синенькая коробочка с подарочком</value>
+  </data>
+  <data name="tooltip/settings/toys/toy109" xml:space="preserve">
+    <value>Мешок с подарками</value>
+  </data>
+  <data name="tooltip/settings/toys/toy110" xml:space="preserve">
+    <value>Сугроб с тайником</value>
+  </data>
+  <data name="tooltip/settings/toys/toy111" xml:space="preserve">
+    <value>Жёлтый фонарик-оригами</value>
+  </data>
+  <data name="tooltip/settings/toys/toy112" xml:space="preserve">
+    <value>Красная коробка с подарком</value>
+  </data>
+  <data name="tooltip/settings/toys/toy113" xml:space="preserve">
+    <value>Зелёная коробка с подарком</value>
+  </data>
+  <data name="tooltip/settings/toys/toy114" xml:space="preserve">
+    <value>Синяя коробка с подарком</value>
+  </data>
+  <data name="tooltip/settings/toys/toy115" xml:space="preserve">
+    <value>Пухлый снеговик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy116" xml:space="preserve">
+    <value>Сани Сани</value>
+  </data>
+  <data name="tooltip/settings/toys/toy117" xml:space="preserve">
+    <value>Паровозик, который смог</value>
+  </data>
+  <data name="tooltip/settings/toys/toy118" xml:space="preserve">
+    <value>Бумажный журавлик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy119" xml:space="preserve">
+    <value>Бумажный зайчик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy12" xml:space="preserve">
+    <value>Красно-синяя гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy120" xml:space="preserve">
+    <value>Настоящий олень</value>
+  </data>
+  <data name="tooltip/settings/toys/toy121" xml:space="preserve">
+    <value>Наш ласковый миша</value>
+  </data>
+  <data name="tooltip/settings/toys/toy122" xml:space="preserve">
+    <value>Вскрытый мешок с подарками</value>
+  </data>
+  <data name="tooltip/settings/toys/toy123" xml:space="preserve">
+    <value>Медведь Тед</value>
+  </data>
+  <data name="tooltip/settings/toys/toy124" xml:space="preserve">
+    <value>Танковичок</value>
+  </data>
+  <data name="tooltip/settings/toys/toy125" xml:space="preserve">
+    <value>Увесистый мешок с подарками</value>
+  </data>
+  <data name="tooltip/settings/toys/toy126" xml:space="preserve">
+    <value>Лошадка в тумане</value>
+  </data>
+  <data name="tooltip/settings/toys/toy127" xml:space="preserve">
+    <value>Ланкаширская свинья</value>
+  </data>
+  <data name="tooltip/settings/toys/toy128" xml:space="preserve">
+    <value>Снегурочка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy129" xml:space="preserve">
+    <value>Генерал Мороз</value>
+  </data>
+  <data name="tooltip/settings/toys/toy130" xml:space="preserve">
+    <value>Хороший Санта</value>
+  </data>
+  <data name="tooltip/settings/toys/toy131" xml:space="preserve">
+    <value>Рождественский эльф</value>
+  </data>
+  <data name="tooltip/settings/toys/toy132" xml:space="preserve">
+    <value>Святой Николай</value>
+  </data>
+  <data name="tooltip/settings/toys/toy133" xml:space="preserve">
+    <value>Архангел Непробиил</value>
+  </data>
+  <data name="tooltip/settings/toys/toy134" xml:space="preserve">
+    <value>Бумажный тигр</value>
+  </data>
+  <data name="tooltip/settings/toys/toy135" xml:space="preserve">
+    <value>Бумажная обезьянка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy136" xml:space="preserve">
+    <value>Оленья упряжка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy136/descr" xml:space="preserve">
+    <value>Отличный вид транспорта, чтобы отчаянно ворваться прямо в снежную зарю.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy137" xml:space="preserve">
+    <value>Игрушечный КВ-2</value>
+  </data>
+  <data name="tooltip/settings/toys/toy137/descr" xml:space="preserve">
+    <value>И где-то заплакал один игрушечный Rhm.-Borsig Waffenträger.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy138" xml:space="preserve">
+    <value>Рождественский фонарь</value>
+  </data>
+  <data name="tooltip/settings/toys/toy138/descr" xml:space="preserve">
+    <value>Подсветит Ангар и убережёт ваш мизинец на ноге от незапланированного контакта с твёрдыми предметами.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy139" xml:space="preserve">
+    <value>Щенок</value>
+  </data>
+  <data name="tooltip/settings/toys/toy139/descr" xml:space="preserve">
+    <value>«Если я действительно стою сто тысяч миллионов, то нельзя ли мне получить хоть немного наличными, чтобы я мог купить маленького щенка?»</value>
+  </data>
+  <data name="tooltip/settings/toys/toy14" xml:space="preserve">
+    <value>Красно-жёлтая гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy140" xml:space="preserve">
+    <value>Набор для американского футбола</value>
+  </data>
+  <data name="tooltip/settings/toys/toy140/descr" xml:space="preserve">
+    <value>Раннинбек летит к зачётной зоне, но лайнбекер удачно блицует, предотвратив тачдаун... Я что, это вслух сказал?</value>
+  </data>
+  <data name="tooltip/settings/toys/toy141" xml:space="preserve">
+    <value>Игрушечная железная дорога</value>
+  </data>
+  <data name="tooltip/settings/toys/toy141/descr" xml:space="preserve">
+    <value>Я — взрослый, состоявшийся мужчина, и мне определённо нужна эта игрушечная железная дорога.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy142" xml:space="preserve">
+    <value>Собака</value>
+  </data>
+  <data name="tooltip/settings/toys/toy142/descr" xml:space="preserve">
+    <value>Чтобы найти свой подарок, нужно посмотреть в собаке. В смысле — открыть её.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy143" xml:space="preserve">
+    <value>Красный дракон</value>
+  </data>
+  <data name="tooltip/settings/toys/toy143/descr" xml:space="preserve">
+    <value>Занимает две клетки на поле боя и имеет иммунитет к заклинаниям 1-3 уровней.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy144" xml:space="preserve">
+    <value>Маленький красный шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy145" xml:space="preserve">
+    <value>Маленький синий шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy146" xml:space="preserve">
+    <value>Маленький серебристый шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy147" xml:space="preserve">
+    <value>Маленький пурпурный шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy148" xml:space="preserve">
+    <value>Жёлтая кусудама</value>
+  </data>
+  <data name="tooltip/settings/toys/toy149" xml:space="preserve">
+    <value>Красная кусудама</value>
+  </data>
+  <data name="tooltip/settings/toys/toy150" xml:space="preserve">
+    <value>Красная стеклянная шишка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy151" xml:space="preserve">
+    <value>Синяя стеклянная шишка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy152" xml:space="preserve">
+    <value>Серебристая стеклянная шишка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy153" xml:space="preserve">
+    <value>Жёлтая корзинка-фонарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy154" xml:space="preserve">
+    <value>Серебристый шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy155" xml:space="preserve">
+    <value>Красный шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy156" xml:space="preserve">
+    <value>Большой красный шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy157" xml:space="preserve">
+    <value>Большой синий шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy158" xml:space="preserve">
+    <value>Большой серебристый шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy159" xml:space="preserve">
+    <value>Большой пурпурный шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy16" xml:space="preserve">
+    <value>Пушистая красная гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy160" xml:space="preserve">
+    <value>Большой серебристый шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy161" xml:space="preserve">
+    <value>Большой красный шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy162" xml:space="preserve">
+    <value>Красная кусудама-звёздочка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy163" xml:space="preserve">
+    <value>Жёлтая кусудама-звёздочка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy164" xml:space="preserve">
+    <value>Красная заснеженная шишка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy165" xml:space="preserve">
+    <value>Синяя заснеженная шишка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy166" xml:space="preserve">
+    <value>Серебристая заснеженная шишка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy167" xml:space="preserve">
+    <value>Простой жёлтый фонарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy168" xml:space="preserve">
+    <value>Нарядный красный шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy169" xml:space="preserve">
+    <value>Нарядный синий шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy170" xml:space="preserve">
+    <value>Нарядный серебристый шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy171" xml:space="preserve">
+    <value>Нарядный пурпурный шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy172" xml:space="preserve">
+    <value>Дутый красный фонарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy173" xml:space="preserve">
+    <value>Дутый жёлтый фонарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy174" xml:space="preserve">
+    <value>Синий шарик со звёздами</value>
+  </data>
+  <data name="tooltip/settings/toys/toy175" xml:space="preserve">
+    <value>Нарядная красная шишка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy176" xml:space="preserve">
+    <value>Нарядная синяя шишка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy177" xml:space="preserve">
+    <value>Нарядная серебристая шишка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy178" xml:space="preserve">
+    <value>Красная подвесная звезда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy179" xml:space="preserve">
+    <value>Синяя подвесная звезда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy18" xml:space="preserve">
+    <value>Пушистая синяя гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy180" xml:space="preserve">
+    <value>Фонарик-цилиндр</value>
+  </data>
+  <data name="tooltip/settings/toys/toy181" xml:space="preserve">
+    <value>Золотистый полосатый шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy182" xml:space="preserve">
+    <value>Серебристый полосатый шарик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy183" xml:space="preserve">
+    <value>Золотистая полосатая шишка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy184" xml:space="preserve">
+    <value>Серебристая полосатая шишка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy185" xml:space="preserve">
+    <value>Золотистая подвесная звезда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy186" xml:space="preserve">
+    <value>Серебристая подвесная звезда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy187" xml:space="preserve">
+    <value>Подвесная коробочка с подарком</value>
+  </data>
+  <data name="tooltip/settings/toys/toy188" xml:space="preserve">
+    <value>Подвесная снежинка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy189" xml:space="preserve">
+    <value>Подвесная конфета</value>
+  </data>
+  <data name="tooltip/settings/toys/toy190" xml:space="preserve">
+    <value>Фонарик с иероглифами</value>
+  </data>
+  <data name="tooltip/settings/toys/toy191" xml:space="preserve">
+    <value>Гроздь петард</value>
+  </data>
+  <data name="tooltip/settings/toys/toy192" xml:space="preserve">
+    <value>Подвесная монета</value>
+  </data>
+  <data name="tooltip/settings/toys/toy193" xml:space="preserve">
+    <value>Сапожок для подарка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy193/descr" xml:space="preserve">
+    <value>«Дорогой Санта, весь этот год я был хорошим мальчиком, поэтому прошу тебя подарить мне мотоцикл с V-образным мотором воздушного охлаждения и объёмом 107 кубических дюймов.»</value>
+  </data>
+  <data name="tooltip/settings/toys/toy194" xml:space="preserve">
+    <value>Панцеркампфета</value>
+  </data>
+  <data name="tooltip/settings/toys/toy194/descr" xml:space="preserve">
+    <value>«Дер гроссер кениг дес шведишен кенигсрейх зандте мих.»</value>
+  </data>
+  <data name="tooltip/settings/toys/toy195" xml:space="preserve">
+    <value>Праздничная свеча</value>
+  </data>
+  <data name="tooltip/settings/toys/toy195/descr" xml:space="preserve">
+    <value>Без неё не обойдётся ни день рождения, ни Рождество, ни двигатель внутреннего сгорания.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy196" xml:space="preserve">
+    <value>Боевые аэросани</value>
+  </data>
+  <data name="tooltip/settings/toys/toy196/descr" xml:space="preserve">
+    <value>Предтеча современных снегоходов, работающая на безотказной оленьей тяге.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy197" xml:space="preserve">
+    <value>Пряничный домик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy197/descr" xml:space="preserve">
+    <value>«Вот дом, который построил Джек.»</value>
+  </data>
+  <data name="tooltip/settings/toys/toy198" xml:space="preserve">
+    <value>Зимний танковичок</value>
+  </data>
+  <data name="tooltip/settings/toys/toy198/descr" xml:space="preserve">
+    <value>Желание. Ржавый. Семнадцать.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy199" xml:space="preserve">
+    <value>Олень</value>
+  </data>
+  <data name="tooltip/settings/toys/toy199/descr" xml:space="preserve">
+    <value>«...и сбиваются в группы по 15-30 особей...»</value>
+  </data>
+  <data name="tooltip/settings/toys/toy2" xml:space="preserve">
+    <value>Синяя гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy20" xml:space="preserve">
+    <value>Пушистая серебристая гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy200" xml:space="preserve">
+    <value>Брелок С-51</value>
+  </data>
+  <data name="tooltip/settings/toys/toy200/descr" xml:space="preserve">
+    <value>«...он добрый сказочник и плут, скажите, как его зовут?..»</value>
+  </data>
+  <data name="tooltip/settings/toys/toy201" xml:space="preserve">
+    <value>Брелок Т-34-85</value>
+  </data>
+  <data name="tooltip/settings/toys/toy201/descr" xml:space="preserve">
+    <value>Собственно, брелок от того самого ключа от танка.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy202" xml:space="preserve">
+    <value>Шаросыч</value>
+  </data>
+  <data name="tooltip/settings/toys/toy202/descr" xml:space="preserve">
+    <value>Масштабная модель беспилотного ночного разведчика (позывной — «У-ху»). Уснул на стадии предполётной заправки.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy203" xml:space="preserve">
+    <value>Синий хрустальный фонарь</value>
+  </data>
+  <data name="tooltip/settings/toys/toy203/descr" xml:space="preserve">
+    <value>Хрупкое, но потрясающе красивое украшение, созданное руками искусных стеклодувов. Попросите своего кота не ронять ёлку, пока этот фонарик на ней.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy204" xml:space="preserve">
+    <value>Красный хрустальный фонарь</value>
+  </data>
+  <data name="tooltip/settings/toys/toy204/descr" xml:space="preserve">
+    <value>Хрупкое, но потрясающе красивое украшение, созданное руками искусных стеклодувов. Попросите своего кота не ронять ёлку, пока этот фонарик на ней.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy205" xml:space="preserve">
+    <value>Золотой Type 59</value>
+  </data>
+  <data name="tooltip/settings/toys/toy205/descr" xml:space="preserve">
+    <value>Официально: теперь золотой Type 59 доступен для получения на всех серверах! Правда, ненадолго. И не тот.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy206" xml:space="preserve">
+    <value>Мешочек с золотом</value>
+  </data>
+  <data name="tooltip/settings/toys/toy206/descr" xml:space="preserve">
+    <value>Вы можете обменять этот мешочек на всю премиум технику в игре (на самом деле нет).</value>
+  </data>
+  <data name="tooltip/settings/toys/toy207" xml:space="preserve">
+    <value>Красный лев</value>
+  </data>
+  <data name="tooltip/settings/toys/toy207/descr" xml:space="preserve">
+    <value>«Посмотри, Симба. Всё, на что падают лучи солнца — это наше королевство.»</value>
+  </data>
+  <data name="tooltip/settings/toys/toy208" xml:space="preserve">
+    <value>Жёлтый лев</value>
+  </data>
+  <data name="tooltip/settings/toys/toy208/descr" xml:space="preserve">
+    <value>«Это был очень послушный лев. Ему ничего не нужно было повторять дважды.»</value>
+  </data>
+  <data name="tooltip/settings/toys/toy209" xml:space="preserve">
+    <value>Снеговик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy210" xml:space="preserve">
+    <value>Толстовик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy211" xml:space="preserve">
+    <value>Сантавик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy212" xml:space="preserve">
+    <value>Пандавик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy213" xml:space="preserve">
+    <value>Снеговик утеплённый</value>
+  </data>
+  <data name="tooltip/settings/toys/toy214" xml:space="preserve">
+    <value>Толстовик утеплённый</value>
+  </data>
+  <data name="tooltip/settings/toys/toy215" xml:space="preserve">
+    <value>Сантавик утеплённый</value>
+  </data>
+  <data name="tooltip/settings/toys/toy216" xml:space="preserve">
+    <value>Пандавик утеплённый</value>
+  </data>
+  <data name="tooltip/settings/toys/toy217" xml:space="preserve">
+    <value>Снеговик хорошо утеплённый</value>
+  </data>
+  <data name="tooltip/settings/toys/toy218" xml:space="preserve">
+    <value>Толстовик хорошо утеплённый</value>
+  </data>
+  <data name="tooltip/settings/toys/toy219" xml:space="preserve">
+    <value>Сантавик хорошо утеплённый</value>
+  </data>
+  <data name="tooltip/settings/toys/toy22" xml:space="preserve">
+    <value>Пушистая золотистая гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy220" xml:space="preserve">
+    <value>Пандавик хорошо утеплённый</value>
+  </data>
+  <data name="tooltip/settings/toys/toy221" xml:space="preserve">
+    <value>Снеговик максимально утеплённый</value>
+  </data>
+  <data name="tooltip/settings/toys/toy222" xml:space="preserve">
+    <value>Толстовик максимально утеплённый</value>
+  </data>
+  <data name="tooltip/settings/toys/toy223" xml:space="preserve">
+    <value>Сантавик максимально утеплённый</value>
+  </data>
+  <data name="tooltip/settings/toys/toy224" xml:space="preserve">
+    <value>Пандавик максимально утеплённый</value>
+  </data>
+  <data name="tooltip/settings/toys/toy225" xml:space="preserve">
+    <value>Лыжневик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy225/descr" xml:space="preserve">
+    <value>Я знал, я знал, что эти старые хранящиеся на балконе лыжи когда-нибудь пригодятся!</value>
+  </data>
+  <data name="tooltip/settings/toys/toy226" xml:space="preserve">
+    <value>Сэр Толстовик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy226/descr" xml:space="preserve">
+    <value>Истинный верноподданный Её Величества. Или Его, смотря какой период времени мы имеем в виду.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy227" xml:space="preserve">
+    <value>Эмиссар Санты</value>
+  </data>
+  <data name="tooltip/settings/toys/toy227/descr" xml:space="preserve">
+    <value>Все ваши письма Санте можете передать через этого снеговика. Но вероятность того, что они дойдут до адресата, КРАЙНЕ МАЛА.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy228" xml:space="preserve">
+    <value>Кунг-фу пандавик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy228/descr" xml:space="preserve">
+    <value>А после титров пойдёт нарезка смешных моментов и неудачных дублей.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy229" xml:space="preserve">
+    <value>Бумажные гирлянды</value>
+  </data>
+  <data name="tooltip/settings/toys/toy230" xml:space="preserve">
+    <value>Яркие гирлянды</value>
+  </data>
+  <data name="tooltip/settings/toys/toy231" xml:space="preserve">
+    <value>Мохнатые гирлянды</value>
+  </data>
+  <data name="tooltip/settings/toys/toy232" xml:space="preserve">
+    <value>Разноцветные гирлянды</value>
+  </data>
+  <data name="tooltip/settings/toys/toy233" xml:space="preserve">
+    <value>Пушистые гирлянды</value>
+  </data>
+  <data name="tooltip/settings/toys/toy234" xml:space="preserve">
+    <value>Пышные белые гирлянды</value>
+  </data>
+  <data name="tooltip/settings/toys/toy235" xml:space="preserve">
+    <value>Пышные синие гирлянды</value>
+  </data>
+  <data name="tooltip/settings/toys/toy236" xml:space="preserve">
+    <value>Золотые гирлянды</value>
+  </data>
+  <data name="tooltip/settings/toys/toy237" xml:space="preserve">
+    <value>Звёздчатые гирлянды</value>
+  </data>
+  <data name="tooltip/settings/toys/toy238" xml:space="preserve">
+    <value>Витые красные гирлянды</value>
+  </data>
+  <data name="tooltip/settings/toys/toy239" xml:space="preserve">
+    <value>Витые синие гирлянды</value>
+  </data>
+  <data name="tooltip/settings/toys/toy24" xml:space="preserve">
+    <value>Белая гирлянда-оригами</value>
+  </data>
+  <data name="tooltip/settings/toys/toy240" xml:space="preserve">
+    <value>Гирлянды из фонариков</value>
+  </data>
+  <data name="tooltip/settings/toys/toy241" xml:space="preserve">
+    <value>Звёздчатые электрические гирлянды</value>
+  </data>
+  <data name="tooltip/settings/toys/toy242" xml:space="preserve">
+    <value>Электрические гирлянды с лампочками</value>
+  </data>
+  <data name="tooltip/settings/toys/toy243" xml:space="preserve">
+    <value>Синие ленты с бантами</value>
+  </data>
+  <data name="tooltip/settings/toys/toy244" xml:space="preserve">
+    <value>Гирлянды из горящих фонариков</value>
+  </data>
+  <data name="tooltip/settings/toys/toy245" xml:space="preserve">
+    <value>Советская цветная гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy245/descr" xml:space="preserve">
+    <value>Долго распутывали? А помните, как просто запихнули гирлянду в коробку, решив, что и так сойдёт?</value>
+  </data>
+  <data name="tooltip/settings/toys/toy246" xml:space="preserve">
+    <value>Электрическая гирлянда-дождик</value>
+  </data>
+  <data name="tooltip/settings/toys/toy246/descr" xml:space="preserve">
+    <value>Развесить данное украшение — невообразимо долгий процесс. Но это всё равно быстрее, чем перезарядка Bat.-Châtillon 155 58 с раненными заряжающими и повреждённой боеукладкой.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy247" xml:space="preserve">
+    <value>Зимняя гирлянда с птичками</value>
+  </data>
+  <data name="tooltip/settings/toys/toy247/descr" xml:space="preserve">
+    <value>Можно только позавидовать стальным нервам того, кто вырезал это вручную.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy248" xml:space="preserve">
+    <value>Яркая китайская гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy248/descr" xml:space="preserve">
+    <value>«Постигнет дзен развесивший всё это.»</value>
+  </data>
+  <data name="tooltip/settings/toys/toy249" xml:space="preserve">
+    <value>Избушка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy250" xml:space="preserve">
+    <value>Коттедж</value>
+  </data>
+  <data name="tooltip/settings/toys/toy251" xml:space="preserve">
+    <value>Особнячок</value>
+  </data>
+  <data name="tooltip/settings/toys/toy252" xml:space="preserve">
+    <value>Фанза</value>
+  </data>
+  <data name="tooltip/settings/toys/toy253" xml:space="preserve">
+    <value>Избушка украшенная</value>
+  </data>
+  <data name="tooltip/settings/toys/toy254" xml:space="preserve">
+    <value>Коттедж украшенный</value>
+  </data>
+  <data name="tooltip/settings/toys/toy255" xml:space="preserve">
+    <value>Особнячок украшенный</value>
+  </data>
+  <data name="tooltip/settings/toys/toy256" xml:space="preserve">
+    <value>Фанза украшенная</value>
+  </data>
+  <data name="tooltip/settings/toys/toy257" xml:space="preserve">
+    <value>Избушка скромно украшенная</value>
+  </data>
+  <data name="tooltip/settings/toys/toy258" xml:space="preserve">
+    <value>Коттедж скромно украшенный</value>
+  </data>
+  <data name="tooltip/settings/toys/toy259" xml:space="preserve">
+    <value>Особнячок скромно украшенный</value>
+  </data>
+  <data name="tooltip/settings/toys/toy26" xml:space="preserve">
+    <value>Зелёная гирлянда-оригами</value>
+  </data>
+  <data name="tooltip/settings/toys/toy260" xml:space="preserve">
+    <value>Фанза скромно украшенная</value>
+  </data>
+  <data name="tooltip/settings/toys/toy261" xml:space="preserve">
+    <value>Избушка богато украшенная</value>
+  </data>
+  <data name="tooltip/settings/toys/toy262" xml:space="preserve">
+    <value>Коттедж богато украшенный</value>
+  </data>
+  <data name="tooltip/settings/toys/toy263" xml:space="preserve">
+    <value>Особнячок богато украшенный</value>
+  </data>
+  <data name="tooltip/settings/toys/toy264" xml:space="preserve">
+    <value>Фанза богато украшенная</value>
+  </data>
+  <data name="tooltip/settings/toys/toy265" xml:space="preserve">
+    <value>Штаб генерала Мороза</value>
+  </data>
+  <data name="tooltip/settings/toys/toy265/descr" xml:space="preserve">
+    <value>Приложив ухо к двери, можно услышать, как кто-то морзянкой отстукивает ответы на многочисленные новогодние просьбы.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy266" xml:space="preserve">
+    <value>Семейное гнёздышко</value>
+  </data>
+  <data name="tooltip/settings/toys/toy266/descr" xml:space="preserve">
+    <value>Прекрасная возможность провести праздники в тишине и уюте вдали от городской суеты.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy267" xml:space="preserve">
+    <value>Резиденция Санты</value>
+  </data>
+  <data name="tooltip/settings/toys/toy267/descr" xml:space="preserve">
+    <value>Дедушка занят — читает ваши письма с просьбами о новых картах и правках балансировщика.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy268" xml:space="preserve">
+    <value>Храм дракона</value>
+  </data>
+  <data name="tooltip/settings/toys/toy268/descr" xml:space="preserve">
+    <value>Успешная попытка стилизовать свой домик под традиционное китайское жильё.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy269" xml:space="preserve">
+    <value>Восковые свечи</value>
+  </data>
+  <data name="tooltip/settings/toys/toy270" xml:space="preserve">
+    <value>Длинные рождественские свечи</value>
+  </data>
+  <data name="tooltip/settings/toys/toy271" xml:space="preserve">
+    <value>Маленькие красные свечи</value>
+  </data>
+  <data name="tooltip/settings/toys/toy272" xml:space="preserve">
+    <value>Чайные свечи</value>
+  </data>
+  <data name="tooltip/settings/toys/toy273" xml:space="preserve">
+    <value>Витые свечи</value>
+  </data>
+  <data name="tooltip/settings/toys/toy274" xml:space="preserve">
+    <value>Толстые красные свечи</value>
+  </data>
+  <data name="tooltip/settings/toys/toy275" xml:space="preserve">
+    <value>Толстые белые свечи</value>
+  </data>
+  <data name="tooltip/settings/toys/toy276" xml:space="preserve">
+    <value>Квадратные свечи</value>
+  </data>
+  <data name="tooltip/settings/toys/toy277" xml:space="preserve">
+    <value>Свечи-снеговики</value>
+  </data>
+  <data name="tooltip/settings/toys/toy278" xml:space="preserve">
+    <value>Свечи-гномы</value>
+  </data>
+  <data name="tooltip/settings/toys/toy279" xml:space="preserve">
+    <value>Свечи-ёлочки</value>
+  </data>
+  <data name="tooltip/settings/toys/toy28" xml:space="preserve">
+    <value>Красная гирлянда-оригами</value>
+  </data>
+  <data name="tooltip/settings/toys/toy280" xml:space="preserve">
+    <value>Свечи в банках</value>
+  </data>
+  <data name="tooltip/settings/toys/toy281" xml:space="preserve">
+    <value>Бенгальские огни</value>
+  </data>
+  <data name="tooltip/settings/toys/toy282" xml:space="preserve">
+    <value>Электрические снежинки</value>
+  </data>
+  <data name="tooltip/settings/toys/toy283" xml:space="preserve">
+    <value>Свечи-фонарики</value>
+  </data>
+  <data name="tooltip/settings/toys/toy284" xml:space="preserve">
+    <value>Коробчатые свечи</value>
+  </data>
+  <data name="tooltip/settings/toys/toy285" xml:space="preserve">
+    <value>Светодиодные светильники</value>
+  </data>
+  <data name="tooltip/settings/toys/toy285/descr" xml:space="preserve">
+    <value>Да, они несколько дороже обычных ламп накаливания. Но высокий срок службы, низкое энергопотребление и стойкость к капризам погоды определённо играют решающую роль.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy286" xml:space="preserve">
+    <value>Лампы-леденцы</value>
+  </data>
+  <data name="tooltip/settings/toys/toy286/descr" xml:space="preserve">
+    <value>Во-первых, это красиво.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy287" xml:space="preserve">
+    <value>Тёплые, ламповые светильники</value>
+  </data>
+  <data name="tooltip/settings/toys/toy287/descr" xml:space="preserve">
+    <value>Отлично бы смотрелись в гостинной возле камина и кресла-качалки с клетчатым пледом.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy288" xml:space="preserve">
+    <value>Восточные фонарики</value>
+  </data>
+  <data name="tooltip/settings/toys/toy288/descr" xml:space="preserve">
+    <value>В каждом фонарике — свечка вместо лампочки. Придумано лентяем, которому не хотелось тянуть электропроводку по всему двору.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy289" xml:space="preserve">
+    <value>Гирлянда разноцветных фонариков</value>
+  </data>
+  <data name="tooltip/settings/toys/toy289/descr" xml:space="preserve">
+    <value>Это, конечно, не ковёр, но тоже задаёт стиль всей ёлке.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy292" xml:space="preserve">
+    <value>Щенок</value>
+  </data>
+  <data name="tooltip/settings/toys/toy292/descr" xml:space="preserve">
+    <value>«Если я действительно стою сто тысяч миллионов, то нельзя ли мне получить хоть немного наличными, чтобы я мог купить маленького щенка?»</value>
+  </data>
+  <data name="tooltip/settings/toys/toy293" xml:space="preserve">
+    <value>Синяя витая гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy294" xml:space="preserve">
+    <value>Синяя витая гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy295" xml:space="preserve">
+    <value>Классическое серебристое навершие</value>
+  </data>
+  <data name="tooltip/settings/toys/toy30" xml:space="preserve">
+    <value>Жёлтая гирлянда-оригами</value>
+  </data>
+  <data name="tooltip/settings/toys/toy32" xml:space="preserve">
+    <value>Спиральная красная гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy34" xml:space="preserve">
+    <value>Спиральная синяя гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy36" xml:space="preserve">
+    <value>Спиральная жёлтая гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy38" xml:space="preserve">
+    <value>Гирлянда с флажками</value>
+  </data>
+  <data name="tooltip/settings/toys/toy4" xml:space="preserve">
+    <value>Серебристая гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy40" xml:space="preserve">
+    <value>Гирлянда со звёздами</value>
+  </data>
+  <data name="tooltip/settings/toys/toy42" xml:space="preserve">
+    <value>Дед с оленями</value>
+  </data>
+  <data name="tooltip/settings/toys/toy44" xml:space="preserve">
+    <value>Гирлянда с флажками (ленд-лиз)</value>
+  </data>
+  <data name="tooltip/settings/toys/toy46" xml:space="preserve">
+    <value>Гирлянда красных фонариков</value>
+  </data>
+  <data name="tooltip/settings/toys/toy48" xml:space="preserve">
+    <value>Электрическая гирлянда со звёздами</value>
+  </data>
+  <data name="tooltip/settings/toys/toy50" xml:space="preserve">
+    <value>Электрическая гирлянда с лампочками</value>
+  </data>
+  <data name="tooltip/settings/toys/toy52" xml:space="preserve">
+    <value>Электрическая гирлянда с буквами</value>
+  </data>
+  <data name="tooltip/settings/toys/toy54" xml:space="preserve">
+    <value>Электрическая гирлянда с буквами (ленд-лиз)</value>
+  </data>
+  <data name="tooltip/settings/toys/toy56" xml:space="preserve">
+    <value>Гирлянда со свечками</value>
+  </data>
+  <data name="tooltip/settings/toys/toy58" xml:space="preserve">
+    <value>Рождественская гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy6" xml:space="preserve">
+    <value>Золотистая гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy60" xml:space="preserve">
+    <value>Гирлянда с бабочками</value>
+  </data>
+  <data name="tooltip/settings/toys/toy62" xml:space="preserve">
+    <value>Гирлянда жёлтых фонариков</value>
+  </data>
+  <data name="tooltip/settings/toys/toy64" xml:space="preserve">
+    <value>Советская гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy64/descr" xml:space="preserve">
+    <value>«...На правое дело он поднял народы, на труд и на подвиги нас вдохновил!..»</value>
+  </data>
+  <data name="tooltip/settings/toys/toy66" xml:space="preserve">
+    <value>Маскировочная сеть</value>
+  </data>
+  <data name="tooltip/settings/toys/toy66/descr" xml:space="preserve">
+    <value>Значительно снижает заметность неподвижной ёлки.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy68" xml:space="preserve">
+    <value>Жемчужная гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy68/descr" xml:space="preserve">
+    <value>Ваш кот считает, что это вполне съедобная штука.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy70" xml:space="preserve">
+    <value>Нарядная красная лента</value>
+  </data>
+  <data name="tooltip/settings/toys/toy70/descr" xml:space="preserve">
+    <value>Недорогое, но весьма броское украшение. И ёлку нарядить, и подарок перевязать.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy72" xml:space="preserve">
+    <value>Нарядная синяя лента</value>
+  </data>
+  <data name="tooltip/settings/toys/toy72/descr" xml:space="preserve">
+    <value>Недорогое, но весьма броское украшение. И ёлку нарядить, и подарок перевязать.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy74" xml:space="preserve">
+    <value>Снежно-снежинковая гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy74/descr" xml:space="preserve">
+    <value>Плотная бумага, ножницы и капроновая нить — всё, что вам нужно для этого замечательного украшения.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy76" xml:space="preserve">
+    <value>Драконья гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy76/descr" xml:space="preserve">
+    <value>Китайский дракон очень гибкий, поскольку его хребет послужил другим целям. Эх, были же времена...</value>
+  </data>
+  <data name="tooltip/settings/toys/toy78" xml:space="preserve">
+    <value>Классическое красное навершие</value>
+  </data>
+  <data name="tooltip/settings/toys/toy79" xml:space="preserve">
+    <value>Классическое синее навершие</value>
+  </data>
+  <data name="tooltip/settings/toys/toy8" xml:space="preserve">
+    <value>Красно-белая гирлянда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy80" xml:space="preserve">
+    <value>Классическое серебристое навершие</value>
+  </data>
+  <data name="tooltip/settings/toys/toy81" xml:space="preserve">
+    <value>Счастливая монетка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy82" xml:space="preserve">
+    <value>Неоклассическое красное навершие</value>
+  </data>
+  <data name="tooltip/settings/toys/toy83" xml:space="preserve">
+    <value>Неоклассическое синее навершие</value>
+  </data>
+  <data name="tooltip/settings/toys/toy84" xml:space="preserve">
+    <value>Неоклассическое серебристое навершие</value>
+  </data>
+  <data name="tooltip/settings/toys/toy85" xml:space="preserve">
+    <value>Жёлтая монетка на удачу</value>
+  </data>
+  <data name="tooltip/settings/toys/toy86" xml:space="preserve">
+    <value>Заснеженное красное навершие</value>
+  </data>
+  <data name="tooltip/settings/toys/toy87" xml:space="preserve">
+    <value>Заснеженное синее навершие</value>
+  </data>
+  <data name="tooltip/settings/toys/toy88" xml:space="preserve">
+    <value>Белая звезда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy89" xml:space="preserve">
+    <value>Красная звезда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy90" xml:space="preserve">
+    <value>Простая снежинка</value>
+  </data>
+  <data name="tooltip/settings/toys/toy91" xml:space="preserve">
+    <value>Заснеженное серебристое навершие</value>
+  </data>
+  <data name="tooltip/settings/toys/toy92" xml:space="preserve">
+    <value>Праздничные ленты</value>
+  </data>
+  <data name="tooltip/settings/toys/toy93" xml:space="preserve">
+    <value>Спиральное золотистое навершие</value>
+  </data>
+  <data name="tooltip/settings/toys/toy94" xml:space="preserve">
+    <value>Спиральное серебристое навершие</value>
+  </data>
+  <data name="tooltip/settings/toys/toy95" xml:space="preserve">
+    <value>Серебристая звезда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy96" xml:space="preserve">
+    <value>Золотистая звезда</value>
+  </data>
+  <data name="tooltip/settings/toys/toy97" xml:space="preserve">
+    <value>Красная роза ветров</value>
+  </data>
+  <data name="tooltip/settings/toys/toy98" xml:space="preserve">
+    <value>Белая роза ветров</value>
+  </data>
+  <data name="tooltip/settings/toys/toy99" xml:space="preserve">
+    <value>Бумажный фонарик-навершие</value>
+  </data>
+  <data name="tooltip/slotDelete/body" xml:space="preserve">
+    <value>Нажмите, чтобы освободить место для другого украшения.</value>
+  </data>
+  <data name="tooltip/slotDelete/header" xml:space="preserve">
+    <value>Снять</value>
+  </data>
+  <data name="tooltip/tankmen" xml:space="preserve">
+    <value>Выдаётся в награду за достижение IV, VI, VIII и X уровня атмосферы праздника.</value>
+  </data>
+  <data name="viewHeader/backBtn/label" xml:space="preserve">
+    <value>НАЗАД</value>
+  </data>
+  <data name="viewHeader/closeBtn/label" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+</root>

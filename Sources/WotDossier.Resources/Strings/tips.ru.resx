@@ -1072,7 +1072,7 @@
     <value>Машина, для которой исследованы все модули и следующая в ветке развития техника, получает статус «Элитной».</value>
   </data>
   <data name="tip108/payAttention/tactics/200_infinity/all/all/all/all" xml:space="preserve">
-    <value>Весь боевой опыт, накопленный на элитной технике, в том числе и на премиумной, можно перевести в свободный.</value>
+    <value>Весь боевой опыт, накопленный на элитной технике, в том числе и на премиум, можно перевести в свободный.</value>
   </data>
   <data name="tip11/payAttention/tactics/0_infinity/except_7/AT-SPG/all/all" xml:space="preserve">
     <value>При игре на ПТ-САУ старайтесь не обнаружить себя. Укрывайтесь за густыми кустами и поваленными деревьями.</value>
@@ -1399,7 +1399,7 @@
     <value>Успешный таран зависит от скорости, толщины брони и соотношения масс машин.</value>
   </data>
   <data name="tip81/payAttention/crew/0_500/all/all/all/all" xml:space="preserve">
-    <value>Скорость сведения прицела зависит от типа орудия и мастерства наводчика.</value>
+    <value>Скорость сведения прицела зависит от мастерства наводчика, некоторого установленного оборудования и снаряжения.</value>
   </data>
   <data name="tip83/payAttention/tactics/100_infinity/all/all/all/all" xml:space="preserve">
     <value>Автоприцел выключается, если цель, которую вы сопровождали, уничтожена или скрылась из виду.</value>
@@ -1450,10 +1450,10 @@
     <value>Вы появляетесь в точке 1 (для танка или ПТ-САУ) или 2 (для САУ). Используя навыки, полученные в Боевом обучении, одержите победу над противником.</value>
   </data>
   <data name="eventMessage" xml:space="preserve">
-    <value>Новое игровое событие: «Вторжение Левиафана»!</value>
+    <value>++++ eventMessage ++++</value>
   </data>
   <data name="eventTitle" xml:space="preserve">
-    <value>Вторжение Левиафана</value>
+    <value>++++ eventTitle ++++</value>
   </data>
   <data name="sandbox02" xml:space="preserve">
     <value>Вы появляетесь на зелёной базе, откуда можно начать атаку по одному из трёх ключевых направлений. Используйте желаемую тактику для победы над противником.</value>

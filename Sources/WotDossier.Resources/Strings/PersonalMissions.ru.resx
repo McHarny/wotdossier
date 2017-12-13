@@ -256,7 +256,7 @@
     <value />
   </data>
   <data name="detailedView/status/completed" xml:space="preserve">
-    <value>  </value>
+    <value />
   </data>
   <data name="detailedView/status/fullyCompleted" xml:space="preserve">
     <value>  </value>
@@ -268,7 +268,7 @@
     <value>:%(icon)s1</value>
   </data>
   <data name="detailedView/status/sheetUsed" xml:space="preserve">
-    <value>   %(icon)s1</value>
+    <value> %(icon)s1</value>
   </data>
   <data name="detailedView/tooltips/additionalConditions/body" xml:space="preserve">
     <value>  ,              .</value>
@@ -586,21 +586,36 @@
     <value>      .</value>
   </data>
   <data name="useAwardSheetWindow/locked" xml:space="preserve">
-    <value>      .</value>
+    <value>       .</value>
   </data>
   <data name="useAwardSheetWindow/needAmount" xml:space="preserve">
-    <value> : %(count)s</value>
+    <value>  :</value>
   </data>
   <data name="useAwardSheetWindow/noVehicle" xml:space="preserve">
     <value>    : %(vehicleClass)s.</value>
   </data>
   <data name="useAwardSheetWindow/sheetsTotal" xml:space="preserve">
-    <value>: %(count)s</value>
+    <value>  :</value>
   </data>
   <data name="useAwardSheetWindow/submitBtn" xml:space="preserve">
     <value />
   </data>
   <data name="useAwardSheetWindow/title" xml:space="preserve">
-    <value>   </value>
+    <value>  </value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/chassis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/engine" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/gun" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/hull" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/radio" xml:space="preserve">
+    <value />
   </data>
 </root>

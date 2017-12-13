@@ -181,7 +181,7 @@
     <value>?empty?</value>
   </data>
   <data name="badgesGroup/tooltip/header" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Badges</value>
   </data>
   <data name="block/award" xml:space="preserve">
     <value>Main Reward</value>
@@ -638,19 +638,19 @@ You cannot enter this competition again.</value>
     <value>Join as Participant</value>
   </data>
   <data name="table/stripe/bronze/title" xml:space="preserve">
-    <value>Category III (places %(placeFrom)d–%(placeTo)d):</value>
+    <value>Group III (places %(placeFrom)d–%(placeTo)d):</value>
   </data>
   <data name="table/stripe/gold/title" xml:space="preserve">
-    <value>Category I (places %(placeFrom)d–%(placeTo)d):</value>
+    <value>Group I (places %(placeFrom)d–%(placeTo)d):</value>
   </data>
   <data name="table/stripe/goldCustom/title" xml:space="preserve">
-    <value>Category I</value>
+    <value>Group I</value>
   </data>
   <data name="table/stripe/iron/title" xml:space="preserve">
-    <value>Category IV (places %(placeFrom)d–%(placeTo)d):</value>
+    <value>Group IV (places %(placeFrom)d–%(placeTo)d):</value>
   </data>
   <data name="table/stripe/silver/title" xml:space="preserve">
-    <value>Category II (places %(placeFrom)d–%(placeTo)d):</value>
+    <value>Group II (places %(placeFrom)d–%(placeTo)d):</value>
   </data>
   <data name="table/stripe/wood/title" xml:space="preserve">
     <value>Unrewarded Places</value>
@@ -820,10 +820,10 @@ Extra experience from Premium Account is counted.</value>
     <value>Total Experience</value>
   </data>
   <data name="top/participation/notfull" xml:space="preserve">
-    <value>You did not get placed in the rating</value>
+    <value>You did not hit the rating</value>
   </data>
   <data name="top/participation/notintop" xml:space="preserve">
-    <value>You are not currently in a prize place</value>
+    <value>You are not in a prize place</value>
   </data>
   <data name="top/position" xml:space="preserve">
     <value>Place:</value>
@@ -848,5 +848,8 @@ Extra experience from Premium Account is counted.</value>
   </data>
   <data name="vehicles/vehicle/tooltip" xml:space="preserve">
     <value>Click to display the list of vehicles that are allowed in the competition.</value>
+  </data>
+  <data name="status/cantJoin/reason/vehiclesMissing" xml:space="preserve">
+    <value>no suitable vehicles</value>
   </data>
 </root>

@@ -586,13 +586,13 @@
     <value>Приняв приглашение, вы покинете режим «Учебный бой».</value>
   </data>
   <data name="invites/note/change_and_leave/EVENT" xml:space="preserve">
-    <value>Приняв приглашение, вы покинете режим «Вторжение Левиафана» и будете перемещены на сервер %(host)s.</value>
+    <value>Приняв приглашение, вы покинете режим «+++Event battle+++» и будете перемещены на сервер %(host)s.</value>
   </data>
   <data name="invites/note/change_and_leave/FALLOUT" xml:space="preserve">
     <value>Приняв приглашение, вы будете автоматически исключены из состава взвода и перемещены на сервер %(host)s.</value>
   </data>
   <data name="invites/note/leave/EVENT" xml:space="preserve">
-    <value>Приняв приглашение, вы будете автоматически исключены из Призрачного взвода.</value>
+    <value>?empty?</value>
   </data>
   <data name="invites/note/leave/FALLOUT" xml:space="preserve">
     <value>Приняв приглашение, вы будете автоматически исключены из состава взвода.</value>
@@ -604,7 +604,7 @@
     <value>Вы уже присоединились к этому взводу.</value>
   </data>
   <data name="invites/text/EVENT" xml:space="preserve">
-    <value>%(titleStartTag)sПриглашение войти в состав Призрачного взвода%(titleEndTag)s</value>
+    <value>++%(titleStartTag)sПриглашение войти в состав взвода%(titleEndTag)s++</value>
   </data>
   <data name="invites/text/FALLOUT/FALLOUT_CLASSIC" xml:space="preserve">
     <value>«Превосходство»</value>

@@ -3331,7 +3331,7 @@
     <value>Исторический бой</value>
   </data>
   <data name="bonusType/9" xml:space="preserve">
-    <value>Вечная битва (PvP)</value>
+    <value>Специальный игровой режим</value>
   </data>
   <data name="contextMenu/selectVehicleInHangar" xml:space="preserve">
     <value>Перейти к машине в Ангаре</value>
@@ -3541,13 +3541,13 @@
     <value>Нажмите, чтобы покинуть режим.</value>
   </data>
   <data name="loading/battleTypes/7" xml:space="preserve">
-    <value>Вечная битва (PvP)</value>
+    <value>Специальный игровой режим</value>
   </data>
   <data name="loading/battleTypes/8" xml:space="preserve">
     <value>Вылазки</value>
   </data>
   <data name="loading/battleTypes/desc/7" xml:space="preserve">
-    <value>Уничтожьте противника и покиньте это ужасное место</value>
+    <value>?empty?</value>
   </data>
   <data name="loading/battleTypes/desc/8" xml:space="preserve">
     <value> </value>
@@ -4305,7 +4305,7 @@
     <value>Редактировать заметку</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad" xml:space="preserve">
-    <value>Призрачный взвод</value>
+    <value>+++Лунный взвод+++</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad/descr" xml:space="preserve">
     <value>5 игроков</value>
@@ -4882,10 +4882,10 @@
     <value>скидка 100% на обучения нового экипажа в танковой академии</value>
   </data>
   <data name="awardWindow/personalDiscountAward/description/experience" xml:space="preserve">
-    <value>Вы провели необходимое количество боев на машине.</value>
+    <value>Вы провели необходимое количество боёв на машине.</value>
   </data>
   <data name="awardWindow/personalDiscountAward/description/experience/rent" xml:space="preserve">
-    <value>Вы провели необходимое количество боев на арендованной машине.</value>
+    <value>Вы провели необходимое количество боёв на арендованной машине.</value>
   </data>
   <data name="awardWindow/personalDiscountAward/description/slot" xml:space="preserve">
     <value>Вы купили машину уровнем выше.</value>
@@ -5173,7 +5173,7 @@
     <value>Тип ресурса:</value>
   </data>
   <data name="contextMenu/createEventSquad" xml:space="preserve">
-    <value>Создать Призрачный взвод</value>
+    <value>Создать ++ивентный++ взвод</value>
   </data>
   <data name="hangar/ammunitionPanel/technicalMaitenance/messageText" xml:space="preserve">
     <value>Установка снаряжения
@@ -5252,7 +5252,7 @@
     <value>Не подходит</value>
   </data>
   <data name="headerButtons/battle/types/squad/event" xml:space="preserve">
-    <value>: Призрачный взвод</value>
+    <value>+++: событие+++</value>
   </data>
   <data name="headerButtons/battle/types/squad/randomBattle" xml:space="preserve">
     <value>: случайный бой</value>
@@ -5584,7 +5584,7 @@
     <value>Некорректное поведение в чате</value>
   </data>
   <data name="disconnect/codes/1013" xml:space="preserve">
-    <value>рассинхронизация инвентаря, связанная с компонентом «Камуфляжи» (код 1013).</value>
+    <value>рассинхронизация инвентаря, связанная с компонентом «Камуфляж» (код 1013).</value>
   </data>
   <data name="disconnect/codes/1014" xml:space="preserve">
     <value>рассинхронизация инвентаря, связанная с компонентом «Надписи» (код 1014).</value>
@@ -5986,7 +5986,7 @@
     <value>«Ранговый бой»</value>
   </data>
   <data name="fittingSelectPopover/descText" xml:space="preserve">
-    <value>Данное оборудование доступно для покупки за %(currencyName)s, которые зарабатываются на технике X уровня в режиме %(battleType)s. Для покупки перейдите во вкладку «Усовершенствованное».</value>
+    <value>Данное оборудование доступно для покупки за %(currencyName)s. Для покупки перейдите во вкладку «Усовершенствованное».</value>
   </data>
   <data name="fittingSelectPopover/descText/crystal" xml:space="preserve">
     <value>боны</value>
@@ -6315,5 +6315,23 @@
   </data>
   <data name="tank_params/turretYawLimits_Secondary" xml:space="preserve">
     <value>Углы поворота башни </value>
+  </data>
+  <data name="cst_item_ctx_menu/buy" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="cst_item_ctx_menu/removeFromTank" xml:space="preserve">
+    <value>Снять с текущей машины</value>
+  </data>
+  <data name="cst_item_ctx_menu/sell" xml:space="preserve">
+    <value>Продать</value>
+  </data>
+  <data name="header/customization/season/desert" xml:space="preserve">
+    <value>ПУСТЫННЫЙ</value>
+  </data>
+  <data name="header/customization/season/summer" xml:space="preserve">
+    <value>ЛЕТНИЙ</value>
+  </data>
+  <data name="header/customization/season/winter" xml:space="preserve">
+    <value>ЗИМНИЙ</value>
   </data>
 </root>

@@ -286,52 +286,52 @@
     <value>Can be received for completing all personal missions in Campaign I with honors.</value>
   </data>
   <data name="badge_19" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Tank Ace: Tier VII</value>
   </data>
   <data name="badge_19_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Be among the top 10 of participants of the March of Nations event in Tier VII vehicles.</value>
   </data>
   <data name="badge_20" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Tank Ace: Tier VIII</value>
   </data>
   <data name="badge_20_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Be among the top 10 of participants of the March of Nations event in Tier VIII vehicles.</value>
   </data>
   <data name="badge_21" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Tank Ace: Tier IX</value>
   </data>
   <data name="badge_21_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Be among the top 10 of participants of the March of Nations event in Tier IX vehicles.</value>
   </data>
   <data name="badge_22" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Tank Ace: Tier X</value>
   </data>
   <data name="badge_22_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Be among the top 10 of participants of the March of Nations event in Tier X vehicles.</value>
   </data>
   <data name="badge_23" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Tank Expert: Tier VII</value>
   </data>
   <data name="badge_23_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Be among the top 1000 of participants of the March of Nations event in Tier VII vehicles.</value>
   </data>
   <data name="badge_24" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Tank Expert: Tier VIII</value>
   </data>
   <data name="badge_24_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Be among the top 1000 of participants of the March of Nations event in Tier VIII vehicles.</value>
   </data>
   <data name="badge_25" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Tank Expert: Tier IX</value>
   </data>
   <data name="badge_25_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Be among the top 1000 of participants of the March of Nations event in Tier IX vehicles.</value>
   </data>
   <data name="badge_26" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Tank Expert: Tier X</value>
   </data>
   <data name="badge_26_descr" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Be among the top 1000 of participants of the March of Nations event in Tier X vehicles.</value>
   </data>
   <data name="badgesPage/header/descr" xml:space="preserve">
     <value>Badges show your achievements in the game to players from both teams.</value>

@@ -2469,7 +2469,8 @@
 IV уровня и выше, чтобы получать больше опыта</value>
   </data>
   <data name="dialogs/squadChannel/headerMsg/eventFormationRestriction" xml:space="preserve">
-    <value>Используйте только технику Хэллоуина</value>
+    <value>+++ event +++
++++ event +++</value>
   </data>
   <data name="dialogs/squadChannel/headerMsg/squadFormation" xml:space="preserve">
     <value>Дополнительный опыт за бой
@@ -2645,5 +2646,41 @@ IV уровня и выше, чтобы получать больше опыта
   </data>
   <data name="serviceChannelMessages/invoiceReceived/freeAwardListsDebited" xml:space="preserve">
     <value>Списано бланков приказа</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleDisabledOption" xml:space="preserve">
+    <value>Не удалось продлить аренду стиля на %s. Купите стиль за золото.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleError" xml:space="preserve">
+    <value>Не удалось продлить аренду стиля на %s. Недостаточно средств.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleErrorNoWallet" xml:space="preserve">
+    <value>Не удалось продлить аренду стиля на %s. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleSkipped" xml:space="preserve">
+    <value>Не выполнено автоматическое продление аренды стиля на %s. Купите стиль вручную.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleSuccess" xml:space="preserve">
+    <value>Аренда стиля на %s продлена успешно. Потрачено </value>
+  </data>
+  <data name="serviceChannelMessages/removedBadgeAchievement" xml:space="preserve">
+    <value>Списано нашивок</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/customizations" xml:space="preserve">
+    <value>Изменены элементы внешнего вида</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/customizationsBuy" xml:space="preserve">
+    <value>Изменены элементы внешнего вида. Приобретено элементов: %(count)s. Потрачено %(money)s.</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/customizations/buy_1" xml:space="preserve">
+    <value>%(itemType)s «%(itemName)s» успешно куплен: %(count)s шт. Потрачено %(money)s.</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/customizations/buy_2" xml:space="preserve">
+    <value>%(itemType)s «%(itemName)s» успешно куплена: %(count)s шт. Потрачено %(money)s.</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/customizations/sell_1" xml:space="preserve">
+    <value>%(itemType)s «%(itemName)s» успешно продан: %(count)s шт. Получено %(money)s.</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/customizations/sell_2" xml:space="preserve">
+    <value>%(itemType)s «%(itemName)s» успешно продана: %(count)s шт. Получено %(money)s.</value>
   </data>
 </root>

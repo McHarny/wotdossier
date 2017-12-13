@@ -133,7 +133,7 @@
     <value>Подробный отчёт</value>
   </data>
   <data name="common/details/noPremTitle" xml:space="preserve">
-    <value>Без премиума</value>
+    <value>Без премиум</value>
   </data>
   <data name="common/details/premTitle" xml:space="preserve">
     <value>С премиум</value>
@@ -1198,5 +1198,17 @@
   </data>
   <data name="team/stats/labels_secondaryTurretHits" xml:space="preserve">
     <value>	попадания/пробития вспомогательными орудиями</value>
+  </data>
+  <data name="details/calculations/bonus_christmas" xml:space="preserve">
+    <value>Бонус за современное Рождество</value>
+  </data>
+  <data name="details/calculations/bonus_eastern_new_year" xml:space="preserve">
+    <value>Бонус за Китайский Новый год</value>
+  </data>
+  <data name="details/calculations/bonus_new_year" xml:space="preserve">
+    <value>Бонус за Новый год</value>
+  </data>
+  <data name="details/calculations/bonus_old_christmas" xml:space="preserve">
+    <value>Бонус за традиционное Рождество</value>
   </data>
 </root>

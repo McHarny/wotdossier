@@ -519,4 +519,52 @@
   <data name="vehicle/tags/HE2017_F1/name" xml:space="preserve">
     <value>Фрэнки</value>
   </data>
+  <data name="customization/camouflage" xml:space="preserve">
+    <value>Камуфляж</value>
+  </data>
+  <data name="customization/decal" xml:space="preserve">
+    <value>Декаль</value>
+  </data>
+  <data name="customization/emblem" xml:space="preserve">
+    <value>Эмблема</value>
+  </data>
+  <data name="customization/inscription" xml:space="preserve">
+    <value>Надпись</value>
+  </data>
+  <data name="customization/modification" xml:space="preserve">
+    <value>Эффект</value>
+  </data>
+  <data name="customization/outfit" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="customization/paint" xml:space="preserve">
+    <value>Краска</value>
+  </data>
+  <data name="customization/plural/camouflage" xml:space="preserve">
+    <value>Камуфляж</value>
+  </data>
+  <data name="customization/plural/decal" xml:space="preserve">
+    <value>Декали</value>
+  </data>
+  <data name="customization/plural/emblem" xml:space="preserve">
+    <value>Эмблемы</value>
+  </data>
+  <data name="customization/plural/inscription" xml:space="preserve">
+    <value>Надписи</value>
+  </data>
+  <data name="customization/plural/modification" xml:space="preserve">
+    <value>Эффекты</value>
+  </data>
+  <data name="customization/plural/outfit" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="customization/plural/paint" xml:space="preserve">
+    <value>Краски</value>
+  </data>
+  <data name="customization/plural/style" xml:space="preserve">
+    <value>Стили</value>
+  </data>
+  <data name="customization/style" xml:space="preserve">
+    <value>Стиль</value>
+  </data>
 </root>

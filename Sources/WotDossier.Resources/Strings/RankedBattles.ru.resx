@@ -745,4 +745,34 @@
   <data name="tooltip/step/notChargedLose/description" xml:space="preserve">
     <value>Если игрок попал в топ-%(battlesNum)s проигравшей команды по опыту.</value>
   </data>
+  <data name="rankedBattlesUnreachableView/bottom/missions" xml:space="preserve">
+    <value>Выполняйте боевые задачи</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/bottom/premium" xml:space="preserve">
+    <value>Используйте премиум аккаунт</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/bottom/reserves" xml:space="preserve">
+    <value>Активируйте личные резервы</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/bottomText" xml:space="preserve">
+    <value>Как быстрее получить технику {levels} уровня?</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/closeBtnLabel" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/headerText" xml:space="preserve">
+    <value>Ранговый бой</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/leaderboardBtnLabel" xml:space="preserve">
+    <value>Лидеры сезона</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/unreachableText" xml:space="preserve">
+    <value>Режим недоступен: нужна техника {levels} уровня</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/videoBrowser/title" xml:space="preserve">
+    <value>Ранговые бои</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/videoBtnLabel" xml:space="preserve">
+    <value>Видео о режиме</value>
+  </data>
 </root>

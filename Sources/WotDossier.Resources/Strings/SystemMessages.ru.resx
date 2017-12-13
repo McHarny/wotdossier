@@ -4593,4 +4593,64 @@
   <data name="personalMissions/select/success" xml:space="preserve">
     <value>Выбор боевых задач выполнен успешно. Текущие выбранные задачи: %(questNames)s.</value>
   </data>
+  <data name="customization/added/camouflage" xml:space="preserve">
+    <value>Добавлен камуфляж</value>
+  </data>
+  <data name="customization/added/camouflageValue" xml:space="preserve">
+    <value>Добавлен камуфляж (x%s).</value>
+  </data>
+  <data name="customization/added/decal" xml:space="preserve">
+    <value>Добавлена декаль</value>
+  </data>
+  <data name="customization/added/decalValue" xml:space="preserve">
+    <value>Добавлена декаль (x%s).</value>
+  </data>
+  <data name="customization/added/modification" xml:space="preserve">
+    <value>Добавлен эффект</value>
+  </data>
+  <data name="customization/added/modificationValue" xml:space="preserve">
+    <value>Добавлен эффект (x%s).</value>
+  </data>
+  <data name="customization/added/paint" xml:space="preserve">
+    <value>Добавлена краска</value>
+  </data>
+  <data name="customization/added/paintValue" xml:space="preserve">
+    <value>Добавлена краска (x%s).</value>
+  </data>
+  <data name="customization/added/style" xml:space="preserve">
+    <value>Добавлен стиль</value>
+  </data>
+  <data name="customization/added/styleValue" xml:space="preserve">
+    <value>Добавлен стиль (x%s).</value>
+  </data>
+  <data name="customization/prohibited" xml:space="preserve">
+    <value>Нанесение невозможно: «%(itemName)s» отсутствует в инвентаре.</value>
+  </data>
+  <data name="customization/removed/camouflage" xml:space="preserve">
+    <value>Списан камуфляж</value>
+  </data>
+  <data name="customization/removed/decal" xml:space="preserve">
+    <value>Списана декаль</value>
+  </data>
+  <data name="customization/removed/modification" xml:space="preserve">
+    <value>Списан эффект</value>
+  </data>
+  <data name="customization/removed/paint" xml:space="preserve">
+    <value>Списана краска</value>
+  </data>
+  <data name="customization/removed/style" xml:space="preserve">
+    <value>Списан стиль</value>
+  </data>
+  <data name="customization/server_error" xml:space="preserve">
+    <value>Кастомизация невозможна.</value>
+  </data>
+  <data name="customization/unavailable" xml:space="preserve">
+    <value>По техническим причинам функциональность кастомизации танка временно отключена.</value>
+  </data>
+  <data name="squad/notValidMaxSpgDeleted" xml:space="preserve">
+    <value>Машина %(vehName)s исключена из состава взвода из-за ограничения по количеству САУ во взводе. Выберите машину другого типа.</value>
+  </data>
+  <data name="tokens/notification/mark_acquired" xml:space="preserve">
+    <value>Поздравляем! Вам начислены марки в количестве %(count)s шт.</value>
+  </data>
 </root>

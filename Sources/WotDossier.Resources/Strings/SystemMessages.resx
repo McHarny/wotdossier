@@ -4540,4 +4540,13 @@ They can be used again.</value>
   <data name="personalMissions/select/success" xml:space="preserve">
     <value>Missions selected successfully. Currently selected missions: %(questNames)s.</value>
   </data>
+  <data name="giftTankwoman/server_error" xml:space="preserve">
+    <value>Unable to claim reward. Please try again later.</value>
+  </data>
+  <data name="giftTankwoman/server_error/WRONG_ARGS_TYPE" xml:space="preserve">
+    <value>Unable to claim reward. Incorrect data.</value>
+  </data>
+  <data name="giftTankwoman/success" xml:space="preserve">
+    <value>Female crew member successfully recruited.</value>
+  </data>
 </root>

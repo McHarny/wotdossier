@@ -2400,4 +2400,59 @@
   <data name="HE17A3_notification" xml:space="preserve">
     <value>Все задачи события «Вторжение Левиафана» 2017 года завершены!</value>
   </data>
+  <data name="NY18A1" xml:space="preserve">
+    <value>«Боевое бррр... III степени»</value>
+  </data>
+  <data name="NY18A1_condition" xml:space="preserve">
+    <value>• Чем больше украшений расположится на объектах в Ангаре, тем ярче станет атмосфера праздника.
+• Выдаётся всем игрокам, выполнившим необходимое условие в течение специальной новогодней акции 2017–2018.</value>
+  </data>
+  <data name="NY18A1_descr" xml:space="preserve">
+    <value>Получить II уровень атмосферы праздника, приняв участие в новогодней акции.</value>
+  </data>
+  <data name="NY18A1_notification" xml:space="preserve">
+    <value>За проявленный героизм при повышении атмосферы праздника до II уровня вы получаете медаль «Боевое бррр... III степени»</value>
+  </data>
+  <data name="NY18A2" xml:space="preserve">
+    <value>«Боевое бррр... II степени»</value>
+  </data>
+  <data name="NY18A2_condition" xml:space="preserve">
+    <value>• Чем больше украшений расположится на объектах в Ангаре, тем ярче станет атмосфера праздника.
+• Выдаётся всем игрокам, выполнившим необходимое условие в течение специальной новогодней акции 2017–2018.</value>
+  </data>
+  <data name="NY18A2_descr" xml:space="preserve">
+    <value>Получить V уровень атмосферы праздника, приняв участие в новогодней акции.</value>
+  </data>
+  <data name="NY18A2_notification" xml:space="preserve">
+    <value>За проявленный героизм при повышении атмосферы праздника до V уровня вы получаете медаль «Боевое бррр... II степени»</value>
+  </data>
+  <data name="NY18A3" xml:space="preserve">
+    <value>«Боевое бррр... I степени»</value>
+  </data>
+  <data name="NY18A3_condition" xml:space="preserve">
+    <value>• Чем больше украшений расположится на объектах в Ангаре, тем ярче станет атмосфера праздника.
+• Выдаётся всем игрокам, выполнившим необходимое условие в течение специальной новогодней акции 2017–2018.</value>
+  </data>
+  <data name="NY18A3_descr" xml:space="preserve">
+    <value>Получить X уровень атмосферы праздника, приняв участие в новогодней акции.</value>
+  </data>
+  <data name="NY18A3_notification" xml:space="preserve">
+    <value>За проявленный героизм при повышении атмосферы праздника до X уровня вы получаете медаль «Боевое бррр... I степени»</value>
+  </data>
+  <data name="rare1319" xml:space="preserve">
+    <value>Участник WG Fest 2017</value>
+  </data>
+  <data name="rare1319_condition" xml:space="preserve">
+    <value>• Выдавалась всем игрокам при получении пригласительного на мероприятие WG Fest 2017
+• Выдавалась только одна награда за любое количество пригласительных.</value>
+  </data>
+  <data name="rare1319_descr" xml:space="preserve">
+    <value>Выдавалась за посещение мероприятия WG Fest 2017.</value>
+  </data>
+  <data name="rare1320" xml:space="preserve">
+    <value>К WG Fest 2017 готов!</value>
+  </data>
+  <data name="rare1320_descr" xml:space="preserve">
+    <value>Выдавалась за выполнение боевых задач, приуроченных к WG Fest 2017.</value>
+  </data>
 </root>

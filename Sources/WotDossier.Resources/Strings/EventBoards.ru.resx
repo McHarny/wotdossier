@@ -178,10 +178,10 @@
     <value>Награды для выбранной машины</value>
   </data>
   <data name="badge/tooltip/description" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Нашивка — особый значок, который будет отображаться в бою рядом с вашим именем. Нашивку видят игроки обеих команд, и она демонстрирует уровень выдающегося мастерства, показанного игроком во время участия в событии «Марш наций».</value>
   </data>
   <data name="badgesGroup/tooltip/header" xml:space="preserve">
-    <value>?empty?</value>
+    <value>Памятные нашивки</value>
   </data>
   <data name="block/award" xml:space="preserve">
     <value>Основная награда</value>
@@ -379,13 +379,13 @@
     <value>Регламент</value>
   </data>
   <data name="popover/buttons/cancel" xml:space="preserve">
-    <value>Отмена</value>
+    <value>Отменить</value>
   </data>
   <data name="popover/buttons/rating" xml:space="preserve">
     <value>Перейти к рейтингу</value>
   </data>
   <data name="popover/title" xml:space="preserve">
-    <value>Выбор рейтинга</value>
+    <value>Список рейтингов</value>
   </data>
   <data name="popover/tooltip/class" xml:space="preserve">
     <value>Перейти к рейтингу по выбранному типу техники.</value>
@@ -461,7 +461,7 @@
     <value>Проводите бои с указанными условиями, и после обновления рейтингов здесь будут показаны ваши результаты.</value>
   </data>
   <data name="status/participate/notParticipated" xml:space="preserve">
-    <value>Вы не принимали участия в соревновании</value>
+    <value>Вы не участвовали в данном рейтинге</value>
   </data>
   <data name="summary/averagedamage" xml:space="preserve">
     <value>Средний урон</value>
@@ -632,28 +632,28 @@
     <value>Покинуть событие</value>
   </data>
   <data name="table/selectRatingBtn/" xml:space="preserve">
-    <value>Все рейтинги</value>
+    <value>Список рейтингов</value>
   </data>
   <data name="table/selectRegistrationBtn/" xml:space="preserve">
     <value>Записаться в участники</value>
   </data>
   <data name="table/stripe/bronze/title" xml:space="preserve">
-    <value>III степень (%(placeFrom)d-%(placeTo)d места):</value>
+    <value>III группа (%(placeFrom)d-%(placeTo)d места):</value>
   </data>
   <data name="table/stripe/gold/title" xml:space="preserve">
-    <value>I степень (%(placeFrom)d-%(placeTo)d места):</value>
+    <value>I группа (%(placeFrom)d-%(placeTo)d места):</value>
   </data>
   <data name="table/stripe/goldCustom/title" xml:space="preserve">
-    <value>I степень</value>
+    <value>I группа</value>
   </data>
   <data name="table/stripe/iron/title" xml:space="preserve">
-    <value>IV степень (%(placeFrom)d-%(placeTo)d места):</value>
+    <value>IV группа (%(placeFrom)d-%(placeTo)d места):</value>
   </data>
   <data name="table/stripe/silver/title" xml:space="preserve">
-    <value>II степень (%(placeFrom)d-%(placeTo)d места):</value>
+    <value>II группа (%(placeFrom)d-%(placeTo)d места):</value>
   </data>
   <data name="table/stripe/wood/title" xml:space="preserve">
-    <value>Места без наград</value>
+    <value>Позиции без наград</value>
   </data>
   <data name="task/eventtype/all" xml:space="preserve">
     <value>Один рейтинг для всех участников</value>
@@ -848,5 +848,59 @@
   </data>
   <data name="vehicles/vehicle/tooltip" xml:space="preserve">
     <value>Нажмите, чтобы перейти к списку техники, на которой можно участвовать в соревновании.</value>
+  </data>
+  <data name="excel/award/title" xml:space="preserve">
+    <value>Наградa</value>
+  </data>
+  <data name="excel/group/title" xml:space="preserve">
+    <value>Группа</value>
+  </data>
+  <data name="popover/buttons/select" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="popover/noVehicles" xml:space="preserve">
+    <value>Техника, удовлетворяющая условиям фильтра, не найдена.</value>
+  </data>
+  <data name="popover/resetFilter" xml:space="preserve">
+    <value>Сбросить фильтр</value>
+  </data>
+  <data name="popover/title/vehicle" xml:space="preserve">
+    <value>Список рейтингов</value>
+  </data>
+  <data name="status/cantJoin/reason/vehiclesMissing" xml:space="preserve">
+    <value>нет подходящей техники</value>
+  </data>
+  <data name="summary/description/sumMSeqN/class" xml:space="preserve">
+    <value>Лучшая серия боёв на %(value)s</value>
+  </data>
+  <data name="summary/description/sumMSeqN/level" xml:space="preserve">
+    <value>Лучшая серия боёв на технике %(value)s уровня</value>
+  </data>
+  <data name="summary/description/sumMSeqN/nation" xml:space="preserve">
+    <value>Лучшая серия боёв на технике нации: %(value)s</value>
+  </data>
+  <data name="summary/description/sumMSeqN/vehicle" xml:space="preserve">
+    <value>Лучшая серия боёв на %(value)s</value>
+  </data>
+  <data name="summary/param/sumMSeqN/damageAssisted" xml:space="preserve">
+    <value>Средний урон, нанесённый с помощью игрока</value>
+  </data>
+  <data name="summary/param/sumMSeqN/damageDealt" xml:space="preserve">
+    <value>Сумма урона</value>
+  </data>
+  <data name="summary/param/sumMSeqN/originalXP" xml:space="preserve">
+    <value>Сумма «чистого» опыта</value>
+  </data>
+  <data name="summary/param/sumMSeqN/xp" xml:space="preserve">
+    <value>Сумма опыта</value>
+  </data>
+  <data name="task/objective/sum/wins" xml:space="preserve">
+    <value>Попасть в рейтинг по количеству побед</value>
+  </data>
+  <data name="task/selection/sumMSeqN" xml:space="preserve">
+    <value>Учитывается следующее количество лучших боёв в серии: %(cardinality)s. Боёв в серии: %(distance)s</value>
+  </data>
+  <data name="top/participation/notParticipated" xml:space="preserve">
+    <value>Вы не участвовали в данном рейтинге</value>
   </data>
 </root>

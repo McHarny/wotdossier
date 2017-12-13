@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("WotDossier.Resources")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WotDossier.Resources")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCompany(VersionInfo.CompanyName)]
+[assembly: AssemblyProduct(VersionInfo.ProductName)]
+[assembly: AssemblyCopyright(VersionInfo.Copyright)]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,4 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("4.1710.20.38")]
+[assembly: AssemblyVersion("4.17.1109.8")]
+[assembly: AssemblyInformationalVersion(VersionInfo.InformationVersion)]

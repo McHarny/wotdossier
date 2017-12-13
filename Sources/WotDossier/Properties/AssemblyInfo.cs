@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("WotDossier")]
 [assembly: AssemblyDescription("World Of Tanks Dossier Cache statistics")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("ITN")]
-[assembly: AssemblyProduct("WotDossier")]
-[assembly: AssemblyCopyright("Copyright © Rembel, McHarny 2017")]
+[assembly: AssemblyCompany(VersionInfo.CompanyName)]
+[assembly: AssemblyProduct(VersionInfo.ProductName)]
+[assembly: AssemblyCopyright(VersionInfo.Copyright)]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -52,4 +52,5 @@ using System.Windows;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("4.1711.06.27")]
+[assembly: AssemblyVersion("4.17.1213.5")]
+[assembly: AssemblyInformationalVersion(VersionInfo.InformationVersion)]

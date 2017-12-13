@@ -2502,7 +2502,7 @@
 Был принят после введения в Германии новых стандартов цветовых схем. Использовался сухопутными частями немецких войск, которые действовали в Африке. Представлял собой неровные пятна песочно-серого цвета, нанесённые поверх жёлто-коричневого основного слоя.</value>
   </data>
   <data name="camouflage" xml:space="preserve">
-    <value>Тип карт:</value>
+    <value>Камуфляж</value>
   </data>
   <data name="camouflage/Clan_camouflage_01/description" xml:space="preserve">
     <value>Один из вариантов трёхцветного послевоенного камуфляжа армии США.</value>
@@ -3267,7 +3267,7 @@
     <value>Четырёхцветный ранний камуфляж</value>
   </data>
   <data name="emblem" xml:space="preserve">
-    <value>Тип эмблемы:</value>
+    <value>Эмблема</value>
   </data>
   <data name="emblem/auto" xml:space="preserve">
     <value>Национальные эмблемы</value>
@@ -3330,7 +3330,7 @@
     <value>Знак 5</value>
   </data>
   <data name="inscription" xml:space="preserve">
-    <value>Тип надписи:</value>
+    <value>Надпись</value>
   </data>
   <data name="inscription/clan_content" xml:space="preserve">
     <value>Клановые</value>
@@ -3398,7 +3398,7 @@
 Так называемый «пиксельный» камуфляж использовался в начале 2010-х гг.</value>
   </data>
   <data name="camouflage/Clan_camouflage_04/label" xml:space="preserve">
-    <value>Клановый цифровой камуфляж</value>
+    <value>Клановый цифровой камуфляж (летний)</value>
   </data>
   <data name="customization/stored" xml:space="preserve">
     <value>В наличии %(quantity)s шт.</value>
@@ -4381,13 +4381,13 @@
     <value>Снять и поместить на Склад текущий камуфляж.</value>
   </data>
   <data name="customization/camouflage/current/dismount/header" xml:space="preserve">
-    <value>Удалить камуфляж</value>
+    <value>Снять камуфляж</value>
   </data>
   <data name="customization/camouflage/current/drop/body" xml:space="preserve">
-    <value>Удалить текущий камуфляж.</value>
+    <value>Снять текущий камуфляж.</value>
   </data>
   <data name="customization/camouflage/current/drop/header" xml:space="preserve">
-    <value>Удалить камуфляж</value>
+    <value>Снять камуфляж</value>
   </data>
   <data name="customization/camouflage/desert" xml:space="preserve">
     <value>пустынный</value>
@@ -4451,28 +4451,28 @@
     <value>Срок действия</value>
   </data>
   <data name="customization/emblemLeft/current/dismount/body" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущую эмблему 1.</value>
+    <value>Снять и поместить на Склад текущую эмблему 1.</value>
   </data>
   <data name="customization/emblemLeft/current/dismount/header" xml:space="preserve">
-    <value>Удалить эмблему 1</value>
+    <value>Снять эмблему 1</value>
   </data>
   <data name="customization/emblemLeft/current/drop/body" xml:space="preserve">
-    <value>Удалить текущую эмблему 1.</value>
+    <value>Снять текущую эмблему 1.</value>
   </data>
   <data name="customization/emblemLeft/current/drop/header" xml:space="preserve">
-    <value>Удалить эмблему 1</value>
+    <value>Снять эмблему 1</value>
   </data>
   <data name="customization/emblemRight/current/dismount/body" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущую эмблему 2.</value>
+    <value>Снять и поместить на Склад текущую эмблему 2.</value>
   </data>
   <data name="customization/emblemRight/current/dismount/header" xml:space="preserve">
-    <value>Удалить эмблему 2</value>
+    <value>Снять эмблему 2</value>
   </data>
   <data name="customization/emblemRight/current/drop/body" xml:space="preserve">
-    <value>Удалить текущую эмблему 2.</value>
+    <value>Снять текущую эмблему 2.</value>
   </data>
   <data name="customization/emblemRight/current/drop/header" xml:space="preserve">
-    <value>Удалить эмблему 2</value>
+    <value>Снять эмблему 2</value>
   </data>
   <data name="customization/filterPopover/bonusDescription/body" xml:space="preserve">
     <value>Включение/отключение элементов внешнего вида, 
@@ -4507,28 +4507,28 @@
     <value>Срок действия</value>
   </data>
   <data name="customization/inscriptionLeft/current/dismount/body" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущую надпись 1</value>
+    <value>Снять и поместить на Склад текущую надпись 1.</value>
   </data>
   <data name="customization/inscriptionLeft/current/dismount/header" xml:space="preserve">
-    <value>Удалить надпись 1</value>
+    <value>Снять надпись 1</value>
   </data>
   <data name="customization/inscriptionLeft/current/drop/body" xml:space="preserve">
-    <value>Удалить текущую надпись 1.</value>
+    <value>Снять текущую надпись 1.</value>
   </data>
   <data name="customization/inscriptionLeft/current/drop/header" xml:space="preserve">
-    <value>Удалить надпись 1</value>
+    <value>Снять надпись 1</value>
   </data>
   <data name="customization/inscriptionRight/current/dismount/body" xml:space="preserve">
-    <value>Удалить и поместить на Склад текущую надпись 2</value>
+    <value>Снять и поместить на Склад текущую надпись 2.</value>
   </data>
   <data name="customization/inscriptionRight/current/dismount/header" xml:space="preserve">
-    <value>Удалить надпись 2</value>
+    <value>Снять надпись 2</value>
   </data>
   <data name="customization/inscriptionRight/current/drop/body" xml:space="preserve">
-    <value>Удалить текущую надпись 2.</value>
+    <value>Снять текущую надпись 2.</value>
   </data>
   <data name="customization/inscriptionRight/current/drop/header" xml:space="preserve">
-    <value>Удалить надпись 2</value>
+    <value>Снять надпись 2</value>
   </data>
   <data name="customization/notEnoughResources/body" xml:space="preserve">
     <value>Для покупки выбранных элементов внешнего вида не хватает %(count)s.</value>
@@ -4844,13 +4844,13 @@
     <value>+%(bnsValue)s</value>
   </data>
   <data name="window/purchase/btnBuy" xml:space="preserve">
-    <value>Купить</value>
+    <value>Купить и выйти</value>
   </data>
   <data name="window/purchase/btnCancel" xml:space="preserve">
     <value>Отменить</value>
   </data>
   <data name="window/purchase/header" xml:space="preserve">
-    <value>Подтверждение покупки</value>
+    <value>Подтверждение изменений</value>
   </data>
   <data name="window/purchase/tableHeader/bonus" xml:space="preserve">
     <value>Бонус</value>
@@ -5240,7 +5240,7 @@
     <value>Камуфляж «Амёба» состоит из пятен неправильной формы коричневого, белого и чёрного цветов. Был разработан во второй половине 20-х годов и широко использовался Красной Армией.</value>
   </data>
   <data name="camouflage/PM_desert_ob260/label" xml:space="preserve">
-    <value>«Амёба»: пустынный</value>
+    <value>Камуфляж «Амёба» пустынный</value>
   </data>
   <data name="camouflage/PM_desert_stugiv/description" xml:space="preserve">
     <value>Пустынный вариант «засадного камуфляжа», введённый поздним летом – ранней осенью 1944 года.
@@ -5248,7 +5248,7 @@
 На базовый светло-жёлтый цвет нанесены мелкие пятна произвольной формы коричневых оттенков.</value>
   </data>
   <data name="camouflage/PM_desert_stugiv/label" xml:space="preserve">
-    <value>«Засадный» пустынный</value>
+    <value>«Засадный» пустынный камуфляж</value>
   </data>
   <data name="camouflage/PM_desert_t28htc/description" xml:space="preserve">
     <value>Пустынный вариант комбинации двух камуфляжных схем: «Coffee stain» и «Chocolate Chip».
@@ -5257,7 +5257,7 @@
 «Chocolate Chip»: униформа такой расцветки использовалась ВС США с начала 1980-х до середины 1990-х.</value>
   </data>
   <data name="camouflage/PM_desert_t28htc/label" xml:space="preserve">
-    <value>Концептуальный пустынный</value>
+    <value>Концептуальный пустынный камуфляж</value>
   </data>
   <data name="camouflage/PM_desert_t55a/description" xml:space="preserve">
     <value>Пустынный вариант камуфляжа боевой колёсной и гусеничной техники Вооружённых сил ГДР, принятого в 1988 году.
@@ -5265,13 +5265,13 @@
 Данная схема предусматривала замену цветов летней схемы на различные цвета и оттенки, характерные для пустынной местности: светло-коричневый, песочный, серо-песочный и т.д.</value>
   </data>
   <data name="camouflage/PM_desert_t55a/label" xml:space="preserve">
-    <value>Современный пятнистый пустынный</value>
+    <value>Современный пятнистый пустынный камуфляж</value>
   </data>
   <data name="camouflage/PM_summer_ob260/description" xml:space="preserve">
     <value>Камуфляж «Амёба» состоит из пятен неправильной формы различных оттенков зелёного цвета. Был разработан во второй половине 20-х годов и широко использовался Красной армией.</value>
   </data>
   <data name="camouflage/PM_summer_ob260/label" xml:space="preserve">
-    <value>«Амёба»: летний</value>
+    <value>Камуфляж «Амёба» летний</value>
   </data>
   <data name="camouflage/PM_summer_stugiv/description" xml:space="preserve">
     <value>Одна из схем т.н. «засадного камуфляжа», введённая поздним летом – ранней осенью 1944 года.
@@ -5279,7 +5279,7 @@
 На базовый тёмно-жёлтый цвет нанесены пятна зелёного и коричневого цветов в виде кругов, а между ними дополнительно – пятнышки коричневого цвета.</value>
   </data>
   <data name="camouflage/PM_summer_stugiv/label" xml:space="preserve">
-    <value>«Засадный» летний</value>
+    <value>«Засадный» летний камуфляж</value>
   </data>
   <data name="camouflage/PM_summer_t28htc/description" xml:space="preserve">
     <value>Летний вариант комбинации двух камуфляжных схем: «Coffee stain» и «Chocolate Chip».
@@ -5288,7 +5288,7 @@
 «Chocolate Chip»: униформа такой расцветки использовалась ВС США с начала 1980-х до середины 1990-х.</value>
   </data>
   <data name="camouflage/PM_summer_t28htc/label" xml:space="preserve">
-    <value>Концептуальный летний</value>
+    <value>Концептуальный летний камуфляж</value>
   </data>
   <data name="camouflage/PM_summer_t55a/description" xml:space="preserve">
     <value>Летний камуфляж боевой колёсной и гусеничной техники Вооружённых сил ГДР, принятый в 1988 году.
@@ -5296,13 +5296,13 @@
 На базовый зелёный цвет наносились крупные пятна-полосы коричневого и тёмно-зелёного цветов.</value>
   </data>
   <data name="camouflage/PM_summer_t55a/label" xml:space="preserve">
-    <value>Современный пятнистый летний</value>
+    <value>Современный пятнистый летний камуфляж</value>
   </data>
   <data name="camouflage/PM_winter_ob260/description" xml:space="preserve">
     <value>Камуфляж «Амёба» состоит из пятен неправильной формы серого, белого и чёрного цветов. Был разработан во второй половине 20-х годов и широко использовался Красной армией.</value>
   </data>
   <data name="camouflage/PM_winter_ob260/label" xml:space="preserve">
-    <value>«Амёба»: зимний</value>
+    <value>Камуфляж «Амёба» зимний</value>
   </data>
   <data name="camouflage/PM_winter_stugiv/description" xml:space="preserve">
     <value>Зимний вариант «засадного камуфляжа», введённый поздним летом – ранней осенью 1944 года.
@@ -5310,7 +5310,7 @@
 На базовый цвет нанесены мелкие пятна произвольной формы белого и чёрного цветов. Идеально подходит для ведения «засадного» боя в городских условиях.</value>
   </data>
   <data name="camouflage/PM_winter_stugiv/label" xml:space="preserve">
-    <value>«Засадный» зимний</value>
+    <value>«Засадный» зимний камуфляж</value>
   </data>
   <data name="camouflage/PM_winter_t28htc/description" xml:space="preserve">
     <value>Зимний вариант комбинации двух камуфляжных схем: «Coffee stain» и «Chocolate Chip».
@@ -5319,7 +5319,7 @@
 «Chocolate Chip»: униформа такой расцветки использовалась ВС США с начала 1980-х до середины 1990-х.</value>
   </data>
   <data name="camouflage/PM_winter_t28htc/label" xml:space="preserve">
-    <value>Концептуальный зимний</value>
+    <value>Концептуальный зимний камуфляж</value>
   </data>
   <data name="camouflage/PM_winter_t55a/description" xml:space="preserve">
     <value>Зимний вариант камуфляжа боевой колёсной и гусеничной техники Вооружённых сил ГДР, принятого в 1988 году.
@@ -5327,7 +5327,7 @@
 В данном варианте пятна светло-серого и чёрного цветов закрашивались белым цветом.</value>
   </data>
   <data name="camouflage/PM_winter_t55a/label" xml:space="preserve">
-    <value>Современный пятнистый зимний</value>
+    <value>Современный пятнистый зимний камуфляж</value>
   </data>
   <data name="customization/tooltip/oneTaskDescription" xml:space="preserve">
     <value>Выполнить боевую задачу: «%(name)s»</value>
@@ -5352,5 +5352,874 @@
   </data>
   <data name="inscription/special/special_81" xml:space="preserve">
     <value>За Родину!</value>
+  </data>
+  <data name="bonus/condition/season" xml:space="preserve">
+    <value>Бонус к маскировке при нанесении камуфляжа на корпус машины</value>
+  </data>
+  <data name="bonus/name/camouflage" xml:space="preserve">
+    <value>Увеличение незаметности на:</value>
+  </data>
+  <data name="bonus/name/extended/camouflage" xml:space="preserve">
+    <value>Бонус к скрытности техники</value>
+  </data>
+  <data name="buyWindow/allFailed" xml:space="preserve">
+    <value>Не удалось приобрести все элементы.</value>
+  </data>
+  <data name="buyWindow/someFailures" xml:space="preserve">
+    <value>Не удалось приобрести некоторые элементы. Проверьте ваш инвентарь.</value>
+  </data>
+  <data name="buyWindow/title/activeStyle" xml:space="preserve">
+    <value>Текущий стиль:</value>
+  </data>
+  <data name="buyWindow/title/desert" xml:space="preserve">
+    <value>Пустынный:</value>
+  </data>
+  <data name="buyWindow/title/event" xml:space="preserve">
+    <value>Особый:</value>
+  </data>
+  <data name="buyWindow/title/summer" xml:space="preserve">
+    <value>Летний:</value>
+  </data>
+  <data name="buyWindow/title/winter" xml:space="preserve">
+    <value>Зимний:</value>
+  </data>
+  <data name="camouflage/Clan_camouflage_04_desert/description" xml:space="preserve">
+    <value>Китайский пустынный четырёхцветный камуфляж
+Так называемый «пиксельный» камуфляж использовался в начале 2010-х гг.</value>
+  </data>
+  <data name="camouflage/Clan_camouflage_04_desert/label" xml:space="preserve">
+    <value>Клановый цифровой камуфляж (пустынный)</value>
+  </data>
+  <data name="camouflage/Clan_camouflage_04_winter/description" xml:space="preserve">
+    <value>Китайский зимний четырёхцветный камуфляж
+Так называемый «пиксельный» камуфляж использовался в начале 2010-х гг.</value>
+  </data>
+  <data name="camouflage/Clan_camouflage_04_winter/label" xml:space="preserve">
+    <value>Клановый цифровой камуфляж (зимний)</value>
+  </data>
+  <data name="camouflage/Mutant_shell_desert/description" xml:space="preserve">
+    <value>Уникальная защитная окраска, доступная для нанесения только на танк M6A2E1 Mutant.</value>
+  </data>
+  <data name="camouflage/Mutant_shell_desert/label" xml:space="preserve">
+    <value>Камуфляж «Гусиная кожа» пустынный</value>
+  </data>
+  <data name="camouflage/Mutant_shell_summer/description" xml:space="preserve">
+    <value>Уникальная защитная окраска, доступная для нанесения только на танк M6A2E1 Mutant.</value>
+  </data>
+  <data name="camouflage/Mutant_shell_summer/label" xml:space="preserve">
+    <value>Камуфляж «Гусиная кожа» летний</value>
+  </data>
+  <data name="camouflage/Mutant_shell_winter/description" xml:space="preserve">
+    <value>Уникальная защитная окраска, доступная для нанесения только на танк M6A2E1 Mutant.</value>
+  </data>
+  <data name="camouflage/Mutant_shell_winter/label" xml:space="preserve">
+    <value>Камуфляж «Гусиная кожа» зимний</value>
+  </data>
+  <data name="camouflage/christmas_GB/description" xml:space="preserve">
+    <value>Всесезонный камуфляж для стиля «Современное Рождество».</value>
+  </data>
+  <data name="camouflage/christmas_GB/label" xml:space="preserve">
+    <value>Камуфляж для стиля «Современное Рождество»</value>
+  </data>
+  <data name="camouflage/christmas_chinese/description" xml:space="preserve">
+    <value>Всесезонный камуфляж для стиля «Китайский Новый год».</value>
+  </data>
+  <data name="camouflage/christmas_chinese/label" xml:space="preserve">
+    <value>Камуфляж для стиля «Китайский Новый год»</value>
+  </data>
+  <data name="camouflage/christmas_german/description" xml:space="preserve">
+    <value>Всесезонный камуфляж для стиля «Традиционное Рождество».</value>
+  </data>
+  <data name="camouflage/christmas_german/label" xml:space="preserve">
+    <value>Камуфляж для стиля «Традиционное Рождество»</value>
+  </data>
+  <data name="camouflage/christmas_ussr/description" xml:space="preserve">
+    <value>Всесезонный камуфляж для стиля «Новый год».</value>
+  </data>
+  <data name="camouflage/christmas_ussr/label" xml:space="preserve">
+    <value>Камуфляж для стиля «Новый год»</value>
+  </data>
+  <data name="camouflage/gift_camouflage_desert/description" xml:space="preserve">
+    <value>Камуфляж состоит из амёбообразных пятен различных цветов, деформирующих силуэт машины в условиях пустыни. Подобная окраска получила распространение во многих странах до конца 50-х годов.</value>
+  </data>
+  <data name="camouflage/gift_camouflage_desert/label" xml:space="preserve">
+    <value>Подарочный камуфляж «Крупнопятнистый пустынный»</value>
+  </data>
+  <data name="camouflage/gift_camouflage_summer/description" xml:space="preserve">
+    <value>Камуфляж состоит из пятен неправильной формы различных цветов, деформирующих силуэт машины в условиях различных видов местности. Подобная окраска получила распространение во многих странах до конца 50-х годов.</value>
+  </data>
+  <data name="camouflage/gift_camouflage_summer/label" xml:space="preserve">
+    <value>Подарочный камуфляж «Крупнопятнистый летний»</value>
+  </data>
+  <data name="camouflage/gift_camouflage_winter/description" xml:space="preserve">
+    <value>Камуфляж состоит из нерегулярных пятен различных цветов, деформирующих силуэт машины в зимних условиях. Подобная окраска получила распространение во многих странах до конца 50-х годов.</value>
+  </data>
+  <data name="camouflage/gift_camouflage_winter/label" xml:space="preserve">
+    <value>Подарочный камуфляж «Крупнопятнистый зимний»</value>
+  </data>
+  <data name="camouflage/opaque" xml:space="preserve">
+    <value>Укрывистый</value>
+  </data>
+  <data name="camouflage/prem_camouflage_desert/description" xml:space="preserve">
+    <value>Пустынный камуфляж постоянного стиля.</value>
+  </data>
+  <data name="camouflage/prem_camouflage_desert/label" xml:space="preserve">
+    <value>Камуфляж для стиля 03</value>
+  </data>
+  <data name="camouflage/prem_camouflage_summer/description" xml:space="preserve">
+    <value>Летний камуфляж постоянного стиля.</value>
+  </data>
+  <data name="camouflage/prem_camouflage_summer/label" xml:space="preserve">
+    <value>Камуфляж для стиля 02</value>
+  </data>
+  <data name="camouflage/prem_camouflage_winter/description" xml:space="preserve">
+    <value>Зимний камуфляж постоянного стиля.</value>
+  </data>
+  <data name="camouflage/prem_camouflage_winter/label" xml:space="preserve">
+    <value>Камуфляж для стиля 01</value>
+  </data>
+  <data name="camouflage/transparent" xml:space="preserve">
+    <value>Прозрачный</value>
+  </data>
+  <data name="carousel/filter/body" xml:space="preserve">
+    <value>Расширенная фильтрация элементов внешнего вида.</value>
+  </data>
+  <data name="carousel/filter/header" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="carousel/swatch/style/permanent" xml:space="preserve">
+    <value>Постоянный стиль</value>
+  </data>
+  <data name="carousel/swatch/style/rent" xml:space="preserve">
+    <value>Арендный стиль</value>
+  </data>
+  <data name="commit/apply" xml:space="preserve">
+    <value>Применить и выйти</value>
+  </data>
+  <data name="commit/buy" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="customization/Popover/Camo/color" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="customization/Popover/Camo/scale" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="customization/Popover/Camo/scale/large" xml:space="preserve">
+    <value>Большой</value>
+  </data>
+  <data name="customization/Popover/Camo/scale/normal" xml:space="preserve">
+    <value>Средний</value>
+  </data>
+  <data name="customization/Popover/Camo/scale/small" xml:space="preserve">
+    <value>Малый</value>
+  </data>
+  <data name="customization/Popover/Style" xml:space="preserve">
+    <value>Стиль</value>
+  </data>
+  <data name="customization/Popover/Style/custom" xml:space="preserve">
+    <value>Настраиваемый</value>
+  </data>
+  <data name="customization/Popover/Style/items" xml:space="preserve">
+    <value>Элементы</value>
+  </data>
+  <data name="customization/Popover/emptySlot" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="customization/Popover/emptySlot/hint" xml:space="preserve">
+    <value>Выберите понравившийся элемент внешнего вида из нижней панели</value>
+  </data>
+  <data name="customization/Popover/emptyStyle/hint" xml:space="preserve">
+    <value>Выберите понравившийся готовый стиль из нижней панели</value>
+  </data>
+  <data name="customization/Popover/emptyText" xml:space="preserve">
+    <value>%(elementType)s: отсутствует</value>
+  </data>
+  <data name="customization/Popover/itemType/camo" xml:space="preserve">
+    <value>Камуфляж</value>
+  </data>
+  <data name="customization/Popover/itemType/decal" xml:space="preserve">
+    <value>Декали</value>
+  </data>
+  <data name="customization/Popover/itemType/effect" xml:space="preserve">
+    <value>Эффекты</value>
+  </data>
+  <data name="customization/Popover/itemType/paint" xml:space="preserve">
+    <value>Краска</value>
+  </data>
+  <data name="customization/Popover/itemType/style" xml:space="preserve">
+    <value>Набор стилей</value>
+  </data>
+  <data name="customization/Popover/mapType" xml:space="preserve">
+    <value>Карта: </value>
+  </data>
+  <data name="customization/decalPopover/remove" xml:space="preserve">
+    <value>Снять</value>
+  </data>
+  <data name="customization/filter/allGroups" xml:space="preserve">
+    <value>Все группы</value>
+  </data>
+  <data name="customization/infotype/description/map" xml:space="preserve">
+    <value>Карта: %(mapType)s</value>
+  </data>
+  <data name="customization/infotype/description/type" xml:space="preserve">
+    <value>   /   Группа: %(elementType)s</value>
+  </data>
+  <data name="customization/infotype/locked/summer" xml:space="preserve">
+    <value>Может быть нанесено только на стиль для летних карт.</value>
+  </data>
+  <data name="customization/infotype/locked/title" xml:space="preserve">
+    <value>НЕДОСТУПНО</value>
+  </data>
+  <data name="customization/infotype/map" xml:space="preserve">
+    <value>Карта: </value>
+  </data>
+  <data name="customization/infotype/map/desert" xml:space="preserve">
+    <value>Пустынная</value>
+  </data>
+  <data name="customization/infotype/map/event" xml:space="preserve">
+    <value>Особая</value>
+  </data>
+  <data name="customization/infotype/map/spring" xml:space="preserve">
+    <value>Летняя</value>
+  </data>
+  <data name="customization/infotype/map/winter" xml:space="preserve">
+    <value>Зимняя</value>
+  </data>
+  <data name="customization/infotype/type/style" xml:space="preserve">
+    <value>Стиль</value>
+  </data>
+  <data name="customization/infotype/type/style/custom" xml:space="preserve">
+    <value>Настраиваемый</value>
+  </data>
+  <data name="customization/infotype/type/style/rental" xml:space="preserve">
+    <value>Арендный</value>
+  </data>
+  <data name="customization/infotype/type/style/special" xml:space="preserve">
+    <value>Специальный</value>
+  </data>
+  <data name="customization/mapType/all" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="customization/mapType/desert" xml:space="preserve">
+    <value>Пустынная</value>
+  </data>
+  <data name="customization/mapType/summer" xml:space="preserve">
+    <value>Летняя</value>
+  </data>
+  <data name="customization/mapType/winter" xml:space="preserve">
+    <value>Зимняя</value>
+  </data>
+  <data name="customization/nonHistoric/buttonText/removeFromAll" xml:space="preserve">
+    <value>Удалить всё</value>
+  </data>
+  <data name="customization/nonHistoric/indicatorText" xml:space="preserve">
+    <value>Неисторичные</value>
+  </data>
+  <data name="customization/nonHistoric/tableHeader/applied" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="customization/nonHistoric/tableHeader/item" xml:space="preserve">
+    <value>Элемент</value>
+  </data>
+  <data name="customization/nonHistoric/tableHeader/remove" xml:space="preserve">
+    <value>Снять</value>
+  </data>
+  <data name="customization/nonHistoric/title/items" xml:space="preserve">
+    <value>Неисторичные элементы</value>
+  </data>
+  <data name="customization/popover/style/any" xml:space="preserve">
+    <value>Любая</value>
+  </data>
+  <data name="customization/popover/style/autoProlongationLabel" xml:space="preserve">
+    <value>Продлевать автоматически</value>
+  </data>
+  <data name="customization/popover/style/desert" xml:space="preserve">
+    <value>Пустынная</value>
+  </data>
+  <data name="customization/popover/style/summer" xml:space="preserve">
+    <value>Летняя</value>
+  </data>
+  <data name="customization/popover/style/winter" xml:space="preserve">
+    <value>Зимняя</value>
+  </data>
+  <data name="customization/propSheet/effects/tankEffects" xml:space="preserve">
+    <value>Эффекты техники</value>
+  </data>
+  <data name="customization/propSheet/popover/addItem" xml:space="preserve">
+    <value>Добавить за</value>
+  </data>
+  <data name="customization/propSheet/popover/applyItem" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="customization/propSheet/popover/empty" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="customization/propSheet/popover/locked" xml:space="preserve">
+    <value>Недоступно</value>
+  </data>
+  <data name="customization/propSheet/popover/remove" xml:space="preserve">
+    <value>Снять</value>
+  </data>
+  <data name="customization/tooltip/description/historic/false" xml:space="preserve">
+    <value>Неисторичные</value>
+  </data>
+  <data name="customization/tooltip/description/historic/false/description" xml:space="preserve">
+    <value>Другие игроки могут не видеть данный элемент внешнего вида.</value>
+  </data>
+  <data name="customization/tooltip/description/historic/true" xml:space="preserve">
+    <value>Историчные</value>
+  </data>
+  <data name="customization/tooltip/inventory/available" xml:space="preserve">
+    <value>Доступно</value>
+  </data>
+  <data name="customization/tooltip/inventory/cost/purchase" xml:space="preserve">
+    <value>Стоимость покупки</value>
+  </data>
+  <data name="customization/tooltip/inventory/cost/rent" xml:space="preserve">
+    <value>Стоимость за боёв: %(battlesNum)s</value>
+  </data>
+  <data name="customization/tooltip/inventory/rent/battlesLeft" xml:space="preserve">
+    <value>Осталось боёв</value>
+  </data>
+  <data name="customization/tooltip/inventory/sellprice" xml:space="preserve">
+    <value>Стоимость продажи (все элементы)</value>
+  </data>
+  <data name="customization/tooltip/inventory/title" xml:space="preserve">
+    <value>Инвентарь</value>
+  </data>
+  <data name="customization/tooltip/suitable/tier" xml:space="preserve">
+    <value>Уровень:&amp;nbsp;</value>
+  </data>
+  <data name="customization/tooltip/suitable/title" xml:space="preserve">
+    <value>Подходит для техники</value>
+  </data>
+  <data name="customization/tooltip/warning/reason/forward" xml:space="preserve">
+    <value>Эффект может отображаться не в полной мере из-за низких настроек графики.</value>
+  </data>
+  <data name="customization/tooltip/warning/title" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="defaultStyle/label" xml:space="preserve">
+    <value>Выберите готовый всесезонный стиль</value>
+  </data>
+  <data name="emblem/group40/special_330" xml:space="preserve">
+    <value>Ярость</value>
+  </data>
+  <data name="emblem/group41/special_340" xml:space="preserve">
+    <value>Голова Деда Мороза</value>
+  </data>
+  <data name="emblem/group41/special_341" xml:space="preserve">
+    <value>Снеговик</value>
+  </data>
+  <data name="emblem/group41/special_342" xml:space="preserve">
+    <value>Салют</value>
+  </data>
+  <data name="emblem/group42/special_343" xml:space="preserve">
+    <value>Рождественский чулок</value>
+  </data>
+  <data name="emblem/group42/special_344" xml:space="preserve">
+    <value>Шапка Санты</value>
+  </data>
+  <data name="emblem/group42/special_345" xml:space="preserve">
+    <value>Подмигивающий эльф</value>
+  </data>
+  <data name="emblem/group43/special_346" xml:space="preserve">
+    <value>Колокольчик</value>
+  </data>
+  <data name="emblem/group43/special_347" xml:space="preserve">
+    <value>Зелёный венок</value>
+  </data>
+  <data name="emblem/group43/special_348" xml:space="preserve">
+    <value>Листики омелы</value>
+  </data>
+  <data name="emblem/group44/special_349" xml:space="preserve">
+    <value>Жёлтая собака</value>
+  </data>
+  <data name="emblem/group44/special_350" xml:space="preserve">
+    <value>Красный петух</value>
+  </data>
+  <data name="emblem/group44/special_351" xml:space="preserve">
+    <value>Красный дракон</value>
+  </data>
+  <data name="filter/or" xml:space="preserve">
+    <value>или</value>
+  </data>
+  <data name="filter/popover/showonlyfilters/acquired" xml:space="preserve">
+    <value>Приобретённые элементы</value>
+  </data>
+  <data name="filter/popover/showonlyfilters/historic" xml:space="preserve">
+    <value>Историчные элементы</value>
+  </data>
+  <data name="filter/popover/showonlyfilters/title" xml:space="preserve">
+    <value>Показывать только:</value>
+  </data>
+  <data name="gold_style/gold_style_01" xml:space="preserve">
+    <value>«Чёрная вдова»</value>
+  </data>
+  <data name="historicIndicator/styleName/custsomStyle" xml:space="preserve">
+    <value>Настраиваемый стиль</value>
+  </data>
+  <data name="inscription/special/special_130" xml:space="preserve">
+    <value>Bring the heat!</value>
+  </data>
+  <data name="inscription/special/special_131" xml:space="preserve">
+    <value>Дадим жару!</value>
+  </data>
+  <data name="inscription/special/special_140" xml:space="preserve">
+    <value>Мутант</value>
+  </data>
+  <data name="inscription/special/special_150" xml:space="preserve">
+    <value>Побед в Новом году!</value>
+  </data>
+  <data name="inscription/special/special_151" xml:space="preserve">
+    <value>С Новым годом!</value>
+  </data>
+  <data name="inscription/special/special_152" xml:space="preserve">
+    <value>С новыми победами!</value>
+  </data>
+  <data name="inscription/special/special_153" xml:space="preserve">
+    <value>С Новым годом!</value>
+  </data>
+  <data name="inscription/special/special_154" xml:space="preserve">
+    <value>С Новым годом!</value>
+  </data>
+  <data name="inscription/special/special_155" xml:space="preserve">
+    <value>С Рождеством!</value>
+  </data>
+  <data name="inscription/special/special_156" xml:space="preserve">
+    <value>С Рождеством!</value>
+  </data>
+  <data name="inscription/special/special_157" xml:space="preserve">
+    <value>Счастливых праздников!</value>
+  </data>
+  <data name="inscription/special/special_158" xml:space="preserve">
+    <value>Счастливых праздников!</value>
+  </data>
+  <data name="inscription/special/special_159" xml:space="preserve">
+    <value>С Рождеством!</value>
+  </data>
+  <data name="inscription/special/special_160" xml:space="preserve">
+    <value>С Новым годом!</value>
+  </data>
+  <data name="inscription/special/special_161" xml:space="preserve">
+    <value>С Новым годом!</value>
+  </data>
+  <data name="inscription/special/special_162" xml:space="preserve">
+    <value>Счастливого Нового года!</value>
+  </data>
+  <data name="inscription/special/special_163" xml:space="preserve">
+    <value>Счастливого Нового года!</value>
+  </data>
+  <data name="inscription/special/special_164" xml:space="preserve">
+    <value>С Новым годом!</value>
+  </data>
+  <data name="inscription/special/special_165" xml:space="preserve">
+    <value>С Рождеством!</value>
+  </data>
+  <data name="inscription/special/special_166" xml:space="preserve">
+    <value>Счастливых праздников!</value>
+  </data>
+  <data name="inscription/special/special_167" xml:space="preserve">
+    <value>Счастливых праздников!</value>
+  </data>
+  <data name="inscription/special/special_168" xml:space="preserve">
+    <value>Счастливых праздников!</value>
+  </data>
+  <data name="inscription/special/special_169" xml:space="preserve">
+    <value>Счастливых праздников!</value>
+  </data>
+  <data name="inscription/special/special_170" xml:space="preserve">
+    <value>Счастливых праздников!</value>
+  </data>
+  <data name="inscription/special/special_171" xml:space="preserve">
+    <value>С Новым годом!</value>
+  </data>
+  <data name="inscription/special/special_172" xml:space="preserve">
+    <value>С Рождеством!</value>
+  </data>
+  <data name="inscription/special/special_173" xml:space="preserve">
+    <value>Пусть год Собаки принесёт вам удачу!</value>
+  </data>
+  <data name="inscription/special/special_174" xml:space="preserve">
+    <value>С Новым годом!</value>
+  </data>
+  <data name="inscription/special/special_175" xml:space="preserve">
+    <value>С Рождеством!</value>
+  </data>
+  <data name="inscription/special/special_176" xml:space="preserve">
+    <value>Хороших праздников!</value>
+  </data>
+  <data name="modifications/age_effect_01" xml:space="preserve">
+    <value>Износ покрытия 01</value>
+  </data>
+  <data name="modifications/age_effect_01/description" xml:space="preserve">
+    <value>Цвета краски и камуфляжа затёрты, отсутствие яркости цвета.</value>
+  </data>
+  <data name="modifications/age_effect_02" xml:space="preserve">
+    <value>Износ покрытия 02</value>
+  </data>
+  <data name="modifications/age_effect_02/description" xml:space="preserve">
+    <value>Явные потёртости покрытия, цвет блеклый.</value>
+  </data>
+  <data name="modifications/age_effect_03" xml:space="preserve">
+    <value>Износ покрытия 03</value>
+  </data>
+  <data name="modifications/age_effect_03/description" xml:space="preserve">
+    <value>Явные потёртости покрытия, цвет блеклый.</value>
+  </data>
+  <data name="ny_style/asian_ny_style_01" xml:space="preserve">
+    <value>Китайский Новый год</value>
+  </data>
+  <data name="ny_style/modernWestern_ny_style_01" xml:space="preserve">
+    <value>Современное Рождество</value>
+  </data>
+  <data name="ny_style/soviet_ny_style_01" xml:space="preserve">
+    <value>Новый год</value>
+  </data>
+  <data name="ny_style/traditionalWestern_ny_style_01" xml:space="preserve">
+    <value>Традиционное Рождество</value>
+  </data>
+  <data name="popover/style/remove" xml:space="preserve">
+    <value>Снять стиль</value>
+  </data>
+  <data name="rented_style/china" xml:space="preserve">
+    <value>Китай</value>
+  </data>
+  <data name="rented_style/czech" xml:space="preserve">
+    <value>Чехословакия</value>
+  </data>
+  <data name="rented_style/france" xml:space="preserve">
+    <value>Франция</value>
+  </data>
+  <data name="rented_style/germany" xml:space="preserve">
+    <value>Германия</value>
+  </data>
+  <data name="rented_style/japan" xml:space="preserve">
+    <value>Япония</value>
+  </data>
+  <data name="rented_style/sweden" xml:space="preserve">
+    <value>Швеция</value>
+  </data>
+  <data name="rented_style/uk" xml:space="preserve">
+    <value>Великобритания</value>
+  </data>
+  <data name="rented_style/usa" xml:space="preserve">
+    <value>США</value>
+  </data>
+  <data name="rented_style/ussr" xml:space="preserve">
+    <value>СССР</value>
+  </data>
+  <data name="repaint/china_base_color" xml:space="preserve">
+    <value>Китайский базовый</value>
+  </data>
+  <data name="repaint/china_color_01" xml:space="preserve">
+    <value>Хаки</value>
+  </data>
+  <data name="repaint/china_color_02" xml:space="preserve">
+    <value>Светло-зелёный</value>
+  </data>
+  <data name="repaint/china_color_03" xml:space="preserve">
+    <value>Тёмно-зелёный</value>
+  </data>
+  <data name="repaint/china_color_04" xml:space="preserve">
+    <value>Светло-бежевый</value>
+  </data>
+  <data name="repaint/china_color_05" xml:space="preserve">
+    <value>Песочно-жёлтый</value>
+  </data>
+  <data name="repaint/china_color_06" xml:space="preserve">
+    <value>Бежевый</value>
+  </data>
+  <data name="repaint/china_color_07" xml:space="preserve">
+    <value>Зеленая листва</value>
+  </data>
+  <data name="repaint/color_group_01" xml:space="preserve">
+    <value>Китайский цвет</value>
+  </data>
+  <data name="repaint/color_group_02" xml:space="preserve">
+    <value>Национальные краски</value>
+  </data>
+  <data name="repaint/color_group_03" xml:space="preserve">
+    <value>Базовые краски и грунты</value>
+  </data>
+  <data name="repaint/color_group_05" xml:space="preserve">
+    <value>Неисторичные краски</value>
+  </data>
+  <data name="repaint/custom_color_01" xml:space="preserve">
+    <value>Пурпурный</value>
+  </data>
+  <data name="repaint/custom_color_02" xml:space="preserve">
+    <value>Красный</value>
+  </data>
+  <data name="repaint/custom_color_03" xml:space="preserve">
+    <value>Синий</value>
+  </data>
+  <data name="repaint/custom_color_04" xml:space="preserve">
+    <value>Жёлтый</value>
+  </data>
+  <data name="repaint/custom_color_05" xml:space="preserve">
+    <value>Голубой</value>
+  </data>
+  <data name="repaint/custom_color_06" xml:space="preserve">
+    <value>Розовый</value>
+  </data>
+  <data name="repaint/custom_color_07" xml:space="preserve">
+    <value>Зелёный</value>
+  </data>
+  <data name="repaint/custom_color_08" xml:space="preserve">
+    <value>Оранжевый</value>
+  </data>
+  <data name="repaint/custom_color_09" xml:space="preserve">
+    <value>Небесно-голубой</value>
+  </data>
+  <data name="repaint/custom_color_10" xml:space="preserve">
+    <value>Краска для стиля 01</value>
+  </data>
+  <data name="repaint/custom_color_11" xml:space="preserve">
+    <value>Краска для стиля 02</value>
+  </data>
+  <data name="repaint/custom_color_12" xml:space="preserve">
+    <value>Краска для стиля 01</value>
+  </data>
+  <data name="repaint/custom_color_13" xml:space="preserve">
+    <value>Краска для стиля 02</value>
+  </data>
+  <data name="repaint/custom_color_14" xml:space="preserve">
+    <value>Краска для стиля 01</value>
+  </data>
+  <data name="repaint/custom_color_15" xml:space="preserve">
+    <value>Краска для стиля 02</value>
+  </data>
+  <data name="repaint/custom_color_16" xml:space="preserve">
+    <value>Краска для стиля «Китайский Новый год»</value>
+  </data>
+  <data name="repaint/custom_color_17" xml:space="preserve">
+    <value>Краска для стиля «Традиционное Рождество»</value>
+  </data>
+  <data name="repaint/custom_color_18" xml:space="preserve">
+    <value>Краска для стиля «Современное Рождество»</value>
+  </data>
+  <data name="repaint/custom_color_19" xml:space="preserve">
+    <value>Краска для стиля «Новый год»</value>
+  </data>
+  <data name="repaint/czech_base_color" xml:space="preserve">
+    <value>Чехословацкий базовый</value>
+  </data>
+  <data name="repaint/czech_color_01" xml:space="preserve">
+    <value>Серый</value>
+  </data>
+  <data name="repaint/czech_color_02" xml:space="preserve">
+    <value>Зелёный</value>
+  </data>
+  <data name="repaint/czech_color_03" xml:space="preserve">
+    <value>Светло-серый</value>
+  </data>
+  <data name="repaint/czech_color_04" xml:space="preserve">
+    <value>Тёмно-серый</value>
+  </data>
+  <data name="repaint/czech_color_05" xml:space="preserve">
+    <value>Красно-коричневый</value>
+  </data>
+  <data name="repaint/czech_color_06" xml:space="preserve">
+    <value>Тёмно-зелёный</value>
+  </data>
+  <data name="repaint/czech_color_07" xml:space="preserve">
+    <value>Červený oxid</value>
+  </data>
+  <data name="repaint/france_base_color" xml:space="preserve">
+    <value>Французский базовый</value>
+  </data>
+  <data name="repaint/france_color_01" xml:space="preserve">
+    <value>Оливково-зелёный</value>
+  </data>
+  <data name="repaint/france_color_02" xml:space="preserve">
+    <value>Gris Bleu Clair</value>
+  </data>
+  <data name="repaint/france_color_03" xml:space="preserve">
+    <value>Grisatre Vert</value>
+  </data>
+  <data name="repaint/france_color_04" xml:space="preserve">
+    <value>Jaune d’ocre</value>
+  </data>
+  <data name="repaint/france_color_05" xml:space="preserve">
+    <value>Terre d’ombre</value>
+  </data>
+  <data name="repaint/france_color_06" xml:space="preserve">
+    <value>Vert Foncé</value>
+  </data>
+  <data name="repaint/france_color_07" xml:space="preserve">
+    <value>Gris Vert</value>
+  </data>
+  <data name="repaint/germany_base_color" xml:space="preserve">
+    <value>Немецкий базовый</value>
+  </data>
+  <data name="repaint/germany_color_01" xml:space="preserve">
+    <value>Erdgelb Nr.17</value>
+  </data>
+  <data name="repaint/germany_color_02" xml:space="preserve">
+    <value>Elfenbein</value>
+  </data>
+  <data name="repaint/germany_color_03" xml:space="preserve">
+    <value>Feldgrau Nr.3</value>
+  </data>
+  <data name="repaint/germany_color_04" xml:space="preserve">
+    <value>Dunkelgrau Nr.46</value>
+  </data>
+  <data name="repaint/germany_color_05" xml:space="preserve">
+    <value>Grün Nr.27</value>
+  </data>
+  <data name="repaint/germany_color_06" xml:space="preserve">
+    <value>Grün Nr.28</value>
+  </data>
+  <data name="repaint/germany_color_07" xml:space="preserve">
+    <value>Erdgelb Nr.22</value>
+  </data>
+  <data name="repaint/japan_base_color" xml:space="preserve">
+    <value>Японский базовый</value>
+  </data>
+  <data name="repaint/japan_color_01" xml:space="preserve">
+    <value>Khaki-iro</value>
+  </data>
+  <data name="repaint/japan_color_02" xml:space="preserve">
+    <value>Cha-iro</value>
+  </data>
+  <data name="repaint/japan_color_03" xml:space="preserve">
+    <value>Midori-iro</value>
+  </data>
+  <data name="repaint/japan_color_04" xml:space="preserve">
+    <value>Karekusa-iro</value>
+  </data>
+  <data name="repaint/japan_color_05" xml:space="preserve">
+    <value>Tochi-iro</value>
+  </data>
+  <data name="repaint/japan_color_06" xml:space="preserve">
+    <value>Kusa-iro</value>
+  </data>
+  <data name="repaint/japan_color_07" xml:space="preserve">
+    <value>Голубовато-серый</value>
+  </data>
+  <data name="repaint/primer_marmot" xml:space="preserve">
+    <value>Суриковая грунтовка</value>
+  </data>
+  <data name="repaint/sweden_base_color" xml:space="preserve">
+    <value>Шведский базовый</value>
+  </data>
+  <data name="repaint/sweden_color_01" xml:space="preserve">
+    <value>Ljusgrön 322 M</value>
+  </data>
+  <data name="repaint/sweden_color_02" xml:space="preserve">
+    <value>Сине-серый</value>
+  </data>
+  <data name="repaint/sweden_color_03" xml:space="preserve">
+    <value>Svart 093 M</value>
+  </data>
+  <data name="repaint/sweden_color_04" xml:space="preserve">
+    <value>Tan</value>
+  </data>
+  <data name="repaint/sweden_color_05" xml:space="preserve">
+    <value>Красно-коричневый</value>
+  </data>
+  <data name="repaint/sweden_color_06" xml:space="preserve">
+    <value>Brun 507 M</value>
+  </data>
+  <data name="repaint/sweden_color_07" xml:space="preserve">
+    <value>Глубоко-синий</value>
+  </data>
+  <data name="repaint/uk_base_color" xml:space="preserve">
+    <value>Британский базовый</value>
+  </data>
+  <data name="repaint/uk_color_01" xml:space="preserve">
+    <value>Colour N1A</value>
+  </data>
+  <data name="repaint/uk_color_02" xml:space="preserve">
+    <value>Colour N2</value>
+  </data>
+  <data name="repaint/uk_color_03" xml:space="preserve">
+    <value>Colour N4</value>
+  </data>
+  <data name="repaint/uk_color_04" xml:space="preserve">
+    <value>Colour N5</value>
+  </data>
+  <data name="repaint/uk_color_05" xml:space="preserve">
+    <value>Colour N7</value>
+  </data>
+  <data name="repaint/uk_color_06" xml:space="preserve">
+    <value>Colour N12</value>
+  </data>
+  <data name="repaint/uk_color_07" xml:space="preserve">
+    <value>Azure Blue</value>
+  </data>
+  <data name="repaint/usa_base_color" xml:space="preserve">
+    <value>Американский базовый</value>
+  </data>
+  <data name="repaint/usa_color_01" xml:space="preserve">
+    <value>Оливково-серый</value>
+  </data>
+  <data name="repaint/usa_color_02" xml:space="preserve">
+    <value>Светло-серый</value>
+  </data>
+  <data name="repaint/usa_color_03" xml:space="preserve">
+    <value>Светло-зелёный</value>
+  </data>
+  <data name="repaint/usa_color_04" xml:space="preserve">
+    <value>«Green 383»</value>
+  </data>
+  <data name="repaint/usa_color_05" xml:space="preserve">
+    <value>«Tan 686»</value>
+  </data>
+  <data name="repaint/usa_color_06" xml:space="preserve">
+    <value>Серый</value>
+  </data>
+  <data name="repaint/usa_color_07" xml:space="preserve">
+    <value>«Blue 85285»</value>
+  </data>
+  <data name="repaint/ussr_base_color" xml:space="preserve">
+    <value>Советский базовый</value>
+  </data>
+  <data name="repaint/ussr_color_01" xml:space="preserve">
+    <value>«4BO защитный»</value>
+  </data>
+  <data name="repaint/ussr_color_02" xml:space="preserve">
+    <value>23pn</value>
+  </data>
+  <data name="repaint/ussr_color_03" xml:space="preserve">
+    <value>«7K жёлто-красный»</value>
+  </data>
+  <data name="repaint/ussr_color_04" xml:space="preserve">
+    <value>«К защитный»</value>
+  </data>
+  <data name="repaint/ussr_color_05" xml:space="preserve">
+    <value>«6K тёмно-коричневый»</value>
+  </data>
+  <data name="repaint/ussr_color_06" xml:space="preserve">
+    <value>22lg</value>
+  </data>
+  <data name="repaint/ussr_color_07" xml:space="preserve">
+    <value>Изумрудно-зеленый</value>
+  </data>
+  <data name="season/selection/desert" xml:space="preserve">
+    <value>ПУСТЫННЫЙ</value>
+  </data>
+  <data name="season/selection/header" xml:space="preserve">
+    <value>Выбор сезона</value>
+  </data>
+  <data name="season/selection/summer" xml:space="preserve">
+    <value>ЛЕТНИЙ</value>
+  </data>
+  <data name="season/selection/winter" xml:space="preserve">
+    <value>ЗИМНИЙ</value>
+  </data>
+  <data name="switcher/name/custsomStyle" xml:space="preserve">
+    <value>СВОЙ СТИЛЬ</value>
+  </data>
+  <data name="switcher/name/defaultStyle" xml:space="preserve">
+    <value>ГОТОВЫЕ СТИЛИ</value>
+  </data>
+  <data name="window/purchase/styleHeader" xml:space="preserve">
+    <value>Добавить элементы в корзину</value>
+  </data>
+  <data name="window/purchase/tableHeader/ammount" xml:space="preserve">
+    <value>Количество</value>
   </data>
 </root>

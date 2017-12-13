@@ -1438,7 +1438,7 @@ R975 EC2</value>
     <value>Birch Gun</value>
   </data>
   <data name="GB26_Birch_Gun_descr" xml:space="preserve">
-    <value>В 1920-х годах британские инженеры предпринимали активные попытки создать САУ на танковом шасси. Разработка данной машины началась в 1923 году в Вулвичском арсенале. За основу был взят наиболее современный на тот момент танк Vickers Medium Mark II, чья ходовая могла выдержать соответствующую нагрузку. С 1926 по 1927 год было выпущено семь прототипов, которые стали частью Экспериментальных Механизированных Сил, организованных 1 мая 1927 года. В результате расформирования данного подразделения, программа развития самоходных орудий была свёрнута.</value>
+    <value>В 1920-х годах британские инженеры предпринимали активные попытки создать САУ на танковом шасси. Разработка данной машины началась в 1923 году в Вулвичском арсенале. За основу был взят наиболее современный на тот момент танк Vickers Medium Mark II, чья ходовая могла выдержать соответствующую нагрузку. С 1926 по 1927 год было выпущено семь прототипов, которые стали частью Экспериментальных Механизированных Сил, организованных 1 мая 1927 года. В результате расформирования данного подразделения программа развития самоходных орудий была свёрнута.</value>
   </data>
   <data name="GB26_Birch_Gun_short" xml:space="preserve">
     <value>Birch Gun</value>
@@ -1453,7 +1453,7 @@ R975 EC2</value>
     <value>Bishop</value>
   </data>
   <data name="GB28_Bishop_descr" xml:space="preserve">
-    <value>Разработана на шасси танка Valentine. Башня базовой машины была заменена на невращающуюся коробчатую рубку, где размещалась 25-фунтовая пушка-гаубица. Из-за малого угла возвышения орудия (15 градусов), максимальная дальность стрельбы составляла всего 5800 метров, что почти в два раза меньше максимальной дальности орудия в буксируемом варианте. Данная САУ применялась в боях в Северной Африке, на Сицилии и в Южной Италии. По разным данным, было произведено 80–100 машин.</value>
+    <value>САУ разработана на шасси танка Valentine. Башня базовой машины была заменена на невращающуюся коробчатую рубку, где размещалась 25-фунтовая гаубица. Из-за малого угла возвышения орудия (15 градусов) максимальная дальность стрельбы составляла всего 5800 метров, что почти в два раза меньше максимальной дальности орудия в буксируемом варианте. Данная САУ применялась в боях в Северной Африке, на Сицилии и в Южной Италии. По разным данным, было произведено 80–100 машин.</value>
   </data>
   <data name="GB28_Bishop_short" xml:space="preserve">
     <value>Bishop</value>
@@ -1717,7 +1717,7 @@ R975 EC2</value>
     <value>Sherman Firefly</value>
   </data>
   <data name="GB19_Sherman_Firefly_descr" xml:space="preserve">
-    <value>Британский вариант американского танка М4 Sherman. Разработан в начале 1944 года. Основные отличия заключались в установке более мощного 17-фунтового орудия, размещении радиостанции и боекомплекта, отказе от курсового пулемёта, отсутствием места для ассистента механика-водителя. Всего в 1944–1945 гг. было выпущено около 2100–2300 машин всех модификаций.</value>
+    <value>Британский вариант американского танка М4 Sherman. Разработан в начале 1944 года. Основные отличия заключались в установке более мощного 17-фунтового орудия, размещении радиостанции и боекомплекта, отказе от курсового пулемёта, отсутствии места для ассистента механика-водителя. Всего в 1944–1945 годах было выпущено около 2100–2300 машин всех модификаций.</value>
   </data>
   <data name="GB41_Challenger" xml:space="preserve">
     <value>Challenger</value>
@@ -2272,5 +2272,50 @@ AOI-1195-5</value>
   </data>
   <data name="_5_5inch_HE_Mk_1T" xml:space="preserve">
     <value>HE Mk. 1T</value>
+  </data>
+  <data name="Chassis_GB92_FV217" xml:space="preserve">
+    <value>FV217 Badger</value>
+  </data>
+  <data name="Chassis_GB93_Caernarvon_AX" xml:space="preserve">
+    <value>Caernarvon Action X</value>
+  </data>
+  <data name="GB92_FV217" xml:space="preserve">
+    <value>FV217 Badger</value>
+  </data>
+  <data name="GB92_FV217_descr" xml:space="preserve">
+    <value>Проект противотанковой самоходной установки на базе шасси танка Conqueror конца 1940-х годов. Работы были свёрнуты на этапе проектирования.</value>
+  </data>
+  <data name="GB92_FV217_short" xml:space="preserve">
+    <value>Badger</value>
+  </data>
+  <data name="GB93_Caernarvon_AX" xml:space="preserve">
+    <value>Caernarvon Action X</value>
+  </data>
+  <data name="GB93_Caernarvon_AX_descr" xml:space="preserve">
+    <value>Данный образец является дальнейшим развитием машин, разрабатывавшихся компанией English Electric в рамках программы по созданию универсального танка (FV200). Программа была свёрнута в пользу танка A41 (Centurion). Не было изготовлено ни одного экземпляра.</value>
+  </data>
+  <data name="GB93_Caernarvon_AX_short" xml:space="preserve">
+    <value>Caernarvon X</value>
+  </data>
+  <data name="Turret_1_GB92_FV217" xml:space="preserve">
+    <value>FV217 Badger</value>
+  </data>
+  <data name="Turret_1_GB93_Caernarvon_AX" xml:space="preserve">
+    <value>Caernarvon Action X</value>
+  </data>
+  <data name="_123mm_APDS_Mk_2" xml:space="preserve">
+    <value>APDS Mk. 2</value>
+  </data>
+  <data name="_123mm_AP_Mk_1" xml:space="preserve">
+    <value>AP Mk. 1</value>
+  </data>
+  <data name="_123mm_HESH_Mk_1" xml:space="preserve">
+    <value>HESH Mk. 1</value>
+  </data>
+  <data name="_123mm_OQF_Mk_1" xml:space="preserve">
+    <value>OQF 123 mm Mk. 1</value>
+  </data>
+  <data name="_183mm_L4" xml:space="preserve">
+    <value>183 mm L4</value>
   </data>
 </root>

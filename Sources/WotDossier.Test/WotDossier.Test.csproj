@@ -339,10 +339,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ejdb-csharp\Nejdb\Nejdb.csproj">
-      <Project>{A24C964C-771F-4359-8C93-4BFCBE451D8B}</Project>
-      <Name>Nejdb</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WotDossier.Applications\WotDossier.Applications.csproj">
       <Project>{be01e7c1-5ee5-4eb6-ac4d-79ecbd42b75c}</Project>
       <Name>WotDossier.Applications</Name>
@@ -508,7 +504,7 @@
   </Target>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_StartDate="2000/1/1" />
+      <UserProperties BuildVersion_DetectChanges="False" BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -747,7 +747,7 @@
     <value>«Героев Битвы»</value>
   </data>
   <data name="details/dossier/battlesCount" xml:space="preserve">
-    <value>Боёв</value>
+    <value>Проведённых боёв</value>
   </data>
   <data name="details/dossier/beasthunter" xml:space="preserve">
     <value>«Зверобой»</value>
@@ -3142,7 +3142,7 @@
     <value>Переведите золото в кредиты по выгодному курсу: %(discount)s. Тем самым вы сэкономите время на заработок кредитов и быстрее купите понравившуюся машину, дорогостоящее оборудование и т.д.</value>
   </data>
   <data name="action/full/femalePassportChangeCost" xml:space="preserve">
-    <value>Смените документы членам экипажа по новой цене в %(discount)s золота. В услугу входят смена имени, фамилии, а также фотографии вашего члена экипажа.</value>
+    <value>Смените документы членам экипажа со скидкой в %(discount)s. В услугу входят смена имени, фамилии, а также фотографии вашего члена экипажа.</value>
   </data>
   <data name="action/full/freeXPConversionDiscrecity" xml:space="preserve">
     <value>Переведите боевой опыт в свободный с большей выгодой. Свободный опыт можно использовать для исследования любой техники, модуля, или для развития умений и навыков экипажа.</value>
@@ -3190,7 +3190,7 @@
     <value>Демонтируйте сложное оборудование по сниженной цене: теперь скидка на демонтаж составляет %(discount)s. Благодаря этой акции вы сэкономите золото при смене сложного оборудования.</value>
   </data>
   <data name="action/full/passportChangeCost" xml:space="preserve">
-    <value>Смените документы членам экипажа по новой цене в %(discount)s золота. В услугу входят смена имени, фамилии, а также фотографии вашего члена экипажа.</value>
+    <value>Смените документы членам экипажа со скидкой в %(discount)s. В услугу входят смена имени, фамилии, а также фотографии вашего члена экипажа.</value>
   </data>
   <data name="action/full/premiumPacket180Cost" xml:space="preserve">
     <value>Выгодная стоимость покупки дней премиум аккаунта (или его продление) на 180 дней: %(discount)s</value>
@@ -3335,7 +3335,7 @@
 Не забывайте, что игра на Х уровне как правило довольно затратна, поэтому старайтесь поддерживать баланс кредитов всегда на должном уровне, чтобы хватало на пополнение боезапаса, снаряжения и ремонт вашей машины.</value>
   </data>
   <data name="action/hero/full/femalePassportChangeCost" xml:space="preserve">
-    <value>Смените документы членам экипажа по новой цене в %(discount)s золота. Ваш экипаж — верный помощник в бою, который заслуживает индивидуализации.
+    <value>Смените документы членам экипажа со скидкой в %(discount)s. Ваш экипаж — верный помощник в бою, который заслуживает индивидуализации.
 
 Соберите в одной машине уникальный экипаж из друзей и знакомых или известных исторических личностей. В услугу входят смена имени, фамилии, а также фотографии вашего члена экипажа.</value>
   </data>
@@ -3401,7 +3401,7 @@
 Покупка полного комплекта сложного оборудования на новую машину может быть очень затратной, поэтому есть смысл снять оборудование со старой машины, заплатив немного золота, и перекинуть его на новую. Помните, что только 3 типа оборудования можно снимать бесплатно. Это стереотруба, маскировочная сеть и ящик с инструментами.</value>
   </data>
   <data name="action/hero/full/passportChangeCost" xml:space="preserve">
-    <value>Смените документы членам экипажа по новой цене в %(discount)s золота. Ваш экипаж — верный помощник в бою, который заслуживает индивидуализации.
+    <value>Смените документы членам экипажа со скидкой в %(discount)s. Ваш экипаж — верный помощник в бою, который заслуживает индивидуализации.
 
 Соберите в одной машине уникальный экипаж из друзей и знакомых или известных исторических личностей. В услугу входят смена имени, фамилии, а также фотографии вашего члена экипажа.</value>
   </data>
@@ -5138,7 +5138,7 @@
     <value>Улучшение результата</value>
   </data>
   <data name="personalMission/status/doneWithPawn" xml:space="preserve">
-    <value>Основные условия выполнены за %(count)s</value>
+    <value>Выполнено за %(count)s</value>
   </data>
   <data name="personalMission/status/fullDone" xml:space="preserve">
     <value>Выполнено с отличием</value>
@@ -5156,7 +5156,7 @@
     <value>Нет техники</value>
   </data>
   <data name="personalMission/status/mainDone" xml:space="preserve">
-    <value>Основные условия выполнены</value>
+    <value>Выполнено</value>
   </data>
   <data name="personalMission/status/sheetRecoveryInProgress" xml:space="preserve">
     <value>Улучшение результата</value>
@@ -5304,5 +5304,191 @@
   </data>
   <data name="quest/halloween/HE17_W_PVP_5/1" xml:space="preserve">
     <value>Уничтожить указанное количество машин противника из орудия вспомогательной башни</value>
+  </data>
+  <data name="action/auto/boxbuying" xml:space="preserve">
+    <value>Каждый день в праздничном календаре новое предложение.</value>
+  </data>
+  <data name="action/auto/calendar" xml:space="preserve">
+    <value>Каждый день в праздничном календаре новое предложение.</value>
+  </data>
+  <data name="action/auto/mul_PriceGroupPrice" xml:space="preserve">
+    <value>Скидка на покупку элементов внешнего вида</value>
+  </data>
+  <data name="action/auto/mul_PriceGroupPriceAll" xml:space="preserve">
+    <value>Скидка на покупку элементов внешнего вида</value>
+  </data>
+  <data name="action/auto/mul_PriceGroupPriceByTag" xml:space="preserve">
+    <value>Скидка на покупку элементов внешнего вида</value>
+  </data>
+  <data name="action/auto/set_PriceGroupPrice" xml:space="preserve">
+    <value>Скидка на покупку элементов внешнего вида</value>
+  </data>
+  <data name="action/button/boxbuying" xml:space="preserve">
+    <value>Перейти к покупке</value>
+  </data>
+  <data name="action/button/calendar" xml:space="preserve">
+    <value>Перейти к календарю</value>
+  </data>
+  <data name="action/button/mul_PriceGroupPrice" xml:space="preserve">
+    <value>Купить элементы внешнего вида</value>
+  </data>
+  <data name="action/button/mul_PriceGroupPriceAll" xml:space="preserve">
+    <value>Купить элементы внешнего вида</value>
+  </data>
+  <data name="action/button/mul_PriceGroupPriceByTag" xml:space="preserve">
+    <value>Купить элементы внешнего вида</value>
+  </data>
+  <data name="action/button/set_PriceGroupPrice" xml:space="preserve">
+    <value>Купить элементы внешнего вида</value>
+  </data>
+  <data name="action/full/boxbuying" xml:space="preserve">
+    <value>В коробке содержится 2 случайных украшения и дополнительная награда.</value>
+  </data>
+  <data name="action/full/calendar" xml:space="preserve">
+    <value>Следуя традициям, на всём протяжении новогоднего события Праздничный календарь ежедневно предлагает специальные товары из Премиум магазина. Заходите каждый день, чтобы увидеть новое предложение, а также получить боевую задачу дня!</value>
+  </data>
+  <data name="action/hero/full/boxbuying" xml:space="preserve">
+    <value>В коробке содержится 2 случайных украшения и дополнительная награда.</value>
+  </data>
+  <data name="action/hero/full/calendar" xml:space="preserve">
+    <value>Следуя традициям, на всём протяжении новогоднего события Праздничный календарь ежедневно предлагает специальные товары из Премиум магазина. Заходите каждый день, чтобы увидеть новое предложение, а также получить боевую задачу дня!</value>
+  </data>
+  <data name="action/more/type/customizations" xml:space="preserve">
+    <value>элементов внешнего вида</value>
+  </data>
+  <data name="action/short/boxbuying" xml:space="preserve">
+    <value>Новогоднее наступление</value>
+  </data>
+  <data name="action/short/calendar" xml:space="preserve">
+    <value>Праздничный календарь</value>
+  </data>
+  <data name="action/short/mul_PriceGroupPrice" xml:space="preserve">
+    <value>Скидка до %(discount)s на покупку элементов внешнего вида</value>
+  </data>
+  <data name="action/short/mul_PriceGroupPriceAll" xml:space="preserve">
+    <value>Скидка до %(discount)s на покупку элементов внешнего вида</value>
+  </data>
+  <data name="action/short/mul_PriceGroupPriceByTag" xml:space="preserve">
+    <value>Скидка до %(discount)s на покупку элементов внешнего вида</value>
+  </data>
+  <data name="action/short/set_PriceGroupPrice" xml:space="preserve">
+    <value>Скидка до %(discount)s на покупку элементов внешнего вида</value>
+  </data>
+  <data name="bonusName/camouflage" xml:space="preserve">
+    <value>Камуфляж</value>
+  </data>
+  <data name="bonusName/decal" xml:space="preserve">
+    <value>Декаль</value>
+  </data>
+  <data name="bonusName/emblem" xml:space="preserve">
+    <value>Эмблемa</value>
+  </data>
+  <data name="bonusName/inscription" xml:space="preserve">
+    <value>Надпись</value>
+  </data>
+  <data name="bonusName/modification" xml:space="preserve">
+    <value>Эффект</value>
+  </data>
+  <data name="bonusName/paint" xml:space="preserve">
+    <value>Краска</value>
+  </data>
+  <data name="bonusName/style" xml:space="preserve">
+    <value>Стиль</value>
+  </data>
+  <data name="details/conditions/fireKills/all/not" xml:space="preserve">
+    <value>Не уничтожать противника поджогом</value>
+  </data>
+  <data name="details/conditions/multiStunEvent/not" xml:space="preserve">
+    <value>Не оглушать %(count)d+ машин противника одним выстрелом</value>
+  </data>
+  <data name="details/conditions/ramKills/all/not" xml:space="preserve">
+    <value>Не уничтожать противника тараном</value>
+  </data>
+  <data name="details/dossier/0/battlesCount" xml:space="preserve">
+    <value>Проведённых неопределённых боёв</value>
+  </data>
+  <data name="details/dossier/1/battlesCount" xml:space="preserve">
+    <value>Проведённых Случайных боёв</value>
+  </data>
+  <data name="details/dossier/13/battlesCount" xml:space="preserve">
+    <value>Проведённых боёв на Глобальной карте</value>
+  </data>
+  <data name="details/dossier/16/battlesCount" xml:space="preserve">
+    <value>Проведённых Учебных боёв</value>
+  </data>
+  <data name="details/dossier/18/battlesCount" xml:space="preserve">
+    <value>Проведённых боёв в режиме «Превосходство»</value>
+  </data>
+  <data name="details/dossier/19/battlesCount" xml:space="preserve">
+    <value>Проведённых боёв в режиме «Стальная охота»</value>
+  </data>
+  <data name="details/dossier/2/battlesCount" xml:space="preserve">
+    <value>Проведённых Тренировочных боёв</value>
+  </data>
+  <data name="details/dossier/20/battlesCount" xml:space="preserve">
+    <value>Проведённых Вылазок</value>
+  </data>
+  <data name="details/dossier/21/battlesCount" xml:space="preserve">
+    <value>Проведённых боёв при Наступлениях</value>
+  </data>
+  <data name="details/dossier/22/battlesCount" xml:space="preserve">
+    <value>Проведённых Ранговых боёв</value>
+  </data>
+  <data name="details/dossier/24/battlesCount" xml:space="preserve">
+    <value>Проведённых Генеральных сражений</value>
+  </data>
+  <data name="details/dossier/4/battlesCount" xml:space="preserve">
+    <value>Проведённых Специальных боёв</value>
+  </data>
+  <data name="details/dossier/5/battlesCount" xml:space="preserve">
+    <value>Проведённых Специальных боёв</value>
+  </data>
+  <data name="details/dossier/6/battlesCount" xml:space="preserve">
+    <value>Пройденных Боевых обучений</value>
+  </data>
+  <data name="details/dossier/7/battlesCount" xml:space="preserve">
+    <value>Проведённых Командных боёв</value>
+  </data>
+  <data name="details/dossier/9/battlesCount" xml:space="preserve">
+    <value>Проведённых боёв в особом игровом режиме</value>
+  </data>
+  <data name="missionDetails/nextPageBtn/label" xml:space="preserve">
+    <value>Следующие</value>
+  </data>
+  <data name="missionDetails/prevPageBtn/label" xml:space="preserve">
+    <value>Предыдущие</value>
+  </data>
+  <data name="token/default/aim" xml:space="preserve">
+    <value>«Снайпер»</value>
+  </data>
+  <data name="token/default/box" xml:space="preserve">
+    <value>«Ящик»</value>
+  </data>
+  <data name="token/default/fire" xml:space="preserve">
+    <value>«Поджог»</value>
+  </data>
+  <data name="token/default/folder" xml:space="preserve">
+    <value>«Устав»</value>
+  </data>
+  <data name="token/default/leaflet" xml:space="preserve">
+    <value>«Листовки»</value>
+  </data>
+  <data name="token/default/penetration" xml:space="preserve">
+    <value>«Пробитие»</value>
+  </data>
+  <data name="token/default/ricochet" xml:space="preserve">
+    <value>«Рикошет»</value>
+  </data>
+  <data name="token/default/shell" xml:space="preserve">
+    <value>«Снаряд»</value>
+  </data>
+  <data name="token/default/track" xml:space="preserve">
+    <value>«Гусеница»</value>
+  </data>
+  <data name="token/default/turret" xml:space="preserve">
+    <value>«Подрыв»</value>
+  </data>
+  <data name="token/default/wheel" xml:space="preserve">
+    <value>«Каток»</value>
   </data>
 </root>
