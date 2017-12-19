@@ -21,7 +21,7 @@ namespace WotDossier.Applications.Logic
     {
         private static readonly ILog _log = LogManager.GetLogger<ReplaysManager>();
 
-        private const string REPLAYS_CATALOG_FILE_PATH = @"Data\ReplaysCatalog.xml";
+        //private const string REPLAYS_CATALOG_FILE_PATH = @"Data\ReplaysCatalog.xml";
 
         private static readonly Guid FOLDER_DELETED = new Guid("09C12D79-65B0-49DE-A257-D7B9B411F0C3");
 
@@ -37,7 +37,7 @@ namespace WotDossier.Applications.Logic
         /// <param name="replayFolder">The replay folder.</param>
         public void SaveFolder(ReplayFolder replayFolder)
         {
-            using (StreamWriter writer = File.CreateText(Path.Combine(Environment.CurrentDirectory, REPLAYS_CATALOG_FILE_PATH)))
+            using (StreamWriter writer = File.CreateText(Path.Combine(Folder.DossierAppDataFolder, "ReplaysCatalog.xml")))
             {
                 writer.WriteLine(XmlSerializer.StoreObjectInXml(replayFolder));
                 writer.Flush();
@@ -50,7 +50,7 @@ namespace WotDossier.Applications.Logic
         /// <returns></returns>
         public List<ReplayFolder> GetFolders()
         {
-            using (StreamReader streamReader = File.OpenText(Path.Combine(Environment.CurrentDirectory, REPLAYS_CATALOG_FILE_PATH)))
+            using (StreamReader streamReader = File.OpenText(Path.Combine(Folder.DossierAppDataFolder, "ReplaysCatalog.xml")))
             {
                 string tree = streamReader.ReadToEnd();
                 return new List<ReplayFolder> {InitFolder(tree)};

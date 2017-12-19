@@ -11,7 +11,7 @@ namespace WotDossier.Domain
     {
         private static readonly object _syncObject = new object();
 
-        private static readonly string _filePath = AppConfigSettings.SettingsPath;
+        //private static readonly string _filePath = AppConfigSettings.SettingsPath;
 
         /// <summary>
         /// Reads this instance.
@@ -19,7 +19,7 @@ namespace WotDossier.Domain
         /// <returns></returns>
         public static AppSettings Get()
         {
-            var filePath = GetFilePath();
+            var filePath = AppConfigSettings.SettingsPath;
 
             if (File.Exists(filePath))
             {
@@ -40,7 +40,7 @@ namespace WotDossier.Domain
 
         public static T Get<T>() where T : class, new()
         {
-            var filePath = GetFilePath();
+            var filePath = AppConfigSettings.SettingsPath;
 
             if (File.Exists(filePath))
             {
@@ -58,14 +58,14 @@ namespace WotDossier.Domain
             return settingsDto;
         }
 
-        /// <summary>
-        /// Gets the file path.
-        /// </summary>
-        /// <returns></returns>
-        public static string GetFilePath()
-        {
-            return Environment.CurrentDirectory + _filePath;
-        }
+        ///// <summary>
+        ///// Gets the file path.
+        ///// </summary>
+        ///// <returns></returns>
+        //public static string GetFilePath()
+        //{
+        //    return Environment.CurrentDirectory + _filePath;
+        //}
 
         /// <summary>
         /// Saves the specified settings.
@@ -73,7 +73,7 @@ namespace WotDossier.Domain
         /// <param name="settings">The settings.</param>
         public static void Save(object settings)
         {
-            var filePath = GetFilePath();
+            var filePath = AppConfigSettings.SettingsPath;
 
             lock (_syncObject)
             {

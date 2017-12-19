@@ -9,6 +9,6 @@ public static class VersionInfo
     public const string Copyright = "Copyright © Rembel, McHarny 2014-2017";
     public const string Trademark = "";
 
-    public const string InformationVersion = "0.9.20.1.2";
+    public const string InformationVersion = "0.9.21.0";
 }
 

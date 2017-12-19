@@ -622,7 +622,7 @@ namespace WotDossier.Applications.ViewModel
 
         private static string ReplaysCacheFilePath()
         {
-            return Path.Combine(Folder.GetDossierAppDataFolder(), "replays.cache");
+            return Path.Combine(Folder.DossierLocalAppDataFolder, "replays.cache");
         }
 
         private IEnumerable<ReplayFile> LoadFromCache()

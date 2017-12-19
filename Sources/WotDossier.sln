@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDossier", "WotDossier\WotDossier.csproj", "{A4EF480B-49B6-42C4-8ACE-6127B15699F8}"
 EndProject
@@ -17,11 +17,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDossier.Common", "WotDossier.Common\WotDossier.Common.csproj", "{1268B707-A866-4723-89C7-2E9BD92E6AA6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDossier.Dal", "WotDossier.Dal\WotDossier.Dal.csproj", "{FC09CE1A-0C77-488D-8169-3D825D998E2C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{341DBF9B-1926-4D0F-8629-685B853A4329}"
-	ProjectSection(SolutionItems) = preProject
-		Configs\Log4Net.xml = Configs\Log4Net.xml
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDossier.Framework", "WotDossier.Framework\WotDossier.Framework.csproj", "{27B67DFE-0BF1-4435-B036-E4C083EAEA03}"
 EndProject
@@ -715,12 +710,12 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		BuildVersion_IncrementBeforeBuild = False
-		SolutionGuid = {6B36B677-423E-48BA-8D46-CBC86898B099}
-		BuildVersion_BuildVersioningStyle = None.None.None.None
-		BuildVersion_StartDate = 2000/1/1
-		BuildVersion_UpdateAssemblyVersion = False
-		BuildVersion_DetectChanges = False
 		BuildVersion_AssemblyInfoFilename = 
+		BuildVersion_DetectChanges = False
+		BuildVersion_UpdateAssemblyVersion = False
+		BuildVersion_StartDate = 2000/1/1
+		BuildVersion_BuildVersioningStyle = None.None.None.None
+		SolutionGuid = {6B36B677-423E-48BA-8D46-CBC86898B099}
+		BuildVersion_IncrementBeforeBuild = False
 	EndGlobalSection
 EndGlobal

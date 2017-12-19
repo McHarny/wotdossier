@@ -24,56 +24,64 @@ namespace WotDossier.Update.Update
 
             long version = GetCurrentDbVersion();
 
-            SQLiteConnection connection = null;
-            SQLiteTransaction transaction = null;
-
-            try
+            bool needVacuum = false;
+            foreach (var dbUpdate in updates.OrderBy(x => x.Version))
             {
-                connection = GetConnection();
-                Logger.Debug("Update. Source connection obtained");
-
-                transaction = BeginTransaction(connection);
-                Logger.Debug("Update. Dest transaction started");
-
-                bool needVacuum = false;
-                foreach (var dbUpdate in updates.OrderBy(x => x.Version))
+                if (dbUpdate.Version > version)
                 {
-                    //TODO transactions
-                    if (dbUpdate.Version > version)
-                    {
-                        dbUpdate.Execute(connection, transaction);
-                        UpdateDbVersion(dbUpdate.Version, connection, transaction);
-                        needVacuum = true;
-                    }
-                }
-
-                transaction.Commit();
-
-                if (needVacuum)
-                {
-                    var commandText = @"VACUUM";
-                    var command = new SQLiteCommand(commandText, connection);
+                    SQLiteConnection connection = null;
+                    SQLiteTransaction transaction = null;
                     try
                     {
-                        command.ExecuteNonQuery();
+                        if (!dbUpdate.NeedDatabase)
+                        {
+                            dbUpdate.Execute(connection, transaction);
+                        }
+
+                        connection = GetConnection();
+                        Logger.Debug("Update. Source connection obtained");
+
+                        transaction = BeginTransaction(connection);
+                        Logger.Debug("Update. Dest transaction started");
+
+                        if (dbUpdate.NeedDatabase)
+                            dbUpdate.Execute(connection, transaction);
+
+                        UpdateDbVersion(dbUpdate.Version, connection, transaction);
+                        needVacuum = true;
+                        transaction.Commit();
                     }
                     catch (Exception e)
                     {
+                        RollbackTransaction(transaction);
                         Logger.Error("Exception", e);
+                        throw;
+                    }
+                    finally
+                    {
+                        CloseConnection(connection);
+                        Logger.Debug("Update. Source connection closed");
                     }
                 }
             }
-            catch (Exception e)
+
+            
+
+            if (needVacuum)
             {
-                RollbackTransaction(transaction);
-                Logger.Error("Exception", e);
-                throw;
+                var commandText = @"VACUUM";
+                var connection = GetConnection();
+                var command = new SQLiteCommand(commandText, connection);
+                try
+                {
+                    command.ExecuteNonQuery();
+                }
+                catch (Exception e)
+                {
+                    Logger.Error("Exception", e);
+                }
             }
-            finally
-            {
-                CloseConnection(connection);
-                Logger.Debug("Update. Source connection closed");
-            }
+
         }
 
         private void UpdateDbVersion(long max, SQLiteConnection connection, SQLiteTransaction transaction)
@@ -109,7 +117,8 @@ namespace WotDossier.Update.Update
 
         private SQLiteConnection GetConnection()
         {
-            SQLiteConnection connection = new SQLiteConnection("Data Source=Data/dossier.s3db;Version=3;");
+            var file = Path.Combine(Folder.DossierAppDataFolder, "dossier.s3db");
+            SQLiteConnection connection = new SQLiteConnection($"Data Source={file};Version=3;");
             connection.Open();
             return connection;
         }
@@ -183,8 +192,7 @@ namespace WotDossier.Update.Update
 
         private static void InitDbFile()
         {
-            string currentDirectory = Folder.AssemblyDirectory();
-            string path = Path.Combine(currentDirectory, @"Data\dossier.s3db");
+            var path = Path.Combine(Folder.DossierAppDataFolder, "dossier.s3db");
             if (!File.Exists(path))
             {
                 Assembly entryAssembly = Assembly.GetEntryAssembly();
@@ -200,8 +208,7 @@ namespace WotDossier.Update.Update
 
         public void DeleteDatabase()
         {
-            string currentDirectory = Folder.AssemblyDirectory();
-            string path = Path.Combine(currentDirectory, @"Data\dossier.s3db");
+            var path = Path.Combine(Folder.DossierAppDataFolder, "dossier.s3db");
             if (File.Exists(path))
             {
                 File.Delete(path);

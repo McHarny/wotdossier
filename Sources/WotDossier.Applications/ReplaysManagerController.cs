@@ -57,8 +57,7 @@ namespace WotDossier.Applications
         /// </summary>
         public void InitReplaysCatalog()
         {
-            string currentDirectory = Folder.AssemblyDirectory();
-            string path = Path.Combine(currentDirectory, @"Data\ReplaysCatalog.xml");
+            string path = Path.Combine(Folder.DossierAppDataFolder, "ReplaysCatalog.xml");
             if (!File.Exists(path))
             {
                 var resourceName = Assembly.GetEntryAssembly().GetName().Name + @".Data.ReplaysCatalog.xml";

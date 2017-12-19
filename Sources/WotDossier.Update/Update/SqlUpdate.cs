@@ -8,6 +8,7 @@ namespace WotDossier.Update.Update
     {
         private readonly string _sqlScriptPath;
 
+
         public SqlUpdate(string sqlScriptPath)
         {
             _sqlScriptPath = sqlScriptPath;
@@ -15,7 +16,9 @@ namespace WotDossier.Update.Update
             Version = long.Parse(info.Name.Replace(info.Extension, string.Empty));
         }
 
-        public long Version { get; set; }
+        public bool NeedDatabase => true;
+
+        public long Version { get; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Security", "CA2100:Review SQL queries for security vulnerabilities")]
         public void Execute(SQLiteConnection sqlCeConnection, SQLiteTransaction transaction)

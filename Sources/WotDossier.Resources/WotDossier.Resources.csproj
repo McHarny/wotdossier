@@ -43,8 +43,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="JetBrains.Annotations, Version=11.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
-      <HintPath>..\packages\JetBrains.Annotations.11.0.0\lib\net20\JetBrains.Annotations.dll</HintPath>
+    <Reference Include="JetBrains.Annotations, Version=11.1.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>..\packages\JetBrains.Annotations.11.1.0\lib\net20\JetBrains.Annotations.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
@@ -959,7 +959,6 @@
     <EmbeddedResource Include="ExpectedValues\expectedValues_KTTC.json" />
     <EmbeddedResource Include="ExpectedValues\expectedValues_PR.json" />
     <EmbeddedResource Include="ExpectedValues\expectedValues_XVM.json" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Achievements\Achievements.xml" />
@@ -2395,6 +2394,15 @@
   <ItemGroup>
     <Resource Include="Vehicles\Images\Vehicle\uk-GB92_FV217.png" />
     <Resource Include="Vehicles\Images\Vehicle\uk-GB93_Caernarvon_AX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Achievements\Medals.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

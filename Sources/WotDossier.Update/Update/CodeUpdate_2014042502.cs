@@ -11,13 +11,7 @@ namespace WotDossier.Update.Update
     /// </summary>
     public class CodeUpdate_2014042502 : CodeUpdateBase
     {
-        private long _version = 2014042502;
-
-        public override long Version
-        {
-            get { return _version; }
-            set { _version = value; }
-        }
+        public override long Version => 2014042502;
 
         public override void Execute(SQLiteConnection sqlCeConnection, SQLiteTransaction transaction)
         {

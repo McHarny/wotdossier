@@ -10,6 +10,8 @@ namespace WotDossier.Update.Update
         private readonly Assembly _assembly;
         private readonly string _resourceName;
 
+        public bool NeedDatabase => true;
+
         public EmbeddedSqlUpdate(Assembly assembly, string resourceName, string extension)
         {
             _assembly = assembly;
@@ -20,7 +22,7 @@ namespace WotDossier.Update.Update
             Version = long.Parse(replace.Substring(replace.LastIndexOf(".") + 1));
         }
 
-        public long Version { get; set; }
+        public long Version { get; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Security", "CA2100:Review SQL queries for security vulnerabilities")]
         public void Execute(SQLiteConnection sqlCeConnection, SQLiteTransaction transaction)

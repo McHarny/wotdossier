@@ -23,13 +23,14 @@ namespace WotDossier.Domain
         private static readonly object _syncObject = new object();
         
         public static readonly Version VersionAll = new Version("100.0.0.0");
-        public static readonly Version VersionRelease = new Version("0.9.20.1");
-        public static readonly Version VersionTest = new Version("0.9.21.0");
+        public static readonly Version VersionRelease = new Version("0.9.21.0");
+        public static readonly Version VersionTest = new Version("0.9.21.1");
 
         private static readonly List<Version> _versions = new List<Version>
         {
                 VersionRelease,
-				new Version("0.9.20.0"),
+                new Version("0.9.20.1"),
+                new Version("0.9.20.0"),
 				new Version("0.9.19.0"),
                 new Version("0.9.18.0"),
                 new Version("0.9.17.0"),
@@ -619,7 +620,7 @@ namespace WotDossier.Domain
         /// <returns></returns>
         public static Dictionary<int, Medal> ReadMedals()
         {
-            var doc = XDocument.Load(File.OpenRead(Path.Combine(Environment.CurrentDirectory, @"Data\Medals.xml")));
+            var doc = XDocument.Load(typeof(ImageCache).Assembly.GetManifestResourceStream($"{typeof(ImageCache).Namespace}.Achievements.Medals.xml"));
 
             //XmlNodeList nodes = doc.SelectNodes("Medals/node()/medal");
 

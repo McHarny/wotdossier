@@ -4,7 +4,8 @@ namespace WotDossier.Update.Update
 {
     public interface IDbUpdate
     {
-        long Version { get; set; }
+        bool NeedDatabase { get; }
+        long Version { get; }
         void Execute(SQLiteConnection sqlCeConnection, SQLiteTransaction transaction);
     }
 }

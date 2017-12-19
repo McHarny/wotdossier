@@ -4,7 +4,9 @@ namespace WotDossier.Update.Update
 {
     public abstract class CodeUpdateBase : IDbUpdate
     {
-        public abstract long Version { get; set; }
+        public virtual bool NeedDatabase => true;
+
+        public abstract long Version { get; }
 
         public abstract void Execute(SQLiteConnection sqlCeConnection, SQLiteTransaction transaction);
     }

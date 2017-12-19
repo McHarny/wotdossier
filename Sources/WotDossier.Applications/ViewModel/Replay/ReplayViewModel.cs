@@ -441,7 +441,7 @@ namespace WotDossier.Applications.ViewModel.Replay
                 int premiumCreditsPenalty = (int)Math.Round(creditsPenalty * premiumFactor, 0);
 
                 Crystal = replay.datablock_battle_result.personal.crystal;
-				EligibleForCrystalRewards = replay.datablock_battle_result.avatar.eligibleForCrystalRewards;
+				EligibleForCrystalRewards = replay.datablock_battle_result.avatar.eligibleForCrystalRewards || replay.datablock_battle_result.personal.eventCrystal > 0;
 
 				PiercingsReceived = replay.datablock_battle_result.personal.piercedReceived;
                 NoDamageDirectHitsReceived = replay.datablock_battle_result.personal.noDamageShotsReceived;

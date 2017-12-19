@@ -7,6 +7,7 @@ using System.Windows.Data;
 using System.Windows.Media.Imaging;
 using Common.Logging;
 using WotDossier.Applications.Model;
+using WotDossier.Domain;
 
 namespace WotDossier.Converters
 {
@@ -49,8 +50,8 @@ namespace WotDossier.Converters
             {
                 string fileName = clan.Abbreviation.Replace("[", string.Empty).Replace("]", string.Empty);
 
-                string dir = Environment.CurrentDirectory + @"\IconsCache\";
-                string path = dir + fileName + ".png";
+                string dir =  Path.Combine(Folder.DossierLocalAppDataFolder, "IconsCache");
+                string path = Path.Combine(dir, fileName + ".png");
                 if (!File.Exists(path))
                 {
                     try

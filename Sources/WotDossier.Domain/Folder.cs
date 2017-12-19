@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 
@@ -23,22 +24,50 @@ namespace WotDossier.Domain
             return dossierCacheFolder;
         }
 
-        public static string GetDossierAppDataFolder()
+        public static string DossierLocalAppDataFolder
         {
-            string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-            string dossierCacheFolder = appDataPath + @"\WotDossier";
-            if (!Directory.Exists(dossierCacheFolder))
+            get
             {
-                try
+                var dossierCacheFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "WotDossier");
+                if (Debugger.IsAttached)
+                    dossierCacheFolder =
+                        Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                            "WotDossier-Debug");
+                if (!Directory.Exists(dossierCacheFolder))
                 {
-                    Directory.CreateDirectory(dossierCacheFolder);
+                    try
+                    {
+                        Directory.CreateDirectory(dossierCacheFolder);
+                    }
+                    catch (Exception e)
+                    {
+                    }
                 }
-                catch (Exception e)
-                {
-                    
-                }
+                return dossierCacheFolder;
             }
-            return dossierCacheFolder;
+        }
+
+        public static string DossierAppDataFolder
+        {
+            get
+            {
+                var dossierCacheFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "WotDossier");
+                if (Debugger.IsAttached)
+                    dossierCacheFolder =
+                        Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
+                            "WotDossier-Debug");
+                if (!Directory.Exists(dossierCacheFolder))
+                {
+                    try
+                    {
+                        Directory.CreateDirectory(dossierCacheFolder);
+                    }
+                    catch (Exception e)
+                    {
+                    }
+                }
+                return dossierCacheFolder;
+            }
         }
 
         public static string AssemblyDirectory()

@@ -523,7 +523,7 @@ namespace WotDossier.Dal
 
         public List<FavoritePlayerEntity> GetFavoritePlayers()
         {
-            string path = Path.Combine(Folder.GetDossierAppDataFolder(), "favorite_players");
+            string path = Path.Combine(Folder.DossierAppDataFolder, "favorite_players");
             if (File.Exists(path))
             {
                 var content = File.ReadAllText(path);
@@ -541,7 +541,7 @@ namespace WotDossier.Dal
 
         public void SetFavoritePlayers(List<FavoritePlayerEntity> players)
         {
-            string path = Path.Combine(Folder.GetDossierAppDataFolder(), "favorite_players");
+            string path = Path.Combine(Folder.DossierAppDataFolder, "favorite_players");
             try
             {
                 File.WriteAllText(path, JsonConvert.SerializeObject(players));

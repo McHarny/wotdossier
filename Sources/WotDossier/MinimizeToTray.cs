@@ -15,6 +15,7 @@ namespace WotDossier
     public static class MinimizeToTray
     {
 
+
         /// <summary>
         /// Enables "minimize to tray" behavior for the specified Window.
         /// </summary>

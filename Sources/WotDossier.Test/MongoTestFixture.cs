@@ -6,7 +6,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using LiaSoft.Jeff.DataAccess;
-using LiteDB;
 //using Nejdb;
 //using Nejdb.Bson;
 using NUnit.Framework;
@@ -24,7 +23,7 @@ namespace WotDossier.Test
 		[Test]
 		public void ConnectionText()
 		{
-			var dsFile = Path.Combine(Environment.CurrentDirectory, $@"Data\dossier.s3db");
+		    var dsFile = Path.Combine(Folder.DossierAppDataFolder, "dossier.s3db");
 			var dsContext = new JeffDbContext(ProviderType.SQLite, $@"Data Source=""{dsFile}""");
 
 

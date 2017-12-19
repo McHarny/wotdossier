@@ -48,25 +48,31 @@ namespace WotDossier
         /// <param name="e">A <see cref="T:System.Windows.StartupEventArgs" /> that contains the event data.</param>
         protected override void OnStartup(StartupEventArgs e)
         {
-            /*App config appSettings section encrypt\decrypt*/
-            //string appName = "WotDossier.exe";
-            //System.Configuration.Configuration config = ConfigurationManager.OpenExeConfiguration(appName);
-            //AppSettingsSection section = config.GetSection("appSettings") as AppSettingsSection;
-            //if (section.SectionInformation.IsProtected)
-            //{
-            //    section.SectionInformation.UnprotectSection();
-            //}
-            //else
-            //{
-            //    section.SectionInformation.ProtectSection("DataProtectionConfigurationProvider");
-            //}
-            //config.Save();
+            if (File.Exists(Path.Combine(Folder.AssemblyDirectory(), @"Data\dossier.s3db")))
+            {
+                new CodeUpdate_2017121701().Execute(null, null);
+            }
 
-            //set app lang
-            CultureHelper.SetUiCulture(SettingsReader.Get().Language);
+
+            /*App config appSettings section encrypt\decrypt*/
+                //string appName = "WotDossier.exe";
+                //System.Configuration.Configuration config = ConfigurationManager.OpenExeConfiguration(appName);
+                //AppSettingsSection section = config.GetSection("appSettings") as AppSettingsSection;
+                //if (section.SectionInformation.IsProtected)
+                //{
+                //    section.SectionInformation.UnprotectSection();
+                //}
+                //else
+                //{
+                //    section.SectionInformation.ProtectSection("DataProtectionConfigurationProvider");
+                //}
+                //config.Save();
+
+                //set app lang
+                CultureHelper.SetUiCulture(SettingsReader.Get().Language);
 
             //TODO: Remove, hard hack
-            RestoreDlls(new [] { "OxyPlot.dll", "OxyPlot.Wpf.dll" });
+            //RestoreDlls(new [] { "OxyPlot.dll", "OxyPlot.Wpf.dll" });
 
             bool isNewInstance;
             _mutex = new Mutex(true, INSTANCE_ID, out isNewInstance);

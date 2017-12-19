@@ -631,9 +631,9 @@ namespace WotDossier.Test
 		    }
 		    resultDoc.Save(Path.Combine(path, "Maps.xml"));
 			if(Directory.Exists(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\map\stats")))
-				DirectoryCopy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\map\stats"), Path.Combine(path, @"Images\Stats"), false, "*.png");
+			    DirectoryExtensions.Copy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\map\stats"), Path.Combine(path, @"Images\Stats"), false, "*.png");
 		    if (Directory.Exists(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\map\small")))
-			    DirectoryCopy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\map\small"), Path.Combine(path, @"Images\Stats"), false, "*.png");
+		        DirectoryExtensions.Copy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\map\small"), Path.Combine(path, @"Images\Stats"), false, "*.png");
 
 		}
 
@@ -846,7 +846,7 @@ namespace WotDossier.Test
 		    }
 		    resultDoc.Save(Path.Combine(path, "Shells.xml"));
 
-		    DirectoryCopy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\shell"), Path.Combine(path, @"Images\Shell"), false, "*.png");
+	        DirectoryExtensions.Copy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\shell"), Path.Combine(path, @"Images\Shell"), false, "*.png");
 			
 	    }
 
@@ -919,7 +919,7 @@ namespace WotDossier.Test
 
 			optDoc.Save(Path.Combine(path, "OptionalDevices.xml"));
 
-			DirectoryCopy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\artefact"), Path.Combine(path, @"Images\Artefact"), false, "*.png");
+		    DirectoryExtensions.Copy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\artefact"), Path.Combine(path, @"Images\Artefact"), false, "*.png");
 		}
 
 		public void ImportAchievementsXml(ClientInfo client)
@@ -948,7 +948,7 @@ namespace WotDossier.Test
 		    equDoc.Save(Path.Combine(path, "Achievements.xml"));
 		    File.WriteAllText(Path.Combine(path, "achievements.json"), json);
 
-            DirectoryCopy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\achievement"), Path.Combine(path, @"Images\Achievement"), false, "*.png");
+		    DirectoryExtensions.Copy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\achievement"), Path.Combine(path, @"Images\Achievement"), false, "*.png");
 			
 		}
 
@@ -1134,7 +1134,7 @@ namespace WotDossier.Test
 			    else
 			    {
 				    string filepath = Path.Combine(client.ClientPath, @"res\scripts");
-				    DirectoryCopy(filepath, scriptsPath, true);
+			        DirectoryExtensions.Copy(filepath, scriptsPath, true);
 			    }
 			}
 		}
@@ -1154,10 +1154,10 @@ namespace WotDossier.Test
 			    File.Copy(Path.Combine(client.ClientPath, "paths.xml"), Path.Combine(destination, "paths.xml"));
 
 				if(Directory.Exists(Path.Combine(client.ClientPath, "res_bw")))
-					DirectoryCopy(Path.Combine(client.ClientPath, "res_bw"), Path.Combine(destination, "res_bw"), true);
+				    DirectoryExtensions.Copy(Path.Combine(client.ClientPath, "res_bw"), Path.Combine(destination, "res_bw"), true);
 
 			    if (Directory.Exists(Path.Combine(client.ClientPath, "res")))
-				    DirectoryCopy(Path.Combine(client.ClientPath, "res"), Path.Combine(destination, "res"), false, "*.xml");
+			        DirectoryExtensions.Copy(Path.Combine(client.ClientPath, "res"), Path.Combine(destination, "res"), false, "*.xml");
 
 				if (client.PackedScripts)
 			    {
@@ -1170,7 +1170,7 @@ namespace WotDossier.Test
 			    else
 			    {
 				    string filepath = Path.Combine(client.ClientPath, @"res\scripts");
-				    DirectoryCopy(filepath, scriptsPath, true);
+			        DirectoryExtensions.Copy(filepath, scriptsPath, true);
 			    }
 		    }
 	    }
@@ -1235,43 +1235,7 @@ namespace WotDossier.Test
 
 		
 
-        private static void DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs, string filemask = "*.*", bool overwrite = true)
-        {
-            // Get the subdirectories for the specified directory.
-            DirectoryInfo dir = new DirectoryInfo(sourceDirName);
-            DirectoryInfo[] dirs = dir.GetDirectories();
-
-            if (!dir.Exists)
-            {
-                throw new DirectoryNotFoundException(
-                    "Source directory does not exist or could not be found: "
-                    + sourceDirName);
-            }
-
-            // If the destination directory doesn't exist, create it. 
-            if (!Directory.Exists(destDirName))
-            {
-                Directory.CreateDirectory(destDirName);
-            }
-
-            // Get the files in the directory and copy them to the new location.
-            FileInfo[] files = dir.GetFiles(filemask);
-            foreach (FileInfo file in files)
-            {
-                string temppath = Path.Combine(destDirName, file.Name);
-                file.CopyTo(temppath, overwrite);
-            }
-
-            // If copying subdirectories, copy them and their contents to new location. 
-            if (copySubDirs)
-            {
-                foreach (DirectoryInfo subdir in dirs)
-                {
-                    string temppath = Path.Combine(destDirName, CultureInfo.CurrentCulture.TextInfo.ToTitleCase(subdir.Name));
-                    DirectoryCopy(subdir.FullName, temppath, true, filemask, overwrite);
-                }
-            }
-        }
+        
 
 		[Test]
 	    public static void ProcessExpectedValues()

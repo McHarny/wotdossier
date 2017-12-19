@@ -14,17 +14,11 @@ namespace WotDossier.Update.Update
     {
         private static readonly ILog _log = LogManager.GetLogger<CodeUpdate_2015071301>();
 
-        private long _version = 2015071301;
-
-        public override long Version
-        {
-            get { return _version; }
-            set { _version = value; }
-        }
+        public override long Version => 2015071301;
 
         public override void Execute(SQLiteConnection sqlCeConnection, SQLiteTransaction transaction)
         {
-            var path = Path.Combine(Folder.GetDossierAppDataFolder(), "replays.cache");
+            var path = Path.Combine(Folder.DossierLocalAppDataFolder, "replays.cache");
             if (File.Exists(path))
             {
                 try

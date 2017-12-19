@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Dynamic;
 using System.IO;
 using System.Linq;
@@ -124,15 +125,15 @@ namespace WotDossier.Applications.Parser
             }
             _log.Trace("End replay stream read");
 
-            var settings = new JsonSerializerSettings
+            if (Debugger.IsAttached)
             {
-                Formatting = Formatting.Indented,
-            };
-            settings.Converters.Add(new MyConverter());
-            File.WriteAllText($"Logs\\{ProcessedVersion}.Packets.json", JsonConvert.SerializeObject(pcList, settings));
-
-
-
+                var settings = new JsonSerializerSettings
+                {
+                    Formatting = Formatting.Indented,
+                };
+                settings.Converters.Add(new MyConverter());
+                File.WriteAllText($"Logs\\{ProcessedVersion}.Packets.json", JsonConvert.SerializeObject(pcList, settings));
+            }
         }
 
         public void Abort()

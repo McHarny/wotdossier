@@ -94,6 +94,12 @@
         "Entry"
         {
         "MsmKey" = "8:_118FD7189C476B2DA8CF59140BA7C56C"
+        "OwnerKey" = "8:_39F1C021ADF2437B9A2CB3022A24378D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_118FD7189C476B2DA8CF59140BA7C56C"
         "OwnerKey" = "8:_70CD349A04FF4DE49E6494F7513C4EDD"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -106,7 +112,7 @@
         "Entry"
         {
         "MsmKey" = "8:_118FD7189C476B2DA8CF59140BA7C56C"
-        "OwnerKey" = "8:_39F1C021ADF2437B9A2CB3022A24378D"
+        "OwnerKey" = "8:_775ED0FE35EFD25D95C7067CBE5B1F3E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -340,19 +346,13 @@
         "Entry"
         {
         "MsmKey" = "8:_775ED0FE35EFD25D95C7067CBE5B1F3E"
-        "OwnerKey" = "8:_70CD349A04FF4DE49E6494F7513C4EDD"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_775ED0FE35EFD25D95C7067CBE5B1F3E"
-        "OwnerKey" = "8:_6AB7F7724AD84D8DA00FD819F5959827"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_775ED0FE35EFD25D95C7067CBE5B1F3E"
         "OwnerKey" = "8:_39F1C021ADF2437B9A2CB3022A24378D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_775ED0FE35EFD25D95C7067CBE5B1F3E"
+        "OwnerKey" = "8:_70CD349A04FF4DE49E6494F7513C4EDD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -383,6 +383,12 @@
         {
         "MsmKey" = "8:_775ED0FE35EFD25D95C7067CBE5B1F3E"
         "OwnerKey" = "8:_28AF7EE563A520448F04AC7E3FD09425"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_775ED0FE35EFD25D95C7067CBE5B1F3E"
+        "OwnerKey" = "8:_6AB7F7724AD84D8DA00FD819F5959827"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -466,6 +472,12 @@
         "Entry"
         {
         "MsmKey" = "8:_86340EF7ACD075DCBF42284E5AEB1804"
+        "OwnerKey" = "8:_39F1C021ADF2437B9A2CB3022A24378D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_86340EF7ACD075DCBF42284E5AEB1804"
         "OwnerKey" = "8:_70CD349A04FF4DE49E6494F7513C4EDD"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -473,12 +485,6 @@
         {
         "MsmKey" = "8:_86340EF7ACD075DCBF42284E5AEB1804"
         "OwnerKey" = "8:_6AB7F7724AD84D8DA00FD819F5959827"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_86340EF7ACD075DCBF42284E5AEB1804"
-        "OwnerKey" = "8:_39F1C021ADF2437B9A2CB3022A24378D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -502,6 +508,12 @@
         "Entry"
         {
         "MsmKey" = "8:_882FAE22B7D152F5A4280C908B2A5345"
+        "OwnerKey" = "8:_39F1C021ADF2437B9A2CB3022A24378D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_882FAE22B7D152F5A4280C908B2A5345"
         "OwnerKey" = "8:_70CD349A04FF4DE49E6494F7513C4EDD"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -509,12 +521,6 @@
         {
         "MsmKey" = "8:_882FAE22B7D152F5A4280C908B2A5345"
         "OwnerKey" = "8:_6AB7F7724AD84D8DA00FD819F5959827"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_882FAE22B7D152F5A4280C908B2A5345"
-        "OwnerKey" = "8:_39F1C021ADF2437B9A2CB3022A24378D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -581,12 +587,6 @@
         {
         "MsmKey" = "8:_C5C465FE8D27FE2969C1EEBF86816715"
         "OwnerKey" = "8:_86340EF7ACD075DCBF42284E5AEB1804"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C5C465FE8D27FE2969C1EEBF86816715"
-        "OwnerKey" = "8:_775ED0FE35EFD25D95C7067CBE5B1F3E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -838,10 +838,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.2"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    "Name" = "8:Microsoft .NET Framework 4.6.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.2"
                     }
                 }
             }
@@ -913,11 +913,6 @@
             "AssemblyAsmDisplayName" = "8:OxyPlot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=638079a8f0bd61e9, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_0243DDDF1EE77C47211B5C78B38909E5"
-                    {
-                    "Name" = "8:OxyPlot.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:OxyPlot.dll"
             "TargetName" = "8:"
@@ -944,11 +939,6 @@
             "AssemblyAsmDisplayName" = "8:OxyPlot.Wpf, Version=1.0.0.0, Culture=neutral, PublicKeyToken=75e952ba404cdbb0, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_03701195DFEE74DE683B43F7C7C76D92"
-                    {
-                    "Name" = "8:OxyPlot.Wpf.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:OxyPlot.Wpf.dll"
             "TargetName" = "8:"
@@ -1127,7 +1117,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WotDossier.Applications, Version=4.17.1109.5, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:WotDossier.Applications, Version=4.2017.1218.12, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_28AF7EE563A520448F04AC7E3FD09425"
@@ -1189,7 +1179,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WotDossier.Domain, Version=4.17.1109.8, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:WotDossier.Domain, Version=4.2017.1218.30, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_3A54C202482D821287333AF10ED593A2"
@@ -1254,11 +1244,6 @@
             "AssemblyAsmDisplayName" = "8:System.Data.SQLite.Linq, Version=1.0.105.2, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_50BBC1B8D36CF4CD162E96E4996FFD05"
-                    {
-                    "Name" = "8:System.Data.SQLite.Linq.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Data.SQLite.Linq.dll"
             "TargetName" = "8:"
@@ -1282,7 +1267,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WotDossier.Resources, Version=4.17.1109.8, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:WotDossier.Resources, Version=4.2017.1218.30, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_53E37AB5F543E5BF68D89391728E481E"
@@ -1344,7 +1329,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WotDossier.Dal, Version=4.17.1109.6, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:WotDossier.Dal, Version=4.2017.1217.26, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_653C377F56E2804F9FE547D51564B27C"
@@ -1437,7 +1422,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WotDossier.Common, Version=4.17.1109.8, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:WotDossier.Common, Version=4.2017.1217.29, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_775ED0FE35EFD25D95C7067CBE5B1F3E"
@@ -1468,7 +1453,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WotDossier.Framework, Version=4.17.1109.8, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:WotDossier.Framework, Version=4.2017.1218.30, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_7874C178D6BF6F24E5D6D7780CEADFC0"
@@ -1502,11 +1487,6 @@
             "AssemblyAsmDisplayName" = "8:System.Data.SQLite, Version=1.0.105.2, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_7A6A2C99D94B373CBA048FA14858D77B"
-                    {
-                    "Name" = "8:System.Data.SQLite.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Data.SQLite.dll"
             "TargetName" = "8:"
@@ -1533,11 +1513,6 @@
             "AssemblyAsmDisplayName" = "8:SimpleInjector, Version=4.0.11.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_7D5B7AC30865EED4C2944A7344B58415"
-                    {
-                    "Name" = "8:SimpleInjector.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:SimpleInjector.dll"
             "TargetName" = "8:"
@@ -1623,7 +1598,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WotDossier.Update, Version=4.17.1109.8, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:WotDossier.Update, Version=4.2017.1218.30, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_873E5A4EA9EC96CBEAE08924D6485D5A"
@@ -1719,11 +1694,6 @@
             "AssemblyAsmDisplayName" = "8:JetBrains.Annotations, Version=11.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_ABA5C1F2C0BBC87F26D092434B3F793E"
-                    {
-                    "Name" = "8:JetBrains.Annotations.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:JetBrains.Annotations.dll"
             "TargetName" = "8:"
@@ -1934,15 +1904,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:WotDossier"
-        "ProductCode" = "8:{396FA2D5-5B34-4A1A-A904-619D0301C197}"
-        "PackageCode" = "8:{C391A885-6E4B-4459-9F71-5EAD9D044C3D}"
+        "ProductCode" = "8:{ED7DF97E-8A5D-4CDC-B4B2-F09CB741F56C}"
+        "PackageCode" = "8:{E145A0E0-09C0-46CD-9403-FC6731C31CAC}"
         "UpgradeCode" = "8:{4ED797BC-8DC9-44CB-B97E-3E9176D4C7C6}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:4.17.1109"
+        "ProductVersion" = "8:4.17.1218"
         "Manufacturer" = "8:McHarny"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

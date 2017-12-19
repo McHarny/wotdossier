@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Configuration;
 using System.Globalization;
+using System.IO;
 
 namespace WotDossier.Domain
 {
@@ -45,7 +46,7 @@ namespace WotDossier.Domain
         /// </value>
         public static string SettingsPath
         {
-            get { return ConfigurationManager.AppSettings["settings-path"] ?? @"\app.settings"; }
+            get { return ConfigurationManager.AppSettings["settings-path"] ?? Path.Combine(Folder.DossierAppDataFolder, "app.settings"); }
         }
 
         /// <summary>

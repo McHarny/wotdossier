@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
+using System.Data.SQLite;
 using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
@@ -9,6 +11,7 @@ using Common.Logging;
 using FluentNHibernate.Cfg;
 using NHibernate;
 using NHibernate.Cfg;
+using WotDossier.Domain;
 using WotDossier.Domain.Entities;
 
 namespace WotDossier.Dal.NHibernate
@@ -90,7 +93,12 @@ namespace WotDossier.Dal.NHibernate
                         var fluentMappings = InitFluentMappings(configuration);
                         var cfg = fluentMappings.BuildConfiguration();
                         cfg.SetInterceptor(new AuditInterceptor());
+
+                        var file = Path.Combine(Folder.DossierAppDataFolder, "dossier.s3db");
+                        cfg.SetProperty("connection.connection_string", $"Data Source={file};Version=3;New=True;BinaryGuid=False");
+
                         _factory = cfg.BuildSessionFactory();
+                        
                     }
                 }
                 return _factory;
