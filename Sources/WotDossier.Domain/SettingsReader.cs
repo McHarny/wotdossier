@@ -7,7 +7,7 @@ using WotDossier.Common;
 
 namespace WotDossier.Domain
 {
-    public static class SettingsReader
+    public static class SettingsReader111
     {
         private static readonly object _syncObject = new object();
 
@@ -83,7 +83,7 @@ namespace WotDossier.Domain
             {
                 return JsonConvert.DeserializeObject<T>(serializedObject);
             }
-            catch (Exception e)
+            catch
             {
                 return XmlSerializer.LoadObjectFromXml<T>(serializedObject);
             }

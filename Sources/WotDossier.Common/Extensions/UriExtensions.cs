@@ -21,7 +21,7 @@ namespace WotDossier.Common.Extensions
                 request.Method = "DELETE";
                 request.GetResponse();
             }
-            catch (Exception e)
+            catch
             {
                 
             }

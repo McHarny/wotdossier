@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
+using Newtonsoft.Json;
+using WotDossier.Common;
 using WotDossier.Domain.Settings;
 
 namespace WotDossier.Domain
@@ -20,8 +22,7 @@ namespace WotDossier.Domain
             {
                 lock (_syncObject)
                 {
-                    if (instance != null) return instance;
-                    instance = 
+                    return instance ?? (instance = Read());
                 }
             }
         }
@@ -36,18 +37,26 @@ namespace WotDossier.Domain
 
             if (File.Exists(filePath))
             {
-                lock (_syncObject)
+                var readToEnd = File.ReadAllText(filePath);
+                if (!string.IsNullOrEmpty(readToEnd))
                 {
-                    var readToEnd = File.ReadAllText(filePath);
-                    if (!string.IsNullOrEmpty(readToEnd))
-                        return Deserialize<AppSettings>(readToEnd);
+                    try
+                    {
+                        return JsonConvert.DeserializeObject<AppSettings>(readToEnd);
+                    }
+                    catch
+                    {
+                        return XmlSerializer.LoadObjectFromXml<AppSettings>(readToEnd);
+                    }
                 }
             }
 
             //create settings file if not exists
-            AppSettings settingsDto = new AppSettings();
-            settingsDto.DossierCachePath = Folder.GetDefaultDossierCacheFolder();
-            Save(settingsDto);
+            AppSettings settingsDto = new AppSettings
+            {
+                DossierCachePath = Folder.GetDefaultDossierCacheFolder()
+            };
+            settingsDto.Save();
             return settingsDto;
         }
 
@@ -55,13 +64,13 @@ namespace WotDossier.Domain
         /// Saves the specified settings.
         /// </summary>
         /// <param name="settings">The settings.</param>
-        public static void Save(object settings)
+        public void Save()
         {
             var filePath = AppConfigSettings.SettingsPath;
 
             lock (_syncObject)
             {
-                File.WriteAllText(filePath, Serialize(settings));
+                File.WriteAllText(filePath, JsonConvert.SerializeObject(Instance, Formatting.Indented));
             }
         }
 
@@ -147,19 +156,7 @@ namespace WotDossier.Domain
 
         public bool UseIncompleteReplaysResultsForCharts { get; set; } = false;
 
-        private List<ReplayPlayer> _replayPlayers;
-        public List<ReplayPlayer> ReplayPlayers
-        {
-            get
-            {
-                if (_replayPlayers == null)
-                {
-                    _replayPlayers = new List<ReplayPlayer>();
-                }
-                return _replayPlayers ;
-            }
-            set { _replayPlayers = value; }
-        }
+        public List<ReplayPlayer> ReplayPlayers { get; set; } = new List<ReplayPlayer>();
 
         public string ExternalDataVersion { get; set; }
 
