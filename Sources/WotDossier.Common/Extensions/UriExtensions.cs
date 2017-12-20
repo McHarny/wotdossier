@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Globalization;
 using System.IO;
+using System.IO.Compression;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -30,11 +32,27 @@ namespace WotDossier.Common.Extensions
             //client.BaseAddress = uri;
             Client.DefaultRequestHeaders.Accept.Clear();
             Client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            Client.DefaultRequestHeaders.AcceptEncoding.Add(new StringWithQualityHeaderValue("gzip"));
             T result = default(T);
             HttpResponseMessage response = Client.GetAsync(uri).Result;
             if (response.IsSuccessStatusCode)
             {
-                result = response.Content.ReadAsAsync<T>().Result;
+                //if (response.Content.Headers.ContentEncoding.Any(x => x == "gzip"))
+                //{
+                //    // Decompress manually
+                //    using (var s = response.Content.ReadAsStreamAsync())
+                //    {
+                //        using (var decompressed = new GZipStream(s, CompressionMode.Decompress))
+                //        {
+                //            using (var rdr = new StreamReader(decompressed))
+                //            {
+                //                return rdr.ReadToEndAsync();
+                //            }
+                //        }
+                //    }
+                //}
+                //else
+                    result = response.Content.ReadAsAsync<T>().Result;
             }
             return result;
         }

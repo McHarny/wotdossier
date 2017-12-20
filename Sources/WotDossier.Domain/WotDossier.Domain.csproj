@@ -189,6 +189,7 @@
     <Compile Include="Settings\AppSettings.cs" />
     <Compile Include="Settings\AppSettingsBase.cs" />
     <Compile Include="Settings\DossierTheme.cs" />
+    <Compile Include="Settings\ExternalFiles.cs" />
     <Compile Include="Settings\PeriodSettings.cs" />
     <Compile Include="Settings\ReplayPlayer.cs" />
     <Compile Include="Settings\StatisticPeriod.cs" />
@@ -248,7 +249,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" BuildVersion_DetectChanges="False" />
+      <UserProperties BuildVersion_DetectChanges="False" BuildVersion_StartDate="2000/1/1" BuildVersion_UseGlobalSettings="True" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

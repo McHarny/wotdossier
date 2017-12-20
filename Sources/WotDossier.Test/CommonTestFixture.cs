@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Reflection;
 using System.Resources;
 using System.Text;
@@ -1459,6 +1460,18 @@ namespace WotDossier.Test
             var appSettings = SettingsReader.Get();
             WotApiClient.Instance.GetClanMemberInfo(3016489, appSettings);
         }
+
+
+        [Test]
+        public void TestQuery()
+        {
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://tanks.noobmeter.com/tankList");
+            request.Method = "HEAD"; // Important - Not interested in file contents
+
+            HttpWebResponse resp = (HttpWebResponse)request.GetResponse();
+        }
+
+
 /*
         [Test]
         public void GenMapsImagesWithBases()

@@ -58,15 +58,6 @@ namespace WotDossier.Domain
             return settingsDto;
         }
 
-        ///// <summary>
-        ///// Gets the file path.
-        ///// </summary>
-        ///// <returns></returns>
-        //public static string GetFilePath()
-        //{
-        //    return Environment.CurrentDirectory + _filePath;
-        //}
-
         /// <summary>
         /// Saves the specified settings.
         /// </summary>

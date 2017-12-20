@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
 using WotDossier.Domain.Settings;
 
 namespace WotDossier.Domain
@@ -10,11 +11,59 @@ namespace WotDossier.Domain
     /// </summary>
     public class AppSettings : AppSettingsBase
     {
-        private string _replaysUploadServerPath = "http://wotreplays.ru/site/upload";
-        private bool _checkForUpdates = true;
+        private static AppSettings instance = null;
+        private static readonly object _syncObject = new object();
 
-        private TankFilterSettings _tankFilterSettings = new TankFilterSettings();
-        private PeriodSettings _periodSettings = new PeriodSettings();
+        public static  AppSettings Instance
+        {
+            get
+            {
+                lock (_syncObject)
+                {
+                    if (instance != null) return instance;
+                    instance = 
+                }
+            }
+        }
+
+        /// <summary>
+        /// Reads this instance.
+        /// </summary>
+        /// <returns></returns>
+        private static AppSettings Read()
+        {
+            var filePath = AppConfigSettings.SettingsPath;
+
+            if (File.Exists(filePath))
+            {
+                lock (_syncObject)
+                {
+                    var readToEnd = File.ReadAllText(filePath);
+                    if (!string.IsNullOrEmpty(readToEnd))
+                        return Deserialize<AppSettings>(readToEnd);
+                }
+            }
+
+            //create settings file if not exists
+            AppSettings settingsDto = new AppSettings();
+            settingsDto.DossierCachePath = Folder.GetDefaultDossierCacheFolder();
+            Save(settingsDto);
+            return settingsDto;
+        }
+
+        /// <summary>
+        /// Saves the specified settings.
+        /// </summary>
+        /// <param name="settings">The settings.</param>
+        public static void Save(object settings)
+        {
+            var filePath = AppConfigSettings.SettingsPath;
+
+            lock (_syncObject)
+            {
+                File.WriteAllText(filePath, Serialize(settings));
+            }
+        }
 
         /// <summary>
         /// Gets or sets the name of the player.
@@ -38,11 +87,7 @@ namespace WotDossier.Domain
         /// <value>
         /// The replays upload server path.
         /// </value>
-        public string ReplaysUploadServerPath
-        {
-            get { return _replaysUploadServerPath; }
-            set { _replaysUploadServerPath = value; }
-        }
+        public string ReplaysUploadServerPath { get; set; } = "http://wotreplays.ru/site/upload";
 
         /// <summary>
         /// Gets or sets a value indicating whether [check for updates].
@@ -50,11 +95,7 @@ namespace WotDossier.Domain
         /// <value>
         ///   <c>true</c> if [check for updates]; otherwise, <c>false</c>.
         /// </value>
-        public bool CheckForUpdates
-        {
-            get { return _checkForUpdates; }
-            set { _checkForUpdates = value; }
-        }
+        public bool CheckForUpdates { get; set; } = true;
 
         /// <summary>
         /// Gets or sets the new version check last date.
@@ -70,11 +111,7 @@ namespace WotDossier.Domain
         /// <value>
         /// The tank filter settings.
         /// </value>
-        public TankFilterSettings TankFilterSettings
-        {
-            get { return _tankFilterSettings; }
-            set { _tankFilterSettings = value; }
-        }
+        public TankFilterSettings TankFilterSettings { get; set; } = new TankFilterSettings();
 
         /// <summary>
         /// Gets or sets the period settings.
@@ -82,11 +119,7 @@ namespace WotDossier.Domain
         /// <value>
         /// The period settings.
         /// </value>
-        public PeriodSettings PeriodSettings
-        {
-            get { return _periodSettings; }
-            set { _periodSettings = value; }
-        }
+        public PeriodSettings PeriodSettings { get; set; } = new PeriodSettings();
 
         /// <summary>
         /// Gets or sets a value indicating whether [automatic load statistic].
@@ -112,13 +145,7 @@ namespace WotDossier.Domain
         /// </value>
         public bool TryFindTankAnalog { get; set; } = true;
 
-        private bool _useIncompleteReplaysResultsForCharts = false;
-        
-        public bool UseIncompleteReplaysResultsForCharts
-        {
-            get { return _useIncompleteReplaysResultsForCharts; }
-            set { _useIncompleteReplaysResultsForCharts = value; }
-        }
+        public bool UseIncompleteReplaysResultsForCharts { get; set; } = false;
 
         private List<ReplayPlayer> _replayPlayers;
         public List<ReplayPlayer> ReplayPlayers
@@ -142,5 +169,7 @@ namespace WotDossier.Domain
         public string WotFolderPath { get; set; }
 
         public int WindowState { get; set; }
+
+
     }
 }

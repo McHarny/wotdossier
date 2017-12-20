@@ -889,13 +889,17 @@ namespace WotDossier.Applications.ViewModel
         public virtual void Show()
         {
             ViewTyped.Loaded += OnWindowLoaded;
+
             ViewTyped.WindowState = (WindowState) SettingsReader.Get().WindowState;
-            ViewTyped.Show();
 
             Dispatcher.CurrentDispatcher.BeginInvoke(DispatcherPriority.Send, (SendOrPostCallback)delegate
             {
                 AppUpdater.Update();
             }, null);
+
+
+            ViewTyped.Show();
+            
         }
 
         private void OnWindowLoaded(object sender, EventArgs eventArgs)

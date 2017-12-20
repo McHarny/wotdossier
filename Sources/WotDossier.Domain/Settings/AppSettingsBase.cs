@@ -2,21 +2,13 @@
 {
     public class AppSettingsBase
     {
-        private string _language = "ru-RU";
-        private string _server = "ru";
-        private DossierTheme _theme = DossierTheme.Black;
-
         /// <summary>
         /// Gets or sets the server.
         /// </summary>
         /// <value>
         /// The server.
         /// </value>
-        public string Server
-        {
-            get { return _server; }
-            set { _server = value; }
-        }
+        public string Server { get; set; } = "ru";
 
         /// <summary>
         /// Gets or sets the language.
@@ -24,19 +16,11 @@
         /// <value>
         /// The language.
         /// </value>
-        public string Language
-        {
-            get { return _language; }
-            set { _language = value; }
-        }
+        public string Language { get; set; } = "ru-RU";
 
         /// <summary>
         /// Gets or sets the theme.
         /// </summary>
-        public DossierTheme Theme
-        {
-            get { return _theme; }
-            set { _theme = value; }
-        }
+        public DossierTheme Theme { get; set; } = DossierTheme.Black;
     }
 }

@@ -8,6 +8,7 @@ using Newtonsoft.Json.Linq;
 using System.Linq;
 using WotDossier.Common;
 using WotDossier.Domain.Rating;
+using WotDossier.Domain.Settings;
 using WotDossier.Domain.Tank;
 using WotDossier.Resources;
 
@@ -694,6 +695,11 @@ namespace WotDossier.Domain
                 }
             }
             return list;
+        }
+
+        public void LoadExternalFile(ExternalFileType type)
+        {
+            
         }
     }
 }
