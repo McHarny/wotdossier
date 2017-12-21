@@ -40,7 +40,7 @@ namespace WotDossier.ReplaysManager
         protected override void OnStartup(StartupEventArgs e)
         {
             //Apply application UI theme
-            ThemesManager.ApplyTheme(SettingsReader.Get().Theme);
+            ThemesManager.ApplyTheme(AppSettings.Instance.Theme);
 
 #if !DEBUG
             // Don't handle the exceptions in Debug mode because otherwise the Debugger wouldn't
@@ -58,7 +58,7 @@ namespace WotDossier.ReplaysManager
                 manager.InitDatabase();
 
                 //set app lang
-                CultureHelper.SetUiCulture(SettingsReader.Get().Language);
+                CultureHelper.SetUiCulture(AppSettings.Instance.Language);
 
                 CompositionContainerFactory.Instance.RegisterSingle<ISessionStorage, DesktopAppSessionStorage>();
                 CompositionContainerFactory.Instance.RegisterSingle<DataProvider, DataProvider>();

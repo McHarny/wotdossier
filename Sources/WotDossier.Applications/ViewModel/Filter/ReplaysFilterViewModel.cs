@@ -766,7 +766,7 @@ namespace WotDossier.Applications.ViewModel.Filter
         /// <returns></returns>
         public List<ReplayFile> Filter(IEnumerable<ReplayFile> replays, bool applySettingsFilters)
         {
-            AppSettings settings = SettingsReader.Get();
+            AppSettings settings = AppSettings.Instance;
 
             if (replays == null)
             {

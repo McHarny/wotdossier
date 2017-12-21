@@ -27,12 +27,12 @@ namespace WotDossier.Update.Update
         /// </summary>
         public static void Update()
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             //one day from last check
             if (appSettings.CheckForUpdates && (DateTime.Now.Date != appSettings.NewVersionCheckLastDate.Date))
             {
                 appSettings.NewVersionCheckLastDate = DateTime.Now.Date;
-                SettingsReader.Save(appSettings);
+                AppSettings.Instance.Save();
 
                 CheckUpdates();
             }
@@ -43,7 +43,7 @@ namespace WotDossier.Update.Update
         /// </summary>
         public static void CheckUpdates()
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
 
             //get current app version
             var currentVersion = new Version(ApplicationInfo.Version);
@@ -94,9 +94,9 @@ namespace WotDossier.Update.Update
                     Unzip(filepath, targetFolder);
 
                     //update current app data version
-                    AppSettings appSettings = SettingsReader.Get();
+                    AppSettings appSettings = AppSettings.Instance;
                     appSettings.ExternalDataVersion = info.DataVersion.ToString();
-                    SettingsReader.Save(appSettings);
+                    AppSettings.Instance.Save();
 
                     Dictionaries.Instance.Init();
                 }
@@ -227,7 +227,7 @@ namespace WotDossier.Update.Update
 
         private static DownloadedVersionInfo GetServerVersion()
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             Version newVersion = new Version(ApplicationInfo.Version);
             string installerUrl = null;
             Version dataVersion = null;

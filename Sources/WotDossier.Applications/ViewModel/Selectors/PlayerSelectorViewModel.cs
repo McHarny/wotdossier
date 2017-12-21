@@ -25,12 +25,12 @@ namespace WotDossier.Applications.ViewModel.Selectors
             set
             {
                 _player = value;
-                var appSettings = SettingsReader.Get();
+                var appSettings = AppSettings.Instance;
                 appSettings.PlayerId = value;
                 PlayerListItem listItem = Players.First(x => x.Id == value);
                 appSettings.PlayerName = listItem.Value;
                 appSettings.Server = listItem.Server;
-                SettingsReader.Save(appSettings);
+                AppSettings.Instance.Save();
                 _onSelectionChanged();
                 RaisePropertyChanged("Player");
             }
@@ -47,7 +47,7 @@ namespace WotDossier.Applications.ViewModel.Selectors
         {
             Players = _repository.GetPlayers().Select(x => new PlayerListItem(x.AccountId, x.Name, x.Server)).ToList();
 
-            var appSettings = SettingsReader.Get();
+            var appSettings = AppSettings.Instance;
             
             if (appSettings.PlayerId > 0 && Players.FirstOrDefault(x => x.Id == appSettings.PlayerId) == null)
             {

@@ -65,7 +65,7 @@ namespace WotDossier.Applications.ViewModel
 
         private void SetPeriodTabHeader()
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             PeriodTabHeader = Resources.Resources.ResourceManager.GetFormatedEnumResource(appSettings.PeriodSettings.Period, appSettings.PeriodSettings.Period == StatisticPeriod.Custom ? (object)appSettings.PeriodSettings.PrevDate : appSettings.PeriodSettings.LastNBattles);
         }
 

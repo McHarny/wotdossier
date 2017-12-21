@@ -85,7 +85,7 @@ namespace WotDossier.Applications.ViewModel
         {
             using (new WaitCursor())
             {
-                List<PlayerSearchJson> player = WotApiClient.Instance.SearchPlayer(SearchText, 10, SettingsReader.Get());
+                List<PlayerSearchJson> player = WotApiClient.Instance.SearchPlayer(SearchText, 10, AppSettings.Instance);
                 if (player != null)
                 {
                     List = player.Select(x => new SearchResultRowViewModel {Id = x.account_id, Name = x.nickname}).ToList();
@@ -101,7 +101,7 @@ namespace WotDossier.Applications.ViewModel
                 Player player;
                 using (new WaitCursor())
                 {
-                    player = WotApiClient.Instance.LoadPlayerStat(row.Id, SettingsReader.Get(), PlayerStatLoadOptions.LoadVehicles | PlayerStatLoadOptions.LoadAchievments);
+                    player = WotApiClient.Instance.LoadPlayerStat(row.Id, AppSettings.Instance, PlayerStatLoadOptions.LoadVehicles | PlayerStatLoadOptions.LoadAchievments);
                 }
                 if (player != null)
                 {

@@ -39,7 +39,7 @@ namespace WotDossier.Applications.ViewModel
                 Player player;
                 using (new WaitCursor())
                 {
-                    player = WotApiClient.Instance.LoadPlayerStat(member.Id, SettingsReader.Get(), PlayerStatLoadOptions.LoadVehicles | PlayerStatLoadOptions.LoadAchievments);
+                    player = WotApiClient.Instance.LoadPlayerStat(member.Id, AppSettings.Instance, PlayerStatLoadOptions.LoadVehicles | PlayerStatLoadOptions.LoadAchievments);
                 }
                 if (player != null)
                 {

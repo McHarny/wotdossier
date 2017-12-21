@@ -178,7 +178,7 @@ namespace WotDossier.Applications.ViewModel.Replay
                 return server;
             }
 
-            return SettingsReader.Get().Server;
+            return AppSettings.Instance.Server;
         }
 
         public LevelRange LevelRange { get; set; }

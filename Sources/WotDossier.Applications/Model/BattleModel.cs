@@ -33,12 +33,12 @@ namespace WotDossier.Applications.Model
 
         public string DefenderLink
         {
-            get { return string.Format(RatingHelper.NOOBMETER_CLAN_STATISTIC_LINK_FORMAT, SettingsReader.Get().Server, DefenderTag, DefenderId); }
+            get { return string.Format(RatingHelper.NOOBMETER_CLAN_STATISTIC_LINK_FORMAT, AppSettings.Instance.Server, DefenderTag, DefenderId); }
         }
 
         public string AttackerLink
         {
-            get { return string.Format(RatingHelper.NOOBMETER_CLAN_STATISTIC_LINK_FORMAT, SettingsReader.Get().Server, AttackerTag, AttackerId); }
+            get { return string.Format(RatingHelper.NOOBMETER_CLAN_STATISTIC_LINK_FORMAT, AppSettings.Instance.Server, AttackerTag, AttackerId); }
         }
 
         public ClanBattleType Type { get; set; }

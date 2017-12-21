@@ -9,7 +9,7 @@ namespace WotDossier.Domain
     {
         public static string GetDossierCacheFolder()
         {
-            var appSettings = SettingsReader.Get();
+            var appSettings = AppSettings.Instance;
             if (string.IsNullOrEmpty(appSettings.DossierCachePath))
             {
                 return GetDefaultDossierCacheFolder();

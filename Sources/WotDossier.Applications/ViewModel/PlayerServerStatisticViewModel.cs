@@ -112,7 +112,7 @@ namespace WotDossier.Applications.ViewModel
             ClanData clan;
             using (new WaitCursor())
             {
-                clan = WotApiClient.Instance.LoadClan(Clan.Id, SettingsReader.Get());
+                clan = WotApiClient.Instance.LoadClan(Clan.Id, AppSettings.Instance);
             }
             if (clan != null)
             {
@@ -149,7 +149,7 @@ namespace WotDossier.Applications.ViewModel
             statistic.RBR = player.dataField.global_rating;
             if (player.dataField.clan_id != null)
             {
-                AppSettings settings = SettingsReader.Get();
+                AppSettings settings = AppSettings.Instance;
                 ClanMemberInfo clanMember = WotApiClient.Instance.GetClanMemberInfo(player.dataField.account_id, settings);
                 if (clanMember != null)
                 {

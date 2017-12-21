@@ -146,14 +146,14 @@ namespace WotDossier.Applications.ViewModel.Selectors
 
         public PeriodSelectorViewModel()
         {
-            _periodSettings = SettingsReader.Get().PeriodSettings;
+            _periodSettings = AppSettings.Instance.PeriodSettings;
         }
 
         private void Save()
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             appSettings.PeriodSettings = PeriodSettings;
-            SettingsReader.Save(appSettings);
+            AppSettings.Instance.Save();
         }
 
         /// <summary>

@@ -13,12 +13,12 @@ namespace WotDossier.Update.Update
 
         public override void Execute(SQLiteConnection sqlCeConnection, SQLiteTransaction transaction)
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             if (string.IsNullOrEmpty(appSettings.DossierCachePath))
             {
                 appSettings.DossierCachePath = Folder.GetDossierCacheFolder();
             }
-            SettingsReader.Save(appSettings);
+            AppSettings.Instance.Save();
         }
     }
 }

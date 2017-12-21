@@ -13,7 +13,7 @@ namespace WotDossier.Update.Update
         public override long Version => 2014070802;
         public override void Execute(SQLiteConnection sqlCeConnection, SQLiteTransaction transaction)
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             if (appSettings.PlayerId > 0)
             {
                 const string commandText = "Update Player set Server = @server where PlayerId = @playerId";

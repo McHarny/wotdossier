@@ -46,7 +46,7 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         private void OnReplayUpload()
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
 
             if (ReplayFile != null)
             {

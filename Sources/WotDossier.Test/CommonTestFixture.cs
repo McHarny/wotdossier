@@ -1457,7 +1457,7 @@ namespace WotDossier.Test
 		[Test]
         public void GetClanInfoTest()
         {
-            var appSettings = SettingsReader.Get();
+            var appSettings = AppSettings.Instance;
             WotApiClient.Instance.GetClanMemberInfo(3016489, appSettings);
         }
 

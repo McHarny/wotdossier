@@ -67,7 +67,7 @@ namespace WotDossier.Test
                 _resourceManagers.Add(resourceManager);
             }
 
-            CultureHelper.SetUiCulture(SettingsReader.Get().Language);
+            CultureHelper.SetUiCulture(AppSettings.Instance.Language);
 
             if (!UriParser.IsKnownScheme("pack"))
             {

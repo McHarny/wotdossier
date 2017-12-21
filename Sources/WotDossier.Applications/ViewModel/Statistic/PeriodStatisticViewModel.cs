@@ -46,7 +46,7 @@ namespace WotDossier.Applications.ViewModel.Statistic
             _list = list;
             Updated = updated;
 
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             StatisticSlice prevStatistic = GetPrevStatistic(appSettings.PeriodSettings.Period, appSettings.PeriodSettings.PrevDate);
             PrevStatisticSlice = prevStatistic ?? this.ToStatisticSlice();
 

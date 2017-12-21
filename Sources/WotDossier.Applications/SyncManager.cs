@@ -67,7 +67,7 @@ namespace WotDossier.Applications
                 return;
             }
 
-            AppSettings settings = SettingsReader.Get();
+            AppSettings settings = AppSettings.Instance;
 
             if (settings.PlayerId > 0)
             {
@@ -155,7 +155,7 @@ namespace WotDossier.Applications
 
         private void UpdateLocalStatistic(int rev)
         {
-            //AppSettings settings = SettingsReader.Get();
+            //AppSettings settings = AppSettings.Instance;
             //string statistic = ApiMethod($"statistic/{rev}").Get();
         }
 

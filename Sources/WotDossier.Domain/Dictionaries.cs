@@ -224,7 +224,7 @@ namespace WotDossier.Domain
         /// </summary>
         private Dictionaries()
         {
-            AppSettings = SettingsReader.Get();
+            AppSettings = AppSettings.Instance;
             Init();
         }
 

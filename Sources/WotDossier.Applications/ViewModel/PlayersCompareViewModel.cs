@@ -76,8 +76,8 @@ namespace WotDossier.Applications.ViewModel
             {
                 if (!string.IsNullOrEmpty(FirstName) && !string.IsNullOrEmpty(SecondName))
                 {
-                    PlayerSearchJson first = WotApiClient.Instance.SearchPlayer(FirstName, SettingsReader.Get());
-                    PlayerSearchJson second = WotApiClient.Instance.SearchPlayer(SecondName, SettingsReader.Get());
+                    PlayerSearchJson first = WotApiClient.Instance.SearchPlayer(FirstName, AppSettings.Instance);
+                    PlayerSearchJson second = WotApiClient.Instance.SearchPlayer(SecondName, AppSettings.Instance);
 
                     if (first == null)
                     {
@@ -91,8 +91,8 @@ namespace WotDossier.Applications.ViewModel
                         return;
                     }
 
-                    Player stat1 = WotApiClient.Instance.LoadPlayerStat(first.account_id, SettingsReader.Get(), PlayerStatLoadOptions.LoadAchievments | PlayerStatLoadOptions.LoadVehicles);
-                    Player stat2 = WotApiClient.Instance.LoadPlayerStat(second.account_id, SettingsReader.Get(), PlayerStatLoadOptions.LoadAchievments | PlayerStatLoadOptions.LoadVehicles);
+                    Player stat1 = WotApiClient.Instance.LoadPlayerStat(first.account_id, AppSettings.Instance, PlayerStatLoadOptions.LoadAchievments | PlayerStatLoadOptions.LoadVehicles);
+                    Player stat2 = WotApiClient.Instance.LoadPlayerStat(second.account_id, AppSettings.Instance, PlayerStatLoadOptions.LoadAchievments | PlayerStatLoadOptions.LoadVehicles);
 
                     if (stat1 != null && stat2 != null)
                     {

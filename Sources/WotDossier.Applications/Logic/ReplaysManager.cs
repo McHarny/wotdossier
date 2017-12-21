@@ -120,7 +120,7 @@ namespace WotDossier.Applications.Logic
 
         private ReplayPlayer AutoSelectPlayer(Version replayFileVersion)
         {
-            AppSettings settings = SettingsReader.Get();
+            AppSettings settings = AppSettings.Instance;
             return settings.ReplayPlayers.OrderBy(x => x.Version).FirstOrDefault(x => x.Version >= replayFileVersion);
         }
     }

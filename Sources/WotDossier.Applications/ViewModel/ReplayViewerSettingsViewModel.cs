@@ -65,7 +65,7 @@ namespace WotDossier.Applications.ViewModel
         public ReplayViewerSettingsViewModel([Import(typeof(IReplayViewerSettingsView))]IReplayViewerSettingsView view)
             : base(view)
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
 
             ReplayPlayers = new ObservableCollection<ReplayPlayer>(appSettings.ReplayPlayers);
 
@@ -124,9 +124,9 @@ namespace WotDossier.Applications.ViewModel
 
         private void ViewOnClosing(object sender, CancelEventArgs cancelEventArgs)
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             appSettings.ReplayPlayers = ReplayPlayers.ToList();
-            SettingsReader.Save(appSettings);
+            AppSettings.Instance.Save();
         }
 
         public virtual bool? Show()

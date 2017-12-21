@@ -257,7 +257,7 @@ namespace WotDossier.Applications.ViewModel
 
         private void LoadListSettings()
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             if (!string.IsNullOrEmpty(appSettings.ColumnInfo))
             {
                 try
@@ -491,7 +491,7 @@ namespace WotDossier.Applications.ViewModel
         {
             try
             {
-                CultureHelper.SetUiCulture(SettingsReader.Get().Language);
+                CultureHelper.SetUiCulture(AppSettings.Instance.Language);
 
                 foreach (var replayFolder in replayFolders)
                 {
@@ -747,7 +747,7 @@ namespace WotDossier.Applications.ViewModel
 
                 using (new WaitCursor())
                 {
-                    replay = replayFile.ReplayData(SettingsReader.Get().ShowExtendedReplaysData);
+                    replay = replayFile.ReplayData(AppSettings.Instance.ShowExtendedReplaysData);
                 }
 
                 if (replay != null && replay.datablock_battle_result != null)
@@ -870,7 +870,7 @@ namespace WotDossier.Applications.ViewModel
 
                 using (new WaitCursor())
                 {
-                    AppSettings appSettings = SettingsReader.Get();
+                    AppSettings appSettings = AppSettings.Instance;
 
                     foreach (var replay in replays)
                     {

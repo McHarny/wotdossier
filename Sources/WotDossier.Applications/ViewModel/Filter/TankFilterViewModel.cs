@@ -292,7 +292,7 @@ namespace WotDossier.Applications.ViewModel.Filter
         /// </summary>
         public TankFilterViewModel()
         {
-            _filter = SettingsReader.Get().TankFilterSettings;
+            _filter = AppSettings.Instance.TankFilterSettings;
 
             ClearCommand = new DelegateCommand(OnClear);
             AllCommand = new DelegateCommand(OnAll);
@@ -385,9 +385,9 @@ namespace WotDossier.Applications.ViewModel.Filter
         /// </summary>
         public void Save()
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             appSettings.TankFilterSettings = _filter;
-            SettingsReader.Save(appSettings);
+            AppSettings.Instance.Save();
         }
     }
 }

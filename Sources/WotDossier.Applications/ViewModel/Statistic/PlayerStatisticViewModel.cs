@@ -32,7 +32,7 @@ namespace WotDossier.Applications.ViewModel.Statistic
 
         public string PerformanceRatingLink
         {
-            get { return string.Format(RatingHelper.NOOBMETER_STATISTIC_LINK_FORMAT, SettingsReader.Get().Server, Name); }
+            get { return string.Format(RatingHelper.NOOBMETER_STATISTIC_LINK_FORMAT, AppSettings.Instance.Server, Name); }
         }
 
         public string KievArmorRatingLink
@@ -47,7 +47,7 @@ namespace WotDossier.Applications.ViewModel.Statistic
 
         public string NameLink
         {
-            get { return string.Format(RatingHelper.WG_STATISTIC_LINK_FORMAT, SettingsReader.Get().Server, AccountId, Name); }
+            get { return string.Format(RatingHelper.WG_STATISTIC_LINK_FORMAT, AppSettings.Instance.Server, AccountId, Name); }
         }
 
         public ClanModel Clan

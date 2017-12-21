@@ -344,7 +344,7 @@ namespace WotDossier.Applications.ViewModel
                 Player player;
                 using (new WaitCursor())
                 {
-                    player = WotApiClient.Instance.LoadPlayerStat(row.Id, SettingsReader.Get(), PlayerStatLoadOptions.LoadVehicles | PlayerStatLoadOptions.LoadAchievments);
+                    player = WotApiClient.Instance.LoadPlayerStat(row.Id, AppSettings.Instance, PlayerStatLoadOptions.LoadVehicles | PlayerStatLoadOptions.LoadAchievments);
                 }
                 if (player != null)
                 {
@@ -374,7 +374,7 @@ namespace WotDossier.Applications.ViewModel
 
         private void InitCacheMonitor()
         {
-            AppSettings settings = SettingsReader.Get();
+            AppSettings settings = AppSettings.Instance;
 
             if (settings.AutoLoadStatistic)
             {
@@ -501,7 +501,7 @@ namespace WotDossier.Applications.ViewModel
             ClanData clan;
             using (new WaitCursor())
             {
-                clan = WotApiClient.Instance.LoadClan(PlayerStatistic.Clan.Id, SettingsReader.Get());
+                clan = WotApiClient.Instance.LoadClan(PlayerStatistic.Clan.Id, AppSettings.Instance);
             }
             if (clan != null)
             {
@@ -565,7 +565,7 @@ namespace WotDossier.Applications.ViewModel
                 if (viewModel != null)
                 {
                     viewModel.TankStatistic = tankStatisticRowViewModel;
-                    AppSettings appSettings = SettingsReader.Get();
+                    AppSettings appSettings = AppSettings.Instance;
 
                     ITankStatisticRow temp = tankStatisticRowViewModel.PreviousStatistic;
 
@@ -629,7 +629,7 @@ namespace WotDossier.Applications.ViewModel
 
             LoadInProgress = true;
 
-            AppSettings settings = SettingsReader.Get();
+            AppSettings settings = AppSettings.Instance;
 
             if (settings == null || string.IsNullOrEmpty(settings.PlayerName) || string.IsNullOrEmpty(settings.Server))
             {
@@ -645,7 +645,7 @@ namespace WotDossier.Applications.ViewModel
                     try
                     {
                         //set thread culture
-                        CultureHelper.SetUiCulture(SettingsReader.Get().Language);
+                        CultureHelper.SetUiCulture(AppSettings.Instance.Language);
 
                         Player serverStatistic = LoadPlayerServerStatistic(settings);
                         
@@ -737,7 +737,7 @@ namespace WotDossier.Applications.ViewModel
             var tanksCache = CacheFileHelper.InternalBinaryCacheToJson(cacheFile);
 
 
-            AppSettings settings = SettingsReader.Get();
+            AppSettings settings = AppSettings.Instance;
 
             StatisticViewStrategyBase strategy = StatisticViewStrategyManager.Get(BattleModeSelector.BattleMode, _dossierRepository);
 
@@ -751,7 +751,7 @@ namespace WotDossier.Applications.ViewModel
             _log.Trace("InitClanData start");
             if (serverStatistic != null && PlayerStatistic != null)
             {
-                AppSettings settings = SettingsReader.Get();
+                AppSettings settings = AppSettings.Instance;
 
                 ClanMemberInfo clanMember = WotApiClient.Instance.GetClanMemberInfo(serverStatistic.dataField.account_id, settings);
                 if (clanMember != null)
@@ -820,7 +820,7 @@ namespace WotDossier.Applications.ViewModel
 
         private void SetFavorite(ITankStatisticRow model, bool favorite)
         {
-            AppSettings settings = SettingsReader.Get();
+            AppSettings settings = AppSettings.Instance;
             model.IsFavorite = favorite;
             _dossierRepository.SetFavorite(model.TankId, model.CountryId, settings.PlayerId, favorite);
         }
@@ -835,13 +835,13 @@ namespace WotDossier.Applications.ViewModel
 
         private void SetPeriodTabHeader()
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             PeriodTabHeader = Resources.Resources.ResourceManager.GetFormatedEnumResource(appSettings.PeriodSettings.Period, appSettings.PeriodSettings.Period == StatisticPeriod.Custom ? (object)appSettings.PeriodSettings.PrevDate : appSettings.PeriodSettings.LastNBattles);
         }
 
         private void PeriodSelectorOnPropertyChanged()
         {
-            AppSettings settings = SettingsReader.Get();
+            AppSettings settings = AppSettings.Instance;
 
             if (settings.PeriodSettings.Period == StatisticPeriod.LastNBattles)
             {
@@ -869,13 +869,13 @@ namespace WotDossier.Applications.ViewModel
 
         private void ViewClosing(CancelEventArgs e)
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             var windowState = ViewTyped.WindowState;
             if (windowState != WindowState.Minimized)
             {
                 appSettings.WindowState = (int)windowState;
             }
-            SettingsReader.Save(appSettings);
+            AppSettings.Instance.Save();
 
             if (!e.Cancel)
             {
@@ -890,7 +890,7 @@ namespace WotDossier.Applications.ViewModel
         {
             ViewTyped.Loaded += OnWindowLoaded;
 
-            ViewTyped.WindowState = (WindowState) SettingsReader.Get().WindowState;
+            ViewTyped.WindowState = (WindowState) AppSettings.Instance.WindowState;
 
             Dispatcher.CurrentDispatcher.BeginInvoke(DispatcherPriority.Send, (SendOrPostCallback)delegate
             {

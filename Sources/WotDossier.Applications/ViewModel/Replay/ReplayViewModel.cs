@@ -345,7 +345,7 @@ namespace WotDossier.Applications.ViewModel.Replay
             Domain.Server.Player player;
             using (new WaitCursor())
             {
-                player = WotApiClient.Instance.LoadPlayerStat((int) member.AccountDBID, SettingsReader.Get(), PlayerStatLoadOptions.LoadVehicles | PlayerStatLoadOptions.LoadAchievments);
+                player = WotApiClient.Instance.LoadPlayerStat((int) member.AccountDBID, AppSettings.Instance, PlayerStatLoadOptions.LoadVehicles | PlayerStatLoadOptions.LoadAchievments);
             }
             if (player != null)
             {

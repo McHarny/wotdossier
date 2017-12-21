@@ -31,9 +31,9 @@ namespace WotDossier.Tabs
 
         private void CurrentOnExit(object sender, ExitEventArgs exitEventArgs)
         {
-            AppSettings appSettings = SettingsReader.Get();
+            AppSettings appSettings = AppSettings.Instance;
             appSettings.ColumnInfo = dgReplays.GetColumnInformation();
-            SettingsReader.Save(appSettings);
+            AppSettings.Instance.Save();
         }
 
         private void OnGridPreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)

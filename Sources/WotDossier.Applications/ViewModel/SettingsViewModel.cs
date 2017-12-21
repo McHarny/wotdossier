@@ -153,7 +153,7 @@ namespace WotDossier.Applications.ViewModel
         {
             _dossierRepository = dossierRepository;
             SaveCommand = new DelegateCommand(OnSave);
-            _appSettings = SettingsReader.Get();
+            _appSettings = AppSettings.Instance;
             Servers = Dictionaries.Instance.GameServers.Keys.ToList();
             SelectCacheFolderCommand = new DelegateCommand(() =>
             {
@@ -217,7 +217,7 @@ namespace WotDossier.Applications.ViewModel
 
             ThemesManager.ApplyTheme(_appSettings.Theme);
 
-            SettingsReader.Save(_appSettings);
+            AppSettings.Instance.Save();
             ViewTyped.DialogResult = true;
             ViewTyped.Close();
         }

@@ -112,7 +112,7 @@ namespace WotDossier.Applications.ViewModel
                 if (viewModel != null)
                 {
                     viewModel.TankStatistic = tankStatisticRowViewModel;
-                    AppSettings appSettings = SettingsReader.Get();
+                    AppSettings appSettings = AppSettings.Instance;
 
                     ITankStatisticRow temp = tankStatisticRowViewModel.PreviousStatistic;
 
@@ -159,7 +159,7 @@ namespace WotDossier.Applications.ViewModel
 
         private void OnLoad()
         {
-            //AppSettings settings = SettingsReader.Get();
+            //AppSettings settings = AppSettings.Instance;
 
             //if (settings == null || string.IsNullOrEmpty(settings.PlayerName) || string.IsNullOrEmpty(settings.Server))
             //{
