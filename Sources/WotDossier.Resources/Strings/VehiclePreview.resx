@@ -121,7 +121,7 @@
     <value>Price in standard configuration</value>
   </data>
   <data name="buyingPanel/alertLabel" xml:space="preserve">
-    <value>Unique vehicle that cannot be purchased using credits</value>
+    <value>Unique vehicle is a reward for specific game events</value>
   </data>
   <data name="buyingPanel/buyBtn/label/buy" xml:space="preserve">
     <value>Purchase</value>
@@ -148,7 +148,7 @@
     <value>Preview</value>
   </data>
   <data name="infoPanel/tab/crewInfo/listDesc/text" xml:space="preserve">
-    <value>Vehicle crew and their impact on the vehicle's characteristics.</value>
+    <value>The characteristics for the crew trained to 100%.</value>
   </data>
   <data name="infoPanel/tab/crewInfo/name" xml:space="preserve">
     <value>Crew</value>
@@ -157,8 +157,7 @@
     <value>Description</value>
   </data>
   <data name="modulesPanel/Label" xml:space="preserve">
-    <value>You can preview the vehicle in any configuration.
-However, upon purchase you will receive the vehicle in standard configuration.</value>
+    <value>Standard Configuration</value>
   </data>
   <data name="modulesPanel/status/text" xml:space="preserve">
     <value>Previewing custom configuration</value>
@@ -179,7 +178,7 @@ However, upon purchase you will receive the vehicle in standard configuration.</
     <value>Available for Trade-in</value>
   </data>
   <data name="modulesPanel/noModulesOptions" xml:space="preserve">
-    <value>Other modules are not available for this vehicle</value>
+    <value>Top Configuration</value>
   </data>
   <data name="buyingPanel/sabaton/buyLabel" xml:space="preserve">
     <value>Go to the Premium Shop to purchase this vehicle.</value>
@@ -195,5 +194,14 @@ However, upon purchase you will receive the vehicle in standard configuration.</
   </data>
   <data name="header/backBtn/descrLabel/personalAwards" xml:space="preserve">
     <value>TO REWARDS</value>
+  </data>
+  <data name="hero/header/title" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="infoPanel/tab/eliteFactSheet/info" xml:space="preserve">
+    <value>Historical Reference</value>
+  </data>
+  <data name="infoPanel/tab/eliteFactSheet/title" xml:space="preserve">
+    <value>Premium Vehicle Benefits</value>
   </data>
 </root>

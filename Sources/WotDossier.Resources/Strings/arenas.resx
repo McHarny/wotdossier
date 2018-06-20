@@ -325,7 +325,7 @@
     <value>This snow-covered and rocky map is abundant in various obstacles and defilades. Trails that snake around rocky mountains and along the riverside will present options for an offensive strategy, but beware: defenders will have plenty of ambush opportunities.</value>
   </data>
   <data name="38_mannerheim_line/name" xml:space="preserve">
-    <value>Arctic Region</value>
+    <value>Mannerheim Line</value>
   </data>
   <data name="39_crimea/description" xml:space="preserve">
     <value>The rugged terrain of this map allows a variety of battle-tactics: flanking, ambushing, or frontal assaults. There are also numerous passages between the rocks that could provide routes for a decisive attack with concentrated forces.</value>
@@ -862,7 +862,7 @@
     <value>Mission: capture the base or destroy all enemy vehicles.</value>
   </data>
   <data name="type/domination30x30/name" xml:space="preserve">
-    <value>Encounter Battle</value>
+    <value>Grand Battle</value>
   </data>
   <data name="120_kharkiv_halloween/description" xml:space="preserve">
     <value>The Armored Afterlife, where Leviathan reigns over an endless battle.</value>
@@ -872,5 +872,71 @@
   </data>
   <data name="type/leviathan/description" xml:space="preserve">
     <value>Banish Leviathan before it can escape to the Mortal Plane.</value>
+  </data>
+  <data name="1001_respawn_test/description" xml:space="preserve">
+    <value>Development map for testing respawning. To respawn, press Ctrl+R in a training room.</value>
+  </data>
+  <data name="217_er_alaska/description" xml:space="preserve">
+    <value>Set in the northern part of the map, the mine provides an advantage to fast breakthrough vehicles. The central map area near the road is suitable for vehicles with reliable armor. To the south, the river delta gives way to vast and open plateaus, offering a very convenient position for vehicles with accurate guns.</value>
+  </data>
+  <data name="217_er_alaska/name" xml:space="preserve">
+    <value>Klondike</value>
+  </data>
+  <data name="type/ctf30x30/217_er_alaska/name" xml:space="preserve">
+    <value>GB—Standard Battle</value>
+  </data>
+  <data name="type/domination30x30/217_er_alaska/name" xml:space="preserve">
+    <value>GB—Encounter</value>
+  </data>
+  <data name="115_sweden/description" xml:space="preserve">
+    <value>The path along the steel shells of ships that have been captured in ice can be advantageous to vehicles with heavy armor. The massive glacial hills in the center of the map are perfect for fast and maneuverable vehicles that can provide the team with information about enemy positions. The area around the fisherman's village presents an open area that is exposed to fire from tank destroyers in convenient positions.</value>
+  </data>
+  <data name="115_sweden/name" xml:space="preserve">
+    <value>Glacier</value>
+  </data>
+  <data name="03_campania_big/description" xml:space="preserve">
+    <value>The wasteland in the center is divided by two high grounds that present the spawning areas for the teams. The defenders should hold the attackers and keep their positions safe. The attackers should take the advantage of the winding path and consolidate in the positions of the defending team.</value>
+  </data>
+  <data name="03_campania_big/name" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="208_bf_epic_normandy/description" xml:space="preserve">
+    <value>The assault is taken from the riverbeds over mountaintops in to the city. Vast countryside areas are the perfect opportunities for fast and stealthy tanks, while small villages and mountain passes are populated by more heavy machinery.</value>
+  </data>
+  <data name="208_bf_epic_normandy/name" xml:space="preserve">
+    <value>Road to Glory</value>
+  </data>
+  <data name="type/epic/description1" xml:space="preserve">
+    <value>Capture zones to reach the main objectives. Destroy the main objectives.</value>
+  </data>
+  <data name="type/epic/description2" xml:space="preserve">
+    <value>Defend the main objectives until the time runs out or destroy all attackers.</value>
+  </data>
+  <data name="type/epic/name" xml:space="preserve">
+    <value>Frontline</value>
+  </data>
+  <data name="116_himmelball/description" xml:space="preserve">
+    <value>Amidst a labyrinth of streets and squares, impassable for artillery and tank destroyers, lies a field upon which tankers vie for football supremacy.</value>
+  </data>
+  <data name="116_himmelball/name" xml:space="preserve">
+    <value>Himmelstadium</value>
+  </data>
+  <data name="119_lostcityball/description" xml:space="preserve">
+    <value>The peaceful silence of this abandoned town is deceitful. Today, the local stadium will become the arena of heated battles, where only the best will win.</value>
+  </data>
+  <data name="119_lostcityball/name" xml:space="preserve">
+    <value>Lost Stadium</value>
+  </data>
+  <data name="120_moscowball/description" xml:space="preserve">
+    <value>Named after the great Soviet goalkeeper, this Moscow stadium will host fascinating and dramatic matches, where the best teams will fight for victory.</value>
+  </data>
+  <data name="120_moscowball/name" xml:space="preserve">
+    <value>Lev Yashin Stadium</value>
+  </data>
+  <data name="type/football/description1" xml:space="preserve">
+    <value>Victory conditions: earn more points or score more goals.</value>
+  </data>
+  <data name="type/football/description2" xml:space="preserve">
+    <value>Victory conditions: earn more points or score more goals.</value>
   </data>
 </root>

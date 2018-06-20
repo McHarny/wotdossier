@@ -633,4 +633,31 @@
   <data name="inscription/special/special_122" xml:space="preserve">
     <value>Китайская надпись 13</value>
   </data>
+  <data name="emblem/group0/chinese_35" xml:space="preserve">
+    <value>哮天犬</value>
+  </data>
+  <data name="emblem/group0/chinese_36" xml:space="preserve">
+    <value>哮天犬</value>
+  </data>
+  <data name="inscription/special/special_177" xml:space="preserve">
+    <value>万事如意</value>
+  </data>
+  <data name="inscription/special/special_178" xml:space="preserve">
+    <value>苟住能赢</value>
+  </data>
+  <data name="inscription/special/special_179" xml:space="preserve">
+    <value>恭贺新禧</value>
+  </data>
+  <data name="inscription/special/special_180" xml:space="preserve">
+    <value>哮天犬</value>
+  </data>
+  <data name="inscription/special/special_181" xml:space="preserve">
+    <value>汪星人</value>
+  </data>
+  <data name="inscription/special/special_182" xml:space="preserve">
+    <value>汪汪汪</value>
+  </data>
+  <data name="inscription/special/special_183" xml:space="preserve">
+    <value>WOLF WARRIORS</value>
+  </data>
 </root>

@@ -5154,4 +5154,10 @@
   <data name="ranksfra/wraith" xml:space="preserve">
     <value>Apparition</value>
   </data>
+  <data name="names/Buffon" xml:space="preserve">
+    <value>Buffon</value>
+  </data>
+  <data name="names/Gianluigi" xml:space="preserve">
+    <value>Gianluigi</value>
+  </data>
 </root>

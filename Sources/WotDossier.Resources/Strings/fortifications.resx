@@ -1076,7 +1076,7 @@ to see the detailed description.</value>
     <value>Take Slot</value>
   </data>
   <data name="sortie/vehicleSelector/description" xml:space="preserve">
-    <value>Select a vehicle to engage in Skirmish. Red indicator marks vehicles not ready for battle.</value>
+    <value>Select a vehicle to enter a battle. Vehicles not ready for battle are marked by a red indicator.</value>
   </data>
   <data name="sortie/listView/slot/closed" xml:space="preserve">
     <value>Unavailable</value>
@@ -2691,7 +2691,7 @@ including compensation: </value>
     <value>Activated at the beginning of a battle</value>
   </data>
   <data name="strongholdreserve/tooltip/inStorage" xml:space="preserve">
-    <value>&lt;font color='#C9C9BE'&gt;%(count)s&lt;/font&gt; in the Storage</value>
+    <value>&lt;font color='#C9C9BE'&gt;%(count)s&lt;/font&gt; in the Depot</value>
   </data>
   <data name="strongholdreserve/tooltip/level" xml:space="preserve">
     <value>level</value>
@@ -2743,5 +2743,20 @@ including compensation: </value>
   </data>
   <data name="strongholdtooltips/sortieTitle" xml:space="preserve">
     <value>Skirmish in division %(level)s</value>
+  </data>
+  <data name="battleQueue/clanPosition" xml:space="preserve">
+    <value>Position: %(position)s</value>
+  </data>
+  <data name="battleQueue/position" xml:space="preserve">
+    <value>Position:</value>
+  </data>
+  <data name="battleQueue/searchEnemy" xml:space="preserve">
+    <value>Searching for enemy:</value>
+  </data>
+  <data name="battleQueue/waitBattle" xml:space="preserve">
+    <value>Awaiting battle:</value>
+  </data>
+  <data name="battleQueue/yourTeam" xml:space="preserve">
+    <value>Your detachment:</value>
   </data>
 </root>

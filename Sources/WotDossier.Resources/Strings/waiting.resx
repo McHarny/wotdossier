@@ -687,4 +687,10 @@ Please wait until you can connect to "%s" or use the Autosearch option (to find 
   <data name="halloweenSearching_4" xml:space="preserve">
     <value>Searching for items of interest...</value>
   </data>
+  <data name="prebattle/giveEquipmentCommander" xml:space="preserve">
+    <value>Transferring control of Combat Reserves...</value>
+  </data>
+  <data name="download/epicMetaGame" xml:space="preserve">
+    <value>Synchronizing personal data...</value>
+  </data>
 </root>

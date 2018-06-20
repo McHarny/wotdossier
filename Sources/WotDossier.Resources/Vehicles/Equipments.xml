@@ -140,7 +140,8 @@
     <userString>#artefacts:autoExtinguishers/name</userString>
     <description>#artefacts:autoExtinguishers/descr</description>
     <icon>autoExtinguishers 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>	extinguisher	</tags>
     <script>	Extinguisher	<fireStartingChanceFactor>0.9</fireStartingChanceFactor><autoactivate>	true	</autoactivate><cooldownSeconds>	90	</cooldownSeconds><reuseCount>	-1	</reuseCount></script>
   </autoExtinguishers>
@@ -158,7 +159,8 @@
     <userString>#artefacts:largeMedkit/name</userString>
     <description>#artefacts:largeMedkit/descr</description>
     <icon>largeMedkit 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>medkit</tags>
     <script>Repairkit<repairAll>	true	</repairAll><bonusValue>0.30</bonusValue><stunResistanceEffect>0.0</stunResistanceEffect><stunResistanceDuration>0.05</stunResistanceDuration><cooldownSeconds>	90	</cooldownSeconds><reuseCount>	-1	</reuseCount></script>
   </largeMedkit>
@@ -176,7 +178,8 @@
     <userString>#artefacts:largeRepairkit/name</userString>
     <description>#artefacts:largeRepairkit/descr</description>
     <icon>largeRepairkit 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>repairkit</tags>
     <script>Repairkit<repairAll>	true	</repairAll><bonusValue>0.1</bonusValue><cooldownSeconds>	90	</cooldownSeconds><reuseCount>	-1	</reuseCount></script>
   </largeRepairkit>
@@ -209,7 +212,7 @@
     </incompatibleTags>
     <vehicleFilter>
       <include>
-        <nations>usa germany france uk czech sweden poland</nations>
+        <nations>usa germany france uk czech sweden poland italy</nations>
         <engine>
           <tags>	gasoline	</tags>
         </engine>
@@ -222,14 +225,15 @@
     <userString>#artefacts:gasoline105/name</userString>
     <description>#artefacts:gasoline105/descr</description>
     <icon>gasoline105 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>	fuel	</tags>
     <incompatibleTags>
       <installed>	fuel	</installed>
     </incompatibleTags>
     <vehicleFilter>
       <include>
-        <nations>usa germany france uk czech sweden poland</nations>
+        <nations>usa germany france uk czech sweden poland italy</nations>
         <engine>
           <tags>	gasoline	</tags>
         </engine>
@@ -242,7 +246,8 @@
     <userString>#artefacts:chocolate/name</userString>
     <description>#artefacts:chocolate/descr</description>
     <icon>chocolate 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>stimulator</tags>
     <vehicleFilter>
       <include>
@@ -256,7 +261,8 @@
     <userString>#artefacts:cocacola/name</userString>
     <description>#artefacts:cocacola/descr</description>
     <icon>cocacola 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>stimulator</tags>
     <vehicleFilter>
       <include>
@@ -270,7 +276,8 @@
     <userString>#artefacts:ration/name</userString>
     <description>#artefacts:ration/descr</description>
     <icon>ration 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>stimulator</tags>
     <vehicleFilter>
       <include>
@@ -298,7 +305,8 @@
     <userString>#artefacts:hotCoffee/name</userString>
     <description>#artefacts:hotCoffee/descr</description>
     <icon>hotCoffee 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>stimulator</tags>
     <vehicleFilter>
       <include>
@@ -307,12 +315,31 @@
     </vehicleFilter>
     <script>Stimulator<crewLevelIncrease>	10	</crewLevelIncrease></script>
   </hotCoffee>
+  <afterburning>
+    <id>	14	</id>
+    <userString>#artefacts:afterburning/name</userString>
+    <description>#artefacts:afterburning/descr</description>
+    <icon>afterburning 0 0</icon>
+    <notInShop>	True	</notInShop>
+    <price>	15000	</price>
+    <tags>trigger</tags>
+    <vehicleFilter>
+      <include>
+        <nations>	ussr	</nations>
+        <vehicle>
+          <tags>afterburning_user</tags>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>	Afterburning	<maxAmount>	1000	</maxAmount><deployTime>	20	</deployTime><consumePerSec>	150	</consumePerSec><cooldownTime>	2	</cooldownTime><rechargePerSec>	50	</rechargePerSec><enginePowerFactor>1.6</enginePowerFactor><powerFactorPerUnit>0.001</powerFactorPerUnit><instantPowerIncrease>	True	</instantPowerIncrease><maxSpeedFactor>	2	</maxSpeedFactor></script>
+  </afterburning>
   <ration_china>
     <id>	15	</id>
     <userString>#artefacts:ration_china/name</userString>
     <description>#artefacts:ration_china/descr</description>
     <icon>ration_china 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>stimulator</tags>
     <vehicleFilter>
       <include>
@@ -343,7 +370,8 @@
     <userString>#artefacts:ration_uk/name</userString>
     <description>#artefacts:ration_uk/descr</description>
     <icon>ration_uk 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>stimulator</tags>
     <vehicleFilter>
       <include>
@@ -357,7 +385,8 @@
     <userString>#artefacts:ration_japan/name</userString>
     <description>#artefacts:ration_japan/descr</description>
     <icon>ration_japan 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>stimulator</tags>
     <vehicleFilter>
       <include>
@@ -371,7 +400,8 @@
     <userString>#artefacts:ration_czech/name</userString>
     <description>#artefacts:ration_czech/descr</description>
     <icon>ration_czech 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>stimulator</tags>
     <vehicleFilter>
       <include>
@@ -385,7 +415,8 @@
     <userString>#artefacts:ration_sweden/name</userString>
     <description>#artefacts:ration_sweden/descr</description>
     <icon>ration_sweden 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>stimulator</tags>
     <vehicleFilter>
       <include>
@@ -399,7 +430,8 @@
     <userString>#artefacts:ration_poland/name</userString>
     <description>#artefacts:ration_poland/descr</description>
     <icon>ration_poland 0 0</icon>
-    <price>	50	<gold></gold></price>
+    <price>	20000	</price>
+    <improved>	true	</improved>
     <tags>stimulator</tags>
     <vehicleFilter>
       <include>
@@ -408,6 +440,21 @@
     </vehicleFilter>
     <script>Stimulator<crewLevelIncrease>	10	</crewLevelIncrease></script>
   </ration_poland>
+  <ration_italy>
+    <id>	64	</id>
+    <userString>#artefacts:ration_italy/name</userString>
+    <description>#artefacts:ration_italy/descr</description>
+    <icon>ration_italy 0 0</icon>
+    <price>	20000	</price>
+    <improved>	true	</improved>
+    <tags>stimulator</tags>
+    <vehicleFilter>
+      <include>
+        <nations>italy</nations>
+      </include>
+    </vehicleFilter>
+    <script>Stimulator<crewLevelIncrease>	10	</crewLevelIncrease></script>
+  </ration_italy>
   <artillery_tier1>
     <id>	19	</id>
     <userString>#artefacts:artillery/name</userString>
@@ -424,7 +471,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	25	</shotsNumber><areaRadius>	10	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>65.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	25	</shotsNumber><areaRadius>	10	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>65.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_tier1>
   <artillery_tier2>
     <id>	20	</id>
@@ -442,7 +489,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	30	</shotsNumber><areaRadius>	11	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>65.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	30	</shotsNumber><areaRadius>	11	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>65.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_tier2>
   <artillery_tier3>
     <id>	21	</id>
@@ -460,7 +507,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	35	</shotsNumber><areaRadius>	12	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	35	</shotsNumber><areaRadius>	12	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_tier3>
   <artillery_tier4>
     <id>	22	</id>
@@ -478,7 +525,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	40	</shotsNumber><areaRadius>	12	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	40	</shotsNumber><areaRadius>	12	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_tier4>
   <artillery_tier5>
     <id>	23	</id>
@@ -496,7 +543,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	55	</shotsNumber><areaRadius>	14	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	55	</shotsNumber><areaRadius>	14	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_tier5>
   <artillery_tier6>
     <id>	24	</id>
@@ -514,7 +561,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	75	</shotsNumber><areaRadius>	16	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>90 90</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>56.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	75	</shotsNumber><areaRadius>	16	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>90 90</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>56.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_tier6>
   <artillery_tier7>
     <id>	25	</id>
@@ -532,7 +579,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	90	</shotsNumber><areaRadius>	19	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>90 90</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>52.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	90	</shotsNumber><areaRadius>	19	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>90 90</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>52.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_tier7>
   <artillery_tier8>
     <id>	26	</id>
@@ -550,7 +597,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	115	</shotsNumber><areaRadius>	21	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>95 95</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>48.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	115	</shotsNumber><areaRadius>	21	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>95 95</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>48.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_tier8>
   <artillery_tier9>
     <id>	27	</id>
@@ -568,7 +615,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	130	</shotsNumber><areaRadius>	23	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>95 95</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>44.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	130	</shotsNumber><areaRadius>	23	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>95 95</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>44.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_tier9>
   <artillery_tier10>
     <id>	28	</id>
@@ -586,7 +633,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>3.0</delay><duration>5.0</duration><shotsNumber>	140	</shotsNumber><areaRadius>	24	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>100 100</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>40.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>3.0</delay><duration>5.0</duration><shotsNumber>	140	</shotsNumber><areaRadius>	24	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>100 100</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>40.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_tier10>
   <bomber_tier1>
     <id>	29	</id>
@@ -604,7 +651,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>7.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_02</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>20.</areaLength><areaWidth>15.</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	15	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>80 80</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>65.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>7.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_02</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>20.</areaLength><areaWidth>15.</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	15	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>80 80</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>65.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_tier1>
   <bomber_tier2>
     <id>	30	</id>
@@ -622,7 +669,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>7.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_03</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>20.</areaLength><areaWidth>15.</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	20	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>80 80</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>65.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>7.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_03</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>20.</areaLength><areaWidth>15.</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	20	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>80 80</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>65.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_tier2>
   <bomber_tier3>
     <id>	31	</id>
@@ -640,7 +687,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>7.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_01</wwsoundEvent><speed>	50	</speed><heights>170 120</heights><areaLength>30.</areaLength><areaWidth>20.</areaWidth><antepositions>0.</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	25	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>80 80</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>7.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_01</wwsoundEvent><speed>	50	</speed><heights>170 120</heights><areaLength>30.</areaLength><areaWidth>20.</areaWidth><antepositions>0.</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	25	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>80 80</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_tier3>
   <bomber_tier4>
     <id>	32	</id>
@@ -658,7 +705,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>7.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_02</wwsoundEvent><speed>	50	</speed><heights>170 120</heights><areaLength>30.</areaLength><areaWidth>20.</areaWidth><antepositions>0.</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	30	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>80 80</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>7.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_02</wwsoundEvent><speed>	50	</speed><heights>170 120</heights><areaLength>30.</areaLength><areaWidth>20.</areaWidth><antepositions>0.</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	30	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>80 80</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_tier4>
   <bomber_tier5>
     <id>	33	</id>
@@ -676,7 +723,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>7.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_03</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>30.</areaLength><areaWidth>20.</areaWidth><antepositions>0.</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	35	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>80 80</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>7.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_03</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>30.</areaLength><areaWidth>20.</areaWidth><antepositions>0.</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	35	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>80 80</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_tier5>
   <bomber_tier6>
     <id>	34	</id>
@@ -694,7 +741,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>7.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_04</wwsoundEvent><speed>	50	</speed><heights>170 120</heights><areaLength>40.</areaLength><areaWidth>30.</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	60	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>90 90</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>56.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>7.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_04</wwsoundEvent><speed>	50	</speed><heights>170 120</heights><areaLength>40.</areaLength><areaWidth>30.</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	60	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>90 90</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>56.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_tier6>
   <bomber_tier7>
     <id>	35	</id>
@@ -712,7 +759,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_01</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>40.</areaLength><areaWidth>30.</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	75	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>90 90</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>52.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_01</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>40.</areaLength><areaWidth>30.</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	75	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>90 90</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>52.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_tier7>
   <bomber_tier8>
     <id>	36	</id>
@@ -730,7 +777,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_02</wwsoundEvent><speed>	200	</speed><heights>170 120</heights><areaLength>55.</areaLength><areaWidth>35.</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	110	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>95 95</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>48.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_02</wwsoundEvent><speed>	200	</speed><heights>170 120</heights><areaLength>55.</areaLength><areaWidth>35.</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	110	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>95 95</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>48.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_tier8>
   <bomber_tier9>
     <id>	37	</id>
@@ -748,7 +795,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_03</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>55.</areaLength><areaWidth>35.</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	120	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>95 95</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>44.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_03</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>55.</areaLength><areaWidth>35.</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	120	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>95 95</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>44.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_tier9>
   <bomber_tier10>
     <id>	38	</id>
@@ -766,7 +813,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_04</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>	55	</areaLength><areaWidth>	35	</areaWidth><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	130	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>100 100</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>40.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_04</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>	55	</areaLength><areaWidth>	35	</areaWidth><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	130	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>100 100</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>40.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_tier10>
   <artillery_cw_tier6>
     <id>	45	</id>
@@ -784,7 +831,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>3.0</delay><duration>4.0</duration><shotsNumber>	60	</shotsNumber><areaRadius>	17	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>1 1</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>56.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>3.0</delay><duration>4.0</duration><shotsNumber>	60	</shotsNumber><areaRadius>	17	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>1 1</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>56.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_cw_tier6>
   <artillery_cw_tier8>
     <id>	47	</id>
@@ -802,7 +849,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>3.0</delay><duration>4.0</duration><shotsNumber>	110	</shotsNumber><areaRadius>	20	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>30 30</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>48.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>3.0</delay><duration>4.0</duration><shotsNumber>	110	</shotsNumber><areaRadius>	20	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>30 30</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>48.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_cw_tier8>
   <artillery_cw_tier10>
     <id>	49	</id>
@@ -820,7 +867,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>3.0</delay><duration>5.0</duration><shotsNumber>	140	</shotsNumber><areaRadius>	24	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>100 100</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>40.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>3.0</delay><duration>5.0</duration><shotsNumber>	140	</shotsNumber><areaRadius>	24	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>100 100</piercingPower><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>40.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	true	</noOwner></script>
   </artillery_cw_tier10>
   <bomber_cw_tier6>
     <id>	55	</id>
@@ -838,7 +885,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_04</wwsoundEvent><speed>	50	</speed><heights>170 120</heights><areaLength>	35	</areaLength><areaWidth>	25	</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	30	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>1 1</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>56.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_04</wwsoundEvent><speed>	50	</speed><heights>170 120</heights><areaLength>	35	</areaLength><areaWidth>	25	</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	30	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>1 1</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>56.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_cw_tier6>
   <bomber_cw_tier8>
     <id>	57	</id>
@@ -856,7 +903,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_02</wwsoundEvent><speed>	200	</speed><heights>170 120</heights><areaLength>	40	</areaLength><areaWidth>	30	</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	75	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>30 30</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>48.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_02</wwsoundEvent><speed>	200	</speed><heights>170 120</heights><areaLength>	40	</areaLength><areaWidth>	30	</areaWidth><antepositions>0.</antepositions><lateropositions>0.</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	75	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>30 30</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>48.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_cw_tier8>
   <bomber_cw_tier10>
     <id>	59	</id>
@@ -874,7 +921,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_04</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>	55	</areaLength><areaWidth>	35	</areaWidth><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	130	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>100 100</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>40.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_04</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>	55	</areaLength><areaWidth>	35	</areaWidth><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	130	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>100 100</piercingPower><gravity>	10000	</gravity><reusable>	false	</reusable><cooldownTime>60.0</cooldownTime><deployTime>40.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	true	</noOwner></script>
   </bomber_cw_tier10>
   <artillery_fallout>
     <id>	101	</id>
@@ -892,7 +939,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Artillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	40	</shotsNumber><areaRadius>	12	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><reusable>	true	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual></script>
+    <script>RageArtillery<delay>4.0</delay><duration>4.0</duration><shotsNumber>	40	</shotsNumber><areaRadius>	12	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><reusable>	true	</reusable><cooldownTime>60.0</cooldownTime><deployTime>60.0</deployTime><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	false	</noOwner></script>
   </artillery_fallout>
   <bomber_fallout>
     <id>	102	</id>
@@ -910,7 +957,7 @@
         </vehicle>
       </include>
     </vehicleFilter>
-    <script>Bomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_04</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>	55	</areaLength><areaWidth>	35	</areaWidth><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	130	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>100 100</piercingPower><gravity>	10000	</gravity><reusable>	true	</reusable><cooldownTime>60.0</cooldownTime><deployTime>40.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual></script>
+    <script>RageBomber<delay>6.0</delay><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><wwsoundEvent>plane_bomber_04</wwsoundEvent><speed>	80	</speed><heights>170 120</heights><areaLength>	55	</areaLength><areaWidth>	35	</areaWidth><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	130	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>100 100</piercingPower><gravity>	10000	</gravity><reusable>	true	</reusable><cooldownTime>60.0</cooldownTime><deployTime>40.0</deployTime><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	false	</noOwner></script>
   </bomber_fallout>
   <toolboxBattleBooster>
     <id>	103	</id>
@@ -1083,4 +1130,674 @@
     <tags>notForSale crewSkillBattleBooster</tags>
     <script>LastEffortBattleBooster<duration>	5	</duration></script>
   </lastEffortBattleBooster>
+  <artillery_epic>
+    <id>	118	</id>
+    <userString>#artefacts:artillery/name</userString>
+    <description>#artefacts:artillery/descr</description>
+    <icon>artillery 0 0</icon>
+    <price>	150	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <type>battleAbilities</type>
+    <tags>notForSale avatar trigger</tags>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>ConsumableArtillery<shortDescription>#artefacts:artillery/shortDescr</shortDescription><longDescription>#artefacts:artillery/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaRadius</identifier><name>#epic_battle:abilityInfo/params/artillery/areaRadius</name><renderer>DescDirectMetersTextParam</renderer></item><item><identifier>shotsNumber</identifier><name>#epic_battle:abilityInfo/params/artillery/shotsNumber</name><renderer>AscDirectNumericDeltaBarParam</renderer></item><item><identifier>	duration	</identifier><name>#epic_battle:abilityInfo/params/artillery/duration</name><renderer>DescDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>150.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>3.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><delay>4.0</delay><duration>4.0</duration><shotsNumber>	40	</shotsNumber><areaRadius>	12	</areaRadius><shellCompactDescr>	33306	</shellCompactDescr><piercingPower>80 80</piercingPower><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	false	</noOwner></script>
+  </artillery_epic>
+  <bomber_epic>
+    <id>	119	</id>
+    <userString>#artefacts:bomber/name</userString>
+    <description>#artefacts:bomber/descr</description>
+    <icon>bomber 0 0</icon>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <type>battleAbilities</type>
+    <tags>notForSale avatar trigger</tags>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>	ConsumableBomber	<shortDescription>#artefacts:bomber/shortDescr</shortDescription><longDescription>#artefacts:bomber/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaLength_areaWidth</identifier><name>#epic_battle:abilityInfo/params/airstrike/dropArea</name><renderer>AscMultiMetersTextParam</renderer></item><item><identifier>bombsNumber</identifier><name>#epic_battle:abilityInfo/params/airstrike/bombsNumber</name><renderer>AscDirectNumericDeltaBarParam</renderer></item><item><identifier>shellCompactDescr</identifier><name>#epic_battle:abilityInfo/params/airstrike/stun</name><renderer>	AscShellStunSecondsDeltaBarParam	</renderer></item></tooltips><cooldownTime>240.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>3.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><delay>6.0</delay><speed>	80	</speed><heights>170 120</heights><areaLength>	55	</areaLength><areaWidth>	35	</areaWidth><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	130	</bombsNumber><shellCompactDescr>	33050	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>100 100</piercingPower><gravity>	10000	</gravity><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><soundEvent>/plane/bombardment/bomber_04</soundEvent><wwsoundEvent>eb_bomber_engine</wwsoundEvent><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	false	</noOwner></script>
+  </bomber_epic>
+  <recon_epic>
+    <id>	120	</id>
+    <userString>#artefacts:recon/name</userString>
+    <description>#artefacts:recon/descr</description>
+    <icon>recon 0 0</icon>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>ConsumableRecon<shortDescription>#artefacts:recon/shortDescr</shortDescription><longDescription>#artefacts:recon/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>#epic_battle:abilityInfo/params/recon/revealedArea/value</identifier><name>#epic_battle:abilityInfo/params/recon/revealedArea</name><renderer>FixedTextParam</renderer></item><item><identifier>	spottingDuration	</identifier><name>#epic_battle:abilityInfo/params/recon/spottingDuration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>180.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>3.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><delay>6.0</delay><speed>112.5</speed><areaRadius>	150	</areaRadius><scanPointsAmount>	4	</scanPointsAmount><spottingDuration>15.0</spottingDuration><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><heights>170 120</heights><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><soundEvent>/plane/bombardment/bomber_04</soundEvent><wwsoundEvent>eb_bomber_engine</wwsoundEvent><areaVisual>content/Interface/TargetPoint/ReconFlight.visual</areaVisual></script>
+  </recon_epic>
+  <recon_epic_level1>
+    <id>	121	</id>
+    <userString>#artefacts:recon/name</userString>
+    <description>#artefacts:recon/descr</description>
+    <icon>recon 0 0</icon>
+    <soundNotification>eb_ability_recon</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicRecon<shortDescription>#artefacts:recon/shortDescr</shortDescription><longDescription>#artefacts:recon/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>#epic_battle:abilityInfo/params/recon/revealedArea/value</identifier><name>#epic_battle:abilityInfo/params/recon/revealedArea</name><renderer>FixedTextParam</renderer></item><item><identifier>	spottingDuration	</identifier><name>#epic_battle:abilityInfo/params/recon/spottingDuration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>210.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>6.0</delay><speed>	65	</speed><areaRadius>	150	</areaRadius><scanPointsAmount>	4	</scanPointsAmount><spottingDuration>20.0</spottingDuration><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><heights>170 120</heights><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><soundEvent>/plane/bombardment/bomber_04</soundEvent><wwsoundEvent>eb_bomber_engine</wwsoundEvent><areaVisual>content/Interface/TargetPoint/ReconFlight.visual</areaVisual></script>
+  </recon_epic_level1>
+  <recon_epic_level2>
+    <id>	122	</id>
+    <userString>#artefacts:recon/name</userString>
+    <description>#artefacts:recon/descr</description>
+    <icon>recon 0 0</icon>
+    <soundNotification>eb_ability_recon</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicRecon<shortDescription>#artefacts:recon/shortDescr</shortDescription><longDescription>#artefacts:recon/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>#epic_battle:abilityInfo/params/recon/revealedArea/value</identifier><name>#epic_battle:abilityInfo/params/recon/revealedArea</name><renderer>FixedTextParam</renderer></item><item><identifier>	spottingDuration	</identifier><name>#epic_battle:abilityInfo/params/recon/spottingDuration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>210.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>5.0</delay><speed>	60	</speed><areaRadius>	150	</areaRadius><scanPointsAmount>	4	</scanPointsAmount><spottingDuration>22.0</spottingDuration><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><heights>170 120</heights><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><soundEvent>/plane/bombardment/bomber_04</soundEvent><wwsoundEvent>eb_bomber_engine</wwsoundEvent><areaVisual>content/Interface/TargetPoint/ReconFlight.visual</areaVisual></script>
+  </recon_epic_level2>
+  <recon_epic_level3>
+    <id>	123	</id>
+    <userString>#artefacts:recon/name</userString>
+    <description>#artefacts:recon/descr</description>
+    <icon>recon 0 0</icon>
+    <soundNotification>eb_ability_recon</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicRecon<shortDescription>#artefacts:recon/shortDescr</shortDescription><longDescription>#artefacts:recon/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>#epic_battle:abilityInfo/params/recon/revealedArea/value</identifier><name>#epic_battle:abilityInfo/params/recon/revealedArea</name><renderer>FixedTextParam</renderer></item><item><identifier>	spottingDuration	</identifier><name>#epic_battle:abilityInfo/params/recon/spottingDuration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>210.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>5.0</delay><speed>	55	</speed><areaRadius>	150	</areaRadius><scanPointsAmount>	4	</scanPointsAmount><spottingDuration>25.0</spottingDuration><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><heights>170 120</heights><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><soundEvent>/plane/bombardment/bomber_04</soundEvent><wwsoundEvent>eb_bomber_engine</wwsoundEvent><areaVisual>content/Interface/TargetPoint/ReconFlight.visual</areaVisual></script>
+  </recon_epic_level3>
+  <recon_epic_level4>
+    <id>	124	</id>
+    <userString>#artefacts:recon/name</userString>
+    <description>#artefacts:recon/descr</description>
+    <icon>recon 0 0</icon>
+    <soundNotification>eb_ability_recon</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicRecon<shortDescription>#artefacts:recon/shortDescr</shortDescription><longDescription>#artefacts:recon/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>#epic_battle:abilityInfo/params/recon/revealedArea/value</identifier><name>#epic_battle:abilityInfo/params/recon/revealedArea</name><renderer>FixedTextParam</renderer></item><item><identifier>	spottingDuration	</identifier><name>#epic_battle:abilityInfo/params/recon/spottingDuration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>210.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>4.0</delay><speed>	50	</speed><areaRadius>	150	</areaRadius><scanPointsAmount>	4	</scanPointsAmount><spottingDuration>27.0</spottingDuration><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><heights>170 120</heights><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><soundEvent>/plane/bombardment/bomber_04</soundEvent><wwsoundEvent>eb_bomber_engine</wwsoundEvent><areaVisual>content/Interface/TargetPoint/ReconFlight.visual</areaVisual></script>
+  </recon_epic_level4>
+  <recon_epic_level5>
+    <id>	125	</id>
+    <userString>#artefacts:recon/name</userString>
+    <description>#artefacts:recon/descr</description>
+    <icon>recon 0 0</icon>
+    <soundNotification>eb_ability_recon</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicRecon<shortDescription>#artefacts:recon/shortDescr</shortDescription><longDescription>#artefacts:recon/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>#epic_battle:abilityInfo/params/recon/revealedArea/value</identifier><name>#epic_battle:abilityInfo/params/recon/revealedArea</name><renderer>FixedTextParam</renderer></item><item><identifier>	spottingDuration	</identifier><name>#epic_battle:abilityInfo/params/recon/spottingDuration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>210.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>4.0</delay><speed>	45	</speed><areaRadius>	150	</areaRadius><scanPointsAmount>	4	</scanPointsAmount><spottingDuration>30.0</spottingDuration><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><heights>170 120</heights><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><soundEvent>/plane/bombardment/bomber_04</soundEvent><wwsoundEvent>eb_bomber_engine</wwsoundEvent><areaVisual>content/Interface/TargetPoint/ReconFlight.visual</areaVisual></script>
+  </recon_epic_level5>
+  <bomber_epic_level1>
+    <id>	131	</id>
+    <userString>#artefacts:bomber/name</userString>
+    <description>#artefacts:bomber/descr</description>
+    <icon>bomber 0 0</icon>
+    <soundNotification>eb_ability_bomber</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicBomber<shortDescription>#artefacts:bomber/shortDescr</shortDescription><longDescription>#artefacts:bomber/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaLength_areaWidth</identifier><name>#epic_battle:abilityInfo/params/airstrike/dropArea</name><renderer>AscMultiMetersTextParam</renderer></item><item><identifier>bombsNumber</identifier><name>#epic_battle:abilityInfo/params/airstrike/bombsNumber</name><renderer>AscDirectNumericDeltaBarParam</renderer></item><item><identifier>shellCompactDescr</identifier><name>#epic_battle:abilityInfo/params/airstrike/stun</name><renderer>	AscShellStunSecondsDeltaBarParam	</renderer></item></tooltips><cooldownTime>360.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>5.0</delay><speed>	80	</speed><heights>100 60</heights><areaLength>	50	</areaLength><areaWidth>	30	</areaWidth><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	40	</bombsNumber><shellCompactDescr>	66842	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>10 10</piercingPower><gravity>	10000	</gravity><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><soundEvent>/plane/bombardment/bomber_04</soundEvent><wwsoundEvent>eb_bomber_engine</wwsoundEvent><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	false	</noOwner></script>
+  </bomber_epic_level1>
+  <bomber_epic_level2>
+    <id>	132	</id>
+    <userString>#artefacts:bomber/name</userString>
+    <description>#artefacts:bomber/descr</description>
+    <icon>bomber 0 0</icon>
+    <soundNotification>eb_ability_bomber</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicBomber<shortDescription>#artefacts:bomber/shortDescr</shortDescription><longDescription>#artefacts:bomber/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaLength_areaWidth</identifier><name>#epic_battle:abilityInfo/params/airstrike/dropArea</name><renderer>AscMultiMetersTextParam</renderer></item><item><identifier>bombsNumber</identifier><name>#epic_battle:abilityInfo/params/airstrike/bombsNumber</name><renderer>AscDirectNumericDeltaBarParam</renderer></item><item><identifier>shellCompactDescr</identifier><name>#epic_battle:abilityInfo/params/airstrike/stun</name><renderer>	AscShellStunSecondsDeltaBarParam	</renderer></item></tooltips><cooldownTime>360.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>5.0</delay><speed>	80	</speed><heights>100 60</heights><areaLength>	50	</areaLength><areaWidth>	30	</areaWidth><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	45	</bombsNumber><shellCompactDescr>	67098	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>10 10</piercingPower><gravity>	10000	</gravity><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><soundEvent>/plane/bombardment/bomber_04</soundEvent><wwsoundEvent>eb_bomber_engine</wwsoundEvent><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	false	</noOwner></script>
+  </bomber_epic_level2>
+  <bomber_epic_level3>
+    <id>	133	</id>
+    <userString>#artefacts:bomber/name</userString>
+    <description>#artefacts:bomber/descr</description>
+    <icon>bomber 0 0</icon>
+    <soundNotification>eb_ability_bomber</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicBomber<shortDescription>#artefacts:bomber/shortDescr</shortDescription><longDescription>#artefacts:bomber/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaLength_areaWidth</identifier><name>#epic_battle:abilityInfo/params/airstrike/dropArea</name><renderer>AscMultiMetersTextParam</renderer></item><item><identifier>bombsNumber</identifier><name>#epic_battle:abilityInfo/params/airstrike/bombsNumber</name><renderer>AscDirectNumericDeltaBarParam</renderer></item><item><identifier>shellCompactDescr</identifier><name>#epic_battle:abilityInfo/params/airstrike/stun</name><renderer>	AscShellStunSecondsDeltaBarParam	</renderer></item></tooltips><cooldownTime>360.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>5.0</delay><speed>	80	</speed><heights>100 60</heights><areaLength>	50	</areaLength><areaWidth>	30	</areaWidth><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	50	</bombsNumber><shellCompactDescr>	67354	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>10 10</piercingPower><gravity>	10000	</gravity><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><soundEvent>/plane/bombardment/bomber_04</soundEvent><wwsoundEvent>eb_bomber_engine</wwsoundEvent><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	false	</noOwner></script>
+  </bomber_epic_level3>
+  <bomber_epic_level4>
+    <id>	134	</id>
+    <userString>#artefacts:bomber/name</userString>
+    <description>#artefacts:bomber/descr</description>
+    <icon>bomber 0 0</icon>
+    <soundNotification>eb_ability_bomber</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicBomber<shortDescription>#artefacts:bomber/shortDescr</shortDescription><longDescription>#artefacts:bomber/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaLength_areaWidth</identifier><name>#epic_battle:abilityInfo/params/airstrike/dropArea</name><renderer>AscMultiMetersTextParam</renderer></item><item><identifier>bombsNumber</identifier><name>#epic_battle:abilityInfo/params/airstrike/bombsNumber</name><renderer>AscDirectNumericDeltaBarParam</renderer></item><item><identifier>shellCompactDescr</identifier><name>#epic_battle:abilityInfo/params/airstrike/stun</name><renderer>	AscShellStunSecondsDeltaBarParam	</renderer></item></tooltips><cooldownTime>360.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>5.0</delay><speed>	80	</speed><heights>100 60</heights><areaLength>	50	</areaLength><areaWidth>	30	</areaWidth><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	55	</bombsNumber><shellCompactDescr>	67610	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>10 10</piercingPower><gravity>	10000	</gravity><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><soundEvent>/plane/bombardment/bomber_04</soundEvent><wwsoundEvent>eb_bomber_engine</wwsoundEvent><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	false	</noOwner></script>
+  </bomber_epic_level4>
+  <bomber_epic_level5>
+    <id>	135	</id>
+    <userString>#artefacts:bomber/name</userString>
+    <description>#artefacts:bomber/descr</description>
+    <icon>bomber 0 0</icon>
+    <soundNotification>eb_ability_bomber</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicBomber<shortDescription>#artefacts:bomber/shortDescr</shortDescription><longDescription>#artefacts:bomber/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaLength_areaWidth</identifier><name>#epic_battle:abilityInfo/params/airstrike/dropArea</name><renderer>AscMultiMetersTextParam</renderer></item><item><identifier>bombsNumber</identifier><name>#epic_battle:abilityInfo/params/airstrike/bombsNumber</name><renderer>AscDirectNumericDeltaBarParam</renderer></item><item><identifier>shellCompactDescr</identifier><name>#epic_battle:abilityInfo/params/airstrike/stun</name><renderer>	AscShellStunSecondsDeltaBarParam	</renderer></item></tooltips><cooldownTime>360.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>5.0</delay><speed>	80	</speed><heights>100 160</heights><areaLength>	50	</areaLength><areaWidth>	30	</areaWidth><antepositions>	0	</antepositions><lateropositions>	0	</lateropositions><bombingMask>	1	</bombingMask><waveFraction>	1	</waveFraction><bombsNumber>	60	</bombsNumber><shellCompactDescr>	67866	</shellCompactDescr><tracerKind>	1	</tracerKind><piercingPower>10 10</piercingPower><gravity>	10000	</gravity><modelName>content/MilitaryEnvironment/mle205_IL2/normal/lod0/mle205_IL2.model</modelName><soundEvent>/plane/bombardment/bomber_04</soundEvent><wwsoundEvent>eb_bomber_engine</wwsoundEvent><areaVisual>content/Interface/TargetPoint/rectangle2.visual</areaVisual><noOwner>	false	</noOwner></script>
+  </bomber_epic_level5>
+  <artillery_epic_level1>
+    <id>	141	</id>
+    <userString>#artefacts:artillery/name</userString>
+    <description>#artefacts:artillery/descr</description>
+    <icon>artillery 0 0</icon>
+    <soundNotification>eb_ability_artillery</soundNotification>
+    <price>	150	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicArtillery<shortDescription>#artefacts:artillery/shortDescr</shortDescription><longDescription>#artefacts:artillery/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaRadius</identifier><name>#epic_battle:abilityInfo/params/artillery/areaRadius</name><renderer>DescDirectMetersTextParam</renderer></item><item><identifier>shotsNumber</identifier><name>#epic_battle:abilityInfo/params/artillery/shotsNumber</name><renderer>AscDirectNumericDeltaBarParam</renderer></item><item><identifier>	duration	</identifier><name>#epic_battle:abilityInfo/params/artillery/duration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>340.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>5.0</delay><duration>4.0</duration><shotsNumber>	16	</shotsNumber><areaRadius>	10	</areaRadius><shellCompactDescr>	65562	</shellCompactDescr><piercingPower>20 20</piercingPower><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	false	</noOwner><shotSoundPreDelay>	2	</shotSoundPreDelay><wwsoundShot>eb_ability_artillery_firing</wwsoundShot></script>
+  </artillery_epic_level1>
+  <artillery_epic_level2>
+    <id>	142	</id>
+    <userString>#artefacts:artillery/name</userString>
+    <description>#artefacts:artillery/descr</description>
+    <icon>artillery 0 0</icon>
+    <soundNotification>eb_ability_artillery</soundNotification>
+    <price>	150	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicArtillery<shortDescription>#artefacts:artillery/shortDescr</shortDescription><longDescription>#artefacts:artillery/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaRadius</identifier><name>#epic_battle:abilityInfo/params/artillery/areaRadius</name><renderer>DescDirectMetersTextParam</renderer></item><item><identifier>shotsNumber</identifier><name>#epic_battle:abilityInfo/params/artillery/shotsNumber</name><renderer>AscDirectNumericDeltaBarParam</renderer></item><item><identifier>	duration	</identifier><name>#epic_battle:abilityInfo/params/artillery/duration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>330.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>5.0</delay><duration>4.25</duration><shotsNumber>	17	</shotsNumber><areaRadius>	10	</areaRadius><shellCompactDescr>	65818	</shellCompactDescr><piercingPower>20 20</piercingPower><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	false	</noOwner><shotSoundPreDelay>	2	</shotSoundPreDelay><wwsoundShot>eb_ability_artillery_firing</wwsoundShot></script>
+  </artillery_epic_level2>
+  <artillery_epic_level3>
+    <id>	143	</id>
+    <userString>#artefacts:artillery/name</userString>
+    <description>#artefacts:artillery/descr</description>
+    <icon>artillery 0 0</icon>
+    <soundNotification>eb_ability_artillery</soundNotification>
+    <price>	150	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicArtillery<shortDescription>#artefacts:artillery/shortDescr</shortDescription><longDescription>#artefacts:artillery/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaRadius</identifier><name>#epic_battle:abilityInfo/params/artillery/areaRadius</name><renderer>DescDirectMetersTextParam</renderer></item><item><identifier>shotsNumber</identifier><name>#epic_battle:abilityInfo/params/artillery/shotsNumber</name><renderer>AscDirectNumericDeltaBarParam</renderer></item><item><identifier>	duration	</identifier><name>#epic_battle:abilityInfo/params/artillery/duration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>320.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>5.0</delay><duration>4.5</duration><shotsNumber>	18	</shotsNumber><areaRadius>	10	</areaRadius><shellCompactDescr>	66074	</shellCompactDescr><piercingPower>20 20</piercingPower><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	false	</noOwner><shotSoundPreDelay>	2	</shotSoundPreDelay><wwsoundShot>eb_ability_artillery_firing</wwsoundShot></script>
+  </artillery_epic_level3>
+  <artillery_epic_level4>
+    <id>	144	</id>
+    <userString>#artefacts:artillery/name</userString>
+    <description>#artefacts:artillery/descr</description>
+    <icon>artillery 0 0</icon>
+    <soundNotification>eb_ability_artillery</soundNotification>
+    <price>	150	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicArtillery<shortDescription>#artefacts:artillery/shortDescr</shortDescription><longDescription>#artefacts:artillery/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaRadius</identifier><name>#epic_battle:abilityInfo/params/artillery/areaRadius</name><renderer>DescDirectMetersTextParam</renderer></item><item><identifier>shotsNumber</identifier><name>#epic_battle:abilityInfo/params/artillery/shotsNumber</name><renderer>AscDirectNumericDeltaBarParam</renderer></item><item><identifier>	duration	</identifier><name>#epic_battle:abilityInfo/params/artillery/duration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>310.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>5.0</delay><duration>4.75</duration><shotsNumber>	19	</shotsNumber><areaRadius>	10	</areaRadius><shellCompactDescr>	66330	</shellCompactDescr><piercingPower>20 20</piercingPower><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	false	</noOwner><shotSoundPreDelay>	2	</shotSoundPreDelay><wwsoundShot>eb_ability_artillery_firing</wwsoundShot></script>
+  </artillery_epic_level4>
+  <artillery_epic_level5>
+    <id>	145	</id>
+    <userString>#artefacts:artillery/name</userString>
+    <description>#artefacts:artillery/descr</description>
+    <icon>artillery 0 0</icon>
+    <soundNotification>eb_ability_artillery</soundNotification>
+    <price>	150	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicArtillery<shortDescription>#artefacts:artillery/shortDescr</shortDescription><longDescription>#artefacts:artillery/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>delay</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaRadius</identifier><name>#epic_battle:abilityInfo/params/artillery/areaRadius</name><renderer>DescDirectMetersTextParam</renderer></item><item><identifier>shotsNumber</identifier><name>#epic_battle:abilityInfo/params/artillery/shotsNumber</name><renderer>AscDirectNumericDeltaBarParam</renderer></item><item><identifier>	duration	</identifier><name>#epic_battle:abilityInfo/params/artillery/duration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>300.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><delay>5.0</delay><duration>5.0</duration><shotsNumber>	20	</shotsNumber><areaRadius>	10	</areaRadius><shellCompactDescr>	66586	</shellCompactDescr><piercingPower>20 20</piercingPower><areaVisual>content/Interface/TargetPoint/TargetPoint.visual</areaVisual><noOwner>	false	</noOwner><shotSoundPreDelay>	2	</shotSoundPreDelay><wwsoundShot>eb_ability_artillery_firing</wwsoundShot></script>
+  </artillery_epic_level5>
+  <smoke_epic_level1>
+    <id>	151	</id>
+    <userString>#artefacts:smoke/name</userString>
+    <description>#artefacts:smoke/descr</description>
+    <icon>smoke 0 0</icon>
+    <soundNotification>eb_ability_smoke_screen</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicSmoke<shortDescription>#artefacts:smoke/shortDescr</shortDescription><longDescription>#artefacts:smoke/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>	minDelay	</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaLength_areaWidth</identifier><name>#epic_battle:abilityInfo/params/smoke/targetedArea</name><renderer>AscMultiMetersTextParam</renderer></item><item><identifier>projectilesNumber</identifier><name>#epic_battle:abilityInfo/params/smoke/projectilesNumber</name><renderer>AscDirectNumericTextParam</renderer></item><item><identifier>totalDuration</identifier><name>#epic_battle:abilityInfo/params/smoke/totalDuration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>320.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><minDelay>5.0</minDelay><deltaDelayRange>0.1 0.3</deltaDelayRange><smokeModelName>objects/misc/server_smoke/cylinder1.model</smokeModelName><smokeEffectName>SmokeScreenEffect_lev1</smokeEffectName><startRadius>5.</startRadius><expandedRadius>25.</expandedRadius><startHeight>10.</startHeight><expandedHeight>40.</expandedHeight><heightUpFraction>0.7</heightUpFraction><expansionDuration>5.</expansionDuration><dispersionRadius>5.</dispersionRadius><totalDuration>30.</totalDuration><smokeOpacity>10.</smokeOpacity><visionRadiusFactor>0.66</visionRadiusFactor><areaLength>	200	</areaLength><areaWidth>	50	</areaWidth><projectilesNumber>	5	</projectilesNumber><shellCompactDescr>	64538	</shellCompactDescr><areaVisual>content/Interface/TargetPoint/SmokeScreen.visual</areaVisual><noOwner>	false	</noOwner><shotSoundPreDelay>	3	</shotSoundPreDelay><wwsoundShot>eb_ability_smoke_firing</wwsoundShot></script>
+  </smoke_epic_level1>
+  <smoke_epic_level2>
+    <id>	152	</id>
+    <userString>#artefacts:smoke/name</userString>
+    <description>#artefacts:smoke/descr</description>
+    <icon>smoke 0 0</icon>
+    <soundNotification>eb_ability_smoke_screen</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicSmoke<shortDescription>#artefacts:smoke/shortDescr</shortDescription><longDescription>#artefacts:smoke/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>	minDelay	</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaLength_areaWidth</identifier><name>#epic_battle:abilityInfo/params/smoke/targetedArea</name><renderer>AscMultiMetersTextParam</renderer></item><item><identifier>projectilesNumber</identifier><name>#epic_battle:abilityInfo/params/smoke/projectilesNumber</name><renderer>AscDirectNumericTextParam</renderer></item><item><identifier>totalDuration</identifier><name>#epic_battle:abilityInfo/params/smoke/totalDuration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>310.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><minDelay>5.0</minDelay><deltaDelayRange>0.1 0.3</deltaDelayRange><smokeModelName>objects/misc/server_smoke/cylinder1.model</smokeModelName><smokeEffectName>SmokeScreenEffect_lev2</smokeEffectName><startRadius>5.</startRadius><expandedRadius>25.</expandedRadius><startHeight>10.</startHeight><expandedHeight>40.</expandedHeight><heightUpFraction>0.7</heightUpFraction><expansionDuration>5.</expansionDuration><dispersionRadius>5.</dispersionRadius><totalDuration>32.</totalDuration><smokeOpacity>10.</smokeOpacity><visionRadiusFactor>0.66</visionRadiusFactor><areaLength>	200	</areaLength><areaWidth>	50	</areaWidth><projectilesNumber>	5	</projectilesNumber><shellCompactDescr>	64538	</shellCompactDescr><areaVisual>content/Interface/TargetPoint/SmokeScreen.visual</areaVisual><noOwner>	false	</noOwner><shotSoundPreDelay>	3	</shotSoundPreDelay><wwsoundShot>eb_ability_smoke_firing</wwsoundShot></script>
+  </smoke_epic_level2>
+  <smoke_epic_level3>
+    <id>	153	</id>
+    <userString>#artefacts:smoke/name</userString>
+    <description>#artefacts:smoke/descr</description>
+    <icon>smoke 0 0</icon>
+    <soundNotification>eb_ability_smoke_screen</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicSmoke<shortDescription>#artefacts:smoke/shortDescr</shortDescription><longDescription>#artefacts:smoke/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>	minDelay	</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaLength_areaWidth</identifier><name>#epic_battle:abilityInfo/params/smoke/targetedArea</name><renderer>AscMultiMetersTextParam</renderer></item><item><identifier>projectilesNumber</identifier><name>#epic_battle:abilityInfo/params/smoke/projectilesNumber</name><renderer>AscDirectNumericTextParam</renderer></item><item><identifier>totalDuration</identifier><name>#epic_battle:abilityInfo/params/smoke/totalDuration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>300.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><minDelay>5.0</minDelay><deltaDelayRange>0.1 0.3</deltaDelayRange><smokeModelName>objects/misc/server_smoke/cylinder1.model</smokeModelName><smokeEffectName>SmokeScreenEffect_lev3</smokeEffectName><startRadius>5.</startRadius><expandedRadius>25.</expandedRadius><startHeight>10.</startHeight><expandedHeight>40.</expandedHeight><heightUpFraction>0.7</heightUpFraction><expansionDuration>5.</expansionDuration><dispersionRadius>5.</dispersionRadius><totalDuration>35.</totalDuration><smokeOpacity>10.</smokeOpacity><visionRadiusFactor>0.66</visionRadiusFactor><areaLength>	200	</areaLength><areaWidth>	50	</areaWidth><projectilesNumber>	5	</projectilesNumber><shellCompactDescr>	64538	</shellCompactDescr><areaVisual>content/Interface/TargetPoint/SmokeScreen.visual</areaVisual><noOwner>	false	</noOwner><shotSoundPreDelay>	3	</shotSoundPreDelay><wwsoundShot>eb_ability_smoke_firing</wwsoundShot></script>
+  </smoke_epic_level3>
+  <smoke_epic_level4>
+    <id>	154	</id>
+    <userString>#artefacts:smoke/name</userString>
+    <description>#artefacts:smoke/descr</description>
+    <icon>smoke 0 0</icon>
+    <soundNotification>eb_ability_smoke_screen</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicSmoke<shortDescription>#artefacts:smoke/shortDescr</shortDescription><longDescription>#artefacts:smoke/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>	minDelay	</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaLength_areaWidth</identifier><name>#epic_battle:abilityInfo/params/smoke/targetedArea</name><renderer>AscMultiMetersTextParam</renderer></item><item><identifier>projectilesNumber</identifier><name>#epic_battle:abilityInfo/params/smoke/projectilesNumber</name><renderer>AscDirectNumericTextParam</renderer></item><item><identifier>totalDuration</identifier><name>#epic_battle:abilityInfo/params/smoke/totalDuration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>290.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><minDelay>5.0</minDelay><deltaDelayRange>0.1 0.3</deltaDelayRange><smokeModelName>objects/misc/server_smoke/cylinder1.model</smokeModelName><smokeEffectName>SmokeScreenEffect_lev4</smokeEffectName><startRadius>5.</startRadius><expandedRadius>25.</expandedRadius><startHeight>10.</startHeight><expandedHeight>40.</expandedHeight><heightUpFraction>0.7</heightUpFraction><expansionDuration>5.</expansionDuration><dispersionRadius>5.</dispersionRadius><totalDuration>37.</totalDuration><smokeOpacity>10.</smokeOpacity><visionRadiusFactor>0.66</visionRadiusFactor><areaLength>	200	</areaLength><areaWidth>	50	</areaWidth><projectilesNumber>	5	</projectilesNumber><shellCompactDescr>	64538	</shellCompactDescr><areaVisual>content/Interface/TargetPoint/SmokeScreen.visual</areaVisual><noOwner>	false	</noOwner><shotSoundPreDelay>	3	</shotSoundPreDelay><wwsoundShot>eb_ability_smoke_firing</wwsoundShot></script>
+  </smoke_epic_level4>
+  <smoke_epic_level5>
+    <id>	155	</id>
+    <userString>#artefacts:smoke/name</userString>
+    <description>#artefacts:smoke/descr</description>
+    <icon>smoke 0 0</icon>
+    <soundNotification>eb_ability_smoke_screen</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicSmoke<shortDescription>#artefacts:smoke/shortDescr</shortDescription><longDescription>#artefacts:smoke/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>	minDelay	</identifier><name>#epic_battle:abilityInfo/params/common/delay</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>areaLength_areaWidth</identifier><name>#epic_battle:abilityInfo/params/smoke/targetedArea</name><renderer>AscMultiMetersTextParam</renderer></item><item><identifier>projectilesNumber</identifier><name>#epic_battle:abilityInfo/params/smoke/projectilesNumber</name><renderer>AscDirectNumericTextParam</renderer></item><item><identifier>totalDuration</identifier><name>#epic_battle:abilityInfo/params/smoke/totalDuration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item></tooltips><cooldownTime>280.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><minDelay>5.0</minDelay><deltaDelayRange>0.1 0.3</deltaDelayRange><smokeModelName>objects/misc/server_smoke/cylinder1.model</smokeModelName><smokeEffectName>SmokeScreenEffect_lev5</smokeEffectName><startRadius>5.</startRadius><expandedRadius>25.</expandedRadius><startHeight>10.</startHeight><expandedHeight>40.</expandedHeight><heightUpFraction>0.7</heightUpFraction><expansionDuration>5.</expansionDuration><dispersionRadius>5.</dispersionRadius><totalDuration>40.</totalDuration><smokeOpacity>10.</smokeOpacity><visionRadiusFactor>0.66</visionRadiusFactor><areaLength>	200	</areaLength><areaWidth>	50	</areaWidth><projectilesNumber>	5	</projectilesNumber><shellCompactDescr>	64538	</shellCompactDescr><areaVisual>content/Interface/TargetPoint/SmokeScreen.visual</areaVisual><noOwner>	false	</noOwner><shotSoundPreDelay>	3	</shotSoundPreDelay><wwsoundShot>eb_ability_smoke_firing</wwsoundShot></script>
+  </smoke_epic_level5>
+  <inspire_level1>
+    <id>	164	</id>
+    <userString>#artefacts:inspire/name</userString>
+    <description>#artefacts:inspire/descr</description>
+    <icon>inspire 0 0</icon>
+    <soundNotification>eb_ability_inspire</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicInspire<shortDescription>#artefacts:inspire/shortDescr</shortDescription><longDescription>#artefacts:inspire/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>radius</identifier><name>#epic_battle:abilityInfo/params/inspire/radius</name><renderer>DescDirectMetersTextParam</renderer></item><item><identifier>	duration	</identifier><name>#epic_battle:abilityInfo/params/inspire/duration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item><item><identifier>crewIncreaseFactor</identifier><name>#epic_battle:abilityInfo/params/inspire/crewIncreaseFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>inactivationDelay</identifier><name>#epic_battle:abilityInfo/params/inspire/inactivationDelay</name><renderer>AscDirectSecondsTextParam</renderer></item></tooltips><cooldownTime>240.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><duration>	40	</duration><crewIncreaseFactor>1.1</crewIncreaseFactor><inactivationDelay>	10	</inactivationDelay><radius>	40	</radius></script>
+  </inspire_level1>
+  <inspire_level2>
+    <id>	165	</id>
+    <userString>#artefacts:inspire/name</userString>
+    <description>#artefacts:inspire/descr</description>
+    <icon>inspire 0 0</icon>
+    <soundNotification>eb_ability_inspire</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicInspire<shortDescription>#artefacts:inspire/shortDescr</shortDescription><longDescription>#artefacts:inspire/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>radius</identifier><name>#epic_battle:abilityInfo/params/inspire/radius</name><renderer>DescDirectMetersTextParam</renderer></item><item><identifier>	duration	</identifier><name>#epic_battle:abilityInfo/params/inspire/duration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item><item><identifier>crewIncreaseFactor</identifier><name>#epic_battle:abilityInfo/params/inspire/crewIncreaseFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>inactivationDelay</identifier><name>#epic_battle:abilityInfo/params/inspire/inactivationDelay</name><renderer>AscDirectSecondsTextParam</renderer></item></tooltips><cooldownTime>240.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><duration>	43	</duration><crewIncreaseFactor>1.11</crewIncreaseFactor><inactivationDelay>	10	</inactivationDelay><radius>	40	</radius></script>
+  </inspire_level2>
+  <inspire_level3>
+    <id>	166	</id>
+    <userString>#artefacts:inspire/name</userString>
+    <description>#artefacts:inspire/descr</description>
+    <icon>inspire 0 0</icon>
+    <soundNotification>eb_ability_inspire</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicInspire<shortDescription>#artefacts:inspire/shortDescr</shortDescription><longDescription>#artefacts:inspire/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>radius</identifier><name>#epic_battle:abilityInfo/params/inspire/radius</name><renderer>DescDirectMetersTextParam</renderer></item><item><identifier>	duration	</identifier><name>#epic_battle:abilityInfo/params/inspire/duration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item><item><identifier>crewIncreaseFactor</identifier><name>#epic_battle:abilityInfo/params/inspire/crewIncreaseFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>inactivationDelay</identifier><name>#epic_battle:abilityInfo/params/inspire/inactivationDelay</name><renderer>AscDirectSecondsTextParam</renderer></item></tooltips><cooldownTime>240.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><duration>	45	</duration><crewIncreaseFactor>1.125</crewIncreaseFactor><inactivationDelay>	10	</inactivationDelay><radius>	40	</radius></script>
+  </inspire_level3>
+  <inspire_level4>
+    <id>	167	</id>
+    <userString>#artefacts:inspire/name</userString>
+    <description>#artefacts:inspire/descr</description>
+    <icon>inspire 0 0</icon>
+    <soundNotification>eb_ability_inspire</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicInspire<shortDescription>#artefacts:inspire/shortDescr</shortDescription><longDescription>#artefacts:inspire/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>radius</identifier><name>#epic_battle:abilityInfo/params/inspire/radius</name><renderer>DescDirectMetersTextParam</renderer></item><item><identifier>	duration	</identifier><name>#epic_battle:abilityInfo/params/inspire/duration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item><item><identifier>crewIncreaseFactor</identifier><name>#epic_battle:abilityInfo/params/inspire/crewIncreaseFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>inactivationDelay</identifier><name>#epic_battle:abilityInfo/params/inspire/inactivationDelay</name><renderer>AscDirectSecondsTextParam</renderer></item></tooltips><cooldownTime>240.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><duration>	48	</duration><crewIncreaseFactor>1.14</crewIncreaseFactor><inactivationDelay>	10	</inactivationDelay><radius>	40	</radius></script>
+  </inspire_level4>
+  <inspire_level5>
+    <id>	168	</id>
+    <userString>#artefacts:inspire/name</userString>
+    <description>#artefacts:inspire/descr</description>
+    <icon>inspire 0 0</icon>
+    <soundNotification>eb_ability_inspire</soundNotification>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicInspire<shortDescription>#artefacts:inspire/shortDescr</shortDescription><longDescription>#artefacts:inspire/longDescr</longDescription><tooltips><item><identifier>	cooldownTime	</identifier><name>#epic_battle:abilityInfo/params/common/cooldownTime</name><renderer>DescDirectSecondsTextParam</renderer></item><item><identifier>radius</identifier><name>#epic_battle:abilityInfo/params/inspire/radius</name><renderer>DescDirectMetersTextParam</renderer></item><item><identifier>	duration	</identifier><name>#epic_battle:abilityInfo/params/inspire/duration</name><renderer>AscDirectSecondsDeltaBarParam</renderer></item><item><identifier>crewIncreaseFactor</identifier><name>#epic_battle:abilityInfo/params/inspire/crewIncreaseFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>inactivationDelay</identifier><name>#epic_battle:abilityInfo/params/inspire/inactivationDelay</name><renderer>AscDirectSecondsTextParam</renderer></item></tooltips><cooldownTime>240.0</cooldownTime><cooldownFactors></cooldownFactors><sharedCooldownTime>15.0</sharedCooldownTime><consumeAmmo>	false	</consumeAmmo><disableAllyDamage>	false	</disableAllyDamage><cooldownTimeRespawnFactor>0.5</cooldownTimeRespawnFactor><duration>	50	</duration><crewIncreaseFactor>1.15</crewIncreaseFactor><inactivationDelay>	10	</inactivationDelay><radius>	40	</radius></script>
+  </inspire_level5>
+  <passive_engineering_level1>
+    <id>	174	</id>
+    <userString>#artefacts:passive_engineering/name</userString>
+    <description>#artefacts:passive_engineering/descr</description>
+    <icon>passive_engineering 0 0</icon>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar stimulator</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicEngineering<shortDescription>#artefacts:passive_engineering/shortDescr</shortDescription><longDescription>#artefacts:passive_engineering/longDescr</longDescription><tooltips><item><identifier>resupplyCooldownFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/resupplyCooldownFactor</name><renderer>	AscReciprocalPercentageDeltaBarParam	</renderer></item><item><identifier>resupplyHealthPointsFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/resupplyHealthPointsFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>captureSpeedFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/captureSpeedFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>captureBlockBonusTime</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/captureBlockBonusTime</name><renderer>AscDirectAdditionalSecondsDeltaBarParam</renderer></item></tooltips><captureStopping>	true	</captureStopping><captureBlockBonusTime>	5	</captureBlockBonusTime><captureSpeedFactor>1.6</captureSpeedFactor><resupplyCooldownFactor>0.7692</resupplyCooldownFactor><resupplyHealthPointsFactor>1.3</resupplyHealthPointsFactor><resupplyShellsFactor>1.3</resupplyShellsFactor></script>
+  </passive_engineering_level1>
+  <passive_engineering_level2>
+    <id>	175	</id>
+    <userString>#artefacts:passive_engineering/name</userString>
+    <description>#artefacts:passive_engineering/descr</description>
+    <icon>passive_engineering 0 0</icon>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar stimulator</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicEngineering<shortDescription>#artefacts:passive_engineering/shortDescr</shortDescription><longDescription>#artefacts:passive_engineering/longDescr</longDescription><tooltips><item><identifier>resupplyCooldownFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/resupplyCooldownFactor</name><renderer>	AscReciprocalPercentageDeltaBarParam	</renderer></item><item><identifier>resupplyHealthPointsFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/resupplyHealthPointsFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>captureSpeedFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/captureSpeedFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>captureBlockBonusTime</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/captureBlockBonusTime</name><renderer>AscDirectAdditionalSecondsDeltaBarParam</renderer></item></tooltips><captureStopping>	true	</captureStopping><captureBlockBonusTime>	5	</captureBlockBonusTime><captureSpeedFactor>1.6</captureSpeedFactor><resupplyCooldownFactor>0.7143</resupplyCooldownFactor><resupplyHealthPointsFactor>1.4</resupplyHealthPointsFactor><resupplyShellsFactor>1.4</resupplyShellsFactor></script>
+  </passive_engineering_level2>
+  <passive_engineering_level3>
+    <id>	176	</id>
+    <userString>#artefacts:passive_engineering/name</userString>
+    <description>#artefacts:passive_engineering/descr</description>
+    <icon>passive_engineering 0 0</icon>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar trigger</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicEngineering<shortDescription>#artefacts:passive_engineering/shortDescr</shortDescription><longDescription>#artefacts:passive_engineering/longDescr</longDescription><tooltips><item><identifier>resupplyCooldownFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/resupplyCooldownFactor</name><renderer>	AscReciprocalPercentageDeltaBarParam	</renderer></item><item><identifier>resupplyHealthPointsFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/resupplyHealthPointsFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>captureSpeedFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/captureSpeedFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>captureBlockBonusTime</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/captureBlockBonusTime</name><renderer>AscDirectAdditionalSecondsDeltaBarParam</renderer></item></tooltips><captureStopping>	true	</captureStopping><captureBlockBonusTime>	7	</captureBlockBonusTime><captureSpeedFactor>1.8</captureSpeedFactor><resupplyCooldownFactor>0.7143</resupplyCooldownFactor><resupplyHealthPointsFactor>1.4</resupplyHealthPointsFactor><resupplyShellsFactor>1.4</resupplyShellsFactor></script>
+  </passive_engineering_level3>
+  <passive_engineering_level4>
+    <id>	177	</id>
+    <userString>#artefacts:passive_engineering/name</userString>
+    <description>#artefacts:passive_engineering/descr</description>
+    <icon>passive_engineering 0 0</icon>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar stimulator</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicEngineering<shortDescription>#artefacts:passive_engineering/shortDescr</shortDescription><longDescription>#artefacts:passive_engineering/longDescr</longDescription><tooltips><item><identifier>resupplyCooldownFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/resupplyCooldownFactor</name><renderer>	AscReciprocalPercentageDeltaBarParam	</renderer></item><item><identifier>resupplyHealthPointsFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/resupplyHealthPointsFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>captureSpeedFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/captureSpeedFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>captureBlockBonusTime</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/captureBlockBonusTime</name><renderer>AscDirectAdditionalSecondsDeltaBarParam</renderer></item></tooltips><captureStopping>	true	</captureStopping><captureBlockBonusTime>	7	</captureBlockBonusTime><captureSpeedFactor>1.8</captureSpeedFactor><resupplyCooldownFactor>0.6667</resupplyCooldownFactor><resupplyHealthPointsFactor>1.5</resupplyHealthPointsFactor><resupplyShellsFactor>1.5</resupplyShellsFactor></script>
+  </passive_engineering_level4>
+  <passive_engineering_level5>
+    <id>	178	</id>
+    <userString>#artefacts:passive_engineering/name</userString>
+    <description>#artefacts:passive_engineering/descr</description>
+    <icon>passive_engineering 0 0</icon>
+    <price>	750	<gold></gold></price>
+    <notInShop>	true	</notInShop>
+    <tags>notForSale avatar stimulator</tags>
+    <type>battleAbilities</type>
+    <vehicleFilter>
+      <include>
+        <vehicle>
+          <minLevel>	1	</minLevel>
+          <maxLevel>	10	</maxLevel>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>EpicEngineering<shortDescription>#artefacts:passive_engineering/shortDescr</shortDescription><longDescription>#artefacts:passive_engineering/longDescr</longDescription><tooltips><item><identifier>resupplyCooldownFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/resupplyCooldownFactor</name><renderer>	AscReciprocalPercentageDeltaBarParam	</renderer></item><item><identifier>resupplyHealthPointsFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/resupplyHealthPointsFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>captureSpeedFactor</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/captureSpeedFactor</name><renderer>	AscDirectPercentageDeltaBarParam	</renderer></item><item><identifier>captureBlockBonusTime</identifier><name>#epic_battle:abilityInfo/params/passive_engineering/captureBlockBonusTime</name><renderer>AscDirectAdditionalSecondsDeltaBarParam</renderer></item></tooltips><captureStopping>	true	</captureStopping><captureBlockBonusTime>	10	</captureBlockBonusTime><captureSpeedFactor>2.0</captureSpeedFactor><resupplyCooldownFactor>0.6667</resupplyCooldownFactor><resupplyHealthPointsFactor>1.5</resupplyHealthPointsFactor><resupplyShellsFactor>1.5</resupplyShellsFactor></script>
+  </passive_engineering_level5>
+  <lastchance>
+    <id>	179	</id>
+    <userString>#artefacts:lastchance/name</userString>
+    <description>#artefacts:lastchance/descr</description>
+    <icon>lastchance 0 0</icon>
+    <price>	15000	</price>
+    <tags>trigger</tags>
+    <notInShop>	true	</notInShop>
+    <vehicleFilter>
+      <include>
+        <nations>	ussr	</nations>
+        <vehicle>
+          <tags>lastchance_user</tags>
+        </vehicle>
+      </include>
+    </vehicleFilter>
+    <script>LastChance<cooldownTime>40.0</cooldownTime><recharge>	2	</recharge></script>
+  </lastchance>
 </equipments>

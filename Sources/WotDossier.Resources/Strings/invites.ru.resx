@@ -604,7 +604,7 @@
     <value>Вы уже присоединились к этому взводу.</value>
   </data>
   <data name="invites/text/EVENT" xml:space="preserve">
-    <value>++%(titleStartTag)sПриглашение войти в состав взвода%(titleEndTag)s++</value>
+    <value>%(titleStartTag)sПриглашение войти в состав взвода%(titleEndTag)s</value>
   </data>
   <data name="invites/text/FALLOUT/FALLOUT_CLASSIC" xml:space="preserve">
     <value>«Превосходство»</value>
@@ -638,5 +638,20 @@
   </data>
   <data name="stronghold/invite/sendInviteToUsername" xml:space="preserve">
     <value>Приглашение игроку %(name)s отправлено.</value>
+  </data>
+  <data name="invites/note/change_and_leave/EPIC" xml:space="preserve">
+    <value>Приняв приглашение, вы будете автоматически исключены из состава взвода и перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/EPIC_TRAINING" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="invites/note/leave/EPIC" xml:space="preserve">
+    <value>Приняв приглашение, вы будете автоматически исключены из состава взвода.</value>
+  </data>
+  <data name="invites/note/leave/EPIC_TRAINING" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="invites/text/EPIC" xml:space="preserve">
+    <value>%(titleStartTag)sПриглашение во взвод «Линии фронта»%(titleEndTag)s</value>
   </data>
 </root>

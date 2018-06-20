@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="E100_210mm_Gr.18Be_sport" xml:space="preserve">
+    <value>Gr.18Be Sport</value>
+  </data>
+  <data name="E100_210mm_Sprg18_Ausf_G_sport" xml:space="preserve">
+    <value>Sprg18 Ausf G Sport</value>
+  </data>
+  <data name="E100_210mm_Sprg18_sport" xml:space="preserve">
+    <value>Sprg18 Sport</value>
+  </data>
+  <data name="E100_sport_chassis_name" xml:space="preserve">
+    <value>E 100 Sport</value>
+  </data>
+  <data name="E100_sport_descr" xml:space="preserve">
+    <value>Этот тяжеловес наиболее эффективен при защите ворот своей команды. Его пассивная способность «Ударная волна» помогает выбивать мяч с вашей части поля, а заодно сносит гусеницы машинам противника.</value>
+  </data>
+  <data name="E100_sport_engine_name" xml:space="preserve">
+    <value>Maybach HL234P60 Sport</value>
+  </data>
+  <data name="E100_sport_engine_name_short" xml:space="preserve">
+    <value>HL234P60 Sport</value>
+  </data>
+  <data name="E100_sport_gun_name" xml:space="preserve">
+    <value>210mm Kw.K. L/38 Sport</value>
+  </data>
+  <data name="E100_sport_name" xml:space="preserve">
+    <value>E 100 SPORT</value>
+  </data>
+  <data name="E100_sport_name_short" xml:space="preserve">
+    <value>E 100 S</value>
+  </data>
+  <data name="E100_sport_radio_name" xml:space="preserve">
+    <value>10WSc Sport</value>
+  </data>
+  <data name="E100_sport_shell_name" xml:space="preserve">
+    <value>Sprgr G 45 Sport</value>
+  </data>
+  <data name="E100_sport_turret_name" xml:space="preserve">
+    <value>E 100 Sport</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_chassis_name" xml:space="preserve">
+    <value>AMX 13 105 Sport</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_descr" xml:space="preserve">
+    <value>Высокая скорость, мгновенный разгон и безумный темп огня делают нападающих опасными противниками вблизи ворот. Однако за всё приходится платить — из-за своей незначительной массы эти танки вряд ли выйдут победителями из дуэлей с более тяжеловесными противниками других ролей.</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_engine_name" xml:space="preserve">
+    <value>SOFAM 8 Gxb Sport</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_gun_name" xml:space="preserve">
+    <value>105 mm D. 1504 L/51 Sport</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_name" xml:space="preserve">
+    <value>AMX 13 105 SPORT</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_name_short" xml:space="preserve">
+    <value>AMX S</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_radio_name" xml:space="preserve">
+    <value>SCR-528 Fr Sport</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_shell_name" xml:space="preserve">
+    <value>OE-105-Mle. 60 D. 1504 L/51 Sport</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_turret_name" xml:space="preserve">
+    <value>AMX 13 105 Sport</value>
+  </data>
+  <data name="Maybach_HL_234P60" xml:space="preserve">
+    <value>Maybach Neues Projekt Sport</value>
+  </data>
+  <data name="Maybach_HL_234P60_short" xml:space="preserve">
+    <value>Maybach Neues
+Projekt Sport</value>
+  </data>
+  <data name="Sport/role/goalkeeper" xml:space="preserve">
+    <value>Вратарь</value>
+  </data>
+  <data name="Sport_role_defender" xml:space="preserve">
+    <value>Защитник</value>
+  </data>
+  <data name="Sport_role_defender_desc" xml:space="preserve">
+    <value>Этот тяжеловес наиболее эффективен при защите ворот своей команды. Его пассивная способность «Ударная волна» помогает выбивать мяч с вашей части поля, а заодно сносит гусеницы машинам противника.</value>
+  </data>
+  <data name="Sport_role_defender_short_desc" xml:space="preserve">
+    <value>Задача защитника — надёжно оборонять ваши ворота: выбивать мяч из штрафной и не дать команде противника подобраться слишком близко.</value>
+  </data>
+  <data name="Sport_role_midfielder" xml:space="preserve">
+    <value>Полузащитник</value>
+  </data>
+  <data name="Sport_role_midfielder_desc" xml:space="preserve">
+    <value>Во время матча полузащитник должен блокировать нападающих противника и участвовать в атаке на ворота противоположной команды. Обладая достаточной массой, полузащитник успешно противостоит нападающим в ближнем бою, а его способность «Турбонагнетатель» позволяет оказаться в нужное время на нужной позиции.</value>
+  </data>
+  <data name="Sport_role_midfielder_short_desc" xml:space="preserve">
+    <value>Универсальность полузащитника поможет ему найти применение в любой ситуации на поле.</value>
+  </data>
+  <data name="Sport_role_striker" xml:space="preserve">
+    <value>Нападающий</value>
+  </data>
+  <data name="Sport_role_striker_desc" xml:space="preserve">
+    <value>Высокая скорость, мгновенный разгон и безумный темп огня делают нападающих опасными противниками вблизи ворот. Однако за всё приходится платить — из-за своей незначительной массы эти танки вряд ли выйдут победителями из дуэлей с более тяжеловесными машинами других ролей.</value>
+  </data>
+  <data name="Sport_role_striker_short_desc" xml:space="preserve">
+    <value>Высокая скорость, мгновенный разгон и безумный темп огня делают нападающего опасным противником при игре вблизи ворот.</value>
+  </data>
+  <data name="T62A_Sport_turret_name" xml:space="preserve">
+    <value>T-62A Sport</value>
+  </data>
+  <data name="T62A_sport_chassis_name" xml:space="preserve">
+    <value>T-62A Sport</value>
+  </data>
+  <data name="T62A_sport_descr" xml:space="preserve">
+    <value>Во время матча, полузащитник должен блокировать нападающих противника и участвовать в атаке на ворота противоположной команды. Обладая достаточной массой, полузащитник успешно противостоит нападающим в ближнем бою, а его способность «Турбонагнетатель» позволяет оказаться в нужное время на нужной позиции.</value>
+  </data>
+  <data name="T62A_sport_engine_name" xml:space="preserve">
+    <value>V-55 Sport</value>
+  </data>
+  <data name="T62A_sport_gun_name" xml:space="preserve">
+    <value>115mm U-8TS Sport</value>
+  </data>
+  <data name="T62A_sport_name" xml:space="preserve">
+    <value>T-62A СПОРТ</value>
+  </data>
+  <data name="T62A_sport_name_short" xml:space="preserve">
+    <value>T-62A С</value>
+  </data>
+  <data name="T62A_sport_radio_name" xml:space="preserve">
+    <value>R-123 Sport</value>
+  </data>
+  <data name="T62A_sport_shell_name" xml:space="preserve">
+    <value>ZUOF10 Sport</value>
+  </data>
+  <data name="Tank_type_Defender" xml:space="preserve">
+    <value>fe18_Defender</value>
+  </data>
+  <data name="Tank_type_Midfielder" xml:space="preserve">
+    <value>fe18_Midfield</value>
+  </data>
+  <data name="Tank_type_Striker" xml:space="preserve">
+    <value>fe18_Striker</value>
+  </data>
+  <data name="arena_116_himmelball_description" xml:space="preserve">
+    <value>Среди лабиринтов площадей и улиц расположено укрытое от прострелов САУ и ПТ-САУ футбольное поле, где также кипят нешуточные сражения, но уже направленные в мирное русло большого футбола.</value>
+  </data>
+  <data name="arena_116_himmelball_name" xml:space="preserve">
+    <value>Химмельштадион</value>
+  </data>
+  <data name="arena_119_lostcityball_description" xml:space="preserve">
+    <value>Пусть вас не смущает обманчивая тишина этого небольшого покинутого городка — сегодня здесь будет особенно жарко и шумно, ведь его стадион станет ареной ожесточённого противоборства двух футбольных команд, где, как водится, победит сильнейший.</value>
+  </data>
+  <data name="arena_119_lostcityball_name" xml:space="preserve">
+    <value>Затерянный стадион</value>
+  </data>
+  <data name="arena_120_moscowball_description" xml:space="preserve">
+    <value>Названный в честь великого советского вратаря, этот московский стадион с радостью примет две противоборствующие команды в надежде на захватывающий матч и честную, увлекательную игру.</value>
+  </data>
+  <data name="arena_120_moscowball_name" xml:space="preserve">
+    <value>Стадион им. Яшина</value>
+  </data>
+  <data name="battlequeue/subtitle" xml:space="preserve">
+    <value>(Футбольный матч)</value>
+  </data>
+  <data name="card/buffon/name" xml:space="preserve">
+    <value>Буффон</value>
+  </data>
+  <data name="cardCollection_Buffon_infotip_desc" xml:space="preserve">
+    <value>Легендарный итальянский вратарь Джанлуиджи «Джиджи» Буффон является обладателем почти всех значимых европейских и мировых футбольных наград, включая престижный Кубок мира FIFA, и по праву считается величайшим вратарём XXI века. Бесспорно, он вошёл в историю спорта, а также вдохновлял целые поколения профессиональных игроков и любителей футбола на всём протяжении своей карьеры.
+
+Сегодня любимец футбольных фанатов примет командование экипажем вашей машины, используя свои лидерские качества и неиссякаемую энергию. Как и в большом футболе, в World of Tanks важна не только победа — важна также ваша решимость, взрыв эмоций и, безусловно, командная работа.
+
+Побеждайте вместе с Джиджи!</value>
+  </data>
+  <data name="cardCollection_Buffon_infotip_title" xml:space="preserve">
+    <value>Джанлуиджи «Джиджи» Буффон</value>
+  </data>
+  <data name="cardCollection_CloseBtn_Label" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="cardCollection_Lobby_Button_Buffon_Not_Received" xml:space="preserve">
+    <value>Получить Буффона
+в экипаж</value>
+  </data>
+  <data name="cardCollection_Lobby_Button_Earned_Buffon_But_Not_Recruited" xml:space="preserve">
+    <value>Рекрутировать Буффона</value>
+  </data>
+  <data name="cardCollection_Results_Screen_BtnContinue" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="cardCollection_Results_Screen_ProgressScoreDesc" xml:space="preserve">
+    <value>Очки</value>
+  </data>
+  <data name="cardCollection_Results_Screen_SubTitle" xml:space="preserve">
+    <value>Вы заработали очков: %(score)s</value>
+  </data>
+  <data name="cardCollection_Results_Screen_Title" xml:space="preserve">
+    <value>ПОЗДРАВЛЯЕМ!</value>
+  </data>
+  <data name="cardCollection_Rewards_Screen_Title" xml:space="preserve">
+    <value>НАГРАДА</value>
+  </data>
+  <data name="cardCollection_TFM_description" xml:space="preserve">
+    <value>Заработайте 100 очков и получите Джанлуиджи Буффона</value>
+  </data>
+  <data name="cardCollection_TFM_rewardBtn_label" xml:space="preserve">
+    <value>Награда</value>
+  </data>
+  <data name="cardCollection_TFM_score_label" xml:space="preserve">
+    <value>Очки</value>
+  </data>
+  <data name="cardCollection_TFM_title" xml:space="preserve">
+    <value>Тактическая карта поля</value>
+  </data>
+  <data name="cardCollection_card_slot_purchase_button_label" xml:space="preserve">
+    <value>Приобрести</value>
+  </data>
+  <data name="cardCollection_newCards_Screen_Title" xml:space="preserve">
+    <value>ПОЗДРАВЛЯЕМ!</value>
+  </data>
+  <data name="cardCollection_newCards_Screen_btn_ok" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="cardCollection_newCards_Screen_btn_openPack" xml:space="preserve">
+    <value>Открыть все</value>
+  </data>
+  <data name="cardCollection_newCards_Screen_subTitle" xml:space="preserve">
+    <value>Ваши неоткрытые карточки: %(count)s</value>
+  </data>
+  <data name="cardCollection_recruitment_button_later" xml:space="preserve">
+    <value>Позже</value>
+  </data>
+  <data name="cardCollection_recruitment_button_recruit" xml:space="preserve">
+    <value>Рекрутировать</value>
+  </data>
+  <data name="cardCollection_recruitment_menu_label_nation" xml:space="preserve">
+    <value>Нация</value>
+  </data>
+  <data name="cardCollection_recruitment_menu_label_specialization" xml:space="preserve">
+    <value>Специальность</value>
+  </data>
+  <data name="cardCollection_recruitment_menu_label_type" xml:space="preserve">
+    <value>Тип техники</value>
+  </data>
+  <data name="cardCollection_recruitment_menu_label_vehicle" xml:space="preserve">
+    <value>Машина</value>
+  </data>
+  <data name="cardCollection_recruitment_military_rank" xml:space="preserve">
+    <value>Staff Sergeant</value>
+  </data>
+  <data name="cardCollection_recruitment_military_rank_label" xml:space="preserve">
+    <value>Звание</value>
+  </data>
+  <data name="cardCollection_recruitment_name" xml:space="preserve">
+    <value>Джанлуиджи Буффон</value>
+  </data>
+  <data name="cardCollection_recruitment_name_label" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="cardCollection_recruitment_title" xml:space="preserve">
+    <value>РЕКРУТИРОВАНИЕ</value>
+  </data>
+  <data name="dialog_event_squad_creation" xml:space="preserve">
+    <value>Создать футбольный взвод</value>
+  </data>
+  <data name="dialog_event_squad_vehicle" xml:space="preserve">
+    <value>Выберите специальную машину</value>
+  </data>
+  <data name="dialogs_squadchannel_headermsg_eventformationrestriction" xml:space="preserve">
+    <value>Тип боя:
+Футбольный матч</value>
+  </data>
+  <data name="footballFilterBtn/hint" xml:space="preserve">
+    <value>Специальная
+машина</value>
+  </data>
+  <data name="football_crew_skills_disabled" xml:space="preserve">
+    <value>Умения и навыки недоступны
+для экипажей специальных машин.</value>
+  </data>
+  <data name="football_filter_checkbox_label" xml:space="preserve">
+    <value>Специальная машина</value>
+  </data>
+  <data name="football_medal_rewards_confirm_button_text" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="football_medal_rewards_title" xml:space="preserve">
+    <value>Получена награда</value>
+  </data>
+  <data name="football_medal_rewards_tournament_text" xml:space="preserve">
+    <value>Поздравляем!
+За победу в футбольном турнире вы получаете награду:
+%(name of medal)s</value>
+  </data>
+  <data name="football_medal_rewards_window_title" xml:space="preserve">
+    <value>Поздравление с награждением</value>
+  </data>
+  <data name="hangar/award/buffon/tooltip/body" xml:space="preserve">
+    <value>Джанлуиджи Буффон</value>
+  </data>
+  <data name="hangar/award/buffon/tooltip/header" xml:space="preserve">
+    <value>Буффон</value>
+  </data>
+  <data name="hangar/award/card_fb18db/tooltip/body" xml:space="preserve">
+    <value>Одна из карточек, составляющих коллекцию. Соберите все карточки, чтобы получить Джанлуиджи Буффона.</value>
+  </data>
+  <data name="hangar/award/card_fb18db/tooltip/header" xml:space="preserve">
+    <value>Коллекционная карточка</value>
+  </data>
+  <data name="hangar/award/card_fb18ds/tooltip/body" xml:space="preserve">
+    <value>Одна из карточек, составляющих коллекцию. Соберите все карточки, чтобы получить Джанлуиджи Буффона.</value>
+  </data>
+  <data name="hangar/award/card_fb18ds/tooltip/header" xml:space="preserve">
+    <value>Коллекционная карточка</value>
+  </data>
+  <data name="hangar/award/card_fb18mb/tooltip/body" xml:space="preserve">
+    <value>Одна из карточек, составляющих коллекцию. Соберите все карточки, чтобы получить Джанлуиджи Буффона.</value>
+  </data>
+  <data name="hangar/award/card_fb18mb/tooltip/header" xml:space="preserve">
+    <value>Коллекционная карточка</value>
+  </data>
+  <data name="hangar/award/card_fb18ms/tooltip/body" xml:space="preserve">
+    <value>Одна из карточек, составляющих коллекцию. Соберите все карточки, чтобы получить Джанлуиджи Буффона.</value>
+  </data>
+  <data name="hangar/award/card_fb18ms/tooltip/header" xml:space="preserve">
+    <value>Коллекционная карточка</value>
+  </data>
+  <data name="hangar/award/card_fb18sb/tooltip/body" xml:space="preserve">
+    <value>Одна из карточек, составляющих коллекцию. Соберите все карточки, чтобы получить Джанлуиджи Буффона.</value>
+  </data>
+  <data name="hangar/award/card_fb18sb/tooltip/header" xml:space="preserve">
+    <value>Коллекционная карточка</value>
+  </data>
+  <data name="hangar/award/card_fb18ss/tooltip/body" xml:space="preserve">
+    <value>Одна из карточек, составляющих коллекцию. Соберите все карточки, чтобы получить Джанлуиджи Буффона.</value>
+  </data>
+  <data name="hangar/award/card_fb18ss/tooltip/header" xml:space="preserve">
+    <value>Коллекционная карточка</value>
+  </data>
+  <data name="hangar/award/card_fb18ub/tooltip/body" xml:space="preserve">
+    <value>Одна из карточек, составляющих коллекцию. Соберите все карточки, чтобы получить Джанлуиджи Буффона.</value>
+  </data>
+  <data name="hangar/award/card_fb18ub/tooltip/header" xml:space="preserve">
+    <value>Коллекционная карточка</value>
+  </data>
+  <data name="hangar/award/card_fb18us/tooltip/body" xml:space="preserve">
+    <value>Одна из карточек, составляющих коллекцию. Соберите все карточки, чтобы получить Джанлуиджи Буффона.</value>
+  </data>
+  <data name="hangar/award/card_fb18us/tooltip/header" xml:space="preserve">
+    <value>Коллекционная карточка</value>
+  </data>
+  <data name="hangar/buffonBtn/tooltip/buffonNotAvailable/body" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к коллекции футбольных карточек для получения Буффона.</value>
+  </data>
+  <data name="hangar/buffonBtn/tooltip/buffonNotAvailable/header" xml:space="preserve">
+    <value>Коллекция</value>
+  </data>
+  <data name="hangar/buffonBtn/tooltip/buffonNotRecruited/body" xml:space="preserve">
+    <value>Нажмите, чтобы рекрутировать Буффона.</value>
+  </data>
+  <data name="hangar/buffonBtn/tooltip/buffonNotRecruited/header" xml:space="preserve">
+    <value>Рекрутирование</value>
+  </data>
+  <data name="hangar/buffonBtn/tooltip/buffonRecruited/body" xml:space="preserve">
+    <value>Нажмите, чтобы открыть вашу коллекцию карточек.</value>
+  </data>
+  <data name="hangar/buffonBtn/tooltip/buffonRecruited/header" xml:space="preserve">
+    <value>Коллекция</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/bottom" xml:space="preserve">
+    <value>Станьте лучшим и получите мяч с подписью Буффона, а также множество других призов, принимая участия в танковых футбольных матчах.</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/event/name" xml:space="preserve">
+    <value>Танковый футбол 2018</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/primeTime/future" xml:space="preserve">
+    <value>Будут учитываться позже:</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/primeTime/now" xml:space="preserve">
+    <value>Учитываются матчи:</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/stage/beforeBeginning" xml:space="preserve">
+    <value>До начала:</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/stage/inProgress" xml:space="preserve">
+    <value>Идёт %(stageName)s</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/stage/stageName" xml:space="preserve">
+    <value>Этап %(stageNum)s</value>
+  </data>
+  <data name="hangar/unlockButtonDisabledFootball/body" xml:space="preserve">
+    <value>Для специальной техники исследования недоступны.</value>
+  </data>
+  <data name="hangar/unlockButtonDisabledFootball/header" xml:space="preserve">
+    <value>Исследования недоступны</value>
+  </data>
+  <data name="ingame/football/commentator/en/name" xml:space="preserve">
+    <value>Anthony Tournis</value>
+  </data>
+  <data name="ingame/football/commentator/en/roleName" xml:space="preserve">
+    <value>Комментатор матча</value>
+  </data>
+  <data name="ingame/football/commentator/it/name" xml:space="preserve">
+    <value>Gianluigi Buffon</value>
+  </data>
+  <data name="ingame/football/commentator/it/roleName" xml:space="preserve">
+    <value>Комментатор матча</value>
+  </data>
+  <data name="ingame/football/commentator/ru/name" xml:space="preserve">
+    <value>Николай Ходасевич</value>
+  </data>
+  <data name="ingame/football/commentator/ru/roleName" xml:space="preserve">
+    <value>Комментатор матча</value>
+  </data>
+  <data name="messages/football/ballDrop/endDescr" xml:space="preserve">
+    <value>ВПЕРЁД!</value>
+  </data>
+  <data name="messages/football/ballDrop/timerDescr" xml:space="preserve">
+    <value>Мяч появится через</value>
+  </data>
+  <data name="messages/football/fragBar/alliedName" xml:space="preserve">
+    <value>Союзники</value>
+  </data>
+  <data name="messages/football/fragBar/enemyName" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="messages/football/fragBar/goalAlly" xml:space="preserve">
+    <value>ГООООЛ!</value>
+  </data>
+  <data name="messages/football/fragBar/goalEnemy" xml:space="preserve">
+    <value>Команда противника забила гол</value>
+  </data>
+  <data name="messages/football/fragBar/goalSelf" xml:space="preserve">
+    <value>Автогол!</value>
+  </data>
+  <data name="messages/football/fullStats/ballPossession" xml:space="preserve">
+    <value>Владение мячом</value>
+  </data>
+  <data name="messages/football/fullStats/battleText" xml:space="preserve">
+    <value>Футбольный матч</value>
+  </data>
+  <data name="messages/football/fullStats/commonStats" xml:space="preserve">
+    <value>ОБЩАЯ СТАТИСТИКА</value>
+  </data>
+  <data name="messages/football/fullStats/eventsTimeline" xml:space="preserve">
+    <value>ХОД МАТЧА</value>
+  </data>
+  <data name="messages/football/fullStats/goals" xml:space="preserve">
+    <value>Голы</value>
+  </data>
+  <data name="messages/football/fullStats/mapText" xml:space="preserve">
+    <value>Название карточки</value>
+  </data>
+  <data name="messages/football/fullStats/team1Name" xml:space="preserve">
+    <value>Ваша команда</value>
+  </data>
+  <data name="messages/football/fullStats/team2Name" xml:space="preserve">
+    <value>Команда противника</value>
+  </data>
+  <data name="messages/football/fullStats/winText" xml:space="preserve">
+    <value>Условия победы: забить три гола или заработать больше очков.</value>
+  </data>
+  <data name="messages/football/fullStats/winTextOvertime" xml:space="preserve">
+    <value>Забейте гол или удерживайте мяч на половине поля команды противника.</value>
+  </data>
+  <data name="messages/football/overtime/condA" xml:space="preserve">
+    <value>Ваша команда должна забить «золотой гол».</value>
+  </data>
+  <data name="messages/football/overtime/condB" xml:space="preserve">
+    <value>Удерживайте мяч на половине поля команды противника.</value>
+  </data>
+  <data name="messages/football/overtime/header" xml:space="preserve">
+    <value>Овертайм</value>
+  </data>
+  <data name="messages/football/overtime/headerDescr" xml:space="preserve">
+    <value>Победитель не определён в основное время.</value>
+  </data>
+  <data name="messages/football/overtime/or" xml:space="preserve">
+    <value>или</value>
+  </data>
+  <data name="messages/football/overtime/timerDescr" xml:space="preserve">
+    <value>Назад на поле через:</value>
+  </data>
+  <data name="messages/football/overtimeBar/title" xml:space="preserve">
+    <value>Овертайм</value>
+  </data>
+  <data name="messages/football/overtimeBar/winOnPoints" xml:space="preserve">
+    <value>Ваша команда побеждает по заработанным очкам</value>
+  </data>
+  <data name="messages/football/overtimeBar/winOnPointsEnemy" xml:space="preserve">
+    <value>Команда противника побеждает по заработанным очкам</value>
+  </data>
+  <data name="messages/football/startTimer/objectiveDescr" xml:space="preserve">
+    <value>Матч длится до трёх голов в одни ворота</value>
+  </data>
+  <data name="messages/football/startTimer/timerDescr" xml:space="preserve">
+    <value>До начала матча</value>
+  </data>
+  <data name="messages/football/timer/starting" xml:space="preserve">
+    <value>Матч начнётся через:</value>
+  </data>
+  <data name="messages/infotype/availability" xml:space="preserve">
+    <value>Доступно до: %(dateStr)s</value>
+  </data>
+  <data name="messages/infotype/desc" xml:space="preserve">
+    <value>Машина для футбольного события</value>
+  </data>
+  <data name="missionDetails/conditions/tooltipBody" xml:space="preserve">
+    <value>Боевые задачи для футбольного события. Выберите специальную машину для их выполнения.</value>
+  </data>
+  <data name="missionDetails/conditions/tooltipHeader" xml:space="preserve">
+    <value>Футбольный матч</value>
+  </data>
+  <data name="mission_window_button_tooltip" xml:space="preserve">
+    <value>Карточки</value>
+  </data>
+  <data name="mission_window_button_tooltip_body" xml:space="preserve">
+    <value>Нажмите, чтобы открыть вашу коллекцию карточек.</value>
+  </data>
+  <data name="mission_window_card_rewards_title" xml:space="preserve">
+    <value>Поздравление с награждением</value>
+  </data>
+  <data name="mission_window_cards_rewards_text" xml:space="preserve">
+    <value>Награда за выполнение боевой задачи %(mission)s</value>
+  </data>
+  <data name="mission_window_open_card_collection_button_text" xml:space="preserve">
+    <value>Открыть карточки</value>
+  </data>
+  <data name="popover_label_football" xml:space="preserve">
+    <value>Специальная машина</value>
+  </data>
+  <data name="quests/football_card" xml:space="preserve">
+    <value>Коллекционная карточка</value>
+  </data>
+  <data name="restriction/inconsistent" xml:space="preserve">
+    <value>Может быть только один %(role)s во взводе</value>
+  </data>
+  <data name="serviceChannelMessages/compensationReceived/date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="serviceChannelMessages/compensationReceived/invoice" xml:space="preserve">
+    <value>Квитанция</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/fb18Cards" xml:space="preserve">
+    <value>Списаны повторные карточки</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/fb18Credits" xml:space="preserve">
+    <value>Компенсация за карточки</value>
+  </data>
+  <data name="tooltip_event_body" xml:space="preserve">
+    <value>Включить/отключить отображение техники, предназначенной для особых игровых событий.</value>
+  </data>
+  <data name="tooltip_event_header" xml:space="preserve">
+    <value>Специальная техника</value>
+  </data>
+  <data name="tooltip_event_label" xml:space="preserve">
+    <value>Показывать специальную технику</value>
+  </data>
+  <data name="tooltip_football_filter_button_body" xml:space="preserve">
+    <value>Включить/отключить отображение техники, предназначенной для особых игровых событий.</value>
+  </data>
+  <data name="tooltip_football_filter_button_header" xml:space="preserve">
+    <value>Специальная техника</value>
+  </data>
+</root>

@@ -121,13 +121,13 @@
     <value>A-20</value>
   </data>
   <data name="A-20_descr" xml:space="preserve">
-    <value>Development of the A-20 tank started at Kharkov Factory No. 183 in December 1937. The project was a further development of the BT-7 tank and became a predecessor of the legendary T-34. Work on the vehicle was led by Mikhail Koshkin. On May 18, 1938, technical characteristics of the tank designated BT-20 were approved. Only a few experimental prototypes, with a wheeled caterpillar suspension, were built for training purposes.</value>
+    <value>Development of the A-20 tank started at Kharkov Factory No. 138 in December 1937. The project was a further development of the BT-7 tank and became a predecessor of the legendary T-34. Work on the vehicle was led by Mikhail Koshkin. On May 18, 1938, technical characteristics of the tank designated BT-20 were approved. Only a few experimental prototypes, with a wheeled caterpillar suspension, were built for training purposes.</value>
   </data>
   <data name="A-20_mod_1938" xml:space="preserve">
     <value>A-20 mod. 1938</value>
   </data>
   <data name="A-20_mod_1941" xml:space="preserve">
-    <value>A-20 mod. 1941</value>
+    <value>A-20 mod. 1940</value>
   </data>
   <data name="A-20bis" xml:space="preserve">
     <value>SP-3</value>
@@ -635,7 +635,7 @@ In December 1941, one Matilda vehicle was equipped with the Soviet 76.2-mm ZiS-5
     <value>ST-I</value>
   </data>
   <data name="ST_I_descr" xml:space="preserve">
-    <value>The design was developed at Factory No. 92 by engineers V.A. Ganin and A.S. Chasovnikov. The new tank was intended as an upgraded version of the unsatisfactory heavy tanks of that time. Existed only in blueprints.</value>
+    <value>The project was developed at Factory No. 92 in 1945. The design featured the Object 701 (IS-4) hull, but different transmission and suspension. The tank turret was developed from scratch. Existed only in blueprints.</value>
   </data>
   <data name="SU-100" xml:space="preserve">
     <value>SU-100</value>
@@ -764,7 +764,7 @@ In December 1941, one Matilda vehicle was equipped with the Soviet 76.2-mm ZiS-5
     <value>SU-76I</value>
   </data>
   <data name="SU76I_descr" xml:space="preserve">
-    <value>The first prototype of the SU-76I ("I" stands for "foreign" in Russian) was created in March of 1943 on the basis of the captured German StuG III and Pz.Kpfw. III vehicles, and featured the U.S.S.R. 76-mm F-43 gun. A total of 200 vehicles were manufactured. The SU-76I participated in combat actions until the summer of 1944 and was used for training purposes until the end of the war. The SU-85I was supposed to become the next stage of vehicle development.</value>
+    <value>The first prototype of the SU-76I ("I" stands for "foreign" in Russian) was created in March of 1943 on the basis of the captured German StuG III and Pz.Kpfw. III vehicles, and featured the Soviet 76-mm F-34 gun. A total of 200 vehicles were manufactured. The SU-76I participated in combat actions until the summer of 1944 and was used for training purposes until the end of the war. The SU-85I was supposed to become the next stage of vehicle development.</value>
   </data>
   <data name="SU_85I" xml:space="preserve">
     <value>SU-85I</value>
@@ -1802,7 +1802,7 @@ In December 1941, one Matilda vehicle was equipped with the Soviet 76.2-mm ZiS-5
     <value>SU-122-54M1</value>
   </data>
   <data name="Chassis_SU122_54_2" xml:space="preserve">
-    <value>SU-122-54M2</value>
+    <value>SU-122-54</value>
   </data>
   <data name="Chassis_T150" xml:space="preserve">
     <value>T-150</value>
@@ -1847,7 +1847,7 @@ In December 1941, one Matilda vehicle was equipped with the Soviet 76.2-mm ZiS-5
     <value>KV-1 LKZ mod. 1941</value>
   </data>
   <data name="Turret_1_SU122_54" xml:space="preserve">
-    <value>SU-122/54</value>
+    <value>SU-122-54</value>
   </data>
   <data name="Turret_1_T150" xml:space="preserve">
     <value>T-150-KV</value>
@@ -2117,13 +2117,13 @@ In December 1941, one Matilda vehicle was equipped with the Soviet 76.2-mm ZiS-5
     <value>V-55</value>
   </data>
   <data name="_100mm_3UBK4" xml:space="preserve">
-    <value>ZUBK4</value>
+    <value>3UBK4</value>
   </data>
   <data name="_100mm_3UBK4M" xml:space="preserve">
-    <value>ZUBK4M</value>
+    <value>3UBK4M</value>
   </data>
   <data name="_100mm_3UOF10" xml:space="preserve">
-    <value>ZUOF10</value>
+    <value>3UOF10</value>
   </data>
   <data name="_100mm_BK5M" xml:space="preserve">
     <value>BK5M</value>
@@ -3003,10 +3003,10 @@ W-670</value>
     <value>V-11-IS-3</value>
   </data>
   <data name="_100mm_3UBK4M_fallout" xml:space="preserve">
-    <value>ZUBK4M R</value>
+    <value>3UBK4M R</value>
   </data>
   <data name="_100mm_3UOF10_fallout" xml:space="preserve">
-    <value>ZUOF10 R</value>
+    <value>3UOF10 R</value>
   </data>
   <data name="_100mm_D54_TS_fallout" xml:space="preserve">
     <value>100 mm U-8TS</value>
@@ -3285,7 +3285,7 @@ W-670</value>
     <value>KV-4 Kreslavskiy</value>
   </data>
   <data name="Chassis_R129_Object_257" xml:space="preserve">
-    <value>Object 257</value>
+    <value>Object 257 (P)</value>
   </data>
   <data name="R125_T_45" xml:space="preserve">
     <value>T-45</value>
@@ -3315,13 +3315,13 @@ W-670</value>
     <value>KV-4 Kresl.</value>
   </data>
   <data name="R129_Object_257" xml:space="preserve">
-    <value>Object 257</value>
+    <value>Object 257 (P)</value>
   </data>
   <data name="R129_Object_257_descr" xml:space="preserve">
     <value>This project for a heavy tank was developed during the 1940s. The vehicle only existed in blueprints.</value>
   </data>
   <data name="R129_Object_257_short" xml:space="preserve">
-    <value>Obj. 257</value>
+    <value>Obj. 257 P</value>
   </data>
   <data name="Turret_1_R125_T_45" xml:space="preserve">
     <value>T-45</value>
@@ -3333,7 +3333,7 @@ W-670</value>
     <value>KV-4 Kreslavskiy</value>
   </data>
   <data name="Turret_1_R129_Object_257" xml:space="preserve">
-    <value>Object 257</value>
+    <value>Object 257 (P)</value>
   </data>
   <data name="V-12-6V" xml:space="preserve">
     <value>V-12-6V</value>
@@ -3345,7 +3345,7 @@ W-670</value>
     <value>152 mm M-53</value>
   </data>
   <data name="_2xV-16_1000" xml:space="preserve">
-    <value>2x V-16 (1000)</value>
+    <value>2x V-16 (1000) (P)</value>
   </data>
   <data name="_76mm_UBR-354KB" xml:space="preserve">
     <value>UBR-354KB</value>
@@ -3381,7 +3381,7 @@ W-670</value>
     <value>122 mm D-25T</value>
   </data>
   <data name="Chassis_R122_T44_100B" xml:space="preserve">
-    <value>T-44-100M</value>
+    <value>T-44-100 (B)</value>
   </data>
   <data name="Chassis_R134_Object_252K" xml:space="preserve">
     <value>Object 252U Defender</value>
@@ -3393,13 +3393,13 @@ W-670</value>
     <value>T-44 lightweight variant</value>
   </data>
   <data name="R122_T44_100B" xml:space="preserve">
-    <value>T-44-100M</value>
+    <value>T-44-100 (B)</value>
   </data>
   <data name="R122_T44_100B_descr" xml:space="preserve">
     <value>Experimental medium tank developed in 1945 on the basis of the T-44 tank. Unlike the T-44 tank, the T-44-100 featured the 100-mm LB-1 gun mounted in a newly designed turret, and slat side armor. Only two vehicles were manufactured.</value>
   </data>
   <data name="R122_T44_100B_short" xml:space="preserve">
-    <value>T-44-100M</value>
+    <value>T-44-100 (B)</value>
   </data>
   <data name="R134_Object_252K" xml:space="preserve">
     <value>Object 252U Defender</value>
@@ -3426,7 +3426,7 @@ W-670</value>
     <value>Development started in 1943. The design received an upgrade after the trials of the prototype. A standard T-44A model was built in August 1944 and the trials continued. The T-44A never entered mass-production. However, the next prototype of the vehicle was mass-produced.</value>
   </data>
   <data name="Turret_1_R122_T44_100B" xml:space="preserve">
-    <value>T-44-100M</value>
+    <value>T-44-100 (B)</value>
   </data>
   <data name="Turret_1_R134_Object_252K" xml:space="preserve">
     <value>Object 252U Defender</value>
@@ -3676,7 +3676,7 @@ W-670</value>
     <value>SU-76I</value>
   </data>
   <data name="SU76I_bootcamp_descr" xml:space="preserve">
-    <value>The first prototype of the SU-76I ("I" stands for "foreign" in Russian) was created in March of 1943 on the basis of the captured German StuG III and Pz.Kpfw. III vehicles, and featured the Soviet 76-mm F-43 gun. A total of 200 vehicles were manufactured. The SU-76I participated in combat actions until the summer of 1944 and was used for training purposes until the end of the war. The SU-85I was supposed to become the next stage of vehicle development.</value>
+    <value>The first prototype of the SU-76I ("I" stands for "foreign" in Russian) was created in March of 1943 on the basis of the captured German StuG III and Pz.Kpfw. III vehicles, and featured the Soviet 76-mm F-34 gun. A total of 200 vehicles were manufactured. The SU-76I participated in combat actions until the summer of 1944 and was used for training purposes until the end of the war. The SU-85I was supposed to become the next stage of vehicle development.</value>
   </data>
   <data name="SU76I_bootcamp_short" xml:space="preserve">
     <value>SU-76I</value>
@@ -3836,5 +3836,428 @@ W-670</value>
   </data>
   <data name="_76mm_HVAP_M93" xml:space="preserve">
     <value>M-93</value>
+  </data>
+  <data name="Chassis_Object263B" xml:space="preserve">
+    <value>Object 263B</value>
+  </data>
+  <data name="Chassis_Object_430B" xml:space="preserve">
+    <value>Object 430B</value>
+  </data>
+  <data name="Chassis_R139_IS_2_Sh" xml:space="preserve">
+    <value>IS-M</value>
+  </data>
+  <data name="Chassis_R139_IS_2_Sh_2" xml:space="preserve">
+    <value>IS-BM</value>
+  </data>
+  <data name="Chassis_R145_Object_705_A" xml:space="preserve">
+    <value>Object 705A</value>
+  </data>
+  <data name="Chassis_R148_Object_430_U" xml:space="preserve">
+    <value>Object 430U</value>
+  </data>
+  <data name="Chassis_R149_Object_268_4" xml:space="preserve">
+    <value>Object 268 Version 4</value>
+  </data>
+  <data name="Chassis_R151_Object_257_2" xml:space="preserve">
+    <value>Object 257</value>
+  </data>
+  <data name="Chassis_R151_Object_257_2_2" xml:space="preserve">
+    <value>Object 257 Version 2</value>
+  </data>
+  <data name="Chassis_R153_Object_705" xml:space="preserve">
+    <value>Object 705</value>
+  </data>
+  <data name="Chassis_R153_Object_705_2" xml:space="preserve">
+    <value>Object 705 Version 2</value>
+  </data>
+  <data name="Chassis_R93_Object263" xml:space="preserve">
+    <value>Object 263</value>
+  </data>
+  <data name="Chassis_R93_Object263_2" xml:space="preserve">
+    <value>Object 263 improved</value>
+  </data>
+  <data name="Chassis_R96_Object_430" xml:space="preserve">
+    <value>Object 430</value>
+  </data>
+  <data name="Chassis_R96_Object_430_2" xml:space="preserve">
+    <value>Object 430 improved</value>
+  </data>
+  <data name="DM_45" xml:space="preserve">
+    <value>DM-45</value>
+  </data>
+  <data name="KCH_30" xml:space="preserve">
+    <value>KCh-30</value>
+  </data>
+  <data name="M_40_650" xml:space="preserve">
+    <value>M-40 650</value>
+  </data>
+  <data name="M_40_750" xml:space="preserve">
+    <value>M-40 750</value>
+  </data>
+  <data name="M_50TS" xml:space="preserve">
+    <value>M-50TS</value>
+  </data>
+  <data name="Object263B" xml:space="preserve">
+    <value>Object 263B</value>
+  </data>
+  <data name="Object263B_descr" xml:space="preserve">
+    <value>The development of a heavy tank destroyer on the basis of the IS-7 heavy tank was started in 1950. Three design projects were developed, one of which resulted in a full-size wooden prototype. However, further development was discontinued due to phasing out mass-production of the IS-7.</value>
+  </data>
+  <data name="Object263B_short" xml:space="preserve">
+    <value>Obj. 263B</value>
+  </data>
+  <data name="Object_430B" xml:space="preserve">
+    <value>Object 430B</value>
+  </data>
+  <data name="Object_430B_descr" xml:space="preserve">
+    <value>A prototype of this medium tank was developed from 1953 through 1957 to replace the T-54. Soviet authorities wanted a tank with greater nuclear survivability and firepower, so in 1961 the project was discontinued in favor of the Object 432. Several prototypes of the vehicle were manufactured.</value>
+  </data>
+  <data name="Object_430B_short" xml:space="preserve">
+    <value>Obj. 430B</value>
+  </data>
+  <data name="R139_IS_2_Sh" xml:space="preserve">
+    <value>IS-M</value>
+  </data>
+  <data name="R139_IS_2_Sh_descr" xml:space="preserve">
+    <value>The IS-2Sh (IS-M) was a project for the significant modification of the IS-2 proposed by N. F. Shashmurin at Kirov Factory No. 100 in early 1944. The design featured a long-barrel 122 mm gun and a rear placement of the fighting compartment. The project was discontinued in favor of the IS-6 (Object 252).</value>
+  </data>
+  <data name="R139_IS_2_Sh_short" xml:space="preserve">
+    <value>IS-M</value>
+  </data>
+  <data name="R145_Object_705_A" xml:space="preserve">
+    <value>Object 705A</value>
+  </data>
+  <data name="R145_Object_705_A_descr" xml:space="preserve">
+    <value>A version of the Object 705 heavy tank with a 152 mm gun and an upgraded engine. All work on the project was discontinued in 1948.</value>
+  </data>
+  <data name="R145_Object_705_A_short" xml:space="preserve">
+    <value>Obj. 705A</value>
+  </data>
+  <data name="R148_Object_430_U" xml:space="preserve">
+    <value>Object 430U</value>
+  </data>
+  <data name="R148_Object_430_U_descr" xml:space="preserve">
+    <value>The Object 430U is a version of the Object 430 medium tank with a rear placement of the engine-transmission compartment. This version was to feature a transverse placement of the engine and two planetary transmissions. This technical solution allowed for extending the interior space and decreasing the vehicle's weight. This vehicle was developed from 1953 through 1957 to replace the T-54, but the work was discontinued in favor of the Object 432 in 1961.</value>
+  </data>
+  <data name="R148_Object_430_U_short" xml:space="preserve">
+    <value>Obj. 430U</value>
+  </data>
+  <data name="R149_Object_268_4" xml:space="preserve">
+    <value>Object 268 Version 4</value>
+  </data>
+  <data name="R149_Object_268_4_descr" xml:space="preserve">
+    <value>The Object 730 Version 4 was intended as another SPG project developed on the basis of the T-10 (Object 730) tank by December 18, 1952. At the same time, the concept project featured the Object 268 designation. The project allowed for a gun to be mounted in a closed stationary cabin placed in the rear of the hull. The project was canceled because a complex modification of the Object 730 hull was required.</value>
+  </data>
+  <data name="R149_Object_268_4_short" xml:space="preserve">
+    <value>Obj. 268 4</value>
+  </data>
+  <data name="R151_Object_257_2" xml:space="preserve">
+    <value>Object 257</value>
+  </data>
+  <data name="R151_Object_257_2_descr" xml:space="preserve">
+    <value>A project of the heavy tank designated IS-7 that was developed in 1945. The vehicle was supposed to feature an electromechanical transmission. Development was discontinued at the documentation design stage. Existed only in blueprints.</value>
+  </data>
+  <data name="R151_Object_257_2_short" xml:space="preserve">
+    <value>Obj. 257</value>
+  </data>
+  <data name="R153_Object_705" xml:space="preserve">
+    <value>Object 705</value>
+  </data>
+  <data name="R153_Object_705_descr" xml:space="preserve">
+    <value>One of the first versions of the Object 705 heavy tank. The vehicle was developed by the Design Bureau of the Chelyabinsk Kirov Plant. Existed only in blueprints.</value>
+  </data>
+  <data name="R153_Object_705_short" xml:space="preserve">
+    <value>Obj. 705</value>
+  </data>
+  <data name="R93_Object263" xml:space="preserve">
+    <value>Object 263</value>
+  </data>
+  <data name="R93_Object263_descr" xml:space="preserve">
+    <value>The development of a heavy tank destroyer on the basis of the IS-7 heavy tank was started in 1950. Three design projects were developed, one of which resulted in a full-size wooden prototype. However, further development was discontinued due to phasing out mass-production of the IS-7.</value>
+  </data>
+  <data name="R93_Object263_short" xml:space="preserve">
+    <value>Obj. 263</value>
+  </data>
+  <data name="R96_Object_430" xml:space="preserve">
+    <value>Object 430</value>
+  </data>
+  <data name="R96_Object_430_descr" xml:space="preserve">
+    <value>A prototype of this medium tank was developed from 1953 through 1957 to replace the T-54. Soviet authorities wanted a tank with greater nuclear survivability and firepower, so in 1961 the project was discontinued in favor of the Object 432. Several prototypes of the vehicle were manufactured.</value>
+  </data>
+  <data name="R96_Object_430_short" xml:space="preserve">
+    <value>Obj. 430</value>
+  </data>
+  <data name="TD_30" xml:space="preserve">
+    <value>TD-30</value>
+  </data>
+  <data name="Turret_1_Object263B" xml:space="preserve">
+    <value>Object 263B</value>
+  </data>
+  <data name="Turret_1_Object_430B" xml:space="preserve">
+    <value>Object 430B</value>
+  </data>
+  <data name="Turret_1_R139_IS_2_Sh" xml:space="preserve">
+    <value>IS-M</value>
+  </data>
+  <data name="Turret_1_R145_Object_705_A" xml:space="preserve">
+    <value>Object 705A</value>
+  </data>
+  <data name="Turret_1_R148_Object_430_U" xml:space="preserve">
+    <value>Object 430U</value>
+  </data>
+  <data name="Turret_1_R149_Object_268_4" xml:space="preserve">
+    <value>Object 268 Version 4</value>
+  </data>
+  <data name="Turret_1_R151_Object_257_2" xml:space="preserve">
+    <value>IS-3 (257)</value>
+  </data>
+  <data name="Turret_1_R153_Object_705" xml:space="preserve">
+    <value>Object 705-91</value>
+  </data>
+  <data name="Turret_1_R93_Object263" xml:space="preserve">
+    <value>Object 263</value>
+  </data>
+  <data name="Turret_1_R96_Object_430" xml:space="preserve">
+    <value>Object 430</value>
+  </data>
+  <data name="Turret_2_R139_IS_2_Sh" xml:space="preserve">
+    <value>IS-BM</value>
+  </data>
+  <data name="Turret_2_R151_Object_257_2" xml:space="preserve">
+    <value>Object 257</value>
+  </data>
+  <data name="Turret_2_R153_Object_705" xml:space="preserve">
+    <value>Object 705</value>
+  </data>
+  <data name="V_12_5F" xml:space="preserve">
+    <value>B-12-5B</value>
+  </data>
+  <data name="V_54S" xml:space="preserve">
+    <value>B-54S</value>
+  </data>
+  <data name="_10RT_26E" xml:space="preserve">
+    <value>10RT-26E</value>
+  </data>
+  <data name="_122mm_BK_9U" xml:space="preserve">
+    <value>BK-9U</value>
+  </data>
+  <data name="_122mm_BL_13_1_A" xml:space="preserve">
+    <value>122 mm BL-13-1 A</value>
+  </data>
+  <data name="_122mm_BR_472U" xml:space="preserve">
+    <value>BR-472U</value>
+  </data>
+  <data name="_122mm_D_25BM" xml:space="preserve">
+    <value>122 mm D-25BM</value>
+  </data>
+  <data name="_122mm_D_25TSU" xml:space="preserve">
+    <value>122 mm D-25TSU</value>
+  </data>
+  <data name="_122mm_D_25_SU_101" xml:space="preserve">
+    <value>122 mm D-25-SU-101</value>
+  </data>
+  <data name="_122mm_M62_T2" xml:space="preserve">
+    <value>122 mm M62-T2U</value>
+  </data>
+  <data name="_122mm_UOF_472U" xml:space="preserve">
+    <value>UOF-472U</value>
+  </data>
+  <data name="_152mm_53-OF-551M_OF" xml:space="preserve">
+    <value>53-OF-551MOF</value>
+  </data>
+  <data name="_152mm_53_OF_551O" xml:space="preserve">
+    <value>53-OF-551O</value>
+  </data>
+  <data name="_152mm_M_51" xml:space="preserve">
+    <value>152 mm M-51</value>
+  </data>
+  <data name="_152mm_M_53_A" xml:space="preserve">
+    <value>152 mm M-53S</value>
+  </data>
+  <data name="_152mm_UBK551M_K" xml:space="preserve">
+    <value>UBK551MK</value>
+  </data>
+  <data name="_152mm_UBK551O" xml:space="preserve">
+    <value>UBK551O</value>
+  </data>
+  <data name="_152mm_UBR551M_BB" xml:space="preserve">
+    <value>UBR551MB</value>
+  </data>
+  <data name="_152mm_UBR551O" xml:space="preserve">
+    <value>UBR551O</value>
+  </data>
+  <data name="_2xV_16_1000_A" xml:space="preserve">
+    <value>2x V-16 (1000)</value>
+  </data>
+  <data name="_4TDF" xml:space="preserve">
+    <value>4TDF</value>
+  </data>
+  <data name="_4TPD" xml:space="preserve">
+    <value>4TPD</value>
+  </data>
+  <data name="_5TDF" xml:space="preserve">
+    <value>5TDF</value>
+  </data>
+  <data name="Chassis_R20_T-44_FL" xml:space="preserve">
+    <value>T-44-100 FL</value>
+  </data>
+  <data name="R113_FL" xml:space="preserve">
+    <value>R-113 FL</value>
+  </data>
+  <data name="R20_T-44_FL" xml:space="preserve">
+    <value>T-44 FL</value>
+  </data>
+  <data name="R20_T-44_FL_descr" xml:space="preserve">
+    <value>A reference sample of the vehicle designated T-44A. Developed by the Construction Bureau of Plant No. 183. The vehicle entered service on November 23, 1944, but never saw combat. From the end of November 1944 through September 1945, a total of 570 vehicles were produced.</value>
+  </data>
+  <data name="Turret_1_R20_T-44_FL" xml:space="preserve">
+    <value>T-44M FL</value>
+  </data>
+  <data name="V-54-6_FL" xml:space="preserve">
+    <value>V-54-6 FL</value>
+  </data>
+  <data name="_100mm_LB-1_FL" xml:space="preserve">
+    <value>100 mm LB-1 FL</value>
+  </data>
+  <data name="_100mm_UBR-412P_FL" xml:space="preserve">
+    <value>UBR-412P FL</value>
+  </data>
+  <data name="_100mm_UBR-412_FL" xml:space="preserve">
+    <value>UBR-412 FL</value>
+  </data>
+  <data name="_100mm_UOF-412_FL" xml:space="preserve">
+    <value>UOF-412 FL</value>
+  </data>
+  <data name="Chassis_KV2_W" xml:space="preserve">
+    <value>KV-2 mod. 1941</value>
+  </data>
+  <data name="KV2_W" xml:space="preserve">
+    <value>KV-2 (R)</value>
+  </data>
+  <data name="KV2_W_descr" xml:space="preserve">
+    <value>Heavy assault tank. Developed on the basis of the KV-1 in January 1940, with a total of 334 vehicles manufactured from 1940 through 1941. The KV-2 tanks were used in action in 1941, with most of the vehicles lost the same year.</value>
+  </data>
+  <data name="Turret_2_KV2_W" xml:space="preserve">
+    <value>MT-2</value>
+  </data>
+  <data name="V-5_W" xml:space="preserve">
+    <value>V-5</value>
+  </data>
+  <data name="_10RK_W" xml:space="preserve">
+    <value>10RK</value>
+  </data>
+  <data name="_152mm_M-10_W" xml:space="preserve">
+    <value>152 mm M-10</value>
+  </data>
+  <data name="Chassis_R139_IS_M" xml:space="preserve">
+    <value>IS-M</value>
+  </data>
+  <data name="Chassis_R139_IS_M_2" xml:space="preserve">
+    <value>IS-BM</value>
+  </data>
+  <data name="Chassis_R144_K_91" xml:space="preserve">
+    <value>K-91</value>
+  </data>
+  <data name="Chassis_R154_T_34E_1943" xml:space="preserve">
+    <value>T-34 shielded (112)</value>
+  </data>
+  <data name="Chassis_R155_Object_277" xml:space="preserve">
+    <value>Object 277</value>
+  </data>
+  <data name="M_850" xml:space="preserve">
+    <value>M-850</value>
+  </data>
+  <data name="R139_IS_M" xml:space="preserve">
+    <value>IS-M</value>
+  </data>
+  <data name="R139_IS_M_descr" xml:space="preserve">
+    <value>The IS-2Sh (IS-M) was a project for the significant modification of the IS-2 proposed by N. F. Shashmurin at Kirov Factory No. 100 in early 1944. The design featured a long-barrel 122 mm gun and a rear placement of the fighting compartment. The project was discontinued in favor of the IS-6 (Object 252).</value>
+  </data>
+  <data name="R139_IS_M_short" xml:space="preserve">
+    <value>IS-M</value>
+  </data>
+  <data name="R144_K_91" xml:space="preserve">
+    <value>K-91</value>
+  </data>
+  <data name="R144_K_91_descr" xml:space="preserve">
+    <value>The vehicle was developed by the Design Bureau of the Army Engineering Committee under the supervision of A. F. Kravtsev from March through August 1949. The tank was supposed to position a driver in the fighting compartment, as well as feature a 100 mm gun with an automatic loading system, and coaxial large-caliber machinegun. The plan was to mount the 12-cylinder opposed-piston turbo-diesel engine. The mounting brackets with ski-shaped supports were used as support rollers. Development of the project was discontinued at the blueprints stage in December 1949.</value>
+  </data>
+  <data name="R144_K_91_short" xml:space="preserve">
+    <value>K-91</value>
+  </data>
+  <data name="R154_T_34E_1943" xml:space="preserve">
+    <value>T-34 shielded</value>
+  </data>
+  <data name="R154_T_34E_1943_descr" xml:space="preserve">
+    <value>The T-34 shielded was one of the projects to improve armor of the T-34 series tanks. This variant of shielding was developed by engineers of Research Institute-48 and Plant No. 112 under the supervision of I. Burtsev. During the field trials, the armored screen sides were able to withstand fire from 37 mm and 50 mm anti-tank guns, but were penetrated by Armor-Piercing 88 mm and 75 mm shells. All manufactured prototypes were sent to the front and lost in battles.</value>
+  </data>
+  <data name="R154_T_34E_1943_short" xml:space="preserve">
+    <value>T-34S</value>
+  </data>
+  <data name="R155_Object_277" xml:space="preserve">
+    <value>Object 277</value>
+  </data>
+  <data name="R155_Object_277_descr" xml:space="preserve">
+    <value>Developed in 1956–1958 at the Kirov Plant, Leningrad, under the supervision of Joseph Kotin. Two prototypes were produced and underwent trials from 1959 through 1960. A hull and a turret were produced for testing for shell resistance. The development was discontinued in the summer of 1960 due to insufficient development of certain systems and components. In addition, the vehicle did not demonstrate any advantage over the Object 770 heavy tank.</value>
+  </data>
+  <data name="R155_Object_277_short" xml:space="preserve">
+    <value>Obj. 277</value>
+  </data>
+  <data name="Turret_1_R139_IS_M" xml:space="preserve">
+    <value>IS-M</value>
+  </data>
+  <data name="Turret_1_R144_K_91" xml:space="preserve">
+    <value>K-91</value>
+  </data>
+  <data name="Turret_1_R154_T_34E_1943" xml:space="preserve">
+    <value>T-34 shielded (112)</value>
+  </data>
+  <data name="Turret_1_R155_Object_277" xml:space="preserve">
+    <value>Object 277</value>
+  </data>
+  <data name="Turret_2_R139_IS_M" xml:space="preserve">
+    <value>IS-BM</value>
+  </data>
+  <data name="V_2_34E" xml:space="preserve">
+    <value>V-2-34E</value>
+  </data>
+  <data name="V_64" xml:space="preserve">
+    <value>V-64</value>
+  </data>
+  <data name="_100mm_3UBK_LM" xml:space="preserve">
+    <value>3UBK (LM)</value>
+  </data>
+  <data name="_100mm_3UOF_LM" xml:space="preserve">
+    <value>3UOF (LM)</value>
+  </data>
+  <data name="_100mm_D54_obr_45U" xml:space="preserve">
+    <value>100 mm D-54U</value>
+  </data>
+  <data name="_100mm_D_46T" xml:space="preserve">
+    <value>100 mm D-46T</value>
+  </data>
+  <data name="_100mm_UBR_LM" xml:space="preserve">
+    <value>UBR (LM)</value>
+  </data>
+  <data name="_130mm_3VBK" xml:space="preserve">
+    <value>3VBK</value>
+  </data>
+  <data name="_130mm_53_VBR_482" xml:space="preserve">
+    <value>53-VBR-482</value>
+  </data>
+  <data name="_130mm_53_VOF_482V" xml:space="preserve">
+    <value>53-VOF-482V</value>
+  </data>
+  <data name="_130mm_M_65" xml:space="preserve">
+    <value>130 mm M-65</value>
+  </data>
+  <data name="_76mm_F_34_1943" xml:space="preserve">
+    <value>76 mm F-34 (1943)</value>
+  </data>
+  <data name="_76mm_UBR_350P" xml:space="preserve">
+    <value>UBR-350P</value>
+  </data>
+  <data name="_76mm_UBR_354P" xml:space="preserve">
+    <value>UBR-354P</value>
   </data>
 </root>

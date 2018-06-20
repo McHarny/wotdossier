@@ -121,7 +121,7 @@
     <value>Стоимость в базовой комплектации</value>
   </data>
   <data name="buyingPanel/alertLabel" xml:space="preserve">
-    <value>Уникальная машина, которую нельзя приобрести за кредиты</value>
+    <value>Уникальная машина — награда за определённые игровые события</value>
   </data>
   <data name="buyingPanel/buyBtn/label/buy" xml:space="preserve">
     <value>Купить</value>
@@ -148,7 +148,7 @@
     <value>Предпросмотр</value>
   </data>
   <data name="infoPanel/tab/crewInfo/listDesc/text" xml:space="preserve">
-    <value>Состав экипажа и его влияние на ТТХ.</value>
+    <value>ТТХ указаны для 100% экипажа.</value>
   </data>
   <data name="infoPanel/tab/crewInfo/name" xml:space="preserve">
     <value>Экипаж</value>
@@ -157,8 +157,7 @@
     <value>Справка</value>
   </data>
   <data name="modulesPanel/Label" xml:space="preserve">
-    <value>Вы можете настроить любую конфигурацию машины,
-однако при покупке комплектация будет базовой.</value>
+    <value>Базовая комплектация</value>
   </data>
   <data name="modulesPanel/status/text" xml:space="preserve">
     <value>Выбрана настроенная комплектация</value>
@@ -176,10 +175,10 @@
     <value>К СРАВНЕНИЮ</value>
   </data>
   <data name="buyingPanel/tradeInLabel" xml:space="preserve">
-    <value>Машину можно обменять</value>
+    <value>Машина доступна для обмена</value>
   </data>
   <data name="modulesPanel/noModulesOptions" xml:space="preserve">
-    <value>У данной машины нет исследуемых модулей</value>
+    <value>Максимальная комплектация</value>
   </data>
   <data name="buyingPanel/sabaton/buyLabel" xml:space="preserve">
     <value>Нажмите, чтобы перейти в Премиум магазин для покупки этой машины.</value>
@@ -195,5 +194,14 @@
   </data>
   <data name="header/backBtn/descrLabel/personalAwards" xml:space="preserve">
     <value>К НАГРАДАМ</value>
+  </data>
+  <data name="hero/header/title" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="infoPanel/tab/eliteFactSheet/info" xml:space="preserve">
+    <value>Историческая справка</value>
+  </data>
+  <data name="infoPanel/tab/eliteFactSheet/title" xml:space="preserve">
+    <value>Преимущества премиум техники</value>
   </data>
 </root>

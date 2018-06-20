@@ -690,4 +690,10 @@
   <data name="halloweenSearching_4" xml:space="preserve">
     <value>Подбираем подходящий саркофаг...</value>
   </data>
+  <data name="prebattle/giveEquipmentCommander" xml:space="preserve">
+    <value>Передача полномочий наводчика...</value>
+  </data>
+  <data name="download/epicMetaGame" xml:space="preserve">
+    <value>Синхронизация данных игрока...</value>
+  </data>
 </root>

@@ -456,7 +456,7 @@
                 <Grid HorizontalAlignment="Stretch" Margin="10,10,10,10">
                     <Image HorizontalAlignment="Left" Stretch="Fill" Width="231" Height="98" Source="{Binding Path=Map, Mode=OneWay, 
                         Converter={x:Static converters:MapToImageConverter.Default}, ConverterParameter=1}" VerticalAlignment="Top" />
-                    <Image HorizontalAlignment="Left" Stretch="Fill" Width="231" Height="98" Source="pack://application:,,,/WotDossier.Resources;component/Images/Maps\overlay.png" 
+                    <Image HorizontalAlignment="Left" Stretch="Fill" Width="231" Height="98" Source="pack://application:,,,/WotDossier.Resources;component/Images/Replays/overlay.png" 
                            VerticalAlignment="Top" Cursor="Hand">
                         <ToolTipService.ToolTip>
                             <Grid>

@@ -382,7 +382,7 @@
     <value>• Survive the battle.</value>
   </data>
   <data name="quest_1_2_10_condition_description_top_damage" xml:space="preserve">
-    <value>Be among the top 3 players on your team by experience earned</value>
+    <value>Be among the top 3 players on your team by damage caused</value>
   </data>
   <data name="quest_1_2_10_condition_main" xml:space="preserve">
     <value>• Be among the top 3 players on your team by damage caused.</value>
@@ -1053,7 +1053,7 @@
     <value>• Win the battle.</value>
   </data>
   <data name="quest_1_5_6_condition_description_assistStun" xml:space="preserve">
-    <value>Enable your allies to cause damage to 2 vehicles by stunning or immobilizing them</value>
+    <value>Enable your allies to cause damage to 2 different vehicles by stunning or immobilizing them</value>
   </data>
   <data name="quest_1_5_6_condition_main" xml:space="preserve">
     <value>• Enable your allies to cause damage to at least 2 enemy vehicles by stunning or immobilizing them.</value>
@@ -1080,7 +1080,7 @@
     <value>• Survive the battle.</value>
   </data>
   <data name="quest_1_5_9_condition_description_crit" xml:space="preserve">
-    <value>Destroy internal modules or injure crew members, totaling at least 3 modules or crew members</value>
+    <value>Destroy modules or injure crew members, totaling at least 3 modules or crew members</value>
   </data>
   <data name="quest_1_5_9_condition_main" xml:space="preserve">
     <value>• Destroy any modules of enemy vehicles or injure members of their crew, totaling at least 3 modules and crew members.
@@ -2093,7 +2093,7 @@
     <value>• Win the battle.</value>
   </data>
   <data name="quest_2_5_6_condition_description_assistStun" xml:space="preserve">
-    <value>Enable your allies to cause damage to 3 vehicles by stunning or immobilizing them</value>
+    <value>Enable your allies to cause damage to 3 different vehicles by stunning or immobilizing them</value>
   </data>
   <data name="quest_2_5_6_condition_main" xml:space="preserve">
     <value>• Enable your allies to cause damage to at least 3 enemy vehicles by stunning or immobilizing them.</value>
@@ -2121,7 +2121,7 @@
 • Win the battle.</value>
   </data>
   <data name="quest_2_5_9_condition_description_crit" xml:space="preserve">
-    <value>Destroy internal modules or injure crew members, totaling at least 5 modules or crew members</value>
+    <value>Destroy modules or injure crew members, totaling at least 5 modules or crew members</value>
   </data>
   <data name="quest_2_5_9_condition_main" xml:space="preserve">
     <value>• Destroy any modules of enemy vehicles or injure members of their crew, totaling at least 5 modules and crew members.
@@ -3161,7 +3161,7 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_3_5_6_condition_description_assistStun" xml:space="preserve">
-    <value>Enable your allies to cause damage to 5 vehicles by stunning or immobilizing them</value>
+    <value>Enable your allies to cause damage to 5 different vehicles by stunning or immobilizing them</value>
   </data>
   <data name="quest_3_5_6_condition_main" xml:space="preserve">
     <value>• Enable your allies to cause damage to at least 5 enemy vehicles by stunning or immobilizing them.</value>
@@ -3191,7 +3191,7 @@
 • Remain unspotted throughout the battle.</value>
   </data>
   <data name="quest_3_5_9_condition_description_crit" xml:space="preserve">
-    <value>Destroy internal modules or injure crew members, totaling at least 8 modules or crew members</value>
+    <value>Destroy modules or injure crew members, totaling at least 8 modules or crew members</value>
   </data>
   <data name="quest_3_5_9_condition_main" xml:space="preserve">
     <value>• Destroy any modules of enemy vehicles or injure members of their crew, totaling at least 8 modules and crew members.
@@ -4158,7 +4158,7 @@
     <value>Enable your allies to cause 3,500 HP of damage to enemy vehicles by stunning or immobilizing them</value>
   </data>
   <data name="quest_4_5_15_condition_description_top_xp" xml:space="preserve">
-    <value>Finish the battle as the top player on your team by experience earned</value>
+    <value>Finish the battle as the top player on both teams by experience earned</value>
   </data>
   <data name="quest_4_5_15_condition_main" xml:space="preserve">
     <value>• Finish the battle as the top player on both teams by experience earned.
@@ -4228,7 +4228,7 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_4_5_6_condition_description_assistStun" xml:space="preserve">
-    <value>Enable your allies to cause damage to 6 vehicles by stunning or immobilizing them</value>
+    <value>Enable your allies to cause damage to 6 different vehicles by stunning or immobilizing them</value>
   </data>
   <data name="quest_4_5_6_condition_main" xml:space="preserve">
     <value>• Enable your allies to cause damage to at least 6 enemy vehicles by stunning or immobilizing them.</value>
@@ -4258,7 +4258,7 @@
 • Remain unspotted throughout the battle.</value>
   </data>
   <data name="quest_4_5_9_condition_description_crit" xml:space="preserve">
-    <value>Destroy 10 internal modules or injure 10 crew members</value>
+    <value>Destroy modules or injure crew members, totaling at least 10 modules or crew members</value>
   </data>
   <data name="quest_4_5_9_condition_main" xml:space="preserve">
     <value>• Destroy any modules of enemy vehicles or injure members of their crew, totaling at least 10 modules and crew members.

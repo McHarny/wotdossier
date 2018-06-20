@@ -162,4 +162,10 @@
   <data name="spam_protection" xml:space="preserve">
     <value>Protection from multiple "client-server" calls</value>
   </data>
+  <data name="suspended" xml:space="preserve">
+    <value>deleting account. The delete request can be canceled in your Account Management</value>
+  </data>
+  <data name="unsuspending" xml:space="preserve">
+    <value>recovering the deleted account. A notification of full account recovery will be sent to your email</value>
+  </data>
 </root>

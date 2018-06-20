@@ -238,6 +238,14 @@
         public bool PLSelected { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether [italy selected].
+        /// </summary>
+        /// <value>
+        ///   <c>true</c> if [italy selected]; otherwise, <c>false</c>.
+        /// </value>
+        public bool ItalySelected { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether this instance is premium.
         /// </summary>
         /// <value>

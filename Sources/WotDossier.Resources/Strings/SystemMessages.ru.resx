@@ -3937,7 +3937,7 @@
     <value>%(vehicles)s</value>
   </data>
   <data name="telecom/notifications/vehicleBlocked/subcomment" xml:space="preserve">
-    <value>Причина: блокировка услуги провайдером. Проверьте статус услуги «Домашний интернет».</value>
+    <value>Причина: блокировка услуги провайдером. Проверьте статус услуги в личном кабинете %(provider)s.</value>
   </data>
   <data name="telecom/notifications/vehicleBlocked/title" xml:space="preserve">
     <value>Машина недоступна</value>
@@ -3958,7 +3958,7 @@
 Списано: %(vehicles)s, слот в Ангаре.</value>
   </data>
   <data name="telecom/notifications/vehicleRemoved/subcomment" xml:space="preserve">
-    <value>Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой».</value>
+    <value>Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «%(tariff)s».</value>
   </data>
   <data name="telecom/notifications/vehicleRemoved/title" xml:space="preserve">
     <value>Списана машина</value>
@@ -4237,10 +4237,10 @@
     <value>Выбран другой режим.</value>
   </data>
   <data name="vehicle/restore/finished" xml:space="preserve">
-    <value>Машина %(vehicleName)s недоступна для восстановления: закончилось отведённое на операцию время.</value>
+    <value>Машина %(vehicleName)s недоступна для восстановления: закончился отведённый на операцию срок.</value>
   </data>
   <data name="vehicle_trade_in/invalid_vehicle" xml:space="preserve">
-    <value>Обмен на '%(vehName)s' не удался. Выбрана неправильная машина.</value>
+    <value>Обмен на «%(vehName)s» не удался. Выбрана неправильная машина.</value>
   </data>
   <data name="vehicle_trade_in/not_enough_credits" xml:space="preserve">
     <value>Обмен на '%(vehName)s' не удался. Недостаточно кредитов.</value>
@@ -4252,19 +4252,19 @@
     <value>Обменять '%(tradeOffVehName)s' не удалось. Недостаточно места в Казарме.</value>
   </data>
   <data name="vehicle_trade_in/server_error" xml:space="preserve">
-    <value>Обмен на '%(vehName)s' не удался. Ошибка сервера, повторите операцию позже.</value>
+    <value>Обмен на «%(vehName)s» не удался. Ошибка сервера, повторите операцию позже.</value>
   </data>
   <data name="vehicle_trade_in/server_error_centerDown" xml:space="preserve">
-    <value>Обмен на '%(vehName)s' не удался. Сервис покупки/обмена техники временно недоступен.</value>
+    <value>Обмен на «%(vehName)s» не удался. Сервис покупки/обмена техники временно недоступен.</value>
   </data>
   <data name="vehicle_trade_in/success" xml:space="preserve">
     <value>Машина '%(tradeOffVehName)s' списана. Новая машина '%(vehName)s' куплена, потрачено %(price)s.</value>
   </data>
   <data name="vehicle_trade_in/vehicle_cannot_be_sold" xml:space="preserve">
-    <value>Обменять '%(tradeOffVehName)s' не удалось. Машина будет списана автоматически.</value>
+    <value>Обменять «%(tradeOffVehName)s» не удалось. Машина будет списана автоматически.</value>
   </data>
   <data name="vehicle_trade_in/vehicle_cannot_trade_in" xml:space="preserve">
-    <value>Обменять '%(vehName)s' не удалось. Машина не подлежит получению по обмену.</value>
+    <value>Обменять «%(vehName)s» не удалось. Машина не подлежит получению по обмену.</value>
   </data>
   <data name="vehicle_trade_in/vehicle_cannot_trade_off" xml:space="preserve">
     <value>Обменять '%(tradeOffVehName)s' не удалось. Машина не подлежит обмену.</value>
@@ -4276,7 +4276,7 @@
     <value>Обменять '%(tradeOffVehName)s' не удалось. Машине необходим ремонт.</value>
   </data>
   <data name="vehicle_trade_in/vehicle_not_found_in_inventory" xml:space="preserve">
-    <value>Обменять '%(tradeOffVehName)s' не удалось. Машины нет на Складе.</value>
+    <value>Обменять «%(tradeOffVehName)s» не удалось. Машины нет в Ангаре.</value>
   </data>
   <data name="vehicle_trade_in/wallet_not_available" xml:space="preserve">
     <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
@@ -4597,31 +4597,31 @@
     <value>Добавлен камуфляж</value>
   </data>
   <data name="customization/added/camouflageValue" xml:space="preserve">
-    <value>Добавлен камуфляж (x%s).</value>
+    <value>Добавлен камуфляж (x%s)</value>
   </data>
   <data name="customization/added/decal" xml:space="preserve">
     <value>Добавлена декаль</value>
   </data>
   <data name="customization/added/decalValue" xml:space="preserve">
-    <value>Добавлена декаль (x%s).</value>
+    <value>Добавлена декаль (x%s)</value>
   </data>
   <data name="customization/added/modification" xml:space="preserve">
     <value>Добавлен эффект</value>
   </data>
   <data name="customization/added/modificationValue" xml:space="preserve">
-    <value>Добавлен эффект (x%s).</value>
+    <value>Добавлен эффект (x%s)</value>
   </data>
   <data name="customization/added/paint" xml:space="preserve">
     <value>Добавлена краска</value>
   </data>
   <data name="customization/added/paintValue" xml:space="preserve">
-    <value>Добавлена краска (x%s).</value>
+    <value>Добавлена краска (x%s)</value>
   </data>
   <data name="customization/added/style" xml:space="preserve">
     <value>Добавлен стиль</value>
   </data>
   <data name="customization/added/styleValue" xml:space="preserve">
-    <value>Добавлен стиль (x%s).</value>
+    <value>Добавлен стиль (x%s)</value>
   </data>
   <data name="customization/prohibited" xml:space="preserve">
     <value>Нанесение невозможно: «%(itemName)s» отсутствует в инвентаре.</value>
@@ -4652,5 +4652,83 @@
   </data>
   <data name="tokens/notification/mark_acquired" xml:space="preserve">
     <value>Поздравляем! Вам начислены марки в количестве %(count)s шт.</value>
+  </data>
+  <data name="unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER" xml:space="preserve">
+    <value>Управление боевыми резервами в бою передано вам.</value>
+  </data>
+  <data name="unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER" xml:space="preserve">
+    <value>Управление боевыми резервами в бою передано другому игроку.</value>
+  </data>
+  <data name="customization/removed/camouflageValue" xml:space="preserve">
+    <value>Списан камуфляж (x%s)</value>
+  </data>
+  <data name="customization/removed/decalValue" xml:space="preserve">
+    <value>Списана декаль (x%s)</value>
+  </data>
+  <data name="customization/removed/modificationValue" xml:space="preserve">
+    <value>Списан эффект (x%s)</value>
+  </data>
+  <data name="customization/removed/paintValue" xml:space="preserve">
+    <value>Списана краска (x%s)</value>
+  </data>
+  <data name="customization/removed/styleValue" xml:space="preserve">
+    <value>Списан стиль (x%s)</value>
+  </data>
+  <data name="arena_start_errors/join/QUEUE_FULL" xml:space="preserve">
+    <value>Действие недоступно. Очередь на вход в игровой режим переполнена. Повторите попытку позже.</value>
+  </data>
+  <data name="arena_start_errors/join/WRONG_VEHICLE_LVL" xml:space="preserve">
+    <value>Ошибка: техника этого уровня не может участвовать в режиме.</value>
+  </data>
+  <data name="epicBattles/notification/available" xml:space="preserve">
+    <value>Режим прекращения огня окончен: Линия фронта снова доступна.</value>
+  </data>
+  <data name="epicBattles/notification/notAvailable" xml:space="preserve">
+    <value>Режим «Линия фронта» недоступен. Следите за новостями на портале игры.</value>
+  </data>
+  <data name="epicBattles/notification/primeTime" xml:space="preserve">
+    <value>Линия фронта недоступна до окончания режима прекращения огня.</value>
+  </data>
+  <data name="unit/errors/BAD_VEHICLES_SET" xml:space="preserve">
+    <value>Действие недоступно. Нарушено ограничение по типам техники во взводе.</value>
+  </data>
+  <data name="unit/errors/SWITCH_SIZE_CONSTRAINTS" xml:space="preserve">
+    <value>Невозможно переключить режим игры, превышен лимит совзводных.</value>
+  </data>
+  <data name="unit/errors/WRONG_VEHICLE" xml:space="preserve">
+    <value>Действие недоступно. Машина не готова или не соответствует требованиям.</value>
+  </data>
+  <data name="customization/added/emblem" xml:space="preserve">
+    <value>Добавлена эмблема</value>
+  </data>
+  <data name="customization/added/emblemValue" xml:space="preserve">
+    <value>Добавлена эмблема (x%s)</value>
+  </data>
+  <data name="customization/added/inscription" xml:space="preserve">
+    <value>Добавлена надпись</value>
+  </data>
+  <data name="customization/added/inscriptionValue" xml:space="preserve">
+    <value>Добавлена надпись (x%s)</value>
+  </data>
+  <data name="customization/removed/emblem" xml:space="preserve">
+    <value>Списана эмблема</value>
+  </data>
+  <data name="customization/removed/emblemValue" xml:space="preserve">
+    <value>Списана эмблема (x%s)</value>
+  </data>
+  <data name="customization/removed/inscription" xml:space="preserve">
+    <value>Списана надпись</value>
+  </data>
+  <data name="customization/removed/inscriptionValue" xml:space="preserve">
+    <value>Списана надпись (x%s)</value>
+  </data>
+  <data name="football_recruit_window/success" xml:space="preserve">
+    <value>Член экипажа успешно рекрутирован.
+%(rank)s, %(name)s
+(%(role)s, %(vehicle)s, 100%%)
+Добавлено коек в Казарму: 1</value>
+  </data>
+  <data name="tokens/notification/football_card_acquired" xml:space="preserve">
+    <value>Начислено коллекционных карточек: %(count)s</value>
   </data>
 </root>

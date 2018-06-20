@@ -415,7 +415,7 @@
     <value>M10 Wolverine</value>
   </data>
   <data name="M10_Wolverine_descr" xml:space="preserve">
-    <value>The most widely produced American tank destroyer, with a total of 6,406 vehicles manufactured from September 1942 through January 1943. More than a third of all Wolverines were supplied to Allied nations under Lend-Lease.</value>
+    <value>The most widely produced American tank destroyer, with a total of 6,706 vehicles manufactured from September 1942 through January 1944. More than a third of all Wolverines were supplied to the Allied nations under Lend-Lease.</value>
   </data>
   <data name="M10_Wolverine_short" xml:space="preserve">
     <value>Wolverine</value>
@@ -628,10 +628,10 @@
     <value>Developed at the request of the Dutch East Indies, with a total of 125 vehicles manufactured from 1941 through 1942. Only 20 of them were ordered, and they never saw action.</value>
   </data>
   <data name="MTLS_D1" xml:space="preserve">
-    <value>MTLS D1</value>
+    <value>4-Man Dutch Tank</value>
   </data>
   <data name="MTLS_T1" xml:space="preserve">
-    <value>MTLS T1</value>
+    <value>MTLS-1G14</value>
   </data>
   <data name="NVSS_T66" xml:space="preserve">
     <value>NVSS T66</value>
@@ -808,7 +808,7 @@
     <value>T25/2</value>
   </data>
   <data name="T25_2_descr" xml:space="preserve">
-    <value>Tank destroyer based on the T23. Development started in 1943. Since the T23 was not adopted for service, work on the tank destroyer was discontinued. Existed only in blueprints.</value>
+    <value>A project for a tank destroyer with a full-rotation turret and 90-mm gun on the T23 tank chassis proposed in 1943. No prototypes were manufactured, because the T23 tank and its modifications never entered mass production due to the end of war and vehicles with electric transmission falling out of favor.</value>
   </data>
   <data name="T25_2_short" xml:space="preserve">
     <value>T25/2</value>
@@ -817,7 +817,7 @@
     <value>T25 AT</value>
   </data>
   <data name="T25_AT_descr" xml:space="preserve">
-    <value>The T25 was developed on the basis of the T23 medium tank, but was never manufactured.</value>
+    <value>The vehicle was developed based on the T23 tank, but the work on the project was discontinued at the concept exploration stage. The Command of the United States Army did not like the electric transmission and poor gun traverse limits.</value>
   </data>
   <data name="T25_AT_short" xml:space="preserve">
     <value>T25 AT</value>
@@ -835,7 +835,7 @@
     <value>T28 Prot.</value>
   </data>
   <data name="T28_descr" xml:space="preserve">
-    <value>In March 1944, the U.S. Army placed an order for five prototypes of heavy vehicles designated T28. As a result, the T95 SPG was built.</value>
+    <value>The development of a superheavy vehicle with enhanced armor started in the second half of 1943. The design featured the power unit and electrical transmission of the experimental T23 medium tank. The vehicle was supposed to feature a new 105-mm anti-aircraft gun. The design was later used for the creation of the T95 assault tank. Existed only in blueprints.</value>
   </data>
   <data name="T28_short" xml:space="preserve">
     <value>T28</value>
@@ -1360,10 +1360,10 @@
     <value>APC M51</value>
   </data>
   <data name="_37mm_APC_M59A1" xml:space="preserve">
-    <value>APC M59A1</value>
+    <value>AAC APC</value>
   </data>
   <data name="_37mm_APC_M59A5" xml:space="preserve">
-    <value>APC M59A5</value>
+    <value>AAC APCR</value>
   </data>
   <data name="_37mm_AP_M74" xml:space="preserve">
     <value>AP M74</value>
@@ -1378,7 +1378,7 @@
     <value>HE 1916</value>
   </data>
   <data name="_37mm_HE_M54" xml:space="preserve">
-    <value>HE M54</value>
+    <value>AAC HE</value>
   </data>
   <data name="_37mm_HE_M63" xml:space="preserve">
     <value>HE M63</value>
@@ -2605,7 +2605,7 @@ W-670 Series 12</value>
     <value>T28 Concept</value>
   </data>
   <data name="A102_T28_concept_descr" xml:space="preserve">
-    <value>The development of this heavy breakthrough tank began in September 1943. It was planned to utilize certain components of the M6 tank as well as the electromechanical transmission and 100-mm T5 gun, mounted in a turret of limited traverse with 203-mm armor protection. The vehicle was intended to assault the fortifications of the German "Siegfried Line" (known as the "Westwall" to the Germans). The U.S. land forces rejected the project during the design phase. The vehicle was later modified into the T95 heavy breakthrough tank.</value>
+    <value>The development of this heavy breakthrough tank began in September 1943. It was planned to utilize certain components of the M6 tank as well as the electromechanical transmission and 105-mm T5 gun, mounted in a turret of limited traverse with 203-mm armor protection. The vehicle was intended to assault the fortifications of the German "Siegfried Line" (known as the "Westwall" to the Germans). The U.S. land forces rejected the project during the design phase. The vehicle was later modified into the T95 heavy breakthrough tank.</value>
   </data>
   <data name="A102_T28_concept_short" xml:space="preserve">
     <value>T28 HTC</value>
@@ -3004,11 +3004,11 @@ AV-1790-5A</value>
     <value>T71 CMCD P</value>
   </data>
   <data name="Continental_AOI-628-1_A" xml:space="preserve">
-    <value>Continental AOI-628-1</value>
+    <value>Continental AOI-628-1 A</value>
   </data>
   <data name="Continental_AOI-628-1_A_short" xml:space="preserve">
     <value>Continental
-AOI-628-1</value>
+AOI-628-1 A</value>
   </data>
   <data name="_76mm_Gun_T185_A" xml:space="preserve">
     <value>76 mm Gun T185</value>
@@ -3254,7 +3254,7 @@ Series 44T4L</value>
     <value>M48A5 Patton</value>
   </data>
   <data name="A120_M48A5_descr" xml:space="preserve">
-    <value>A modification of the M48 tank of the 1970s, developed to modernize the remaining M48 tanks in service up to the M60 tank's level. The modification featured a new engine, armament, and fire control system. Apart from armor protection, the 2,570 upgraded vehicles were practically indistinguishable from the M60 that featured the same armament and engine.</value>
+    <value>A modification of the M48 tank of 1970, developed to modernize the remaining M48 tanks in service up to the M60 tank's level. The modification featured a new engine, armament, and fire control system. Apart from armor protection, the 2,570 upgraded vehicles were practically indistinguishable from the M60 that featured the same armament and engine.</value>
   </data>
   <data name="A120_M48A5_short" xml:space="preserve">
     <value>M48 Patton</value>
@@ -3273,5 +3273,73 @@ Series 44T4L</value>
   </data>
   <data name="Turret_1_A120_M48A5" xml:space="preserve">
     <value>M48A5 Patton</value>
+  </data>
+  <data name="A12_T32_FL" xml:space="preserve">
+    <value>T32 FL</value>
+  </data>
+  <data name="A12_T32_FL_descr" xml:space="preserve">
+    <value>An experimental World War II American heavy tank. Developed on the basis of the M26 Pershing and T29 tanks. Prototypes were built in 1946; however, the T32 never entered mass production.</value>
+  </data>
+  <data name="Chassis_A12_T32_FL" xml:space="preserve">
+    <value>T84E3A FL</value>
+  </data>
+  <data name="Continental_AOI-1195-5A" xml:space="preserve">
+    <value>Continental AOI-1195-5A</value>
+  </data>
+  <data name="Continental_AOI-1195-5A_short" xml:space="preserve">
+    <value>Continental
+AOI-1195-5A</value>
+  </data>
+  <data name="Continental_AV-1790-3_FL" xml:space="preserve">
+    <value>Continental AV-1790-3 FL</value>
+  </data>
+  <data name="Continental_AV-1790-3_FL_short" xml:space="preserve">
+    <value>Continental
+AV-1790-3 FL</value>
+  </data>
+  <data name="SCR_528_FL" xml:space="preserve">
+    <value>SCR 528 FL</value>
+  </data>
+  <data name="Turret_1_A12_T32_FL" xml:space="preserve">
+    <value>T119 FL</value>
+  </data>
+  <data name="_105mm_APCR_T29E3_FL" xml:space="preserve">
+    <value>APCR T29E3 FL</value>
+  </data>
+  <data name="_105mm_AP_T32_FL" xml:space="preserve">
+    <value>AP T32 FL</value>
+  </data>
+  <data name="_105mm_Gun_T5E1_FL" xml:space="preserve">
+    <value>105 mm Gun T5E1 FL</value>
+  </data>
+  <data name="_105mm_HE_M11_FL" xml:space="preserve">
+    <value>HE M11 FL</value>
+  </data>
+  <data name="A121_M26_Cologne" xml:space="preserve">
+    <value>T26E3 Eagle 7</value>
+  </data>
+  <data name="A121_M26_Cologne_descr" xml:space="preserve">
+    <value>A tank under Sergeant Bob Early's command, with serial number 26, used by Company E of the 32nd Armored Regiment of the 3rd Armored Division. This vehicle was one of the pilot T26E3s, which participated in Operation Zebra (to trial the Pershing tanks in Europe). In the battle for Cologne on May 6, 1945, Early's crew destroyed the German Panther in front of the Cologne Cathedral with three shots.</value>
+  </data>
+  <data name="A121_M26_Cologne_short" xml:space="preserve">
+    <value>Eagle 7</value>
+  </data>
+  <data name="Chassis_A121_M26_Cologne" xml:space="preserve">
+    <value>T26E3</value>
+  </data>
+  <data name="Ford_GAF_500" xml:space="preserve">
+    <value>Ford GAF (500)</value>
+  </data>
+  <data name="Turret_1_A121_M26_Cologne" xml:space="preserve">
+    <value>T26E3</value>
+  </data>
+  <data name="_90mm_AP_M82_late" xml:space="preserve">
+    <value>AP M82 late</value>
+  </data>
+  <data name="_90mm_AP_T33E" xml:space="preserve">
+    <value>AP T33E</value>
+  </data>
+  <data name="_90mm_Gun_M3E" xml:space="preserve">
+    <value>90 mm Gun M3E</value>
   </data>
 </root>

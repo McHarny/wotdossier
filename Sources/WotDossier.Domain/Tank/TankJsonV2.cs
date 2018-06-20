@@ -121,6 +121,8 @@ namespace WotDossier.Domain.Tank
 
         public StatisticJson A30x30 { get; set; }
 
+        public StatisticJsonEpicBattle EpicBattle { get; set; }
+
         /// <summary>
         /// Gets or sets the achievements.
         /// </summary>
@@ -135,10 +137,12 @@ namespace WotDossier.Domain.Tank
 
 	    public AchievementsRanked AchievementsRanked { get; set; }
 
-		/// <summary>
-		/// Gets or sets the achievements historical.
-		/// </summary>
-		public AchievementsHistorical AchievementsHistorical { get; set; }
+        public AchievementsEpicBattle AchievementsEpicBattle { get; set; }
+
+        /// <summary>
+        /// Gets or sets the achievements historical.
+        /// </summary>
+        public AchievementsHistorical AchievementsHistorical { get; set; }
 
         /// <summary>
         /// Gets or sets the frags list.

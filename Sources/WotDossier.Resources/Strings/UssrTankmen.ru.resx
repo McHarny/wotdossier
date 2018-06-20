@@ -262,7 +262,7 @@
     <value>Конюхов</value>
   </data>
   <data name="names/rus141" xml:space="preserve">
-    <value>Вотяков</value>
+    <value>Гордей</value>
   </data>
   <data name="names/rus142" xml:space="preserve">
     <value>Шпаков</value>
@@ -1549,7 +1549,7 @@
     <value>Примаков</value>
   </data>
   <data name="names/rus528" xml:space="preserve">
-    <value>Кострикров</value>
+    <value>Костриков</value>
   </data>
   <data name="names/rus529" xml:space="preserve">
     <value>Крымов</value>
@@ -3226,7 +3226,7 @@
     <value>Дементий</value>
   </data>
   <data name="names/rusn35" xml:space="preserve">
-    <value>Демид</value>
+    <value>Артур</value>
   </data>
   <data name="names/rusn36" xml:space="preserve">
     <value>Демьян</value>
@@ -4496,5 +4496,134 @@
   </data>
   <data name="names/lozan1" xml:space="preserve">
     <value>Дмитрий</value>
+  </data>
+  <data name="names/rus1157" xml:space="preserve">
+    <value>Спиров</value>
+  </data>
+  <data name="names/rus11108" xml:space="preserve">
+    <value>Кондратович</value>
+  </data>
+  <data name="names/rus1158" xml:space="preserve">
+    <value>Курявый</value>
+  </data>
+  <data name="names/rus1159" xml:space="preserve">
+    <value>Сульдин</value>
+  </data>
+  <data name="names/rus1160" xml:space="preserve">
+    <value>Криштапович</value>
+  </data>
+  <data name="names/rus1161" xml:space="preserve">
+    <value>Бушмакин</value>
+  </data>
+  <data name="names/rus1162" xml:space="preserve">
+    <value>Толеугазиев</value>
+  </data>
+  <data name="names/rus1163" xml:space="preserve">
+    <value>Дектерёв</value>
+  </data>
+  <data name="names/rus1164" xml:space="preserve">
+    <value>Першин</value>
+  </data>
+  <data name="names/rus1165" xml:space="preserve">
+    <value>Костузик</value>
+  </data>
+  <data name="names/rus1166" xml:space="preserve">
+    <value>Довгилёв</value>
+  </data>
+  <data name="names/rus1167" xml:space="preserve">
+    <value>Кананович</value>
+  </data>
+  <data name="names/rus1168" xml:space="preserve">
+    <value>Заборовский</value>
+  </data>
+  <data name="names/rus1169" xml:space="preserve">
+    <value>Яценко</value>
+  </data>
+  <data name="names/rus1170" xml:space="preserve">
+    <value>Поздняков</value>
+  </data>
+  <data name="names/rus1171" xml:space="preserve">
+    <value>Каргин</value>
+  </data>
+  <data name="names/rus1172" xml:space="preserve">
+    <value>Назаренко</value>
+  </data>
+  <data name="names/rus1173" xml:space="preserve">
+    <value>Майоров</value>
+  </data>
+  <data name="names/rus1174" xml:space="preserve">
+    <value>Шикуть</value>
+  </data>
+  <data name="names/rus1175" xml:space="preserve">
+    <value>Анико</value>
+  </data>
+  <data name="names/rus1176" xml:space="preserve">
+    <value>Бильдюкевич</value>
+  </data>
+  <data name="names/rus1177" xml:space="preserve">
+    <value>Дерюгин</value>
+  </data>
+  <data name="names/rus1178" xml:space="preserve">
+    <value>Токарев</value>
+  </data>
+  <data name="names/rus1179" xml:space="preserve">
+    <value>Ким</value>
+  </data>
+  <data name="names/rus1180" xml:space="preserve">
+    <value>Савич</value>
+  </data>
+  <data name="names/rus1181" xml:space="preserve">
+    <value>Лабус</value>
+  </data>
+  <data name="names/rus1182" xml:space="preserve">
+    <value>Раильченко</value>
+  </data>
+  <data name="names/rus1183" xml:space="preserve">
+    <value>Кицененко</value>
+  </data>
+  <data name="names/rus1184" xml:space="preserve">
+    <value>Сай</value>
+  </data>
+  <data name="names/rus1185" xml:space="preserve">
+    <value>Тонких</value>
+  </data>
+  <data name="names/rus1186" xml:space="preserve">
+    <value>Сидорок</value>
+  </data>
+  <data name="names/rus1187" xml:space="preserve">
+    <value>Марухин</value>
+  </data>
+  <data name="names/rus1188" xml:space="preserve">
+    <value>Воронович</value>
+  </data>
+  <data name="names/rus1189" xml:space="preserve">
+    <value>Ластовский</value>
+  </data>
+  <data name="names/rus1190" xml:space="preserve">
+    <value>Сахванович</value>
+  </data>
+  <data name="names/rus1191" xml:space="preserve">
+    <value>Касперович</value>
+  </data>
+  <data name="names/rus1192" xml:space="preserve">
+    <value>Таболин</value>
+  </data>
+  <data name="names/rus1193" xml:space="preserve">
+    <value>Капский</value>
+  </data>
+  <data name="names/rus1194" xml:space="preserve">
+    <value>Куюмджи</value>
+  </data>
+  <data name="names/rus1195" xml:space="preserve">
+    <value>Земка</value>
+  </data>
+  <data name="names/rus1196" xml:space="preserve">
+    <value>Опалев</value>
+  </data>
+  <data name="names/Buffon" xml:space="preserve">
+    <value>Buffon</value>
+  </data>
+  <data name="names/Gianluigi" xml:space="preserve">
+    <value>Gianluigi</value>
   </data>
 </root>

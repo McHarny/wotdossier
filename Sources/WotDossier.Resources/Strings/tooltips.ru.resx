@@ -1344,7 +1344,7 @@
     <value>Недостаточно кредитов</value>
   </data>
   <data name="vehicleStatus/notEnoughCredits/text" xml:space="preserve">
-    <value>Заработайте их в бою, продайте излишки со склада или обменяйте золото.</value>
+    <value>Заработайте их в бою, продайте излишки со Склада или обменяйте золото.</value>
   </data>
   <data name="vehicleStatus/notEnoughGold/header" xml:space="preserve">
     <value>Недостаточно золота</value>
@@ -2969,13 +2969,13 @@
     <value>Атака</value>
   </data>
   <data name="fortification/battleRoomLegionaries/body" xml:space="preserve">
-    <value>Данный игрок является легионером, которого можно пригласить в отряд для участия в вылазке. В штате отряда может быть не более 5 легионеров.</value>
+    <value>Данный игрок является легионером, которого можно пригласить в отряд для участия в Вылазке. В штате отряда может быть не более 5 легионеров.</value>
   </data>
   <data name="fortification/battleRoomLegionaries/header" xml:space="preserve">
     <value>Легионер</value>
   </data>
   <data name="fortification/battleRoomLegionaries/teamSection/body" xml:space="preserve">
-    <value>Данный игрок является легионером, которого можно пригласить в отряд для участия в вылазке. В штате отряда может быть не более 5 легионеров.</value>
+    <value>Данный игрок является легионером, которого можно пригласить в отряд для участия в Вылазке. В штате отряда может быть не более 5 легионеров.</value>
   </data>
   <data name="fortification/battleRoomLegionaries/teamSection/header" xml:space="preserve">
     <value>Легионер</value>
@@ -5866,7 +5866,7 @@
     <value>Премиум дни</value>
   </data>
   <data name="battleTypes/battleTeaching/body" xml:space="preserve">
-    <value>Бой против ботов на картах %(map1)s и %(map2)s для закрепления полученных в Боевом обучении навыков.
+    <value>Бой против ботов на карте %(map1)s для закрепления полученных в Боевом обучении навыков.
 • Особенности: если у вас более %(battles)d любых боёв на аккаунте, кредиты и опыт в Учебном бою не начисляются.
 • Допустимые уровни техники: I и II.</value>
   </data>
@@ -5992,7 +5992,7 @@
     <value>Установить по умолчанию</value>
   </data>
   <data name="customization/headerCloseBtn/body" xml:space="preserve">
-    <value>Неоплаченные элементы внешнего вида сохранены не будут.</value>
+    <value>Неоплаченные или взятые со Склада элементы внешнего вида сохранены не будут.</value>
   </data>
   <data name="customization/headerCloseBtn/header" xml:space="preserve">
     <value>Вернуться в Ангар</value>
@@ -6116,13 +6116,13 @@
     <value>Вернуть</value>
   </data>
   <data name="vehicle/deal/telecom/main" xml:space="preserve">
-    <value>Машина доступна абонентам тарифного плана «Игровой» от Ростелеком.</value>
+    <value>Машина доступна абонентам тарифного плана «%(tariff)s» от %(provider)s.</value>
   </data>
   <data name="vehicleStatus/dealIsOver/header" xml:space="preserve">
     <value>Машина недоступна</value>
   </data>
   <data name="vehicleStatus/dealIsOver/text" xml:space="preserve">
-    <value>Причина: блокировка услуги провайдером. Проверьте статус услуги «Домашний интернет».</value>
+    <value>Причина: блокировка услуги провайдером. Проверьте статус услуги в личном кабинете %(provider)s.</value>
   </data>
   <data name="battleLoadingInfo/body" xml:space="preserve">
     <value>Выбор желаемого отображения подсказок. При этом:
@@ -6225,7 +6225,7 @@
     <value>Внимание!</value>
   </data>
   <data name="event/squad/disable/body" xml:space="preserve">
-    <value>Для высадки на тёмной стороне Луны выберите %(tankName)s</value>
+    <value>Для участия в футбольном мачте используйте %(tankName)s</value>
   </data>
   <data name="event/squad/disable/header" xml:space="preserve">
     <value>Внимание!</value>
@@ -6325,7 +6325,7 @@
     <value>Нажмите, чтобы выйти из состава лунного взвода.</value>
   </data>
   <data name="squadWindow/eventVehicle" xml:space="preserve">
-    <value>Для высадки на тёмной стороне Луны выберите %(tankName)s</value>
+    <value>Для участия в футбольном мачте используйте %(tankName)s</value>
   </data>
   <data name="tankCaruselTooltip/vehicleType/normal/AT-SPG" xml:space="preserve">
     <value>ПТ-САУ</value>
@@ -6361,7 +6361,7 @@
     <value>Недостаточно кредитов</value>
   </data>
   <data name="deviceFits/credits_error/text" xml:space="preserve">
-    <value>Заработайте кредиты в бою, продайте излишки со склада или обменяйте золото.</value>
+    <value>Заработайте кредиты в бою, продайте излишки со Склада или обменяйте золото.</value>
   </data>
   <data name="hangarTutorial/nations/sweden" xml:space="preserve">
     <value>Швеция</value>
@@ -6471,7 +6471,7 @@
     <value>Недостаточно кредитов</value>
   </data>
   <data name="moduleFits/credits_error/text" xml:space="preserve">
-    <value>Заработайте их в бою, продайте излишки со склада или обменяйте золото.</value>
+    <value>Заработайте их в бою, продайте излишки со Склада или обменяйте золото.</value>
   </data>
   <data name="moduleFits/not_removable/dismantling/price" xml:space="preserve">
     <value>Стоимость демонтажа</value>
@@ -6503,10 +6503,10 @@
     <value>Тип устройства воспроизведения</value>
   </data>
   <data name="squadWindow/buttons/leaveEventSquad/body" xml:space="preserve">
-    <value>Нажмите, чтобы покинуть Призрачный взвод.</value>
+    <value>Нажмите, чтобы покинуть футбольный взвод.</value>
   </data>
   <data name="squadWindow/buttons/leaveEventSquad/header" xml:space="preserve">
-    <value>Покинуть Призрачный взвод</value>
+    <value>Покинуть футбольный взвод</value>
   </data>
   <data name="squadWindow/infoIcon/tech/body" xml:space="preserve">
     <value>Взвод должен состоять из машин одного уровня.</value>
@@ -6606,7 +6606,7 @@
     <value>Максимальные углы, на которые орудие отклоняется по вертикали вниз и вверх относительно его расположения по умолчанию.</value>
   </data>
   <data name="tank_params/desc/radioDistance" xml:space="preserve">
-    <value>Передача между союзниками информации о местоположении техники на миникарте. Дальность связи отдельно взятой машины представлена в виде круга с указанным в параметре радиусом. Наложение кругов обеспечивает передачу информации на любом расстоянии при наличии в цепи достаточного количества машин-звеньев.</value>
+    <value>Передача между союзниками информации о местоположении техники на миникарте. Дальность связи представлена кругом с указанным в параметре радиусом. Наложение кругов союзных машин обеспечивает передачу информации на расстоянии.</value>
   </data>
   <data name="tank_params/desc/relativeArmor" xml:space="preserve">
     <value>Комплекс параметров, показывающий сопротивление машины наносимому урону.</value>
@@ -6705,7 +6705,7 @@
     <value>%(tankmanType)s не обучен на эту машину</value>
   </data>
   <data name="vehicleParams/penalty/tankmanLevel/template" xml:space="preserve">
-    <value>%(tankmanType)s не обучен на 100%%</value>
+    <value>%(tankmanType)s обучен менее, чем на 100%%</value>
   </data>
   <data name="vehicleParams/penalty/tankmanLevel/value" xml:space="preserve">
     <value>(%(value)s к значению параметра)</value>
@@ -7372,31 +7372,31 @@
     <value>Базовый снаряд</value>
   </data>
   <data name="skills/brotherhood/descr" xml:space="preserve">
-    <value>Улучшает уровень владения основной специальностью и всеми умениями всех членов экипажа. Эффект усиливается в сочетании с оборудованием «Улучшенная вентиляция», снаряжением «Доппаёк», «Шоколад», «Ящик колы», «Крепкий кофе», «Улучшенный рацион», «Пудинг с чаем», «Онигири», «Бухты» и «Кофе с выпечкой».</value>
+    <value>Улучшает уровень владения основной специальностью и всеми умениями всех членов экипажа. Эффект усиливается в сочетании с оборудованием «Улучшенная вентиляция» и «Система отвода пороховых газов», в сочетании со снаряжением «Доппаёк», «Шоколад», «Ящик Колы», «Крепкий кофе», «Улучшенный рацион», «Пудинг с чаем», «Онигири», «Бухты», «Кофе с выпечкой», «Хлеб со смальцем», «Спагетти с мясным соусом», а также при наличии предбоевой инструкции «Продувка воздуховодов».</value>
   </data>
   <data name="skills/brotherhood/header" xml:space="preserve">
     <value>Боевое братство</value>
   </data>
   <data name="skills/camouflage/descr" xml:space="preserve">
-    <value>Снижает заметность машины. Эффект усиливается при наличии камуфляжа (для соответствующего типа карт) и в сочетании с оборудованием «Маскировочная сеть».</value>
+    <value>Снижает заметность машины. Эффект усиливается при наличии камуфляжа (для соответствующего типа карт), в сочетании с оборудование «Маскировочная сеть», а также при наличии предбоевой инструкции «Укрытия на местности».</value>
   </data>
   <data name="skills/camouflage/header" xml:space="preserve">
     <value>Маскировка</value>
   </data>
   <data name="skills/commander_eagleEye/descr" xml:space="preserve">
-    <value>Увеличивает максимальную дальность обзора. При неисправных приборах наблюдения эффективность умения выше. Эффект увеличивается в сочетании с умением «Радиоперехват», оборудованием «Просветлённая оптика» и «Стереотруба».</value>
+    <value>Увеличивает максимальную дальность обзора. При неисправных приборах наблюдения эффективность умения выше. Эффект увеличивается в сочетании с умением «Радиоперехват», оборудованием «Просветлённая оптика», «Юстированная оптика» и «Стереотруба».</value>
   </data>
   <data name="skills/commander_eagleEye/header" xml:space="preserve">
     <value>Орлиный глаз</value>
   </data>
   <data name="skills/driver_badRoadsKing/descr" xml:space="preserve">
-    <value>Снижает сопротивление средних и слабых грунтов при движении машины. Умение повышает манёвренность и уменьшает время набора максимальной скорости. Эффект усиливается в сочетании с оборудованием «Дополнительные грунтозацепы».</value>
+    <value>Снижает сопротивление средних и вязких грунтов при движении машины. Умение повышает манёвренность и уменьшает время набора максимальной скорости. Эффект усиливается в сочетании с оборудованием «Дополнительные грунтозацепы».</value>
   </data>
   <data name="skills/driver_badRoadsKing/header" xml:space="preserve">
     <value>Король бездорожья</value>
   </data>
   <data name="skills/driver_virtuoso/descr" xml:space="preserve">
-    <value>Увеличивает скорость поворота машины. Эффект усиливается в сочетании с оборудованием «Дополнительные грунтозацепы», снаряжением «Ленд-лизовское масло», «Качественное масло», «Подкрученный регулятор оборотов» и «100-, 105-октановый бензин». Внимание! Увеличивает разброс орудия при повороте машины.</value>
+    <value>Увеличивает скорость поворота машины. Эффект усиливается в сочетании с оборудованием «Дополнительные грунтозацепы», снаряжением «Ленд-лизовское масло», «Качественное масло», «Подкрученный регулятор оборотов» и «100-, 105-октановый бензин», а также при наличии предбоевой инструкции «Полоса препятствий». Внимание! Увеличивает разброс орудия при повороте.</value>
   </data>
   <data name="skills/driver_virtuoso/header" xml:space="preserve">
     <value>Виртуоз</value>
@@ -7420,7 +7420,7 @@
     <value>радистом</value>
   </data>
   <data name="skills/radioman_finder/descr" xml:space="preserve">
-    <value>Увеличивает максимальную дальность обзора. Если умение приобретено двумя радистами, учитывается максимальный уровень умения по экипажу. Эффект увеличивается в сочетании с умением «Орлиный глаз», оборудованием «Просветлённая оптика» и «Стереотруба».</value>
+    <value>Увеличивает максимальную дальность обзора. Эффект увеличивается в сочетании с умением «Орлиный глаз», оборудованием «Просветлённая оптика», «Юстированная оптика» и «Стереотруба».</value>
   </data>
   <data name="skills/radioman_finder/header" xml:space="preserve">
     <value>Радиоперехват</value>
@@ -7463,13 +7463,13 @@
   </data>
   <data name="tank_params/desc/attainableSpeed" xml:space="preserve">
     <value>Скорость, развиваемая машиной за 5 секунд из статического состояния при перемещении по строго горизонтальной поверхности.
-Показаны значения для твёрдого/среднего/мягкого грунтов.</value>
+Показаны значения для твёрдого/среднего/вязкого грунтов.</value>
   </data>
   <data name="tank_params/desc/avgDamage" xml:space="preserve">
     <value>Средний урон, наносимый базовым снарядом за один выстрел при пробитии брони.</value>
   </data>
   <data name="tank_params/desc/avgDamagePerMinute" xml:space="preserve">
-    <value>Количество урона, потенциально наносимого противнику за 1 минуту при регулярном пробитии брони.</value>
+    <value>Количество урона, потенциально наносимого противнику за 1 минуту при постоянном пробитии брони.</value>
   </data>
   <data name="tank_params/desc/avgPiercingPower" xml:space="preserve">
     <value>Средняя толщина брони, пробиваемая базовым снарядом с учётом его нормализации.</value>
@@ -7479,7 +7479,7 @@
 Показаны значения для твёрдого/среднего/мягкого грунтов.</value>
   </data>
   <data name="trade/body" xml:space="preserve">
-    <value>Премиум технику можно обменять на другую премиум технику
+    <value>Премиум машину можно обменять на другую премиум машину
 текущего уровня или выше.
 
 %(discount)s</value>
@@ -7560,7 +7560,7 @@
     <value>Машина недоступна</value>
   </data>
   <data name="vehicle/trade" xml:space="preserve">
-    <value>Машину можно обменять</value>
+    <value>Машина доступна для обмена</value>
   </data>
   <data name="vehicleParams/bonus/possible/notInstalled" xml:space="preserve">
     <value> (не установлено)</value>
@@ -7575,7 +7575,7 @@
     <value>(%(value)s)</value>
   </data>
   <data name="vehiclePreview/buyButton/notEnoughCredits/body" xml:space="preserve">
-    <value>Заработайте их в бою, продайте излишки со склада или обменяйте золото.</value>
+    <value>Заработайте их в бою, продайте излишки со Склада или обменяйте золото.</value>
   </data>
   <data name="vehiclePreview/buyButton/notEnoughCredits/header" xml:space="preserve">
     <value>Недостаточно кредитов</value>
@@ -7798,7 +7798,7 @@
     <value>девять шевронов</value>
   </data>
   <data name="battleTypes/ranked/vehRank/achievedCount" xml:space="preserve">
-    <value>Всего рангов машины на %(vehName)s: </value>
+    <value>Всего заработано очков на %(vehName)s: </value>
   </data>
   <data name="contentBuyView/slotCheckbox/notEnoughSlots/body" xml:space="preserve">
     <value>В Ангаре нет свободного слота для новой машины. Купите дополнительный слот или продайте ненужную машину.</value>
@@ -7837,10 +7837,10 @@
     <value>Польша</value>
   </data>
   <data name="header/buttons/credits/body" xml:space="preserve">
-    <value>Открыть окно перевода игрового золота в кредиты.</value>
+    <value>Идёт получение данных о балансе. Все ваши кредиты станут доступны в ближайшее время.</value>
   </data>
   <data name="header/buttons/credits/header" xml:space="preserve">
-    <value>Обмен золота</value>
+    <value>Кредиты</value>
   </data>
   <data name="header/buttons/crystal/available" xml:space="preserve">
     <value>В наличии</value>
@@ -7862,10 +7862,10 @@
     <value>Боны</value>
   </data>
   <data name="header/buttons/freeXP/body" xml:space="preserve">
-    <value>Открыть окно перевода опыта в свободный.</value>
+    <value>Идёт получение данных о балансе. Весь ваш свободный опыт станет доступен в ближайшее время.</value>
   </data>
   <data name="header/buttons/freeXP/header" xml:space="preserve">
-    <value>Перевод опыта</value>
+    <value>Свободный опыт</value>
   </data>
   <data name="header/buttons/gold/action/body" xml:space="preserve">
     <value>Нажмите, чтобы перейти на страницу
@@ -7875,11 +7875,10 @@
     <value>Купить золото</value>
   </data>
   <data name="header/buttons/gold/body" xml:space="preserve">
-    <value>Нажмите, чтобы перейти на страницу
-покупки игрового золота на портале игры.</value>
+    <value>Идёт получение данных о балансе. Всё ваше золото станет доступно в ближайшее время.</value>
   </data>
   <data name="header/buttons/gold/header" xml:space="preserve">
-    <value>Купить золото</value>
+    <value>Золото</value>
   </data>
   <data name="header/buttons/missions/body" xml:space="preserve">
     <value>Ознакомиться с событиями и боевыми задачами, просмотреть их условия и возможные награды.</value>
@@ -7888,7 +7887,7 @@
     <value>Задачи</value>
   </data>
   <data name="header/rankedSquad/body" xml:space="preserve">
-    <value>Игра в составе формирования не доступна в ранговых боях.</value>
+    <value>Игра в составе формирования недоступна в Ранговых боях.</value>
   </data>
   <data name="header/rankedSquad/header" xml:space="preserve">
     <value>Создать взвод</value>
@@ -8919,13 +8918,16 @@
     <value>В соревновании участвует техника любой нации.</value>
   </data>
   <data name="elen/task/eventType/notFull/class" xml:space="preserve">
-    <value>В соревновании участвует техника следующих типов: %(classes)s.</value>
+    <value>В соревновании участвует техника следующих типов: 
+%(classes)s.</value>
   </data>
   <data name="elen/task/eventType/notFull/level" xml:space="preserve">
-    <value>В соревновании участвует техника следующих уровней: %(levels)s.</value>
+    <value>В соревновании участвует техника следующих уровней: 
+%(levels)s.</value>
   </data>
   <data name="elen/task/eventType/notFull/nation" xml:space="preserve">
-    <value>В соревновании участвует техника следующих наций: %(nations)s.</value>
+    <value>В соревновании участвует техника следующих наций: 
+%(nations)s.</value>
   </data>
   <data name="elen/task/eventType/notFull/vehicle" xml:space="preserve">
     <value>Чтобы перейти к списку техники, на которой можно участвовать в соревновании, нажмите кнопку «Техника соревнования».</value>
@@ -9006,9 +9008,7 @@
 
 При выполнении основных условий всех 75 задач операции: выдаётся бесплатно для наградной машины.
 
-При выполнении с отличием всех 75 задач операции: право на покупку для всей техники той нации, которой принадлежит наградная машина.
-
-Найти уникальные схемы камуфляжа можно с помощью фильтра «Боевые задачи» на экране «Внешнего вида» машины.</value>
+При выполнении с отличием всех 75 задач операции: право на покупку для всей техники той нации, которой принадлежит наградная машина.</value>
   </data>
   <data name="personalMissions/awards/camouflage/header" xml:space="preserve">
     <value>Уникальный набор камуфляжных схем</value>
@@ -9422,8 +9422,7 @@
     <value>Фильтр элементов</value>
   </data>
   <data name="customization/nonHistoricIndicator/body" xml:space="preserve">
-    <value>Показать/скрыть неисторичные элементы.
-Нажмите чтобы увидеть список неисторичных элементов.</value>
+    <value>Нажмите, чтобы увидеть список неисторичных элементов.</value>
   </data>
   <data name="customization/nonHistoricIndicator/header" xml:space="preserve">
     <value>Неисторичные элементы</value>
@@ -9447,7 +9446,7 @@
     <value>Краска изменяет базовый цвет машины.</value>
   </data>
   <data name="customizationBuyWindow/fromStorage" xml:space="preserve">
-    <value>Элемент со склада</value>
+    <value>Элемент со Склада</value>
   </data>
   <data name="elen/condition/battletype/notrandom" xml:space="preserve">
     <value>Проводите бои на этой машине, займите по итогам соревнования призовую позицию в рейтинге и получите награды.</value>
@@ -9554,5 +9553,601 @@
   </data>
   <data name="summary/status/tooltip" xml:space="preserve">
     <value>Обновление данных происходит раз в %(interval)s мин.</value>
+  </data>
+  <data name="battleTypes/ranked/haveShield" xml:space="preserve">
+    <value>Максимальное количество очков прочности: %(hp)s. Очки прочности полностью восстанавливаются при получении очередного шеврона.</value>
+  </data>
+  <data name="battleTypes/ranked/vehRank/conditions" xml:space="preserve">
+    <value>Для получения одного очка ранга необходимо шевронов: %(stepsNumber)s</value>
+  </data>
+  <data name="fortification/sortie/gunnerIcon/body" xml:space="preserve">
+    <value>Наводчик может вызвать в указанную им область Артобстрел (или Авиаудар), если этот резерв был установлен перед боем.</value>
+  </data>
+  <data name="fortification/sortie/gunnerIcon/header" xml:space="preserve">
+    <value>Наводчик</value>
+  </data>
+  <data name="hangar/tuning/disabled/body" xml:space="preserve">
+    <value>Изменение внешнего вида выбранной машины невозможно.</value>
+  </data>
+  <data name="hangar/tuning/disabled/header" xml:space="preserve">
+    <value>Недоступно</value>
+  </data>
+  <data name="header/buttons/available" xml:space="preserve">
+    <value>В наличии</value>
+  </data>
+  <data name="header/buttons/credits/clickDesc" xml:space="preserve">
+    <value>Нажмите, чтобы открыть окно перевода игрового золота в кредиты.</value>
+  </data>
+  <data name="header/buttons/credits/firstDesc" xml:space="preserve">
+    <value>Кредиты можно заработать в бою, получить в результате перевода золота, продажи оборудования, снаряжения, снарядов и т.д.</value>
+  </data>
+  <data name="header/buttons/credits/title" xml:space="preserve">
+    <value>Кредиты</value>
+  </data>
+  <data name="header/buttons/crystal/body" xml:space="preserve">
+    <value>Идёт получение данных о балансе. Все ваши боны станут доступны в ближайшее время.</value>
+  </data>
+  <data name="header/buttons/crystal/clickDesc" xml:space="preserve">
+    <value>Нажмите, чтобы получить дополнительную информацию.</value>
+  </data>
+  <data name="header/buttons/crystal/header" xml:space="preserve">
+    <value>Боны</value>
+  </data>
+  <data name="header/buttons/freeXP/clickDesc" xml:space="preserve">
+    <value>Нажмите, чтобы открыть окно перевода боевого опыта в свободный.</value>
+  </data>
+  <data name="header/buttons/freeXP/firstDesc" xml:space="preserve">
+    <value>Свободный опыт можно заработать в бою или перевести накопленный на элитной технике боевой опыт за золото.</value>
+  </data>
+  <data name="header/buttons/freeXP/title" xml:space="preserve">
+    <value>Свободный опыт</value>
+  </data>
+  <data name="header/buttons/gold/clickDesc" xml:space="preserve">
+    <value>Нажмите, чтобы перейти на страницу покупки игрового золота на портале игры.</value>
+  </data>
+  <data name="header/buttons/gold/title" xml:space="preserve">
+    <value>Золото</value>
+  </data>
+  <data name="rankedBattleView/scorePoint/body" xml:space="preserve">
+    <value>Выдаются при получении ранга и суммируются. Чем больше очков, тем выше позиция в ладдерной таблице и тем ценнее награды по окончании сезона.</value>
+  </data>
+  <data name="rankedBattleView/scorePoint/header" xml:space="preserve">
+    <value>Очки</value>
+  </data>
+  <data name="techtree/Announcement_HT" xml:space="preserve">
+    <value>На это место мы ищем тяжёлый танк, который унаследует особенности игры на предыдущих машинах. Пока о конкретной модели говорить рано, но наши специалисты уже рассматривают несколько подходящих образцов.</value>
+  </data>
+  <data name="techtree/Announcement_MT" xml:space="preserve">
+    <value>На это место мы ищем средний танк, который унаследует особенности игры на предыдущих машинах. Пока о конкретной модели говорить рано, но наши специалисты уже рассматривают несколько подходящих образцов.</value>
+  </data>
+  <data name="TERRAIN_TESSELLATION_ENABLED/body" xml:space="preserve">
+    <value>Аппаратно ускоренный процесс добавления новых треугольников в полигональную сетку с целью повышения её детализации.
+
+Работает только при следующих настройках:
+• графика — улучшенная;
+• качество ландшафта — высокое, максимальное или ультра;
+• наличие DirectX 11.</value>
+  </data>
+  <data name="TERRAIN_TESSELLATION_ENABLED/header" xml:space="preserve">
+    <value>Тесселяция ландшафта</value>
+  </data>
+  <data name="actionPrice/sell/body/simple" xml:space="preserve">
+    <value>Стоимость продажи ниже обычной —
+на покупку действует скидка.</value>
+  </data>
+  <data name="battleBorderMapModeButtonBar/info/body" xml:space="preserve">
+    <value>Подсветка границы игровой карты станет видима на расстоянии 300 метров от красной линии.</value>
+  </data>
+  <data name="battleBorderMapModeButtonBar/info/header" xml:space="preserve">
+    <value>При приближении</value>
+  </data>
+  <data name="battleBorderMapTypeButtonBar/info/attention" xml:space="preserve">
+    <value>Включение этой настройки может привести к дезориентации на поле боя.</value>
+  </data>
+  <data name="battleBorderMapTypeButtonBar/info/body" xml:space="preserve">
+    <value>Данная настройка скрывает красную линию, информирующую о границе карты.</value>
+  </data>
+  <data name="battleBorderMapTypeButtonBar/info/header" xml:space="preserve">
+    <value>Скрывать границу карты</value>
+  </data>
+  <data name="colorFilter/attention" xml:space="preserve">
+    <value>Цветокоррекция возможна только при выборе в настройках «Улучшенной» графики.</value>
+  </data>
+  <data name="colorFilter/body" xml:space="preserve">
+    <value>Здесь вы можете выбрать один из готовых фильтров или вручную настроить насыщенность цвета, яркость и контрастность изображения.</value>
+  </data>
+  <data name="colorFilter/header" xml:space="preserve">
+    <value>Цветокоррекция</value>
+  </data>
+  <data name="crew/roleChange/header" xml:space="preserve">
+    <value>Смена специальности</value>
+  </data>
+  <data name="crew/roleChange/text" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать члену экипажа новую основную специальность и машину, на которую он будет обучен.</value>
+  </data>
+  <data name="gamma/attention" xml:space="preserve">
+    <value>Настройка гаммы невозможна: 
+• в полноэкранном режиме на разрешении, отличающемся от родного разрешения экрана;
+• в оконном режиме при стандартном качестве графики (раздел «Расширенные»).
+В оконном режиме используются текущие настройки операционной системы. </value>
+  </data>
+  <data name="gamma/body" xml:space="preserve">
+    <value>Позволяет отрегулировать яркость в игре до оптимального
+значения. Эта функция нужна для
+компенсации влияния драйвера видеокарты и настроек
+дисплея на изображение.</value>
+  </data>
+  <data name="gamma/header" xml:space="preserve">
+    <value>Гамма</value>
+  </data>
+  <data name="hangar/startBtn/preview/body" xml:space="preserve">
+    <value>Чтобы выйти в бой, вернитесь в Ангар к выбору машины.</value>
+  </data>
+  <data name="hangarCamCheckbox/body" xml:space="preserve">
+    <value>Включение анимированной обратной связи Ангара
+на перемещение курсора мыши.</value>
+  </data>
+  <data name="hangarCamCheckbox/header" xml:space="preserve">
+    <value>Анимация Ангара при движении курсора мыши</value>
+  </data>
+  <data name="hangarCamDropdown/body" xml:space="preserve">
+    <value>Включение анимации вращения Ангара через заданное
+время вокруг выбранной машины при бездействии.</value>
+  </data>
+  <data name="hangarCamDropdown/header" xml:space="preserve">
+    <value>Вращение Ангара при бездействии через</value>
+  </data>
+  <data name="hangarTutorial/nations/italy" xml:space="preserve">
+    <value>Италия</value>
+  </data>
+  <data name="minimapAlpha/attention" xml:space="preserve">
+    <value>Отключение параметра может повысить быстродействие игры.</value>
+  </data>
+  <data name="minimapAlpha/body" xml:space="preserve">
+    <value>Позволяет настроить прозрачность миникарты, чтобы под ней можно
+было увидеть происходящее на экране.</value>
+  </data>
+  <data name="minimapAlpha/header" xml:space="preserve">
+    <value>Прозрачность миникарты</value>
+  </data>
+  <data name="personal_case/skills/accTeachingOfSkillBtn/selectSkill/body" xml:space="preserve">
+    <value>Умение или навык для ускоренного обучения не выбраны.</value>
+  </data>
+  <data name="personal_case/skills/accTeachingOfSkillBtn/selectSkill/header" xml:space="preserve">
+    <value>Ускоренное обучение невозможно</value>
+  </data>
+  <data name="personal_case/skills/dropSkillsButton/body" xml:space="preserve">
+    <value>Нажмите, чтобы сбросить текущие умения или навыки.</value>
+  </data>
+  <data name="personal_case/skills/dropSkillsButton/header" xml:space="preserve">
+    <value>Сброс умений или навыков</value>
+  </data>
+  <data name="personal_case/skills/dropSkillsButton/noSkill/body" xml:space="preserve">
+    <value>У вас нет изученных умений или навыков.</value>
+  </data>
+  <data name="personal_case/skills/dropSkillsButton/noSkill/header" xml:space="preserve">
+    <value>Действие невозможно</value>
+  </data>
+  <data name="settings/sound/deviceAlert/body" xml:space="preserve">
+    <value>Выбранный тип акустики отличается от автоматически определённого игрой. Часть звуков может отсутствовать, поэтому рекомендуем протестировать изменения звучания.</value>
+  </data>
+  <data name="settings/sound/deviceAlert/header" xml:space="preserve">
+    <value>Несоответствующий тип акустики</value>
+  </data>
+  <data name="tank_params/desc/switchTime" xml:space="preserve">
+    <value>Время перехода зависит от состояния двигателя. При повреждённом двигателе время перехода увеличивается. При выведенном из строя двигателе смена режима невозможна.</value>
+  </data>
+  <data name="techTreePage/nations/italy" xml:space="preserve">
+    <value>Перейти к технике Италии</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/battle/body" xml:space="preserve">
+    <value>• Увеличенный заработок боевого опыта в каждом бою.
+• Элитный статус машины даёт возможность переводить боевой опыт в свободный после первого боя и использовать его для исследования любых модулей и техники.</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/battle/header" xml:space="preserve">
+    <value>Дополнительный боевой опыт</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/credit/body" xml:space="preserve">
+    <value>• Премиум техника приносит больше кредитов за каждый бой, что существенно экономит ваше время.</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/credit/header" xml:space="preserve">
+    <value>Больше кредитов</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/crew/body" xml:space="preserve">
+    <value>• В полтора раза больше опыта экипажа за каждый бой.
+• Возможность ускоренного обучения экипажа с первого боя. При этом наименее опытный член экипажа будет обучаться в два раза быстрее.</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/crew/header" xml:space="preserve">
+    <value>Опыт экипажа</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/replace/body" xml:space="preserve">
+    <value>• Пересадить экипаж с исследуемой машины на премиум машину того же типа можно без штрафов и переобучения.</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/replace/header" xml:space="preserve">
+    <value>Пересадка экипажа без штрафа</value>
+  </data>
+  <data name="vehiclePreview/historicalReference/title" xml:space="preserve">
+    <value>Историческая справка</value>
+  </data>
+  <data name="vehiclePreview/moduls/body" xml:space="preserve">
+    <value>Вы можете настроить любую конфигурацию машины, но при покупке комплектация будет базовой.</value>
+  </data>
+  <data name="vehiclePreview/moduls/header" xml:space="preserve">
+    <value>Модули</value>
+  </data>
+  <data name="vehiclePreview/modulsnoModules/body" xml:space="preserve">
+    <value>У данной машины нет исследуемых модулей.</value>
+  </data>
+  <data name="vehiclePreview/modulsnoModules/header" xml:space="preserve">
+    <value>Модули</value>
+  </data>
+  <data name="marathon/body" xml:space="preserve">
+    <value>Выполняйте задачи каждого этапа, причём задачи на мастерство можно выполнять только на Х уровне техники, а задачи на усердие — на любом. За прохождение каждого из 10 этапов вас ждут специальные награды. Завершите все этапы и получите уникальный премиум танк VIII уровня бесплатно.</value>
+  </data>
+  <data name="marathon/body/extra" xml:space="preserve">
+    <value>%(day)s до завершения продаж уникального премиум танка VIII уровня с учётом персональной скидки.</value>
+  </data>
+  <data name="marathon/error/battle_type" xml:space="preserve">
+    <value>Доступно только в Случайных боях</value>
+  </data>
+  <data name="marathon/error/veh_type" xml:space="preserve">
+    <value>Доступно только на технике VIII и X уровней</value>
+  </data>
+  <data name="marathon/extra_state/completed" xml:space="preserve">
+    <value>Танк получен</value>
+  </data>
+  <data name="marathon/extra_state/discount" xml:space="preserve">
+    <value>Ваша скидка %(discount)s%%</value>
+  </data>
+  <data name="marathon/extra_state/steps" xml:space="preserve">
+    <value>Пройдено этапов: %(currentStep)s / %(allStep)s</value>
+  </data>
+  <data name="marathon/header" xml:space="preserve">
+    <value>Итальянское испытание</value>
+  </data>
+  <data name="marathon/off/body" xml:space="preserve">
+    <value>В данный момент событие недоступно по техническим причинам. Попробуйте позже.</value>
+  </data>
+  <data name="marathon/off/header" xml:space="preserve">
+    <value>Событие недоступно</value>
+  </data>
+  <data name="marathon/state/complete" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="marathon/state/end" xml:space="preserve">
+    <value>До завершения: %(value)s</value>
+  </data>
+  <data name="marathon/state/start" xml:space="preserve">
+    <value>До начала: %(value)s</value>
+  </data>
+  <data name="advanced/ARMOR_PIERCING" xml:space="preserve">
+    <value>Самый массовый тип снарядов. Наносит урон только в случае пробития брони. Если броня под углом — может отрикошетить. Незначительно теряет бронепробиваемость с расстоянием.</value>
+  </data>
+  <data name="advanced/ARMOR_PIERCING_CR" xml:space="preserve">
+    <value>Имеет повышенную скорость полёта. Наносит урон только в случае пробития брони. Если броня под углом — может отрикошетить. Теряет бронепробиваемость с расстоянием.</value>
+  </data>
+  <data name="advanced/HIGH_EXPLOSIVE" xml:space="preserve">
+    <value>Наносит самый большой потенциальный урон. Как правило, имеет самую низкую бронепробиваемость. Если пробивает броню — взрывается внутри машины. Если не пробивает — взрывается на броне и наносит небольшой урон. Никогда не рикошетит.</value>
+  </data>
+  <data name="advanced/HOLLOW_CHARGE" xml:space="preserve">
+    <value>Имеет повышенную бронепробиваемость, но существенно теряет её при попадании в экран. Наносит урон только в случае пробития брони. Довольно редко рикошетит. Не теряет бронепробиваемость с расстоянием.</value>
+  </data>
+  <data name="advanced/aimingStabilizer" xml:space="preserve">
+    <value>Уменьшает разброс прицела после выстрела, поворота башни или движения машины, что ускоряет прицеливание.</value>
+  </data>
+  <data name="advanced/antifragmentationLining" xml:space="preserve">
+    <value>Уменьшает повреждения от взрывов фугасных снарядов (на броне) и тарана, уменьшает время оглушения экипажа, а также снижает вероятность ранений членов экипажа.</value>
+  </data>
+  <data name="advanced/autoExtinguishers" xml:space="preserve">
+    <value>Автоматически тушит пожар сразу после его возникновения. Пассивно уменьшает шанс возгорания.</value>
+  </data>
+  <data name="advanced/battleTeaching" xml:space="preserve">
+    <value>Бой против ботов для закрепления полученных на Учебном полигоне навыков.</value>
+  </data>
+  <data name="advanced/brotherhood" xml:space="preserve">
+    <value>Повышает уровень владения основной специальностью и всеми умениями всех членов экипажа. Работает только при изучении всеми членами экипажа на 100%.</value>
+  </data>
+  <data name="advanced/camouflage" xml:space="preserve">
+    <value>Повышает незаметность машины.</value>
+  </data>
+  <data name="advanced/camouflageNet" xml:space="preserve">
+    <value>Уменьшает заметность машины через короткое время после остановки. Выключается при движении машины вперёд, назад или при поворотах корпуса. Шведские высокоуровневые ПТ-САУ могут поворачивать корпус не сбрасывая сеть.</value>
+  </data>
+  <data name="advanced/carbonDioxide" xml:space="preserve">
+    <value>При попадании в бак машина может загореться. Данное оборудование увеличивает прочность топливных баков.</value>
+  </data>
+  <data name="advanced/coatedOptics" xml:space="preserve">
+    <value>Увеличивает дальность обзора машины, что позволяет обнаружить технику противника раньше.</value>
+  </data>
+  <data name="advanced/commander" xml:space="preserve">
+    <value>Влияет на дальность обзора. Слегка увеличивает эффективность остальных членов экипажа.</value>
+  </data>
+  <data name="advanced/commander_eagleEye" xml:space="preserve">
+    <value>Увеличивает максимальную дальность обзора.</value>
+  </data>
+  <data name="advanced/commander_expert" xml:space="preserve">
+    <value>Позволяет командиру в поле зрения определять повреждения и выход из строя модулей в прицеле.</value>
+  </data>
+  <data name="advanced/commander_sixthSense" xml:space="preserve">
+    <value>Позволяет командиру определять, обнаружена ли его машина противником.</value>
+  </data>
+  <data name="advanced/commander_tutor" xml:space="preserve">
+    <value>Предоставляет дополнительный опыт всем членам экипажа, кроме командира.</value>
+  </data>
+  <data name="advanced/commander_universalist" xml:space="preserve">
+    <value>Позволяет командиру овладеть всеми специальностями и заменить выведенных из строя членов экипажа.</value>
+  </data>
+  <data name="advanced/driver" xml:space="preserve">
+    <value>Влияет на динамические характеристики машины.</value>
+  </data>
+  <data name="advanced/driver_badRoadsKing" xml:space="preserve">
+    <value>Снижает сопротивление вязких и средних грунтов при движении машины.</value>
+  </data>
+  <data name="advanced/driver_rammingMaster" xml:space="preserve">
+    <value>Уменьшает повреждения собственной машины и увеличивает повреждения машины противника при таране.</value>
+  </data>
+  <data name="advanced/driver_smoothDriving" xml:space="preserve">
+    <value>Уменьшает разброс при стрельбе на ходу.</value>
+  </data>
+  <data name="advanced/driver_tidyPerson" xml:space="preserve">
+    <value>Уменьшает вероятность возгорания двигателя, не допуская подтёков масла и горючего в моторном отсеке.</value>
+  </data>
+  <data name="advanced/driver_virtuoso" xml:space="preserve">
+    <value>Увеличивает скорость поворота машины.</value>
+  </data>
+  <data name="advanced/economyBonds" xml:space="preserve">
+    <value>Редкая специализированная валюта, за которую покупаются уникальные товары, недоступные за другую валюту.</value>
+  </data>
+  <data name="advanced/economyConvertExp" xml:space="preserve">
+    <value>Игровой ресурс, который можно потратить на исследование любой техники и модулей.</value>
+  </data>
+  <data name="advanced/economyCredits" xml:space="preserve">
+    <value>Основная игровая валюта. Зарабатывается в боях или приобретается за золото.</value>
+  </data>
+  <data name="advanced/economyGold" xml:space="preserve">
+    <value>Премиум валюта, которую можно потратить на широкий спектр целей.</value>
+  </data>
+  <data name="advanced/economyPremium" xml:space="preserve">
+    <value>Позволяет получать на 50% больше опыта и кредитов за бой.</value>
+  </data>
+  <data name="advanced/economyPremium/header" xml:space="preserve">
+    <value>Премиум аккаунт</value>
+  </data>
+  <data name="advanced/economyTankExperience" xml:space="preserve">
+    <value>Игровой ресурс, зарабатываемый в боях. За опыт можно исследовать модули и технику.</value>
+  </data>
+  <data name="advanced/enhancedAimDrives" xml:space="preserve">
+    <value>Увеличивает скорость сведения прицела после стрельбы.</value>
+  </data>
+  <data name="advanced/enhancedOil" xml:space="preserve">
+    <value>Увеличивает мощность двигателя, что делает машину более динамичной. Активно на протяжении всего боя и расходуется по его окончании.</value>
+  </data>
+  <data name="advanced/equipment" xml:space="preserve">
+    <value>Предметы, существенно улучшающие характеристики машины. Оборудование бывает простое, которое можно бесплатно снять с машины и поставить на другую, и сложное, за демонтаж которого придётся заплатить.</value>
+  </data>
+  <data name="advanced/filterCyclone" xml:space="preserve">
+    <value>Увеличивает прочность двигателя, что позволяет ему выдержать больше попаданий.</value>
+  </data>
+  <data name="advanced/fireFighting" xml:space="preserve">
+    <value>Ускоряет тушение пожара.</value>
+  </data>
+  <data name="advanced/gamemodeRandom" xml:space="preserve">
+    <value>Бой с автоматическим подбором союзников и противника.</value>
+  </data>
+  <data name="advanced/gamemodeSpecial" xml:space="preserve">
+    <value>Участие кланами в чемпионатах, турнирах и «Мировой войне».</value>
+  </data>
+  <data name="advanced/gamemodeStronghold" xml:space="preserve">
+    <value>Бои за промресурс против отрядов противника.</value>
+  </data>
+  <data name="advanced/gamemodeTeam" xml:space="preserve">
+    <value>Бой между заранее сформированными и равными по мастерству командами.</value>
+  </data>
+  <data name="advanced/gamemodeTraining" xml:space="preserve">
+    <value>Бой с ручным подбором союзников и противника.</value>
+  </data>
+  <data name="advanced/gasoline100" xml:space="preserve">
+    <value>Увеличивает мощность двигателя и скорость вращения башни. Активен на протяжении всего боя и расходуется по его окончании.</value>
+  </data>
+  <data name="advanced/gasoline105" xml:space="preserve">
+    <value>Увеличивает мощность двигателя и скорость вращения башни. Активен на протяжении всего боя и расходуется по его окончании.</value>
+  </data>
+  <data name="advanced/grousers" xml:space="preserve">
+    <value>Улучшают проходимость машины по вязким грунтам.</value>
+  </data>
+  <data name="advanced/gunner" xml:space="preserve">
+    <value>Влияет на сведение орудия и точность стрельбы.</value>
+  </data>
+  <data name="advanced/gunner_gunsmith" xml:space="preserve">
+    <value>Уменьшает разброс повреждённого орудия.</value>
+  </data>
+  <data name="advanced/gunner_rancorous" xml:space="preserve">
+    <value>Позволяет наводчику в зоне видимости наблюдать машину противника в прицеле в течение дополнительных двух секунд.</value>
+  </data>
+  <data name="advanced/gunner_smoothTurret" xml:space="preserve">
+    <value>Уменьшает разброс при повороте башни.</value>
+  </data>
+  <data name="advanced/gunner_sniper" xml:space="preserve">
+    <value>Увеличивает вероятность нанесения повреждений модулям и ранений членам экипажа противника.</value>
+  </data>
+  <data name="advanced/handExtinguishers" xml:space="preserve">
+    <value>При использовании тушит пожар в собственной машине.</value>
+  </data>
+  <data name="advanced/header/shellType/ARMOR_PIERCING" xml:space="preserve">
+    <value>Бронебойные снаряды</value>
+  </data>
+  <data name="advanced/header/shellType/ARMOR_PIERCING_CR" xml:space="preserve">
+    <value>Подкалиберные снаряды</value>
+  </data>
+  <data name="advanced/header/shellType/HIGH_EXPLOSIVE" xml:space="preserve">
+    <value>Осколочно-фугасные снаряды</value>
+  </data>
+  <data name="advanced/header/shellType/HOLLOW_CHARGE" xml:space="preserve">
+    <value>Кумулятивные снаряды</value>
+  </data>
+  <data name="advanced/improvedVentilation" xml:space="preserve">
+    <value>Даёт прибавку к основным специальностям и умениям экипажа, что улучшает все характеристики машины.</value>
+  </data>
+  <data name="advanced/info" xml:space="preserve">
+    <value>дополнительная информация</value>
+  </data>
+  <data name="advanced/instructions" xml:space="preserve">
+    <value>Действуют на протяжении одного боя. В зависимости от типа: усиливают эффект от установленного оборудования или усиливают изученные/активируют неизученные навыки или умения экипажа.</value>
+  </data>
+  <data name="advanced/largeMedkit" xml:space="preserve">
+    <value>При использовании мгновенно лечит всех раненых членов экипажа и снимает оглушение. Пассивно улучшает защиту экипажа и снижает время оглушения.</value>
+  </data>
+  <data name="advanced/largeRepairkit" xml:space="preserve">
+    <value>При использовании мгновенно чинит все повреждённые модули. Пассивно повышает общую скорость ремонта.</value>
+  </data>
+  <data name="advanced/loader" xml:space="preserve">
+    <value>Влияет на скорость перезарядки орудия.</value>
+  </data>
+  <data name="advanced/loader_desperado" xml:space="preserve">
+    <value>Ускоряет перезарядку орудия, если у машины остаётся менее 10% прочности.</value>
+  </data>
+  <data name="advanced/loader_intuition" xml:space="preserve">
+    <value>Создаёт вероятность того, что заряжающий мгновенно сменит тип снаряда в уже заряженном орудии или во время перезарядки.</value>
+  </data>
+  <data name="advanced/loader_pedant" xml:space="preserve">
+    <value>Увеличивает прочность боеукладки: снаряды уложены в таком порядке, что не касаются друг друга.</value>
+  </data>
+  <data name="advanced/radioman" xml:space="preserve">
+    <value>Влияет на дальность радиосвязи.</value>
+  </data>
+  <data name="advanced/radioman_finder" xml:space="preserve">
+    <value>Увеличивает максимальную дальность обзора.</value>
+  </data>
+  <data name="advanced/radioman_inventor" xml:space="preserve">
+    <value>Увеличивает дальность связи радиостанции.</value>
+  </data>
+  <data name="advanced/radioman_lastEffort" xml:space="preserve">
+    <value>Позволяет радисту, не выведенному из строя на момент уничтожения машины, передавать позиции техники противника в течение ещё двух секунд.</value>
+  </data>
+  <data name="advanced/radioman_retransmitter" xml:space="preserve">
+    <value>Увеличивает дальность связи союзной техники в радиусе действия радиостанции игрока.</value>
+  </data>
+  <data name="advanced/rammer" xml:space="preserve">
+    <value>Уменьшает время перезарядки орудия.</value>
+  </data>
+  <data name="advanced/ranked" xml:space="preserve">
+    <value>Бой за продвижение вверх по ладдерной таблице с получением рангов и ценных наград.</value>
+  </data>
+  <data name="advanced/ration" xml:space="preserve">
+    <value>Усиливает навыки и умения экипажа, что улучшает все характеристики машины.</value>
+  </data>
+  <data name="advanced/relativeArmor" xml:space="preserve">
+    <value>Комплекс параметров, отвечающих за выживаемость вашей машины в бою.</value>
+  </data>
+  <data name="advanced/relativeCamouflage" xml:space="preserve">
+    <value>Комплекс параметров, отвечающих за маскировку и сложность обнаружения вашей машины противником.</value>
+  </data>
+  <data name="advanced/relativeMobility" xml:space="preserve">
+    <value>Комплекс параметров, отвечающих за динамические характеристики машины.</value>
+  </data>
+  <data name="advanced/relativePower" xml:space="preserve">
+    <value>Комплекс параметров, отвечающих за эффективность уничтожения противника.</value>
+  </data>
+  <data name="advanced/relativeVisibility" xml:space="preserve">
+    <value>Комплекс параметров, влияющих на дальность обнаружения противника и его отображения на миникарте.</value>
+  </data>
+  <data name="advanced/removedRpmLimiter" xml:space="preserve">
+    <value>Делает машину более динамичной, но постепенно повреждает двигатель. Включается и отключается вручную. Покупается один раз и не пропадает после боя.</value>
+  </data>
+  <data name="advanced/repair" xml:space="preserve">
+    <value>Ускоряет ремонт повреждённых модулей.</value>
+  </data>
+  <data name="advanced/service" xml:space="preserve">
+    <value>Предметы, позволяющие улучшить некоторые характеристики машины или восстановить повреждения во время боя.</value>
+  </data>
+  <data name="advanced/smallMedkit" xml:space="preserve">
+    <value>При использовании мгновенно лечит одного выбранного члена экипажа и снимает оглушение.</value>
+  </data>
+  <data name="advanced/smallRepairkit" xml:space="preserve">
+    <value>При использовании мгновенно чинит один выбранный повреждённый модуль.</value>
+  </data>
+  <data name="advanced/steelRollers" xml:space="preserve">
+    <value>Оборудование, увеличивающее грузоподъёмность ходовой, позволяя устанавливать более тяжёлые модули, а также усиливающее её прочность.</value>
+  </data>
+  <data name="advanced/stereoscope" xml:space="preserve">
+    <value>Увеличивает дальность обзора машины через короткое время после остановки. Выключается при движении машины вперёд, назад или при поворотах корпуса. Шведские высокоуровневые ПТ-САУ могут поворачивать корпус не убирая трубы.</value>
+  </data>
+  <data name="advanced/toolbox" xml:space="preserve">
+    <value>Увеличивает общую скорость ремонта выведенных из строя модулей в бою.</value>
+  </data>
+  <data name="advanced/vehicleChassis" xml:space="preserve">
+    <value>Модуль, влияющий на скорость поворота машины, а также на её проходимость по различным грунтам. Также влияет на грузоподъёмность.</value>
+  </data>
+  <data name="advanced/vehicleEngine" xml:space="preserve">
+    <value>Модуль, определяющий динамические характеристики машины. С некоторой вероятностью может загореться при попадании.</value>
+  </data>
+  <data name="advanced/vehicleGun" xml:space="preserve">
+    <value>Основное вооружение машины. Характеризуется определённой точностью, скоростью перезарядки и сведением. Для каждого орудия, как правило, используются несколько типов снарядов.</value>
+  </data>
+  <data name="advanced/vehicleRadio" xml:space="preserve">
+    <value>Обеспечивает передачу данных между союзными машинами о положении противника, что позволяет наводиться на цели вне зоны видимости.</value>
+  </data>
+  <data name="advanced/vehicleTurret" xml:space="preserve">
+    <value>Характеризуется определённой скоростью поворота, дальностью обзора и бронированием, а также углами вертикального наведения. У большинства ПТ-САУ и артиллерии вместо башни — неподвижная рубка.</value>
+  </data>
+  <data name="advanced/wetCombatPack" xml:space="preserve">
+    <value>При попадании в боеукладку машина может взорваться. Данное оборудование вдвое увеличивает прочность боеукладки.</value>
+  </data>
+  <data name="battleResults/moneyAlert/body" xml:space="preserve">
+    <value>После восстановления работоспособности сервиса вам будет начислена компенсация за неполученные серебро, боны и свободный опыт.</value>
+  </data>
+  <data name="battleResults/moneyAlert/header" xml:space="preserve">
+    <value>Единый кошелёк временно недоступен</value>
+  </data>
+  <data name="battleSession/alert/body" xml:space="preserve">
+    <value>Вы должны быть в составе, чтобы участвовать в бою.</value>
+  </data>
+  <data name="battleSession/alert/header" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="epicBattleWidget/body/maxMetaLevel/maxPrestige" xml:space="preserve">
+    <value>Вы достигли максимального уровня в режиме «Линия фронта».</value>
+  </data>
+  <data name="epicBattleWidget/body/maxMetaLevel/prestige" xml:space="preserve">
+    <value>Вы достигли максимального уровня. Сбросьте ваш прогресс и получите дополнительные награды.</value>
+  </data>
+  <data name="epicBattleWidget/desc" xml:space="preserve">
+    <value>%(level)s уровень</value>
+  </data>
+  <data name="epicBattleWidget/header" xml:space="preserve">
+    <value>Уровень в режиме «Линия фронта»</value>
+  </data>
+  <data name="hangar/ammo_panel/battleAbility/empty/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать доступные боевые резервы.</value>
+  </data>
+  <data name="hangar/ammo_panel/battleAbility/empty/header" xml:space="preserve">
+    <value>Распределить резервы</value>
+  </data>
+  <data name="hangar/crew/moreskills" xml:space="preserve">
+    <value>и ещё умений/навыков: %(skill_cnt)s</value>
+  </data>
+  <data name="showDamageIcon/blocked" xml:space="preserve">
+    <value>Броня не пробита</value>
+  </data>
+  <data name="showDamageIcon/criticalDamage" xml:space="preserve">
+    <value>Критический урон</value>
+  </data>
+  <data name="showDamageIcon/enemyRicochet" xml:space="preserve">
+    <value>Рикошет</value>
+  </data>
+  <data name="showDamageIcon/header" xml:space="preserve">
+    <value>Уведомления при нанесении урона</value>
+  </data>
+  <data name="showDamageIcon/trackDamage" xml:space="preserve">
+    <value>Критический урон</value>
+  </data>
+  <data name="tank_params/desc/autoReloadTime" xml:space="preserve">
+    <value>Время последовательной дозарядки каждого снаряда в магазине.</value>
+  </data>
+  <data name="header/buttons/manual/body" xml:space="preserve">
+    <value>Перейти к обучающим материалам энциклопедии.</value>
+  </data>
+  <data name="header/buttons/manual/header" xml:space="preserve">
+    <value>Руководство</value>
   </data>
 </root>

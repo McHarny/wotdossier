@@ -744,7 +744,7 @@ the full description.</value>
     <value>Battle Heroes</value>
   </data>
   <data name="details/dossier/battlesCount" xml:space="preserve">
-    <value>Battles</value>
+    <value>Battles fought</value>
   </data>
   <data name="details/dossier/beasthunter" xml:space="preserve">
     <value>Hunter</value>
@@ -2109,7 +2109,7 @@ the full description.</value>
     <value>For New and Skilled Players</value>
   </data>
   <data name="bonuses/customization/value" xml:space="preserve">
-    <value>(x%(count)s)</value>
+    <value>x%(count)s</value>
   </data>
   <data name="bonuses/item/additionBonus" xml:space="preserve">
     <value>For fulfilling secondary conditions</value>
@@ -3129,7 +3129,7 @@ TO OPEN PERSONAL FILE</value>
     <value>Convert gold to credits at a favorable rate of %(discount)s. Converting for credits can save you time by helping you purchase a desired vehicle or expensive equipment faster.</value>
   </data>
   <data name="action/full/femalePassportChangeCost" xml:space="preserve">
-    <value>Replace your crew members' Personal Data at a new price of %(discount)s gold. This offer includes changing the name, surname, and photo of your crew member.</value>
+    <value>Replace your crew members' Personal Data at a discount of %(discount)s. This offer includes changing the name, surname, and photo of your crew member.</value>
   </data>
   <data name="action/full/freeXPConversionDiscrecity" xml:space="preserve">
     <value>Convert Combat Experience to Free Experience with this attractive offer. Free Experience can be used to research any vehicle or module, as well as to train crew skills and perks.</value>
@@ -3177,7 +3177,7 @@ TO OPEN PERSONAL FILE</value>
     <value>Demount complex equipment at a lower price: the discount on demounting now equals %(discount)s. With this special offer, you can save gold when demounting complex equipment.</value>
   </data>
   <data name="action/full/passportChangeCost" xml:space="preserve">
-    <value>Replace your crew members' Personal Data at a new price of %(discount)s gold. This offer includes the changing name, surname, and photo of your crew member.</value>
+    <value>Replace your crew members' Personal Data at a discount of %(discount)s. This offer includes changing the name, surname, and photo of your crew member.</value>
   </data>
   <data name="action/full/premiumPacket180Cost" xml:space="preserve">
     <value>Beneficial price for purchasing (or extending) Premium Account for 180 days: %(discount)s</value>
@@ -3322,7 +3322,7 @@ Please note that if you purchase Emblems using gold but eventually sell your veh
 Do not forget that playing in Tier X vehicles can be rather costly, so try to keep your credit balance at an adequate level. Otherwise, you might face problems with resupplying ammunition and consumables, or repairing your vehicle.</value>
   </data>
   <data name="action/hero/full/femalePassportChangeCost" xml:space="preserve">
-    <value>Replace your crew members' Personal Data at a new price of %(discount)s gold. Your crew comprises people who are ready to fight for you, and we believe they deserve a personal touch.
+    <value>Replace your crew members' Personal Data at a discount of %(discount)s. Your crew comprises people who are ready to fight for you, and we believe they deserve a personal touch.
 
 Gather all your friends, relatives, favorite historical figures or celebrities in one unique crew. This offer includes changing the name, surname, and photo of your crew member.</value>
   </data>
@@ -3388,27 +3388,27 @@ Please note that the gun you purchase shells for can sometimes be mounted on a w
 A full set of complex equipment is rather expensive, so it might be a good idea to demount equipment from an old vehicle, pay some gold, and transfer it to the new one. Remember that only three types of equipment can be demounted for free: Binocular Telescope, Camouflage Net, and Toolbox.</value>
   </data>
   <data name="action/hero/full/passportChangeCost" xml:space="preserve">
-    <value>Replace your crew members' Personal Data at a new price of %(discount)s gold. Your crew comprises people who are ready to fight for you, and we believe they deserve a personal touch.
+    <value>Replace your crew members' Personal Data at a discount of %(discount)s. Your crew comprises people who are ready to fight for you, and we believe they deserve a personal touch.
 
 Gather all your friends, relatives, favorite historical figures or celebrities in one unique crew. This offer includes changing the name, surname, and photo of your crew member.</value>
   </data>
   <data name="action/hero/full/premiumPacket180Cost" xml:space="preserve">
-    <value>In addition to experience and credits, Premium Account also gets you a nice clean Garage. Beneficial price for purchasing (or extending) Premium Account for 180 days: %(discount)s</value>
+    <value>Premium Account provides you with 50%% more experience and credits after each battle. Beneficial price for purchasing or extending Premium Account for 180 days: %(discount)s</value>
   </data>
   <data name="action/hero/full/premiumPacket1Cost" xml:space="preserve">
-    <value>In addition to experience and credits, Premium Account also gets you a nice clean Garage. Beneficial price for purchasing (or extending) Premium Account for 1 day: %(discount)s</value>
+    <value>Premium Account provides you with 50%% more experience and credits after each battle. Beneficial price for purchasing or extending Premium Account for 1 day: %(discount)s</value>
   </data>
   <data name="action/hero/full/premiumPacket30Cost" xml:space="preserve">
-    <value>In addition to experience and credits, Premium Account also gets you a nice clean Garage. Beneficial price for purchasing (or extending) Premium Account for 30 days: %(discount)s</value>
+    <value>Premium Account provides you with 50%% more experience and credits after each battle. Beneficial price for purchasing or extending Premium Account for 30 days: %(discount)s</value>
   </data>
   <data name="action/hero/full/premiumPacket360Cost" xml:space="preserve">
-    <value>In addition to experience and credits, Premium Account also gets you a nice clean Garage. Beneficial price for purchasing (or extending) Premium Account for 360 days: %(discount)s</value>
+    <value>Premium Account provides you with 50%% more experience and credits after each battle. Beneficial price for purchasing or extending Premium Account for 360 days: %(discount)s</value>
   </data>
   <data name="action/hero/full/premiumPacket3Cost" xml:space="preserve">
-    <value>In addition to experience and credits, Premium Account also gets you a nice clean Garage. Beneficial price for purchasing (or extending) Premium Account for 3 days: %(discount)s</value>
+    <value>Premium Account provides you with 50%% more experience and credits after each battle. Beneficial price for purchasing or extending Premium Account for 3 days: %(discount)s</value>
   </data>
   <data name="action/hero/full/premiumPacket7Cost" xml:space="preserve">
-    <value>In addition to experience and credits, Premium Account also gets you a nice clean Garage. Beneficial price for purchasing (or extending) Premium Account for 7 days: %(discount)s</value>
+    <value>Premium Account provides you with 50%% more experience and credits after each battle. Beneficial price for purchasing or extending Premium Account for 7 days: %(discount)s</value>
   </data>
   <data name="action/hero/full/set_ShellPrice" xml:space="preserve">
     <value>Purchase any shells at a %(discount)s discount. Purchase ammunition at a discount in advance to save your resources.
@@ -3489,8 +3489,7 @@ Please note that vehicle characteristics shown in your Garage are relevant if th
     <value>Up to a %(discount)s discount on purchasing %(vehicles)s and other vehicles</value>
   </data>
   <data name="action/short/cond_VehPrice/one" xml:space="preserve">
-    <value>%(vehicles)s at a beneficial price of
-%(discount)s</value>
+    <value>%(vehicles)s at a beneficial price of %(discount)s</value>
   </data>
   <data name="action/short/cond_VehPrice/two" xml:space="preserve">
     <value>Up to a %(discount)s discount on purchasing %(vehicles)s</value>
@@ -3593,8 +3592,7 @@ Please note that vehicle characteristics shown in your Garage are relevant if th
     <value>Up to a %(discount)s discount on purchasing %(vehicles)s and other vehicles</value>
   </data>
   <data name="action/short/mul_VehPrice/one" xml:space="preserve">
-    <value>%(vehicles)s at a beneficial price of
-%(discount)s</value>
+    <value>%(vehicles)s at a beneficial price of %(discount)s</value>
   </data>
   <data name="action/short/mul_VehPrice/two" xml:space="preserve">
     <value>Up to a %(discount)s discount on purchasing %(vehicles)s</value>
@@ -4282,13 +4280,13 @@ in the corresponding section of the Missions section.</value>
     <value>For %(vehName)s</value>
   </data>
   <data name="missions/tab/label/marathons" xml:space="preserve">
-    <value>Events</value>
+    <value>Tank football 2018</value>
   </data>
   <data name="missions/tab/marathons/body" xml:space="preserve">
-    <value>A set of missions that give valuable rewards upon their completion.</value>
+    <value>Click to go to tournaments.</value>
   </data>
   <data name="missions/tab/marathons/header" xml:space="preserve">
-    <value>Events</value>
+    <value>Tank football 2018</value>
   </data>
   <data name="missions/tab/marathons/header/award" xml:space="preserve">
     <value>Reward:</value>
@@ -4795,7 +4793,7 @@ in the corresponding section of the Missions section.</value>
     <value>Do not destroy enemy vehicles of nation: %(nation)s; type %(type)s; Tier %(level)s by setting them on fire</value>
   </data>
   <data name="details/conditions/fireKills/not" xml:space="preserve">
-    <value>Do not destroy an enemy vehicle by setting it on fire</value>
+    <value>Do not destroy enemy vehicles by setting them on fire</value>
   </data>
   <data name="details/conditions/fireKills/type" xml:space="preserve">
     <value>Destroy an enemy vehicle of type: %(type)s by setting it on fire</value>
@@ -5125,7 +5123,7 @@ in the corresponding section of the Missions section.</value>
     <value>Result Improvement</value>
   </data>
   <data name="personalMission/status/doneWithPawn" xml:space="preserve">
-    <value>Primary conditions fulfilled within %(count)s</value>
+    <value>Completed with %(count)s</value>
   </data>
   <data name="personalMission/status/fullDone" xml:space="preserve">
     <value>Completed with honors</value>
@@ -5143,7 +5141,7 @@ in the corresponding section of the Missions section.</value>
     <value>No Suitable Vehicles</value>
   </data>
   <data name="personalMission/status/mainDone" xml:space="preserve">
-    <value>Primary Conditions Fulfilled</value>
+    <value>Completed</value>
   </data>
   <data name="personalMission/status/sheetRecoveryInProgress" xml:space="preserve">
     <value>Result Improvement</value>
@@ -5293,18 +5291,267 @@ in the corresponding section of the Missions section.</value>
     <value>Destroy vehicles with the secondary gun</value>
   </data>
   <data name="action/auto/calendar" xml:space="preserve">
-    <value>New offer in the Advent Calendar every day.</value>
+    <value>The Advent Calendar features a new offer every day.</value>
   </data>
   <data name="action/button/calendar" xml:space="preserve">
     <value>Go to Calendar</value>
   </data>
   <data name="action/full/calendar" xml:space="preserve">
-    <value>Following tradition, the Advent Calendar will feature special Premium Shop offers every day, all through the event. Each day, there will be a different offer available, so don’t mull it over for too long and make sure you come back daily to discover new offers and receive the mission of the day!</value>
+    <value>Following tradition, the Advent Calendar will feature special Premium Shop offers every day, throughout the event. Each day, there will be a different offer available, so don’t mull it over for too long and make sure you come back daily to discover new offers and receive the mission of the day!</value>
   </data>
   <data name="action/hero/full/calendar" xml:space="preserve">
-    <value>Following tradition, the Advent Calendar will feature special Premium Shop offers every day, all through the event. Each day, there will be a different offer available, so don’t mull it over for too long and make sure you come back daily to discover new offers and receive the mission of the day!</value>
+    <value>Following tradition, the Advent Calendar will feature special Premium Shop offers every day, throughout the event. Each day, there will be a different offer available, so don’t mull it over for too long and make sure you come back daily to discover new offers and receive the mission of the day!</value>
   </data>
   <data name="action/short/calendar" xml:space="preserve">
     <value>Advent Calendar</value>
+  </data>
+  <data name="action/asia/full/boxbuying" xml:space="preserve">
+    <value>It is high time to share holiday joy and festive atmosphere! Purchase one or several festive boxes: open them or send as presents to your friends! Each box provides valuable presents, from credits to Premium vehicles.</value>
+  </data>
+  <data name="action/asia/hero/full/boxbuying" xml:space="preserve">
+    <value>It is high time to share holiday joy and festive atmosphere! Purchase one or several festive boxes: open them or send as presents to your friends! Each box provides valuable presents, from credits to Premium vehicles.</value>
+  </data>
+  <data name="action/auto/boxbuying" xml:space="preserve">
+    <value>The Advent Calendar features a new offer every day.</value>
+  </data>
+  <data name="action/auto/mul_PriceGroupPrice" xml:space="preserve">
+    <value>Discount on purchasing customization elements</value>
+  </data>
+  <data name="action/auto/mul_PriceGroupPriceAll" xml:space="preserve">
+    <value>Discount on purchasing customization elements</value>
+  </data>
+  <data name="action/auto/mul_PriceGroupPriceByTag" xml:space="preserve">
+    <value>Discount on purchasing customization elements</value>
+  </data>
+  <data name="action/auto/set_PriceGroupPrice" xml:space="preserve">
+    <value>Discount on purchasing customization elements</value>
+  </data>
+  <data name="action/button/boxbuying" xml:space="preserve">
+    <value>Go to Purchase</value>
+  </data>
+  <data name="action/button/mul_PriceGroupPrice" xml:space="preserve">
+    <value>To Exterior</value>
+  </data>
+  <data name="action/button/mul_PriceGroupPriceAll" xml:space="preserve">
+    <value>To Exterior</value>
+  </data>
+  <data name="action/button/mul_PriceGroupPriceByTag" xml:space="preserve">
+    <value>To Exterior</value>
+  </data>
+  <data name="action/button/set_PriceGroupPrice" xml:space="preserve">
+    <value>To Exterior</value>
+  </data>
+  <data name="action/full/boxbuying" xml:space="preserve">
+    <value>It is high time to share holiday joy and festive atmosphere! Purchase one or several festive boxes: open them or send as presents to your friends! Each box provides Garage decorations, as well as valuable presents, from credits to Premium vehicles.</value>
+  </data>
+  <data name="action/hero/full/boxbuying" xml:space="preserve">
+    <value>It is high time to share holiday joy and festive atmosphere! Purchase one or several festive boxes: open them or send as presents to your friends! Each box provides Garage decorations, as well as valuable presents, from credits to Premium vehicles.</value>
+  </data>
+  <data name="action/more/type/customizations" xml:space="preserve">
+    <value>customization elements</value>
+  </data>
+  <data name="action/short/boxbuying" xml:space="preserve">
+    <value>Holiday Ops</value>
+  </data>
+  <data name="action/short/mul_PriceGroupPrice" xml:space="preserve">
+    <value>Up to %(discount)s on purchasing customization elements</value>
+  </data>
+  <data name="action/short/mul_PriceGroupPriceAll" xml:space="preserve">
+    <value>Up to %(discount)s on purchasing customization elements</value>
+  </data>
+  <data name="action/short/mul_PriceGroupPriceByTag" xml:space="preserve">
+    <value>Up to %(discount)s on purchasing customization elements</value>
+  </data>
+  <data name="action/short/set_PriceGroupPrice" xml:space="preserve">
+    <value>Up to %(discount)s on purchasing customization elements</value>
+  </data>
+  <data name="bonusName/camouflage" xml:space="preserve">
+    <value>Camouflage</value>
+  </data>
+  <data name="bonusName/decal" xml:space="preserve">
+    <value>Decal</value>
+  </data>
+  <data name="bonusName/emblem" xml:space="preserve">
+    <value>Emblem</value>
+  </data>
+  <data name="bonusName/inscription" xml:space="preserve">
+    <value>Inscription</value>
+  </data>
+  <data name="bonusName/modification" xml:space="preserve">
+    <value>Effect</value>
+  </data>
+  <data name="bonusName/paint" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="bonusName/style" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="details/conditions/fireKills/all/not" xml:space="preserve">
+    <value>Do not destroy enemy vehicles by setting them on fire</value>
+  </data>
+  <data name="details/conditions/multiStunEvent/not" xml:space="preserve">
+    <value>Do not stun %(count)d+ enemy vehicles with a single shot</value>
+  </data>
+  <data name="details/conditions/ramKills/all/not" xml:space="preserve">
+    <value>Do not destroy enemy vehicles by ramming</value>
+  </data>
+  <data name="details/dossier/0/battlesCount" xml:space="preserve">
+    <value>Unprocessed battles fought</value>
+  </data>
+  <data name="details/dossier/1/battlesCount" xml:space="preserve">
+    <value>Random Battles fought</value>
+  </data>
+  <data name="details/dossier/13/battlesCount" xml:space="preserve">
+    <value>Battles fought on the Global Map</value>
+  </data>
+  <data name="details/dossier/16/battlesCount" xml:space="preserve">
+    <value>Training battles fought</value>
+  </data>
+  <data name="details/dossier/18/battlesCount" xml:space="preserve">
+    <value>Battles fought in the Domination mode</value>
+  </data>
+  <data name="details/dossier/19/battlesCount" xml:space="preserve">
+    <value>Battles fought in the Steel Hunt mode</value>
+  </data>
+  <data name="details/dossier/2/battlesCount" xml:space="preserve">
+    <value>Team Training battles fought</value>
+  </data>
+  <data name="details/dossier/20/battlesCount" xml:space="preserve">
+    <value>Skirmishes fought</value>
+  </data>
+  <data name="details/dossier/21/battlesCount" xml:space="preserve">
+    <value>Battles fought in the Advances</value>
+  </data>
+  <data name="details/dossier/22/battlesCount" xml:space="preserve">
+    <value>Ranked Battles fought</value>
+  </data>
+  <data name="details/dossier/24/battlesCount" xml:space="preserve">
+    <value>Grand Battles fought</value>
+  </data>
+  <data name="details/dossier/4/battlesCount" xml:space="preserve">
+    <value>Special Battles fought</value>
+  </data>
+  <data name="details/dossier/5/battlesCount" xml:space="preserve">
+    <value>Special Battles fought</value>
+  </data>
+  <data name="details/dossier/6/battlesCount" xml:space="preserve">
+    <value>Battle Trainings completed</value>
+  </data>
+  <data name="details/dossier/7/battlesCount" xml:space="preserve">
+    <value>Team Battles fought</value>
+  </data>
+  <data name="details/dossier/9/battlesCount" xml:space="preserve">
+    <value>Battles fought in a special game mode</value>
+  </data>
+  <data name="missionDetails/nextPageBtn/label" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="missionDetails/prevPageBtn/label" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="token/default/aim" xml:space="preserve">
+    <value>"Sniper"</value>
+  </data>
+  <data name="token/default/box" xml:space="preserve">
+    <value>"Crate"</value>
+  </data>
+  <data name="token/default/fire" xml:space="preserve">
+    <value>"Fire"</value>
+  </data>
+  <data name="token/default/folder" xml:space="preserve">
+    <value>"Manual"</value>
+  </data>
+  <data name="token/default/leaflet" xml:space="preserve">
+    <value>"Leaflets"</value>
+  </data>
+  <data name="token/default/penetration" xml:space="preserve">
+    <value>"Penetration"</value>
+  </data>
+  <data name="token/default/ricochet" xml:space="preserve">
+    <value>"Ricochet"</value>
+  </data>
+  <data name="token/default/shell" xml:space="preserve">
+    <value>"Shell"</value>
+  </data>
+  <data name="token/default/track" xml:space="preserve">
+    <value>"Track"</value>
+  </data>
+  <data name="token/default/turret" xml:space="preserve">
+    <value>"Detonation"</value>
+  </data>
+  <data name="token/default/wheel" xml:space="preserve">
+    <value>"Roller"</value>
+  </data>
+  <data name="token/default/italy" xml:space="preserve">
+    <value>Italy</value>
+  </data>
+  <data name="action/auto/set_MarathonAnnounce" xml:space="preserve">
+    <value>New Italian Premium Tier %(level)s&amp;nbsp; tank for free</value>
+  </data>
+  <data name="action/auto/set_MarathonFinished" xml:space="preserve">
+    <value>New Italian Premium Tier %(level)s&amp;nbsp; tank with a discount</value>
+  </data>
+  <data name="action/auto/set_MarathonInProgress" xml:space="preserve">
+    <value>New Italian Premium Tier %(level)s&amp;nbsp; tank for free</value>
+  </data>
+  <data name="action/button/set_MarathonAnnounce" xml:space="preserve">
+    <value>Go to Event</value>
+  </data>
+  <data name="action/button/set_MarathonFinished" xml:space="preserve">
+    <value>Claim the Vehicle</value>
+  </data>
+  <data name="action/button/set_MarathonInProgress" xml:space="preserve">
+    <value>Go to Event</value>
+  </data>
+  <data name="action/discount/discountUpToText" xml:space="preserve">
+    <value>Discount up to</value>
+  </data>
+  <data name="action/full/set_MarathonAnnounce" xml:space="preserve">
+    <value>Complete missions of each stage; missions for mastery are available only for Tier X vehicles, and missions for commitment for vehicles of any tier. You will receive special rewards for completing each of 10 stages and a unique Tier VIII Premium vehicle for free at the end of all stages.</value>
+  </data>
+  <data name="action/full/set_MarathonInProgress" xml:space="preserve">
+    <value>Complete missions of each stage; missions for mastery are available only for Tier X vehicles, and missions for commitment for vehicles of any tier. You will receive special rewards for completing each of 10 stages and a unique Tier VIII Premium vehicle for free at the end of all stages.</value>
+  </data>
+  <data name="action/hero/full/set_MarathonFinished" xml:space="preserve">
+    <value>Event ended. You have %(value)s to purchase a new unique Tier VIII Premium vehicle with the personal discount.</value>
+  </data>
+  <data name="action/marathon/announceTime" xml:space="preserve">
+    <value>Starting: %(startTime)s</value>
+  </data>
+  <data name="actionCard/title/set_MarathonAnnounce" xml:space="preserve">
+    <value>Italian Challenge</value>
+  </data>
+  <data name="actionCard/title/set_MarathonFinished" xml:space="preserve">
+    <value>Italian Challenge</value>
+  </data>
+  <data name="actionCard/title/set_MarathonInProgress" xml:space="preserve">
+    <value>Italian Challenge</value>
+  </data>
+  <data name="details/dossier/27/battlesCount" xml:space="preserve">
+    <value>Grand Battles fought</value>
+  </data>
+  <data name="missions/tab/grouped/body" xml:space="preserve">
+    <value>A set of missions that give valuable rewards upon their completion.</value>
+  </data>
+  <data name="missions/tab/grouped/header" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="missions/tab/label/grouped" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="missions/tab/label/missions" xml:space="preserve">
+    <value>Training Missions</value>
+  </data>
+  <data name="missions/tab/missions/body" xml:space="preserve">
+    <value>A set of missions that give valuable rewards upon their completion.</value>
+  </data>
+  <data name="missions/tab/missions/header" xml:space="preserve">
+    <value>Training Missions</value>
+  </data>
+  <data name="token/default/buffon" xml:space="preserve">
+    <value>Buffon</value>
+  </data>
+  <data name="token/default/card" xml:space="preserve">
+    <value>Back of a card</value>
   </data>
 </root>

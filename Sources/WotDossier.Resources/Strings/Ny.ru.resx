@@ -181,7 +181,7 @@
     <value>Открыть</value>
   </data>
   <data name="boxPopover/title" xml:space="preserve">
-    <value>Коробки с украшениями</value>
+    <value>Праздничные коробки</value>
   </data>
   <data name="boxPopover/toEarn" xml:space="preserve">
     <value>Заработать</value>
@@ -1098,7 +1098,7 @@
     <value>Вы активировали %(discount)d%% скидку на машину %(vehicle)s</value>
   </data>
   <data name="system_messages/finished" xml:space="preserve">
-    <value>У вас остались неиспользованные награды. Не забудьте активировать их до начала марта!</value>
+    <value>У вас остались неиспользованные награды. Не забудьте активировать их до середины марта!</value>
   </data>
   <data name="system_messages/finished/button" xml:space="preserve">
     <value>К наградам</value>
@@ -1165,7 +1165,7 @@
   </data>
   <data name="system_messages/presentBox/body" xml:space="preserve">
     <value>Ваш друг прислал вам подарок:
-%(settingStartTag)s%(setting)s%(settingEndTag)s с украшениями V уровня (х%(countStartTag)s%(count)d%(countEndTag)s)</value>
+%(settingStartTag)s%(setting)s%(settingEndTag)s с ценными подарками (х%(countStartTag)s%(count)d%(countEndTag)s).</value>
   </data>
   <data name="system_messages/presentBox/header" xml:space="preserve">
     <value>Вам посылка</value>
@@ -1280,7 +1280,7 @@
     <value>Где купить:</value>
   </data>
   <data name="tooltip/box/header" xml:space="preserve">
-    <value>Коробка с украшениями</value>
+    <value>Праздничная коробка</value>
   </data>
   <data name="tooltip/box/win/body" xml:space="preserve">
     <value>Выдаются за выполнение новогодних боевых задач.</value>
@@ -1915,7 +1915,7 @@
     <value>Электрическая гирлянда-дождик</value>
   </data>
   <data name="tooltip/settings/toys/toy246/descr" xml:space="preserve">
-    <value>Развесить данное украшение — невообразимо долгий процесс. Но это всё равно быстрее, чем перезарядка Bat.-Châtillon 155 58 с раненными заряжающими и повреждённой боеукладкой.</value>
+    <value>Развесить данное украшение — невообразимо долгий процесс. Но это всё равно быстрее, чем перезарядка Bat.-Châtillon 155 58 с ранеными заряжающими и повреждённой боеукладкой.</value>
   </data>
   <data name="tooltip/settings/toys/toy247" xml:space="preserve">
     <value>Зимняя гирлянда с птичками</value>
@@ -2282,5 +2282,14 @@
   </data>
   <data name="viewHeader/closeBtn/label" xml:space="preserve">
     <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="breakScreen/noToys/asia/label" xml:space="preserve">
+    <value>В инвентаре нет украшений. Выполняйте боевые
+задачи и зарабатывайте украшения, чтобы сделать
+свой Ангар праздничным.</value>
+  </data>
+  <data name="missionRewardWindow/asia/description/setting/" xml:space="preserve">
+    <value>Куплена (или была подарена) %(boxName)s
+с ценными подарками.</value>
   </data>
 </root>

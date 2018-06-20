@@ -118,10 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="afterburning/descr" xml:space="preserve">
-    <value>+15% к мощности двигателя на одну минуту</value>
+    <value>На короткое время даёт существенную прибавку к скорости.
+Перезарядка: 20 сек.</value>
   </data>
   <data name="afterburning/name" xml:space="preserve">
-    <value>Форсаж</value>
+    <value>Турбонагнетатель</value>
   </data>
   <data name="aimingStabilizer/descr" xml:space="preserve">
     <value>{colorTagOpen}-20%{colorTagClose} от разброса при движении и повороте башни</value>
@@ -511,7 +512,7 @@
     <value>?empty?</value>
   </data>
   <data name="gasoline100/restriction" xml:space="preserve">
-    <value>Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Польши.</value>
+    <value>Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Польши, Италии.</value>
   </data>
   <data name="gasoline105/always" xml:space="preserve">
     <value>+10% к мощности двигателя и скорости вращения башни. Расходуется за один бой.</value>
@@ -520,7 +521,7 @@
     <value>?empty?</value>
   </data>
   <data name="gasoline105/restriction" xml:space="preserve">
-    <value>Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Польши.</value>
+    <value>Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Польши, Италии.</value>
   </data>
   <data name="handExtinguishers/always" xml:space="preserve">
     <value>?empty?</value>
@@ -659,7 +660,7 @@
     <value>Секретное оружие</value>
   </data>
   <data name="bomber/descr" xml:space="preserve">
-    <value>При использовании даёт бомбардировщику команду взлететь и произвести бомбометание в указанном квадрате карты.</value>
+    <value>При использовании даёт бомбардировщику команду взлететь и произвести бомбометание над указанным квадратом карты.</value>
   </data>
   <data name="bomber/name" xml:space="preserve">
     <value>Авиаудар</value>
@@ -728,7 +729,7 @@
     <value>Укрытия на местности</value>
   </data>
   <data name="coatedOpticsBattleBooster/descr" xml:space="preserve">
-    <value>%s к радиусу обзора, но не более 445 м. при установленном оборудовании «Просветлённая оптика» или «Юстированная оптика».</value>
+    <value>%s к радиусу обзора, но не более 445 м при установленном оборудовании «Просветлённая оптика» или «Юстированная оптика».</value>
   </data>
   <data name="coatedOpticsBattleBooster/gain/deluxe" xml:space="preserve">
     <value>+2,5%</value>
@@ -924,5 +925,93 @@
   </data>
   <data name="virtuosoBattleBooster/name" xml:space="preserve">
     <value>Полоса препятствий</value>
+  </data>
+  <data name="ration_italy/always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="ration_italy/descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="ration_italy/name" xml:space="preserve">
+    <value>Спагетти с мясным соусом</value>
+  </data>
+  <data name="ration_italy/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_italy/restriction" xml:space="preserve">
+    <value>Только для техники Италии.</value>
+  </data>
+  <data name="artillery/longDescr" xml:space="preserve">
+    <value>Артобстрел: артиллерийские батареи открывают непродолжительный огонь по небольшой площади. Техника в центре зоны обстрела получает значительные повреждения, в то время как машины на границе зоны находятся в относительной безопасности.</value>
+  </data>
+  <data name="artillery/shortDescr" xml:space="preserve">
+    <value>При использовании даёт артбатарее команду произвести залп в указанный квадрат карты.</value>
+  </data>
+  <data name="bomber/longDescr" xml:space="preserve">
+    <value>Авиаудар: бомбардировщик получает приказ на сброс бомб в указанный сектор средней площади. Находящиеся в данном секторе машины получают незначительный урон и оглушение на определённое время.</value>
+  </data>
+  <data name="bomber/shortDescr" xml:space="preserve">
+    <value>При использовании даёт бомбардировщику команду взлететь и произвести бомбометание над указанным квадратом карты.</value>
+  </data>
+  <data name="inspire/descr" xml:space="preserve">
+    <value>При активации на короткое время увеличивает прибавку в процентах к основным специальностям экипажа игрока и союзников в определённом радиусе.</value>
+  </data>
+  <data name="inspire/longDescr" xml:space="preserve">
+    <value>Воодушевление на короткое время увеличивает прибавку в процентах к основным специальностям экипажа игрока и союзников в определённом радиусе. Если машина покидает радиус действия, воодушевление продолжает действовать несколько секунд.</value>
+  </data>
+  <data name="inspire/name" xml:space="preserve">
+    <value>Воодушевление</value>
+  </data>
+  <data name="inspire/shortDescr" xml:space="preserve">
+    <value>При активации на короткое время увеличивает прибавку в процентах к основным специальностям экипажа игрока и союзников в определённом радиусе.</value>
+  </data>
+  <data name="passive_engineering/descr" xml:space="preserve">
+    <value>Даёт постоянный бонус к скорости захвата, сбитию захвата и пополнению боеприпасов.</value>
+  </data>
+  <data name="passive_engineering/longDescr" xml:space="preserve">
+    <value>Диверсионный отряд даёт постоянный бонус к скорости захвата, сбитию захвата и пополнению БК. Захват базы блокируется на большее время, если противник внутри круга захвата получает урон. Кроме того, захват противника можно остановить, заехав в круг захвата базы.</value>
+  </data>
+  <data name="passive_engineering/name" xml:space="preserve">
+    <value>Диверсионный отряд</value>
+  </data>
+  <data name="passive_engineering/shortDescr" xml:space="preserve">
+    <value>Даёт постоянный бонус к скорости захвата, сбитию захвата и пополнению боеприпасов.</value>
+  </data>
+  <data name="recon/descr" xml:space="preserve">
+    <value>При активации отправляет в указанную область карты самолёт-разведчик, который обнаруживает технику противника на маршруте своего полёта.</value>
+  </data>
+  <data name="recon/longDescr" xml:space="preserve">
+    <value>Самолёт-разведчик: в указанную область карты вылетает разведывательный самолёт, который обнаруживает технику противника на маршруте своего полёта. Разведчик передаёт разведданные по обнаруженной технике определённое время.</value>
+  </data>
+  <data name="recon/name" xml:space="preserve">
+    <value>Самолёт-разведчик</value>
+  </data>
+  <data name="recon/shortDescr" xml:space="preserve">
+    <value>При активации отправляет в указанную область карты самолёт-разведчик, который обнаруживает технику противника на маршруте своего полёта.</value>
+  </data>
+  <data name="smoke/descr" xml:space="preserve">
+    <value>При активации артиллерийские расчёты ставят дымовую завесу в указанной зоне карты.</value>
+  </data>
+  <data name="smoke/longDescr" xml:space="preserve">
+    <value>При активации артиллерийские расчёты ставят дымы на большой прямоугольной площади. При постановке дымовая завеса блокирует обзор в указанном секторе и маскирует необнаруженные машины. Техника в дымах также имеет ограниченный обзор.</value>
+  </data>
+  <data name="smoke/name" xml:space="preserve">
+    <value>Дымовая завеса</value>
+  </data>
+  <data name="smoke/shortDescr" xml:space="preserve">
+    <value>При активации артиллерийские расчёты ставят дымовую завесу в указанной зоне карты.</value>
+  </data>
+  <data name="defenderAbility/descr" xml:space="preserve">
+    <value>Взрывные волны отталкивают мяч и сбивают гусеницы противнику.</value>
+  </data>
+  <data name="defenderAbility/name" xml:space="preserve">
+    <value>Ударная волна</value>
+  </data>
+  <data name="lastchance/descr" xml:space="preserve">
+    <value>Моментально заряжает два дополнительных снаряда в магазин.
+Перезарядка: 40 сек.</value>
+  </data>
+  <data name="lastchance/name" xml:space="preserve">
+    <value>Тузы в рукавах</value>
   </data>
 </root>

@@ -254,4 +254,7 @@ Details</value>
   <data name="hangar/booster" xml:space="preserve">
     <value>Directives</value>
   </data>
+  <data name="vehicle/compare" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
 </root>

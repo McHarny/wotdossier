@@ -2109,7 +2109,7 @@
     <value>Для новичков и опытных бойцов</value>
   </data>
   <data name="bonuses/customization/value" xml:space="preserve">
-    <value>(x%(count)s)</value>
+    <value>x%(count)s</value>
   </data>
   <data name="bonuses/item/additionBonus" xml:space="preserve">
     <value>За выполнение дополнительных условий:</value>
@@ -3406,22 +3406,22 @@
 Соберите в одной машине уникальный экипаж из друзей и знакомых или известных исторических личностей. В услугу входят смена имени, фамилии, а также фотографии вашего члена экипажа.</value>
   </data>
   <data name="action/hero/full/premiumPacket180Cost" xml:space="preserve">
-    <value>Премиум аккаунт — это не только больше кредитов и опыта за каждый бой, но и чистый, красивый Ангар. Выгодная стоимость покупки дней премиум аккаунта (или его продление) на 180 дней: %(discount)s</value>
+    <value>Премиум аккаунт — это +50%% к заработку опыта и кредитов в каждом бою. Выгодная стоимость покупки или продления премиум аккаунта на 180 дней: %(discount)s</value>
   </data>
   <data name="action/hero/full/premiumPacket1Cost" xml:space="preserve">
-    <value>Премиум аккаунт — это не только больше кредитов и опыта за каждый бой, но и чистый, красивый Ангар. Выгодная стоимость покупки дней премиум аккаунта (или его продление) на 1 день: %(discount)s</value>
+    <value>Премиум аккаунт — это +50%% к заработку опыта и кредитов в каждом бою. Выгодная стоимость покупки или продления премиум аккаунта на 1 день: %(discount)s</value>
   </data>
   <data name="action/hero/full/premiumPacket30Cost" xml:space="preserve">
-    <value>Премиум аккаунт — это не только больше кредитов и опыта за каждый бой, но и чистый, красивый Ангар. Выгодная стоимость покупки дней премиум аккаунта (или его продление) на 30 дней: %(discount)s</value>
+    <value>Премиум аккаунт — это +50%% к заработку опыта и кредитов в каждом бою. Выгодная стоимость покупки или продления премиум аккаунта на 30 дней: %(discount)s</value>
   </data>
   <data name="action/hero/full/premiumPacket360Cost" xml:space="preserve">
-    <value>Премиум аккаунт — это не только больше кредитов и опыта за каждый бой, но и чистый, красивый Ангар. Выгодная стоимость покупки дней премиум аккаунта (или его продление) на 360 дней: %(discount)s</value>
+    <value>Премиум аккаунт — это +50%% к заработку опыта и кредитов в каждом бою. Выгодная стоимость покупки или продления премиум аккаунта на 360 дней: %(discount)s</value>
   </data>
   <data name="action/hero/full/premiumPacket3Cost" xml:space="preserve">
-    <value>Премиум аккаунт — это не только больше кредитов и опыта за каждый бой, но и чистый, красивый Ангар. Выгодная стоимость покупки дней премиум аккаунта (или его продление) на 3 дня: %(discount)s</value>
+    <value>Премиум аккаунт — это +50%% к заработку опыта и кредитов в каждом бою. Выгодная стоимость покупки или продления премиум аккаунта на 3 дня: %(discount)s</value>
   </data>
   <data name="action/hero/full/premiumPacket7Cost" xml:space="preserve">
-    <value>Премиум аккаунт — это не только больше кредитов и опыта за каждый бой, но и чистый, красивый Ангар. Выгодная стоимость покупки дней премиум аккаунта (или его продление) на 7 дней: %(discount)s</value>
+    <value>Премиум аккаунт — это +50%% к заработку опыта и кредитов в каждом бою. Выгодная стоимость покупки или продления премиум аккаунта на 7 дней: %(discount)s</value>
   </data>
   <data name="action/hero/full/set_ShellPrice" xml:space="preserve">
     <value>Закупайте любые снаряды со скидкой, которая составляет %(discount)s. Пополнение боезапаса впрок сейчас сэкономит вам ресурсы в дальнейшем.
@@ -3502,8 +3502,7 @@
     <value>Скидка до %(discount)s на покупку %(vehicles)s и др. технику</value>
   </data>
   <data name="action/short/cond_VehPrice/one" xml:space="preserve">
-    <value>%(vehicles)s по выгодной цене в
-%(discount)s</value>
+    <value>%(vehicles)s по выгодной цене в %(discount)s</value>
   </data>
   <data name="action/short/cond_VehPrice/two" xml:space="preserve">
     <value>Скидка до %(discount)s на покупку %(vehicles)s</value>
@@ -3606,8 +3605,7 @@
     <value>Скидка до %(discount)s на покупку %(vehicles)s и др. технику</value>
   </data>
   <data name="action/short/mul_VehPrice/one" xml:space="preserve">
-    <value>%(vehicles)s по выгодной цене в
-%(discount)s</value>
+    <value>%(vehicles)s по выгодной цене в %(discount)s</value>
   </data>
   <data name="action/short/mul_VehPrice/two" xml:space="preserve">
     <value>Скидка до %(discount)s на покупку %(vehicles)s</value>
@@ -4295,13 +4293,13 @@
     <value>Для %(vehName)s</value>
   </data>
   <data name="missions/tab/label/marathons" xml:space="preserve">
-    <value>События</value>
+    <value>Танковый футбол 2018</value>
   </data>
   <data name="missions/tab/marathons/body" xml:space="preserve">
-    <value>Комплекс боевых задач, полное выполнение которого обеспечит получение ценной награды.</value>
+    <value>Нажмите, чтобы перейти к соревнованиям.</value>
   </data>
   <data name="missions/tab/marathons/header" xml:space="preserve">
-    <value>События</value>
+    <value>Танковый футбол 2018</value>
   </data>
   <data name="missions/tab/marathons/header/award" xml:space="preserve">
     <value>Награда:</value>
@@ -4328,7 +4326,7 @@
     <value>Список боевых задач, в которых можно получить марку %(name)s</value>
   </data>
   <data name="missions/tokenPopover/descr/shop" xml:space="preserve">
-    <value>Марку %(name)s можно купить только в Премиум магазине.</value>
+    <value>Марку %(name)s можно купить только в премиум магазине.</value>
   </data>
   <data name="missions/tokenPopover/header" xml:space="preserve">
     <value>Марка %(name)s</value>
@@ -5330,28 +5328,28 @@
     <value>Перейти к календарю</value>
   </data>
   <data name="action/button/mul_PriceGroupPrice" xml:space="preserve">
-    <value>Купить элементы внешнего вида</value>
+    <value>К внешнему виду</value>
   </data>
   <data name="action/button/mul_PriceGroupPriceAll" xml:space="preserve">
-    <value>Купить элементы внешнего вида</value>
+    <value>К внешнему виду</value>
   </data>
   <data name="action/button/mul_PriceGroupPriceByTag" xml:space="preserve">
-    <value>Купить элементы внешнего вида</value>
+    <value>К внешнему виду</value>
   </data>
   <data name="action/button/set_PriceGroupPrice" xml:space="preserve">
-    <value>Купить элементы внешнего вида</value>
+    <value>К внешнему виду</value>
   </data>
   <data name="action/full/boxbuying" xml:space="preserve">
-    <value>В коробке содержится 2 случайных украшения и дополнительная награда.</value>
+    <value>Зима — время сюрпризов! Порадуйте себя и своих друзей необычным подарком, купив одну или несколько праздничных коробок. В каждой коробке содержатся украшения для Ангара, а также различная награда от кредитов до премиум техники.</value>
   </data>
   <data name="action/full/calendar" xml:space="preserve">
-    <value>Следуя традициям, на всём протяжении новогоднего события Праздничный календарь ежедневно предлагает специальные товары из Премиум магазина. Заходите каждый день, чтобы увидеть новое предложение, а также получить боевую задачу дня!</value>
+    <value>Следуя традициям, на всём протяжении новогоднего события Праздничный календарь ежедневно предлагает специальные товары из премиум магазина. Заходите каждый день, чтобы увидеть новое предложение, а также получить боевую задачу дня!</value>
   </data>
   <data name="action/hero/full/boxbuying" xml:space="preserve">
-    <value>В коробке содержится 2 случайных украшения и дополнительная награда.</value>
+    <value>Зима — время сюрпризов! Порадуйте себя и своих друзей необычным подарком, купив одну или несколько праздничных коробок. В каждой коробке содержатся украшения для Ангара, а также различная награда от кредитов до премиум техники.</value>
   </data>
   <data name="action/hero/full/calendar" xml:space="preserve">
-    <value>Следуя традициям, на всём протяжении новогоднего события Праздничный календарь ежедневно предлагает специальные товары из Премиум магазина. Заходите каждый день, чтобы увидеть новое предложение, а также получить боевую задачу дня!</value>
+    <value>Следуя традициям, на всём протяжении новогоднего события Праздничный календарь ежедневно предлагает специальные товары из премиум магазина. Заходите каждый день, чтобы увидеть новое предложение, а также получить боевую задачу дня!</value>
   </data>
   <data name="action/more/type/customizations" xml:space="preserve">
     <value>элементов внешнего вида</value>
@@ -5490,5 +5488,83 @@
   </data>
   <data name="token/default/wheel" xml:space="preserve">
     <value>«Каток»</value>
+  </data>
+  <data name="action/asia/full/boxbuying" xml:space="preserve">
+    <value>Зима — время сюрпризов! Порадуйте себя и своих друзей необычным подарком, купив одну или несколько праздничных коробок. В каждой коробке содержится различная награда от кредитов до премиум техники.</value>
+  </data>
+  <data name="action/asia/hero/full/boxbuying" xml:space="preserve">
+    <value>Зима — время сюрпризов! Порадуйте себя и своих друзей необычным подарком, купив одну или несколько праздничных коробок. В каждой коробке содержится различная награда от кредитов до премиум техники.</value>
+  </data>
+  <data name="token/default/italy" xml:space="preserve">
+    <value>«Италия»</value>
+  </data>
+  <data name="action/auto/set_MarathonAnnounce" xml:space="preserve">
+    <value>Новый итальянский премиум танк %(level)s&amp;nbsp;уровня бесплатно</value>
+  </data>
+  <data name="action/auto/set_MarathonFinished" xml:space="preserve">
+    <value>Новый итальянский премиум танк %(level)s&amp;nbsp;уровня со скидкой</value>
+  </data>
+  <data name="action/auto/set_MarathonInProgress" xml:space="preserve">
+    <value>Новый итальянский премиум танк %(level)s&amp;nbsp;уровня бесплатно</value>
+  </data>
+  <data name="action/button/set_MarathonAnnounce" xml:space="preserve">
+    <value>Перейти к событию</value>
+  </data>
+  <data name="action/button/set_MarathonFinished" xml:space="preserve">
+    <value>Получить танк</value>
+  </data>
+  <data name="action/button/set_MarathonInProgress" xml:space="preserve">
+    <value>Перейти к событию</value>
+  </data>
+  <data name="action/discount/discountUpToText" xml:space="preserve">
+    <value>Скидка до</value>
+  </data>
+  <data name="action/full/set_MarathonAnnounce" xml:space="preserve">
+    <value>Выполняйте задачи каждого этапа, причём задачи на мастерство можно выполнять только на Х уровне техники, а задачи на усердие — на любом. За прохождение каждого из 10 этапов вас ждут специальные награды. Завершите все этапы и получите уникальный премиум танк VIII уровня бесплатно.</value>
+  </data>
+  <data name="action/full/set_MarathonInProgress" xml:space="preserve">
+    <value>Выполняйте задачи каждого этапа, причём задачи на мастерство можно выполнять только на Х уровне техники, а задачи на усердие — на любом. За прохождение каждого из 10 этапов вас ждут специальные награды. Завершите все этапы и получите уникальный премиум танк VIII уровня бесплатно.</value>
+  </data>
+  <data name="action/hero/full/set_MarathonFinished" xml:space="preserve">
+    <value>Событие завершено. У вас осталось %(value)s, чтобы купить новый уникальный премиум танк VIII уровня с персональной скидкой.</value>
+  </data>
+  <data name="action/marathon/announceTime" xml:space="preserve">
+    <value>Начнётся: %(startTime)s</value>
+  </data>
+  <data name="actionCard/title/set_MarathonAnnounce" xml:space="preserve">
+    <value>Итальянское испытание</value>
+  </data>
+  <data name="actionCard/title/set_MarathonFinished" xml:space="preserve">
+    <value>Итальянское испытание</value>
+  </data>
+  <data name="actionCard/title/set_MarathonInProgress" xml:space="preserve">
+    <value>Итальянское испытание</value>
+  </data>
+  <data name="details/dossier/27/battlesCount" xml:space="preserve">
+    <value>Проведённых Генеральных сражений</value>
+  </data>
+  <data name="missions/tab/label/missions" xml:space="preserve">
+    <value>Учебные задачи</value>
+  </data>
+  <data name="missions/tab/missions/body" xml:space="preserve">
+    <value>Комплекс боевых задач, полное выполнение которого обеспечит получение ценной награды.</value>
+  </data>
+  <data name="missions/tab/missions/header" xml:space="preserve">
+    <value>Учебные задачи</value>
+  </data>
+  <data name="missions/tab/grouped/body" xml:space="preserve">
+    <value>Комплекс боевых задач, полное выполнение которого обеспечит получение ценной награды.</value>
+  </data>
+  <data name="missions/tab/grouped/header" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="missions/tab/label/grouped" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="token/default/buffon" xml:space="preserve">
+    <value>Буффон</value>
+  </data>
+  <data name="token/default/card" xml:space="preserve">
+    <value>Рубашка</value>
   </data>
 </root>

@@ -12,6 +12,7 @@ namespace WotDossier.Domain
         GlobalMap = 7,
         Fallout = 8,
         Ranked = 9,
-        GrandBattle = 10
+        GrandBattle = 10,
+        EpicBattle = 11
     }
 }

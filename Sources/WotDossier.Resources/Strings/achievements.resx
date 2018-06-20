@@ -640,7 +640,7 @@
 • Damage caused with your assistance
 • Average damage per battle
 • Average experience per battle
-• Battles survived
+• Battles survived.
 
 Personal rating is updated with increasing number of battles fought.</value>
   </data>
@@ -889,7 +889,7 @@ Personal rating is updated with increasing number of battles fought.</value>
   <data name="pattonValley_condition" xml:space="preserve">
     <value>	• M46 Patton
 	• M46 Patton KR
-	• M48A1 Patton III
+	• M48A5 Patton
 	• M48A2/T54E2/T123E6
 	• M60
 
@@ -908,13 +908,13 @@ Personal rating is updated with increasing number of battles fought.</value>
 • Can be obtained in Random Battles only.</value>
   </data>
   <data name="sinai_condition" xml:space="preserve">
-    <value>• IS, IS-2, IS-3, IS-3A, IS-4, IS-5, IS-6, IS-7, Kirovets-1, T-10
+    <value>• IS, ISM, IS-2, IS-3, IS-3A, IS-4, IS-5, IS-6, IS-7, Kirovets-1, T-10
 
 • ISU-122S, ISU-130, ISU-152
 
-• Object&amp;nbsp;252U, Defender, Object&amp;nbsp;260, Object&amp;nbsp;261, Object&amp;nbsp;263, Object&amp;nbsp;268, Object&amp;nbsp;704
+• Object&amp;nbsp;252U, Defender, Object&amp;nbsp;260, Object&amp;nbsp;261, Object&amp;nbsp;257, Object&amp;nbsp;263, Object&amp;nbsp;268, Object&amp;nbsp;268&amp;nbsp;Version&amp;nbsp;4, Object&amp;nbsp;704
 
-• Only U.S.S.R. vehicles are included.
+• Only Soviet vehicles are included.
 • Series achieved in all vehicles are added together.
 • Newly received awards are added together.
 • Vehicles destroyed in Random Battles, Team Battles, Ranked Battles, Advances, and in battles on the Global Map are counted.</value>
@@ -2290,10 +2290,10 @@ Personal rating is updated with increasing number of battles fought.</value>
     <value>For notable gallantry, demonstrated while reaching Festive Atmosphere Level V, you receive the Bad Ace Tanker, Class II award.</value>
   </data>
   <data name="honoredRank" xml:space="preserve">
-    <value>Vehicle Rank</value>
+    <value>Rank Points</value>
   </data>
   <data name="honoredRank_descr" xml:space="preserve">
-    <value>Shows the rank you achieved in Ranked Battles in this vehicle.</value>
+    <value>You can receive vehicle rank points after achieving the highest rank in a season.</value>
   </data>
   <data name="mechanicEngineer9" xml:space="preserve">
     <value>Technical Engineer: Poland</value>
@@ -2386,12 +2386,395 @@ Personal rating is updated with increasing number of battles fought.</value>
     <value>Redemption</value>
   </data>
   <data name="HE17A3_condition" xml:space="preserve">
-    <value>Complete all week-long and event-long missions in Leviathan's Invasion.</value>
+    <value>Complete all missions in the Halloween 2017 event.</value>
   </data>
   <data name="HE17A3_descr" xml:space="preserve">
-    <value>You completed all week-long and event-long missions in Leviathan's Invasion.</value>
+    <value>You completed all missions in the Halloween 2017 event.</value>
   </data>
   <data name="HE17A3_notification" xml:space="preserve">
-    <value>You completed all week-long and event-long missions in Leviathan's Invasion.</value>
+    <value>You completed all missions in the Halloween 2017 event!</value>
+  </data>
+  <data name="NY18A1" xml:space="preserve">
+    <value>High Calibrrr, Class III</value>
+  </data>
+  <data name="NY18A1_condition" xml:space="preserve">
+    <value>• You can enhance the Festive Atmosphere by putting more decorations on the objects in your Garage.
+• Awarded to all players who fulfilled the respective condition during the 2017–2018 New Year special.</value>
+  </data>
+  <data name="NY18A1_descr" xml:space="preserve">
+    <value>Reach Festive Atmosphere Level II by participating in the New Year special.</value>
+  </data>
+  <data name="NY18A1_notification" xml:space="preserve">
+    <value>For notable valor demonstrated while reaching Festive Atmosphere Level II, you receive the High Calibrrr, Class III award.</value>
+  </data>
+  <data name="NY18A2" xml:space="preserve">
+    <value>High Calibrrr, Class II</value>
+  </data>
+  <data name="NY18A2_condition" xml:space="preserve">
+    <value>• You can enhance the Festive Atmosphere by putting more decorations on the objects in your Garage.
+• Awarded to all players who fulfilled the respective condition during the 2017–2018 New Year special.</value>
+  </data>
+  <data name="NY18A2_descr" xml:space="preserve">
+    <value>Reach Festive Atmosphere Level V by participating in the New Year special.</value>
+  </data>
+  <data name="NY18A2_notification" xml:space="preserve">
+    <value>For notable valor demonstrated while reaching Festive Atmosphere Level V, you receive the High Calibrrr, Class II award.</value>
+  </data>
+  <data name="NY18A3" xml:space="preserve">
+    <value>High Calibrrr, Class I</value>
+  </data>
+  <data name="NY18A3_condition" xml:space="preserve">
+    <value>• You can enhance the Festive Atmosphere by putting more decorations on the objects in your Garage.
+• Awarded to all players who fulfilled the respective condition during the 2017–2018 New Year special.</value>
+  </data>
+  <data name="NY18A3_descr" xml:space="preserve">
+    <value>Reach Festive Atmosphere Level X by participating in the New Year special.</value>
+  </data>
+  <data name="NY18A3_notification" xml:space="preserve">
+    <value>For notable valor demonstrated while reaching Festive Atmosphere Level X, you receive the High Calibrrr, Class I award.</value>
+  </data>
+  <data name="rare1319" xml:space="preserve">
+    <value>WG Fest 2017 Participant</value>
+  </data>
+  <data name="rare1319_condition" xml:space="preserve">
+    <value>• Awarded to all players who received an invitation to WG Fest 2017
+• Only one award could be received for any number of invitations.</value>
+  </data>
+  <data name="rare1319_descr" xml:space="preserve">
+    <value>Awarded for participation in WG Fest 2017.</value>
+  </data>
+  <data name="rare1320" xml:space="preserve">
+    <value>Ready for WG Fest 2017!</value>
+  </data>
+  <data name="rare1320_descr" xml:space="preserve">
+    <value>Awarded for completing WG Fest 2017 missions.</value>
+  </data>
+  <data name="mechanicEngineer10" xml:space="preserve">
+    <value>Technical Engineer: Italy</value>
+  </data>
+  <data name="mechanicEngineer10_condition" xml:space="preserve">
+    <value>• Unresearched modules do not prevent a player from receiving the award.</value>
+  </data>
+  <data name="mechanicEngineer10_descr" xml:space="preserve">
+    <value>Research all vehicles in the Italian Tech Tree.</value>
+  </data>
+  <data name="rankedBattlesHero" xml:space="preserve">
+    <value>Ranked Battles Hero</value>
+  </data>
+  <data name="rankedBattlesHero_condition" xml:space="preserve">
+    <value>• Awarded at the end of each season of Ranked Battles.</value>
+  </data>
+  <data name="rankedBattlesHero_descr" xml:space="preserve">
+    <value>Achieve the highest rank in Ranked Battles mode.</value>
+  </data>
+  <data name="rankedBattlesSeasonOne" xml:space="preserve">
+    <value>Participant of Ranked Battles, Season 1</value>
+  </data>
+  <data name="rankedBattlesSeasonOne_condition" xml:space="preserve">
+    <value>• Awarded at the end of Ranked Battles, Season 1.</value>
+  </data>
+  <data name="rankedBattlesSeasonOne_descr" xml:space="preserve">
+    <value>Win 10 battles in Ranked Battles, Season 1.</value>
+  </data>
+  <data name="tankExpert10" xml:space="preserve">
+    <value>Expert: Italy</value>
+  </data>
+  <data name="tankExpert10_descr" xml:space="preserve">
+    <value>Destroy all vehicles from the Italian Tech Tree except Premium and award vehicles.
+• Vehicles destroyed in Random Battles, Team Battles, Tank Company Battles, Advances, battles on the Global Map, and the Proving Ground mode (first 10 battles) are counted.</value>
+  </data>
+  <data name="frontlineMedal" xml:space="preserve">
+    <value>Frontline Soldier</value>
+  </data>
+  <data name="frontlineMedal_descr" xml:space="preserve">
+    <value>Achieve the highest Tier in the Frontline game mode.</value>
+  </data>
+  <data name="generalOfTheArmy" xml:space="preserve">
+    <value>General of the Army</value>
+  </data>
+  <data name="generalOfTheArmy_condition" xml:space="preserve">
+    <value>• Must also have reached rank: General.
+• Can be obtained in Frontline only.</value>
+  </data>
+  <data name="generalOfTheArmy_descr" xml:space="preserve">
+    <value>Be the player with the highest XP at the end of the battle.</value>
+  </data>
+  <data name="ironShield" xml:space="preserve">
+    <value>Iron Shield</value>
+  </data>
+  <data name="ironShield_condition" xml:space="preserve">
+    <value>• The targeted vehicles must be in a zone base.
+• The zone must not be captured in the moment the vehicle is damaged.
+• The targeted vehicles must be within 150 m of the main objectives.
+• The main objective still needs to be functional at the moment the vehicle is damaged.
+• Can be obtained in Frontline only.</value>
+  </data>
+  <data name="ironShield_descr" xml:space="preserve">
+    <value>As a defender, cause 1,800 damage to vehicles in zone bases or within 150 m of the main objectives.</value>
+  </data>
+  <data name="occupyingForce" xml:space="preserve">
+    <value>Master Striker</value>
+  </data>
+  <data name="occupyingForce_condition" xml:space="preserve">
+    <value>• Earn 100 base capture points.
+• Destroy an enemy main objective.
+• Can be obtained in Frontline only.</value>
+  </data>
+  <data name="occupyingForce_descr" xml:space="preserve">
+    <value>As an attacker, earn a total of 100 base capture points or destroy an enemy main objective.</value>
+  </data>
+  <data name="smallArmy" xml:space="preserve">
+    <value>Small Army</value>
+  </data>
+  <data name="smallArmy_condition" xml:space="preserve">
+    <value>• Awarded to the platoon with the highest number of destroyed enemy vehicles.
+• If two or more platoons destroyed an equal number of enemy vehicles (at least 20), the award is granted to the platoon that earned the most XP.
+• Can be obtained in Frontline only.</value>
+  </data>
+  <data name="smallArmy_descr" xml:space="preserve">
+    <value>Awarded to a platoon that destroyed at least 20 enemy vehicles in one battle.</value>
+  </data>
+  <data name="supremeGun" xml:space="preserve">
+    <value>Supreme Gun</value>
+  </data>
+  <data name="supremeGun_condition" xml:space="preserve">
+    <value>• Do not hit any allies by direct shot.
+• Caused damage, assisted damage through allies and damage caused with combat reserves is counted.
+• If two or more players cause an equal amount of damage, the award is granted to the player who earned the most XP.
+• Can be obtained in Frontline only.</value>
+  </data>
+  <data name="supremeGun_descr" xml:space="preserve">
+    <value>Awarded to players who caused and assisted the highest amount of damage during a battle (at least 10,000).</value>
+  </data>
+  <data name="FE18ClosedStage1" xml:space="preserve">
+    <value>Football Player, Class II</value>
+  </data>
+  <data name="FE18ClosedStage1_condition" xml:space="preserve">
+    <value>• Match result does not count.
+• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18ClosedStage1_descr" xml:space="preserve">
+    <value>Play at least one match during one stage of the Silver Cup tournament.</value>
+  </data>
+  <data name="FE18ClosedStage2" xml:space="preserve">
+    <value>Football Player, Class I</value>
+  </data>
+  <data name="FE18ClosedStage2_condition" xml:space="preserve">
+    <value>• Match result does not count.
+• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18ClosedStage2_descr" xml:space="preserve">
+    <value>Play at least one match during two stages of the Silver Cup tournament.</value>
+  </data>
+  <data name="FE18ClosedStage3" xml:space="preserve">
+    <value>Football Player, Class II</value>
+  </data>
+  <data name="FE18ClosedStage3_condition" xml:space="preserve">
+    <value>• Match result does not count.
+• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18ClosedStage3_descr" xml:space="preserve">
+    <value>Play at least one match during one stage of the Silver Cup tournament.</value>
+  </data>
+  <data name="FE18ClosedStage4" xml:space="preserve">
+    <value>Football Player, Class I</value>
+  </data>
+  <data name="FE18ClosedStage4_condition" xml:space="preserve">
+    <value>• Match result does not count.
+• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18ClosedStage4_descr" xml:space="preserve">
+    <value>Play at least one match during two stages of the Silver Cup tournament.</value>
+  </data>
+  <data name="FE18Collection1" xml:space="preserve">
+    <value>Amateur Hunter</value>
+  </data>
+  <data name="FE18Collection1_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18Collection1_descr" xml:space="preserve">
+    <value>Earn 30 collection points.</value>
+  </data>
+  <data name="FE18Collection2" xml:space="preserve">
+    <value>Professional Hunter</value>
+  </data>
+  <data name="FE18Collection2_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18Collection2_descr" xml:space="preserve">
+    <value>Earn 60 collection points.</value>
+  </data>
+  <data name="FE18Collection3" xml:space="preserve">
+    <value>Buffon is the Idol</value>
+  </data>
+  <data name="FE18Collection3_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18Collection3_descr" xml:space="preserve">
+    <value>Earn 100 collection points.</value>
+  </data>
+  <data name="FE18OpenFinalStage" xml:space="preserve">
+    <value>Finish Line</value>
+  </data>
+  <data name="FE18OpenFinalStage_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18OpenFinalStage_descr" xml:space="preserve">
+    <value>Reach the final stage of the Gold Cup tournament.</value>
+  </data>
+  <data name="FE18OpenFirstPlace" xml:space="preserve">
+    <value>We are the Champions!</value>
+  </data>
+  <data name="FE18OpenFirstPlace_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18OpenFirstPlace_descr" xml:space="preserve">
+    <value>Win the final match of the Gold Cup tournament.</value>
+  </data>
+  <data name="FE18OpenPlayOff" xml:space="preserve">
+    <value>Knockout Stage</value>
+  </data>
+  <data name="FE18OpenPlayOff_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18OpenPlayOff_descr" xml:space="preserve">
+    <value>Reach the play-off stage of the Gold Cup tournament.</value>
+  </data>
+  <data name="FE18OpenRegistration" xml:space="preserve">
+    <value>Tournament Participant</value>
+  </data>
+  <data name="FE18OpenRegistration_condition" xml:space="preserve">
+    <value>• Match result does not count.
+• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18OpenRegistration_descr" xml:space="preserve">
+    <value>Play at least one match in the Gold Cup tournament.</value>
+  </data>
+  <data name="FE18SoloDefender1" xml:space="preserve">
+    <value>Defender, Class IV</value>
+  </data>
+  <data name="FE18SoloDefender1_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18SoloDefender1_descr" xml:space="preserve">
+    <value>Rank any position in the rating table of defenders during one stage of the football event.</value>
+  </data>
+  <data name="FE18SoloDefender2" xml:space="preserve">
+    <value>Defender, Class III</value>
+  </data>
+  <data name="FE18SoloDefender2_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18SoloDefender2_descr" xml:space="preserve">
+    <value>Rank any position in the rating table of defenders during each of two stages of the football event.</value>
+  </data>
+  <data name="FE18SoloDefender3" xml:space="preserve">
+    <value>Defender, Class II</value>
+  </data>
+  <data name="FE18SoloDefender3_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18SoloDefender3_descr" xml:space="preserve">
+    <value>Rank any position in the rating table of defenders during each of three stages of the football event.</value>
+  </data>
+  <data name="FE18SoloDefender4" xml:space="preserve">
+    <value>Defender, Class I</value>
+  </data>
+  <data name="FE18SoloDefender4_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18SoloDefender4_descr" xml:space="preserve">
+    <value>Rank any position in the rating table of defenders during each of four stages of the football event.</value>
+  </data>
+  <data name="FE18SoloMidfielder1" xml:space="preserve">
+    <value>Midfielder, Class IV</value>
+  </data>
+  <data name="FE18SoloMidfielder1_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18SoloMidfielder1_descr" xml:space="preserve">
+    <value>Rank any position in the rating table of midfielders during one stage of the football event.</value>
+  </data>
+  <data name="FE18SoloMidfielder2" xml:space="preserve">
+    <value>Midfielder, Class III</value>
+  </data>
+  <data name="FE18SoloMidfielder2_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18SoloMidfielder2_descr" xml:space="preserve">
+    <value>Rank any position in the rating table of midfielders during each of two stages of the football event.</value>
+  </data>
+  <data name="FE18SoloMidfielder3" xml:space="preserve">
+    <value>Midfielder, Class II</value>
+  </data>
+  <data name="FE18SoloMidfielder3_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18SoloMidfielder3_descr" xml:space="preserve">
+    <value>Rank any position in the rating table of midfielders during each of three stages of the football event.</value>
+  </data>
+  <data name="FE18SoloMidfielder4" xml:space="preserve">
+    <value>Midfielder, Class I</value>
+  </data>
+  <data name="FE18SoloMidfielder4_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18SoloMidfielder4_descr" xml:space="preserve">
+    <value>Rank any position in the rating table of midfielders during each of four stages of the football event.</value>
+  </data>
+  <data name="FE18SoloStriker1" xml:space="preserve">
+    <value>Striker, Class IV</value>
+  </data>
+  <data name="FE18SoloStriker1_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18SoloStriker1_descr" xml:space="preserve">
+    <value>Rank any position in the rating table of strikers during one stage of the football event.</value>
+  </data>
+  <data name="FE18SoloStriker2" xml:space="preserve">
+    <value>Striker, Class III</value>
+  </data>
+  <data name="FE18SoloStriker2_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18SoloStriker2_descr" xml:space="preserve">
+    <value>Rank any position in the rating table of strikers during each of two stages of the football event.</value>
+  </data>
+  <data name="FE18SoloStriker3" xml:space="preserve">
+    <value>Striker, Class II</value>
+  </data>
+  <data name="FE18SoloStriker3_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18SoloStriker3_descr" xml:space="preserve">
+    <value>Rank any position in the rating table of strikers during each of three stages of the football event.</value>
+  </data>
+  <data name="FE18SoloStriker4" xml:space="preserve">
+    <value>Striker, Class I</value>
+  </data>
+  <data name="FE18SoloStriker4_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18SoloStriker4_descr" xml:space="preserve">
+    <value>Rank any position in the rating table of strikers during each of four stages of the football event.</value>
+  </data>
+  <data name="FE18Universal" xml:space="preserve">
+    <value>All-round player</value>
+  </data>
+  <data name="FE18Universal_condition" xml:space="preserve">
+    <value>• The conditions can be met in three matches in a random order.
+• Was awarded during the special football event.</value>
+  </data>
+  <data name="FE18Universal_descr" xml:space="preserve">
+    <value>Win three matches while playing each of three roles: a striker, a midfielder and a defender.</value>
+  </data>
+  <data name="rankedBattlesHeroProgress" xml:space="preserve">
+    <value>Ranked Battles Hero</value>
+  </data>
+  <data name="rankedBattlesHeroProgress_condition" xml:space="preserve">
+    <value>• Awarded at the end of each season of Ranked Battles.</value>
+  </data>
+  <data name="rankedBattlesHeroProgress_descr" xml:space="preserve">
+    <value>Achieve the highest rank in Ranked Battles mode.</value>
   </data>
 </root>

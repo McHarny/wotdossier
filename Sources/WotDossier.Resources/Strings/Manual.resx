@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chapter-1/lesson-1/description" xml:space="preserve">
+    <value>Join the army of devoted fans of armored machines from all parts of the world, and fight epic battles on photorealistic maps.</value>
+  </data>
+  <data name="chapter-1/lesson-1/hint-1/text" xml:space="preserve">
+    <value>A 180-million strong army of players from all over the world.</value>
+  </data>
+  <data name="chapter-1/lesson-1/hint-2/text" xml:space="preserve">
+    <value>Holder of two Guinness World Records and many other prestigious awards.</value>
+  </data>
+  <data name="chapter-1/lesson-1/hint-3/text" xml:space="preserve">
+    <value>Over 500 combat vehicles of the mid-20th century.</value>
+  </data>
+  <data name="chapter-1/lesson-1/title" xml:space="preserve">
+    <value>Welcome to the Game!</value>
+  </data>
+  <data name="chapter-1/lesson-2/description" xml:space="preserve">
+    <value>The game provides a considerable diversity of maps: elevation changes, a mixture of open terrain and urban areas, and a great many cover and ambush spots. As a result, you can always deploy the most suitable combat tactics to use in battle. Over thirty 1 x 1 kilometer maps in HD quality are at your disposal.</value>
+  </data>
+  <data name="chapter-1/lesson-2/title" xml:space="preserve">
+    <value>Game Maps</value>
+  </data>
+  <data name="chapter-1/lesson-3/hint-1/text" xml:space="preserve">
+    <value>Use the mouse to rotate the turret and aim your gun.</value>
+  </data>
+  <data name="chapter-1/lesson-3/hint-2/text" xml:space="preserve">
+    <value>Use the W, A, S, and D keys to control vehicle movement.</value>
+  </data>
+  <data name="chapter-1/lesson-3/hint-3/text" xml:space="preserve">
+    <value>Wait for the gun to reload before firing.</value>
+  </data>
+  <data name="chapter-1/lesson-3/hint-4/text" xml:space="preserve">
+    <value>Use Auto-Aim to fire at enemies on the move.</value>
+  </data>
+  <data name="chapter-1/lesson-3/title" xml:space="preserve">
+    <value>Vehicle Controls</value>
+  </data>
+  <data name="chapter-1/lesson-4/description" xml:space="preserve">
+    <value>Aiming at an enemy vehicle will highlight its silhouette in red. Wait until you are fully aimed before firing.</value>
+  </data>
+  <data name="chapter-1/lesson-4/title" xml:space="preserve">
+    <value>Causing Damage</value>
+  </data>
+  <data name="chapter-1/lesson-5/description" xml:space="preserve">
+    <value>A battle can be won either by destroying all enemy vehicles or upon successful capture of the enemy base. In Standard Battles, both teams have bases; in Assault mode, only the defending team has a base; in Encounter Battles there is only one neutral base that can be captured by any team.</value>
+  </data>
+  <data name="chapter-1/lesson-5/hint-1/text" xml:space="preserve">
+    <value>Capture the enemy (or neutral) base.</value>
+  </data>
+  <data name="chapter-1/lesson-5/hint-2/text" xml:space="preserve">
+    <value>Destroy all enemy vehicles.</value>
+  </data>
+  <data name="chapter-1/lesson-5/title" xml:space="preserve">
+    <value>Victory Conditions</value>
+  </data>
+  <data name="chapter-1/lesson-6/description" xml:space="preserve">
+    <value>Each vehicle has modules that provide particular characteristics. You can spend experience points to research modules, and mount them for credits.</value>
+  </data>
+  <data name="chapter-1/lesson-6/title" xml:space="preserve">
+    <value>Researching a Vehicle</value>
+  </data>
+  <data name="chapter-1/lesson-7/hint-1/text" xml:space="preserve">
+    <value>At present, the game provides ten tiers of vehicle. Each tier has a great many challenging and unique vehicles to research.</value>
+  </data>
+  <data name="chapter-1/lesson-7/hint-2/text" xml:space="preserve">
+    <value>You require experience and credits to research and purchase new vehicles.</value>
+  </data>
+  <data name="chapter-1/lesson-7/title" xml:space="preserve">
+    <value>Vehicle Tiers</value>
+  </data>
+  <data name="chapter-1/lesson-8/hint-1/text" xml:space="preserve">
+    <value>Gold represents valuable in-game currency that is purchased for real money.</value>
+  </data>
+  <data name="chapter-1/lesson-8/hint-2/text" xml:space="preserve">
+    <value>Premium Account provides you 50% more experience and credits per battle.</value>
+  </data>
+  <data name="chapter-1/lesson-8/hint-3/text" xml:space="preserve">
+    <value>Premium vehicles do not require researching, and earn 50% more credits and experience per battle.</value>
+  </data>
+  <data name="chapter-1/lesson-8/title" xml:space="preserve">
+    <value>Premium Elements</value>
+  </data>
+  <data name="chapter-1/lesson-9/description" xml:space="preserve">
+    <value>As a newcomer, complete the Bootcamp to learn the game basics and receive valuable rewards.</value>
+  </data>
+  <data name="chapter-1/lesson-9/title" xml:space="preserve">
+    <value>Bootcamp</value>
+  </data>
+  <data name="chapter-2/lesson-1/description" xml:space="preserve">
+    <value>You receive (depending on your performance) experience and credits for each battle. Random Battles include the following modes: Standard Battle, Assault, Encounter, and Grand Battle.</value>
+  </data>
+  <data name="chapter-2/lesson-1/title" xml:space="preserve">
+    <value>Random Battle</value>
+  </data>
+  <data name="chapter-2/lesson-10/description" xml:space="preserve">
+    <value>Battles of manually assembled teams of 7 players each, for Tier VI–VIII vehicles, with one team defending two separate bases. A victorious team earns additional credits and experience.</value>
+  </data>
+  <data name="chapter-2/lesson-10/title" xml:space="preserve">
+    <value>Team Battle</value>
+  </data>
+  <data name="chapter-2/lesson-11/description" xml:space="preserve">
+    <value>Battles for Tier X vehicles, available on particular dates. Winning battles increases your rank, losing battles may result in a lost rank. In Ranked battles, players can earn special in-game currency—bonds.</value>
+  </data>
+  <data name="chapter-2/lesson-11/title" xml:space="preserve">
+    <value>Ranked Battle</value>
+  </data>
+  <data name="chapter-2/lesson-2/hint-1/text" xml:space="preserve">
+    <value>Two teams defend their bases and attack each other.</value>
+  </data>
+  <data name="chapter-2/lesson-2/hint-2/text" xml:space="preserve">
+    <value>This mode is available to vehicles of all tiers.</value>
+  </data>
+  <data name="chapter-2/lesson-2/hint-3/text" xml:space="preserve">
+    <value>The teams are matched automatically, with 15 players on each.</value>
+  </data>
+  <data name="chapter-2/lesson-2/title" xml:space="preserve">
+    <value>Random Battles: Standard Battle</value>
+  </data>
+  <data name="chapter-2/lesson-3/hint-1/text" xml:space="preserve">
+    <value>One team attacks the enemy base, the other one defends its base.</value>
+  </data>
+  <data name="chapter-2/lesson-3/hint-2/text" xml:space="preserve">
+    <value>This mode is available after researching Tier VI vehicles.</value>
+  </data>
+  <data name="chapter-2/lesson-3/hint-3/text" xml:space="preserve">
+    <value>The teams are matched automatically, with 15 players on each.</value>
+  </data>
+  <data name="chapter-2/lesson-3/title" xml:space="preserve">
+    <value>Random Battles: Assault</value>
+  </data>
+  <data name="chapter-2/lesson-4/hint-1/text" xml:space="preserve">
+    <value>The battle features only one neutral base, and both teams attempt to capture it.</value>
+  </data>
+  <data name="chapter-2/lesson-4/hint-2/text" xml:space="preserve">
+    <value>This mode is available after researching Tier IV vehicles.</value>
+  </data>
+  <data name="chapter-2/lesson-4/hint-3/text" xml:space="preserve">
+    <value>The teams are matched automatically, with 15 players on each.</value>
+  </data>
+  <data name="chapter-2/lesson-4/title" xml:space="preserve">
+    <value>Random Battles: Encounter</value>
+  </data>
+  <data name="chapter-2/lesson-5/hint-1/text" xml:space="preserve">
+    <value>This mode features a large map where the battle is played under Standard rules.</value>
+  </data>
+  <data name="chapter-2/lesson-5/hint-2/text" xml:space="preserve">
+    <value>The mode is available only to Tier X vehicles.</value>
+  </data>
+  <data name="chapter-2/lesson-5/hint-3/text" xml:space="preserve">
+    <value>The teams are matched automatically, with 30 players on each.</value>
+  </data>
+  <data name="chapter-2/lesson-5/title" xml:space="preserve">
+    <value>Random Battles: Grand Battle</value>
+  </data>
+  <data name="chapter-2/lesson-6/description" xml:space="preserve">
+    <value>Complete all missions to get acquainted with all the strengths and weaknesses of each vehicle type. The battles are fought in a 15vs15 format, where all vehicles but your own are controlled by AI. The difficulty level of the mission determines the total amount of your rewards. The mode is available to Tier IV-X vehicles.</value>
+  </data>
+  <data name="chapter-2/lesson-6/title" xml:space="preserve">
+    <value>Missions by Vehicle Type</value>
+  </data>
+  <data name="chapter-2/lesson-7/description" xml:space="preserve">
+    <value>Hone your skills with other players on any map. You receive no rewards for battle results, and the vehicles are repaired for free. Players only need to purchase shells and consumables.</value>
+  </data>
+  <data name="chapter-2/lesson-7/title" xml:space="preserve">
+    <value>Team Training</value>
+  </data>
+  <data name="chapter-2/lesson-8/description" xml:space="preserve">
+    <value>Sharpen your skills in Tier I-II vehicles by fighting against AI (bots), and receive rewards for the first 10 battles, in case you have not yet fought 10 Random Battles.</value>
+  </data>
+  <data name="chapter-2/lesson-8/title" xml:space="preserve">
+    <value>Proving Ground</value>
+  </data>
+  <data name="chapter-2/lesson-9/description" xml:space="preserve">
+    <value>Battles for clan players and legionnaires in Tier VI-X vehicles. You and your clan have a chance to earn solid bonuses to Combat and Free Experience, Crew Experience and credits. Visit the portal for more details.</value>
+  </data>
+  <data name="chapter-2/lesson-9/title" xml:space="preserve">
+    <value>Stronghold: Battles</value>
+  </data>
+  <data name="chapter-3/lesson-1/description" xml:space="preserve">
+    <value>Modules reflect the technical characteristics of a vehicle. There are particular unified modules that can be mounted on different vehicles.</value>
+  </data>
+  <data name="chapter-3/lesson-1/hint-1/text" xml:space="preserve">
+    <value>The turret is responsible for the view range of a vehicle. It has particular armor and turret traverse speed.</value>
+  </data>
+  <data name="chapter-3/lesson-1/hint-2/text" xml:space="preserve">
+    <value>The gun is responsible for the following: damage, armor penetration, damage per minute, dispersion, and aiming time.</value>
+  </data>
+  <data name="chapter-3/lesson-1/hint-3/text" xml:space="preserve">
+    <value>The engine is responsible for the vehicle's dynamic characteristics. It has a particular chance of ignition when receiving damage.</value>
+  </data>
+  <data name="chapter-3/lesson-1/hint-4/text" xml:space="preserve">
+    <value>The suspension is responsible for a vehicle's load capacity and traverse speed.</value>
+  </data>
+  <data name="chapter-3/lesson-1/hint-5/text" xml:space="preserve">
+    <value>The radio is responsible for the display range of vehicles on the minimap.</value>
+  </data>
+  <data name="chapter-3/lesson-1/title" xml:space="preserve">
+    <value>Vehicle Modules</value>
+  </data>
+  <data name="chapter-3/lesson-10/hint-1/text" xml:space="preserve">
+    <value>5% of all earned experience is received as Free Experience.</value>
+  </data>
+  <data name="chapter-3/lesson-10/hint-2/text" xml:space="preserve">
+    <value>You can use it to research any module or vehicle, or to accelerate crew training.</value>
+  </data>
+  <data name="chapter-3/lesson-10/hint-3/text" xml:space="preserve">
+    <value>You can convert surplus Combat Experience from Elite vehicles to Free Experience.</value>
+  </data>
+  <data name="chapter-3/lesson-10/title" xml:space="preserve">
+    <value>Free Experience</value>
+  </data>
+  <data name="chapter-3/lesson-11/hint-1/text" xml:space="preserve">
+    <value>Elite status is given to vehicles with all available modules and technical branches researched, including all adjacent vehicles in the Tech Tree.</value>
+  </data>
+  <data name="chapter-3/lesson-11/hint-2/text" xml:space="preserve">
+    <value>Combat Experience earned on an Elite vehicle can be converted to Free Experience for gold.</value>
+  </data>
+  <data name="chapter-3/lesson-11/hint-3/text" xml:space="preserve">
+    <value>When accelerating crew training in the Garage, all future earned experience will be added to the crew.</value>
+  </data>
+  <data name="chapter-3/lesson-11/title" xml:space="preserve">
+    <value>Elite Vehicles</value>
+  </data>
+  <data name="chapter-3/lesson-12/description" xml:space="preserve">
+    <value>The game provides vehicles of various nations. Go to the TECH TREE screen and click on the flags in the left area to view and study all available vehicles.</value>
+  </data>
+  <data name="chapter-3/lesson-12/title" xml:space="preserve">
+    <value>Tech Tree</value>
+  </data>
+  <data name="chapter-3/lesson-2/description" xml:space="preserve">
+    <value>Use consumables to improve the characteristics of vehicles or the performance of crews, repair damaged modules or treat injured crew members in battle. You can equip up to three different types of consumable at one time.</value>
+  </data>
+  <data name="chapter-3/lesson-2/title" xml:space="preserve">
+    <value>Consumables</value>
+  </data>
+  <data name="chapter-3/lesson-3/description" xml:space="preserve">
+    <value>Before entering a battle, make sure you load ammunition, otherwise you risk running out of ammunition in the heat of battle. Use the 1, 2, and 3 keys to switch between different types of shell.</value>
+  </data>
+  <data name="chapter-3/lesson-3/title" xml:space="preserve">
+    <value>Ammunition</value>
+  </data>
+  <data name="chapter-3/lesson-4/description" xml:space="preserve">
+    <value>Use equipment to improve the technical characteristics of your vehicles. You can mount equipment from one vehicle to another (simple equipment—for free, complex equipment—for 10 gold, improved equipment—for 200 bonds).</value>
+  </data>
+  <data name="chapter-3/lesson-4/title" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="chapter-3/lesson-5/description" xml:space="preserve">
+    <value>When purchasing a vehicle, you can add a crew and select its training level. You can also transfer the crew from another vehicle and retrain it.</value>
+  </data>
+  <data name="chapter-3/lesson-5/hint-1/text" xml:space="preserve">
+    <value>The Commander affects the vehicle's view range and improves the performance of the other crew members.</value>
+  </data>
+  <data name="chapter-3/lesson-5/hint-2/text" xml:space="preserve">
+    <value>The Gunner affects the turret traverse speed, gun aiming and firing accuracy.</value>
+  </data>
+  <data name="chapter-3/lesson-5/hint-3/text" xml:space="preserve">
+    <value>The Loader affects the gun loading time.</value>
+  </data>
+  <data name="chapter-3/lesson-5/hint-4/text" xml:space="preserve">
+    <value>The Driver affects the dynamic characteristics of your vehicle.</value>
+  </data>
+  <data name="chapter-3/lesson-5/hint-5/text" xml:space="preserve">
+    <value>The Radio Operator affects the maximum signal range.</value>
+  </data>
+  <data name="chapter-3/lesson-5/title" xml:space="preserve">
+    <value>Crew</value>
+  </data>
+  <data name="chapter-3/lesson-6/description" xml:space="preserve">
+    <value>Additional perks and skills are available to crew members only after their major qualification is trained to 100%. Click on the "plus" icon to select the available perk or skill from the list.</value>
+  </data>
+  <data name="chapter-3/lesson-6/title" xml:space="preserve">
+    <value>Skills and Perks</value>
+  </data>
+  <data name="chapter-3/lesson-7/hint-1/text" xml:space="preserve">
+    <value>Your vehicle's crew receives experience in battles.</value>
+  </data>
+  <data name="chapter-3/lesson-7/hint-2/text" xml:space="preserve">
+    <value>After training the major qualification of your crew members to 100%, you can select their available perks or skills.</value>
+  </data>
+  <data name="chapter-3/lesson-7/hint-3/text" xml:space="preserve">
+    <value>You can purchase a crew trained to 100% or accelerate crew training right in the Garage.</value>
+  </data>
+  <data name="chapter-3/lesson-7/title" xml:space="preserve">
+    <value>Crew Training</value>
+  </data>
+  <data name="chapter-3/lesson-8/description" xml:space="preserve">
+    <value>Transfer is available only to crews of the same nation. Your Barracks have a limited number of bunks (you can purchase additional bunks). You can transfer crew to a Premium vehicle of the same type without penalty.</value>
+  </data>
+  <data name="chapter-3/lesson-8/hint-1/text" xml:space="preserve">
+    <value>When selling a vehicle, you can dismiss crew members or send them to the Barracks.</value>
+  </data>
+  <data name="chapter-3/lesson-8/hint-2/text" xml:space="preserve">
+    <value>When transferring a crew to another vehicle, remember that they will be ineffective without retraining.</value>
+  </data>
+  <data name="chapter-3/lesson-8/hint-3/text" xml:space="preserve">
+    <value>Make sure you retrain the crew for the new vehicle before entering a battle.</value>
+  </data>
+  <data name="chapter-3/lesson-8/title" xml:space="preserve">
+    <value>Crew Transfer and Retraining</value>
+  </data>
+  <data name="chapter-3/lesson-9/hint-1/text" xml:space="preserve">
+    <value>Combat Experience is the resource that is earned for a particular contribution in battle.</value>
+  </data>
+  <data name="chapter-3/lesson-9/hint-2/text" xml:space="preserve">
+    <value>Combat Experience, earned on a particular vehicle, is used for researching its modules and subsequent vehicles.</value>
+  </data>
+  <data name="chapter-3/lesson-9/title" xml:space="preserve">
+    <value>Combat Experience</value>
+  </data>
+  <data name="chapter-4/lesson-1/description" xml:space="preserve">
+    <value>The most maneuverable, fast, compact, yet vulnerable type of vehicle in the game. Light tanks are born scouts: they detect and spot enemy vehicles, doing their best to stay alive in battle for as long as possible.</value>
+  </data>
+  <data name="chapter-4/lesson-1/hint-1/text" xml:space="preserve">
+    <value>The fastest vehicles in the game.</value>
+  </data>
+  <data name="chapter-4/lesson-1/hint-2/text" xml:space="preserve">
+    <value>Demonstrate excellent dynamics and maneuverability.</value>
+  </data>
+  <data name="chapter-4/lesson-1/hint-3/text" xml:space="preserve">
+    <value>Compact dimensions, high concealment.</value>
+  </data>
+  <data name="chapter-4/lesson-1/title" xml:space="preserve">
+    <value>Light Tanks</value>
+  </data>
+  <data name="chapter-4/lesson-2/description" xml:space="preserve">
+    <value>Medium tanks are the most versatile units in World of Tanks. They are quite dynamic and maneuverable for effective performance at medium range, and have a sufficient number of hit points to survive the shots of high-caliber guns.</value>
+  </data>
+  <data name="chapter-4/lesson-2/hint-1/text" xml:space="preserve">
+    <value>Balanced and multifunctional vehicles.</value>
+  </data>
+  <data name="chapter-4/lesson-2/hint-2/text" xml:space="preserve">
+    <value>They are maneuverable enough to appear in the right place at the right time.</value>
+  </data>
+  <data name="chapter-4/lesson-2/hint-3/text" xml:space="preserve">
+    <value>Effective as support vehicles on the second line of attack.</value>
+  </data>
+  <data name="chapter-4/lesson-2/title" xml:space="preserve">
+    <value>Medium Tanks</value>
+  </data>
+  <data name="chapter-4/lesson-3/description" xml:space="preserve">
+    <value>Heavy tanks are the assault vehicles to break through the enemy defenses. Low mobility makes them quite an easy target for enemy SPGs, but reliable armor can resist a good many shots.</value>
+  </data>
+  <data name="chapter-4/lesson-3/hint-1/text" xml:space="preserve">
+    <value>Heavily armored vehicles with low mobility.</value>
+  </data>
+  <data name="chapter-4/lesson-3/hint-2/text" xml:space="preserve">
+    <value>High-caliber guns.</value>
+  </data>
+  <data name="chapter-4/lesson-3/hint-3/text" xml:space="preserve">
+    <value>A large number of hit points and high survivability.</value>
+  </data>
+  <data name="chapter-4/lesson-3/title" xml:space="preserve">
+    <value>Heavy Tanks</value>
+  </data>
+  <data name="chapter-4/lesson-4/description" xml:space="preserve">
+    <value>In concealed positions for ambush firing, tank destroyers can cause devastating damage from long distances. However, low dynamic characteristics make these vehicles quite vulnerable in close combat.</value>
+  </data>
+  <data name="chapter-4/lesson-4/hint-1/text" xml:space="preserve">
+    <value>Fast-aiming guns with high accuracy and penetration.</value>
+  </data>
+  <data name="chapter-4/lesson-4/hint-2/text" xml:space="preserve">
+    <value>High damage per shot.</value>
+  </data>
+  <data name="chapter-4/lesson-4/hint-3/text" xml:space="preserve">
+    <value>High concealment in a stationary position.</value>
+  </data>
+  <data name="chapter-4/lesson-4/title" xml:space="preserve">
+    <value>Tank Destroyers</value>
+  </data>
+  <data name="chapter-4/lesson-5/description" xml:space="preserve">
+    <value>SPGs are always positioned behind the allied lines, and can fire at targets in almost any part of the map. They can hide and survive for a long time, while they have almost no chance in close combat due to weak armor and low maneuverability.</value>
+  </data>
+  <data name="chapter-4/lesson-5/hint-1/text" xml:space="preserve">
+    <value>A long range support to allies.</value>
+  </data>
+  <data name="chapter-4/lesson-5/hint-2/text" xml:space="preserve">
+    <value>A quite different style of gameplay.</value>
+  </data>
+  <data name="chapter-4/lesson-5/hint-3/text" xml:space="preserve">
+    <value>Can cause stun that reduces the technical characteristics of enemy vehicles.</value>
+  </data>
+  <data name="chapter-4/lesson-5/title" xml:space="preserve">
+    <value>SPGs</value>
+  </data>
+  <data name="chapter-4/lesson-6/description" xml:space="preserve">
+    <value>1. LT—front line, passive or active spotting. 2. MT—flanking maneuvers, destroying the enemy scouts, supporting the attacking allied vehicles. 3. HT—breaking through or holding the main front. 4. TD—long-range fire from the second line, destruction of heavy tanks. 5. SPG—firing at enemy vehicles from long range, smoking enemy vehicles out of ambush spots.</value>
+  </data>
+  <data name="chapter-4/lesson-6/title" xml:space="preserve">
+    <value>Battle Roles</value>
+  </data>
+  <data name="chapter-5/lesson-1/hint-1/text" xml:space="preserve">
+    <value>The more accurate the gun, the less likely it is that the shell diverts from the target during firing.</value>
+  </data>
+  <data name="chapter-5/lesson-1/hint-2/text" xml:space="preserve">
+    <value>Before firing, wait for the aiming circle to snap onto the target.</value>
+  </data>
+  <data name="chapter-5/lesson-1/hint-3/text" xml:space="preserve">
+    <value>Firing without full aim is much less effective.</value>
+  </data>
+  <data name="chapter-5/lesson-1/title" xml:space="preserve">
+    <value>Gun Dispersion</value>
+  </data>
+  <data name="chapter-5/lesson-10/hint-1/text" xml:space="preserve">
+    <value>These shells cause the highest potential damage, but demonstrate the lowest penetration and flight speed.</value>
+  </data>
+  <data name="chapter-5/lesson-10/hint-2/text" xml:space="preserve">
+    <value>When hitting a screen or during a non-penetration of enemy armor, they explode and cause splash damage.</value>
+  </data>
+  <data name="chapter-5/lesson-10/hint-3/text" xml:space="preserve">
+    <value>They always explode on impact and never ricochet.</value>
+  </data>
+  <data name="chapter-5/lesson-10/title" xml:space="preserve">
+    <value>High-Explosive Shells</value>
+  </data>
+  <data name="chapter-5/lesson-11/description" xml:space="preserve">
+    <value>The view range of each vehicle is calculated in meters, and displayed in technical characteristics. 445 meters is the maximum value. Improving the standard view range of your vehicle allows for more effective spotting of concealed enemies that are within the view range circle. It presents the most important parameter for light tanks. 1—The enemy vehicle is spotted within your view range. 2—The enemy vehicle is spotted after firing. 3—Concealed vehicle behind bushes. 4—Concealed vehicle behind a building.</value>
+  </data>
+  <data name="chapter-5/lesson-11/title" xml:space="preserve">
+    <value>View Range</value>
+  </data>
+  <data name="chapter-5/lesson-12/description" xml:space="preserve">
+    <value>The value of this parameter is always 565 meters. It represents the maximum distance at which allied and enemy vehicles are visible.</value>
+  </data>
+  <data name="chapter-5/lesson-12/title" xml:space="preserve">
+    <value>Maximal Draw Circle</value>
+  </data>
+  <data name="chapter-5/lesson-13/description" xml:space="preserve">
+    <value>You always spot enemy vehicles within 50 meters, regardless of cover or obstacles they are hiding behind.</value>
+  </data>
+  <data name="chapter-5/lesson-13/title" xml:space="preserve">
+    <value>Vehicles Within 50 Meters are Always Visible</value>
+  </data>
+  <data name="chapter-5/lesson-14/description" xml:space="preserve">
+    <value>Ramming vehicles causes damage proportional to their difference in mass, speed of movement, and armor thickness in the area of impact. When playing in heavy and fast vehicles, take your chance and ram enemy vehicles to cause them considerable damage.</value>
+  </data>
+  <data name="chapter-5/lesson-14/title" xml:space="preserve">
+    <value>Ramming</value>
+  </data>
+  <data name="chapter-5/lesson-2/description" xml:space="preserve">
+    <value>Stationary vehicles demonstrate better firing accuracy than when firing on the move. Avoid firing at distant enemies on the move: the chances to hit the target are extremely low, while your vehicle will be spotted upon firing.</value>
+  </data>
+  <data name="chapter-5/lesson-2/title" xml:space="preserve">
+    <value>Higher Dispersion on the Move</value>
+  </data>
+  <data name="chapter-5/lesson-3/description" xml:space="preserve">
+    <value>Each shell has its own flight speed and requires a particular time to reach the target. Aim at the front or ahead of the enemy vehicle to hit a moving target. Study your gun and try to get used to its shell flight speed—you will be able to lead the targets at long distances with a higher rate of accuracy.</value>
+  </data>
+  <data name="chapter-5/lesson-3/title" xml:space="preserve">
+    <value>Firing at Moving Targets (Leading Targets)</value>
+  </data>
+  <data name="chapter-5/lesson-4/description" xml:space="preserve">
+    <value>Auto-aim will automatically follow an enemy vehicle, but one should use it wisely. The auto-aim catches the geometrical center of a vehicle that may be heavily armored.</value>
+  </data>
+  <data name="chapter-5/lesson-4/hint-1/text" xml:space="preserve">
+    <value>Use the right mouse button to auto-aim at an enemy vehicle; clicking again will deactivate it.</value>
+  </data>
+  <data name="chapter-5/lesson-4/hint-2/text" xml:space="preserve">
+    <value>This option is quite beneficial when firing on the move.</value>
+  </data>
+  <data name="chapter-5/lesson-4/hint-3/text" xml:space="preserve">
+    <value>Auto-aim does not lead targets.</value>
+  </data>
+  <data name="chapter-5/lesson-4/title" xml:space="preserve">
+    <value>Auto-Aim</value>
+  </data>
+  <data name="chapter-5/lesson-5/description" xml:space="preserve">
+    <value>The green marker indicates the highest chance of armor penetration. Even without penetration and causing damage, you have a high chance to damage the external module of an enemy vehicle. The red marker indicates the minimum (or simply zero) chance to penetrate its armor.</value>
+  </data>
+  <data name="chapter-5/lesson-5/title" xml:space="preserve">
+    <value>Penetration</value>
+  </data>
+  <data name="chapter-5/lesson-6/description" xml:space="preserve">
+    <value>A gun requires reloading before firing again.</value>
+  </data>
+  <data name="chapter-5/lesson-6/title" xml:space="preserve">
+    <value>Gun Loading</value>
+  </data>
+  <data name="chapter-5/lesson-7/hint-1/text" xml:space="preserve">
+    <value>The penetration of these shells decreases with distance traveled, but still demonstrates good normalization.</value>
+  </data>
+  <data name="chapter-5/lesson-7/hint-2/text" xml:space="preserve">
+    <value>They lose penetration potential when passing through destructible objects.</value>
+  </data>
+  <data name="chapter-5/lesson-7/hint-3/text" xml:space="preserve">
+    <value>The shells demonstrate frequent ricochets when hitting the armor at an angle of 70 degrees or more.</value>
+  </data>
+  <data name="chapter-5/lesson-7/title" xml:space="preserve">
+    <value>Armor-Piercing Shells</value>
+  </data>
+  <data name="chapter-5/lesson-8/description" xml:space="preserve">
+    <value>Armor-Piercing Composite Rigid Shells</value>
+  </data>
+  <data name="chapter-5/lesson-8/hint-1/text" xml:space="preserve">
+    <value>High flight speed and penetration, but bad shell normalization.</value>
+  </data>
+  <data name="chapter-5/lesson-8/hint-2/text" xml:space="preserve">
+    <value>The penetration of these shells decreases with distance traveled and when passing through destructible objects.</value>
+  </data>
+  <data name="chapter-5/lesson-8/hint-3/text" xml:space="preserve">
+    <value>The shells demonstrate frequent ricochets when hitting the armor at an angle of 70 degrees or more.</value>
+  </data>
+  <data name="chapter-5/lesson-8/title" xml:space="preserve">
+    <value>Armor-Piercing Composite Rigid Shells</value>
+  </data>
+  <data name="chapter-5/lesson-9/hint-1/text" xml:space="preserve">
+    <value>The shells demonstrate high penetration potential that does not decrease with distance traveled.</value>
+  </data>
+  <data name="chapter-5/lesson-9/hint-2/text" xml:space="preserve">
+    <value>They cannot penetrate obstacles or destructible objects, and may not penetrate vehicle screens.</value>
+  </data>
+  <data name="chapter-5/lesson-9/hint-3/text" xml:space="preserve">
+    <value>Demonstrate frequent ricochets when hitting the armor at an angle of 85 degrees or more.</value>
+  </data>
+  <data name="chapter-5/lesson-9/title" xml:space="preserve">
+    <value>High-Explosive Anti-Tank Shells</value>
+  </data>
+  <data name="chapter-6/lesson-1/description" xml:space="preserve">
+    <value>Each vehicle has armor. All vehicles usually have well-armored front, pretty reliable turret (or cabin), and quite weak side and rear armor. Each vehicle has a unique armor scheme, with its own strong and weak areas.</value>
+  </data>
+  <data name="chapter-6/lesson-1/title" xml:space="preserve">
+    <value>Armor Difference</value>
+  </data>
+  <data name="chapter-6/lesson-10/description" xml:space="preserve">
+    <value>Damaged fuel tanks will certainly catch fire once destroyed in battle. Damaged fuel tanks do not affect a vehicle's performance: the yellow indication simply informs a player of potential ignition on the next hit to the module.</value>
+  </data>
+  <data name="chapter-6/lesson-10/title" xml:space="preserve">
+    <value>Damaged Fuel Tanks</value>
+  </data>
+  <data name="chapter-6/lesson-11/description" xml:space="preserve">
+    <value>A damaged ammo rack doubles the gun loading time. A destroyed ammo rack will detonate, destroying your vehicle in a blink of an eye.</value>
+  </data>
+  <data name="chapter-6/lesson-11/title" xml:space="preserve">
+    <value>Damaged Ammo Rack</value>
+  </data>
+  <data name="chapter-6/lesson-12/description" xml:space="preserve">
+    <value>A damaged radio does not affect a vehicle's performance and continues to operate. However, a destroyed radio halves your signal range, which may impede your understanding of the current battle situation.</value>
+  </data>
+  <data name="chapter-6/lesson-12/title" xml:space="preserve">
+    <value>Damaged Radio</value>
+  </data>
+  <data name="chapter-6/lesson-13/description" xml:space="preserve">
+    <value>An injured Commander reduces the view range, removes the Commander's bonuses from other crew members, and disables the Sixth Sense Perk.</value>
+  </data>
+  <data name="chapter-6/lesson-13/title" xml:space="preserve">
+    <value>Injured Commander</value>
+  </data>
+  <data name="chapter-6/lesson-14/description" xml:space="preserve">
+    <value>An injured Gunner halves a vehicle's aim and turret traverse speed. In case the Gunner performs several functions, they will all be affected by this crew member's injury.</value>
+  </data>
+  <data name="chapter-6/lesson-14/title" xml:space="preserve">
+    <value>Injured Gunner</value>
+  </data>
+  <data name="chapter-6/lesson-15/description" xml:space="preserve">
+    <value>An injured Driver halves the vehicle's movement and hull traverse speed. In case the Driver performs several functions, they will all be affected by this crew member's injury.</value>
+  </data>
+  <data name="chapter-6/lesson-15/title" xml:space="preserve">
+    <value>Injured Driver</value>
+  </data>
+  <data name="chapter-6/lesson-16/description" xml:space="preserve">
+    <value>An injured Radio Operator halves the vehicle's signal range. In case the Radio Operator performs several functions, they will all be affected by this crew member's injury.</value>
+  </data>
+  <data name="chapter-6/lesson-16/title" xml:space="preserve">
+    <value>Injured Radio Operator</value>
+  </data>
+  <data name="chapter-6/lesson-17/description" xml:space="preserve">
+    <value>An injured Loader doubles the vehicle's gun loading time. If the Loader performs several functions, they will all be affected by this crew member's injury.</value>
+  </data>
+  <data name="chapter-6/lesson-17/title" xml:space="preserve">
+    <value>Injured Loader</value>
+  </data>
+  <data name="chapter-6/lesson-18/description" xml:space="preserve">
+    <value>When falling from an obstacle, you can cause damage to both your vehicle and to any enemy you land on. When passing through deep water, remember that you have 10 seconds until the vehicle will drown. When overturned, you can only hope your allies may give you a hand and turn your vehicle back again.</value>
+  </data>
+  <data name="chapter-6/lesson-18/title" xml:space="preserve">
+    <value>Drowning, Overturning, and Falling</value>
+  </data>
+  <data name="chapter-6/lesson-19/description" xml:space="preserve">
+    <value>Any type of vegetation (except grass) conceals your vehicle from enemies. Make sure that bushes and treetops completely cover your vehicle. Firing removes all vehicle concealment bonuses within a 15-meter radius. Make sure your vehicle is 15 meters away if you want to fire from behind bushes.</value>
+  </data>
+  <data name="chapter-6/lesson-19/title" xml:space="preserve">
+    <value>Vegetation and Concealment</value>
+  </data>
+  <data name="chapter-6/lesson-2/description" xml:space="preserve">
+    <value>When your vehicle is exposed to enemy fire, try to avoid being hit at a 90 degree angle. Angle your vehicle properly to increase the chance to deflect enemy shells.</value>
+  </data>
+  <data name="chapter-6/lesson-2/title" xml:space="preserve">
+    <value>Blocking Damage with Side Armor</value>
+  </data>
+  <data name="chapter-6/lesson-20/description" xml:space="preserve">
+    <value>A concealed vehicle is invisible to enemy vehicles. Use the Camouflage Net equipment, camouflages, designated directive and the Concealment skill to boost the concealment characteristics of your vehicle. Remember: firing reveals your position.</value>
+  </data>
+  <data name="chapter-6/lesson-20/title" xml:space="preserve">
+    <value>Vehicle Concealment and Revealing Factors</value>
+  </data>
+  <data name="chapter-6/lesson-3/description" xml:space="preserve">
+    <value>When fighting against enemy vehicles, try to make the most of the available cover like rocks, destroyed vehicles or buildings. This will save you a great many hit points.</value>
+  </data>
+  <data name="chapter-6/lesson-3/title" xml:space="preserve">
+    <value>Use Cover to Hide Your Vehicle's Weak Spots</value>
+  </data>
+  <data name="chapter-6/lesson-4/description" xml:space="preserve">
+    <value>Make sure you take advantage of map terrain. Hide your vehicle's hull in terrain irregularities and minimize its visible silhouette. You can fire from behind a hill without being exposed to direct enemy fire.</value>
+  </data>
+  <data name="chapter-6/lesson-4/title" xml:space="preserve">
+    <value>Use Terrain Irregularities</value>
+  </data>
+  <data name="chapter-6/lesson-5/description" xml:space="preserve">
+    <value>A damaged module increases the chance of track destruction. A destroyed track immobilizes your vehicle for a short time.</value>
+  </data>
+  <data name="chapter-6/lesson-5/title" xml:space="preserve">
+    <value>Damaged Suspension</value>
+  </data>
+  <data name="chapter-6/lesson-6/description" xml:space="preserve">
+    <value>Firing with a damaged gun has quite a low chance of hitting the target. A destroyed gun cannot fire until it is repaired to at least a damaged state.</value>
+  </data>
+  <data name="chapter-6/lesson-6/title" xml:space="preserve">
+    <value>Damaged Gun</value>
+  </data>
+  <data name="chapter-6/lesson-7/description" xml:space="preserve">
+    <value>Damaged observation devices do not affect the view range, unlike destroyed devices, which halves the view range.</value>
+  </data>
+  <data name="chapter-6/lesson-7/title" xml:space="preserve">
+    <value>Damaged Observation Devices</value>
+  </data>
+  <data name="chapter-6/lesson-8/description" xml:space="preserve">
+    <value>A damaged turret ring slows down the turret traverse speed. When the mechanism is destroyed, the turret remains static until it is repaired. You will struggle to contribute to battle with an immobile turret.</value>
+  </data>
+  <data name="chapter-6/lesson-8/title" xml:space="preserve">
+    <value>Damaged Turret Ring</value>
+  </data>
+  <data name="chapter-6/lesson-9/description" xml:space="preserve">
+    <value>A damaged engine considerably reduces all dynamic characteristics of your vehicle. A destroyed engine makes a vehicle immobile until it is repaired. Hitting a damaged engine has a chance of setting your vehicle on fire.</value>
+  </data>
+  <data name="chapter-6/lesson-9/title" xml:space="preserve">
+    <value>Damaged Engine</value>
+  </data>
+  <data name="chapter-7/lesson-1/description" xml:space="preserve">
+    <value>The minimap provides a better understanding of the general picture of the battle situation. Apart from the positions of allies, the minimap also displays the positions of spotted enemy vehicles, as well as the range of your current and maximum view, camera direction beam and maximum draw circle.</value>
+  </data>
+  <data name="chapter-7/lesson-1/title" xml:space="preserve">
+    <value>Minimap</value>
+  </data>
+  <data name="chapter-7/lesson-10/hint-1/text" xml:space="preserve">
+    <value>Create a Platoon of 2–3 players and fight as a team.</value>
+  </data>
+  <data name="chapter-7/lesson-10/hint-2/text" xml:space="preserve">
+    <value>Additional experience per battle for Tier IV vehicles or higher.</value>
+  </data>
+  <data name="chapter-7/lesson-10/hint-3/text" xml:space="preserve">
+    <value>Only vehicles of same tier are available to fight in a Platoon; only one SPG can join a Platoon.</value>
+  </data>
+  <data name="chapter-7/lesson-10/title" xml:space="preserve">
+    <value>Playing in a Platoon</value>
+  </data>
+  <data name="chapter-7/lesson-2/description" xml:space="preserve">
+    <value>All commands from the menu are duplicated on the F3–F8 hotkeys. The Attacking command is assigned to the T key by default.</value>
+  </data>
+  <data name="chapter-7/lesson-2/hint-1/text" xml:space="preserve">
+    <value>Hold the Z key and hover on the command to select it.</value>
+  </data>
+  <data name="chapter-7/lesson-2/title" xml:space="preserve">
+    <value>Display Command Menu</value>
+  </data>
+  <data name="chapter-7/lesson-3/description" xml:space="preserve">
+    <value>A special account status that gives you 50% more credits and experience per battle. It can be purchased for gold for a particular period, or received for completion of particular missions, as well as for participation in special events.</value>
+  </data>
+  <data name="chapter-7/lesson-3/title" xml:space="preserve">
+    <value>Premium Account</value>
+  </data>
+  <data name="chapter-7/lesson-4/description" xml:space="preserve">
+    <value>Gold represents valuable premium currency. It cannot purchase any advantages in the game, but considerably simplifies the game process. Gold can be used to enlarge the Garage and the Barracks, purchase days of Premium Account and Premium vehicles, demount complex equipment, convert experience to Free Experience, and much more.</value>
+  </data>
+  <data name="chapter-7/lesson-4/title" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="chapter-7/lesson-5/description" xml:space="preserve">
+    <value>Credits represent the game currency that is received for particular contributions in a battle. Credits are used for vehicle repairs, purchasing new modules and vehicles, resupplying ammunition, equipment, and much more.</value>
+  </data>
+  <data name="chapter-7/lesson-5/title" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="chapter-7/lesson-6/description" xml:space="preserve">
+    <value>Bonds represent a unique in-game currency earned in Ranked Battles, as well as for receiving particular awards. Certain unique items can be purchased for bonds, including improved equipment and directives.</value>
+  </data>
+  <data name="chapter-7/lesson-6/title" xml:space="preserve">
+    <value>Bonds</value>
+  </data>
+  <data name="chapter-7/lesson-7/description" xml:space="preserve">
+    <value>Premium vehicles represent special vehicles that require no further research and are purchased in top configuration. Playing in these vehicles earns more credits and experience in battle, they can use the crew from another vehicle of the same type and nation without retraining, and repair of a Premium vehicle is usually cheaper. They present a great opportunity to players who want to save time.</value>
+  </data>
+  <data name="chapter-7/lesson-7/title" xml:space="preserve">
+    <value>Premium Vehicles</value>
+  </data>
+  <data name="chapter-7/lesson-8/hint-1/text" xml:space="preserve">
+    <value>Communicate with your allies in a battle (the Enter key) or create a private channel after the end of a battle.</value>
+  </data>
+  <data name="chapter-7/lesson-8/hint-2/text" xml:space="preserve">
+    <value>Add players to your Friends list to find Platoon members for future battles.</value>
+  </data>
+  <data name="chapter-7/lesson-8/hint-3/text" xml:space="preserve">
+    <value>By using offensive words or distracting other players from the battle, you violate the Game Rules and may be punished.</value>
+  </data>
+  <data name="chapter-7/lesson-8/title" xml:space="preserve">
+    <value>Social Activity</value>
+  </data>
+  <data name="chapter-7/lesson-9/hint-1/text" xml:space="preserve">
+    <value>You receive various awards for special achievements in a battle.</value>
+  </data>
+  <data name="chapter-7/lesson-9/hint-2/text" xml:space="preserve">
+    <value>This rating represents the total sum of game skills and experience. The rating is displayed to all players.</value>
+  </data>
+  <data name="chapter-7/lesson-9/hint-3/text" xml:space="preserve">
+    <value>Rating by vehicles and achievements in Random Battles.</value>
+  </data>
+  <data name="chapter-7/lesson-9/title" xml:space="preserve">
+    <value>Service Record</value>
+  </data>
+  <data name="main_page/chapter/attack_basics" xml:space="preserve">
+    <value>Attack Basics</value>
+  </data>
+  <data name="main_page/chapter/defence_basics" xml:space="preserve">
+    <value>Defense Basics</value>
+  </data>
+  <data name="main_page/chapter/gamemodes" xml:space="preserve">
+    <value>Game Modes</value>
+  </data>
+  <data name="main_page/chapter/newbie" xml:space="preserve">
+    <value>For Newcomers</value>
+  </data>
+  <data name="main_page/chapter/others" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="main_page/chapter/player_vehicle" xml:space="preserve">
+    <value>Player's Vehicle</value>
+  </data>
+  <data name="main_page/chapter/vehicle_types" xml:space="preserve">
+    <value>Vehicle Types</value>
+  </data>
+</root>

@@ -1077,7 +1077,7 @@
     <value>Занять место</value>
   </data>
   <data name="sortie/vehicleSelector/description" xml:space="preserve">
-    <value>Выберите машину, на которой хотите провести Вылазку. Красный индикатор означает, что техника не готова к бою.</value>
+    <value>Выберите машину, на которой хотите выйти в бой. Красный индикатор означает, что техника не готова к бою.</value>
   </data>
   <data name="sortie/listView/slot/closed" xml:space="preserve">
     <value>Недоступно</value>
@@ -2693,7 +2693,7 @@
     <value>Активируется с началом боя</value>
   </data>
   <data name="strongholdreserve/tooltip/inStorage" xml:space="preserve">
-    <value>&lt;font color='#C9C9BE'&gt;%(count)s&lt;/font&gt; на складе</value>
+    <value>&lt;font color='#C9C9BE'&gt;%(count)s&lt;/font&gt; на Складе</value>
   </data>
   <data name="strongholdreserve/tooltip/level" xml:space="preserve">
     <value>уровень</value>
@@ -2745,5 +2745,20 @@
   </data>
   <data name="strongholdtooltips/sortieTitle" xml:space="preserve">
     <value>Вылазка в %(level)s дивизионе</value>
+  </data>
+  <data name="battleQueue/clanPosition" xml:space="preserve">
+    <value>Позиция: %(position)s</value>
+  </data>
+  <data name="battleQueue/position" xml:space="preserve">
+    <value>Позиция:</value>
+  </data>
+  <data name="battleQueue/searchEnemy" xml:space="preserve">
+    <value>Подбор противника:</value>
+  </data>
+  <data name="battleQueue/waitBattle" xml:space="preserve">
+    <value>Ожидание боя:</value>
+  </data>
+  <data name="battleQueue/yourTeam" xml:space="preserve">
+    <value>Ваш отряд:</value>
   </data>
 </root>

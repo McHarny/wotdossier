@@ -23,6 +23,7 @@ using WotDossier.Applications.ViewModel.Filter;
 using WotDossier.Applications.ViewModel.Replay;
 using WotDossier.Applications.ViewModel.Replay.Viewer;
 using WotDossier.Common;
+using WotDossier.Common.Json;
 using WotDossier.Dal;
 using WotDossier.Domain;
 using WotDossier.Domain.Entities;
@@ -706,6 +707,11 @@ namespace WotDossier.Applications.ViewModel
                     if (data != null)
                     {
                         targetList.Add(new PhisicalReplay(File, data, _folder));
+
+                        if (Debugger.IsAttached)
+                        {
+                            System.IO.File.WriteAllText(Path.Combine(Folder.DossierLocalAppDataFolder, "Logs", $"{File.Name}.json"), data.datablock_battle_result.raw);
+                        }
                     }
                     else
                     {

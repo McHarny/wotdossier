@@ -1066,7 +1066,7 @@ Counted only if you fought at least one clash during the Defense Period.</value>
     <value>Joined/Left Date</value>
   </data>
   <data name="section/formations/history/datesPattern" xml:space="preserve">
-    <value>%(date1)s – %(date2)s</value>
+    <value>%(date1)s–%(date2)s</value>
   </data>
   <data name="section/formations/history/team" xml:space="preserve">
     <value>Team</value>
@@ -1647,14 +1647,14 @@ in Random Battles</value>
     <value>Go to Rating</value>
   </data>
   <data name="section/hof/achievementsRatingsTitle" xml:space="preserve">
-    <value>Rating by Achievements
-in Ranked Battles</value>
+    <value>Ratings by achievements
+in Random Battles</value>
   </data>
   <data name="section/hof/vehiclesRatingsBtn" xml:space="preserve">
     <value>Go to Rating</value>
   </data>
   <data name="section/hof/vehiclesRatingsTitle" xml:space="preserve">
-    <value>Rating by Vehicles
-in Ranked Battles</value>
+    <value>Ratings by vehicles
+in Random Battles</value>
   </data>
 </root>

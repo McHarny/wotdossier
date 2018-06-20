@@ -1442,4 +1442,40 @@ W-670-9A</value>
   <data name="_V-2-54SCP" xml:space="preserve">
     <value>V-2-54SC</value>
   </data>
+  <data name="A_220B_1_QL" xml:space="preserve">
+    <value>A-220B QL</value>
+  </data>
+  <data name="Ch41_WZ_111_QL" xml:space="preserve">
+    <value>WZ-111 Qilin</value>
+  </data>
+  <data name="Ch41_WZ_111_QL_descr" xml:space="preserve">
+    <value>A prototype of the Object 111 featuring improved frontal armor and a harder hitting main gun. Blessed with the power of the ancient and auspicious "Kirin". From the Book of Rites, Etiquette Ninth: "Kirin, Phoenix, Tortoise, and Dragon are the four noble and auspicious spirits". Legend says that Confucius himself is blessed with Kirin’s power. Now with Kirin’s blessing, go seize victory!</value>
+  </data>
+  <data name="Ch41_WZ_111_QL_short" xml:space="preserve">
+    <value>WZ-111 QL</value>
+  </data>
+  <data name="Chassis_Ch41_WZ_111_QL" xml:space="preserve">
+    <value>WZ-111 QL</value>
+  </data>
+  <data name="Turret_1_Ch41_WZ_111_QL" xml:space="preserve">
+    <value>WZ-111 QL</value>
+  </data>
+  <data name="V_2_54SC_QL" xml:space="preserve">
+    <value>V-2-54SC QL</value>
+  </data>
+  <data name="_130mm_59_130TA_QL" xml:space="preserve">
+    <value>130 mm 59-130TA QL</value>
+  </data>
+  <data name="_130mm_AP_QL" xml:space="preserve">
+    <value>Chuan bei-482 QL</value>
+  </data>
+  <data name="_130mm_HEAT_QL" xml:space="preserve">
+    <value>Po-130 QL</value>
+  </data>
+  <data name="_130mm_HE_QL" xml:space="preserve">
+    <value>Sha bao-482 QL</value>
+  </data>
+  <data name="_12150L7B" xml:space="preserve">
+    <value>12150L7B</value>
+  </data>
 </root>

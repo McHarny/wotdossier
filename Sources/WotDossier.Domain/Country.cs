@@ -15,7 +15,8 @@
         Japan = 6,
         Czech = 7,
         Sweden = 8,
-        Poland = 9
+        Poland = 9,
+        Italy = 10
     }
 
     /// <summary>

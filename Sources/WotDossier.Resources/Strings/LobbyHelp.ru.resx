@@ -258,4 +258,7 @@
     <value>Предбоевые
 инструкции</value>
   </data>
+  <data name="vehicle/compare" xml:space="preserve">
+    <value>Сравнение</value>
+  </data>
 </root>

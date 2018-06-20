@@ -184,13 +184,13 @@
     <value>Loader 2</value>
   </data>
   <data name="damage_panel/crew/radioman1/destroyed" xml:space="preserve">
-    <value>Radio operator injured.</value>
+    <value>Radio Operator injured.</value>
   </data>
   <data name="damage_panel/crew/radioman1/normal" xml:space="preserve">
     <value>Radio Operator</value>
   </data>
   <data name="damage_panel/crew/radioman2/destroyed" xml:space="preserve">
-    <value>Radio operator 2 injured.</value>
+    <value>Radio Operator 2 injured.</value>
   </data>
   <data name="damage_panel/crew/radioman2/normal" xml:space="preserve">
     <value>Radio Operator 2</value>
@@ -1294,7 +1294,7 @@ If they accept it, they will join your Platoon after the battle ends.</value>
     <value>Capturing Enemy Base</value>
   </data>
   <data name="efficiencyRibbons/crits" xml:space="preserve">
-    <value>Critical damage</value>
+    <value>Critical Damage</value>
   </data>
   <data name="efficiencyRibbons/damage" xml:space="preserve">
     <value>Damage Caused</value>
@@ -1517,7 +1517,7 @@ will be available again.</value>
     <value>x%(multiplier)s</value>
   </data>
   <data name="efficiencyRibbons/assistSpot" xml:space="preserve">
-    <value>Damage upon Spotting</value>
+    <value>Damage Upon Spotting</value>
   </data>
   <data name="efficiencyRibbons/assistTrack" xml:space="preserve">
     <value>Track Destroyed</value>
@@ -1721,7 +1721,7 @@ will be available again.</value>
     <value>Cooldown: %(cooldownSeconds)s s.</value>
   </data>
   <data name="efficiencyRibbons/stun" xml:space="preserve">
-    <value>Crew Stunned</value>
+    <value>Damage After Your Stun</value>
   </data>
   <data name="player_errors/equipment/isInCooldown" xml:space="preserve">
     <value>[%(name)s] is unavailable during cooldown.</value>
@@ -1900,5 +1900,216 @@ The Mortal Realm is doomed!</value>
   </data>
   <data name="halloween_pve_victory_panel/title" xml:space="preserve">
     <value>VICTORY</value>
+  </data>
+  <data name="marker/meters" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="colorSettingsTipPanel/btnLabel" xml:space="preserve">
+    <value>Go to Settings</value>
+  </data>
+  <data name="colorSettingsTipPanel/desc" xml:space="preserve">
+    <value>You can configure the image brightness and contrast in the graphics settings.</value>
+  </data>
+  <data name="colorSettingsTipPanel/header" xml:space="preserve">
+    <value>Graphics Settings</value>
+  </data>
+  <data name="hitMarker/blocked" xml:space="preserve">
+    <value>Armor not penetrated</value>
+  </data>
+  <data name="hitMarker/critical" xml:space="preserve">
+    <value>Critical damage</value>
+  </data>
+  <data name="hitMarker/ricochet" xml:space="preserve">
+    <value>Ricochet</value>
+  </data>
+  <data name="attackReason/artilleryProtection" xml:space="preserve">
+    <value>Artillery Strike</value>
+  </data>
+  <data name="attackReason/artillery_sector" xml:space="preserve">
+    <value>Artillery Strike</value>
+  </data>
+  <data name="attackReason/bombers" xml:space="preserve">
+    <value>Airstrike</value>
+  </data>
+  <data name="chat_example/global_msg/atk/focus_hq" xml:space="preserve">
+    <value>Destroy objectives</value>
+  </data>
+  <data name="chat_example/global_msg/atk/save_tanks" xml:space="preserve">
+    <value>Save your tanks!</value>
+  </data>
+  <data name="chat_example/global_msg/atk/time" xml:space="preserve">
+    <value>Capture the zone</value>
+  </data>
+  <data name="chat_example/global_msg/def/focus_hq" xml:space="preserve">
+    <value>Defend the objectives</value>
+  </data>
+  <data name="chat_example/global_msg/def/save_tanks" xml:space="preserve">
+    <value>Save your tanks!</value>
+  </data>
+  <data name="chat_example/global_msg/def/time" xml:space="preserve">
+    <value>Defend zones</value>
+  </data>
+  <data name="chat_example/global_msg/lane/center" xml:space="preserve">
+    <value>Reinforce zone</value>
+  </data>
+  <data name="chat_example/global_msg/lane/east" xml:space="preserve">
+    <value>Reinforce zone</value>
+  </data>
+  <data name="chat_example/global_msg/lane/west" xml:space="preserve">
+    <value>Reinforce zone</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_base_atk" xml:space="preserve">
+    <value>Capture %(strArg1)s</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_base_def" xml:space="preserve">
+    <value>Defend %(strArg1)s</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_objective_atk" xml:space="preserve">
+    <value>Destroy Objective %(int32Arg1)s</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_objective_def" xml:space="preserve">
+    <value>Defend Objective %(int32Arg1)s</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_position" xml:space="preserve">
+    <value>Attention to location!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/atk/focus_hq" xml:space="preserve">
+    <value>Destroy objectives!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/atk/save_tanks" xml:space="preserve">
+    <value>We have enough time, save your tanks!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/atk/time" xml:space="preserve">
+    <value>Time is running out, capture a zone with all you've got!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/def/focus_hq" xml:space="preserve">
+    <value>Defend the objectives!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/def/save_tanks" xml:space="preserve">
+    <value>We need to hold out, save your tanks!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/def/time" xml:space="preserve">
+    <value>Time is running out, defend the zones at all costs!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/lane/center" xml:space="preserve">
+    <value>Zone %(strArg1)s needs help, reinforce it!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/lane/east" xml:space="preserve">
+    <value>Zone %(strArg1)s needs help, reinforce it!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/lane/west" xml:space="preserve">
+    <value>Zone %(strArg1)s needs help, reinforce it!</value>
+  </data>
+  <data name="efficiencyRibbons/assistByAbility" xml:space="preserve">
+    <value>Assist by Combat Reserve</value>
+  </data>
+  <data name="efficiencyRibbons/defenderBonus" xml:space="preserve">
+    <value>Zone Defended</value>
+  </data>
+  <data name="efficiencyRibbons/destructibleDamaged" xml:space="preserve">
+    <value>Damage Caused</value>
+  </data>
+  <data name="efficiencyRibbons/destructibleDestroyed" xml:space="preserve">
+    <value>Objective Destroyed</value>
+  </data>
+  <data name="efficiencyRibbons/destructiblesDefended" xml:space="preserve">
+    <value>Objective Defended</value>
+  </data>
+  <data name="efficiencyRibbons/enemySectorCaptured" xml:space="preserve">
+    <value>Zone Captured</value>
+  </data>
+  <data name="efficiencyRibbons/vehicleRecovery" xml:space="preserve">
+    <value>Vehicle Abandoned</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_READY_INSPIRE" xml:space="preserve">
+    <value>Our crew is ready to inspire others around them.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_READY_RECON" xml:space="preserve">
+    <value>Aircraft inbound and ready for spotting.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_READY_SMOKE" xml:space="preserve">
+    <value>Smoke battery deployed and ready to fire.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_USED_INSPIRE" xml:space="preserve">
+    <value>%(player)s activates Inspire.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_USED_RECON" xml:space="preserve">
+    <value>%(player)s's Recon Flight on the way.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_USED_SMOKE" xml:space="preserve">
+    <value>%(player)s deploys a Smoke Screen.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY" xml:space="preserve">
+    <value>%(target)s was destroyed by Artillery Strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY" xml:space="preserve">
+    <value>%(target)s was destroyed by Artillery Strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE" xml:space="preserve">
+    <value>%(target)s was destroyed by Artillery Strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY" xml:space="preserve">
+    <value>%(target)s was destroyed by Artillery Strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY" xml:space="preserve">
+    <value>%(target)s was destroyed by Artillery Strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE" xml:space="preserve">
+    <value>%(target)s was destroyed by Artillery Strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY" xml:space="preserve">
+    <value>%(target)s was destroyed by Artillery Strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY" xml:space="preserve">
+    <value>%(target)s was destroyed by Artillery Strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE" xml:space="preserve">
+    <value>%(target)s was destroyed by an Airstrike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE" xml:space="preserve">
+    <value>%(target)s was destroyed by an Airstrike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE" xml:space="preserve">
+    <value>%(target)s abandoned their vehicle.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE" xml:space="preserve">
+    <value>%(target)s abandoned their vehicle.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY" xml:space="preserve">
+    <value>%(target)s was destroyed during zone bombardment.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY" xml:space="preserve">
+    <value>%(target)s was destroyed during zone bombardment.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY" xml:space="preserve">
+    <value>%(target)s was destroyed by Artillery Strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY" xml:space="preserve">
+    <value>%(target)s was destroyed by Artillery Strike.</value>
+  </data>
+  <data name="player_messages/DESTRUCTIBLE_DESTROYED_ALLY" xml:space="preserve">
+    <value>%(attacker)s destroyed objective %(target)s.</value>
+  </data>
+  <data name="player_messages/DESTRUCTIBLE_DESTROYED_ENEMY" xml:space="preserve">
+    <value>%(attacker)s destroyed objective %(target)s.</value>
+  </data>
+  <data name="player_messages/DESTRUCTIBLE_DESTROYED_SELF" xml:space="preserve">
+    <value>You destroyed objective %(target)s.</value>
+  </data>
+  <data name="player_messages/base_capture_blocked" xml:space="preserve">
+    <value>Base capture blocked</value>
+  </data>
+  <data name="recovery/cooldown" xml:space="preserve">
+    <value>Vehicle can be abandoned in %(cooldown)s seconds</value>
+  </data>
+  <data name="recovery/hint1" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="recovery/hint2" xml:space="preserve">
+    <value>to abandon vehicle</value>
+  </data>
+  <data name="respawnView/classNotAvailable" xml:space="preserve">
+    <value>Front limit
+reached</value>
   </data>
 </root>

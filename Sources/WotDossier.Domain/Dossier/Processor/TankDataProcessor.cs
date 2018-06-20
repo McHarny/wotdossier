@@ -35,6 +35,7 @@ namespace WotDossier.Domain.Dossier.Processor
                 {95, Process95},
                 {97, Process97},
                 {99, Process99},
+                {100, Process100},
 
             };
         public static Func<DossierTankData, TankJson> GetProcessor(int version)
@@ -1199,6 +1200,68 @@ namespace WotDossier.Domain.Dossier.Processor
                 maxDamage = tankData.GetStaticSizeBlock("max30x30").GetValue("maxDamage"),
             };
             #endregion
+            return result;
+        }
+
+        /// <summary>
+        /// 1.0.1
+        /// </summary>
+        private static TankJson Process100(DossierTankData tankData)
+        {
+            var result = Process99(tankData);
+
+            #region EpicBattle
+            result.EpicBattle = new StatisticJsonEpicBattle()
+            {
+                xp = tankData.GetStaticSizeBlock("epicBattle").GetValue("xp"),
+                battlesCount = tankData.GetStaticSizeBlock("epicBattle").GetValue("battlesCount"),
+                wins = tankData.GetStaticSizeBlock("epicBattle").GetValue("wins"),
+                losses = tankData.GetStaticSizeBlock("epicBattle").GetValue("losses"),
+                survivedBattles = tankData.GetStaticSizeBlock("epicBattle").GetValue("survivedBattles"),
+                frags = tankData.GetStaticSizeBlock("epicBattle").GetValue("frags"),
+                shots = tankData.GetStaticSizeBlock("epicBattle").GetValue("shots"),
+                hits = tankData.GetStaticSizeBlock("epicBattle").GetValue("directHits"),
+                spotted = tankData.GetStaticSizeBlock("epicBattle").GetValue("spotted"),
+                damageDealt = tankData.GetStaticSizeBlock("epicBattle").GetValue("damageDealt"),
+                damageReceived = tankData.GetStaticSizeBlock("epicBattle").GetValue("damageReceived"),
+                capturePoints = tankData.GetStaticSizeBlock("epicBattle").GetValue("capturePoints"),
+                droppedCapturePoints = tankData.GetStaticSizeBlock("epicBattle").GetValue("droppedCapturePoints"),
+
+                originalXP = tankData.GetStaticSizeBlock("epicBattle").GetValue("originalXP"),
+                damageAssistedTrack = tankData.GetStaticSizeBlock("epicBattle").GetValue("damageAssistedTrack"),
+                damageAssistedRadio = tankData.GetStaticSizeBlock("epicBattle").GetValue("damageAssistedRadio"),
+                shotsReceived = tankData.GetStaticSizeBlock("epicBattle").GetValue("directHitsReceived"),
+                noDamageShotsReceived = tankData.GetStaticSizeBlock("epicBattle").GetValue("noDamageDirectHitsReceived"),
+                piercedReceived = tankData.GetStaticSizeBlock("epicBattle").GetValue("piercingsReceived"),
+                heHitsReceived = tankData.GetStaticSizeBlock("epicBattle").GetValue("explosionHitsReceived"),
+                he_hits = tankData.GetStaticSizeBlock("epicBattle").GetValue("explosionHits"),
+                pierced = tankData.GetStaticSizeBlock("epicBattle").GetValue("piercings"),
+                winAndSurvived = tankData.GetStaticSizeBlock("epicBattle").GetValue("winAndSurvived"),
+                frags8p = tankData.GetStaticSizeBlock("epicBattle").GetValue("frags8p"),
+                potentialDamageReceived = tankData.GetStaticSizeBlock("epicBattle").GetValue("potentialDamageReceived"),
+                damageBlockedByArmor = tankData.GetStaticSizeBlock("epicBattle").GetValue("damageBlockedByArmor"),
+                battlesOnStunningVehicles = tankData.GetStaticSizeBlock("epicBattle").GetValue("battlesOnStunningVehicles"),
+                stunNum = tankData.GetStaticSizeBlock("epicBattle").GetValue("stunNum"),
+                damageAssistedStun = tankData.GetStaticSizeBlock("epicBattle").GetValue("damageAssistedStun"),
+                deathCount = tankData.GetStaticSizeBlock("epicBattle").GetValue("deathCount"),
+
+                maxXP = tankData.GetStaticSizeBlock("maxEpicBattle").GetValue("maxXP"),
+                maxFrags = tankData.GetStaticSizeBlock("maxEpicBattle").GetValue("maxFrags"),
+                maxDamage = tankData.GetStaticSizeBlock("maxEpicBattle").GetValue("maxDamage"),
+            };
+            #endregion
+
+            #region AchievementsEpicBattle
+            result.AchievementsEpicBattle = new AchievementsEpicBattle()
+            {
+                OccupyingForce = tankData.GetStaticSizeBlock("epicBattleAchievements").GetValue("occupyingForce"),
+                IronShield = tankData.GetStaticSizeBlock("epicBattleAchievements").GetValue("ironShield"),
+                GeneralOfTheArmy = tankData.GetStaticSizeBlock("epicBattleAchievements").GetValue("generalOfTheArmy"),
+                SupremeGun = tankData.GetStaticSizeBlock("epicBattleAchievements").GetValue("supremeGun"),
+                SmallArmy = tankData.GetStaticSizeBlock("epicBattleAchievements").GetValue("smallArmy"),
+            };
+            #endregion
+
             return result;
         }
     }

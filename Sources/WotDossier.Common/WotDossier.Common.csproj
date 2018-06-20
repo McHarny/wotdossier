@@ -89,6 +89,7 @@
     <Compile Include="Extensions\UriExtensions.cs" />
     <Compile Include="Extensions\ValueExtensions.cs" />
     <Compile Include="Extensions\XmlParseExtensions.cs" />
+    <Compile Include="Json\WotDossierConverter.cs" />
     <Compile Include="LiteralParser.cs" />
     <Compile Include="MS\mscorlib\System\Collections\Generic\Mscorlib_CollectionDebugView.cs" />
     <Compile Include="MS\System\Collections\Generic\SerializableDictionary.cs" />
@@ -138,7 +139,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_DetectChanges="False" BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" />
+      <UserProperties BuildVersion_StartDate="2000/1/1" BuildVersion_UseGlobalSettings="True" BuildVersion_DetectChanges="False" />
     </VisualStudio>
   </ProjectExtensions>
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

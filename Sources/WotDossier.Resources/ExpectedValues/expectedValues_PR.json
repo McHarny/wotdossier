@@ -1,6 +1,6 @@
 {
   "header": {
-    "version": 20171213.0
+    "version": 20180614.0
   },
   "data": [
     {
@@ -95,6 +95,14 @@
       "IDNum": 6417,
       "expFrag": 0.0,
       "expDamage": 550.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 1185,
+      "expFrag": 0.0,
+      "expDamage": 400.0,
       "expSpot": 0.0,
       "expDef": 0.0,
       "expWinRate": 0.0
@@ -871,6 +879,46 @@
       "IDNum": 8257,
       "expFrag": 0.0,
       "expDamage": 350.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 14337,
+      "expFrag": 0.0,
+      "expDamage": 2100.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 2721,
+      "expFrag": 0.0,
+      "expDamage": 2100.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 48385,
+      "expFrag": 0.0,
+      "expDamage": 1500.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 48401,
+      "expFrag": 0.0,
+      "expDamage": 1500.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 21761,
+      "expFrag": 0.0,
+      "expDamage": 2100.0,
       "expSpot": 0.0,
       "expDef": 0.0,
       "expWinRate": 0.0
@@ -3180,9 +3228,129 @@
       "expWinRate": 0.0
     },
     {
-      "IDNum": 65073,
+      "IDNum": 17153,
+      "expFrag": 0.0,
+      "expDamage": 2100.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 2465,
       "expFrag": 0.0,
       "expDamage": 1800.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 1953,
+      "expFrag": 0.0,
+      "expDamage": 1400.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 1697,
+      "expFrag": 0.0,
+      "expDamage": 1100.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 2209,
+      "expFrag": 0.0,
+      "expDamage": 1100.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 929,
+      "expFrag": 0.0,
+      "expDamage": 200.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 417,
+      "expFrag": 0.0,
+      "expDamage": 110.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 49681,
+      "expFrag": 0.0,
+      "expDamage": 900.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 49425,
+      "expFrag": 0.0,
+      "expDamage": 1100.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 57345,
+      "expFrag": 0.0,
+      "expDamage": 1100.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 62225,
+      "expFrag": 0.0,
+      "expDamage": 800.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 161,
+      "expFrag": 0.0,
+      "expDamage": 100.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 673,
+      "expFrag": 0.0,
+      "expDamage": 150.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 1441,
+      "expFrag": 0.0,
+      "expDamage": 800.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 64769,
+      "expFrag": 0.0,
+      "expDamage": 1200.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 22017,
+      "expFrag": 0.0,
+      "expDamage": 2100.0,
       "expSpot": 0.0,
       "expDef": 0.0,
       "expWinRate": 0.0
@@ -3679,14 +3847,6 @@
       "IDNum": 18689,
       "expFrag": 0.0,
       "expDamage": 875.0,
-      "expSpot": 0.0,
-      "expDef": 0.0,
-      "expWinRate": 0.0
-    },
-    {
-      "IDNum": 10497,
-      "expFrag": 0.0,
-      "expDamage": 775.0,
       "expSpot": 0.0,
       "expDef": 0.0,
       "expWinRate": 0.0
@@ -4412,14 +4572,6 @@
       "expWinRate": 0.0
     },
     {
-      "IDNum": 14337,
-      "expFrag": 0.0,
-      "expDamage": 2500.0,
-      "expSpot": 0.0,
-      "expDef": 0.0,
-      "expWinRate": 0.0
-    },
-    {
       "IDNum": 13569,
       "expFrag": 0.0,
       "expDamage": 2700.0,
@@ -4596,9 +4748,25 @@
       "expWinRate": 0.0
     },
     {
-      "IDNum": 17153,
+      "IDNum": 21505,
       "expFrag": 0.0,
       "expDamage": 2200.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 10497,
+      "expFrag": 0.0,
+      "expDamage": 750.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 21249,
+      "expFrag": 0.0,
+      "expDamage": 2300.0,
       "expSpot": 0.0,
       "expDef": 0.0,
       "expWinRate": 0.0
@@ -4703,6 +4871,150 @@
       "IDNum": 57889,
       "expFrag": 0.0,
       "expDamage": 1200.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 15953,
+      "expFrag": 0.0,
+      "expDamage": 2300.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 16449,
+      "expFrag": 0.0,
+      "expDamage": 1200.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 16705,
+      "expFrag": 0.0,
+      "expDamage": 1600.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 16961,
+      "expFrag": 0.0,
+      "expDamage": 2000.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 19713,
+      "expFrag": 0.0,
+      "expDamage": 1900.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 19969,
+      "expFrag": 0.0,
+      "expDamage": 2100.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 20225,
+      "expFrag": 0.0,
+      "expDamage": 2100.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 20737,
+      "expFrag": 0.0,
+      "expDamage": 1800.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 20993,
+      "expFrag": 0.0,
+      "expDamage": 2000.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 48129,
+      "expFrag": 0.0,
+      "expDamage": 800.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 48145,
+      "expFrag": 0.0,
+      "expDamage": 1200.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 61505,
+      "expFrag": 0.0,
+      "expDamage": 1000.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 65073,
+      "expFrag": 0.0,
+      "expDamage": 1800.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 62273,
+      "expFrag": 0.0,
+      "expDamage": 1400.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 51361,
+      "expFrag": 0.0,
+      "expDamage": 1800.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 56657,
+      "expFrag": 0.0,
+      "expDamage": 1500.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 48913,
+      "expFrag": 0.0,
+      "expDamage": 1500.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 56913,
+      "expFrag": 0.0,
+      "expDamage": 1500.0,
       "expSpot": 0.0,
       "expDef": 0.0,
       "expWinRate": 0.0

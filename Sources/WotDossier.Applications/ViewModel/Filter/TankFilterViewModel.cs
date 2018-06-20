@@ -264,6 +264,15 @@ namespace WotDossier.Applications.ViewModel.Filter
                 OnPropertyChanged("PLSelected");
             }
         }
+        public bool ItalySelected
+        {
+            get { return _filter.ItalySelected; }
+            set
+            {
+                _filter.ItalySelected = value;
+                OnPropertyChanged("ItalySelected");
+            }
+        }
 
         public bool IsPremium
         {
@@ -360,7 +369,8 @@ namespace WotDossier.Applications.ViewModel.Filter
                     || x.CountryId == (int)Country.Czech && CZSelected
                     || x.CountryId == (int)Country.Uk && UKSelected
                     || x.CountryId == (int)Country.Sweden && SESelected
-                    || x.CountryId == (int)Country.Poland && PLSelected)
+                    || x.CountryId == (int)Country.Poland && PLSelected
+                    || x.CountryId == (int)Country.Italy && ItalySelected)
                    && (x.IsFavorite || !IsFavorite)
                    && (x.IsPremium || !IsPremium);
         }

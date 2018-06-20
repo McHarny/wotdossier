@@ -250,7 +250,7 @@
     <value>Concealment</value>
   </data>
   <data name="tankman/skills/camouflage_descr" xml:space="preserve">
-    <value>&lt;shortDesc&gt;Reduces vehicle visibility.&lt;/shortDesc&gt; Effective skill level is averaged across the entire crew. The skill is cumulative with the effects of Camouflage and a Camouflage Net.</value>
+    <value>&lt;shortDesc&gt;Reduces vehicle visibility.&lt;/shortDesc&gt; This skill is cumulative with the effects of Camouflage (for the corresponding types of maps) and a Camouflage Net, as well as Natural Cover.</value>
   </data>
   <data name="tankman/skills/fire_fighting" xml:space="preserve">
     <value>Firefighting</value>
@@ -316,13 +316,13 @@
     <value>Brothers in Arms</value>
   </data>
   <data name="tankman/skills/brotherhood_descr" xml:space="preserve">
-    <value>&lt;shortDesc&gt;Improves major qualifications and all skills for the entire crew.&lt;/shortDesc&gt; The perk is cumulative with the effects of Improved Ventilation, Extra Combat Rations, Chocolate, Case of Cola, Pudding and Tea, Strong Coffee, Improved Combat Rations, Onigiri, Buchty, Coffee with Buns, and Bread with Smalec.</value>
+    <value>&lt;shortDesc&gt;Improves major qualifications and all skills for the entire crew.&lt;/shortDesc&gt; This perk is cumulative with the effects of Improved Ventilation, Venting System, Extra Combat Rations, Chocolate, Case of Cola, Strong Coffee, Improved Combat Rations, Pudding and Tea, Onigiri, Buchty, Coffee with Cinnamon Buns, Bread with Smalec, and Spaghetti with Meat Sauce, as well as Vent Purge.</value>
   </data>
   <data name="tankman/skills/commander_eagleEye" xml:space="preserve">
     <value>Recon</value>
   </data>
   <data name="tankman/skills/commander_eagleEye_descr" xml:space="preserve">
-    <value>&lt;shortDesc&gt;Increases Maximum View Range.&lt;/shortDesc&gt; The skill is more effective if observation devices are damaged, or when combined with Situational Awareness, Coated Optics, and Binocular Telescope.</value>
+    <value>&lt;shortDesc&gt;Increases Maximum View Range.&lt;/shortDesc&gt; The skill is more effective if observation devices are damaged, or when combined with Situational Awareness, Coated Optics, Experimental Optics, and Binocular Telescope.</value>
   </data>
   <data name="tankman/skills/commander_expert" xml:space="preserve">
     <value>Eagle Eye</value>
@@ -430,7 +430,7 @@
     <value>Situational Awareness</value>
   </data>
   <data name="tankman/skills/radioman_finder_descr" xml:space="preserve">
-    <value>&lt;shortDesc&gt;Extends View Range.&lt;/shortDesc&gt; If two Radio Operators have the skill, only the higher rating is effective. The skill is cumulative with the effects of Recon, Coated Optics and Binocular Telescope.</value>
+    <value>&lt;shortDesc&gt;Extends View Range.&lt;/shortDesc&gt; If two Radio Operators have the skill, only the higher rating is effective. The skill is cumulative with the effects of Recon, Coated Optics, Experimental Optics, and Binocular Telescope.</value>
   </data>
   <data name="tankman/skills/radioman_inventor" xml:space="preserve">
     <value>Signal Boosting</value>
@@ -487,7 +487,7 @@
     <value>Sisterhood of Steel</value>
   </data>
   <data name="tankman/skills/brotherhood_female_descr" xml:space="preserve">
-    <value>&lt;shortDesc&gt;Improves major qualifications and all skills for all crew members.&lt;/shortDesc&gt; The perk is cumulative with the effects of Improved Ventilation, Extra Combat Rations, Chocolate, Case of Cola, Pudding and Tea, Strong Coffee, Improved Combat Rations, Onigiri, Buchty, Coffee with Buns, Bread with Smalec.
+    <value>&lt;shortDesc&gt;Improves major qualifications and all skills for the entire crew.&lt;/shortDesc&gt; This perk is cumulative with the effects of Improved Ventilation, Venting System, Extra Combat Rations, Chocolate, Case of Cola, Strong Coffee, Improved Combat Rations, Pudding and Tea, Onigiri, Buchty, Coffee with Cinnamon Buns, Bread with Smalec, and Spaghetti with Meat Sauce, as well as Vent Purge.
 
 • All female crew members have this perk trained by default.
 • Cannot be reset.</value>
@@ -499,9 +499,9 @@
     <value>Brothers in Arms</value>
   </data>
   <data name="tankman/skills/brotherhood_permanent_descr" xml:space="preserve">
-    <value>&lt;shortDesc&gt;Improves major qualifications and all skills for the entire crew.&lt;/shortDesc&gt; The perk is cumulative with the effects of Improved Ventilation, Extra Combat Rations, Chocolate, Case of Cola, Pudding and Tea, Strong Coffee, Improved Combat Rations, Onigiri, Buchty, Coffee with Buns, and Bread with Smalec.
+    <value>&lt;shortDesc&gt;Improves major qualifications and all skills for the entire crew.&lt;/shortDesc&gt; This perk is cumulative with the effects of Improved Ventilation, Venting System, Extra Combat Rations, Chocolate, Case of Cola, Strong Coffee, Improved Combat Rations, Pudding and Tea, Onigiri, Buchty, Coffee with Cinnamon Buns, Bread with Smalec, and Spaghetti with Meat Sauce, as well as Vent Purge.
 
-The perk cannot be reset.</value>
+Cannot be reset.</value>
   </data>
   <data name="battleBooster/name" xml:space="preserve">
     <value>Directive</value>
@@ -517,5 +517,62 @@ The perk cannot be reset.</value>
   </data>
   <data name="vehicle/tags/HE2017_F1/name" xml:space="preserve">
     <value>Franken</value>
+  </data>
+  <data name="customization/camouflage" xml:space="preserve">
+    <value>Camouflage</value>
+  </data>
+  <data name="customization/decal" xml:space="preserve">
+    <value>Decal</value>
+  </data>
+  <data name="customization/emblem" xml:space="preserve">
+    <value>Emblem</value>
+  </data>
+  <data name="customization/inscription" xml:space="preserve">
+    <value>Inscription</value>
+  </data>
+  <data name="customization/modification" xml:space="preserve">
+    <value>Effect</value>
+  </data>
+  <data name="customization/outfit" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="customization/paint" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="customization/plural/camouflage" xml:space="preserve">
+    <value>Camouflage</value>
+  </data>
+  <data name="customization/plural/decal" xml:space="preserve">
+    <value>Decals</value>
+  </data>
+  <data name="customization/plural/emblem" xml:space="preserve">
+    <value>Emblems</value>
+  </data>
+  <data name="customization/plural/inscription" xml:space="preserve">
+    <value>Inscriptions</value>
+  </data>
+  <data name="customization/plural/modification" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="customization/plural/outfit" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="customization/plural/paint" xml:space="preserve">
+    <value>Paints</value>
+  </data>
+  <data name="customization/plural/style" xml:space="preserve">
+    <value>Styles</value>
+  </data>
+  <data name="customization/style" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="battleAbility/name" xml:space="preserve">
+    <value>Combat Reserve</value>
+  </data>
+  <data name="tankman/skills/type/perk_short" xml:space="preserve">
+    <value>Perk</value>
+  </data>
+  <data name="tankman/skills/type/skill_short" xml:space="preserve">
+    <value>Skill</value>
   </data>
 </root>

@@ -1208,24 +1208,6 @@
   <data name="TankType_SPG" xml:space="preserve">
     <value>САУ</value>
   </data>
-  <data name="Country_Ussr" xml:space="preserve">
-    <value>СССР</value>
-  </data>
-  <data name="Country_Germany" xml:space="preserve">
-    <value>Германия</value>
-  </data>
-  <data name="Country_Usa" xml:space="preserve">
-    <value>США</value>
-  </data>
-  <data name="Country_China" xml:space="preserve">
-    <value>Китай</value>
-  </data>
-  <data name="Country_France" xml:space="preserve">
-    <value>Франция</value>
-  </data>
-  <data name="Country_Uk" xml:space="preserve">
-    <value>Британия</value>
-  </data>
   <data name="Settings_ReplaysFolder" xml:space="preserve">
     <value>Папка с реплеями</value>
   </data>
@@ -1639,9 +1621,6 @@
   </data>
   <data name="ReplaysFilter_ByColumns" xml:space="preserve">
     <value>Фильтр по колонкам</value>
-  </data>
-  <data name="Country_Japan" xml:space="preserve">
-    <value>Япония</value>
   </data>
   <data name="Common_BattlesPerDay" xml:space="preserve">
     <value>Боёв в день</value>
@@ -3604,9 +3583,6 @@
   <data name="Total_ForSelected" xml:space="preserve">
     <value>Для выделенных</value>
   </data>
-  <data name="Country_Czech" xml:space="preserve">
-    <value>Чехия</value>
-  </data>
   <data name="Column_Header_Attacker" xml:space="preserve">
     <value>Нападающий</value>
   </data>
@@ -3624,12 +3600,6 @@
   </data>
   <data name="Map_101_dday" xml:space="preserve">
     <value>Оверлорд</value>
-  </data>
-  <data name="Country_Sweden" xml:space="preserve">
-    <value>Швеция</value>
-  </data>
-  <data name="Country_Poland" xml:space="preserve">
-    <value>Польша</value>
   </data>
   <data name="BattleType_GrandBattle" xml:space="preserve">
     <value>Генеральное сражение</value>

@@ -1806,7 +1806,7 @@ One or several keys were not assigned. Save the settings?</value>
 
 If you change server, the following restrictions will apply:
 	• Some vehicles will be unavailable.
-	• Emblems and Inscriptions will not be displayed.
+	• Emblems and inscriptions will not be displayed.
 	• Missions, Personal Reserves, and the Proving Ground mode will be unavailable.
 
 You may have errors and connection issues. Please respect players from other regions.</value>
@@ -1886,7 +1886,7 @@ You may have errors and connection issues. Please respect players from other reg
 Including:%(simpleText_close)s
 %(xpIcon)s%(orangeText_open)sCombat Experience%(orangeText_close)s%(simpleText_open)s is used to research new modules of a certain vehicle, as well as for further progress in the game of the Wargaming universe in which the experience was earned.%(simpleText_close)s
 
-%(freeXPIcon)s%(orangeText_open)sFree Experience%(orangeText_close)s%(simpleText_open)s is used to research modules and vehicles in all games of the Wargaming universe. Free Experience used in one game will influence its total amount in all games. Please spend Free Experience carefully.%(simpleText_close)s</value>
+%(freeXPIcon)s%(orangeText_open)sFree Experience%(orangeText_close)s%(simpleText_open)s is used to research any modules and vehicles. Please spend Free Experience carefully.%(simpleText_close)s</value>
   </data>
   <data name="freeXPInfo/submitBtnLbl" xml:space="preserve">
     <value>Continue</value>
@@ -2939,13 +2939,13 @@ By confirming your intention to join the clan, you automatically accept its rule
     <value>Cancel</value>
   </data>
   <data name="customization/close/message" xml:space="preserve">
-    <value>You have customization elements that you have not purchased yet. If you return to the Garage, these elements will be removed. Return to the Garage?</value>
+    <value>Exit to the Garage without saving changes?</value>
   </data>
   <data name="customization/close/submit" xml:space="preserve">
-    <value>Confirm</value>
+    <value>Exit</value>
   </data>
   <data name="customization/close/title" xml:space="preserve">
-    <value>Confirm Return to Garage</value>
+    <value>Exit to the Garage</value>
   </data>
   <data name="customization/filter/cancel" xml:space="preserve">
     <value>Cancel</value>
@@ -3388,7 +3388,7 @@ Try again later.</value>
     <value>Cancel</value>
   </data>
   <data name="soundSpeakersPresetDoesNotMatch/message" xml:space="preserve">
-    <value>The selected sound system is different from the one that was automatically defined by the game client. You can test the sound difference. Confirm changes?</value>
+    <value>The selected sound system is different from the one that was automatically detected by the game client. Some sounds may not be available. We recommend that you test the sound difference. Confirm changes?</value>
   </data>
   <data name="soundSpeakersPresetDoesNotMatch/submit" xml:space="preserve">
     <value>Confirm</value>
@@ -3748,5 +3748,155 @@ After you quit the competition &lt;font color='#ff0000'&gt;YOU CANNOT ENTER IT A
   </data>
   <data name="halloween/supply_drop/claim/platoon/title" xml:space="preserve">
     <value>Try Again Later</value>
+  </data>
+  <data name="confirmApplyVehicleDiscount/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="confirmApplyVehicleDiscount/message" xml:space="preserve">
+    <value>Activate a %(discount_tag_open)s%(discount)s%%%(tag_close)s discount on the %(vehicle_tag_open)s%(vehicleName)s%(tag_close)s%(veh_type_tag_open)s%(vehicleType)s%(veh_type_tag_close)s vehicle?</value>
+  </data>
+  <data name="confirmApplyVehicleDiscount/submit" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="confirmApplyVehicleDiscount/title" xml:space="preserve">
+    <value>Discount Activation</value>
+  </data>
+  <data name="confirmHighLevelToyBreak/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="confirmHighLevelToyBreak/message" xml:space="preserve">
+    <value>Are you sure you want to break the %(tag_open)s Level V %(tag_close)s decoration?</value>
+  </data>
+  <data name="confirmHighLevelToyBreak/submit" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="confirmHighLevelToyBreak/title" xml:space="preserve">
+    <value>Confirm Operation</value>
+  </data>
+  <data name="confirmToysBreak/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="confirmToysBreak/message" xml:space="preserve">
+    <value>Break the decoration and receive %(tag_open)s%(fragments_amount)s%(tag_close)s%(shards_icon)s?</value>
+  </data>
+  <data name="confirmToysBreak/submit" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="confirmToysBreak/title" xml:space="preserve">
+    <value>Confirm Operation</value>
+  </data>
+  <data name="customizationConfirmSell/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="customizationConfirmSell/message" xml:space="preserve">
+    <value>Sell %(name)s for %(price)s%(creditsIcon)s?</value>
+  </data>
+  <data name="customizationConfirmSell/submit" xml:space="preserve">
+    <value>Sell</value>
+  </data>
+  <data name="customizationConfirmSell/title" xml:space="preserve">
+    <value>Confirm Sale</value>
+  </data>
+  <data name="nextBattleOptionConfirmation/cancel" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="nextBattleOptionConfirmation/message" xml:space="preserve">
+    <value>Changes to some settings will be applied in the next battle. Continue?</value>
+  </data>
+  <data name="nextBattleOptionConfirmation/submit" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="nextBattleOptionConfirmation/title" xml:space="preserve">
+    <value>Modify Settings</value>
+  </data>
+  <data name="gammaDialog/cancel" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="gammaDialog/message/description" xml:space="preserve">
+    <value>Commander! Configure your monitor to correct the color gamma and improve the image quality on your screen.
+
+ </value>
+  </data>
+  <data name="gammaDialog/message/header" xml:space="preserve">
+    <value>Configure your monitor right now!</value>
+  </data>
+  <data name="gammaDialog/title" xml:space="preserve">
+    <value>Gamma Settings</value>
+  </data>
+  <data name="minimapAlphaNotification/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="minimapAlphaNotification/message" xml:space="preserve">
+    <value>&lt;img src='img://gui/maps/icons/library/alertIcon.png' width='16' height='16' vspace='-4' hspace='0'/&gt;&lt;font color='#EE7000'&gt;Attention!&lt;/font&gt; Enabling this setting will reduce computer performance in battle.</value>
+  </data>
+  <data name="minimapAlphaNotification/submit" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="minimapAlphaNotification/title" xml:space="preserve">
+    <value>Minimap Transparency</value>
+  </data>
+  <data name="recruitWindow/nationDropdown/italy" xml:space="preserve">
+    <value>Italy</value>
+  </data>
+  <data name="soundSpeakersPresetReset/cancel" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="soundSpeakersPresetReset/message" xml:space="preserve">
+    <value>The selected sound system is different from the one that was automatically detected by the game client. Some sounds may not be available. Apply the optimal sound settings?</value>
+  </data>
+  <data name="soundSpeakersPresetReset/submit" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="soundSpeakersPresetReset/title" xml:space="preserve">
+    <value>Sound System Mismatch</value>
+  </data>
+  <data name="epicBattleConfirmDialog/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="epicBattleConfirmDialog/checkBox" xml:space="preserve">
+    <value>Do not show this warning again</value>
+  </data>
+  <data name="epicBattleConfirmDialog/message" xml:space="preserve">
+    <value>You will experience a low FPS rate and graphic distortions in this mode due to your hardware configuration. Loading a battle will take longer and may result in the client crash. Enter the battle anyway?</value>
+  </data>
+  <data name="epicBattleConfirmDialog/submit" xml:space="preserve">
+    <value>Battle!</value>
+  </data>
+  <data name="epicBattleConfirmDialog/title" xml:space="preserve">
+    <value>Performance Warning</value>
+  </data>
+  <data name="eula/asia/p1" xml:space="preserve">
+    <value>IMPORTANT CHANGES TO EULA AND TERMS OF SERVICE</value>
+  </data>
+  <data name="eula/asia/p2" xml:space="preserve">
+    <value>On 15 June 2018, Wargaming will combine its End User License Agreement (EULA) and Terms of Service into one document and introduce a separate EULA for Australia and New Zealand. Preliminary notice of this change was sent to your email address specified during Account registration.
+By clicking Accept you acknowledge that you have read, and agree to be bound by, and comply with, the terms of the current EULA (until 15 June 2018) as well as the new EULA (starting from 15 June 2018), and be liable for any violation thereof. Both current and new EULAs (including the new EULA for Australia and New Zealand) are available on our legal page for Asia-Pacific: &lt;A HREF='event:%(eulaURL)s'&gt;&lt;U&gt;End User License Agreement&lt;/U&gt;&lt;/A&gt;.
+EULA and any amendments thereto are material to and binding upon all users.</value>
+  </data>
+  <data name="eula/default/p1" xml:space="preserve">
+    <value>Please read the &lt;BR/&gt;&lt;A HREF='event:%(eulaURL)s'&gt;&lt;U&gt;End User License Agreement&lt;/U&gt;&lt;/A&gt; before you continue.</value>
+  </data>
+  <data name="eula/default/p2" xml:space="preserve">
+    <value>BY CLICKING "ACCEPT", YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY, AND COMPLY WITH, THE TERMS OF THE END USER LICENSE AGREEMENT AND BE LIABLE FOR ANY VIOLATION THEREOF. EULA AND ANY AMENDMENTS THERETO ARE MATERIAL TO AND BINDING UPON ALL PROJECT MEMBERS.</value>
+  </data>
+  <data name="eula/na/p1" xml:space="preserve">
+    <value>IMPORTANT CHANGES TO EULA AND TERMS OF SERVICE</value>
+  </data>
+  <data name="eula/na/p2" xml:space="preserve">
+    <value>On 15 June 2018, Wargaming will combine its End User License Agreement (EULA) and Terms of Service into one document. Preliminary notice of this change was sent to your email address specified during Account registration.
+By clicking Accept you acknowledge that you have read, and agree to be bound by, and comply with, the terms of the current EULA (until 15 June 2018) as well as the new EULA (starting from 15 June 2018), and be liable for any violation thereof. Both current and new EULAs are available on our legal page for the Americas: &lt;A HREF='event:%(eulaURL)s'&gt;&lt;U&gt;End User License Agreement&lt;/U&gt;&lt;/A&gt;.
+EULA and any amendments thereto are material to and binding upon all users.</value>
+  </data>
+  <data name="quitBattleEvent/deserter/cancel" xml:space="preserve">
+    <value>Stay</value>
+  </data>
+  <data name="quitBattleEvent/deserter/message" xml:space="preserve">
+    <value>Your team needs you! Leaving the match before it ends is considered a desertion. It is subject to public reprimand, and your teammates will hardly appreciate such a "contribution". Return and play football!</value>
+  </data>
+  <data name="quitBattleEvent/deserter/submit" xml:space="preserve">
+    <value>Desert</value>
+  </data>
+  <data name="quitBattleEvent/deserter/title" xml:space="preserve">
+    <value>Deserting the Football Field</value>
   </data>
 </root>

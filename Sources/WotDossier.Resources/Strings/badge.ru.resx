@@ -142,10 +142,10 @@
     <value>Попасть в первую лигу второго бета-сезона в режиме «Ранговый бой».</value>
   </data>
   <data name="badge_3" xml:space="preserve">
-    <value>Золото 2 сезона</value>
+    <value>Золото второго сезона</value>
   </data>
   <data name="badge_3_descr" xml:space="preserve">
-    <value>Попасть в первую лигу 2 сезона в режиме «Ранговый бой».</value>
+    <value>Попасть в первую лигу второго сезона в режиме «Ранговый бой».</value>
   </data>
   <data name="badge_4" xml:space="preserve">
     <value>Серебро бета-сезона</value>
@@ -160,10 +160,10 @@
     <value>Попасть во вторую лигу второго бета-сезона в режиме «Ранговый бой».</value>
   </data>
   <data name="badge_6" xml:space="preserve">
-    <value>Серебро 2 сезона</value>
+    <value>Серебро второго сезона</value>
   </data>
   <data name="badge_6_descr" xml:space="preserve">
-    <value>Попасть во вторую лигу 2 сезона в режиме «Ранговый бой».</value>
+    <value>Попасть во вторую лигу второго сезона в режиме «Ранговый бой».</value>
   </data>
   <data name="badge_7" xml:space="preserve">
     <value>Бронза бета-сезона</value>
@@ -178,10 +178,10 @@
     <value>Попасть в третью лигу второго бета-сезона в режиме «Ранговый бой».</value>
   </data>
   <data name="badge_9" xml:space="preserve">
-    <value>Бронза 2 сезона</value>
+    <value>Бронза второго сезона</value>
   </data>
   <data name="badge_9_descr" xml:space="preserve">
-    <value>Попасть в третью лигу 2 сезона в режиме «Ранговый бой».</value>
+    <value>Попасть в третью лигу второго сезона в режиме «Ранговый бой».</value>
   </data>
   <data name="badge_note" xml:space="preserve">
     <value>Нашивка демонстрирует ваши определённые достижения в игре, и её видят игроки обеих команд.</value>
@@ -346,6 +346,48 @@
     <value>Герой операции «Гамбит»</value>
   </data>
   <data name="badge_28_descr" xml:space="preserve">
-    <value>За попадание в число 10% лучших игроков операции «Гамбит» — игрового события на Глобальной карте.</value>
+    <value>Во время операции «Гамбит» провести не менее 10 боёв на Глобальной карте в составе клана, попавшего в число 10% лучших кланов операции.</value>
+  </data>
+  <data name="badge_29" xml:space="preserve">
+    <value>Золото первого сезона</value>
+  </data>
+  <data name="badge_29_descr" xml:space="preserve">
+    <value>Попасть в первую лигу первого сезона в режиме «Ранговый бой».</value>
+  </data>
+  <data name="badge_30" xml:space="preserve">
+    <value>Серебро первого сезона</value>
+  </data>
+  <data name="badge_30_descr" xml:space="preserve">
+    <value>Попасть во вторую лигу первого сезона в режиме «Ранговый бой».</value>
+  </data>
+  <data name="badge_31" xml:space="preserve">
+    <value>Бронза первого сезона</value>
+  </data>
+  <data name="badge_31_descr" xml:space="preserve">
+    <value>Попасть в третью лигу первого сезона в режиме «Ранговый бой».</value>
+  </data>
+  <data name="badge_32" xml:space="preserve">
+    <value>Ветеран Линии фронта</value>
+  </data>
+  <data name="badge_32_descr" xml:space="preserve">
+    <value>Получить первый уровень доблести в режиме «Линия фронта».</value>
+  </data>
+  <data name="badge_33" xml:space="preserve">
+    <value>Герой Линии фронта</value>
+  </data>
+  <data name="badge_33_descr" xml:space="preserve">
+    <value>Получить второй уровень доблести в режиме «Линия фронта».</value>
+  </data>
+  <data name="badge_34" xml:space="preserve">
+    <value>Победитель Линии фронта</value>
+  </data>
+  <data name="badge_34_descr" xml:space="preserve">
+    <value>Получить третий уровень доблести в режиме «Линия фронта».</value>
+  </data>
+  <data name="badge_35" xml:space="preserve">
+    <value>Герой «Гонки вооружений»</value>
+  </data>
+  <data name="badge_35_descr" xml:space="preserve">
+    <value>За попадание в число 10% лучших игроков «Гонки вооружений» — игрового события на Глобальной карте.</value>
   </data>
 </root>

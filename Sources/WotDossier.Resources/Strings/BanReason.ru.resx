@@ -162,4 +162,10 @@
   <data name="spam_protection" xml:space="preserve">
     <value>Защита от множественных обращений «клиент-сервер»</value>
   </data>
+  <data name="suspended" xml:space="preserve">
+    <value>aккаунт в процессе удаления. Отменить запрос на удаление можно в Личном кабинете</value>
+  </data>
+  <data name="unsuspending" xml:space="preserve">
+    <value>aккаунт в процессе восстановления после удаления. Оповещение о полном восстановлении аккаунта будет отправлено на ваш email</value>
+  </data>
 </root>

@@ -1348,7 +1348,7 @@
     <value>При повреждённой боеукладке не только замедляется перезарядка орудия, но и увеличивается вероятность взрыва.</value>
   </data>
   <data name="tip56/payAttention/economics/100_infinity/except_7/all/all/all" xml:space="preserve">
-    <value>Премиум аккаунт — это не только больше кредитов и опыта за каждый бой, но и чистый, красивый Ангар.</value>
+    <value>Премиум аккаунт — это +50% к заработку опыта и кредитов в каждом бою.</value>
   </data>
   <data name="tip57/payAttention/economics/500_infinity/all/all/all/all" xml:space="preserve">
     <value>Свободный опыт можно потратить на исследование любой техники и модулей.</value>
@@ -1486,13 +1486,13 @@
     <value>Обратите внимание</value>
   </data>
   <data name="ranked/0/body" xml:space="preserve">
-    <value>I и V ранги являются несгораемыми, а II, III и IV можно потерять. Ранги машины потерять нельзя.</value>
+    <value>1 и 15 ранги являются несгораемыми, а на некоторых рангах появились щиты. Проигрывая на этих рангах и не попадая в призовую зону, вы теряете прочность щита, но не ранг. Получение шеврона на ранге со щитом полностью восстановит его прочность.</value>
   </data>
   <data name="ranked/0/title" xml:space="preserve">
     <value>О рангах</value>
   </data>
   <data name="ranked/1/body" xml:space="preserve">
-    <value>Не расстраивайтесь, если потеряли ранг: награда в конце этапа выдаётся за лучший достигнутый ранг, а не за текущий.</value>
+    <value>Не расстраивайтесь, если потеряли ранг: награда в конце сезона выдаётся за лучший достигнутый ранг, а не за текущий.</value>
   </data>
   <data name="ranked/1/title" xml:space="preserve">
     <value>Всё по справедливости</value>
@@ -1504,19 +1504,19 @@
     <value>О бонах</value>
   </data>
   <data name="ranked/11/body" xml:space="preserve">
-    <value>Первое получение каждого ранга в течение этапа, а также само завершение этапа поощряются наградами.</value>
+    <value>Первое получение каждого ранга в течение сезона поощряется наградами.</value>
   </data>
   <data name="ranked/11/title" xml:space="preserve">
     <value>Награды</value>
   </data>
   <data name="ranked/12/body" xml:space="preserve">
-    <value>Ранги техники зарабатываются не для аккаунта, но для каждой машины отдельно. Общее количество заработанных рангов техники суммируется в итоговой таблице.</value>
+    <value>Очки ранга зарабатываются не для аккаунта, но для каждой машины отдельно. Общее количество заработанных очков ранга суммируется в итоговой таблице.</value>
   </data>
   <data name="ranked/12/title" xml:space="preserve">
     <value>Ранги техники</value>
   </data>
   <data name="ranked/2/body" xml:space="preserve">
-    <value>Ранги машины не ограничены. Чем больше рангов техники вы заработаете за весь сезон, тем выше поднимитесь по рейтинговой лестнице.</value>
+    <value>Количество очков ранга неограниченно. Чем больше очков ранга вы заработаете за весь сезон, тем выше подниметесь по рейтинговой таблице.</value>
   </data>
   <data name="ranked/2/title" xml:space="preserve">
     <value>Вперёд и вверх</value>
@@ -1528,16 +1528,16 @@
     <value>Прайм-тайм</value>
   </data>
   <data name="ranked/4/body" xml:space="preserve">
-    <value>Помните: каждый этап ограничен по времени. Следите за календарём, старайтесь заработать как можно больше очков за этап.</value>
+    <value>На некоторых рангах появились щиты. Проигрывая на этих рангах и не попадая в призовую зону, вы теряете прочность щита, но не ранг. Получение шеврона на ранге со щитом полностью восстановит его прочность.</value>
   </data>
   <data name="ranked/4/title" xml:space="preserve">
-    <value>Время — деньги</value>
+    <value>Правила режима</value>
   </data>
   <data name="ranked/5/body" xml:space="preserve">
-    <value>Время этапа ограничено! Не стоит откладывать бои на потом, если хотите получить достойную награду.</value>
+    <value>Никогда не сдавайтесь! Шеврон получат не только топ-10 победителей, но и лучший игрок проигравшей команды.</value>
   </data>
   <data name="ranked/5/title" xml:space="preserve">
-    <value>Продолжительность этапа</value>
+    <value>Правила режима</value>
   </data>
   <data name="ranked/6/body" xml:space="preserve">
     <value>Как только сезон завершится, следите за новостями на портале игры, чтобы не пропустить дату старта следующего сезона.</value>
@@ -1688,5 +1688,101 @@
   </data>
   <data name="halloweenPVP/9/title" xml:space="preserve">
     <value>Голосовая связь</value>
+  </data>
+  <data name="epicTip1/story/0_15" xml:space="preserve">
+    <value>После того, как база захвачена, вся техника защищающейся команды, оставшаяся в зоне, будет уничтожена авиацией противника.</value>
+  </data>
+  <data name="epicTip10/modeExplanation/4_infinity" xml:space="preserve">
+    <value>Помимо славы и признания, вы также получаете ценные награды за заработанные в бою звания.</value>
+  </data>
+  <data name="epicTip11/modeExplanation/4_infinity" xml:space="preserve">
+    <value>В режиме «Линия фронта» можно разными способами заработать опыт и кредиты.</value>
+  </data>
+  <data name="epicTip12/modeExplanation/4_infinity" xml:space="preserve">
+    <value>Для продвижения на следующую линию команде атакующих необходимо заставить противника отступить. Вы можете выбирать точку для возрождения на карте как можно ближе к вашим целям.</value>
+  </data>
+  <data name="epicTip13/modeExplanation/4_infinity" xml:space="preserve">
+    <value>В случае если игроку, захватывающему базу, наносится урон, прогресс захвата не сбрасывается, но блокируется на определённое время.</value>
+  </data>
+  <data name="epicTip14/modeExplanation/4_infinity" xml:space="preserve">
+    <value>Вы можете выбрать и распределить боевые резервы в Ангаре, если выбран режим «Линия фронта». Применяйте их на поле боя, чтобы существенно навредить противнику.</value>
+  </data>
+  <data name="epicTip15/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>Вы всегда можете выбрать другое направление на экране возрождения — всё зависит от ситуации на поле боя.</value>
+  </data>
+  <data name="epicTip16/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>Не заезжайте в контролируемые противником зоны. Это может привести к быстрому уничтожению вашей машины артиллерией и авиацией противника.</value>
+  </data>
+  <data name="epicTip17/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>Если ваша машина застряла, оставьте её, используя функцию восстановления (клавиша по умолчанию — J). Вы сможете выйти в бой снова на другой машине.</value>
+  </data>
+  <data name="epicTip18/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>Разверните миникарту (клавиша по умолчанию — M) для лучшего обзора поля боя.</value>
+  </data>
+  <data name="epicTip19/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>Вы будете получать сообщения только от тех союзников, которые находятся в пределах видимой части вашей миникарты.</value>
+  </data>
+  <data name="epicTip2/story/0_15" xml:space="preserve">
+    <value>Вы можете получить множество дополнительных наград, играя в режиме «Линия фронта».</value>
+  </data>
+  <data name="epicTip20/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>Вы можете отрегулировать видимую область вашей миникарты с помощью курсора и колеса мыши.</value>
+  </data>
+  <data name="epicTip21/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>Вы можете привлечь внимание своих союзников к базам или целям противника, щёлкнув кнопкой мыши по миникарте.</value>
+  </data>
+  <data name="epicTip22/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>Когда ваша машина уничтожена, перейдите в режим свободной камеры, чтобы выбрать оптимальную тактику ведения боя перед возрождением.</value>
+  </data>
+  <data name="epicTip23/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>Если при захвате базы время боя истекает, игра будет продолжаться до тех пор, пока база не будет защищена.</value>
+  </data>
+  <data name="epicTip3/story/0_15" xml:space="preserve">
+    <value>Размер поля боя в режиме «Линия фронта» в девять раз превышает размер любой карты для Случайного боя.</value>
+  </data>
+  <data name="epicTip4/modeExplanation/4_infinity" xml:space="preserve">
+    <value>Захват каждой зоны увеличивает время боя. Захват последней зоны также даёт дополнительное время.</value>
+  </data>
+  <data name="epicTip5/modeExplanation/4_infinity" xml:space="preserve">
+    <value>После уничтожения вашей машины в бою потребуется некоторое время для её восстановления. Выберите другую машину и возвращайтесь в бой.</value>
+  </data>
+  <data name="epicTip6/modeExplanation/4_infinity" xml:space="preserve">
+    <value>Каждые пять минут вы получаете дополнительную машину в ваш резерв.</value>
+  </data>
+  <data name="epicTip7/modeExplanation/4_infinity" xml:space="preserve">
+    <value>Атакующие получают доступ в зону второй линии только после успешного захвата зоны первой линии на данном направлении.</value>
+  </data>
+  <data name="epicTip8/modeExplanation/4_infinity" xml:space="preserve">
+    <value>Захват всех зон на первой линии ослабляет все зоны на второй линии.</value>
+  </data>
+  <data name="epicTip9/modeExplanation/4_infinity" xml:space="preserve">
+    <value>Теоретически, бой можно выиграть после уничтожения всей техники противника. Однако возможность такой победы КРАЙНЕ мала.</value>
+  </data>
+  <data name="hiddenFeatures" xml:space="preserve">
+    <value>Ветерану «Линии фронта»</value>
+  </data>
+  <data name="modeExplanation" xml:space="preserve">
+    <value>Полезное на «Линии фронта»</value>
+  </data>
+  <data name="story" xml:space="preserve">
+    <value>Новичку «Линии фронта»</value>
+  </data>
+  <data name="event/0/body" xml:space="preserve">
+    <value>Зайдите на портал игры и зарегистрируйте вашу команду.</value>
+  </data>
+  <data name="event/0/title" xml:space="preserve">
+    <value>Сражайтесь за специальные призы в турнире!</value>
+  </data>
+  <data name="event/1/body" xml:space="preserve">
+    <value>Выполняйте задачи и соберите все 30 коллекционных карточек, чтобы получить знаменитого Джанлуиджи «Джиджи» Буффона в свой экипаж.</value>
+  </data>
+  <data name="event/1/title" xml:space="preserve">
+    <value>Получить Буффона в экипаж</value>
+  </data>
+  <data name="event/2/body" xml:space="preserve">
+    <value>У защитников, полузащитников и нападающих есть своя роль на футбольном поле, а также уникальные способности, которые нужно использовать в зависимости от ситуации.</value>
+  </data>
+  <data name="event/2/title" xml:space="preserve">
+    <value>Уникальные способности</value>
   </data>
 </root>

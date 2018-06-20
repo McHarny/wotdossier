@@ -202,7 +202,7 @@
     <value>Премиум</value>
   </data>
   <data name="cartPopover/openCmpBtn/tooltip/body" xml:space="preserve">
-    <value>Нажмите, чтобы перейти к сравнению выбранной техники.</value>
+    <value>Перейти к сравнению выбранной техники.</value>
   </data>
   <data name="cartPopover/openCmpBtn/tooltip/header" xml:space="preserve">
     <value>?empty?</value>
@@ -572,10 +572,10 @@
     <value>Очистить</value>
   </data>
   <data name="vehConf/tooltips/camoInfo" xml:space="preserve">
-    <value>Чтобы получить прибавку к маскировке машины для каждого типа карт, нанесите летний, зимний и пустынный типы камуфляжа.</value>
+    <value>Чтобы получить прибавку к маскировке машины для каждого типа карт, нанесите летний, зимний и пустынный камуфляж.</value>
   </data>
   <data name="vehConf/tooltips/camoInfoDisabled/body" xml:space="preserve">
-    <value>Данный всесезонный камуфляж — неотъемлемая часть машины. Его невозможно снять или нанести поверх него новый камуфляж.</value>
+    <value>Данный всесезонный камуфляж — неотъемлемая часть машины. Снять или нанести поверх него новый камуфляж невозможно.</value>
   </data>
   <data name="vehConf/tooltips/camoInfoDisabled/header" xml:space="preserve">
     <value>Всесезонный камуфляж</value>
@@ -669,5 +669,9 @@
   </data>
   <data name="header/backBtn/descrLabel/personalAwards" xml:space="preserve">
     <value>К НАГРАДАМ</value>
+  </data>
+  <data name="vehConf/tooltips/defCamoInfo" xml:space="preserve">
+    <value>Установлены без возможности снятия 
+3 типа камуфляжа: зимний, летний, пустынный.</value>
   </data>
 </root>

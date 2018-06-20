@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="available" xml:space="preserve">
+    <value>Доступно</value>
+  </data>
+  <data name="complete_mission_before" xml:space="preserve">
+    <value>Выполните «%(mission_name)s» для доступа к следующим задачам.</value>
+  </data>
+  <data name="complete_quest_before" xml:space="preserve">
+    <value>Выполните предыдущую задачу «%(quest_name)s»</value>
+  </data>
+  <data name="completed" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="continue" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="continue_quest_btn" xml:space="preserve">
+    <value>Вернуться на %(quest_name)s</value>
+  </data>
+  <data name="linkedset_completed_desc" xml:space="preserve">
+    <value>Вы закончили обучение и готовы к настоящей игре!</value>
+  </data>
+  <data name="linkedset_completed_title" xml:space="preserve">
+    <value>ПОЗДРАВЛЯЕМ!</value>
+  </data>
+  <data name="linkedset_finished_desc" xml:space="preserve">
+    <value>%(tank_name)s уже в Ангаре</value>
+  </data>
+  <data name="linkedset_finished_tittle" xml:space="preserve">
+    <value>МАШИНА ПОЛУЧЕНА</value>
+  </data>
+  <data name="linkedset_group_title" xml:space="preserve">
+    <value>Инструктаж</value>
+  </data>
+  <data name="mission_not_complete" xml:space="preserve">
+    <value>Не выполнено</value>
+  </data>
+  <data name="missions/name/1" xml:space="preserve">
+    <value>Учебный полигон</value>
+  </data>
+  <data name="missions/name/2" xml:space="preserve">
+    <value>Боевой инструктаж</value>
+  </data>
+  <data name="missions/name/3" xml:space="preserve">
+    <value>Дорога к победе</value>
+  </data>
+  <data name="missions/quests/desc/1_1" xml:space="preserve">
+    <value>Пройдите Учебный полигон для получения базовых игровых навыков, а также ценной награды.</value>
+  </data>
+  <data name="missions/quests/desc/2_1" xml:space="preserve">
+    <value>Выберите машину II-X уровня, на которой сегодня ещё не было побед, и победите в Случайном бою.</value>
+  </data>
+  <data name="missions/quests/desc/2_2" xml:space="preserve">
+    <value>Исследуйте и купите новый модуль для любой машины.</value>
+  </data>
+  <data name="missions/quests/desc/2_3" xml:space="preserve">
+    <value>Выходите в Случайный бой на машине III-X уровня, загрузив некоторое количество альтернативных снарядов.</value>
+  </data>
+  <data name="missions/quests/desc/2_4" xml:space="preserve">
+    <value>Продайте со Склада неиспользуемый модуль.</value>
+  </data>
+  <data name="missions/quests/desc/2_5" xml:space="preserve">
+    <value>На машине III-X уровня с установленным во все слоты снаряжением проведите указанное количество Случайных боёв: %(total_progress)s</value>
+  </data>
+  <data name="missions/quests/desc/2_6" xml:space="preserve">
+    <value>Нанесите любой элемент внешнего вида на машину III-X уровня и выйдите в Случайный бой.</value>
+  </data>
+  <data name="missions/quests/desc/2_7" xml:space="preserve">
+    <value>На машине IV-X уровня с любым установленным оборудованием проведите указанное количество Случайных боёв: %(total_progress)s</value>
+  </data>
+  <data name="missions/quests/desc/2_8" xml:space="preserve">
+    <value>На машине IV-X уровня с любым активированным резервом проведите указанное количество Случайных боёв: %(total_progress)s</value>
+  </data>
+  <data name="missions/quests/desc/3_1" xml:space="preserve">
+    <value>Исследуйте любую машину IV уровня.</value>
+  </data>
+  <data name="missions/quests/desc/3_2" xml:space="preserve">
+    <value>Исследуйте любую машину V уровня.</value>
+  </data>
+  <data name="missions/quests/desc/3_3" xml:space="preserve">
+    <value>Заработайте в любых боях %(total_progress)s кредитов и более.</value>
+  </data>
+  <data name="missions/quests/desc/4_1" xml:space="preserve">
+    <value>Заработайте жетон и обменяйте его на любую машину VI уровня.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_1" xml:space="preserve">
+    <value>За первую победу в день на каждой машине вы получаете в два раза больше опыта. Во время проведения некоторых акций этот множитель может быть х3 или х5.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_2" xml:space="preserve">
+    <value>Каждая машина состоит из модулей, отвечающих за определённые ТТХ. Устанавливая более совершенные модули, вы усиливаете боевой потенциал машины.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_3" xml:space="preserve">
+    <value>Перед началом боя необходимо загрузить боекомплект. Если в бою у вас закончатся снаряды — ваша машина не сможет стрелять. Снаряды разных типов отличаются по характеристикам.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_4" xml:space="preserve">
+    <value>На Складе хранятся снятые с техники модули, снаряды, оборудование и снаряжение. При необходимости всё это можно продать за половину базовой стоимости.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_5" xml:space="preserve">
+    <value>Принадлежности и расходные материалы улучшают характеристики машины или экипажа, а также позволяют бороться с повреждениями в бою. Всего можно загрузить до трёх типов снаряжения одновременно.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_6" xml:space="preserve">
+    <value>Можно придать своим боевым машинам индивидуальность, изменив их внешний вид при помощи стилей, камуфляжа, красок, надписей и эмблем. Всё это можно наносить на время или перманентно.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_7" xml:space="preserve">
+    <value>Сложное оборудование можно демонтировать только за золото. Простое оборудование демонтируется бесплатно.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_8" xml:space="preserve">
+    <value>Активировав личный резерв, вы получите временную надбавку к заработку боевого или свободного опыта, кредитов или опыта экипажа.</value>
+  </data>
+  <data name="missions/quests/hint_desc/3_1" xml:space="preserve">
+    <value>Вся техника в World of Tanks разделена на пять основных типов, различных по назначению и тактике игры. В общей сложности здесь представлено более 500 танков, САУ и ПТ-САУ.</value>
+  </data>
+  <data name="missions/quests/hint_desc/3_2" xml:space="preserve">
+    <value>Вы можете исследовать любую технику 11 наций, представленных в игре.</value>
+  </data>
+  <data name="missions/quests/hint_desc/3_3" xml:space="preserve">
+    <value>Позволяет зарабатывать больше кредитов и опыта за бой при игре на любой машине, что экономит время и ускоряет развитие в игре.</value>
+  </data>
+  <data name="missions/quests/hint_name/2_1" xml:space="preserve">
+    <value>МНОЖИТЕЛЬ ОПЫТА</value>
+  </data>
+  <data name="missions/quests/hint_name/2_2" xml:space="preserve">
+    <value>МОДУЛИ</value>
+  </data>
+  <data name="missions/quests/hint_name/2_3" xml:space="preserve">
+    <value>БОЕКОМПЛЕКТ</value>
+  </data>
+  <data name="missions/quests/hint_name/2_4" xml:space="preserve">
+    <value>СКЛАД</value>
+  </data>
+  <data name="missions/quests/hint_name/2_5" xml:space="preserve">
+    <value>СНАРЯЖЕНИЕ</value>
+  </data>
+  <data name="missions/quests/hint_name/2_6" xml:space="preserve">
+    <value>ПЕРСОНАЛИЗАЦИЯ</value>
+  </data>
+  <data name="missions/quests/hint_name/2_7" xml:space="preserve">
+    <value>СЛОЖНОЕ ОБОРУДОВАНИЕ</value>
+  </data>
+  <data name="missions/quests/hint_name/2_8" xml:space="preserve">
+    <value>ЛИЧНЫЕ РЕЗЕРВЫ</value>
+  </data>
+  <data name="missions/quests/hint_name/3_1" xml:space="preserve">
+    <value>ТИПЫ ТЕХНИКИ</value>
+  </data>
+  <data name="missions/quests/hint_name/3_2" xml:space="preserve">
+    <value>НАЦИИ</value>
+  </data>
+  <data name="missions/quests/hint_name/3_3" xml:space="preserve">
+    <value>ПРЕМИУМ АККАУНТ</value>
+  </data>
+  <data name="missions/quests/name/1_1" xml:space="preserve">
+    <value>Учебный полигон</value>
+  </data>
+  <data name="missions/quests/name/2_1" xml:space="preserve">
+    <value>Первая победа</value>
+  </data>
+  <data name="missions/quests/name/2_2" xml:space="preserve">
+    <value>Улучшаем машину</value>
+  </data>
+  <data name="missions/quests/name/2_3" xml:space="preserve">
+    <value>Новые снаряды</value>
+  </data>
+  <data name="missions/quests/name/2_4" xml:space="preserve">
+    <value>Продаём ненужное</value>
+  </data>
+  <data name="missions/quests/name/2_5" xml:space="preserve">
+    <value>Полный набор</value>
+  </data>
+  <data name="missions/quests/name/2_6" xml:space="preserve">
+    <value>Во-первых, это красиво</value>
+  </data>
+  <data name="missions/quests/name/2_7" xml:space="preserve">
+    <value>Совершенствуемся</value>
+  </data>
+  <data name="missions/quests/name/2_8" xml:space="preserve">
+    <value>Резервы</value>
+  </data>
+  <data name="missions/quests/name/3_1" xml:space="preserve">
+    <value>Машина IV уровня</value>
+  </data>
+  <data name="missions/quests/name/3_2" xml:space="preserve">
+    <value>Машина V уровня</value>
+  </data>
+  <data name="missions/quests/name/3_3" xml:space="preserve">
+    <value>%(total_progress)s кредитов</value>
+  </data>
+  <data name="missions/quests/name/4_1" xml:space="preserve">
+    <value>Курс молодого бойца</value>
+  </data>
+  <data name="missions/quests/win_desc/4_1" xml:space="preserve">
+    <value>Используйте наградной жетон, чтобы мгновенно получить любую исследуемую машину VI уровня.</value>
+  </data>
+  <data name="missions/quests/win_name/4_1" xml:space="preserve">
+    <value>ВАША НАГРАДА</value>
+  </data>
+  <data name="missions_completed" xml:space="preserve">
+    <value>Задач выполнено %(cur_count)s/%(total_count)s</value>
+  </data>
+  <data name="not_available" xml:space="preserve">
+    <value>Недоступно</value>
+  </data>
+  <data name="quest_card_title" xml:space="preserve">
+    <value>%(mission_name)s: %(quest_name)s</value>
+  </data>
+  <data name="quest_completed" xml:space="preserve">
+    <value>ЗАДАЧА ВЫПОЛНЕНА</value>
+  </data>
+  <data name="reward_for_completed_mission" xml:space="preserve">
+    <value>Блок задач «%(mission_name)s» выполнен.
+Награда за выполнение всех задач была получена.</value>
+  </data>
+  <data name="reward_for_completed_quest" xml:space="preserve">
+    <value>Задача %(quest_name)s» выполнена.
+Награда получена.</value>
+  </data>
+  <data name="reward_for_uncompleted_mission" xml:space="preserve">
+    <value>Награда за выполнение всех задач блока «%(quest_name)s»</value>
+  </data>
+  <data name="start_quest_btn" xml:space="preserve">
+    <value>Начать %(quest_name)s</value>
+  </data>
+  <data name="use_the_token" xml:space="preserve">
+    <value>Использовать жетон</value>
+  </data>
+  <data name="vehicle_list_popup/info_text" xml:space="preserve">
+    <value>У вас уже есть вся исследуемая техника %(level)s уровня.</value>
+  </data>
+</root>

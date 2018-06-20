@@ -7,6 +7,7 @@
              xmlns:controls="clr-namespace:WotDossier.Framework.Controls;assembly=WotDossier.Framework"
              xmlns:ui="clr-namespace:WotDossier.UI"
              xmlns:converters="clr-namespace:WotDossier.Converters"
+             xmlns:strings="clr-namespace:WotDossier.Resources.Strings;assembly=WotDossier.Resources"
              xmlns:autoCompleteTextBox="clr-namespace:WotDossier.Framework.Controls.AutoCompleteTextBox;assembly=WotDossier.Framework"
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="700" Background="{DynamicResource applicationBackgroundBrush}">
@@ -149,54 +150,59 @@
                     <!--country-->
                     <TextBlock Margin="12,3,6,3" Grid.Row="2" Text="{x:Static resources:Resources.TankFilterPanel_Country}" />
                     <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left">
-                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static resources:Resources.Country_Ussr}"  IsChecked="{Binding NationUSSRSelected, Mode=TwoWay}">
+                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static strings:Nations.ussr}"  IsChecked="{Binding NationUSSRSelected, Mode=TwoWay}">
                             <CheckBox.Content>
                                 <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/nations/ussr.png"></Image>
                             </CheckBox.Content>
                         </CheckBox>
-                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static resources:Resources.Country_Germany}" IsChecked="{Binding NationGermanySelected, Mode=TwoWay}">
+                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static strings:Nations.germany}" IsChecked="{Binding NationGermanySelected, Mode=TwoWay}">
                             <CheckBox.Content>
                                 <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/nations/germany.png"></Image>
                             </CheckBox.Content>
                         </CheckBox>
-                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static resources:Resources.Country_Usa}" IsChecked="{Binding NationUSSelected, Mode=TwoWay}">
+                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static strings:Nations.usa}" IsChecked="{Binding NationUSSelected, Mode=TwoWay}">
                             <CheckBox.Content>
                                 <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/nations/usa.png"></Image>
                             </CheckBox.Content>
                         </CheckBox>
-                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static resources:Resources.Country_China}" IsChecked="{Binding NationChinaSelected, Mode=TwoWay}">
+                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static strings:Nations.china}" IsChecked="{Binding NationChinaSelected, Mode=TwoWay}">
                             <CheckBox.Content>
                                 <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/nations/china.png"></Image>
                             </CheckBox.Content>
                         </CheckBox>
-                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static resources:Resources.Country_France}" IsChecked="{Binding NationFranceSelected, Mode=TwoWay}">
+                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static strings:Nations.france}" IsChecked="{Binding NationFranceSelected, Mode=TwoWay}">
                             <CheckBox.Content>
                                 <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/nations/france.png"></Image>
                             </CheckBox.Content>
                         </CheckBox>
-                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static resources:Resources.Country_Uk}" IsChecked="{Binding NationUKSelected, Mode=TwoWay}">
+                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static strings:Nations.uk}" IsChecked="{Binding NationUKSelected, Mode=TwoWay}">
                             <CheckBox.Content>
                                 <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/nations/uk.png"></Image>
                             </CheckBox.Content>
                         </CheckBox>
-                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static resources:Resources.Country_Japan}" IsChecked="{Binding NationJPSelected, Mode=TwoWay}">
+                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static strings:Nations.japan}" IsChecked="{Binding NationJPSelected, Mode=TwoWay}">
                             <CheckBox.Content>
                                 <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/nations/japan.png"></Image>
                             </CheckBox.Content>
                         </CheckBox>
-                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static resources:Resources.Country_Czech}" IsChecked="{Binding NationCZSelected, Mode=TwoWay}">
+                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static strings:Nations.czech}" IsChecked="{Binding NationCZSelected, Mode=TwoWay}">
                             <CheckBox.Content>
                                 <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/nations/czech.png"></Image>
                             </CheckBox.Content>
                         </CheckBox>
-                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static resources:Resources.Country_Sweden}" IsChecked="{Binding NationSESelected, Mode=TwoWay}">
+                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static strings:Nations.sweden}" IsChecked="{Binding NationSESelected, Mode=TwoWay}">
                             <CheckBox.Content>
                                 <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/nations/sweden.png"></Image>
                             </CheckBox.Content>
                         </CheckBox>
-                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static resources:Resources.Country_Poland}" IsChecked="{Binding NationPLSelected, Mode=TwoWay}">
+                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static strings:Nations.poland}" IsChecked="{Binding NationPLSelected, Mode=TwoWay}">
                             <CheckBox.Content>
                                 <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/nations/poland.png"></Image>
+                            </CheckBox.Content>
+                        </CheckBox>
+                        <CheckBox Margin="6,3,6,3" ToolTip="{x:Static strings:Nations.italy}" IsChecked="{Binding NationItalySelected, Mode=TwoWay}">
+                            <CheckBox.Content>
+                                <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/nations/italy.png"></Image>
                             </CheckBox.Content>
                         </CheckBox>
                     </StackPanel>

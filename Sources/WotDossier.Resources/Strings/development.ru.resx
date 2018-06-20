@@ -420,4 +420,43 @@
   <data name="editor/search" xml:space="preserve">
     <value>search</value>
   </data>
+  <data name="wulf/content/pager" xml:space="preserve">
+    <value>{current}/{total}</value>
+  </data>
+  <data name="wulf/props/title" xml:space="preserve">
+    <value>Properties:</value>
+  </data>
+  <data name="wulf/uiKitWindow/CheckBox" xml:space="preserve">
+    <value>CheckBox</value>
+  </data>
+  <data name="wulf/uiKitWindow/CheckBoxLabel" xml:space="preserve">
+    <value>Чекбокс</value>
+  </data>
+  <data name="wulf/uiKitWindow/Input" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="wulf/uiKitWindow/List" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="wulf/uiKitWindow/PrimaryBtn" xml:space="preserve">
+    <value>PrimaryBtn</value>
+  </data>
+  <data name="wulf/uiKitWindow/ProgressBarBig" xml:space="preserve">
+    <value>ProgressBarBig</value>
+  </data>
+  <data name="wulf/uiKitWindow/ProgressBarSmall" xml:space="preserve">
+    <value>ProgressBarSmall</value>
+  </data>
+  <data name="wulf/uiKitWindow/Slider" xml:space="preserve">
+    <value>Slider</value>
+  </data>
+  <data name="wulf/uiKitWindow/SlotBtn" xml:space="preserve">
+    <value>SlotButton</value>
+  </data>
+  <data name="wulf/uiKitWindow/header" xml:space="preserve">
+    <value>Header drag and drop(text from po)</value>
+  </data>
+  <data name="wulf/unboundInjectionWindow/title" xml:space="preserve">
+    <value>Unbound component test</value>
+  </data>
 </root>

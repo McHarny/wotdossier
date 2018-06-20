@@ -8,7 +8,7 @@ namespace WotDossier.Domain.Entities
     /// </summary>
     [DataContract]
     public class RandomBattlesAchievementsEntity : EntityBase, IRandomBattlesAchievements, IClanBattlesAchievements,
-        IFortAchievements, IRevised, IFalloutAchievements
+        IFortAchievements, IRevised, IFalloutAchievements, IEpicBattleAchievements
     {
         /// <summary>
         ///     Gets/Sets the field "Warrior".
@@ -560,6 +560,21 @@ namespace WotDossier.Domain.Entities
 	    [DataMember]
 		public virtual int FalloutDieHard { get; set; }
 
-		#endregion
-	}
+        #endregion
+
+        [DataMember]
+        public virtual int OccupyingForce { get; set; }
+
+        [DataMember]
+        public virtual int IronShield { get; set; }
+
+        [DataMember]
+        public virtual int GeneralOfTheArmy { get; set; }
+
+        [DataMember]
+        public virtual int SupremeGun { get; set; }
+
+        [DataMember]
+        public virtual int SmallArmy { get; set; }
+    }
 }

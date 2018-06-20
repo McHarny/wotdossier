@@ -1211,4 +1211,152 @@
   <data name="details/calculations/bonus_old_christmas" xml:space="preserve">
     <value>Бонус за традиционное Рождество</value>
   </data>
+  <data name="garage/uniqueDamage" xml:space="preserve">
+    <value>Учитывается только факт уникального критического попадания</value>
+  </data>
+  <data name="common/credits/notAccrued" xml:space="preserve">
+    <value>Не начисляются</value>
+  </data>
+  <data name="details/calculations/playerRankXP" xml:space="preserve">
+    <value>Бонус за звание</value>
+  </data>
+  <data name="details/calculations/wgmOfflineEmergency" xml:space="preserve">
+    <value>Кредиты, боны и свободный опыт, заработанные в боях, будут компенсированы после восстановления работоспособности сервиса.</value>
+  </data>
+  <data name="details/time/lbl_basesCaptured" xml:space="preserve">
+    <value>Зоны захвачены</value>
+  </data>
+  <data name="details/time/lbl_objectivesDestroyed" xml:space="preserve">
+    <value>Цели уничтожены</value>
+  </data>
+  <data name="details/time/lbl_objectivesReached" xml:space="preserve">
+    <value>Вы подобрались к ДОТам</value>
+  </data>
+  <data name="details/time/val_no" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="details/time/val_yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="details/time_epic" xml:space="preserve">
+    <value>Бой</value>
+  </data>
+  <data name="finish/reason/10lose" xml:space="preserve">
+    <value>Цели не были уничтожены</value>
+  </data>
+  <data name="finish/reason/10win" xml:space="preserve">
+    <value>Цели уничтожены</value>
+  </data>
+  <data name="team/epicRankHeader/body" xml:space="preserve">
+    <value>Сортировать по полученным в бою званиям.</value>
+  </data>
+  <data name="team/epicRankHeader/header" xml:space="preserve">
+    <value>Звание</value>
+  </data>
+  <data name="team/epicRespawnHeader/body" xml:space="preserve">
+    <value>Сортировать по количеству возрождений в бою.</value>
+  </data>
+  <data name="team/epicRespawnHeader/header" xml:space="preserve">
+    <value>Количество возрождений</value>
+  </data>
+  <data name="team/stats/labels_atkObjectives" xml:space="preserve">
+    <value>Захваченные зоны / уничтоженные цели</value>
+  </data>
+  <data name="team/stats/labels_defObjectives" xml:space="preserve">
+    <value>Успешная оборона</value>
+  </data>
+  <data name="team/stats/labels_destroyRecoveryRatio" xml:space="preserve">
+    <value>Вашей уничтоженной / восстановленной техники</value>
+  </data>
+  <data name="team/stats/labels_destructiblesDamageDealt" xml:space="preserve">
+    <value>	целям</value>
+  </data>
+  <data name="team/stats/labels_equipmentDamageAssisted" xml:space="preserve">
+    <value>	эффектами боевых резервов</value>
+  </data>
+  <data name="team/stats/labels_equipmentDamageDealt" xml:space="preserve">
+    <value>	боевыми резервами</value>
+  </data>
+  <data name="team/stats/labels_timesDestroyed" xml:space="preserve">
+    <value>Своих машин потеряно в бою</value>
+  </data>
+  <data name="team/stats/infotip_xpForAssist/body" xml:space="preserve">
+    <value>Учитывается:
+• помощь передачей разведданных, сбитием гусениц или оглушением;
+• захват/защита базы;
+• первое обнаружение машины противника.</value>
+  </data>
+  <data name="team/stats/infotip_xpForAssist/header" xml:space="preserve">
+    <value>За содействие</value>
+  </data>
+  <data name="team/stats/infotip_xpForAttack/body" xml:space="preserve">
+    <value>Учитывается:
+• лично нанесённый урон;
+• лично уничтоженные машины;
+• урон по модулям;
+• надбавка за урон команды игрока.</value>
+  </data>
+  <data name="team/stats/infotip_xpForAttack/header" xml:space="preserve">
+    <value>За урон и уничтожение</value>
+  </data>
+  <data name="team/stats/infotip_xpOther/body" xml:space="preserve">
+    <value>Учитываются надбавки за эффективную игру, не вошедшие в предыдущие пункты.</value>
+  </data>
+  <data name="team/stats/infotip_xpOther/header" xml:space="preserve">
+    <value>За активные боевые действия</value>
+  </data>
+  <data name="team/stats/labels_xp" xml:space="preserve">
+    <value>Всего получено опыта</value>
+  </data>
+  <data name="team/stats/labels_xpForAssist" xml:space="preserve">
+    <value>	за содействие</value>
+  </data>
+  <data name="team/stats/labels_xpForAttack" xml:space="preserve">
+    <value>	за нанесение урона</value>
+  </data>
+  <data name="team/stats/labels_xpOther" xml:space="preserve">
+    <value>	прочее</value>
+  </data>
+  <data name="common/details/footballScore" xml:space="preserve">
+    <value>%d:%d</value>
+  </data>
+  <data name="finish/reason/1football_1_lose" xml:space="preserve">
+    <value>Поражение красной команды</value>
+  </data>
+  <data name="finish/reason/1football_1_win" xml:space="preserve">
+    <value>Победа красной команды</value>
+  </data>
+  <data name="finish/reason/1football_2_lose" xml:space="preserve">
+    <value>Поражение синей команды</value>
+  </data>
+  <data name="finish/reason/1football_2_win" xml:space="preserve">
+    <value>Победа синей команды</value>
+  </data>
+  <data name="finish/reason/1football_tie" xml:space="preserve">
+    <value>Ничья</value>
+  </data>
+  <data name="team/footballAssists/body" xml:space="preserve">
+    <value>Общее количество голевых пасов</value>
+  </data>
+  <data name="team/footballAssists/header" xml:space="preserve">
+    <value>Голевые пасы</value>
+  </data>
+  <data name="team/footballGoals/body" xml:space="preserve">
+    <value>Общее количество забитых голов</value>
+  </data>
+  <data name="team/footballGoals/header" xml:space="preserve">
+    <value>Голы</value>
+  </data>
+  <data name="team/stats/labels_assists" xml:space="preserve">
+    <value>Голевые пасы</value>
+  </data>
+  <data name="team/stats/labels_goals" xml:space="preserve">
+    <value>Забитые голы</value>
+  </data>
+  <data name="team/stats/labels_productivityPoints" xml:space="preserve">
+    <value>Очки эффективности</value>
+  </data>
+  <data name="team/stats/labels_selfGoals" xml:space="preserve">
+    <value>Автоголы</value>
+  </data>
 </root>

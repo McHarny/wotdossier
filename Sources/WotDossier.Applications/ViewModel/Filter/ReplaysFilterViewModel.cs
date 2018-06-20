@@ -54,6 +54,7 @@ namespace WotDossier.Applications.ViewModel.Filter
         private bool _nationCzSelected = true;
         private bool _nationSeSelected = true;
         private bool _nationPlSelected = true;
+        private bool _nationItalySelected = true;
         private bool _isPremium;
         private bool _isFavorite;
         private ReplayFolder _selectedFolder;
@@ -321,6 +322,16 @@ namespace WotDossier.Applications.ViewModel.Filter
             {
                 _nationPlSelected = value;
                 OnPropertyChanged("NationPLSelected");
+            }
+        }
+
+        public bool NationItalySelected
+        {
+            get { return _nationItalySelected; }
+            set
+            {
+                _nationItalySelected = value;
+                OnPropertyChanged("NationItalySelected");
             }
         }
 
@@ -733,6 +744,7 @@ namespace WotDossier.Applications.ViewModel.Filter
                     || NationCZSelected && tank.CountryId == (int) Country.Czech
                     || NationSESelected && tank.CountryId == (int) Country.Sweden
                     || NationPLSelected && tank.CountryId == (int)Country.Poland
+                    || NationPLSelected && tank.CountryId == (int)Country.Italy
                     || NationUKSelected && tank.CountryId == (int) Country.Uk)
                    && (tank.Premium || !IsPremium);
         }

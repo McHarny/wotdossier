@@ -1455,6 +1455,42 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bonus for Modern Christmas.
+        /// </summary>
+        public static string details_calculations_bonus_christmas {
+            get {
+                return ResourceManager.GetString("details/calculations/bonus_christmas", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bonus for Chinese New Year.
+        /// </summary>
+        public static string details_calculations_bonus_eastern_new_year {
+            get {
+                return ResourceManager.GetString("details/calculations/bonus_eastern_new_year", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bonus for Soviet New Year.
+        /// </summary>
+        public static string details_calculations_bonus_new_year {
+            get {
+                return ResourceManager.GetString("details/calculations/bonus_new_year", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bonus for Traditional Christmas.
+        /// </summary>
+        public static string details_calculations_bonus_old_christmas {
+            get {
+                return ResourceManager.GetString("details/calculations/bonus_old_christmas", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Personal Reserves bonus.
         /// </summary>
         public static string details_calculations_boosters {
@@ -2643,6 +2679,24 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 	damage to Leviathan.
+        /// </summary>
+        public static string team_stats_labels_bossDamageDealt {
+            get {
+                return ResourceManager.GetString("team/stats/labels_bossDamageDealt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Leviathan gun damage/landmine damage.
+        /// </summary>
+        public static string team_stats_labels_bossDamageTurretHazardReceived {
+            get {
+                return ResourceManager.GetString("team/stats/labels_bossDamageTurretHazardReceived", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Base capture points.
         /// </summary>
         public static string team_stats_labels_capturePoints {
@@ -2832,6 +2886,15 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Health packs used/healing done.
+        /// </summary>
+        public static string team_stats_labels_healthPackStats {
+            get {
+                return ResourceManager.GetString("team/stats/labels_healthPackStats", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hits received as a result of splash damage.
         /// </summary>
         public static string team_stats_labels_heHitsReceived {
@@ -2882,6 +2945,15 @@ namespace WotDossier.Resources.Strings {
         public static string team_stats_labels_mileage {
             get {
                 return ResourceManager.GetString("team/stats/labels_mileage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 	primary/secondary.
+        /// </summary>
+        public static string team_stats_labels_multiTurretDamageDealt {
+            get {
+                return ResourceManager.GetString("team/stats/labels_multiTurretDamageDealt", resourceCulture);
             }
         }
         
@@ -2954,6 +3026,15 @@ namespace WotDossier.Resources.Strings {
         public static string team_stats_labels_ricochetReceived {
             get {
                 return ResourceManager.GetString("team/stats/labels_ricochetReceived", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 	secondary direct hits/penetrations.
+        /// </summary>
+        public static string team_stats_labels_secondaryTurretHits {
+            get {
+                return ResourceManager.GetString("team/stats/labels_secondaryTurretHits", resourceCulture);
             }
         }
         

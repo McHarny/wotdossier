@@ -1739,7 +1739,7 @@ Home/End — перемотка в начало/конец
     <value>Время подготовки: %(cooldownSeconds)s с.</value>
   </data>
   <data name="efficiencyRibbons/stun" xml:space="preserve">
-    <value>Оглушение экипажа</value>
+    <value>Помощь оглушением</value>
   </data>
   <data name="player_errors/equipment/isInCooldown" xml:space="preserve">
     <value>Снаряжение [%(name)s] недоступно: перезаряжается.</value>
@@ -1921,5 +1921,213 @@ Home/End — перемотка в начало/конец
   </data>
   <data name="marker/meters" xml:space="preserve">
     <value>м</value>
+  </data>
+  <data name="colorSettingsTipPanel/btnLabel" xml:space="preserve">
+    <value>Перейти к настройкам</value>
+  </data>
+  <data name="colorSettingsTipPanel/desc" xml:space="preserve">
+    <value>Вы можете настроить яркость и контрастность изображения в настройках графики.</value>
+  </data>
+  <data name="colorSettingsTipPanel/header" xml:space="preserve">
+    <value>Настройки графики</value>
+  </data>
+  <data name="hitMarker/blocked" xml:space="preserve">
+    <value>Броня не пробита</value>
+  </data>
+  <data name="hitMarker/critical" xml:space="preserve">
+    <value>Критический урон</value>
+  </data>
+  <data name="hitMarker/ricochet" xml:space="preserve">
+    <value>Рикошет</value>
+  </data>
+  <data name="attackReason/artilleryProtection" xml:space="preserve">
+    <value>Артобстрел</value>
+  </data>
+  <data name="attackReason/artillery_sector" xml:space="preserve">
+    <value>Артобстрел</value>
+  </data>
+  <data name="attackReason/bombers" xml:space="preserve">
+    <value>Авиаудар</value>
+  </data>
+  <data name="chat_example/global_msg/atk/focus_hq" xml:space="preserve">
+    <value>Уничтожьте цели</value>
+  </data>
+  <data name="chat_example/global_msg/atk/save_tanks" xml:space="preserve">
+    <value>Не теряйте свою технику!</value>
+  </data>
+  <data name="chat_example/global_msg/atk/time" xml:space="preserve">
+    <value>Захватите зону</value>
+  </data>
+  <data name="chat_example/global_msg/def/focus_hq" xml:space="preserve">
+    <value>Обороняйте цели</value>
+  </data>
+  <data name="chat_example/global_msg/def/save_tanks" xml:space="preserve">
+    <value>Не теряйте свою технику!</value>
+  </data>
+  <data name="chat_example/global_msg/def/time" xml:space="preserve">
+    <value>Защищайте зоны</value>
+  </data>
+  <data name="chat_example/global_msg/lane/center" xml:space="preserve">
+    <value>В зоне требуется подкрепление</value>
+  </data>
+  <data name="chat_example/global_msg/lane/east" xml:space="preserve">
+    <value>В зоне требуется подкрепление</value>
+  </data>
+  <data name="chat_example/global_msg/lane/west" xml:space="preserve">
+    <value>В зоне требуется подкрепление</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_base_atk" xml:space="preserve">
+    <value>Захватите %(strArg1)s</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_base_def" xml:space="preserve">
+    <value>Защищайте %(strArg1)s</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_objective_atk" xml:space="preserve">
+    <value>Уничтожьте цель %(int32Arg1)s</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_objective_def" xml:space="preserve">
+    <value>Защищайте цель %(int32Arg1)s</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_position" xml:space="preserve">
+    <value>Внимание на позицию!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/atk/focus_hq" xml:space="preserve">
+    <value>Уничтожайте цели!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/atk/save_tanks" xml:space="preserve">
+    <value>У нас достаточно времени, не теряйте свою технику!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/atk/time" xml:space="preserve">
+    <value>Время на исходе! Бросьте все силы на захват!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/def/focus_hq" xml:space="preserve">
+    <value>Обороняйте цели!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/def/save_tanks" xml:space="preserve">
+    <value>Нам нужно сдержать натиск, не теряйте свою технику!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/def/time" xml:space="preserve">
+    <value>Время на исходе! Обороняйтесь изо всех сил!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/lane/center" xml:space="preserve">
+    <value>Требуется подкрепление в зоне %(strArg1)s!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/lane/east" xml:space="preserve">
+    <value>Требуется подкрепление в зоне %(strArg1)s!</value>
+  </data>
+  <data name="chat_shortcuts/global_msg/lane/west" xml:space="preserve">
+    <value>Требуется подкрепление в зоне %(strArg1)s!</value>
+  </data>
+  <data name="efficiencyRibbons/assistByAbility" xml:space="preserve">
+    <value>Поддержка боевыми резервами</value>
+  </data>
+  <data name="efficiencyRibbons/defenderBonus" xml:space="preserve">
+    <value>Зона защищена</value>
+  </data>
+  <data name="efficiencyRibbons/destructibleDamaged" xml:space="preserve">
+    <value>Нанесён урон</value>
+  </data>
+  <data name="efficiencyRibbons/destructibleDestroyed" xml:space="preserve">
+    <value>Цель уничтожена</value>
+  </data>
+  <data name="efficiencyRibbons/destructiblesDefended" xml:space="preserve">
+    <value>Цель защищена</value>
+  </data>
+  <data name="efficiencyRibbons/enemySectorCaptured" xml:space="preserve">
+    <value>Зона захвачена</value>
+  </data>
+  <data name="efficiencyRibbons/vehicleRecovery" xml:space="preserve">
+    <value>Машина оставлена</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_READY_INSPIRE" xml:space="preserve">
+    <value>Ваш экипаж готов воодушевить союзников.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_READY_RECON" xml:space="preserve">
+    <value>Самолёт прибыл и готов вести разведку.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_READY_SMOKE" xml:space="preserve">
+    <value>Батарея дымопуска готова вести огонь.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_USED_INSPIRE" xml:space="preserve">
+    <value>%(player)s активирует воодушевление.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_USED_RECON" xml:space="preserve">
+    <value>%(player)s вызвал самолёт-разведчик.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_USED_SMOKE" xml:space="preserve">
+    <value>%(player)s поставил дымовую завесу.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY" xml:space="preserve">
+    <value>%(target)s уничтожен огнём артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY" xml:space="preserve">
+    <value>%(target)s уничтожен огнём артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE" xml:space="preserve">
+    <value>%(target)s уничтожен огнём артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY" xml:space="preserve">
+    <value>%(target)s уничтожен огнём артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY" xml:space="preserve">
+    <value>%(target)s уничтожен огнём артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE" xml:space="preserve">
+    <value>%(target)s уничтожен огнём артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY" xml:space="preserve">
+    <value>%(target)s уничтожен огнём артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY" xml:space="preserve">
+    <value>%(target)s уничтожен огнём артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE" xml:space="preserve">
+    <value>%(target)s уничтожен авиаударом.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE" xml:space="preserve">
+    <value>%(target)s уничтожен авиаударом.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE" xml:space="preserve">
+    <value>%(target)s покинул свою машину.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE" xml:space="preserve">
+    <value>%(target)s покинул свою машину.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY" xml:space="preserve">
+    <value>%(target)s уничтожен во время бомбардировки.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY" xml:space="preserve">
+    <value>%(target)s уничтожен во время бомбардировки.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY" xml:space="preserve">
+    <value>%(target)s уничтожен огнём артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY" xml:space="preserve">
+    <value>%(target)s уничтожен огнём артбатареи.</value>
+  </data>
+  <data name="player_messages/DESTRUCTIBLE_DESTROYED_ALLY" xml:space="preserve">
+    <value>%(attacker)s уничтожил цель: %(target)s.</value>
+  </data>
+  <data name="player_messages/DESTRUCTIBLE_DESTROYED_ENEMY" xml:space="preserve">
+    <value>%(attacker)s уничтожил цель: %(target)s.</value>
+  </data>
+  <data name="player_messages/DESTRUCTIBLE_DESTROYED_SELF" xml:space="preserve">
+    <value>Вы уничтожили цель: %(target)s.</value>
+  </data>
+  <data name="player_messages/base_capture_blocked" xml:space="preserve">
+    <value>Захват базы заблокирован</value>
+  </data>
+  <data name="recovery/cooldown" xml:space="preserve">
+    <value>Вы сможете оставить машину через %(cooldown)s сек.</value>
+  </data>
+  <data name="recovery/hint1" xml:space="preserve">
+    <value>Удерживайте</value>
+  </data>
+  <data name="recovery/hint2" xml:space="preserve">
+    <value>, чтобы оставить машину</value>
+  </data>
+  <data name="respawnView/classNotAvailable" xml:space="preserve">
+    <value>Достигнут лимит
+направления</value>
   </data>
 </root>

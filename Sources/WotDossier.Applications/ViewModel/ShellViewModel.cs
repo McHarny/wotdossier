@@ -435,7 +435,11 @@ namespace WotDossier.Applications.ViewModel
 	        {
 		        exportInterfaces.Add(typeof(IFalloutAchievements));
 	        }
-			SaveAsCsv(provider.Export(_tanks, exportInterfaces));
+            if (BattleModeSelector.BattleMode == BattleMode.EpicBattle)
+            {
+                exportInterfaces.Add(typeof(IEpicBattleAchievements));
+            }
+            SaveAsCsv(provider.Export(_tanks, exportInterfaces));
         }
 
         private void OnExportFragsToCsv()

@@ -148,7 +148,7 @@
     <value>Display Alternative Marker</value>
   </data>
   <data name="battleControls/switchAutorotation" xml:space="preserve">
-    <value>Switch from Travel to Siege mode</value>
+    <value>Lock Hull / Switch Mode</value>
   </data>
   <data name="battleControls/title" xml:space="preserve">
     <value>Battle Mode</value>

@@ -147,4 +147,7 @@
   <data name="poland" xml:space="preserve">
     <value>Poland</value>
   </data>
+  <data name="italy" xml:space="preserve">
+    <value>Italy</value>
+  </data>
 </root>

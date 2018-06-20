@@ -7095,4 +7095,10 @@
   <data name="names/britn3004" xml:space="preserve">
     <value>_3004</value>
   </data>
+  <data name="names/Buffon" xml:space="preserve">
+    <value>Buffon</value>
+  </data>
+  <data name="names/Gianluigi" xml:space="preserve">
+    <value>Gianluigi</value>
+  </data>
 </root>

@@ -156,4 +156,37 @@
   <data name="_75mm_Sprg.18L" xml:space="preserve">
     <value>Sprgr 19 L</value>
   </data>
+  <data name="Chassis_Pl08_Czolg_T_wz51" xml:space="preserve">
+    <value>50TP prototyp</value>
+  </data>
+  <data name="Pl08_Czolg_T_wz51" xml:space="preserve">
+    <value>50TP prototyp</value>
+  </data>
+  <data name="Pl08_Czolg_T_wz51_descr" xml:space="preserve">
+    <value>Первоначальный проект тяжёлого танка курсанта Тадеуша Тышкевича. Разрабатывался в Военно-технической академии Варшавы в начале 1950-х годов и предусматривал проектирование машины массой до 50 тонн. Разработка была прекращена на стадии аванпроекта.</value>
+  </data>
+  <data name="Pl08_Czolg_T_wz51_short" xml:space="preserve">
+    <value>50TP pr.</value>
+  </data>
+  <data name="RTU_Jesion" xml:space="preserve">
+    <value>RTU «Jesion»</value>
+  </data>
+  <data name="Turret_1_Pl08_Czolg_T_wz51" xml:space="preserve">
+    <value>50TP prototyp</value>
+  </data>
+  <data name="W_12_5" xml:space="preserve">
+    <value>W12-5</value>
+  </data>
+  <data name="_122_mm_wz_43_50" xml:space="preserve">
+    <value>122 mm wz.43/50</value>
+  </data>
+  <data name="_122mm_BR-471_B" xml:space="preserve">
+    <value>BR-471B</value>
+  </data>
+  <data name="_122mm_BR-471_D" xml:space="preserve">
+    <value>BR-471D</value>
+  </data>
+  <data name="_122mm_OF-471" xml:space="preserve">
+    <value>OF-471</value>
+  </data>
 </root>

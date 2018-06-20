@@ -288,7 +288,17 @@
 	    public int Bannerman { get; set; }
 	    public int FalloutDieHard { get; set; }
 
-		#endregion
+        #endregion
 
-	}
+        #region Achievements Epic Battle
+
+        public int OccupyingForce { get; set; }
+        public int IronShield { get; set; }
+        public int GeneralOfTheArmy { get; set; }
+        public int SupremeGun { get; set; }
+        public int SmallArmy { get; set; }
+
+        #endregion
+
+    }
 }

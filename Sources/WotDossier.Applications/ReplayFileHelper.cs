@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -10,6 +11,8 @@ using Newtonsoft.Json.Linq;
 using WotDossier.Applications.Parser;
 using WotDossier.Common;
 using WotDossier.Common.Extensions;
+using WotDossier.Common.Json;
+using WotDossier.Domain;
 using WotDossier.Domain.Replay;
 
 namespace WotDossier.Applications
@@ -321,23 +324,23 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
 
             if (version <= new Version("0.8.1.0"))
             {
-                return new Parser81();
+                return new Parser_0_8_1_0();
             }
             if (version <= new Version("0.8.3.0"))
             {
-                return new Parser83();
+                return new Parser_0_8_3_0();
             }
             if (version <= new Version("0.8.5.0"))
             {
-                return new Parser85();
+                return new Parser_0_8_5_0();
             }
             if (version <= new Version("0.8.7.0"))
             {
-                return new Parser86();
+                return new Parser_0_8_6_0();
             }
             if (version <= new Version("0.8.8.0"))
             {
-                return new Parser88();
+                return new Parser_0_8_8_0();
             }
             if (version < new Version("0.9.3.0"))
             {
@@ -345,67 +348,73 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
             }
             if (version < new Version("0.9.6.0"))
             {
-                return new Parser93();
+                return new Parser_0_9_3_0();
             }
             if (version < new Version("0.9.8.0"))
             {
-                return new Parser96();
+                return new Parser_0_9_6_0();
             }
             if (version < new Version("0.9.9.0"))
             {
-                return new Parser98();
+                return new Parser_0_9_8_0();
             }
             if (version < new Version("0.9.10.0"))
             {
-                return new Parser99();
+                return new Parser_0_9_9_0();
             }
             if (version < new Version("0.9.12.0"))
             {
-                return new Parser910();
+                return new Parser_0_9_1_0();
             }
             if (version < new Version("0.9.13.0"))
             {
-                return new Parser912();
+                return new Parser_0_9_12_0();
             }
             if (version < new Version("0.9.14.0"))
             {
-                return new Parser913();
+                return new Parser_0_9_13_0();
             }
             if (version < new Version("0.9.15.0"))
             {
-                return new Parser914();
+                return new Parser_0_9_14_0();
             }
             if (version < new Version("0.9.16.0"))
             {
-                return new Parser915();
+                return new Parser_0_9_15_0();
             }
             if (version < new Version("0.9.17.0"))
             {
-                return new Parser916();
+                return new Parser_0_9_16_0();
             }
             if (version < new Version("0.9.17.1"))
             {
-                return new Parser917();
+                return new Parser_0_9_17_0();
             }
 	        if (version < new Version("0.9.19.1"))
 	        {
-		        return new Parser9171();
+		        return new Parser_0_9_17_1();
 	        }
 			if (version < new Version("0.9.20.0"))
 	        {
-		        return new Parser9191();
+		        return new Parser_0_9_19_1();
 	        }
             if (versionId < 92001010000)
-            //if (version < new Version("0.9.20.1"))
 	        {
-		        return new Parser920();
+		        return new Parser_0_9_20_0();
 	        }
             if (version < new Version("0.9.21.0"))
             {
-                return new Parser92011();
+                return new Parser_0_9_20_1_1();
             }
 
-            return new Parser921();
+            if (versionId < 1000000000000)
+                return new Parser_0_9_21_0();
+
+            if (version < new Version("1.0.1.0"))
+            {
+                return new Parser_1_0_0_0();
+            }
+            return new Parser_1_0_1_0();
         }
 
 

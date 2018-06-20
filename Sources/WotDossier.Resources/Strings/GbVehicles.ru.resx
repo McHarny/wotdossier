@@ -520,7 +520,7 @@
     <value>FV215b</value>
   </data>
   <data name="GB13_FV215b_descr" xml:space="preserve">
-    <value>Аванпроект тяжёлого танка на базе Conqueror Mk. II. От серийной машины отличался задним расположением боевого отделения. Не было выпущено ни одного прототипа.</value>
+    <value>Аванпроект тяжёлого танка на базе Conqueror Mk.II. От серийной машины отличался задним расположением боевого отделения. Прототип построен не был. На вооружении не состоял.</value>
   </data>
   <data name="GB20_Crusader" xml:space="preserve">
     <value>Crusader</value>
@@ -1176,7 +1176,7 @@
     <value>AT 2</value>
   </data>
   <data name="GB73_AT2_descr" xml:space="preserve">
-    <value>Проект штурмового танка, предназначенного для прорыва укреплённых районов противника. Эскиз машины был готов 15 мая 1943 г. Опытный образец построен не был, но проект послужил началом работ по созданию тяжёлого штурмового танка A39 Tortoise.</value>
+    <value>Проект штурмового танка, предназначенного для прорыва укреплённых районов противника. Эскиз машины был готов 15 мая 1943 году. Опытный образец построен не был, но проект послужил началом работ по созданию тяжёлого штурмового танка A39 Tortoise.</value>
   </data>
   <data name="GB74_AT8" xml:space="preserve">
     <value>AT 8</value>
@@ -2317,5 +2317,38 @@ AOI-1195-5</value>
   </data>
   <data name="_183mm_L4" xml:space="preserve">
     <value>183 mm L4</value>
+  </data>
+  <data name="Chassis_GB94_Centurion_Mk5-1_RAAC" xml:space="preserve">
+    <value>Centurion Mk. 5/1 RAAC</value>
+  </data>
+  <data name="GB94_Centurion_Mk5-1_RAAC" xml:space="preserve">
+    <value>Centurion Mk. 5/1 RAAC</value>
+  </data>
+  <data name="GB94_Centurion_Mk5-1_RAAC_descr" xml:space="preserve">
+    <value>Одна из модификаций послевоенного британского танка Centurion Mk. 5 с усиленной лобовой бронёй, улучшенным пулемётным вооружением и более мощным двигателем. Отличительной чертой данной машины является наличие на корме дополнительного бронированного топливного бака на 100 галлонов и отсутствие экранов. Состоял на вооружении австралийских танковых частей во время войны во Вьетнаме.</value>
+  </data>
+  <data name="GB94_Centurion_Mk5-1_RAAC_short" xml:space="preserve">
+    <value>Centurion 5/1</value>
+  </data>
+  <data name="Rolls_Royce_Meteor_Mark_IVB_900" xml:space="preserve">
+    <value>Rolls-Royce Meteor Mk. IVB (900)</value>
+  </data>
+  <data name="Turret_1_GB94_Centurion_Mk5-1_RAAC" xml:space="preserve">
+    <value>Centurion Mk. 5/1 RAAC</value>
+  </data>
+  <data name="Chassis_GB95_Ekins_Firefly_M4A4" xml:space="preserve">
+    <value>Sherman VC</value>
+  </data>
+  <data name="GB95_Ekins_Firefly_M4A4" xml:space="preserve">
+    <value>Sherman VC Firefly</value>
+  </data>
+  <data name="GB95_Ekins_Firefly_M4A4_descr" xml:space="preserve">
+    <value>Британский Sherman Firefly VС (эскадрон «А» 1-го полка Нортгемптонширских йоменов) носил имя «Великие Луки» в честь советского города. 8 августа 1944 года на опушке леса между населёнными пунктами Сент-Эньян-де-Крамений и Сенто была организована засада британцев. Наводчик «Шермана» Джо Экинс открыл прицельный огонь по двигавшимся по дороге «Тиграм». В ходе 12-минутного боя три немецкие машины были уничтожены. Как оказалось впоследствии, одна из машин (под номером 007) принадлежала «Чёрному барону» Михаэлю Виттману — одному из самых результативных танковых асов Германии. Однако до сих пор на лавры «убийцы Виттмана» претендуют несколько кандидатов, так как в перестрелке принимали участие и другие машины.</value>
+  </data>
+  <data name="GB95_Ekins_Firefly_M4A4_short" xml:space="preserve">
+    <value>Firefly VC</value>
+  </data>
+  <data name="Turret_1_GB95_Ekins_Firefly_M4A4" xml:space="preserve">
+    <value>Sherman VC</value>
   </data>
 </root>

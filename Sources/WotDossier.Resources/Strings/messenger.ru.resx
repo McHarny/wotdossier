@@ -967,7 +967,7 @@
     <value>Списано дней премиум аккаунта</value>
   </data>
   <data name="serviceChannelMessages/invoiceReceived/premium_account" xml:space="preserve">
-    <value>Премиум</value>
+    <value>Премиум аккаунт</value>
   </data>
   <data name="serviceChannelMessages/invoiceReceived/vehiclesAccrued" xml:space="preserve">
     <value>Добавлена техника</value>
@@ -2611,7 +2611,7 @@ IV уровня и выше, чтобы получать больше опыта
     <value>Боны: %(crystal)s</value>
   </data>
   <data name="serviceChannelMessages/sysMsg/titles/primeTime" xml:space="preserve">
-    <value>Прекращения огня</value>
+    <value>Режим прекращения огня</value>
   </data>
   <data name="serviceChannelMessages/sysMsg/titles/rankedBattlesAvailable" xml:space="preserve">
     <value>Ранговые бои доступны</value>
@@ -2666,7 +2666,7 @@ IV уровня и выше, чтобы получать больше опыта
     <value>Списано нашивок</value>
   </data>
   <data name="serviceChannelMessages/sysMsg/converter/customizations" xml:space="preserve">
-    <value>Изменены элементы внешнего вида</value>
+    <value>Изменены элементы внешнего вида.</value>
   </data>
   <data name="serviceChannelMessages/sysMsg/converter/customizationsBuy" xml:space="preserve">
     <value>Изменены элементы внешнего вида. Приобретено элементов: %(count)s. Потрачено %(money)s.</value>
@@ -2682,5 +2682,95 @@ IV уровня и выше, чтобы получать больше опыта
   </data>
   <data name="serviceChannelMessages/sysMsg/customizations/sell_2" xml:space="preserve">
     <value>%(itemType)s «%(itemName)s» успешно продана: %(count)s шт. Получено %(money)s.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/nothingChanged" xml:space="preserve">
+    <value>шеврон защищён</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/rankEarned" xml:space="preserve">
+    <value>получен %(rank)s ранг</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/rankLost" xml:space="preserve">
+    <value>потерян %(rank)s ранг</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/rankPoint" xml:space="preserve">
+    <value>получено очко ранга</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/stepEarned" xml:space="preserve">
+    <value>получен шеврон</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/stepLost" xml:space="preserve">
+    <value>потерян шеврон</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/stepsEarned" xml:space="preserve">
+    <value>получены шевроны</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/shield/shield_lose" xml:space="preserve">
+    <value>защита ранга разбита</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/shield/shield_lose_step" xml:space="preserve">
+    <value>защита ранга ослабла</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/nothingChanged" xml:space="preserve">
+    <value>шеврон сохранён</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/rankEarned" xml:space="preserve">
+    <value>получен %(rank)s ранг</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/rankLost" xml:space="preserve">
+    <value>потерян %(rank)s ранг</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/rankPoint" xml:space="preserve">
+    <value>получено очко ранга</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/stepEarned" xml:space="preserve">
+    <value>получен шеврон</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/stepLost" xml:space="preserve">
+    <value>потерян шеврон</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/stepsEarned" xml:space="preserve">
+    <value>получены шевроны</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/customizations/buy" xml:space="preserve">
+    <value>%(itemType)s «%(itemName)s», %(count)s шт. Потрачено %(money)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/customizations/sell" xml:space="preserve">
+    <value>%(itemType)s «%(itemName)s», %(count)s шт. Получено %(money)s</value>
+  </data>
+  <data name="chat/personalMessage/warningBody" xml:space="preserve">
+    <value>Сообщения от незнакомых игроков могут содержать вредоносные ссылки. Не переходите по ссылкам и никому не сообщайте пароль от своего аккаунта.</value>
+  </data>
+  <data name="chat/personalMessage/warningHead" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="dialogs/squadChannel/headerMsg/epicBattleFormationRestriction" xml:space="preserve">
+    <value>В режиме «Линия фронта» участвует только техника VIII уровня.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/credits/notAccrued" xml:space="preserve">
+    <value>не начисляется</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleRentIsOver/button" xml:space="preserve">
+    <value>Ко внешнему виду</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleRentIsOver/text" xml:space="preserve">
+    <value>Срок действия арендного стиля «%s» на машине %s истёк. Вы можете продлить аренду на экране «Внешний вид».</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/camouflage" xml:space="preserve">
+    <value>камуфляж</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/emblem" xml:space="preserve">
+    <value>эмблему</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/inscription" xml:space="preserve">
+    <value>надпись</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/modification" xml:space="preserve">
+    <value>эффект</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/paint" xml:space="preserve">
+    <value>краску</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/style" xml:space="preserve">
+    <value>стиль</value>
   </data>
 </root>

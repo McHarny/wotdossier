@@ -2743,6 +2743,15 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hide non-historical elements.
+        /// </summary>
+        public static string game_c11nHistoricallyAccurate {
+            get {
+                return ResourceManager.GetString("game/c11nHistoricallyAccurate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Vehicle panel.
         /// </summary>
         public static string game_carouselType {
@@ -4299,6 +4308,15 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Fire secondary only.
+        /// </summary>
+        public static string keyboard_keysBlocks_command_fire_secondary {
+            get {
+                return ResourceManager.GetString("keyboard/keysBlocks/command/fire_secondary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Follow me!.
         /// </summary>
         public static string keyboard_keysBlocks_command_follow_me {
@@ -4677,7 +4695,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Trajectory view.
+        ///   Looks up a localized string similar to Trajectory View.
         /// </summary>
         public static string keyboard_keysBlocks_command_trajectory_view {
             get {
@@ -6958,7 +6976,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Custom sound. Move the sixthSense.mp3 file to the resaudioww folder..
+        ///   Looks up a localized string similar to Custom sound. Move the sixthSense.mp3 file to the res/audioww folder..
         /// </summary>
         public static string sounds_sixthSense_body {
             get {

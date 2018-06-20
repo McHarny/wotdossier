@@ -36,9 +36,7 @@
   <PropertyGroup>
     <ApplicationIcon>app_icon.ico</ApplicationIcon>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
-  </PropertyGroup>
+  <PropertyGroup />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\Debug\</OutputPath>
@@ -273,9 +271,6 @@
     </Compile>
     <Compile Include="Tabs\Charts\ReplaysStatTab.xaml.cs">
       <DependentUpon>ReplaysStatTab.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Tabs\Replay\RawData.xaml.cs">
-      <DependentUpon>RawData.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\MedalSearchItemTemplateSelector.cs" />
     <Compile Include="MinimizeToTray.cs" />
@@ -757,10 +752,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Tabs\Replay\RawData.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Tabs\Replay\Equipment.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -935,9 +926,6 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <Content Include="app.manifest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <EmbeddedResource Include="Data\ReplaysCatalog.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>

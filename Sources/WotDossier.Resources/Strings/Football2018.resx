@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="E100_210mm_Gr.18Be_sport" xml:space="preserve">
+    <value>Gr.18Be Sport</value>
+  </data>
+  <data name="E100_210mm_Sprg18_Ausf_G_sport" xml:space="preserve">
+    <value>Sprg18 Ausf G Sport</value>
+  </data>
+  <data name="E100_210mm_Sprg18_sport" xml:space="preserve">
+    <value>Sprg18 Sport</value>
+  </data>
+  <data name="E100_sport_chassis_name" xml:space="preserve">
+    <value>E 100 Sport</value>
+  </data>
+  <data name="E100_sport_descr" xml:space="preserve">
+    <value>Defender tanks are the most effective at guarding your goal. Use the Splash ability to kick the ball and destroy the tracks of unlucky opponents.</value>
+  </data>
+  <data name="E100_sport_engine_name" xml:space="preserve">
+    <value>Maybach HL234P60 Sport</value>
+  </data>
+  <data name="E100_sport_engine_name_short" xml:space="preserve">
+    <value>HL234P60 Sport</value>
+  </data>
+  <data name="E100_sport_gun_name" xml:space="preserve">
+    <value>210mm Kw.K. L/38 Sport</value>
+  </data>
+  <data name="E100_sport_name" xml:space="preserve">
+    <value>E 100 SPORT</value>
+  </data>
+  <data name="E100_sport_name_short" xml:space="preserve">
+    <value>E 100 S</value>
+  </data>
+  <data name="E100_sport_radio_name" xml:space="preserve">
+    <value>10WSc Sport</value>
+  </data>
+  <data name="E100_sport_shell_name" xml:space="preserve">
+    <value>Sprgr G 45 Sport</value>
+  </data>
+  <data name="E100_sport_turret_name" xml:space="preserve">
+    <value>E 100 Sport</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_chassis_name" xml:space="preserve">
+    <value>AMX 13 105 Sport</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_descr" xml:space="preserve">
+    <value>Great acceleration, good speed and an astonishing rate of fire make strikers dangerous when positioned near to the enemy's goal. However, be careful, as their low weight is hardly useful when clashing tank-to-tank with other roles.</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_engine_name" xml:space="preserve">
+    <value>SOFAM 8 Gxb Sport</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_gun_name" xml:space="preserve">
+    <value>105 mm D. 1504 L/51 Sport</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_name" xml:space="preserve">
+    <value>AMX 13 105 SPORT</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_name_short" xml:space="preserve">
+    <value>AMX S</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_radio_name" xml:space="preserve">
+    <value>SCR-528 Fr Sport</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_shell_name" xml:space="preserve">
+    <value>OE-105-Mle. 60 D. 1504 L/51 Sport</value>
+  </data>
+  <data name="F88_AMX_13_105_sport_turret_name" xml:space="preserve">
+    <value>AMX 13 105 Sport</value>
+  </data>
+  <data name="Maybach_HL_234P60" xml:space="preserve">
+    <value>Maybach Neues Projekt Sport</value>
+  </data>
+  <data name="Maybach_HL_234P60_short" xml:space="preserve">
+    <value>Maybach Neues
+Projekt Sport</value>
+  </data>
+  <data name="Sport/role/goalkeeper" xml:space="preserve">
+    <value>Goalkeeper</value>
+  </data>
+  <data name="Sport_role_defender" xml:space="preserve">
+    <value>Defender</value>
+  </data>
+  <data name="Sport_role_defender_desc" xml:space="preserve">
+    <value>Defender tanks are the most effective at guarding your goal. Use the Splash ability to kick the ball and destroy the tracks of unlucky opponents.</value>
+  </data>
+  <data name="Sport_role_defender_short_desc" xml:space="preserve">
+    <value>Defenders are not very fast or agile, but definitely the best at guarding your goal, and pushing the ball and opponents away that have gotten too close.</value>
+  </data>
+  <data name="Sport_role_midfielder" xml:space="preserve">
+    <value>Midfielder</value>
+  </data>
+  <data name="Sport_role_midfielder_desc" xml:space="preserve">
+    <value>A midfielder’s objective on the field is to counter enemy strikers and help to deliver the ball towards the enemy goal. Its mass makes it a tough opponent in close combat with strikers and its Turbocharger ability helps it to be in the right place at the right time.</value>
+  </data>
+  <data name="Sport_role_midfielder_short_desc" xml:space="preserve">
+    <value>Midfielders cannot fully substitute for strikers or defenders, but their role is elsewhere.</value>
+  </data>
+  <data name="Sport_role_striker" xml:space="preserve">
+    <value>Striker</value>
+  </data>
+  <data name="Sport_role_striker_desc" xml:space="preserve">
+    <value>Great acceleration, good speed and an astonishing rate of fire make strikers dangerous when positioned near to the enemy's goal. However, be careful, as their low weight is hardly useful when clashing tank-to-tank with other roles.</value>
+  </data>
+  <data name="Sport_role_striker_short_desc" xml:space="preserve">
+    <value>Strikers can be described as fast but fragile. Great acceleration, speed and an astonishing rate of fire make them really dangerous when near the enemy's goal.</value>
+  </data>
+  <data name="T62A_Sport_turret_name" xml:space="preserve">
+    <value>T-62A Sport</value>
+  </data>
+  <data name="T62A_sport_chassis_name" xml:space="preserve">
+    <value>T-62A Sport</value>
+  </data>
+  <data name="T62A_sport_descr" xml:space="preserve">
+    <value>A midfielder’s objective on the field is to counter enemy strikers and help to deliver the ball towards the enemy goal. Its mass makes it a tough opponent in close combat with strikers and its Turbocharger ability helps it to be in the right place at the right time.</value>
+  </data>
+  <data name="T62A_sport_engine_name" xml:space="preserve">
+    <value>V-55 Sport</value>
+  </data>
+  <data name="T62A_sport_gun_name" xml:space="preserve">
+    <value>115mm U-8TS Sport</value>
+  </data>
+  <data name="T62A_sport_name" xml:space="preserve">
+    <value>T-62A SPORT</value>
+  </data>
+  <data name="T62A_sport_name_short" xml:space="preserve">
+    <value>T-62A S</value>
+  </data>
+  <data name="T62A_sport_radio_name" xml:space="preserve">
+    <value>R-123 Sport</value>
+  </data>
+  <data name="T62A_sport_shell_name" xml:space="preserve">
+    <value>ZUOF10 Sport</value>
+  </data>
+  <data name="Tank_type_Defender" xml:space="preserve">
+    <value>fe18_Defender</value>
+  </data>
+  <data name="Tank_type_Midfielder" xml:space="preserve">
+    <value>fe18_Midfield</value>
+  </data>
+  <data name="Tank_type_Striker" xml:space="preserve">
+    <value>fe18_Striker</value>
+  </data>
+  <data name="arena_116_himmelball_description" xml:space="preserve">
+    <value>Amidst a labyrinth of streets and squares, impassable for artillery and tank destroyers, lies a field upon which tankers vie for football supremacy.</value>
+  </data>
+  <data name="arena_116_himmelball_name" xml:space="preserve">
+    <value>Himmelstadium</value>
+  </data>
+  <data name="arena_119_lostcityball_description" xml:space="preserve">
+    <value>The peaceful silence of this abandoned town is deceitful. Today, the local stadium will become the arena of heated battles, where only the best will win.</value>
+  </data>
+  <data name="arena_119_lostcityball_name" xml:space="preserve">
+    <value>Lost Stadium</value>
+  </data>
+  <data name="arena_120_moscowball_description" xml:space="preserve">
+    <value>Named after the great Soviet goalkeeper, this Moscow stadium will host fascinating and dramatic matches, where the best teams will fight for victory.</value>
+  </data>
+  <data name="arena_120_moscowball_name" xml:space="preserve">
+    <value>Lev Yashin Stadium</value>
+  </data>
+  <data name="battlequeue/subtitle" xml:space="preserve">
+    <value>(Football Match)</value>
+  </data>
+  <data name="card/buffon/name" xml:space="preserve">
+    <value>Buffon</value>
+  </data>
+  <data name="cardCollection_Buffon_infotip_desc" xml:space="preserve">
+    <value>Italian legend Gianluigi "Gigi" Buffon has won just about every major title in European and world football, including the prestigious FIFA World Cup. Recognized by many as the greatest goalkeeper of the 21st century, there’s no doubt he’s left his mark on the sport and influenced generations of aspiring professional and amateur players. Buffon proved to be the man you want to rally the troops.
+
+Now, the player who has given so much joy to football fans is captaining your vehicle's crew with relentless passion and leadership. Just like football, World of Tanks isn't always about winning, but about dedication, raw emotion and, most importantly, teamwork.
+
+Roll out and win with Gigi!</value>
+  </data>
+  <data name="cardCollection_Buffon_infotip_title" xml:space="preserve">
+    <value>Gianluigi "Gigi" Buffon</value>
+  </data>
+  <data name="cardCollection_CloseBtn_Label" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="cardCollection_Lobby_Button_Buffon_Not_Received" xml:space="preserve">
+    <value>Add Buffon
+to your crew</value>
+  </data>
+  <data name="cardCollection_Lobby_Button_Earned_Buffon_But_Not_Recruited" xml:space="preserve">
+    <value>Recruit Buffon</value>
+  </data>
+  <data name="cardCollection_Results_Screen_BtnContinue" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="cardCollection_Results_Screen_ProgressScoreDesc" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="cardCollection_Results_Screen_SubTitle" xml:space="preserve">
+    <value>Your earned points: %(score)s</value>
+  </data>
+  <data name="cardCollection_Results_Screen_Title" xml:space="preserve">
+    <value>CONGRATULATIONS!</value>
+  </data>
+  <data name="cardCollection_Rewards_Screen_Title" xml:space="preserve">
+    <value>REWARDS</value>
+  </data>
+  <data name="cardCollection_TFM_description" xml:space="preserve">
+    <value>Earn 100 points and get Gianluigi Buffon</value>
+  </data>
+  <data name="cardCollection_TFM_rewardBtn_label" xml:space="preserve">
+    <value>Rewards</value>
+  </data>
+  <data name="cardCollection_TFM_score_label" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="cardCollection_TFM_title" xml:space="preserve">
+    <value>Tactical Field Map</value>
+  </data>
+  <data name="cardCollection_card_slot_purchase_button_label" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="cardCollection_newCards_Screen_Title" xml:space="preserve">
+    <value>CONGRATULATIONS!</value>
+  </data>
+  <data name="cardCollection_newCards_Screen_btn_ok" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="cardCollection_newCards_Screen_btn_openPack" xml:space="preserve">
+    <value>Open All</value>
+  </data>
+  <data name="cardCollection_newCards_Screen_subTitle" xml:space="preserve">
+    <value>You have new cards: %(count)s</value>
+  </data>
+  <data name="cardCollection_recruitment_button_later" xml:space="preserve">
+    <value>Later</value>
+  </data>
+  <data name="cardCollection_recruitment_button_recruit" xml:space="preserve">
+    <value>Recruit</value>
+  </data>
+  <data name="cardCollection_recruitment_menu_label_nation" xml:space="preserve">
+    <value>Nation</value>
+  </data>
+  <data name="cardCollection_recruitment_menu_label_specialization" xml:space="preserve">
+    <value>Specialization</value>
+  </data>
+  <data name="cardCollection_recruitment_menu_label_type" xml:space="preserve">
+    <value>Vehicle Type</value>
+  </data>
+  <data name="cardCollection_recruitment_menu_label_vehicle" xml:space="preserve">
+    <value>Vehicle</value>
+  </data>
+  <data name="cardCollection_recruitment_military_rank" xml:space="preserve">
+    <value>Staff Sergeant</value>
+  </data>
+  <data name="cardCollection_recruitment_military_rank_label" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="cardCollection_recruitment_name" xml:space="preserve">
+    <value>Gianluigi Buffon</value>
+  </data>
+  <data name="cardCollection_recruitment_name_label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="cardCollection_recruitment_title" xml:space="preserve">
+    <value>RECRUITMENT</value>
+  </data>
+  <data name="dialog_event_squad_creation" xml:space="preserve">
+    <value>Create Football Platoon</value>
+  </data>
+  <data name="dialog_event_squad_vehicle" xml:space="preserve">
+    <value>Select special vehicle</value>
+  </data>
+  <data name="dialogs_squadchannel_headermsg_eventformationrestriction" xml:space="preserve">
+    <value>Battle Type:
+Football Match</value>
+  </data>
+  <data name="footballFilterBtn/hint" xml:space="preserve">
+    <value>Special
+Vehicle</value>
+  </data>
+  <data name="football_crew_skills_disabled" xml:space="preserve">
+    <value>Skills and perks are not available
+on special vehicles.</value>
+  </data>
+  <data name="football_filter_checkbox_label" xml:space="preserve">
+    <value>Special Vehicle</value>
+  </data>
+  <data name="football_medal_rewards_confirm_button_text" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="football_medal_rewards_title" xml:space="preserve">
+    <value>Reward Earned</value>
+  </data>
+  <data name="football_medal_rewards_tournament_text" xml:space="preserve">
+    <value>Congratulations!
+For victory in the football tournament you received the award:
+%(name of medal)s</value>
+  </data>
+  <data name="football_medal_rewards_window_title" xml:space="preserve">
+    <value>Congratulations on Earning Rewards</value>
+  </data>
+  <data name="hangar/award/buffon/tooltip/body" xml:space="preserve">
+    <value>Gianluigi Buffon</value>
+  </data>
+  <data name="hangar/award/buffon/tooltip/header" xml:space="preserve">
+    <value>Buffon</value>
+  </data>
+  <data name="hangar/award/card_fb18db/tooltip/body" xml:space="preserve">
+    <value>A card to your collection. Collect all cards to add Gianluigi Buffon to your crew.</value>
+  </data>
+  <data name="hangar/award/card_fb18db/tooltip/header" xml:space="preserve">
+    <value>Collection Card</value>
+  </data>
+  <data name="hangar/award/card_fb18ds/tooltip/body" xml:space="preserve">
+    <value>A card to your collection. Collect all cards to add Gianluigi Buffon to your crew.</value>
+  </data>
+  <data name="hangar/award/card_fb18ds/tooltip/header" xml:space="preserve">
+    <value>Collection Card</value>
+  </data>
+  <data name="hangar/award/card_fb18mb/tooltip/body" xml:space="preserve">
+    <value>A card to your collection. Collect all cards to add Gianluigi Buffon to your crew.</value>
+  </data>
+  <data name="hangar/award/card_fb18mb/tooltip/header" xml:space="preserve">
+    <value>Collection Card</value>
+  </data>
+  <data name="hangar/award/card_fb18ms/tooltip/body" xml:space="preserve">
+    <value>A card to your collection. Collect all cards to add Gianluigi Buffon to your crew.</value>
+  </data>
+  <data name="hangar/award/card_fb18ms/tooltip/header" xml:space="preserve">
+    <value>Collection Card</value>
+  </data>
+  <data name="hangar/award/card_fb18sb/tooltip/body" xml:space="preserve">
+    <value>A card to your collection. Collect all cards to add Gianluigi Buffon to your crew.</value>
+  </data>
+  <data name="hangar/award/card_fb18sb/tooltip/header" xml:space="preserve">
+    <value>Collection Card</value>
+  </data>
+  <data name="hangar/award/card_fb18ss/tooltip/body" xml:space="preserve">
+    <value>A card to your collection. Collect all cards to add Gianluigi Buffon to your crew.</value>
+  </data>
+  <data name="hangar/award/card_fb18ss/tooltip/header" xml:space="preserve">
+    <value>Collection Card</value>
+  </data>
+  <data name="hangar/award/card_fb18ub/tooltip/body" xml:space="preserve">
+    <value>A card to your collection. Collect all cards to add Gianluigi Buffon to your crew.</value>
+  </data>
+  <data name="hangar/award/card_fb18ub/tooltip/header" xml:space="preserve">
+    <value>Collection Card</value>
+  </data>
+  <data name="hangar/award/card_fb18us/tooltip/body" xml:space="preserve">
+    <value>A card to your collection. Collect all cards to add Gianluigi Buffon to your crew.</value>
+  </data>
+  <data name="hangar/award/card_fb18us/tooltip/header" xml:space="preserve">
+    <value>Collection Card</value>
+  </data>
+  <data name="hangar/buffonBtn/tooltip/buffonNotAvailable/body" xml:space="preserve">
+    <value>Click to go to your football cards collection and claim Buffon.</value>
+  </data>
+  <data name="hangar/buffonBtn/tooltip/buffonNotAvailable/header" xml:space="preserve">
+    <value>Collection</value>
+  </data>
+  <data name="hangar/buffonBtn/tooltip/buffonNotRecruited/body" xml:space="preserve">
+    <value>Click to recruit Buffon</value>
+  </data>
+  <data name="hangar/buffonBtn/tooltip/buffonNotRecruited/header" xml:space="preserve">
+    <value>Recruitment</value>
+  </data>
+  <data name="hangar/buffonBtn/tooltip/buffonRecruited/body" xml:space="preserve">
+    <value>Click to open your card collection.</value>
+  </data>
+  <data name="hangar/buffonBtn/tooltip/buffonRecruited/header" xml:space="preserve">
+    <value>Collection</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/bottom" xml:space="preserve">
+    <value>Prove you are the best and win a ball autographed by Buffon. You can also earn many rewards for playing in football matches.</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/event/name" xml:space="preserve">
+    <value>Tank football 2018</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/primeTime/future" xml:space="preserve">
+    <value>Will be counted later:</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/primeTime/now" xml:space="preserve">
+    <value>Matches counted:</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/stage/beforeBeginning" xml:space="preserve">
+    <value>Starts in:</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/stage/inProgress" xml:space="preserve">
+    <value>%(stageName)s in progress</value>
+  </data>
+  <data name="hangar/greenFlag/tooltip/stage/stageName" xml:space="preserve">
+    <value>Stage %(stageNum)s</value>
+  </data>
+  <data name="hangar/unlockButtonDisabledFootball/body" xml:space="preserve">
+    <value>Research is not allowed on special vehicles.</value>
+  </data>
+  <data name="hangar/unlockButtonDisabledFootball/header" xml:space="preserve">
+    <value>Research disabled</value>
+  </data>
+  <data name="ingame/football/commentator/en/name" xml:space="preserve">
+    <value>Anthony Tournis</value>
+  </data>
+  <data name="ingame/football/commentator/en/roleName" xml:space="preserve">
+    <value>Match Commentary</value>
+  </data>
+  <data name="ingame/football/commentator/it/name" xml:space="preserve">
+    <value>Gianluigi Buffon</value>
+  </data>
+  <data name="ingame/football/commentator/it/roleName" xml:space="preserve">
+    <value>Match Commentary</value>
+  </data>
+  <data name="ingame/football/commentator/ru/name" xml:space="preserve">
+    <value>Nikolay Hodasevich</value>
+  </data>
+  <data name="ingame/football/commentator/ru/roleName" xml:space="preserve">
+    <value>Match Commentary</value>
+  </data>
+  <data name="messages/football/ballDrop/endDescr" xml:space="preserve">
+    <value>GO!</value>
+  </data>
+  <data name="messages/football/ballDrop/timerDescr" xml:space="preserve">
+    <value>Ball will drop in</value>
+  </data>
+  <data name="messages/football/fragBar/alliedName" xml:space="preserve">
+    <value>Allies</value>
+  </data>
+  <data name="messages/football/fragBar/enemyName" xml:space="preserve">
+    <value>Enemy</value>
+  </data>
+  <data name="messages/football/fragBar/goalAlly" xml:space="preserve">
+    <value>GОAAAL!</value>
+  </data>
+  <data name="messages/football/fragBar/goalEnemy" xml:space="preserve">
+    <value>The Enemy Team Scored a Goal</value>
+  </data>
+  <data name="messages/football/fragBar/goalSelf" xml:space="preserve">
+    <value>Own Goal!</value>
+  </data>
+  <data name="messages/football/fullStats/ballPossession" xml:space="preserve">
+    <value>Ball Possession</value>
+  </data>
+  <data name="messages/football/fullStats/battleText" xml:space="preserve">
+    <value>Football Match</value>
+  </data>
+  <data name="messages/football/fullStats/commonStats" xml:space="preserve">
+    <value>GENERAL STATISTICS</value>
+  </data>
+  <data name="messages/football/fullStats/eventsTimeline" xml:space="preserve">
+    <value>MATCH RECORD</value>
+  </data>
+  <data name="messages/football/fullStats/goals" xml:space="preserve">
+    <value>Goals</value>
+  </data>
+  <data name="messages/football/fullStats/mapText" xml:space="preserve">
+    <value>Card Name</value>
+  </data>
+  <data name="messages/football/fullStats/team1Name" xml:space="preserve">
+    <value>Your Team</value>
+  </data>
+  <data name="messages/football/fullStats/team2Name" xml:space="preserve">
+    <value>Enemy Team</value>
+  </data>
+  <data name="messages/football/fullStats/winText" xml:space="preserve">
+    <value>Victory conditions: earn more points or score three goals.</value>
+  </data>
+  <data name="messages/football/fullStats/winTextOvertime" xml:space="preserve">
+    <value>Score a goal or keep ball in the enemy half.</value>
+  </data>
+  <data name="messages/football/overtime/condA" xml:space="preserve">
+    <value>Be the first team to score the golden goal.</value>
+  </data>
+  <data name="messages/football/overtime/condB" xml:space="preserve">
+    <value>Keep the ball on the enemy team's half.</value>
+  </data>
+  <data name="messages/football/overtime/header" xml:space="preserve">
+    <value>Overtime</value>
+  </data>
+  <data name="messages/football/overtime/headerDescr" xml:space="preserve">
+    <value>Full-time did not produce the winner.</value>
+  </data>
+  <data name="messages/football/overtime/or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="messages/football/overtime/timerDescr" xml:space="preserve">
+    <value>Back to the field in:</value>
+  </data>
+  <data name="messages/football/overtimeBar/title" xml:space="preserve">
+    <value>Overtime</value>
+  </data>
+  <data name="messages/football/overtimeBar/winOnPoints" xml:space="preserve">
+    <value>Your team won by earning more points</value>
+  </data>
+  <data name="messages/football/overtimeBar/winOnPointsEnemy" xml:space="preserve">
+    <value>The enemy team won by earning more points</value>
+  </data>
+  <data name="messages/football/startTimer/objectiveDescr" xml:space="preserve">
+    <value>The match ends when one team scores three goals</value>
+  </data>
+  <data name="messages/football/startTimer/timerDescr" xml:space="preserve">
+    <value>Match starts in</value>
+  </data>
+  <data name="messages/football/timer/starting" xml:space="preserve">
+    <value>Match starts in:</value>
+  </data>
+  <data name="messages/infotype/availability" xml:space="preserve">
+    <value>Available until: %(dateStr)s</value>
+  </data>
+  <data name="messages/infotype/desc" xml:space="preserve">
+    <value>Vehicle for the Football Event</value>
+  </data>
+  <data name="missionDetails/conditions/tooltipBody" xml:space="preserve">
+    <value>Battle missions for football event. Select special vehicles to complete these missions.</value>
+  </data>
+  <data name="missionDetails/conditions/tooltipHeader" xml:space="preserve">
+    <value>Football Match</value>
+  </data>
+  <data name="mission_window_button_tooltip" xml:space="preserve">
+    <value>Cards</value>
+  </data>
+  <data name="mission_window_button_tooltip_body" xml:space="preserve">
+    <value>Click here to open your card collection.</value>
+  </data>
+  <data name="mission_window_card_rewards_title" xml:space="preserve">
+    <value>Congratulations on Earning Rewards</value>
+  </data>
+  <data name="mission_window_cards_rewards_text" xml:space="preserve">
+    <value>Award for the completion of the mission %(mission)s</value>
+  </data>
+  <data name="mission_window_open_card_collection_button_text" xml:space="preserve">
+    <value>Open Cards</value>
+  </data>
+  <data name="popover_label_football" xml:space="preserve">
+    <value>Special Vehicle</value>
+  </data>
+  <data name="quests/football_card" xml:space="preserve">
+    <value>Collection Card</value>
+  </data>
+  <data name="restriction/inconsistent" xml:space="preserve">
+    <value>There can be only one %(role)s in a Platoon</value>
+  </data>
+  <data name="serviceChannelMessages/compensationReceived/date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="serviceChannelMessages/compensationReceived/invoice" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/fb18Cards" xml:space="preserve">
+    <value>Duplicate cards have been removed</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/fb18Credits" xml:space="preserve">
+    <value>Compensation for cards</value>
+  </data>
+  <data name="tooltip_event_body" xml:space="preserve">
+    <value>Show/hide vehicles for special game events.</value>
+  </data>
+  <data name="tooltip_event_header" xml:space="preserve">
+    <value>Special vehicles</value>
+  </data>
+  <data name="tooltip_event_label" xml:space="preserve">
+    <value>Show special vehicles</value>
+  </data>
+  <data name="tooltip_football_filter_button_body" xml:space="preserve">
+    <value>Show/hide vehicles for special game events.</value>
+  </data>
+  <data name="tooltip_football_filter_button_header" xml:space="preserve">
+    <value>Special vehicles</value>
+  </data>
+</root>

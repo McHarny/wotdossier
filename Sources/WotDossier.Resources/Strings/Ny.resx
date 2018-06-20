@@ -1,0 +1,2292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="applyDiscount/buttons/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="applyDiscount/buttons/select" xml:space="preserve">
+    <value>Activate Discount</value>
+  </data>
+  <data name="applyDiscount/compatibleCheckBox/label" xml:space="preserve">
+    <value>Display researched vehicles</value>
+  </data>
+  <data name="applyDiscount/infoText" xml:space="preserve">
+    <value>Select a Tier %(level)s vehicle to purchase it with a %(discount)s discount</value>
+  </data>
+  <data name="applyDiscount/title" xml:space="preserve">
+    <value>Activate Discount on Purchasing</value>
+  </data>
+  <data name="atmosphere/level/1" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="atmosphere/level/10" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="atmosphere/level/2" xml:space="preserve">
+    <value>II</value>
+  </data>
+  <data name="atmosphere/level/3" xml:space="preserve">
+    <value>III</value>
+  </data>
+  <data name="atmosphere/level/4" xml:space="preserve">
+    <value>IV</value>
+  </data>
+  <data name="atmosphere/level/5" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="atmosphere/level/6" xml:space="preserve">
+    <value>VI</value>
+  </data>
+  <data name="atmosphere/level/7" xml:space="preserve">
+    <value>VII</value>
+  </data>
+  <data name="atmosphere/level/8" xml:space="preserve">
+    <value>VIII</value>
+  </data>
+  <data name="atmosphere/level/9" xml:space="preserve">
+    <value>IX</value>
+  </data>
+  <data name="boxPopover/boxTitle/any" xml:space="preserve">
+    <value>A Box With Random Decorations</value>
+  </data>
+  <data name="boxPopover/boxTitle/asian" xml:space="preserve">
+    <value>A Chinese New Year Box</value>
+  </data>
+  <data name="boxPopover/boxTitle/modernWestern" xml:space="preserve">
+    <value>A Modern Christmas Box</value>
+  </data>
+  <data name="boxPopover/boxTitle/soviet" xml:space="preserve">
+    <value>A Soviet New Year Box</value>
+  </data>
+  <data name="boxPopover/boxTitle/traditionalWestern" xml:space="preserve">
+    <value>A Traditional Christmas Box</value>
+  </data>
+  <data name="boxPopover/button/boxOpen/label" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="boxPopover/title" xml:space="preserve">
+    <value>Festive Boxes</value>
+  </data>
+  <data name="boxPopover/toEarn" xml:space="preserve">
+    <value>Earn</value>
+  </data>
+  <data name="boxPopover/toShop/bigBox/link" xml:space="preserve">
+    <value>Purchase Boxes</value>
+  </data>
+  <data name="boxPopover/toShop/smallBox/description" xml:space="preserve">
+    <value>Purchase boxes for your Garage or for friends %(link)s</value>
+  </data>
+  <data name="boxPopover/toShop/smallBox/link" xml:space="preserve">
+    <value>on the Holiday Ops page.</value>
+  </data>
+  <data name="breakScreen/backBtn/to/hangar" xml:space="preserve">
+    <value>TO DECORIDER</value>
+  </data>
+  <data name="breakScreen/balanceToyFragment/title" xml:space="preserve">
+    <value>Available:</value>
+  </data>
+  <data name="breakScreen/breakBtn/label" xml:space="preserve">
+    <value>Break Decorations</value>
+  </data>
+  <data name="breakScreen/breakBtn/labelCount" xml:space="preserve">
+    <value>Break decorations: %(count)d</value>
+  </data>
+  <data name="breakScreen/breakToyFragment/title" xml:space="preserve">
+    <value>Break for</value>
+  </data>
+  <data name="breakScreen/cancelBtn/label" xml:space="preserve">
+    <value>To Decorider</value>
+  </data>
+  <data name="breakScreen/cancelFilterBtn/label" xml:space="preserve">
+    <value>Reset filter</value>
+  </data>
+  <data name="breakScreen/decorations/filter/label" xml:space="preserve">
+    <value>Displayed</value>
+  </data>
+  <data name="breakScreen/enoughToyFragment/title" xml:space="preserve">
+    <value>You have enough shards
+to create a decoration</value>
+  </data>
+  <data name="breakScreen/lackToyFragment/title" xml:space="preserve">
+    <value>More shards required</value>
+  </data>
+  <data name="breakScreen/noToys/asia/label" xml:space="preserve">
+    <value>There are no decorations in your inventory. Complete missions and earn decorations to beautify your Garage.</value>
+  </data>
+  <data name="breakScreen/noToys/label" xml:space="preserve">
+    <value>You have no decorations in your inventory. Complete
+missions or purchase boxes with gifts
+in the Premium Shop.</value>
+  </data>
+  <data name="breakScreen/noToysInFilter/label" xml:space="preserve">
+    <value>Nothing found. Change your filter settings
+or reset them to default.</value>
+  </data>
+  <data name="breakScreen/title" xml:space="preserve">
+    <value>Break Decorations</value>
+  </data>
+  <data name="breakScreen/tooltip/filter/body" xml:space="preserve">
+    <value>Filter settings allow you to find suitable decorations that meet the selected parameters.</value>
+  </data>
+  <data name="breakScreen/tooltip/filter/header" xml:space="preserve">
+    <value>Decorations Filter</value>
+  </data>
+  <data name="breakScreen/waitingMsg" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="chestView/backBtn/descr/toHangar" xml:space="preserve">
+    <value>TO GARAGE</value>
+  </data>
+  <data name="chestView/backBtn/descr/toXmasTree" xml:space="preserve">
+    <value>TO CHRISTMAS TREE</value>
+  </data>
+  <data name="chestView/backBtn/label" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="chestView/btnLabel/backToTree" xml:space="preserve">
+    <value>Back to Decoration</value>
+  </data>
+  <data name="chestView/btnLabel/open" xml:space="preserve">
+    <value>Open Crate</value>
+  </data>
+  <data name="chestView/btnLabel/openNext" xml:space="preserve">
+    <value>Open Next</value>
+  </data>
+  <data name="chestView/closeBtnLabel" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="chestView/getAward" xml:space="preserve">
+    <value>Reward earned</value>
+  </data>
+  <data name="chestView/statusLabel" xml:space="preserve">
+    <value>Open more (%(count)s available)</value>
+  </data>
+  <data name="chestView/statusLabel/noItems" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="collections/award" xml:space="preserve">
+    <value>REWARD</value>
+  </data>
+  <data name="collections/backBtn/label" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="collections/bonus_info" xml:space="preserve">
+    <value>Collection bonus</value>
+  </data>
+  <data name="collections/btn" xml:space="preserve">
+    <value>COLLECTIONS</value>
+  </data>
+  <data name="collections/level/1" xml:space="preserve">
+    <value>LEVEL I</value>
+  </data>
+  <data name="collections/level/2" xml:space="preserve">
+    <value>LEVEL II</value>
+  </data>
+  <data name="collections/level/3" xml:space="preserve">
+    <value>LEVEL III</value>
+  </data>
+  <data name="collections/level/4" xml:space="preserve">
+    <value>LEVEL IV</value>
+  </data>
+  <data name="collections/level/5" xml:space="preserve">
+    <value>LEVEL V</value>
+  </data>
+  <data name="collections/status" xml:space="preserve">
+    <value>Collected decorations: %(value)s / %(max)d</value>
+  </data>
+  <data name="collections/title" xml:space="preserve">
+    <value>Bonus for the %(setting)s</value>
+  </data>
+  <data name="collections/title/asian" xml:space="preserve">
+    <value>Chinese New Year Collection</value>
+  </data>
+  <data name="collections/title/modernWestern" xml:space="preserve">
+    <value>Modern Christmas Collection</value>
+  </data>
+  <data name="collections/title/soviet" xml:space="preserve">
+    <value>Soviet New Year Collection</value>
+  </data>
+  <data name="collections/title/traditionalWestern" xml:space="preserve">
+    <value>Traditional Christmas Collection</value>
+  </data>
+  <data name="collections/tooltip/awards/nations/header" xml:space="preserve">
+    <value>Relevant for Vehicles of the Following Nations:</value>
+  </data>
+  <data name="collections/tooltip/bonus/celebration/level/title" xml:space="preserve">
+    <value>Atmosphere Level</value>
+  </data>
+  <data name="collections/tooltip/bonus/celebration/title" xml:space="preserve">
+    <value>Bonus Level</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/header" xml:space="preserve">
+    <value>How to Increase Bonus:</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/reward/header" xml:space="preserve">
+    <value>Bonus Level %(sign)s</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/reward/value" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/toys/header" xml:space="preserve">
+    <value>Collect Decorations: %(sign)s</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/toys/header/count" xml:space="preserve">
+    <value>item(s)</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/toys/more" xml:space="preserve">
+    <value>more than %(count)d</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/toys/values" xml:space="preserve">
+    <value>%(min)d–%(max)d</value>
+  </data>
+  <data name="collections/tooltip/bonus/info/table/value/sign" xml:space="preserve">
+    <value>(%(value)s)</value>
+  </data>
+  <data name="collections/tooltip/bonus/toys" xml:space="preserve">
+    <value>Decorations in your collection: %(value)s / %(max)d</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo" xml:space="preserve">
+    <value>Calculation of Bonus:</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bonuses/credits" xml:space="preserve">
+    <value>Credits per battle</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bonuses/crew" xml:space="preserve">
+    <value>Crew Experience</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bonuses/vehicle" xml:space="preserve">
+    <value>Experience Per Battle</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bottom/decorations" xml:space="preserve">
+    <value>%(count)s</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bottom/description" xml:space="preserve">
+    <value>Bonus is added to experience, credits and crew experience earned in a battle. With a Level X Atmosphere, the base bonus will be multiplied by %(value)s.</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bottom/header" xml:space="preserve">
+    <value>How to Increase Bonus:</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bottom/line1" xml:space="preserve">
+    <value>• Collect more decorations: %(count)s needed to increase
+the bonus to %(bonus)s%%</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/bottom/line2" xml:space="preserve">
+    <value>• Increase the Atmosphere level (current: x%(level)s)</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/descr" xml:space="preserve">
+    <value>Bonus is applied to battle results and will be active for the duration of the New Year event.</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/header/asian" xml:space="preserve">
+    <value>Bonus for Chinese New Year Collection</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/header/modernWestern" xml:space="preserve">
+    <value>Bonus for Modern Christmas Collection</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/header/soviet" xml:space="preserve">
+    <value>Bonus for Soviet New Year Collection</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/header/traditionalWestern" xml:space="preserve">
+    <value>Bonus for Traditional Christmas Collection</value>
+  </data>
+  <data name="collections/tooltip/bonusInfo/nations/header" xml:space="preserve">
+    <value>Relevant for Vehicles of the Following Nations:</value>
+  </data>
+  <data name="collections/tooltip/decoration/notObtained" xml:space="preserve">
+    <value>You have not received this decoration yet</value>
+  </data>
+  <data name="collections/tooltip/decoration/obtained" xml:space="preserve">
+    <value>You received this decoration</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/bonus/text" xml:space="preserve">
+    <value>All decorations received and broken during the event are counted.</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/bonus/title" xml:space="preserve">
+    <value>Collect and Increase Bonus</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/howto/text" xml:space="preserve">
+    <value>Use the Large Holidron Decorider to create decorations from shards or open boxes with gifts.</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/howto/title" xml:space="preserve">
+    <value>How to Receive</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/tips/stayInCollection" xml:space="preserve">
+    <value>will remain in your collection</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/tips/text" xml:space="preserve">
+    <value>• Broken decorations %(text)s.
+• You can increase or decrease the Atmosphere level by adding or removing decorations.</value>
+  </data>
+  <data name="collections/tooltip/decorations/info/tips/title" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="collections/tooltip/entry/body" xml:space="preserve">
+    <value>Collect New Year decorations and receive additional bonuses to your battle results. Click for details.</value>
+  </data>
+  <data name="collections/tooltip/entry/header" xml:space="preserve">
+    <value>Collections</value>
+  </data>
+  <data name="collections/tooltip/level/1/body" xml:space="preserve">
+    <value>Click to view decorations of the selected level.</value>
+  </data>
+  <data name="collections/tooltip/level/1/header" xml:space="preserve">
+    <value>Tier I</value>
+  </data>
+  <data name="collections/tooltip/level/2/body" xml:space="preserve">
+    <value>Click to view decorations of the selected level.</value>
+  </data>
+  <data name="collections/tooltip/level/2/header" xml:space="preserve">
+    <value>Tier II</value>
+  </data>
+  <data name="collections/tooltip/level/3/body" xml:space="preserve">
+    <value>Click to view decorations of the selected level.</value>
+  </data>
+  <data name="collections/tooltip/level/3/header" xml:space="preserve">
+    <value>Tier III</value>
+  </data>
+  <data name="collections/tooltip/level/4/body" xml:space="preserve">
+    <value>Click to view decorations of the selected level.</value>
+  </data>
+  <data name="collections/tooltip/level/4/header" xml:space="preserve">
+    <value>Tier IV</value>
+  </data>
+  <data name="collections/tooltip/level/5/body" xml:space="preserve">
+    <value>Click to view decorations of the selected level.</value>
+  </data>
+  <data name="collections/tooltip/level/5/header" xml:space="preserve">
+    <value>Tier V</value>
+  </data>
+  <data name="collections/tooltip/nations/header" xml:space="preserve">
+    <value>Applied to Vehicles of the Following Nations:</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/emblems/descr" xml:space="preserve">
+    <value>The emblem is awarded for completing the 2018 %(collection)s collection.</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/emblems/title/asian" xml:space="preserve">
+    <value>"Yellow Dog" Emblem</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/emblems/title/modernWestern" xml:space="preserve">
+    <value>"Christmas Stocking" Emblem</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/emblems/title/soviet" xml:space="preserve">
+    <value>"Ded Moroz" Emblem</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/emblems/title/traditionalWestern" xml:space="preserve">
+    <value>"Jingle Bell" Emblem</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/style/description" xml:space="preserve">
+    <value>A unique set that contains a Camouflage, Inscription, Emblem, and base color.</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/style/title" xml:space="preserve">
+    <value>%(style)s Style</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/descr" xml:space="preserve">
+    <value>The inscription is awarded for completing the 2018 %(collection)s collection.</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/descr/collection/asian" xml:space="preserve">
+    <value>Chinese New Year</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/descr/collection/modernWestern" xml:space="preserve">
+    <value>Modern Christmas</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/descr/collection/soviet" xml:space="preserve">
+    <value>Soviet New Year</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/descr/collection/traditionalWestern" xml:space="preserve">
+    <value>Traditional Christmas</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/title/asian" xml:space="preserve">
+    <value>Holiday Inscription</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/title/modernWestern" xml:space="preserve">
+    <value>4 Holiday Inscriptions</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/title/soviet" xml:space="preserve">
+    <value>Holiday Inscription</value>
+  </data>
+  <data name="collections/tooltip/progressBar/awards/writings/title/traditionalWestern" xml:space="preserve">
+    <value>4 Holiday Inscriptions</value>
+  </data>
+  <data name="collections/tooltip/progressBar/header/title" xml:space="preserve">
+    <value>Award for Completing the Full Collection</value>
+  </data>
+  <data name="collections/tooltip/settings/asian/body" xml:space="preserve">
+    <value>Click to view decorations from the Chinese New Year collection.</value>
+  </data>
+  <data name="collections/tooltip/settings/asian/header" xml:space="preserve">
+    <value>Chinese New Year Collection</value>
+  </data>
+  <data name="collections/tooltip/settings/modernWestern/body" xml:space="preserve">
+    <value>Click to view decorations from the Modern Christmas collection.</value>
+  </data>
+  <data name="collections/tooltip/settings/modernWestern/header" xml:space="preserve">
+    <value>Modern Christmas Collection</value>
+  </data>
+  <data name="collections/tooltip/settings/soviet/body" xml:space="preserve">
+    <value>Click to view decorations from the Soviet New Year collection.</value>
+  </data>
+  <data name="collections/tooltip/settings/soviet/header" xml:space="preserve">
+    <value>Soviet New Year Collection</value>
+  </data>
+  <data name="collections/tooltip/settings/traditionalWestern/body" xml:space="preserve">
+    <value>Click to view decorations from the Traditional Christmas collection.</value>
+  </data>
+  <data name="collections/tooltip/settings/traditionalWestern/header" xml:space="preserve">
+    <value>Traditional Christmas Collection</value>
+  </data>
+  <data name="collectionsGroup/backBtn/label" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="collectionsGroup/backBtn/to/nyCollection" xml:space="preserve">
+    <value>Back to Album</value>
+  </data>
+  <data name="collectionsGroup/backBtn/to/nyCollectionsGroups" xml:space="preserve">
+    <value>TO COLLECTIONS</value>
+  </data>
+  <data name="collectionsGroup/backBtn/to/nyScreen" xml:space="preserve">
+    <value>TO DECORATING!</value>
+  </data>
+  <data name="collectionsGroup/title" xml:space="preserve">
+    <value>Collections</value>
+  </data>
+  <data name="contextMenu/breakToy" xml:space="preserve">
+    <value>Break the decoration</value>
+  </data>
+  <data name="contextMenu/breakToyInSlot" xml:space="preserve">
+    <value>Break the decoration</value>
+  </data>
+  <data name="contextMenu/placeToy" xml:space="preserve">
+    <value>Mount decoration</value>
+  </data>
+  <data name="contextMenu/removeToy" xml:space="preserve">
+    <value>Remove decoration</value>
+  </data>
+  <data name="craftScreen/backBtn/to/hangar" xml:space="preserve">
+    <value>TO DECORATING</value>
+  </data>
+  <data name="craftScreen/buttons/craftBtn" xml:space="preserve">
+    <value>CRAFT</value>
+  </data>
+  <data name="craftScreen/buttons/shardsBtn" xml:space="preserve">
+    <value>GET SHARDS</value>
+  </data>
+  <data name="craftScreen/contour/toyLevel" xml:space="preserve">
+    <value>Tier %(level)s</value>
+  </data>
+  <data name="craftScreen/contour/toyType" xml:space="preserve">
+    <value>%(type)s decoration</value>
+  </data>
+  <data name="craftScreen/description" xml:space="preserve">
+    <value>Available:</value>
+  </data>
+  <data name="craftScreen/levelSlider/title" xml:space="preserve">
+    <value>LEVEL</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/1/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected level.</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/1/header" xml:space="preserve">
+    <value>Tier I</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/2/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected level.</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/2/header" xml:space="preserve">
+    <value>Tier II</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/3/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected level.</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/3/header" xml:space="preserve">
+    <value>Tier III</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/4/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected level.</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/4/header" xml:space="preserve">
+    <value>Tier IV</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/5/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected level.</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/5/header" xml:space="preserve">
+    <value>Tier V</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/any/body" xml:space="preserve">
+    <value>Click to choose a decoration of a random level.</value>
+  </data>
+  <data name="craftScreen/levelSlider/tooltip/any/header" xml:space="preserve">
+    <value>Random Level</value>
+  </data>
+  <data name="craftScreen/nationSlider/asia" xml:space="preserve">
+    <value>CHINESE</value>
+  </data>
+  <data name="craftScreen/nationSlider/christmas" xml:space="preserve">
+    <value>MODERN</value>
+  </data>
+  <data name="craftScreen/nationSlider/european" xml:space="preserve">
+    <value>TRADITIONAL</value>
+  </data>
+  <data name="craftScreen/nationSlider/random" xml:space="preserve">
+    <value>RANDOM</value>
+  </data>
+  <data name="craftScreen/nationSlider/title" xml:space="preserve">
+    <value>COLLECTION</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/any/body" xml:space="preserve">
+    <value>Click to select a parameter.</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/any/header" xml:space="preserve">
+    <value>Random Collection</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/asian/body" xml:space="preserve">
+    <value>The collection bonus is relevant for vehicles of the following nation:
+China.</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/asian/header" xml:space="preserve">
+    <value>Chinese New Year Collection</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/modernWestern/body" xml:space="preserve">
+    <value>The collection bonus is relevant for vehicles of the following nations:
+U.S., U.K., Sweden, Japan.</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/modernWestern/header" xml:space="preserve">
+    <value>Modern Christmas Collection</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/soviet/body" xml:space="preserve">
+    <value>The collection bonus is relevant for vehicles of the following nation:
+U.S.S.R.</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/soviet/header" xml:space="preserve">
+    <value>Soviet New Year Collection</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/traditionalWestern/body" xml:space="preserve">
+    <value>The collection bonus is relevant for vehicles of the following nations:
+Germany, Czechoslovakia, France, Poland.</value>
+  </data>
+  <data name="craftScreen/nationSlider/tooltip/traditionalWestern/header" xml:space="preserve">
+    <value>Traditional Christmas Collection</value>
+  </data>
+  <data name="craftScreen/nationSlider/ussr" xml:space="preserve">
+    <value>SOVIET</value>
+  </data>
+  <data name="craftScreen/title" xml:space="preserve">
+    <value>Large Holidron Decorider</value>
+  </data>
+  <data name="craftScreen/toysCount" xml:space="preserve">
+    <value>New decorations created:</value>
+  </data>
+  <data name="craftScreen/typeSlider/title" xml:space="preserve">
+    <value>TYPE</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/any/body" xml:space="preserve">
+    <value>Click to choose a decoration of a random type.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/any/header" xml:space="preserve">
+    <value>Random Type</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/garland/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected type.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/garland/header" xml:space="preserve">
+    <value>Garland</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/gift/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected type.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/gift/header" xml:space="preserve">
+    <value>Tree Skirt Decoration</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/hanging/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected type.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/hanging/header" xml:space="preserve">
+    <value>Pendant</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/house_decoration/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected type.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/house_decoration/header" xml:space="preserve">
+    <value>House</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/house_lamp/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected type.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/house_lamp/header" xml:space="preserve">
+    <value>Lights</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/snowman/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected type.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/snowman/header" xml:space="preserve">
+    <value>Snowman</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/street_garland/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected type.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/street_garland/header" xml:space="preserve">
+    <value>Posts and Yard</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/top/body" xml:space="preserve">
+    <value>Click to choose a decoration of the selected type.</value>
+  </data>
+  <data name="craftScreen/typeSlider/tooltip/top/header" xml:space="preserve">
+    <value>Tree Topper</value>
+  </data>
+  <data name="decorations/tooltip/atmosphere_scores" xml:space="preserve">
+    <value>Festive Atmosphere points</value>
+  </data>
+  <data name="decorations/tooltip/booster_credits" xml:space="preserve">
+    <value>to credit earnings</value>
+  </data>
+  <data name="decorations/tooltip/booster_crew_xp" xml:space="preserve">
+    <value>to Crew Experience</value>
+  </data>
+  <data name="decorations/tooltip/booster_free_xp" xml:space="preserve">
+    <value>to Free Experience</value>
+  </data>
+  <data name="decorations/tooltip/booster_xp" xml:space="preserve">
+    <value>to Combat Experience</value>
+  </data>
+  <data name="decorations/tooltip/chest/body" xml:space="preserve">
+    <value>Click to open the crate with valuable rewards.</value>
+  </data>
+  <data name="decorations/tooltip/chest/header" xml:space="preserve">
+    <value>Crate With Rewards</value>
+  </data>
+  <data name="decorations/tooltip/decoration_level" xml:space="preserve">
+    <value>Decoration Level</value>
+  </data>
+  <data name="decorations/tooltip/empty/body" xml:space="preserve">
+    <value>Click to view the available decorations.</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/any" xml:space="preserve">
+    <value>Random Decoration</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/garland" xml:space="preserve">
+    <value>Garland</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/gift" xml:space="preserve">
+    <value>Tree Skirt Decoration</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/hanging" xml:space="preserve">
+    <value>Pendant</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/house_decoration" xml:space="preserve">
+    <value>House Decoration</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/house_lamp" xml:space="preserve">
+    <value>Lights</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/snowman" xml:space="preserve">
+    <value>Snowman</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/street_garland" xml:space="preserve">
+    <value>Posts and Yard</value>
+  </data>
+  <data name="decorations/tooltip/empty/header/top" xml:space="preserve">
+    <value>Tree Topper</value>
+  </data>
+  <data name="decorations/tooltip/flakes_price" xml:space="preserve">
+    <value>Cost in shards</value>
+  </data>
+  <data name="decorations/tooltip/levelHeader" xml:space="preserve">
+    <value>level</value>
+  </data>
+  <data name="decorations/tooltip/nation_bonus" xml:space="preserve">
+    <value>Bonus to vehicles:</value>
+  </data>
+  <data name="discount/format" xml:space="preserve">
+    <value>-%(discount)s%%</value>
+  </data>
+  <data name="hangar/bonusFlagInfo/tooltip/text" xml:space="preserve">
+    <value>New Year box (x%(count)d)</value>
+  </data>
+  <data name="hangar/bonusInfo" xml:space="preserve">
+    <value>Bonus to</value>
+  </data>
+  <data name="hangar/bonusInfo/tooltip/body" xml:space="preserve">
+    <value>The box contains 3 random decorations and an additional reward.</value>
+  </data>
+  <data name="hangar/bonusInfo/tooltip/header" xml:space="preserve">
+    <value>Box</value>
+  </data>
+  <data name="hangar/rewards/btn" xml:space="preserve">
+    <value>List of Rewards</value>
+  </data>
+  <data name="levelUp/buttons/open/label" xml:space="preserve">
+    <value>Open Crate</value>
+  </data>
+  <data name="levelUp/closeBtn/label" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="levelUp/description" xml:space="preserve">
+    <value>New Festive Atmosphere level!</value>
+  </data>
+  <data name="levelUp/giftDescription" xml:space="preserve">
+    <value>Here comes a crate with rewards!</value>
+  </data>
+  <data name="missionRewardScreen/closeBtnLabel" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="missionRewardScreen/header" xml:space="preserve">
+    <value>Congratulations!</value>
+  </data>
+  <data name="missionRewardScreen/headerExtra" xml:space="preserve">
+    <value>Unexpected gift!</value>
+  </data>
+  <data name="missionRewardWindow/asia/description/setting/" xml:space="preserve">
+    <value>You purchased (or received) a %(boxName)s
+with valuable presents.</value>
+  </data>
+  <data name="missionRewardWindow/boxName/asian" xml:space="preserve">
+    <value>a Chinese New Year box</value>
+  </data>
+  <data name="missionRewardWindow/boxName/modernWestern" xml:space="preserve">
+    <value>a Modern Christmas box</value>
+  </data>
+  <data name="missionRewardWindow/boxName/soviet" xml:space="preserve">
+    <value>a Soviet New Year box</value>
+  </data>
+  <data name="missionRewardWindow/boxName/traditionalWestern" xml:space="preserve">
+    <value>a Traditional Christmas box</value>
+  </data>
+  <data name="missionRewardWindow/button/statusLabel" xml:space="preserve">
+    <value>Open more (%(count)s available)</value>
+  </data>
+  <data name="missionRewardWindow/button/statusLabel/noItems" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="missionRewardWindow/description/any" xml:space="preserve">
+    <value>For completion of the mission, you receive
+a gift box with valuable rewards.</value>
+  </data>
+  <data name="missionRewardWindow/description/setting" xml:space="preserve">
+    <value>You purchased (or received as a present) %(boxName)s
+with Level V decorations.</value>
+  </data>
+  <data name="missionRewardWindow/header/any" xml:space="preserve">
+    <value>Box Received!</value>
+  </data>
+  <data name="missionRewardWindow/header/setting" xml:space="preserve">
+    <value>Box Received!</value>
+  </data>
+  <data name="missionRewardWindow/rewardBtnLabel" xml:space="preserve">
+    <value>Open the Box</value>
+  </data>
+  <data name="missionRewardWindow/title/any" xml:space="preserve">
+    <value>Time to Open Presents</value>
+  </data>
+  <data name="missionRewardWindow/title/setting" xml:space="preserve">
+    <value>Time to Open Presents</value>
+  </data>
+  <data name="missionRewardWindow/warning/noItems" xml:space="preserve">
+    <value>All boxes were opened</value>
+  </data>
+  <data name="popover/decorations/currentToy/body" xml:space="preserve">
+    <value>Click to free up the slot for another decoration.</value>
+  </data>
+  <data name="popover/decorations/currentToy/header" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="popover/decorations/filter/header" xml:space="preserve">
+    <value>Decorations Filter</value>
+  </data>
+  <data name="popover/decorations/filter/label" xml:space="preserve">
+    <value>Displayed</value>
+  </data>
+  <data name="popover/decorations/formHeader" xml:space="preserve">
+    <value>Decoration Type</value>
+  </data>
+  <data name="popover/decorations/header/house" xml:space="preserve">
+    <value>House Decorations</value>
+  </data>
+  <data name="popover/decorations/header/house_light" xml:space="preserve">
+    <value>Lights</value>
+  </data>
+  <data name="popover/decorations/header/lampposts" xml:space="preserve">
+    <value>Posts and Yard</value>
+  </data>
+  <data name="popover/decorations/header/snowman" xml:space="preserve">
+    <value>Snowman Decorations</value>
+  </data>
+  <data name="popover/decorations/header/top" xml:space="preserve">
+    <value>Tree Toppers</value>
+  </data>
+  <data name="popover/decorations/header/tree_garland" xml:space="preserve">
+    <value>Garlands</value>
+  </data>
+  <data name="popover/decorations/header/tree_handing" xml:space="preserve">
+    <value>Pendants</value>
+  </data>
+  <data name="popover/decorations/header/under_tree" xml:space="preserve">
+    <value>Tree Skirt Decorations</value>
+  </data>
+  <data name="popover/decorations/noFilteredToys/description" xml:space="preserve">
+    <value>Nothing found. Change your filter settings or reset them to default.</value>
+  </data>
+  <data name="popover/decorations/noFilteredToys/resetBtn" xml:space="preserve">
+    <value>Reset filter</value>
+  </data>
+  <data name="popover/decorations/noToys/description" xml:space="preserve">
+    <value>Complete missions and earn decorations to make your Garage look festive.</value>
+  </data>
+  <data name="popover/decorations/noToys/toTasksBtn" xml:space="preserve">
+    <value>Go to Missions</value>
+  </data>
+  <data name="popover/decorations/settings/closeBtn" xml:space="preserve">
+    <value>Apply Filter</value>
+  </data>
+  <data name="popover/decorations/settings/level/1" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="popover/decorations/settings/level/2" xml:space="preserve">
+    <value>II</value>
+  </data>
+  <data name="popover/decorations/settings/level/3" xml:space="preserve">
+    <value>III</value>
+  </data>
+  <data name="popover/decorations/settings/level/4" xml:space="preserve">
+    <value>IV</value>
+  </data>
+  <data name="popover/decorations/settings/level/5" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="popover/decorations/settings/levelHeader" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="popover/decorations/settings/nationHeader" xml:space="preserve">
+    <value>Collection</value>
+  </data>
+  <data name="popover/decorations/settings/nations/all" xml:space="preserve">
+    <value>All collections</value>
+  </data>
+  <data name="popover/decorations/settings/nations/christmas" xml:space="preserve">
+    <value>Modern Christmas</value>
+  </data>
+  <data name="popover/decorations/settings/nations/eastern_new_year" xml:space="preserve">
+    <value>Chinese New Year</value>
+  </data>
+  <data name="popover/decorations/settings/nations/new_year" xml:space="preserve">
+    <value>Soviet New Year</value>
+  </data>
+  <data name="popover/decorations/settings/nations/old_christmas" xml:space="preserve">
+    <value>Traditional Christmas</value>
+  </data>
+  <data name="popover/decorations/settings/tooltip/reset/body" xml:space="preserve">
+    <value>Click to reset your customization
+elements filter to default.</value>
+  </data>
+  <data name="popover/decorations/settings/tooltip/reset/header" xml:space="preserve">
+    <value>Set by Default</value>
+  </data>
+  <data name="rewardsScreen/rewards/tankWoman/recruited" xml:space="preserve">
+    <value>Recruited</value>
+  </data>
+  <data name="rewardsScreen/rewards/tankWoman/toRecruit" xml:space="preserve">
+    <value>Recruit</value>
+  </data>
+  <data name="rewardsScreen/rewards/vehicle/applied" xml:space="preserve">
+    <value>Discount applied</value>
+  </data>
+  <data name="rewardsScreen/rewards/vehicle/btn" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="rewardsScreen/rewards/vehicle/giftTank" xml:space="preserve">
+    <value>Gift vehicle</value>
+  </data>
+  <data name="rewardsScreen/rewards/vehicle/received" xml:space="preserve">
+    <value>Open the crate
+to receive your reward</value>
+  </data>
+  <data name="rewardsScreen/title" xml:space="preserve">
+    <value>Reward for Atmosphere Levels</value>
+  </data>
+  <data name="rewardsScreen/tooltip/gift/vehicle/body" xml:space="preserve">
+    <value>Here is our New Year present for you: the Tier %(level)s %(name)s vehicle.</value>
+  </data>
+  <data name="rewardsScreen/tooltip/gift/vehicle/header" xml:space="preserve">
+    <value>New Year Present</value>
+  </data>
+  <data name="rewardsScreen/tooltip/unlock/body" xml:space="preserve">
+    <value>Increase the Festive Atmosphere and
+decorate your Garage to receive rewards.</value>
+  </data>
+  <data name="rewardsScreen/tooltip/unlock/header" xml:space="preserve">
+    <value>Atmosphere Level Not Reached</value>
+  </data>
+  <data name="rewardsScreen/tooltip/vehicle/applied/body" xml:space="preserve">
+    <value>A %(discount)s%% discount was activated for %(name)s</value>
+  </data>
+  <data name="rewardsScreen/tooltip/vehicle/body" xml:space="preserve">
+    <value>A %(discount)s%% discount on the selected
+researched Tier %(level)s vehicle.</value>
+  </data>
+  <data name="rewardsScreen/tooltip/vehicle/header" xml:space="preserve">
+    <value>Discount on Tier %(level)s Vehicle</value>
+  </data>
+  <data name="rewardsScreen/tooltip/vehicleUnknown/applied/body" xml:space="preserve">
+    <value>A %(discount)s%% discount was activated</value>
+  </data>
+  <data name="screen/backBtn/label" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="screen/backBtn/to/hangar" xml:space="preserve">
+    <value>TO GARAGE</value>
+  </data>
+  <data name="screen/box/label" xml:space="preserve">
+    <value>x%(count)d</value>
+  </data>
+  <data name="screen/craftBtn/label" xml:space="preserve">
+    <value>Craft</value>
+  </data>
+  <data name="screen/header" xml:space="preserve">
+    <value>Festive Atmosphere</value>
+  </data>
+  <data name="screen/sidebar/label/house" xml:space="preserve">
+    <value>House and Lights</value>
+  </data>
+  <data name="screen/sidebar/label/light" xml:space="preserve">
+    <value>Posts and Yard</value>
+  </data>
+  <data name="screen/sidebar/label/snowman" xml:space="preserve">
+    <value>Snowman</value>
+  </data>
+  <data name="screen/sidebar/label/tree" xml:space="preserve">
+    <value>Christmas Tree</value>
+  </data>
+  <data name="system_messages/applyDiscount/tankmen/success" xml:space="preserve">
+    <value>A female crew member has been successfully recruited</value>
+  </data>
+  <data name="system_messages/battleResult/boxes" xml:space="preserve">
+    <value>New Year present (x%(count)s)</value>
+  </data>
+  <data name="system_messages/breakToys/error/invalidRequest" xml:space="preserve">
+    <value>Failed to break the decoration: invalid parameters specified.</value>
+  </data>
+  <data name="system_messages/breakToys/error/server_error" xml:space="preserve">
+    <value>Failed to break the decoration: server error.</value>
+  </data>
+  <data name="system_messages/craftToy/error/invalidRequest" xml:space="preserve">
+    <value>Failed to break the decoration: invalid parameters specified.</value>
+  </data>
+  <data name="system_messages/craftToy/error/server_error" xml:space="preserve">
+    <value>Failed to break the decoration: server error.</value>
+  </data>
+  <data name="system_messages/discountSelect/error/NOT_FOUND" xml:space="preserve">
+    <value>Discount activation error: the discount for this vehicle was not found.</value>
+  </data>
+  <data name="system_messages/discountSelect/error/NO_DISCOUNTS" xml:space="preserve">
+    <value>Vehicle discount activation error: discounts not found.</value>
+  </data>
+  <data name="system_messages/discountSelect/error/inhangar" xml:space="preserve">
+    <value>Vehicle discount activation error: the vehicle was already purchased.</value>
+  </data>
+  <data name="system_messages/discountSelect/error/server_error" xml:space="preserve">
+    <value>Failed to activate the discount: server error.</value>
+  </data>
+  <data name="system_messages/discountSelect/success" xml:space="preserve">
+    <value>You have activated a %(discount)d%% discount on the %(vehicle)s vehicle</value>
+  </data>
+  <data name="system_messages/finished" xml:space="preserve">
+    <value>You have some unused rewards. Do not forget to activate them by mid-March!</value>
+  </data>
+  <data name="system_messages/finished/button" xml:space="preserve">
+    <value>To Rewards</value>
+  </data>
+  <data name="system_messages/invoiceReceived/allBoxesOpened" xml:space="preserve">
+    <value>We opened the boxes for you and added the rewards for Holiday Ops</value>
+  </data>
+  <data name="system_messages/invoiceReceived/chestOpened/body" xml:space="preserve">
+    <value>You receive the following rewards:</value>
+  </data>
+  <data name="system_messages/invoiceReceived/chestOpened/header" xml:space="preserve">
+    <value>Congratulations!</value>
+  </data>
+  <data name="system_messages/invoiceReceived/debitedToys" xml:space="preserve">
+    <value>New Year decorations removed</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toy" xml:space="preserve">
+    <value>"%(name)s" (x%(count)s)</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/garland" xml:space="preserve">
+    <value>Garland</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/gift" xml:space="preserve">
+    <value>Tree Skirt Decoration</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/hanging" xml:space="preserve">
+    <value>Pendant</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/house_decoration" xml:space="preserve">
+    <value>House Decoration</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/house_lamp" xml:space="preserve">
+    <value>Lights</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/snowman" xml:space="preserve">
+    <value>Snowman</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/street_garland" xml:space="preserve">
+    <value>Posts and Yard</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toyType/top" xml:space="preserve">
+    <value>Tree Topper</value>
+  </data>
+  <data name="system_messages/invoiceReceived/toys" xml:space="preserve">
+    <value>New Year decorations received</value>
+  </data>
+  <data name="system_messages/open/error/NO_ITEMS" xml:space="preserve">
+    <value>Error receiving present: no boxes or crates found.</value>
+  </data>
+  <data name="system_messages/open/error/server_error" xml:space="preserve">
+    <value>Error receiving present: server error.</value>
+  </data>
+  <data name="system_messages/open/error/underOpening" xml:space="preserve">
+    <value>Error receiving present: please wait until the previous operation is complete.</value>
+  </data>
+  <data name="system_messages/open/success" xml:space="preserve">
+    <value>Present successfully received.</value>
+  </data>
+  <data name="system_messages/placeToy/error/invalidRequest" xml:space="preserve">
+    <value>Error adding decoration: invalid parameters specified.</value>
+  </data>
+  <data name="system_messages/placeToy/error/server_error" xml:space="preserve">
+    <value>Error adding decoration: server error.</value>
+  </data>
+  <data name="system_messages/presentBox/body" xml:space="preserve">
+    <value>You received a present from a friend:
+%(settingStartTag)s%(setting)s%(settingEndTag)s with valuable presents (x%(countStartTag)s%(count)d%(countEndTag)s).</value>
+  </data>
+  <data name="system_messages/presentBox/header" xml:space="preserve">
+    <value>Urgent Delivery</value>
+  </data>
+  <data name="system_messages/presentBox/setting/name/asian" xml:space="preserve">
+    <value>Chinese New Year box</value>
+  </data>
+  <data name="system_messages/presentBox/setting/name/modernWestern" xml:space="preserve">
+    <value>Modern Christmas box</value>
+  </data>
+  <data name="system_messages/presentBox/setting/name/soviet" xml:space="preserve">
+    <value>Soviet New Year box</value>
+  </data>
+  <data name="system_messages/presentBox/setting/name/traditionalWestern" xml:space="preserve">
+    <value>Traditional Christmas box</value>
+  </data>
+  <data name="system_messages/request/error/common" xml:space="preserve">
+    <value>Action is temporarily unavailable. Try again later.</value>
+  </data>
+  <data name="system_messages/request/error/cooldown" xml:space="preserve">
+    <value>Error: the operation is temporarily suspended.</value>
+  </data>
+  <data name="system_messages/request/error/requestIsBeingProcess" xml:space="preserve">
+    <value>Action unavailable. Please wait until the previous request of the same type is completed.</value>
+  </data>
+  <data name="system_messages/request/error/time out" xml:space="preserve">
+    <value>Error: the time for executing the operation has expired.</value>
+  </data>
+  <data name="system_messages/setting/collected/emblem/asian" xml:space="preserve">
+    <value>Yellow Dog</value>
+  </data>
+  <data name="system_messages/setting/collected/emblem/modernWestern" xml:space="preserve">
+    <value>Christmas Stocking</value>
+  </data>
+  <data name="system_messages/setting/collected/emblem/soviet" xml:space="preserve">
+    <value>Ded Moroz</value>
+  </data>
+  <data name="system_messages/setting/collected/emblem/traditionalWestern" xml:space="preserve">
+    <value>Jingle Bell</value>
+  </data>
+  <data name="system_messages/setting/collected/message/body" xml:space="preserve">
+    <value>For completing the full %(setting)s collection you receive the following rewards:
+Styles: %(styles)s
+Inscriptions: %(titles)s
+Emblems: %(emblem)s</value>
+  </data>
+  <data name="system_messages/setting/collected/message/header" xml:space="preserve">
+    <value>Collection Complete!</value>
+  </data>
+  <data name="system_messages/setting/collected/titles/asian" xml:space="preserve">
+    <value>Happy New Year</value>
+  </data>
+  <data name="system_messages/setting/collected/titles/modernWestern" xml:space="preserve">
+    <value>Happy New Year!, Gott nytt år!, Merry Christmas!</value>
+  </data>
+  <data name="system_messages/setting/collected/titles/soviet" xml:space="preserve">
+    <value>May the new year bring new victories!</value>
+  </data>
+  <data name="system_messages/setting/collected/titles/traditionalWestern" xml:space="preserve">
+    <value>Bonne Annee!, Stastny Novy Rok!, Szczęśliwego Nowego Roku, Frohe Weihnachten</value>
+  </data>
+  <data name="system_messages/setting/name/asian" xml:space="preserve">
+    <value>Chinese New Year</value>
+  </data>
+  <data name="system_messages/setting/name/modernWestern" xml:space="preserve">
+    <value>Modern Christmas</value>
+  </data>
+  <data name="system_messages/setting/name/soviet" xml:space="preserve">
+    <value>Soviet New Year</value>
+  </data>
+  <data name="system_messages/setting/name/traditionalWestern" xml:space="preserve">
+    <value>Traditional Christmas</value>
+  </data>
+  <data name="system_messages/started/body" xml:space="preserve">
+    <value>Decorate your Garage and earn valuable rewards.</value>
+  </data>
+  <data name="system_messages/started/button" xml:space="preserve">
+    <value>View Rewards</value>
+  </data>
+  <data name="system_messages/started/header" xml:space="preserve">
+    <value>Holiday Ops Started!</value>
+  </data>
+  <data name="system_messages/state/error/notAvailable" xml:space="preserve">
+    <value>Holiday Ops have been temporarily disabled.</value>
+  </data>
+  <data name="system_messages/state/finished" xml:space="preserve">
+    <value>Holiday Ops have ended, thank you for your participation, we will see you next year!</value>
+  </data>
+  <data name="system_messages/state/restored" xml:space="preserve">
+    <value>Holiday Ops have been resumed.</value>
+  </data>
+  <data name="system_messages/tankmanRecruit/error/NOT_FOUND" xml:space="preserve">
+    <value>Failed to recruit the female crew member: the female crew member was not found.</value>
+  </data>
+  <data name="system_messages/tankmanRecruit/error/NO_DISCOUNTS" xml:space="preserve">
+    <value>Failed to recruit the female crew member: discounts not found.</value>
+  </data>
+  <data name="system_messages/tankmanRecruit/error/server_error" xml:space="preserve">
+    <value>Failed to activate the discount: server error.</value>
+  </data>
+  <data name="system_messages/tankmanRecruit/success" xml:space="preserve">
+    <value>The female crew member has been successfully recruited.</value>
+  </data>
+  <data name="tooltip/atmosphere/vehicle/header" xml:space="preserve">
+    <value>Discount on
+a Tier %(level)s vehicle</value>
+  </data>
+  <data name="tooltip/box/buy/body" xml:space="preserve">
+    <value>Purchase boxes with decorations from any collection for yourself and your friends on the Holiday Ops page.</value>
+  </data>
+  <data name="tooltip/box/buy/header" xml:space="preserve">
+    <value>Where to Purchase:</value>
+  </data>
+  <data name="tooltip/box/header" xml:space="preserve">
+    <value>Festive Boxes</value>
+  </data>
+  <data name="tooltip/box/win/body" xml:space="preserve">
+    <value>Awarded for the completion of holiday missions.</value>
+  </data>
+  <data name="tooltip/box/win/header" xml:space="preserve">
+    <value>How to Earn:</value>
+  </data>
+  <data name="tooltip/carouselItem/awards/girl" xml:space="preserve">
+    <value>Female Crew Member</value>
+  </data>
+  <data name="tooltip/carouselItem/awards/header" xml:space="preserve">
+    <value>Nearest Rewards:</value>
+  </data>
+  <data name="tooltip/carouselItem/awards/vehicle/lvl" xml:space="preserve">
+    <value>vehicle</value>
+  </data>
+  <data name="tooltip/carouselItem/awards/vehicle/sale" xml:space="preserve">
+    <value>discount (in credits) on a Tier</value>
+  </data>
+  <data name="tooltip/carouselItem/disable/body" xml:space="preserve">
+    <value>Holiday Ops have been disabled
+due to technical reasons. We will fix everything tomorrow morning.
+Meanwhile, have a rest and eat something tasty.</value>
+  </data>
+  <data name="tooltip/carouselItem/disable/header" xml:space="preserve">
+    <value>Holiday Paused</value>
+  </data>
+  <data name="tooltip/carouselItem/noProgress/body" xml:space="preserve">
+    <value>Click to decorate your Christmas tree and other elements. The higher the Festive Atmosphere level, the more valuable the rewards you receive.</value>
+  </data>
+  <data name="tooltip/carouselItem/progress/header/decorations" xml:space="preserve">
+    <value>Festive Atmosphere</value>
+  </data>
+  <data name="tooltip/carouselItem/progress/header/noDecorations" xml:space="preserve">
+    <value>Christmas Tree and Scenery</value>
+  </data>
+  <data name="tooltip/carouselItem/progress/header/subTitle" xml:space="preserve">
+    <value>Festive Atmosphere Progress</value>
+  </data>
+  <data name="tooltip/flakes/body" xml:space="preserve">
+    <value>A valuable holiday material</value>
+  </data>
+  <data name="tooltip/flakes/descr" xml:space="preserve">
+    <value>Break the decorations you do not need and create new ones from shards.</value>
+  </data>
+  <data name="tooltip/flakes/header" xml:space="preserve">
+    <value>Shards</value>
+  </data>
+  <data name="tooltip/flakes/in_stock" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="tooltip/settings/nations/christmas" xml:space="preserve">
+    <value>Modern Christmas</value>
+  </data>
+  <data name="tooltip/settings/nations/eastern_new_year" xml:space="preserve">
+    <value>Chinese New Year</value>
+  </data>
+  <data name="tooltip/settings/nations/new_year" xml:space="preserve">
+    <value>Soviet New Year</value>
+  </data>
+  <data name="tooltip/settings/nations/old_christmas" xml:space="preserve">
+    <value>Traditional Christmas</value>
+  </data>
+  <data name="tooltip/settings/toys/toy0" xml:space="preserve">
+    <value>Red Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy10" xml:space="preserve">
+    <value>White and Green Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy100" xml:space="preserve">
+    <value>Complex Snowflake</value>
+  </data>
+  <data name="tooltip/settings/toys/toy100/descr" xml:space="preserve">
+    <value>The snowflake is extremely fragile. Try not to breathe on it or speak near it.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy101" xml:space="preserve">
+    <value>Red Star Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy101/descr" xml:space="preserve">
+    <value>"Please do not express your political views when my parents come to celebrate with us." "Sure, darling."</value>
+  </data>
+  <data name="tooltip/settings/toys/toy102" xml:space="preserve">
+    <value>Pagoda Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy102/descr" xml:space="preserve">
+    <value>When you look at this tree topper, you are keenly aware of the inexorable cyclical unfolding of the universal being in a strictly defined order.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy103" xml:space="preserve">
+    <value>Santa's Hat</value>
+  </data>
+  <data name="tooltip/settings/toys/toy103/descr" xml:space="preserve">
+    <value>"After the holidays, I do nothing till March, and then I'm the Easter Bunny."</value>
+  </data>
+  <data name="tooltip/settings/toys/toy104" xml:space="preserve">
+    <value>Pile of Artificial Snow</value>
+  </data>
+  <data name="tooltip/settings/toys/toy105" xml:space="preserve">
+    <value>Small Red Wrapped Gift</value>
+  </data>
+  <data name="tooltip/settings/toys/toy106" xml:space="preserve">
+    <value>Sled</value>
+  </data>
+  <data name="tooltip/settings/toys/toy107" xml:space="preserve">
+    <value>Red Origami Lantern</value>
+  </data>
+  <data name="tooltip/settings/toys/toy108" xml:space="preserve">
+    <value>Small Blue Wrapped Gift</value>
+  </data>
+  <data name="tooltip/settings/toys/toy109" xml:space="preserve">
+    <value>Sack of Gifts</value>
+  </data>
+  <data name="tooltip/settings/toys/toy110" xml:space="preserve">
+    <value>Suspicious Snow Pile</value>
+  </data>
+  <data name="tooltip/settings/toys/toy111" xml:space="preserve">
+    <value>Yellow Origami Lantern</value>
+  </data>
+  <data name="tooltip/settings/toys/toy112" xml:space="preserve">
+    <value>Red Wrapped Gift</value>
+  </data>
+  <data name="tooltip/settings/toys/toy113" xml:space="preserve">
+    <value>Green Wrapped Gift</value>
+  </data>
+  <data name="tooltip/settings/toys/toy114" xml:space="preserve">
+    <value>Blue Wrapped Gift</value>
+  </data>
+  <data name="tooltip/settings/toys/toy115" xml:space="preserve">
+    <value>Plump Snowman</value>
+  </data>
+  <data name="tooltip/settings/toys/toy116" xml:space="preserve">
+    <value>Rich Man's Suspension</value>
+  </data>
+  <data name="tooltip/settings/toys/toy117" xml:space="preserve">
+    <value>The Little Engine That Could</value>
+  </data>
+  <data name="tooltip/settings/toys/toy118" xml:space="preserve">
+    <value>Paper Crane</value>
+  </data>
+  <data name="tooltip/settings/toys/toy119" xml:space="preserve">
+    <value>Paper Rabbit</value>
+  </data>
+  <data name="tooltip/settings/toys/toy12" xml:space="preserve">
+    <value>Red and Blue Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy120" xml:space="preserve">
+    <value>Rudolph the Red-Nosed Newbie</value>
+  </data>
+  <data name="tooltip/settings/toys/toy121" xml:space="preserve">
+    <value>Ivan Bear</value>
+  </data>
+  <data name="tooltip/settings/toys/toy122" xml:space="preserve">
+    <value>Opened Sack of Gifts</value>
+  </data>
+  <data name="tooltip/settings/toys/toy123" xml:space="preserve">
+    <value>Teddy Bear</value>
+  </data>
+  <data name="tooltip/settings/toys/toy124" xml:space="preserve">
+    <value>Frosty the Tankman</value>
+  </data>
+  <data name="tooltip/settings/toys/toy125" xml:space="preserve">
+    <value>Heavy Sack of Gifts</value>
+  </data>
+  <data name="tooltip/settings/toys/toy126" xml:space="preserve">
+    <value>Paper Horse</value>
+  </data>
+  <data name="tooltip/settings/toys/toy127" xml:space="preserve">
+    <value>Lancashire Pig</value>
+  </data>
+  <data name="tooltip/settings/toys/toy128" xml:space="preserve">
+    <value>The Snow Maiden</value>
+  </data>
+  <data name="tooltip/settings/toys/toy129" xml:space="preserve">
+    <value>General Snow</value>
+  </data>
+  <data name="tooltip/settings/toys/toy130" xml:space="preserve">
+    <value>Good Santa</value>
+  </data>
+  <data name="tooltip/settings/toys/toy131" xml:space="preserve">
+    <value>Christmas Elf</value>
+  </data>
+  <data name="tooltip/settings/toys/toy132" xml:space="preserve">
+    <value>Saint Nicholas</value>
+  </data>
+  <data name="tooltip/settings/toys/toy133" xml:space="preserve">
+    <value>Archangel Penetrael</value>
+  </data>
+  <data name="tooltip/settings/toys/toy134" xml:space="preserve">
+    <value>Paper Tiger</value>
+  </data>
+  <data name="tooltip/settings/toys/toy135" xml:space="preserve">
+    <value>Paper Librarian</value>
+  </data>
+  <data name="tooltip/settings/toys/toy136" xml:space="preserve">
+    <value>Sleigh</value>
+  </data>
+  <data name="tooltip/settings/toys/toy136/descr" xml:space="preserve">
+    <value>Very fun to ride, as we all know.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy137" xml:space="preserve">
+    <value>Toy KV-2</value>
+  </data>
+  <data name="tooltip/settings/toys/toy137/descr" xml:space="preserve">
+    <value>One toy Rhm.-Borsig Waffenträger is boarding the nope train right now.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy138" xml:space="preserve">
+    <value>Christmas Lantern</value>
+  </data>
+  <data name="tooltip/settings/toys/toy138/descr" xml:space="preserve">
+    <value>Illuminate your Garage and stop locating heavy objects with your little toe.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy139" xml:space="preserve">
+    <value>Puppy</value>
+  </data>
+  <data name="tooltip/settings/toys/toy139/descr" xml:space="preserve">
+    <value>He has the luck of the Irish, the pride of the Germans, the calm of the English, the charm of the Spanish, and the only way this pup knows is up!</value>
+  </data>
+  <data name="tooltip/settings/toys/toy14" xml:space="preserve">
+    <value>Red and Yellow Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy140" xml:space="preserve">
+    <value>Football Set</value>
+  </data>
+  <data name="tooltip/settings/toys/toy140/descr" xml:space="preserve">
+    <value>This will help you get mobile, agile, and hostile ...and hide the tears when your team loses.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy141" xml:space="preserve">
+    <value>Toy Train Set</value>
+  </data>
+  <data name="tooltip/settings/toys/toy141/descr" xml:space="preserve">
+    <value>I am a grown and successful adult who definitely needs this toy train set.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy142" xml:space="preserve">
+    <value>Dog</value>
+  </data>
+  <data name="tooltip/settings/toys/toy142/descr" xml:space="preserve">
+    <value>There may be a little present inside, but looking in the dog and opening it up could be a bit strong.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy143" xml:space="preserve">
+    <value>Red Dragon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy143/descr" xml:space="preserve">
+    <value>It is travel-sized for your convenience and does not do any tongue things.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy144" xml:space="preserve">
+    <value>Little Red Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy145" xml:space="preserve">
+    <value>Little Blue Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy146" xml:space="preserve">
+    <value>Little Silver Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy147" xml:space="preserve">
+    <value>Little Purple Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy148" xml:space="preserve">
+    <value>Yellow Kusudama</value>
+  </data>
+  <data name="tooltip/settings/toys/toy149" xml:space="preserve">
+    <value>Red Kusudama</value>
+  </data>
+  <data name="tooltip/settings/toys/toy150" xml:space="preserve">
+    <value>Glassy Red Cone</value>
+  </data>
+  <data name="tooltip/settings/toys/toy151" xml:space="preserve">
+    <value>Glassy Blue Cone</value>
+  </data>
+  <data name="tooltip/settings/toys/toy152" xml:space="preserve">
+    <value>Glassy Silver Cone</value>
+  </data>
+  <data name="tooltip/settings/toys/toy153" xml:space="preserve">
+    <value>Yellow Basket Lantern</value>
+  </data>
+  <data name="tooltip/settings/toys/toy154" xml:space="preserve">
+    <value>Silver Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy155" xml:space="preserve">
+    <value>Red Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy156" xml:space="preserve">
+    <value>Big Red Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy157" xml:space="preserve">
+    <value>Big Blue Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy158" xml:space="preserve">
+    <value>Big Silver Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy159" xml:space="preserve">
+    <value>Big Purple Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy16" xml:space="preserve">
+    <value>Fluffy Red Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy160" xml:space="preserve">
+    <value>Big Silver Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy161" xml:space="preserve">
+    <value>Big Red Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy162" xml:space="preserve">
+    <value>Red Star Kusudama</value>
+  </data>
+  <data name="tooltip/settings/toys/toy163" xml:space="preserve">
+    <value>Yellow Star Kusudama</value>
+  </data>
+  <data name="tooltip/settings/toys/toy164" xml:space="preserve">
+    <value>Snowy Red Cone</value>
+  </data>
+  <data name="tooltip/settings/toys/toy165" xml:space="preserve">
+    <value>Snowy Blue Cone</value>
+  </data>
+  <data name="tooltip/settings/toys/toy166" xml:space="preserve">
+    <value>Snowy Silver Cone</value>
+  </data>
+  <data name="tooltip/settings/toys/toy167" xml:space="preserve">
+    <value>Simple Yellow Lantern</value>
+  </data>
+  <data name="tooltip/settings/toys/toy168" xml:space="preserve">
+    <value>Pretty Red Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy169" xml:space="preserve">
+    <value>Pretty Blue Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy170" xml:space="preserve">
+    <value>Pretty Silver Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy171" xml:space="preserve">
+    <value>Pretty Purple Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy172" xml:space="preserve">
+    <value>Fancy Red Lantern</value>
+  </data>
+  <data name="tooltip/settings/toys/toy173" xml:space="preserve">
+    <value>Fancy Yellow Lantern</value>
+  </data>
+  <data name="tooltip/settings/toys/toy174" xml:space="preserve">
+    <value>Starry Blue Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy175" xml:space="preserve">
+    <value>Pretty Red Cone</value>
+  </data>
+  <data name="tooltip/settings/toys/toy176" xml:space="preserve">
+    <value>Pretty Blue Cone</value>
+  </data>
+  <data name="tooltip/settings/toys/toy177" xml:space="preserve">
+    <value>Pretty Silver Cone</value>
+  </data>
+  <data name="tooltip/settings/toys/toy178" xml:space="preserve">
+    <value>Red Star Pendant</value>
+  </data>
+  <data name="tooltip/settings/toys/toy179" xml:space="preserve">
+    <value>Blue Star Pendant</value>
+  </data>
+  <data name="tooltip/settings/toys/toy18" xml:space="preserve">
+    <value>Fluffy Blue Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy180" xml:space="preserve">
+    <value>Cylinder Lantern</value>
+  </data>
+  <data name="tooltip/settings/toys/toy181" xml:space="preserve">
+    <value>Striped Golden Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy182" xml:space="preserve">
+    <value>Striped Silver Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy183" xml:space="preserve">
+    <value>Striped Golden Cone</value>
+  </data>
+  <data name="tooltip/settings/toys/toy184" xml:space="preserve">
+    <value>Striped Silver Cone</value>
+  </data>
+  <data name="tooltip/settings/toys/toy185" xml:space="preserve">
+    <value>Golden Star Pendant</value>
+  </data>
+  <data name="tooltip/settings/toys/toy186" xml:space="preserve">
+    <value>Silver Star Pendant</value>
+  </data>
+  <data name="tooltip/settings/toys/toy187" xml:space="preserve">
+    <value>Small Gift Box Pendant</value>
+  </data>
+  <data name="tooltip/settings/toys/toy188" xml:space="preserve">
+    <value>Snowflake Pendant</value>
+  </data>
+  <data name="tooltip/settings/toys/toy189" xml:space="preserve">
+    <value>Sweet Candy Pendant</value>
+  </data>
+  <data name="tooltip/settings/toys/toy190" xml:space="preserve">
+    <value>Inked Lantern</value>
+  </data>
+  <data name="tooltip/settings/toys/toy191" xml:space="preserve">
+    <value>Bunch of Crackers</value>
+  </data>
+  <data name="tooltip/settings/toys/toy192" xml:space="preserve">
+    <value>Coin Pendant</value>
+  </data>
+  <data name="tooltip/settings/toys/toy193" xml:space="preserve">
+    <value>Christmas Stocking</value>
+  </data>
+  <data name="tooltip/settings/toys/toy193/descr" xml:space="preserve">
+    <value>"Dear Santa, I want a tank named Maus for beating up the teamkillers who destroy my vehicle. It could take its orders from the talking onigiri, so it wouldn't be my fault."</value>
+  </data>
+  <data name="tooltip/settings/toys/toy194" xml:space="preserve">
+    <value>PanzerKampfCandy</value>
+  </data>
+  <data name="tooltip/settings/toys/toy194/descr" xml:space="preserve">
+    <value>Claus, bring me ze PanzerKampfCandy!</value>
+  </data>
+  <data name="tooltip/settings/toys/toy195" xml:space="preserve">
+    <value>New Year Candle</value>
+  </data>
+  <data name="tooltip/settings/toys/toy195/descr" xml:space="preserve">
+    <value>A perfect fit for birthdays, Christmas, and measuring the wavelength-weighted power emitted by a holiday light source.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy196" xml:space="preserve">
+    <value>Aerosled</value>
+  </data>
+  <data name="tooltip/settings/toys/toy196/descr" xml:space="preserve">
+    <value>The prototype used by a brave climatologist at Ecopoint: Antarctica.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy197" xml:space="preserve">
+    <value>Gingerbread House</value>
+  </data>
+  <data name="tooltip/settings/toys/toy197/descr" xml:space="preserve">
+    <value>"A gingerbread man sits inside a gingerbread house..."</value>
+  </data>
+  <data name="tooltip/settings/toys/toy198" xml:space="preserve">
+    <value>The Winter Tankman</value>
+  </data>
+  <data name="tooltip/settings/toys/toy198/descr" xml:space="preserve">
+    <value>Longing. Rusted. Seventeen. Daybreak. Furnace.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy199" xml:space="preserve">
+    <value>Lucky Charm</value>
+  </data>
+  <data name="tooltip/settings/toys/toy199/descr" xml:space="preserve">
+    <value>Come on, shoot me in the gun mantlet, I deer you!</value>
+  </data>
+  <data name="tooltip/settings/toys/toy2" xml:space="preserve">
+    <value>Blue Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy20" xml:space="preserve">
+    <value>Fluffy Silver Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy200" xml:space="preserve">
+    <value>S-51 Trinket</value>
+  </data>
+  <data name="tooltip/settings/toys/toy200/descr" xml:space="preserve">
+    <value>For best results, put it in front of a rainbow at three o'clock.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy201" xml:space="preserve">
+    <value>T-34-85 Trinket</value>
+  </data>
+  <data name="tooltip/settings/toys/toy201/descr" xml:space="preserve">
+    <value>Switched to a tank from a four-door, chillin' on Himmelsdorf, your T is 34 (WoT ting).</value>
+  </data>
+  <data name="tooltip/settings/toys/toy202" xml:space="preserve">
+    <value>Owl Bauble</value>
+  </data>
+  <data name="tooltip/settings/toys/toy202/descr" xml:space="preserve">
+    <value>One of the most prominent engineers in the world designed and created this night eco-drone, but we are not telling you WHO. Ba dum tss.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy203" xml:space="preserve">
+    <value>Blue Crystal Lantern</value>
+  </data>
+  <data name="tooltip/settings/toys/toy203/descr" xml:space="preserve">
+    <value>A fragile but radiantly beautiful decoration created by artful glassblowers. Ask your cat to leave it alone.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy204" xml:space="preserve">
+    <value>Red Crystal Lantern</value>
+  </data>
+  <data name="tooltip/settings/toys/toy204/descr" xml:space="preserve">
+    <value>A fragile but radiantly beautiful decoration created by artful glassblowers. Ask your cat to leave it alone.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy205" xml:space="preserve">
+    <value>Type 59 Gold</value>
+  </data>
+  <data name="tooltip/settings/toys/toy205/descr" xml:space="preserve">
+    <value>It is official: the Type 59 Gold is available to all players! Not for long though. Also not THE Type 59 Gold.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy206" xml:space="preserve">
+    <value>Sack of Gold</value>
+  </data>
+  <data name="tooltip/settings/toys/toy206/descr" xml:space="preserve">
+    <value>This sack can be exchanged for all the Premium vehicles in the game. NOT!</value>
+  </data>
+  <data name="tooltip/settings/toys/toy207" xml:space="preserve">
+    <value>Red Lion</value>
+  </data>
+  <data name="tooltip/settings/toys/toy207/descr" xml:space="preserve">
+    <value>"Look, Simba. Everything the light touches is our kingdom."</value>
+  </data>
+  <data name="tooltip/settings/toys/toy208" xml:space="preserve">
+    <value>Yellow Lion</value>
+  </data>
+  <data name="tooltip/settings/toys/toy208/descr" xml:space="preserve">
+    <value>The Witch and the Wardrobe are available for only $49.99.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy209" xml:space="preserve">
+    <value>Snowman</value>
+  </data>
+  <data name="tooltip/settings/toys/toy210" xml:space="preserve">
+    <value>Snowpal</value>
+  </data>
+  <data name="tooltip/settings/toys/toy211" xml:space="preserve">
+    <value>Snow Santa</value>
+  </data>
+  <data name="tooltip/settings/toys/toy212" xml:space="preserve">
+    <value>Snow Panda</value>
+  </data>
+  <data name="tooltip/settings/toys/toy213" xml:space="preserve">
+    <value>Insulated Snowman</value>
+  </data>
+  <data name="tooltip/settings/toys/toy214" xml:space="preserve">
+    <value>Insulated Snowpal</value>
+  </data>
+  <data name="tooltip/settings/toys/toy215" xml:space="preserve">
+    <value>Insulated Snow Santa</value>
+  </data>
+  <data name="tooltip/settings/toys/toy216" xml:space="preserve">
+    <value>Insulated Snow Panda</value>
+  </data>
+  <data name="tooltip/settings/toys/toy217" xml:space="preserve">
+    <value>Insulated Snowman 2.0</value>
+  </data>
+  <data name="tooltip/settings/toys/toy218" xml:space="preserve">
+    <value>Insulated Snowpal 2.0</value>
+  </data>
+  <data name="tooltip/settings/toys/toy219" xml:space="preserve">
+    <value>Insulated Snow Santa 2.0</value>
+  </data>
+  <data name="tooltip/settings/toys/toy22" xml:space="preserve">
+    <value>Fluffy Golden Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy220" xml:space="preserve">
+    <value>Insulated Snow Panda 2.0</value>
+  </data>
+  <data name="tooltip/settings/toys/toy221" xml:space="preserve">
+    <value>Insulated Snowman-1000</value>
+  </data>
+  <data name="tooltip/settings/toys/toy222" xml:space="preserve">
+    <value>Insulated Snowpal-1000</value>
+  </data>
+  <data name="tooltip/settings/toys/toy223" xml:space="preserve">
+    <value>Insulated Snow Santa-1000</value>
+  </data>
+  <data name="tooltip/settings/toys/toy224" xml:space="preserve">
+    <value>Insulated Snow Panda-1000</value>
+  </data>
+  <data name="tooltip/settings/toys/toy225" xml:space="preserve">
+    <value>Skier</value>
+  </data>
+  <data name="tooltip/settings/toys/toy225/descr" xml:space="preserve">
+    <value>I knew the old skis from my garage would eventually come in handy.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy226" xml:space="preserve">
+    <value>Sir Snowpal, Esq.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy226/descr" xml:space="preserve">
+    <value>A loyal servant of Her Majesty. Or His Majesty. Depends on the time period.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy227" xml:space="preserve">
+    <value>Santa's Envoy</value>
+  </data>
+  <data name="tooltip/settings/toys/toy227/descr" xml:space="preserve">
+    <value>You can pass all your messages to Santa via this snowman. However, there is a risk they will only be delivered when pigs fly!</value>
+  </data>
+  <data name="tooltip/settings/toys/toy228" xml:space="preserve">
+    <value>Kung Fu Snow Panda</value>
+  </data>
+  <data name="tooltip/settings/toys/toy228/descr" xml:space="preserve">
+    <value>"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present."</value>
+  </data>
+  <data name="tooltip/settings/toys/toy229" xml:space="preserve">
+    <value>Paper Garlands</value>
+  </data>
+  <data name="tooltip/settings/toys/toy230" xml:space="preserve">
+    <value>Blazing Garlands</value>
+  </data>
+  <data name="tooltip/settings/toys/toy231" xml:space="preserve">
+    <value>Shaggy Garlands</value>
+  </data>
+  <data name="tooltip/settings/toys/toy232" xml:space="preserve">
+    <value>Colored Garlands</value>
+  </data>
+  <data name="tooltip/settings/toys/toy233" xml:space="preserve">
+    <value>Fluffy Garlands</value>
+  </data>
+  <data name="tooltip/settings/toys/toy234" xml:space="preserve">
+    <value>Fluffy White Garlands</value>
+  </data>
+  <data name="tooltip/settings/toys/toy235" xml:space="preserve">
+    <value>Fluffy Blue Garlands</value>
+  </data>
+  <data name="tooltip/settings/toys/toy236" xml:space="preserve">
+    <value>Golden Garlands</value>
+  </data>
+  <data name="tooltip/settings/toys/toy237" xml:space="preserve">
+    <value>Starry Garlands</value>
+  </data>
+  <data name="tooltip/settings/toys/toy238" xml:space="preserve">
+    <value>Twisted Red Garlands</value>
+  </data>
+  <data name="tooltip/settings/toys/toy239" xml:space="preserve">
+    <value>Twisted Blue Garlands</value>
+  </data>
+  <data name="tooltip/settings/toys/toy24" xml:space="preserve">
+    <value>White Origami Garland</value>
+  </data>
+  <data name="tooltip/settings/toys/toy240" xml:space="preserve">
+    <value>Lantern Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy241" xml:space="preserve">
+    <value>Starry Christmas Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy242" xml:space="preserve">
+    <value>Christmas Lights With Bulbs</value>
+  </data>
+  <data name="tooltip/settings/toys/toy243" xml:space="preserve">
+    <value>Blue Bands With Bows</value>
+  </data>
+  <data name="tooltip/settings/toys/toy244" xml:space="preserve">
+    <value>Glowing Christmas Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy245" xml:space="preserve">
+    <value>Soviet Colored Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy245/descr" xml:space="preserve">
+    <value>Whose idea was it to just stuff everything back in the box? Oh, it was mine? Nevermind.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy246" xml:space="preserve">
+    <value>Cascade Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy246/descr" xml:space="preserve">
+    <value>When you handle this decoration, be patient. Just as patient as when you are reloading the Bat.-Châtillon 155 58 with an injured Loader and damaged ammo rack.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy247" xml:space="preserve">
+    <value>Winter Festoon With Birds</value>
+  </data>
+  <data name="tooltip/settings/toys/toy247/descr" xml:space="preserve">
+    <value>This is the perfect example of an ideal combination of diligence and nerves of steel.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy248" xml:space="preserve">
+    <value>Bright Chinese Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy248/descr" xml:space="preserve">
+    <value>Definitely achieve balance with the Force, one who mounts all these decorations will.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy249" xml:space="preserve">
+    <value>Cabin</value>
+  </data>
+  <data name="tooltip/settings/toys/toy250" xml:space="preserve">
+    <value>Mansion</value>
+  </data>
+  <data name="tooltip/settings/toys/toy251" xml:space="preserve">
+    <value>Villa</value>
+  </data>
+  <data name="tooltip/settings/toys/toy252" xml:space="preserve">
+    <value>Fángzi</value>
+  </data>
+  <data name="tooltip/settings/toys/toy253" xml:space="preserve">
+    <value>Decorated Cabin</value>
+  </data>
+  <data name="tooltip/settings/toys/toy254" xml:space="preserve">
+    <value>Decorated Mansion</value>
+  </data>
+  <data name="tooltip/settings/toys/toy255" xml:space="preserve">
+    <value>Decorated Villa</value>
+  </data>
+  <data name="tooltip/settings/toys/toy256" xml:space="preserve">
+    <value>Decorated Fángzi</value>
+  </data>
+  <data name="tooltip/settings/toys/toy257" xml:space="preserve">
+    <value>Neat Cabin</value>
+  </data>
+  <data name="tooltip/settings/toys/toy258" xml:space="preserve">
+    <value>Neat Mansion</value>
+  </data>
+  <data name="tooltip/settings/toys/toy259" xml:space="preserve">
+    <value>Neat Villa</value>
+  </data>
+  <data name="tooltip/settings/toys/toy26" xml:space="preserve">
+    <value>Green Origami Garland</value>
+  </data>
+  <data name="tooltip/settings/toys/toy260" xml:space="preserve">
+    <value>Neat Fángzi</value>
+  </data>
+  <data name="tooltip/settings/toys/toy261" xml:space="preserve">
+    <value>Rich Man's Cabin</value>
+  </data>
+  <data name="tooltip/settings/toys/toy262" xml:space="preserve">
+    <value>Rich Man's Mansion</value>
+  </data>
+  <data name="tooltip/settings/toys/toy263" xml:space="preserve">
+    <value>Rich Man's Villa</value>
+  </data>
+  <data name="tooltip/settings/toys/toy264" xml:space="preserve">
+    <value>Rich Man's Fángzi</value>
+  </data>
+  <data name="tooltip/settings/toys/toy265" xml:space="preserve">
+    <value>General Snow Headquarters</value>
+  </data>
+  <data name="tooltip/settings/toys/toy265/descr" xml:space="preserve">
+    <value>If you press your ear firmly against the door, you can hear someone transmitting answers to multiple New Year requests in Morse.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy266" xml:space="preserve">
+    <value>Family Nest</value>
+  </data>
+  <data name="tooltip/settings/toys/toy266/descr" xml:space="preserve">
+    <value>This is where I feel at home, with peace and quiet, far away from the hustle and bustle of the big city.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy267" xml:space="preserve">
+    <value>Santa's Village</value>
+  </data>
+  <data name="tooltip/settings/toys/toy267/descr" xml:space="preserve">
+    <value>Santa Claus knows when you have been good or bad, but the developers know too.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy268" xml:space="preserve">
+    <value>Dragon Temple</value>
+  </data>
+  <data name="tooltip/settings/toys/toy268/descr" xml:space="preserve">
+    <value>Honor the dragon by decorating your house with some Asian details.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy269" xml:space="preserve">
+    <value>Wax Candles</value>
+  </data>
+  <data name="tooltip/settings/toys/toy270" xml:space="preserve">
+    <value>Long Christmas Candles</value>
+  </data>
+  <data name="tooltip/settings/toys/toy271" xml:space="preserve">
+    <value>Small Red Candles</value>
+  </data>
+  <data name="tooltip/settings/toys/toy272" xml:space="preserve">
+    <value>Tea Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy273" xml:space="preserve">
+    <value>Twisted Candles</value>
+  </data>
+  <data name="tooltip/settings/toys/toy274" xml:space="preserve">
+    <value>Thick Red Candles</value>
+  </data>
+  <data name="tooltip/settings/toys/toy275" xml:space="preserve">
+    <value>Thick White Candles</value>
+  </data>
+  <data name="tooltip/settings/toys/toy276" xml:space="preserve">
+    <value>Square Candles</value>
+  </data>
+  <data name="tooltip/settings/toys/toy277" xml:space="preserve">
+    <value>Snowman Candles</value>
+  </data>
+  <data name="tooltip/settings/toys/toy278" xml:space="preserve">
+    <value>Dwarf Candles</value>
+  </data>
+  <data name="tooltip/settings/toys/toy279" xml:space="preserve">
+    <value>Christmas Tree Candles</value>
+  </data>
+  <data name="tooltip/settings/toys/toy28" xml:space="preserve">
+    <value>Red Origami Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy280" xml:space="preserve">
+    <value>Candles In Jars</value>
+  </data>
+  <data name="tooltip/settings/toys/toy281" xml:space="preserve">
+    <value>Indian Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy282" xml:space="preserve">
+    <value>Snowflake Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy283" xml:space="preserve">
+    <value>Lantern Candles</value>
+  </data>
+  <data name="tooltip/settings/toys/toy284" xml:space="preserve">
+    <value>Square Lanterns</value>
+  </data>
+  <data name="tooltip/settings/toys/toy285" xml:space="preserve">
+    <value>LED Torches</value>
+  </data>
+  <data name="tooltip/settings/toys/toy285/descr" xml:space="preserve">
+    <value>Despite their high price, these lamps boast long service, low power consumption and immunity to tough weather conditions. Strongly recommended for an electric atmosphere.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy286" xml:space="preserve">
+    <value>Candy Torches</value>
+  </data>
+  <data name="tooltip/settings/toys/toy286/descr" xml:space="preserve">
+    <value>Licking it would definitely not be the best idea.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy287" xml:space="preserve">
+    <value>Oil Lamps</value>
+  </data>
+  <data name="tooltip/settings/toys/toy287/descr" xml:space="preserve">
+    <value>After you fall asleep in your rocking chair and forget to put it out, Mr. Oil Lamp is not your friend.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy288" xml:space="preserve">
+    <value>Asian Lanterns</value>
+  </data>
+  <data name="tooltip/settings/toys/toy288/descr" xml:space="preserve">
+    <value>Each lantern is powered by a pretty candle. Saves electricity, saves the environment, saves having to find those batteries rolling around in the bottom of the drawer.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy289" xml:space="preserve">
+    <value>Colored Christmas Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy289/descr" xml:space="preserve">
+    <value>Well, it is not the rug, but it really ties the Christmas tree together.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy292" xml:space="preserve">
+    <value>Puppy</value>
+  </data>
+  <data name="tooltip/settings/toys/toy292/descr" xml:space="preserve">
+    <value>He has the luck of the Irish, the pride of the Germans, the calm of the English, the charm of the Spanish, and the only way this pup knows is up!</value>
+  </data>
+  <data name="tooltip/settings/toys/toy293" xml:space="preserve">
+    <value>Blue Twisted Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy294" xml:space="preserve">
+    <value>Blue Twisted Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy295" xml:space="preserve">
+    <value>Classic Silver Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy30" xml:space="preserve">
+    <value>Yellow Origami Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy32" xml:space="preserve">
+    <value>Twisted Red Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy34" xml:space="preserve">
+    <value>Twisted Blue Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy36" xml:space="preserve">
+    <value>Twisted Yellow Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy38" xml:space="preserve">
+    <value>Festoon With Pennants</value>
+  </data>
+  <data name="tooltip/settings/toys/toy4" xml:space="preserve">
+    <value>Silver Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy40" xml:space="preserve">
+    <value>Starry Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy42" xml:space="preserve">
+    <value>Additional Deerpower</value>
+  </data>
+  <data name="tooltip/settings/toys/toy44" xml:space="preserve">
+    <value>Festoon With Pennants (Lend-Lease)</value>
+  </data>
+  <data name="tooltip/settings/toys/toy46" xml:space="preserve">
+    <value>Red Christmas Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy48" xml:space="preserve">
+    <value>Christmas Lights With Stars</value>
+  </data>
+  <data name="tooltip/settings/toys/toy50" xml:space="preserve">
+    <value>Christmas Lights With Bulbs</value>
+  </data>
+  <data name="tooltip/settings/toys/toy52" xml:space="preserve">
+    <value>Christmas Lights With Letters</value>
+  </data>
+  <data name="tooltip/settings/toys/toy54" xml:space="preserve">
+    <value>Christmas Lights With Letters (Lend-Lease)</value>
+  </data>
+  <data name="tooltip/settings/toys/toy56" xml:space="preserve">
+    <value>Christmas Lights With Candles</value>
+  </data>
+  <data name="tooltip/settings/toys/toy58" xml:space="preserve">
+    <value>Christmas Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy6" xml:space="preserve">
+    <value>Golden Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy60" xml:space="preserve">
+    <value>Butterfly Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy62" xml:space="preserve">
+    <value>Yellow Lantern Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy64" xml:space="preserve">
+    <value>Soviet Lights</value>
+  </data>
+  <data name="tooltip/settings/toys/toy64/descr" xml:space="preserve">
+    <value>Examined and approved by Gosudarstvennaya Atestatsionnaya Komissiya. The changing colors arouse an inexplicable urge to rush B, whatever that means.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy66" xml:space="preserve">
+    <value>Camouflage Net</value>
+  </data>
+  <data name="tooltip/settings/toys/toy66/descr" xml:space="preserve">
+    <value>Wait, where did my Christmas tree go?</value>
+  </data>
+  <data name="tooltip/settings/toys/toy68" xml:space="preserve">
+    <value>Pearly Garland</value>
+  </data>
+  <data name="tooltip/settings/toys/toy68/descr" xml:space="preserve">
+    <value>Look how shiny this garland is! But why is my cat gazing so longingly at it?</value>
+  </data>
+  <data name="tooltip/settings/toys/toy70" xml:space="preserve">
+    <value>Pretty Red Band</value>
+  </data>
+  <data name="tooltip/settings/toys/toy70/descr" xml:space="preserve">
+    <value>A cheap but fancy decoration suitable for both wrapping a present and putting on a Christmas tree.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy72" xml:space="preserve">
+    <value>Pretty Blue Band</value>
+  </data>
+  <data name="tooltip/settings/toys/toy72/descr" xml:space="preserve">
+    <value>A cheap but fancy decoration suitable for both wrapping a present and putting on a Christmas tree.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy74" xml:space="preserve">
+    <value>Snowflake Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy74/descr" xml:space="preserve">
+    <value>You do not need a scar on your forehead to do magic. All you need is paper and scissors. Fold, cut, unfold, and ta da! Festoon managed.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy76" xml:space="preserve">
+    <value>Dragon Garland</value>
+  </data>
+  <data name="tooltip/settings/toys/toy76/descr" xml:space="preserve">
+    <value>The legend says that the Chinese dragon is very flexible because some ruthless map designers from a faraway game company used its backbone for a ridge.</value>
+  </data>
+  <data name="tooltip/settings/toys/toy78" xml:space="preserve">
+    <value>Classic Red Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy79" xml:space="preserve">
+    <value>Classic Blue Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy8" xml:space="preserve">
+    <value>Red and White Festoon</value>
+  </data>
+  <data name="tooltip/settings/toys/toy80" xml:space="preserve">
+    <value>Classic Silver Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy81" xml:space="preserve">
+    <value>Zen Coin</value>
+  </data>
+  <data name="tooltip/settings/toys/toy82" xml:space="preserve">
+    <value>Neoclassic Red Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy83" xml:space="preserve">
+    <value>Neoclassic Blue Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy84" xml:space="preserve">
+    <value>Neoclassic Silver Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy85" xml:space="preserve">
+    <value>Yellow Zen Coin</value>
+  </data>
+  <data name="tooltip/settings/toys/toy86" xml:space="preserve">
+    <value>Snowy Red Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy87" xml:space="preserve">
+    <value>Snowy Blue Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy88" xml:space="preserve">
+    <value>White Star</value>
+  </data>
+  <data name="tooltip/settings/toys/toy89" xml:space="preserve">
+    <value>Red Star</value>
+  </data>
+  <data name="tooltip/settings/toys/toy90" xml:space="preserve">
+    <value>Simple Snowflake</value>
+  </data>
+  <data name="tooltip/settings/toys/toy91" xml:space="preserve">
+    <value>Snowy Silver Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy92" xml:space="preserve">
+    <value>Festive Bands</value>
+  </data>
+  <data name="tooltip/settings/toys/toy93" xml:space="preserve">
+    <value>Spiral Golden Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy94" xml:space="preserve">
+    <value>Spiral Silver Tree Topper</value>
+  </data>
+  <data name="tooltip/settings/toys/toy95" xml:space="preserve">
+    <value>Silver Star</value>
+  </data>
+  <data name="tooltip/settings/toys/toy96" xml:space="preserve">
+    <value>Golden Star</value>
+  </data>
+  <data name="tooltip/settings/toys/toy97" xml:space="preserve">
+    <value>Red Wind Rose</value>
+  </data>
+  <data name="tooltip/settings/toys/toy98" xml:space="preserve">
+    <value>White Wind Rose</value>
+  </data>
+  <data name="tooltip/settings/toys/toy99" xml:space="preserve">
+    <value>Paper Lantern Tree Topper</value>
+  </data>
+  <data name="tooltip/slotDelete/body" xml:space="preserve">
+    <value>Click to free up the slot for another decoration.</value>
+  </data>
+  <data name="tooltip/slotDelete/header" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="tooltip/tankmen" xml:space="preserve">
+    <value>Awarded for reaching Festive Atmosphere Levels IV, VI, VIII, and X.</value>
+  </data>
+  <data name="viewHeader/backBtn/label" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="viewHeader/closeBtn/label" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+</root>

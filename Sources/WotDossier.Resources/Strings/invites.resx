@@ -601,13 +601,13 @@ from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
     <value>Steel Hunt</value>
   </data>
   <data name="invites/note/change_and_leave/EVENT" xml:space="preserve">
-    <value>Once you accept the invitation, you will exit the Leviathan's Invasion and transferred to %(host)s server.</value>
+    <value>Once you accept the invitation, you will exit the +++Event battle+++ and transferred to %(host)s server.</value>
   </data>
   <data name="invites/note/leave/EVENT" xml:space="preserve">
-    <value>Once you accept the invitation, you will be automatically removed from the Squad of the Fallen.</value>
+    <value>?empty?</value>
   </data>
   <data name="invites/text/EVENT" xml:space="preserve">
-    <value>%(titleStartTag)sInvitation to join Squad of the Fallen%(titleEndTag)s</value>
+    <value>%(titleStartTag)sInvitation to Join the Platoon%(titleEndTag)s</value>
   </data>
   <data name="clans/state/app/error/inClanEnterCooldown" xml:space="preserve">
     <value>The player's two-day penalty for leaving their previous clan has not yet expired.</value>
@@ -635,5 +635,20 @@ from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
   </data>
   <data name="stronghold/invite/sendInviteToUsername" xml:space="preserve">
     <value>Invitation sent to %(name)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/EPIC" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically removed from the Platoon and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/change_and_leave/EPIC_TRAINING" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="invites/note/leave/EPIC" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically removed from the Platoon.</value>
+  </data>
+  <data name="invites/note/leave/EPIC_TRAINING" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="invites/text/EPIC" xml:space="preserve">
+    <value>%(titleStartTag)sInvitation to join Frontline platoon%(titleEndTag)s</value>
   </data>
 </root>

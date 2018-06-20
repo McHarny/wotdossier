@@ -39,10 +39,11 @@
 	    BOOTCAMP = 23,
 
 	    Event2 = 26,
+        Epic = 27,
 
 
 
-		ctf = 101,
+        ctf = 101,
         domination = 102,
         assault = 103,
         nations = 104

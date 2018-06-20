@@ -256,7 +256,7 @@
     <value>Unavailable</value>
   </data>
   <data name="detailedView/status/completed" xml:space="preserve">
-    <value>Primary Conditions Fulfilled</value>
+    <value>Completed</value>
   </data>
   <data name="detailedView/status/fullyCompleted" xml:space="preserve">
     <value>Completed with honors</value>
@@ -268,7 +268,7 @@
     <value>Orders committed:%(icon)sx1</value>
   </data>
   <data name="detailedView/status/sheetUsed" xml:space="preserve">
-    <value>Primary conditions fulfilled for%(icon)sx1</value>
+    <value>Completed for%(icon)sx1</value>
   </data>
   <data name="detailedView/tooltips/additionalConditions/body" xml:space="preserve">
     <value>This is your objective in battle that you must fulfil in order to receive the additional reward for completing the mission with honors.</value>
@@ -475,10 +475,10 @@ with honors</value>
     <value>No active</value>
   </data>
   <data name="sidebar/vehicles/AT-SPG" xml:space="preserve">
-    <value>TANK DESTROYERS</value>
+    <value>Tank Destroyers</value>
   </data>
   <data name="sidebar/vehicles/SPG" xml:space="preserve">
-    <value>SPGS</value>
+    <value>SPGs</value>
   </data>
   <data name="sidebar/vehicles/heavyTank" xml:space="preserve">
     <value>Heavy Tanks</value>
@@ -589,18 +589,36 @@ with honors</value>
     <value>Complete all missions in the set to retrieve orders.</value>
   </data>
   <data name="useAwardSheetWindow/needAmount" xml:space="preserve">
-    <value>orders: %(count)s</value>
+    <value>Required for completion:</value>
   </data>
   <data name="useAwardSheetWindow/noVehicle" xml:space="preserve">
     <value>Vehicles required to retrieve the order: %(vehicleClass)s.</value>
   </data>
   <data name="useAwardSheetWindow/sheetsTotal" xml:space="preserve">
-    <value>Total: %(count)s</value>
+    <value>Total available:</value>
   </data>
   <data name="useAwardSheetWindow/submitBtn" xml:space="preserve">
     <value>Complete</value>
   </data>
   <data name="useAwardSheetWindow/title" xml:space="preserve">
-    <value>Complete with Order</value>
+    <value>Complete Main Conditions</value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/chassis" xml:space="preserve">
+    <value>Suspension</value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/engine" xml:space="preserve">
+    <value>Power unit</value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/gun" xml:space="preserve">
+    <value>Gun</value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/hull" xml:space="preserve">
+    <value>Hull</value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/hullAndTurret" xml:space="preserve">
+    <value>Hull and turret</value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/radio" xml:space="preserve">
+    <value>Radio</value>
   </data>
 </root>

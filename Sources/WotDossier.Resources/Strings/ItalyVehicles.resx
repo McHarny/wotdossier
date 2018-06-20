@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Cannone_da_90_50_T119E1" xml:space="preserve">
+    <value>Cannone da 90/50 T119E1</value>
+  </data>
+  <data name="Chassis_It13_Progetto_M35_mod_46" xml:space="preserve">
+    <value>Progetto M35 mod. 46</value>
+  </data>
+  <data name="ID36S_6V_CA" xml:space="preserve">
+    <value>ID36S 6V CA</value>
+  </data>
+  <data name="It13_Progetto_M35_mod_46" xml:space="preserve">
+    <value>Progetto M35 mod. 46</value>
+  </data>
+  <data name="It13_Progetto_M35_mod_46_descr" xml:space="preserve">
+    <value>Conceptualization of a draft design developed at the request of General Francesco Rossi who believed that only light vehicles weighing up to 35 tons would be effective in a new war. Such an innovative design was not approved; development was discontinued when Italy joined the Standard Tank project.</value>
+  </data>
+  <data name="It13_Progetto_M35_mod_46_short" xml:space="preserve">
+    <value>Progetto 46</value>
+  </data>
+  <data name="R528" xml:space="preserve">
+    <value>R528</value>
+  </data>
+  <data name="Turret_1_It13_Progetto_M35_mod_46" xml:space="preserve">
+    <value>Progetto M35 mod. 46</value>
+  </data>
+  <data name="_90mm_c_g_90_50_HE_T_COMP_B_T91" xml:space="preserve">
+    <value>c.g. 90/50 HE-T COMP B T91</value>
+  </data>
+  <data name="_90mm_c_p_90_50_AP_T_T33E4" xml:space="preserve">
+    <value>c.p. 90/50 AP-T T33E4</value>
+  </data>
+  <data name="_90mm_c_p_90_50_HVAP_T_M332_T67" xml:space="preserve">
+    <value>c.p. 90/50 HVAP-T M332 (T67)</value>
+  </data>
+  <data name="Alfa_RA1000I_C_A" xml:space="preserve">
+    <value>Alfa RA1000I C.A.</value>
+  </data>
+  <data name="Cannone_da_105_51_M68" xml:space="preserve">
+    <value>Cannone da 105/51 M68</value>
+  </data>
+  <data name="Cannone_da_105_Rh_V1" xml:space="preserve">
+    <value>Cannone da 105 Rh V1</value>
+  </data>
+  <data name="Cannone_da_37_20" xml:space="preserve">
+    <value>Cannone da 37/20</value>
+  </data>
+  <data name="Cannone_da_37_40" xml:space="preserve">
+    <value>Cannone da 37/40</value>
+  </data>
+  <data name="Cannone_da_47_32" xml:space="preserve">
+    <value>Cannone da 47/32</value>
+  </data>
+  <data name="Cannone_da_47_40" xml:space="preserve">
+    <value>Cannone da 47/40</value>
+  </data>
+  <data name="Cannone_da_75_32" xml:space="preserve">
+    <value>Cannone da 75/32</value>
+  </data>
+  <data name="Cannone_da_75_34" xml:space="preserve">
+    <value>Cannone da 75/34</value>
+  </data>
+  <data name="Cannone_da_75_46" xml:space="preserve">
+    <value>Cannone da 75/46</value>
+  </data>
+  <data name="Cannone_da_75_50_Skoda" xml:space="preserve">
+    <value>Cannone da 75/50 Skoda</value>
+  </data>
+  <data name="Cannone_da_90_42" xml:space="preserve">
+    <value>Cannone da 90/42</value>
+  </data>
+  <data name="Cannone_da_90_53" xml:space="preserve">
+    <value>Cannone da 90/53</value>
+  </data>
+  <data name="Cannone_da_90_74" xml:space="preserve">
+    <value>Cannone da 90/74</value>
+  </data>
+  <data name="Cannone_da_90_Rh" xml:space="preserve">
+    <value>Cannone da 90 Rh</value>
+  </data>
+  <data name="Chassis_It03_M15_42" xml:space="preserve">
+    <value>M15/42</value>
+  </data>
+  <data name="Chassis_It03_M15_42_2" xml:space="preserve">
+    <value>M15/42 mod. 43</value>
+  </data>
+  <data name="Chassis_It04_Fiat_3000" xml:space="preserve">
+    <value>Fiat 3000</value>
+  </data>
+  <data name="Chassis_It05_Carro_L6_40" xml:space="preserve">
+    <value>L6/40</value>
+  </data>
+  <data name="Chassis_It05_Carro_L6_40_2" xml:space="preserve">
+    <value>L6/40 mod. 44</value>
+  </data>
+  <data name="Chassis_It06_M14_41" xml:space="preserve">
+    <value>M13/40</value>
+  </data>
+  <data name="Chassis_It06_M14_41_2" xml:space="preserve">
+    <value>M14/41</value>
+  </data>
+  <data name="Chassis_It07_P26_40" xml:space="preserve">
+    <value>P26/40 mod. 42</value>
+  </data>
+  <data name="Chassis_It07_P26_40_2" xml:space="preserve">
+    <value>P26/40 mod. 43</value>
+  </data>
+  <data name="Chassis_It08_Progetto_M40_mod_65" xml:space="preserve">
+    <value>Progetto M40 mod. 65</value>
+  </data>
+  <data name="Chassis_It09_P43_ter" xml:space="preserve">
+    <value>P.43 ter (molle interconnesse)</value>
+  </data>
+  <data name="Chassis_It09_P43_ter_2" xml:space="preserve">
+    <value>P.43 ter v.s. (molle interconnesse)</value>
+  </data>
+  <data name="Chassis_It10_P43_bis" xml:space="preserve">
+    <value>P.43 bis</value>
+  </data>
+  <data name="Chassis_It10_P43_bis_2" xml:space="preserve">
+    <value>P.43 bis v.s.</value>
+  </data>
+  <data name="Chassis_It11_P43" xml:space="preserve">
+    <value>P.43</value>
+  </data>
+  <data name="Chassis_It11_P43_2" xml:space="preserve">
+    <value>P.43 v.s.</value>
+  </data>
+  <data name="Chassis_It12_Prototipo_Standard_B" xml:space="preserve">
+    <value>Prototipo Standard B I</value>
+  </data>
+  <data name="Chassis_It12_Prototipo_Standard_B_2" xml:space="preserve">
+    <value>Prototipo Standard B II</value>
+  </data>
+  <data name="Chassis_It14_P44_Pantera" xml:space="preserve">
+    <value>P.44 Pantera</value>
+  </data>
+  <data name="Chassis_It14_P44_Pantera_2" xml:space="preserve">
+    <value>P.44 Pantera v.s.</value>
+  </data>
+  <data name="FIAT_604" xml:space="preserve">
+    <value>FIAT 604</value>
+  </data>
+  <data name="FIAT_RA1050I_C_A" xml:space="preserve">
+    <value>FIAT RA1050I C.A.</value>
+  </data>
+  <data name="It03_M15_42" xml:space="preserve">
+    <value>M15/42</value>
+  </data>
+  <data name="It03_M15_42_descr" xml:space="preserve">
+    <value>Italian medium tank produced from the beginning of 1943. After the surrender of Italy, a total of 90 vehicles were manufactured; some of which were confiscated by the Germans. Later they built another 28 vehicles. The tank was used by the Germans against the partisans in Yugoslavia, as well as in the Leonessa and Leoncello Battalions of the Armed Forces of the Italian Social Republic.</value>
+  </data>
+  <data name="It03_M15_42_short" xml:space="preserve">
+    <value>M15/42</value>
+  </data>
+  <data name="It04_Fiat_3000" xml:space="preserve">
+    <value>Fiat 3000</value>
+  </data>
+  <data name="It04_Fiat_3000_descr" xml:space="preserve">
+    <value>The vehicle was developed on the basis of the Renault FT French light tank. The first prototype was manufactured in 1919. From 1921 through 1930, a total of 150 vehicles with autoloading guns and machineguns were produced, 26 of them were exported. The vehicle saw action until 1943.</value>
+  </data>
+  <data name="It04_Fiat_3000_short" xml:space="preserve">
+    <value>Fiat 3000</value>
+  </data>
+  <data name="It05_Carro_L6_40" xml:space="preserve">
+    <value>L6/40</value>
+  </data>
+  <data name="It05_Carro_L6_40_descr" xml:space="preserve">
+    <value>An Italian light tank developed by Fiat-Ansaldo in the late 1930s. The vehicle entered mass production in 1940 and came into service in 1942. It was used on all fronts by the Italian Armed Forces. According to one source, 283 vehicles were manufactured by September, 1943. However, some sources mention a different number of vehicles—440.</value>
+  </data>
+  <data name="It05_Carro_L6_40_short" xml:space="preserve">
+    <value>L6/40</value>
+  </data>
+  <data name="It06_M14_41" xml:space="preserve">
+    <value>M14/41</value>
+  </data>
+  <data name="It06_M14_41_descr" xml:space="preserve">
+    <value>The vehicle was an upgraded modification of the M13/40. The first tanks were manufactured in the summer of 1941. Unlike the M13/40, this vehicle featured a more powerful engine, and new air and fuel filters that were better adapted to harsh climatic conditions of Africa. A total of 752 vehicles were produced.</value>
+  </data>
+  <data name="It06_M14_41_short" xml:space="preserve">
+    <value>M14/41</value>
+  </data>
+  <data name="It07_P26_40" xml:space="preserve">
+    <value>P26/40</value>
+  </data>
+  <data name="It07_P26_40_descr" xml:space="preserve">
+    <value>Development of this vehicle started at the end of 1940, but due to difficulties in finding a suitable engine, the first prototype was manufactured only at the beginning of 1942. Mass production was launched in 1943 in Turin. After Italy's capitulation in the autumn of 1943, the tank entered service under the designation Panzerkampfwagen P40 737(i) and was used by the German reserve divisions as permanent fire positions. A total of 100 vehicles were produced.</value>
+  </data>
+  <data name="It07_P26_40_short" xml:space="preserve">
+    <value>P26/40</value>
+  </data>
+  <data name="It08_Progetto_M40_mod_65" xml:space="preserve">
+    <value>Progetto M40 mod. 65</value>
+  </data>
+  <data name="It08_Progetto_M40_mod_65_descr" xml:space="preserve">
+    <value>In 1969, the Italian military delegation visited Germany to discuss the purchase of Leopard tanks. However, not all members of the delegation agreed with the acquisition of foreign vehicles. The Italian military experts and engineers specified the main requirements for the future tank: the slope angle of armor plates, the cast turret and gun mantlet, as well as the powerful engine from Mitsubishi that allowed production of a small, light, maneuverable, but perfectly-armored vehicle. The British and Soviet design plans collected by SIFAR-SID were taken into account. Development of the project was discontinued at the drafting and modelling stage.</value>
+  </data>
+  <data name="It08_Progetto_M40_mod_65_short" xml:space="preserve">
+    <value>Progetto 65</value>
+  </data>
+  <data name="It09_P43_ter" xml:space="preserve">
+    <value>P.43 ter</value>
+  </data>
+  <data name="It09_P43_ter_descr" xml:space="preserve">
+    <value>The P.43 ter is an Italian project for a medium tank developed in the mid-1940s. The work was discontinued at the blueprints stage.</value>
+  </data>
+  <data name="It09_P43_ter_short" xml:space="preserve">
+    <value>P.43 ter</value>
+  </data>
+  <data name="It10_P43_bis" xml:space="preserve">
+    <value>P.43 bis</value>
+  </data>
+  <data name="It10_P43_bis_descr" xml:space="preserve">
+    <value>The P.43 bis is one of the versions of the Italian medium tank developed in the mid-1940s. A 90-mm gun was planned to be mounted on the new vehicle. The tank was intended to demonstrate effective performance against existing vehicles.</value>
+  </data>
+  <data name="It10_P43_bis_short" xml:space="preserve">
+    <value>P.43 bis</value>
+  </data>
+  <data name="It11_P43" xml:space="preserve">
+    <value>P.43</value>
+  </data>
+  <data name="It11_P43_descr" xml:space="preserve">
+    <value>The P.43 is an Italian project medium tank developed in the mid-1940s. Only a wooden prototype at a scale of 1:10 was built.</value>
+  </data>
+  <data name="It11_P43_short" xml:space="preserve">
+    <value>P.43</value>
+  </data>
+  <data name="It12_Prototipo_Standard_B" xml:space="preserve">
+    <value>Prototipo Standard B</value>
+  </data>
+  <data name="It12_Prototipo_Standard_B_descr" xml:space="preserve">
+    <value>This vehicle is one of the prototypes developed and built under the Kampfpanzer Standard program (which Italy joined in 1958) with the cooperation of Ingenieurbüro Warneke, Rheinstahl Hanomag, Henschel and Rheinmetall. After comprehensive trials, the prototypes of the A group were preferred over other variants, further work on which led to the production of the Leopard 1. In 1960, a total of two prototypes were manufactured.</value>
+  </data>
+  <data name="It12_Prototipo_Standard_B_short" xml:space="preserve">
+    <value>Standard B</value>
+  </data>
+  <data name="It14_P44_Pantera" xml:space="preserve">
+    <value>P.44 Pantera</value>
+  </data>
+  <data name="It14_P44_Pantera_descr" xml:space="preserve">
+    <value>The P.44 Pantera was one of the variants of the Italian medium tank developed during WWII. It existed only in blueprints.</value>
+  </data>
+  <data name="It14_P44_Pantera_short" xml:space="preserve">
+    <value>P.44 Pantera</value>
+  </data>
+  <data name="MB_837_Aa" xml:space="preserve">
+    <value>MB 837 Aa</value>
+  </data>
+  <data name="MB_837_Ea" xml:space="preserve">
+    <value>MB 837 Ea</value>
+  </data>
+  <data name="Maybach_HL_120" xml:space="preserve">
+    <value>Maybach HL 120</value>
+  </data>
+  <data name="Maybach_HL_120_evoluzione" xml:space="preserve">
+    <value>Maybach HL 120 evoluzione</value>
+  </data>
+  <data name="Mitragliera_Breda_cal_20_mod_35" xml:space="preserve">
+    <value>Mitragliera Breda cal. 20 mod. 35</value>
+  </data>
+  <data name="Mitsubishi_10ZF" xml:space="preserve">
+    <value>Mitsubishi 10ZF</value>
+  </data>
+  <data name="R300" xml:space="preserve">
+    <value>R300</value>
+  </data>
+  <data name="RV_4" xml:space="preserve">
+    <value>RV 4</value>
+  </data>
+  <data name="R_19" xml:space="preserve">
+    <value>R 19</value>
+  </data>
+  <data name="R_F_1_C_A" xml:space="preserve">
+    <value>R.F. 1 C.A.</value>
+  </data>
+  <data name="R_F_2_C_A" xml:space="preserve">
+    <value>R.F. 2 C.A.</value>
+  </data>
+  <data name="R_F_3_M_2" xml:space="preserve">
+    <value>R.F. 3 M. 2</value>
+  </data>
+  <data name="R_F_4_M" xml:space="preserve">
+    <value>R.F. 4 M.</value>
+  </data>
+  <data name="R_F_C_R" xml:space="preserve">
+    <value>R.F.C.R.</value>
+  </data>
+  <data name="SPA_15T" xml:space="preserve">
+    <value>SPA 15T</value>
+  </data>
+  <data name="SPA_15TB" xml:space="preserve">
+    <value>SPA 15TB</value>
+  </data>
+  <data name="SPA_18VT_v2" xml:space="preserve">
+    <value>SPA 18VT v2</value>
+  </data>
+  <data name="SPA_19TB_mod_43" xml:space="preserve">
+    <value>SPA 19TB mod. 43</value>
+  </data>
+  <data name="SPA_242" xml:space="preserve">
+    <value>SPA 242</value>
+  </data>
+  <data name="SPA_342" xml:space="preserve">
+    <value>SPA 342</value>
+  </data>
+  <data name="SPA_343" xml:space="preserve">
+    <value>SPA 343</value>
+  </data>
+  <data name="SPA_344" xml:space="preserve">
+    <value>SPA 344</value>
+  </data>
+  <data name="SPA_8T" xml:space="preserve">
+    <value>SPA 8T</value>
+  </data>
+  <data name="SPA_ABM_2" xml:space="preserve">
+    <value>SPA ABM 2</value>
+  </data>
+  <data name="Turret_1_It03_M15_42" xml:space="preserve">
+    <value>M15/42</value>
+  </data>
+  <data name="Turret_1_It04_Fiat_3000" xml:space="preserve">
+    <value>Fiat 3000 mod. 30</value>
+  </data>
+  <data name="Turret_1_It05_Carro_L6_40" xml:space="preserve">
+    <value>L6/40</value>
+  </data>
+  <data name="Turret_1_It06_M14_41" xml:space="preserve">
+    <value>M14/41</value>
+  </data>
+  <data name="Turret_1_It07_P26_40" xml:space="preserve">
+    <value>P26/40 mod. 41</value>
+  </data>
+  <data name="Turret_1_It08_Progetto_M40_mod_65" xml:space="preserve">
+    <value>Progetto M40 mod. 65</value>
+  </data>
+  <data name="Turret_1_It09_P43_ter" xml:space="preserve">
+    <value>P.43 ter prima variante</value>
+  </data>
+  <data name="Turret_1_It10_P43_bis" xml:space="preserve">
+    <value>P.43 prima variante</value>
+  </data>
+  <data name="Turret_1_It11_P43" xml:space="preserve">
+    <value>P.40</value>
+  </data>
+  <data name="Turret_1_It12_Prototipo_Standard_B" xml:space="preserve">
+    <value>Prototipo Standard A (W 2)</value>
+  </data>
+  <data name="Turret_1_It14_P44_Pantera" xml:space="preserve">
+    <value>P.44 Pantera prima variante</value>
+  </data>
+  <data name="Turret_2_It03_M15_42" xml:space="preserve">
+    <value>M15/42 modificata</value>
+  </data>
+  <data name="Turret_2_It07_P26_40" xml:space="preserve">
+    <value>P26/40 mod. 43</value>
+  </data>
+  <data name="Turret_2_It09_P43_ter" xml:space="preserve">
+    <value>P.43 ter seconda variante</value>
+  </data>
+  <data name="Turret_2_It10_P43_bis" xml:space="preserve">
+    <value>P.43 bis</value>
+  </data>
+  <data name="Turret_2_It11_P43" xml:space="preserve">
+    <value>P.43</value>
+  </data>
+  <data name="Turret_2_It12_Prototipo_Standard_B" xml:space="preserve">
+    <value>Prototipo Standard B (R 1)</value>
+  </data>
+  <data name="Turret_2_It14_P44_Pantera" xml:space="preserve">
+    <value>P.44 Pantera seconda variante</value>
+  </data>
+  <data name="V_2_34_modificato" xml:space="preserve">
+    <value>V-2-34 modificato</value>
+  </data>
+  <data name="_105mm_c_g_105_51_HEAT_M456" xml:space="preserve">
+    <value>c.g. 105/51 HEAT M456</value>
+  </data>
+  <data name="_105mm_c_g_105_51_HESH_M353" xml:space="preserve">
+    <value>c.g. 105/51 HESH M353</value>
+  </data>
+  <data name="_105mm_c_g_105_HESH_Rh_V1" xml:space="preserve">
+    <value>c.g. 105 HESH Rh V1</value>
+  </data>
+  <data name="_105mm_c_g_105_c_c_HEAT_Rh_V1" xml:space="preserve">
+    <value>c.g. 105 c.c. HEAT Rh V1</value>
+  </data>
+  <data name="_105mm_c_p_105_51_APDS_M352" xml:space="preserve">
+    <value>c.p. 105/51 APDS M352</value>
+  </data>
+  <data name="_105mm_c_p_105_APDS_Rh_V1" xml:space="preserve">
+    <value>c.p. 105 APDS Rh V1</value>
+  </data>
+  <data name="_20mm_c_p_20_138_B" xml:space="preserve">
+    <value>c.p. 20/138 B</value>
+  </data>
+  <data name="_20mm_c_p_20_mod_35" xml:space="preserve">
+    <value>c.p. 20 mod. 35</value>
+  </data>
+  <data name="_37mm_c_g_p_37_40" xml:space="preserve">
+    <value>c.g.p. 37/40</value>
+  </data>
+  <data name="_37mm_c_g_scoppiante" xml:space="preserve">
+    <value>c.g. scoppiante</value>
+  </data>
+  <data name="_37mm_c_mitraglia_37_40" xml:space="preserve">
+    <value>c. mitraglia 37/40</value>
+  </data>
+  <data name="_37mm_c_p_37_40" xml:space="preserve">
+    <value>c.p. 37/40</value>
+  </data>
+  <data name="_37mm_c_p_AZ_BT" xml:space="preserve">
+    <value>c.p. AZ - BT</value>
+  </data>
+  <data name="_37mm_c_p_K_ogival" xml:space="preserve">
+    <value>c.p. K ogival</value>
+  </data>
+  <data name="_47mm_c_g_47_32_EP" xml:space="preserve">
+    <value>c.g. 47/32 EP</value>
+  </data>
+  <data name="_47mm_c_g_47_32_EPS" xml:space="preserve">
+    <value>c.g. 47/32 EPS</value>
+  </data>
+  <data name="_47mm_c_g_47_32_mod_35" xml:space="preserve">
+    <value>c.g. 47/32 mod. 35</value>
+  </data>
+  <data name="_47mm_c_p_47_32_mod_39" xml:space="preserve">
+    <value>c.p. 47/32 mod. 39</value>
+  </data>
+  <data name="_75mm_c_g_75_27_EP_mod_32" xml:space="preserve">
+    <value>c.g. 75/27 EP mod. 32</value>
+  </data>
+  <data name="_75mm_c_g_75_27_EP_mod_42" xml:space="preserve">
+    <value>c.g. 75/27 EP mod. 42</value>
+  </data>
+  <data name="_75mm_c_g_75_50_mod_37_Skoda" xml:space="preserve">
+    <value>c.g. 75/50 mod. 37 Skoda</value>
+  </data>
+  <data name="_75mm_c_g_75_EPS_mod_42" xml:space="preserve">
+    <value>c.g. 75 EPS mod. 42</value>
+  </data>
+  <data name="_75mm_c_p_75_32" xml:space="preserve">
+    <value>c.p. 75/32</value>
+  </data>
+  <data name="_75mm_c_p_75_46" xml:space="preserve">
+    <value>c.p. 75/46</value>
+  </data>
+  <data name="_75mm_c_p_75_50" xml:space="preserve">
+    <value>c.p. 75/50</value>
+  </data>
+  <data name="_75mm_c_p_75_50_Skoda" xml:space="preserve">
+    <value>c.p. 75/50 Skoda</value>
+  </data>
+  <data name="_90mm_c_g_90_42_53" xml:space="preserve">
+    <value>c.p.g. 90/42-53</value>
+  </data>
+  <data name="_90mm_c_g_90_HE_Rh" xml:space="preserve">
+    <value>c.g. 90 HE Rh</value>
+  </data>
+  <data name="_90mm_c_p_90_42_mod_43" xml:space="preserve">
+    <value>c.p. 90/42 mod. 43</value>
+  </data>
+  <data name="_90mm_c_p_90_53_mod_09" xml:space="preserve">
+    <value>c.p. 90/53 mod. 09</value>
+  </data>
+  <data name="_90mm_c_p_90_APDS_Rh" xml:space="preserve">
+    <value>c.p. 90 APDS Rh</value>
+  </data>
+  <data name="_90mm_c_p_90_AP_Rh" xml:space="preserve">
+    <value>c.p. 90 AP Rh</value>
+  </data>
+</root>

@@ -1157,7 +1157,7 @@ Get back!</value>
     <value>Scroll the mouse wheel to enter Sniper mode</value>
   </data>
   <data name="hint/target/unlock" xml:space="preserve">
-    <value>Auto-aim enabled. RMB to cancel.</value>
+    <value>Auto-Aim enabled. RMB to cancel.</value>
   </data>
   <data name="hint/use/extinguisher" xml:space="preserve">
     <value>Vehicle on fire! Use the Fire Extinguisher.</value>
@@ -1562,7 +1562,7 @@ Get back!</value>
     <value>Premium Account</value>
   </data>
   <data name="result/award/premium/text" xml:space="preserve">
-    <value>Premium Account time has been added to your account. Premium Account lets you earn more credits and experience after each battle, and gives you a nice clean Garage.</value>
+    <value>You received days of Premium Account. Premium Account provides 50% more experience and credits after each battle.</value>
   </data>
   <data name="result/award/repairkit/label" xml:space="preserve">
     <value>Large Repair Kit</value>

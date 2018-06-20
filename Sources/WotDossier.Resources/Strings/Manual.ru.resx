@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chapter-1/lesson-1/description" xml:space="preserve">
+    <value>У игроков есть возможность плечом к плечу сражаться с поклонниками стальных гигантов со всех уголков планеты, проводя жаркие бои на фотореалистичных картах.</value>
+  </data>
+  <data name="chapter-1/lesson-1/hint-1/text" xml:space="preserve">
+    <value>180-миллионная армия поклонников по всему миру.</value>
+  </data>
+  <data name="chapter-1/lesson-1/hint-2/text" xml:space="preserve">
+    <value>Два мировых рекорда Гиннесса и множество других наград.</value>
+  </data>
+  <data name="chapter-1/lesson-1/hint-3/text" xml:space="preserve">
+    <value>Более 500 боевых машин середины ХХ века.</value>
+  </data>
+  <data name="chapter-1/lesson-1/title" xml:space="preserve">
+    <value>Добро пожаловать</value>
+  </data>
+  <data name="chapter-1/lesson-2/description" xml:space="preserve">
+    <value>Игровые локации очень разнообразны: перепады высот, чередование открытых участков местности с городской застройкой, большое количество укрытий и мест для засады — всё это позволяет игрокам применять различные тактики в бою. Вас ждут более 30 километровых карт в великолепном качестве.</value>
+  </data>
+  <data name="chapter-1/lesson-2/title" xml:space="preserve">
+    <value>Поле боя</value>
+  </data>
+  <data name="chapter-1/lesson-3/hint-1/text" xml:space="preserve">
+    <value>Используйте мышь для поворота башни или орудия.</value>
+  </data>
+  <data name="chapter-1/lesson-3/hint-2/text" xml:space="preserve">
+    <value>Используйте клавиатуру для управления машиной.</value>
+  </data>
+  <data name="chapter-1/lesson-3/hint-3/text" xml:space="preserve">
+    <value>Стреляйте, когда снаряд заряжен.</value>
+  </data>
+  <data name="chapter-1/lesson-3/hint-4/text" xml:space="preserve">
+    <value>Используйте автоприцел для стрельбы в движении.</value>
+  </data>
+  <data name="chapter-1/lesson-3/title" xml:space="preserve">
+    <value>Управление машиной</value>
+  </data>
+  <data name="chapter-1/lesson-4/description" xml:space="preserve">
+    <value>Наведитесь на противника — он обведётся красным контуром. Дождитесь сведения орудия и стреляйте.</value>
+  </data>
+  <data name="chapter-1/lesson-4/title" xml:space="preserve">
+    <value>Нанесение урона</value>
+  </data>
+  <data name="chapter-1/lesson-5/description" xml:space="preserve">
+    <value>Победа достигается двумя способами: уничтожением команды противника или захватом базы. В Стандартном бою у каждой команды своя база, в Штурме — база только у обороняющихся, а во Встречном бою — база нейтральная, то есть захватить её может любая команда.</value>
+  </data>
+  <data name="chapter-1/lesson-5/hint-1/text" xml:space="preserve">
+    <value>Захватить базу противника (или нейтральную).</value>
+  </data>
+  <data name="chapter-1/lesson-5/hint-2/text" xml:space="preserve">
+    <value>Уничтожить всю технику противника.</value>
+  </data>
+  <data name="chapter-1/lesson-5/title" xml:space="preserve">
+    <value>Условия победы</value>
+  </data>
+  <data name="chapter-1/lesson-6/description" xml:space="preserve">
+    <value>У каждой машины есть модули, отвечающие за определённые характеристики. Их можно исследовать и установить за опыт и кредиты соответственно.</value>
+  </data>
+  <data name="chapter-1/lesson-6/title" xml:space="preserve">
+    <value>Развитие машины</value>
+  </data>
+  <data name="chapter-1/lesson-7/hint-1/text" xml:space="preserve">
+    <value>Сейчас в игре десять уровней техники, на каждом из которых есть множество интересных и своеобразных машин.</value>
+  </data>
+  <data name="chapter-1/lesson-7/hint-2/text" xml:space="preserve">
+    <value>Для исследования и покупки машин нужны опыт и кредиты.</value>
+  </data>
+  <data name="chapter-1/lesson-7/title" xml:space="preserve">
+    <value>Уровни техники</value>
+  </data>
+  <data name="chapter-1/lesson-8/hint-1/text" xml:space="preserve">
+    <value>Золото — ценная игровая валюта, покупаемая за реальные деньги.</value>
+  </data>
+  <data name="chapter-1/lesson-8/hint-2/text" xml:space="preserve">
+    <value>Премиум аккаунт позволяет зарабатывать на 50% больше опыта и кредитов.</value>
+  </data>
+  <data name="chapter-1/lesson-8/hint-3/text" xml:space="preserve">
+    <value>Премиум техника не требует исследования и зарабатывает на 50% больше.</value>
+  </data>
+  <data name="chapter-1/lesson-8/title" xml:space="preserve">
+    <value>Премиум элементы</value>
+  </data>
+  <data name="chapter-1/lesson-9/description" xml:space="preserve">
+    <value>Если вы новичок в игре — пройдите Учебный полигон, где вы обучитесь основам игры и получите ценную награду.</value>
+  </data>
+  <data name="chapter-1/lesson-9/title" xml:space="preserve">
+    <value>Учебный полигон</value>
+  </data>
+  <data name="chapter-2/lesson-1/description" xml:space="preserve">
+    <value>За каждый бой (в зависимости от вашей эффективности) вы получаете опыт и кредиты. Случайные бои включают следующие подрежимы: Стандартный бой, Штурм, Встречный бой, Генеральное сражение.</value>
+  </data>
+  <data name="chapter-2/lesson-1/title" xml:space="preserve">
+    <value>Случайный бой</value>
+  </data>
+  <data name="chapter-2/lesson-10/description" xml:space="preserve">
+    <value>Бои для вручную сформированных команд из 7 игроков на технике VI-VIII уровней на картах с двумя базами у защищающейся команды и с повышенным заработком в случае победы.</value>
+  </data>
+  <data name="chapter-2/lesson-10/title" xml:space="preserve">
+    <value>Командный бой</value>
+  </data>
+  <data name="chapter-2/lesson-11/description" xml:space="preserve">
+    <value>Бои для техники Х уровня, доступные в определённые даты. При победе вы повышаете свой ранг, а при проигрыше можете его потерять. В режиме зарабатывается особая награда — боны.</value>
+  </data>
+  <data name="chapter-2/lesson-11/title" xml:space="preserve">
+    <value>Ранговый бой</value>
+  </data>
+  <data name="chapter-2/lesson-2/hint-1/text" xml:space="preserve">
+    <value>Две команды защищают свои базы и атакуют друг друга.</value>
+  </data>
+  <data name="chapter-2/lesson-2/hint-2/text" xml:space="preserve">
+    <value>Подрежим доступен для техники всех уровней.</value>
+  </data>
+  <data name="chapter-2/lesson-2/hint-3/text" xml:space="preserve">
+    <value>Команды подбираются автоматически по 15 игроков в каждой.</value>
+  </data>
+  <data name="chapter-2/lesson-2/title" xml:space="preserve">
+    <value>Случайный бой: Стандартный</value>
+  </data>
+  <data name="chapter-2/lesson-3/hint-1/text" xml:space="preserve">
+    <value>Одна команда атакует базу, вторая команда защищается.</value>
+  </data>
+  <data name="chapter-2/lesson-3/hint-2/text" xml:space="preserve">
+    <value>Подрежим доступен после исследования техники VI уровня.</value>
+  </data>
+  <data name="chapter-2/lesson-3/hint-3/text" xml:space="preserve">
+    <value>Команды подбираются автоматически по 15 игроков в каждой.</value>
+  </data>
+  <data name="chapter-2/lesson-3/title" xml:space="preserve">
+    <value>Случайный бой: Штурм</value>
+  </data>
+  <data name="chapter-2/lesson-4/hint-1/text" xml:space="preserve">
+    <value>В бою есть только одна нейтральная база, и обе команды пытаются её захватить.</value>
+  </data>
+  <data name="chapter-2/lesson-4/hint-2/text" xml:space="preserve">
+    <value>Подрежим доступен после исследования техники IV уровня.</value>
+  </data>
+  <data name="chapter-2/lesson-4/hint-3/text" xml:space="preserve">
+    <value>Команды подбираются автоматически по 15 игроков в каждой.</value>
+  </data>
+  <data name="chapter-2/lesson-4/title" xml:space="preserve">
+    <value>Случайный бой: Встречный</value>
+  </data>
+  <data name="chapter-2/lesson-5/hint-1/text" xml:space="preserve">
+    <value>Большая карта, где игра идёт по правилам Стандартного боя.</value>
+  </data>
+  <data name="chapter-2/lesson-5/hint-2/text" xml:space="preserve">
+    <value>Режим доступен только для техники X уровня.</value>
+  </data>
+  <data name="chapter-2/lesson-5/hint-3/text" xml:space="preserve">
+    <value>Команды подбираются автоматически по 30 игроков в каждой.</value>
+  </data>
+  <data name="chapter-2/lesson-5/title" xml:space="preserve">
+    <value>Случайный бой: Генеральное сражение</value>
+  </data>
+  <data name="chapter-2/lesson-6/description" xml:space="preserve">
+    <value>Пройдите все задания, чтобы узнать особенности разных классов техники. Бой проходит в формате 15х15, где вся техника кроме вашей машины управляется ИИ. Уровень сложности задания определяет итоговый размер награды. Режим доступен для техники IV-X уровней.</value>
+  </data>
+  <data name="chapter-2/lesson-6/title" xml:space="preserve">
+    <value>Классовые задания</value>
+  </data>
+  <data name="chapter-2/lesson-7/description" xml:space="preserve">
+    <value>Практикуйтесь с другими игроками на любых картах. Награда за бой не начисляется, ремонт техники — бесплатный. Снаряжение и снаряды покупаются игроком.</value>
+  </data>
+  <data name="chapter-2/lesson-7/title" xml:space="preserve">
+    <value>Тренировочный бой</value>
+  </data>
+  <data name="chapter-2/lesson-8/description" xml:space="preserve">
+    <value>Практикуйтесь на технике I-II уровня, играя против ИИ («ботов»), и получайте награду за первые 10 боёв, если вы ещё не провели 10 Случайных боёв.</value>
+  </data>
+  <data name="chapter-2/lesson-8/title" xml:space="preserve">
+    <value>Учебный бой</value>
+  </data>
+  <data name="chapter-2/lesson-9/description" xml:space="preserve">
+    <value>Бои для клановых игроков и легионеров на технике VI-X уровней, которые могут принести вам и вашему клану существенные надбавки к боевому и свободному опыту, опыту экипажа и кредитам. Подробнее читайте на Портале игры.</value>
+  </data>
+  <data name="chapter-2/lesson-9/title" xml:space="preserve">
+    <value>Укрепрайон: сражения</value>
+  </data>
+  <data name="chapter-3/lesson-1/description" xml:space="preserve">
+    <value>Модули отвечают за ТТХ машины. Существуют унифицированные модули, которые можно использовать на разных машинах.</value>
+  </data>
+  <data name="chapter-3/lesson-1/hint-1/text" xml:space="preserve">
+    <value>Башня влияет на обзор машины. Характеризуется бронёй и скоростью поворота.</value>
+  </data>
+  <data name="chapter-3/lesson-1/hint-2/text" xml:space="preserve">
+    <value>Орудие отвечает за урон, бронепробиваемость, скорострельность, разброс и время прицеливания.</value>
+  </data>
+  <data name="chapter-3/lesson-1/hint-3/text" xml:space="preserve">
+    <value>Двигатель влияет на динамические характеристики. Имеет определённый шанс возгорания при попадании по нему.</value>
+  </data>
+  <data name="chapter-3/lesson-1/hint-4/text" xml:space="preserve">
+    <value>Ходовая отвечает за грузоподъёмность и скорость поворота машины.</value>
+  </data>
+  <data name="chapter-3/lesson-1/hint-5/text" xml:space="preserve">
+    <value>Радиостанция отвечает за дальность отображения техники на миникарте.</value>
+  </data>
+  <data name="chapter-3/lesson-1/title" xml:space="preserve">
+    <value>Модули машины</value>
+  </data>
+  <data name="chapter-3/lesson-10/hint-1/text" xml:space="preserve">
+    <value>5% всего заработанного опыта начисляются в виде «свободного».</value>
+  </data>
+  <data name="chapter-3/lesson-10/hint-2/text" xml:space="preserve">
+    <value>Может быть использован для изучения любых модулей и техники в игре, а также направлен на ускоренное обучение экипажа.</value>
+  </data>
+  <data name="chapter-3/lesson-10/hint-3/text" xml:space="preserve">
+    <value>Свободный опыт можно получить, переведя излишки боевого опыта с элитных машин.</value>
+  </data>
+  <data name="chapter-3/lesson-10/title" xml:space="preserve">
+    <value>Свободный опыт</value>
+  </data>
+  <data name="chapter-3/lesson-11/hint-1/text" xml:space="preserve">
+    <value>Статус «элитной» машина получает после исследования всех её модулей и следующей в ветке техники.</value>
+  </data>
+  <data name="chapter-3/lesson-11/hint-2/text" xml:space="preserve">
+    <value>Боевой опыт, заработанный на элитной машине, можно за золото перевести в свободный.</value>
+  </data>
+  <data name="chapter-3/lesson-11/hint-3/text" xml:space="preserve">
+    <value>При включении в Ангаре настройки «Ускоренное обучение экипажа», весь последующий заработанный опыт пойдёт в экипаж.</value>
+  </data>
+  <data name="chapter-3/lesson-11/title" xml:space="preserve">
+    <value>Элитная машина</value>
+  </data>
+  <data name="chapter-3/lesson-12/description" xml:space="preserve">
+    <value>В игре представлены машины разных стран. Перейдите на экран ИССЛЕДОВАНИЯ и нажимайте на флаги в левой его части — так вы можете просмотреть всю доступную технику.</value>
+  </data>
+  <data name="chapter-3/lesson-12/title" xml:space="preserve">
+    <value>Дерево исследований</value>
+  </data>
+  <data name="chapter-3/lesson-2/description" xml:space="preserve">
+    <value>Используйте снаряжение, чтобы улучшить характеристики машины или экипажа, устранить повреждения модулей / ранения экипажа во время боя. Можно загрузить единовременно до трёх разных типов снаряжения.</value>
+  </data>
+  <data name="chapter-3/lesson-2/title" xml:space="preserve">
+    <value>Снаряжение</value>
+  </data>
+  <data name="chapter-3/lesson-3/description" xml:space="preserve">
+    <value>Перед началом боя в машину необходимо загрузить боекомплект, иначе вы рискуете остаться безоружным в разгаре боя. Переключать снаряды разных типов можно клавишами 1, 2 и 3.</value>
+  </data>
+  <data name="chapter-3/lesson-3/title" xml:space="preserve">
+    <value>Боеприпасы</value>
+  </data>
+  <data name="chapter-3/lesson-4/description" xml:space="preserve">
+    <value>Используйте оборудование, чтобы улучшить ТТХ машины. Оборудование можно переставлять с машины на машину (простое — бесплатно, сложное — за 10 золота, усовершенствованное — за 200 бон).</value>
+  </data>
+  <data name="chapter-3/lesson-4/title" xml:space="preserve">
+    <value>Оборудование</value>
+  </data>
+  <data name="chapter-3/lesson-5/description" xml:space="preserve">
+    <value>Покупая новую машину, вы можете нанять экипаж и выбрать уровень его обученности. Также можно пересадить экипаж с другой машины, переобучив его.</value>
+  </data>
+  <data name="chapter-3/lesson-5/hint-1/text" xml:space="preserve">
+    <value>Командир влияет на обзор и улучшает характеристики остальных членов экипажа.</value>
+  </data>
+  <data name="chapter-3/lesson-5/hint-2/text" xml:space="preserve">
+    <value>Наводчик влияет на скорость поворота башни, сведение орудия и точность стрельбы.</value>
+  </data>
+  <data name="chapter-3/lesson-5/hint-3/text" xml:space="preserve">
+    <value>Заряжающий влияет на скорость перезарядки орудия.</value>
+  </data>
+  <data name="chapter-3/lesson-5/hint-4/text" xml:space="preserve">
+    <value>Мехвод влияет на динамические характеристики машины.</value>
+  </data>
+  <data name="chapter-3/lesson-5/hint-5/text" xml:space="preserve">
+    <value>Радист влияет на максимальную дальность радиосвязи.</value>
+  </data>
+  <data name="chapter-3/lesson-5/title" xml:space="preserve">
+    <value>Экипаж</value>
+  </data>
+  <data name="chapter-3/lesson-6/description" xml:space="preserve">
+    <value>Дополнительные умения и навыки доступны к изучению членом экипажа после освоения основной специальности на 100%. Нажав на «плюсик», вы сможете выбрать доступное умение или навык из списка.</value>
+  </data>
+  <data name="chapter-3/lesson-6/title" xml:space="preserve">
+    <value>Навыки и умения экипажа</value>
+  </data>
+  <data name="chapter-3/lesson-7/hint-1/text" xml:space="preserve">
+    <value>Экипаж получает опыт в боях.</value>
+  </data>
+  <data name="chapter-3/lesson-7/hint-2/text" xml:space="preserve">
+    <value>Изучив основную специальность экипажа на 100%, вы можете выбрать умение или навык.</value>
+  </data>
+  <data name="chapter-3/lesson-7/hint-3/text" xml:space="preserve">
+    <value>Вы можете приобрести сразу 100% экипаж или ускорить его обучение в Ангаре.</value>
+  </data>
+  <data name="chapter-3/lesson-7/title" xml:space="preserve">
+    <value>Обучение экипажа</value>
+  </data>
+  <data name="chapter-3/lesson-8/description" xml:space="preserve">
+    <value>Пересаживать экипаж можно в рамках одной нации. Количество мест в Казарме ограничено (можно докупить дополнительные койки). Пересадить экипаж на премиум машину того же типа можно без штрафов.</value>
+  </data>
+  <data name="chapter-3/lesson-8/hint-1/text" xml:space="preserve">
+    <value>При продаже машины вы можете демобилизовать экипаж или же поместить его в Казарму.</value>
+  </data>
+  <data name="chapter-3/lesson-8/hint-2/text" xml:space="preserve">
+    <value>Пересаживая экипаж с одной машины на другую помните, что экипаж без переобучения малоэффективен.</value>
+  </data>
+  <data name="chapter-3/lesson-8/hint-3/text" xml:space="preserve">
+    <value>Убедитесь, что экипаж переобучен на новую машину перед тем, как выйти в бой.</value>
+  </data>
+  <data name="chapter-3/lesson-8/title" xml:space="preserve">
+    <value>Пересадка и переобучение экипажа</value>
+  </data>
+  <data name="chapter-3/lesson-9/hint-1/text" xml:space="preserve">
+    <value>Боевой опыт — ресурс, который вы зарабатываете в бою за полезные действия.</value>
+  </data>
+  <data name="chapter-3/lesson-9/hint-2/text" xml:space="preserve">
+    <value>За боевой опыт, заработанный на конкретной машине, исследуются её модули и следующая в ветке техника.</value>
+  </data>
+  <data name="chapter-3/lesson-9/title" xml:space="preserve">
+    <value>Боевой опыт</value>
+  </data>
+  <data name="chapter-4/lesson-1/description" xml:space="preserve">
+    <value>Самый мобильный, скоростной, компактный и одновременно уязвимый класс в игре. Лёгкие танки — прирождённые разведчики, и роль их — раскрывать позиции техники противника, как можно дольше оставаясь в живых.</value>
+  </data>
+  <data name="chapter-4/lesson-1/hint-1/text" xml:space="preserve">
+    <value>Самые быстрые машины в игре.</value>
+  </data>
+  <data name="chapter-4/lesson-1/hint-2/text" xml:space="preserve">
+    <value>Отличная динамика и манёвренность.</value>
+  </data>
+  <data name="chapter-4/lesson-1/hint-3/text" xml:space="preserve">
+    <value>Небольшие габариты, отличная маскировка.</value>
+  </data>
+  <data name="chapter-4/lesson-1/title" xml:space="preserve">
+    <value>Лёгкие танки</value>
+  </data>
+  <data name="chapter-4/lesson-2/description" xml:space="preserve">
+    <value>«Универсальные солдаты» мира танков. Достаточно скоростные и манёвренные для эффективных действий на средней дистанции, при этом обладающие хорошим запасом прочности, чтобы выдержать серьёзные попадания от крупнокалиберных орудий.</value>
+  </data>
+  <data name="chapter-4/lesson-2/hint-1/text" xml:space="preserve">
+    <value>Сбалансированные, многоцелевые машины.</value>
+  </data>
+  <data name="chapter-4/lesson-2/hint-2/text" xml:space="preserve">
+    <value>Достаточно мобильные, чтобы оказаться в нужном месте в нужное время.</value>
+  </data>
+  <data name="chapter-4/lesson-2/hint-3/text" xml:space="preserve">
+    <value>Эффективны на второй линии атаки в роли машин прикрытия.</value>
+  </data>
+  <data name="chapter-4/lesson-2/title" xml:space="preserve">
+    <value>Средние танки</value>
+  </data>
+  <data name="chapter-4/lesson-3/description" xml:space="preserve">
+    <value>Как правило, штурмовые машины для прорыва обороны противника. Относительная медлительность делает их лёгкой мишенью для САУ, но хорошая броня способна выдержать немало попаданий.</value>
+  </data>
+  <data name="chapter-4/lesson-3/hint-1/text" xml:space="preserve">
+    <value>Тяжелобронированные, но медлительные машины.</value>
+  </data>
+  <data name="chapter-4/lesson-3/hint-2/text" xml:space="preserve">
+    <value>Крупнокалиберные орудия.</value>
+  </data>
+  <data name="chapter-4/lesson-3/hint-3/text" xml:space="preserve">
+    <value>Достойный запас прочности, высокая выживаемость.</value>
+  </data>
+  <data name="chapter-4/lesson-3/title" xml:space="preserve">
+    <value>Тяжёлые танки</value>
+  </data>
+  <data name="chapter-4/lesson-4/description" xml:space="preserve">
+    <value>Занимая удобные позиции для ведения засадного боя, ПТ-САУ наносят огромный урон с максимальной дистанции. Такая техника уязвима в ближнем бою в связи с относительно невысокими динамическими характеристиками.</value>
+  </data>
+  <data name="chapter-4/lesson-4/hint-1/text" xml:space="preserve">
+    <value>Комфортные, точные и пробивные орудия.</value>
+  </data>
+  <data name="chapter-4/lesson-4/hint-2/text" xml:space="preserve">
+    <value>Прекрасный разовый урон.</value>
+  </data>
+  <data name="chapter-4/lesson-4/hint-3/text" xml:space="preserve">
+    <value>Хорошая маскировка в стоячем положении.</value>
+  </data>
+  <data name="chapter-4/lesson-4/title" xml:space="preserve">
+    <value>ПТ-САУ</value>
+  </data>
+  <data name="chapter-4/lesson-5/description" xml:space="preserve">
+    <value>Артиллерия всегда располагается в тылу и оттуда же ведёт огонь практически по всей карте. Это позволяет ей выживать максимально долго, ведь самая низкая мобильность и слабая броня делает её практически беспомощной в ближнем бою.</value>
+  </data>
+  <data name="chapter-4/lesson-5/hint-1/text" xml:space="preserve">
+    <value>«Загоризонтная поддержка» команды.</value>
+  </data>
+  <data name="chapter-4/lesson-5/hint-2/text" xml:space="preserve">
+    <value>Совершенно иной игровой процесс.</value>
+  </data>
+  <data name="chapter-4/lesson-5/hint-3/text" xml:space="preserve">
+    <value>Способность наносить оглушение, снижающее ТТХ машины противника.</value>
+  </data>
+  <data name="chapter-4/lesson-5/title" xml:space="preserve">
+    <value>САУ</value>
+  </data>
+  <data name="chapter-4/lesson-6/description" xml:space="preserve">
+    <value>1. ЛТ — на передовой, пассивная или активная разведка. 2. СТ — фланговые обходы, уничтожение разведчиков, поддержка атаки. 3. ТТ — прорыв или удержание основных направлений. 4. ПТ-САУ — дальнобойная стрельба со второй линии, уничтожение ТТ. 5. САУ — обстрел противника с дальних дистанций, «выкуривание» засадных машин.</value>
+  </data>
+  <data name="chapter-4/lesson-6/title" xml:space="preserve">
+    <value>Роли в бою</value>
+  </data>
+  <data name="chapter-5/lesson-1/hint-1/text" xml:space="preserve">
+    <value>Чем точнее орудие, тем реже снаряд отклоняется от точки прицеливания при стрельбе.</value>
+  </data>
+  <data name="chapter-5/lesson-1/hint-2/text" xml:space="preserve">
+    <value>Чтобы уменьшить разброс, дождитесь уменьшения круга сведения.</value>
+  </data>
+  <data name="chapter-5/lesson-1/hint-3/text" xml:space="preserve">
+    <value>Стрельба без сведения может быть малоэффективна.</value>
+  </data>
+  <data name="chapter-5/lesson-1/title" xml:space="preserve">
+    <value>Разброс орудия</value>
+  </data>
+  <data name="chapter-5/lesson-10/hint-1/text" xml:space="preserve">
+    <value>Самый высокий потенциальный урон, но и самая низкая бронепробиваемость и скорость полёта.</value>
+  </data>
+  <data name="chapter-5/lesson-10/hint-2/text" xml:space="preserve">
+    <value>При попадании в препятствие или при непробитии брони взрывается, нанося урон осколками.</value>
+  </data>
+  <data name="chapter-5/lesson-10/hint-3/text" xml:space="preserve">
+    <value>Всегда срабатывают при попадании и не могут отрикошетить.</value>
+  </data>
+  <data name="chapter-5/lesson-10/title" xml:space="preserve">
+    <value>Осколочно-фугасные снаряды</value>
+  </data>
+  <data name="chapter-5/lesson-11/description" xml:space="preserve">
+    <value>Обзор каждой машины рассчитывается в метрах и указывается в её ТТХ. Максимальное значение — 445 метров. Увеличение показателя сверх указанного поможет вам эффективнее обнаруживать замаскированные цели, попавшие в круг обзора. Важнейший параметр для лёгких танков. 1 — Виден, противник в поле зрения. 2 — Демаскирован выстрелом. 3 — Скрыт за кустами. 4 — Скрыт за строением.</value>
+  </data>
+  <data name="chapter-5/lesson-11/title" xml:space="preserve">
+    <value>Обзор</value>
+  </data>
+  <data name="chapter-5/lesson-12/description" xml:space="preserve">
+    <value>Значение данного параметр всегда составляет 565 метров. Это максимальная дистанция, на которой может быть видна техника союзников и противника.</value>
+  </data>
+  <data name="chapter-5/lesson-12/title" xml:space="preserve">
+    <value>Максимальная дальность отрисовки</value>
+  </data>
+  <data name="chapter-5/lesson-13/description" xml:space="preserve">
+    <value>В радиусе 50 метров и ближе ваша машина всегда видит противника, в каком бы укрытии или за каким бы препятствием он ни находился.</value>
+  </data>
+  <data name="chapter-5/lesson-13/title" xml:space="preserve">
+    <value>На дистанции менее 50 метров видим всё</value>
+  </data>
+  <data name="chapter-5/lesson-14/description" xml:space="preserve">
+    <value>При столкновении машины получают урон пропорционально разнице в массе, скорости движения и толщине брони в месте удара. На быстрых и тяжёлых машинах вы можете смело таранить противника, нанося ему значительный урон.</value>
+  </data>
+  <data name="chapter-5/lesson-14/title" xml:space="preserve">
+    <value>Таран</value>
+  </data>
+  <data name="chapter-5/lesson-2/description" xml:space="preserve">
+    <value>Точность стрельбы в стоячем положении заметно лучше, чем на ходу. Старайтесь не стрелять на ходу по дальним целям: шанс попасть невелик, кроме того, выстрел вас демаскирует.</value>
+  </data>
+  <data name="chapter-5/lesson-2/title" xml:space="preserve">
+    <value>Разброс орудия в движении</value>
+  </data>
+  <data name="chapter-5/lesson-3/description" xml:space="preserve">
+    <value>Каждый снаряд имеет свою скорость полёта и достигает цели не мгновенно, поэтому берите упреждение стреляя по движущейся цели. Привыкайте к своему орудию и скорости полёта снарядов — это поможет точнее рассчитывать упреждение на больших дистанциях.</value>
+  </data>
+  <data name="chapter-5/lesson-3/title" xml:space="preserve">
+    <value>Стрельба по движущимся целям (упреждение)</value>
+  </data>
+  <data name="chapter-5/lesson-4/description" xml:space="preserve">
+    <value>Автоприцел будет вести ваше орудие за противником автоматически, но будьте внимательны — прицел наводится на геометрический центр машины, который может быть хорошо бронирован.</value>
+  </data>
+  <data name="chapter-5/lesson-4/hint-1/text" xml:space="preserve">
+    <value>Зафиксируйте прицел на противнике с помощью ПКМ. Отключается он той же кнопкой.</value>
+  </data>
+  <data name="chapter-5/lesson-4/hint-2/text" xml:space="preserve">
+    <value>Данная возможность полезна при стрельбе на ходу.</value>
+  </data>
+  <data name="chapter-5/lesson-4/hint-3/text" xml:space="preserve">
+    <value>Автоприцел не учитывает упреждение.</value>
+  </data>
+  <data name="chapter-5/lesson-4/title" xml:space="preserve">
+    <value>Автоприцел</value>
+  </data>
+  <data name="chapter-5/lesson-5/description" xml:space="preserve">
+    <value>Зелёный маркер показывает высокий шанс пробития брони. Даже без пробития и нанесения урона вы можете повредить или вывести из строя внешний модуль машины противника. Красный маркер показывает минимальный (или вовсе отсутствующий) шанс пробития.</value>
+  </data>
+  <data name="chapter-5/lesson-5/title" xml:space="preserve">
+    <value>Бронепробиваемость</value>
+  </data>
+  <data name="chapter-5/lesson-6/description" xml:space="preserve">
+    <value>После выстрела орудие должно перезарядиться.</value>
+  </data>
+  <data name="chapter-5/lesson-6/title" xml:space="preserve">
+    <value>Перезарядка</value>
+  </data>
+  <data name="chapter-5/lesson-7/hint-1/text" xml:space="preserve">
+    <value>С расстоянием теряют бронепробиваемость, но обладают хорошей нормализацией (углом вхождения).</value>
+  </data>
+  <data name="chapter-5/lesson-7/hint-2/text" xml:space="preserve">
+    <value>Теряют бронепробиваемость после пролёта сквозь разрушаемый объект.</value>
+  </data>
+  <data name="chapter-5/lesson-7/hint-3/text" xml:space="preserve">
+    <value>Могут отрикошетить под углом вхождения в 70 градусов и более.</value>
+  </data>
+  <data name="chapter-5/lesson-7/title" xml:space="preserve">
+    <value>Бронебойные снаряды</value>
+  </data>
+  <data name="chapter-5/lesson-8/description" xml:space="preserve">
+    <value>Подкалиберные снаряды</value>
+  </data>
+  <data name="chapter-5/lesson-8/hint-1/text" xml:space="preserve">
+    <value>Высокая скорость полёта и бронепробиваемость, но плохая нормализация (угол вхождения).</value>
+  </data>
+  <data name="chapter-5/lesson-8/hint-2/text" xml:space="preserve">
+    <value>Теряют бронепробиваемость с расстоянием и после пролёта сквозь разрушаемый объект.</value>
+  </data>
+  <data name="chapter-5/lesson-8/hint-3/text" xml:space="preserve">
+    <value>Могут отрикошетить под углом вхождения в 70 градусов и более.</value>
+  </data>
+  <data name="chapter-5/lesson-8/title" xml:space="preserve">
+    <value>Подкалиберные снаряды</value>
+  </data>
+  <data name="chapter-5/lesson-9/hint-1/text" xml:space="preserve">
+    <value>Высокая бронепробиваемость, которая не снижается с расстоянием.</value>
+  </data>
+  <data name="chapter-5/lesson-9/hint-2/text" xml:space="preserve">
+    <value>Не способны пробивать препятствия и разрушаемые объекты, могут не пробить экраны.</value>
+  </data>
+  <data name="chapter-5/lesson-9/hint-3/text" xml:space="preserve">
+    <value>Могут отрикошетить под углом вхождения в 85 градусов и более.</value>
+  </data>
+  <data name="chapter-5/lesson-9/title" xml:space="preserve">
+    <value>Кумулятивные снаряды</value>
+  </data>
+  <data name="chapter-6/lesson-1/description" xml:space="preserve">
+    <value>У каждой машины есть броня. Как правило, вся техника хорошо защищена спереди, имеет довольно крепкую башню (или рубку), но при этом слабую броню бортов и кормы. Бронирование каждой машины уникально, имеет свои слабые и сильные стороны.</value>
+  </data>
+  <data name="chapter-6/lesson-1/title" xml:space="preserve">
+    <value>Разница в бронировании</value>
+  </data>
+  <data name="chapter-6/lesson-10/description" xml:space="preserve">
+    <value>Баки гарантированно загорятся, если будут выведены из строя. Повреждённые баки не несут никакого негативного эффекта — «жёлтое» состояние проинформирует вас о возможном пожаре при следующем попадании в баки.</value>
+  </data>
+  <data name="chapter-6/lesson-10/title" xml:space="preserve">
+    <value>Повреждение топливных баков</value>
+  </data>
+  <data name="chapter-6/lesson-11/description" xml:space="preserve">
+    <value>При повреждённой боеукладке вдвое снижается скорость перезарядки орудия. Выведенная из строя боеукладка взрывается, что гарантирует мгновенное уничтожение машины.</value>
+  </data>
+  <data name="chapter-6/lesson-11/title" xml:space="preserve">
+    <value>Повреждение боеукладки</value>
+  </data>
+  <data name="chapter-6/lesson-12/description" xml:space="preserve">
+    <value>Повреждённая радиостанция продолжает работать и не оказывает негативного эффекта. А вот радиостанция, выведенная из строя, уменьшает вдвое радиус связи, что может ухудшить восприятие текущей обстановки в бою.</value>
+  </data>
+  <data name="chapter-6/lesson-12/title" xml:space="preserve">
+    <value>Повреждение радиостанции</value>
+  </data>
+  <data name="chapter-6/lesson-13/description" xml:space="preserve">
+    <value>Если ранен командир, то снижается обзор, пропадает командирская надбавка остальным членам экипажа, а также перестаёт работать навык «Шестое чувство».</value>
+  </data>
+  <data name="chapter-6/lesson-13/title" xml:space="preserve">
+    <value>Ранение командира</value>
+  </data>
+  <data name="chapter-6/lesson-14/description" xml:space="preserve">
+    <value>При ранении наводчика вдвое снижается скорость прицеливания и поворота башни. Если член экипажа совмещает сразу несколько специальностей, то все они будут работать хуже при ранении этого члена экипажа.</value>
+  </data>
+  <data name="chapter-6/lesson-14/title" xml:space="preserve">
+    <value>Ранение наводчика</value>
+  </data>
+  <data name="chapter-6/lesson-15/description" xml:space="preserve">
+    <value>При ранении механика-водителя вдвое снижается скорость движения и поворотов. Если член экипажа совмещает сразу несколько специальностей, то все они будут работать хуже при ранении этого члена экипажа.</value>
+  </data>
+  <data name="chapter-6/lesson-15/title" xml:space="preserve">
+    <value>Ранение мехвода</value>
+  </data>
+  <data name="chapter-6/lesson-16/description" xml:space="preserve">
+    <value>При ранении радиста радиус связи уменьшается вдвое. Если член экипажа совмещает сразу несколько специальностей, то все они будут работать хуже при ранении этого члена экипажа.</value>
+  </data>
+  <data name="chapter-6/lesson-16/title" xml:space="preserve">
+    <value>Ранение радиста</value>
+  </data>
+  <data name="chapter-6/lesson-17/description" xml:space="preserve">
+    <value>При ранении заряжающего скорость перезарядки орудия снижается вдвое. Если член экипажа совмещает сразу несколько специальностей, то все они будут работать хуже при ранении этого члена экипажа.</value>
+  </data>
+  <data name="chapter-6/lesson-17/title" xml:space="preserve">
+    <value>Ранение заряжающего</value>
+  </data>
+  <data name="chapter-6/lesson-18/description" xml:space="preserve">
+    <value>Падая с высоты, вы можете повредить как свою машину, так и ту, на которую упадёте. Преодолевая глубоководье помните, что у вас есть всего 10 секунд до затопления машины. Если вы перевернулись, то вам остаётся лишь рассчитывать на помощь союзников.</value>
+  </data>
+  <data name="chapter-6/lesson-18/title" xml:space="preserve">
+    <value>Затопления, перевороты, падения с высоты</value>
+  </data>
+  <data name="chapter-6/lesson-19/description" xml:space="preserve">
+    <value>Любая растительность (исключая траву) скрывает вашу машину от противника. Старайтесь, чтобы кусты и кроны деревьев полностью вас закрывали. Ваш выстрел отменяет все плюсы к маскировке от растительности в 15 метрах вокруг машины, поэтому, если хотите стрелять из-за кустов, убедитесь, что отъехали от них на 15 метров.</value>
+  </data>
+  <data name="chapter-6/lesson-19/title" xml:space="preserve">
+    <value>Растительность и маскировка</value>
+  </data>
+  <data name="chapter-6/lesson-2/description" xml:space="preserve">
+    <value>Оказавшись под огнём, старайтесь не подставлять противнику броню под прямым углом. Доверните свою машину так, чтобы снаряды противника сталкивались с вашей бронёй под максимально острым углом — это увеличит шанс рикошета.</value>
+  </data>
+  <data name="chapter-6/lesson-2/title" xml:space="preserve">
+    <value>Игра «от борта»</value>
+  </data>
+  <data name="chapter-6/lesson-20/description" xml:space="preserve">
+    <value>Маскировка — это свойство техники быть незаметной для противника. Для усиления маскировки используйте снаряжение «Маскировочная сеть», камуфляж, особую предбоевую инструкцию и умение экипажа «Маскировка». Помните, что выстрелы вас демаскируют.</value>
+  </data>
+  <data name="chapter-6/lesson-20/title" xml:space="preserve">
+    <value>Незаметность машины и демаскирующие факторы</value>
+  </data>
+  <data name="chapter-6/lesson-3/description" xml:space="preserve">
+    <value>При огневом контакте с противником старайтесь максимально прятать свою машину в укрытии: за камнями, сгоревшими танками или в разрушенных строениях — противнику должно быть неудобно вести по вам огонь.</value>
+  </data>
+  <data name="chapter-6/lesson-3/title" xml:space="preserve">
+    <value>Прячьте уязвимые зоны в укрытиях</value>
+  </data>
+  <data name="chapter-6/lesson-4/description" xml:space="preserve">
+    <value>Рельеф должен играть вам на руку. Скрывайте уязвимый корпус в складках местности, минимизируйте видимый профиль машины. Чтобы выстрелить из-за холма, не обязательно полностью выкатываться.</value>
+  </data>
+  <data name="chapter-6/lesson-4/title" xml:space="preserve">
+    <value>Используйте складки рельефа</value>
+  </data>
+  <data name="chapter-6/lesson-5/description" xml:space="preserve">
+    <value>При повреждении модуля увеличивается шанс разрыва гусеницы. Если гусеницу сбить — машина некоторое время не может перемещаться.</value>
+  </data>
+  <data name="chapter-6/lesson-5/title" xml:space="preserve">
+    <value>Повреждение ходовой</value>
+  </data>
+  <data name="chapter-6/lesson-6/description" xml:space="preserve">
+    <value>При стрельбе из повреждённого орудия шанс попасть в цель существенно ниже. Выведенное из строя орудие вообще теряет способность стрелять, пока не будет отремонтировано хотя бы до состояния «повреждённое».</value>
+  </data>
+  <data name="chapter-6/lesson-6/title" xml:space="preserve">
+    <value>Повреждение орудия</value>
+  </data>
+  <data name="chapter-6/lesson-7/description" xml:space="preserve">
+    <value>Повреждённые приборы наблюдения никак не ухудшают обзор, а вот выведенные из строя уменьшат его на 50%.</value>
+  </data>
+  <data name="chapter-6/lesson-7/title" xml:space="preserve">
+    <value>Повреждение приборов наблюдения</value>
+  </data>
+  <data name="chapter-6/lesson-8/description" xml:space="preserve">
+    <value>Из-за повреждённого механизма башня вращается медленнее, а если он выведен из строя, то башня полностью заклинит и останется неподвижной до её ремонта. Стрельба в таком состоянии исключительно неудобна.</value>
+  </data>
+  <data name="chapter-6/lesson-8/title" xml:space="preserve">
+    <value>Повреждение механизма поворота башни</value>
+  </data>
+  <data name="chapter-6/lesson-9/description" xml:space="preserve">
+    <value>При повреждённом двигателе существенно падают все динамические характеристики машины. Выведенный из строя двигатель вообще не позволит машине передвигаться до его ремонта. Попадание в двигатель с определённой вероятностью может поджечь машину.</value>
+  </data>
+  <data name="chapter-6/lesson-9/title" xml:space="preserve">
+    <value>Повреждение двигателя</value>
+  </data>
+  <data name="chapter-7/lesson-1/description" xml:space="preserve">
+    <value>Миникарта позволит вам лучше понять общую картину боя. Помимо позиций союзников, вы также видите обнаруженную технику противника. На миникарте также отображаются круги вашего текущего и максимального обзора, луч направления камеры и круг максимальной отрисовки. Миникарту можно настроить под себя в настройках игры.</value>
+  </data>
+  <data name="chapter-7/lesson-1/title" xml:space="preserve">
+    <value>Миникарта</value>
+  </data>
+  <data name="chapter-7/lesson-10/hint-1/text" xml:space="preserve">
+    <value>Создавайте взвод из 2-3 игроков, играйте слаженно и прикрывайте друг друга.</value>
+  </data>
+  <data name="chapter-7/lesson-10/hint-2/text" xml:space="preserve">
+    <value>Получайте дополнительный опыт за бой на технике IV уровня и выше.</value>
+  </data>
+  <data name="chapter-7/lesson-10/hint-3/text" xml:space="preserve">
+    <value>Машины во взводе должны быть одного уровня, причём САУ — не более одной.</value>
+  </data>
+  <data name="chapter-7/lesson-10/title" xml:space="preserve">
+    <value>Игра взводом</value>
+  </data>
+  <data name="chapter-7/lesson-2/description" xml:space="preserve">
+    <value>Все команды из этого меню продублированы на кнопках F3-F8. Команда «Атакую» по умолчанию назначена на кнопку Т.</value>
+  </data>
+  <data name="chapter-7/lesson-2/hint-1/text" xml:space="preserve">
+    <value>Удерживайте клавишу Z и выбирайте команду, кликнув на неё мышью.</value>
+  </data>
+  <data name="chapter-7/lesson-2/title" xml:space="preserve">
+    <value>Меню приказов</value>
+  </data>
+  <data name="chapter-7/lesson-3/description" xml:space="preserve">
+    <value>Особый статус аккаунта, позволяющий получать на 50% больше кредитов и опыта за каждый бой. Может быть куплен за золото на определённый срок или получен за выполнение некоторых задач и за участие в особых событиях.</value>
+  </data>
+  <data name="chapter-7/lesson-3/title" xml:space="preserve">
+    <value>Премиум аккаунт</value>
+  </data>
+  <data name="chapter-7/lesson-4/description" xml:space="preserve">
+    <value>Золото — ценная премиум валюта. За него нельзя купить никаких преимуществ в игре, но можно существенно облегчить игровой процесс. За золото можно расширять Казарму и Ангар, покупать премиум аккаунт и технику, демонтировать сложное оборудование, переводить опыт в свободный, а также многое другое.</value>
+  </data>
+  <data name="chapter-7/lesson-4/title" xml:space="preserve">
+    <value>Золото</value>
+  </data>
+  <data name="chapter-7/lesson-5/description" xml:space="preserve">
+    <value>Кредиты — валюта, начисляемая за любые полезные действия в бою. За кредиты можно ремонтировать технику, покупать новые модули и машины, пополнять боекомплект, покупать оборудование, снаряжение и так далее.</value>
+  </data>
+  <data name="chapter-7/lesson-5/title" xml:space="preserve">
+    <value>Кредиты</value>
+  </data>
+  <data name="chapter-7/lesson-6/description" xml:space="preserve">
+    <value>Боны — это особая игровая валюта, которую можно заработать в Ранговых боях, а также за получение некоторых наград. Только за боны вы можете приобрести уникальные предметы: усовершенствованное оборудование и предбоевые инструкции.</value>
+  </data>
+  <data name="chapter-7/lesson-6/title" xml:space="preserve">
+    <value>Боны</value>
+  </data>
+  <data name="chapter-7/lesson-7/description" xml:space="preserve">
+    <value>Премиум техника — особые машины, которые не требуют исследования и покупаются сразу в максимальной комплектации. Данная техника зарабатывает больше кредитов в бою, экипаж на неё можно пересадить бесплатно с машины того же типа и нации, а ремонт премиум машин как правило дешевле. Отличный выбор для игроков, которые хотят сэкономить время.</value>
+  </data>
+  <data name="chapter-7/lesson-7/title" xml:space="preserve">
+    <value>Премиум техника</value>
+  </data>
+  <data name="chapter-7/lesson-8/hint-1/text" xml:space="preserve">
+    <value>Общайтесь с сокомандниками в бою (клавиша Enter) или открывайте приватный чат после боя.</value>
+  </data>
+  <data name="chapter-7/lesson-8/hint-2/text" xml:space="preserve">
+    <value>Добавляйте игроков в список друзей, чтобы в дальнейшем было проще искать совзводных.</value>
+  </data>
+  <data name="chapter-7/lesson-8/hint-3/text" xml:space="preserve">
+    <value>Не сквернословьте и не мешайте играть другим — нарушение Правил игры наказуемо.</value>
+  </data>
+  <data name="chapter-7/lesson-8/title" xml:space="preserve">
+    <value>Социальная активность</value>
+  </data>
+  <data name="chapter-7/lesson-9/hint-1/text" xml:space="preserve">
+    <value>За особые достижения в бою вам выдаются различные награды.</value>
+  </data>
+  <data name="chapter-7/lesson-9/hint-2/text" xml:space="preserve">
+    <value>Это число — суммарный показатель игровых навыков и опытности. Этот рейтинг виден всем.</value>
+  </data>
+  <data name="chapter-7/lesson-9/hint-3/text" xml:space="preserve">
+    <value>Рейтинг по технике и достижениям в Случайных боях.</value>
+  </data>
+  <data name="chapter-7/lesson-9/title" xml:space="preserve">
+    <value>Достижения</value>
+  </data>
+  <data name="main_page/chapter/attack_basics" xml:space="preserve">
+    <value>Основы атаки</value>
+  </data>
+  <data name="main_page/chapter/defence_basics" xml:space="preserve">
+    <value>Основы защиты</value>
+  </data>
+  <data name="main_page/chapter/gamemodes" xml:space="preserve">
+    <value>Режимы игры</value>
+  </data>
+  <data name="main_page/chapter/newbie" xml:space="preserve">
+    <value>Для новичков</value>
+  </data>
+  <data name="main_page/chapter/others" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="main_page/chapter/player_vehicle" xml:space="preserve">
+    <value>Машина игрока</value>
+  </data>
+  <data name="main_page/chapter/vehicle_types" xml:space="preserve">
+    <value>Типы техники</value>
+  </data>
+</root>

@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="complete_mission_before" xml:space="preserve">
+    <value>Complete %(mission_name)s to unlock the next missions.</value>
+  </data>
+  <data name="complete_quest_before" xml:space="preserve">
+    <value>Complete the previous mission: %(quest_name)s</value>
+  </data>
+  <data name="completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="continue_quest_btn" xml:space="preserve">
+    <value>Back to mission: %(quest_name)s</value>
+  </data>
+  <data name="linkedset_completed_desc" xml:space="preserve">
+    <value>You have completed training. Now you are ready for real action!</value>
+  </data>
+  <data name="linkedset_completed_title" xml:space="preserve">
+    <value>CONGRATULATIONS!</value>
+  </data>
+  <data name="linkedset_finished_desc" xml:space="preserve">
+    <value>%(tank_name)s is already in the Garage</value>
+  </data>
+  <data name="linkedset_finished_tittle" xml:space="preserve">
+    <value>VEHICLE RECEIVED</value>
+  </data>
+  <data name="linkedset_group_title" xml:space="preserve">
+    <value>Briefing</value>
+  </data>
+  <data name="mission_not_complete" xml:space="preserve">
+    <value>Not completed</value>
+  </data>
+  <data name="missions/name/1" xml:space="preserve">
+    <value>Bootcamp</value>
+  </data>
+  <data name="missions/name/2" xml:space="preserve">
+    <value>Briefing</value>
+  </data>
+  <data name="missions/name/3" xml:space="preserve">
+    <value>Road to Glory</value>
+  </data>
+  <data name="missions/quests/desc/1_1" xml:space="preserve">
+    <value>Complete the Bootcamp to learn the game basics and receive valuable rewards.</value>
+  </data>
+  <data name="missions/quests/desc/2_1" xml:space="preserve">
+    <value>Select a Tier II–X vehicle that has not yet won a battle today, and win a Random Battle.</value>
+  </data>
+  <data name="missions/quests/desc/2_2" xml:space="preserve">
+    <value>Research and purchase a module for any vehicle.</value>
+  </data>
+  <data name="missions/quests/desc/2_3" xml:space="preserve">
+    <value>Enter a Random Battle in a Tier III–X vehicle with a particular number of shells of alternative type.</value>
+  </data>
+  <data name="missions/quests/desc/2_4" xml:space="preserve">
+    <value>Sell an unused module from the Depot.</value>
+  </data>
+  <data name="missions/quests/desc/2_5" xml:space="preserve">
+    <value>In a Tier III–X vehicle with slots that are fully equipped with consumables, fight the following number of Random Battles: %(total_progress)s</value>
+  </data>
+  <data name="missions/quests/desc/2_6" xml:space="preserve">
+    <value>Apply any customization element to a Tier III–X vehicle and fight a Random Battle.</value>
+  </data>
+  <data name="missions/quests/desc/2_7" xml:space="preserve">
+    <value>In a Tier IV–X vehicle with any mounted equipment, fight the following number of Random Battles: %(total_progress)s</value>
+  </data>
+  <data name="missions/quests/desc/2_8" xml:space="preserve">
+    <value>In a Tier IV-X vehicle with any activated Personal Reserve, fight the following number of Random Battles: %(total_progress)s</value>
+  </data>
+  <data name="missions/quests/desc/3_1" xml:space="preserve">
+    <value>Research any Tier IV vehicle.</value>
+  </data>
+  <data name="missions/quests/desc/3_2" xml:space="preserve">
+    <value>Research any Tier V vehicle.</value>
+  </data>
+  <data name="missions/quests/desc/3_3" xml:space="preserve">
+    <value>Earn at least %(total_progress)s credits in any battles.</value>
+  </data>
+  <data name="missions/quests/desc/4_1" xml:space="preserve">
+    <value>Earn a token and exchange it for any Tier VI vehicle.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_1" xml:space="preserve">
+    <value>In any vehicle, you earn two times more experience for the first victory of the day. The first victory of the day during particular specials provides your vehicles with x3 or x5 multipliers to earned experience.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_2" xml:space="preserve">
+    <value>Each vehicle consists of modules that provide particular characteristics. By mounting betters modules, you improve the combat potential of your vehicle.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_3" xml:space="preserve">
+    <value>Before entering a battle, make sure you load ammunition. You will not be able to fire at enemy vehicles without ammunition. Different types of shells have different characteristics.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_4" xml:space="preserve">
+    <value>Your Depot stores unused modules, shells, equipment, and consumables. You can sell all unused items at 50%% of their standard cost.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_5" xml:space="preserve">
+    <value>Equipment and consumables improve the characteristics of your vehicle or crew. They also repair your vehicle and treat crew members in battle. You can equip up to three different types of consumable at one time.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_6" xml:space="preserve">
+    <value>You can add individuality to your vehicles by applying particular styles, camouflages, paints, inscriptions, and emblems. All these customization elements can be applied permanently or for a particular period.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_7" xml:space="preserve">
+    <value>Complex Equipment can be demounted only for gold. Simple equipment can be demounted for free.</value>
+  </data>
+  <data name="missions/quests/hint_desc/2_8" xml:space="preserve">
+    <value>By activating a Personal Reserve, you receive a temporary bonus to earned Combat or Free Experience, Crew Experience, or credits.</value>
+  </data>
+  <data name="missions/quests/hint_desc/3_1" xml:space="preserve">
+    <value>All World of Tanks vehicles are divided into five types that differ in combat role and battle tactics. All in all, there are over 500 tanks, SPGs, and tank destroyers.</value>
+  </data>
+  <data name="missions/quests/hint_desc/3_2" xml:space="preserve">
+    <value>You can research any vehicle of 11 nations.</value>
+  </data>
+  <data name="missions/quests/hint_desc/3_3" xml:space="preserve">
+    <value>Allows you to earn more credits and experience in any vehicle, which saves time and speeds up research.</value>
+  </data>
+  <data name="missions/quests/hint_name/2_1" xml:space="preserve">
+    <value>EXPERIENCE MULTIPLIER</value>
+  </data>
+  <data name="missions/quests/hint_name/2_2" xml:space="preserve">
+    <value>MODULES</value>
+  </data>
+  <data name="missions/quests/hint_name/2_3" xml:space="preserve">
+    <value>AMMUNITION</value>
+  </data>
+  <data name="missions/quests/hint_name/2_4" xml:space="preserve">
+    <value>DEPOT</value>
+  </data>
+  <data name="missions/quests/hint_name/2_5" xml:space="preserve">
+    <value>CONSUMABLES</value>
+  </data>
+  <data name="missions/quests/hint_name/2_6" xml:space="preserve">
+    <value>CUSTOMIZATION</value>
+  </data>
+  <data name="missions/quests/hint_name/2_7" xml:space="preserve">
+    <value>COMPLEX EQUIPMENT</value>
+  </data>
+  <data name="missions/quests/hint_name/2_8" xml:space="preserve">
+    <value>PERSONAL RESERVES</value>
+  </data>
+  <data name="missions/quests/hint_name/3_1" xml:space="preserve">
+    <value>VEHICLE TYPES</value>
+  </data>
+  <data name="missions/quests/hint_name/3_2" xml:space="preserve">
+    <value>NATIONS</value>
+  </data>
+  <data name="missions/quests/hint_name/3_3" xml:space="preserve">
+    <value>PREMIUM ACCOUNT</value>
+  </data>
+  <data name="missions/quests/name/1_1" xml:space="preserve">
+    <value>Bootcamp</value>
+  </data>
+  <data name="missions/quests/name/2_1" xml:space="preserve">
+    <value>First Victory of the Day</value>
+  </data>
+  <data name="missions/quests/name/2_2" xml:space="preserve">
+    <value>Improve Your Vehicle</value>
+  </data>
+  <data name="missions/quests/name/2_3" xml:space="preserve">
+    <value>Shell Diversity</value>
+  </data>
+  <data name="missions/quests/name/2_4" xml:space="preserve">
+    <value>Sell Unused Items</value>
+  </data>
+  <data name="missions/quests/name/2_5" xml:space="preserve">
+    <value>Full House</value>
+  </data>
+  <data name="missions/quests/name/2_6" xml:space="preserve">
+    <value>Make Up Your Vehicle</value>
+  </data>
+  <data name="missions/quests/name/2_7" xml:space="preserve">
+    <value>One Step Closer</value>
+  </data>
+  <data name="missions/quests/name/2_8" xml:space="preserve">
+    <value>Reserves</value>
+  </data>
+  <data name="missions/quests/name/3_1" xml:space="preserve">
+    <value>Tier IV Vehicle</value>
+  </data>
+  <data name="missions/quests/name/3_2" xml:space="preserve">
+    <value>Tier V Vehicle</value>
+  </data>
+  <data name="missions/quests/name/3_3" xml:space="preserve">
+    <value>%(total_progress)s credits</value>
+  </data>
+  <data name="missions/quests/name/4_1" xml:space="preserve">
+    <value>Recruit Training</value>
+  </data>
+  <data name="missions/quests/win_desc/4_1" xml:space="preserve">
+    <value>Use the reward token and receive any Tier VI vehicle without researching.</value>
+  </data>
+  <data name="missions/quests/win_name/4_1" xml:space="preserve">
+    <value>YOUR REWARD</value>
+  </data>
+  <data name="missions_completed" xml:space="preserve">
+    <value>%(cur_count)s/%(total_count)s missions completed</value>
+  </data>
+  <data name="not_available" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="quest_card_title" xml:space="preserve">
+    <value>%(mission_name)s: %(quest_name)s</value>
+  </data>
+  <data name="quest_completed" xml:space="preserve">
+    <value>MISSION COMPLETED</value>
+  </data>
+  <data name="reward_for_completed_mission" xml:space="preserve">
+    <value>The %(mission_name)s  mission set has been successfully completed.
+You have already received the rewards for its completion.</value>
+  </data>
+  <data name="reward_for_completed_quest" xml:space="preserve">
+    <value>You have completed the %(quest_name)s mission.
+You received the reward for its completion.</value>
+  </data>
+  <data name="reward_for_uncompleted_mission" xml:space="preserve">
+    <value>The reward for completion of all missions from the %(quest_name)s mission set</value>
+  </data>
+  <data name="start_quest_btn" xml:space="preserve">
+    <value>Start %(quest_name)s</value>
+  </data>
+  <data name="use_the_token" xml:space="preserve">
+    <value>Use the token</value>
+  </data>
+  <data name="vehicle_list_popup/info_text" xml:space="preserve">
+    <value>You already have all researchable Tier %(level)s vehicles.</value>
+  </data>
+</root>

@@ -415,7 +415,7 @@
     <value>M10 Wolverine</value>
   </data>
   <data name="M10_Wolverine_descr" xml:space="preserve">
-    <value>Самая массовая ПТ-САУ армии США. С сентября 1942 по январь 1943 было выпущено 6406 машин. Более трети машин было поставлено союзникам по ленд-лизу.</value>
+    <value>Самая массовая ПТ-САУ армии США. С сентября 1942 года по январь 1944 года было выпущено 6706 машин. Более трети машин было поставлено союзникам по программе ленд-лиза.</value>
   </data>
   <data name="M10_Wolverine_short" xml:space="preserve">
     <value>Wolverine</value>
@@ -628,10 +628,10 @@
     <value>Разработан по заказу Голландской Ост-Индии. В 1941–1942 гг. было изготовлено 125 машин. Заказчиком были востребованы только 20 штук. В боях не использовался.</value>
   </data>
   <data name="MTLS_D1" xml:space="preserve">
-    <value>MTLS D1</value>
+    <value>4-Man Dutch Tank</value>
   </data>
   <data name="MTLS_T1" xml:space="preserve">
-    <value>MTLS T1</value>
+    <value>MTLS-1G14</value>
   </data>
   <data name="NVSS_T66" xml:space="preserve">
     <value>HVSS T66</value>
@@ -1360,10 +1360,10 @@
     <value>APC M51</value>
   </data>
   <data name="_37mm_APC_M59A1" xml:space="preserve">
-    <value>APC M59A1</value>
+    <value>AAC APC</value>
   </data>
   <data name="_37mm_APC_M59A5" xml:space="preserve">
-    <value>APC M59A5</value>
+    <value>AAC APCR</value>
   </data>
   <data name="_37mm_AP_M74" xml:space="preserve">
     <value>AP M74</value>
@@ -1378,7 +1378,7 @@
     <value>HE 1916</value>
   </data>
   <data name="_37mm_HE_M54" xml:space="preserve">
-    <value>HE M54</value>
+    <value>AAC HE</value>
   </data>
   <data name="_37mm_HE_M63" xml:space="preserve">
     <value>HE M63</value>
@@ -3004,11 +3004,11 @@ AV-1790-5A</value>
     <value>T71 CMCD P</value>
   </data>
   <data name="Continental_AOI-628-1_A" xml:space="preserve">
-    <value>Continental AOI-628-1</value>
+    <value>Continental AOI-628-1 A</value>
   </data>
   <data name="Continental_AOI-628-1_A_short" xml:space="preserve">
     <value>Continental
-AOI-628-1</value>
+AOI-628-1 A</value>
   </data>
   <data name="_76mm_Gun_T185_A" xml:space="preserve">
     <value>76 mm Gun T185</value>
@@ -3254,7 +3254,7 @@ Series 44T4L</value>
     <value>M48A5 Patton</value>
   </data>
   <data name="A120_M48A5_descr" xml:space="preserve">
-    <value>Модификация танка М48 образца 1970-ых годов, разработанная в целях модернизации оставшейся на вооружении модели M48 до уровня танка M60. Отличается установкой нового двигателя, вооружения, СУО. Модернизированные таким образом 2570 машин практически ничем, кроме показателей броневой защиты, не отличались от M60, имевших то же вооружение и двигатель.</value>
+    <value>Модификация танка М48 образца 1970 года, разработанная в целях модернизации оставшейся на вооружении модели M48 до уровня танка M60. Отличается установкой нового двигателя, вооружения, СУО. Модернизированные таким образом 2570 машин практически ничем, кроме показателей броневой защиты, не отличались от M60, имевших то же вооружение и двигатель.</value>
   </data>
   <data name="A120_M48A5_short" xml:space="preserve">
     <value>M48 Patton</value>
@@ -3273,5 +3273,73 @@ Series 44T4L</value>
   </data>
   <data name="Turret_1_A120_M48A5" xml:space="preserve">
     <value>M48A5 Patton</value>
+  </data>
+  <data name="A12_T32_FL" xml:space="preserve">
+    <value>T32 FL</value>
+  </data>
+  <data name="A12_T32_FL_descr" xml:space="preserve">
+    <value>Экспериментальный американский тяжёлый танк периода Второй мировой войны. Разрабатывался на базе танков М26 Pershing и Т29. Опытные образцы были построены в 1946 году. В связи с окончанием Второй мировой войны Т32 не был принят на вооружение и серийно не производился.</value>
+  </data>
+  <data name="Chassis_A12_T32_FL" xml:space="preserve">
+    <value>T84E3A FL</value>
+  </data>
+  <data name="Continental_AOI-1195-5A" xml:space="preserve">
+    <value>Continental AOI-1195-5A</value>
+  </data>
+  <data name="Continental_AOI-1195-5A_short" xml:space="preserve">
+    <value>Continental
+AOI-1195-5A</value>
+  </data>
+  <data name="Continental_AV-1790-3_FL" xml:space="preserve">
+    <value>Continental AV-1790-3 FL</value>
+  </data>
+  <data name="Continental_AV-1790-3_FL_short" xml:space="preserve">
+    <value>Continental
+AV-1790-3 FL</value>
+  </data>
+  <data name="SCR_528_FL" xml:space="preserve">
+    <value>SCR 528 FL</value>
+  </data>
+  <data name="Turret_1_A12_T32_FL" xml:space="preserve">
+    <value>T119 FL</value>
+  </data>
+  <data name="_105mm_APCR_T29E3_FL" xml:space="preserve">
+    <value>APCR T29E3 FL</value>
+  </data>
+  <data name="_105mm_AP_T32_FL" xml:space="preserve">
+    <value>AP T32 FL</value>
+  </data>
+  <data name="_105mm_Gun_T5E1_FL" xml:space="preserve">
+    <value>105 mm Gun T5E1 FL</value>
+  </data>
+  <data name="_105mm_HE_M11_FL" xml:space="preserve">
+    <value>HE M11 FL</value>
+  </data>
+  <data name="A121_M26_Cologne" xml:space="preserve">
+    <value>T26E3 Eagle 7</value>
+  </data>
+  <data name="A121_M26_Cologne_descr" xml:space="preserve">
+    <value>Танк, которым командовал сержант Эрли. Машина с серийным номером 26 принадлежала роте «E» 32-го танкового полка 3-й бронетанковой дивизии. Машина была одной из 20 предсерийных Т26Е3, принявших участие в операции «Зебра» (войсковые испытания «Першингов» в Европе). Экипаж Эрли отличился в боях за Кёльн 6 марта 1945 года, в ходе которых тремя выстрелами была уничтожена немецкая «Пантера» напротив Кёльнского собора.</value>
+  </data>
+  <data name="A121_M26_Cologne_short" xml:space="preserve">
+    <value>Eagle 7</value>
+  </data>
+  <data name="Chassis_A121_M26_Cologne" xml:space="preserve">
+    <value>T26E3</value>
+  </data>
+  <data name="Ford_GAF_500" xml:space="preserve">
+    <value>Ford GAF (500)</value>
+  </data>
+  <data name="Turret_1_A121_M26_Cologne" xml:space="preserve">
+    <value>T26E3</value>
+  </data>
+  <data name="_90mm_AP_M82_late" xml:space="preserve">
+    <value>AP M82 late</value>
+  </data>
+  <data name="_90mm_AP_T33E" xml:space="preserve">
+    <value>AP T33E</value>
+  </data>
+  <data name="_90mm_Gun_M3E" xml:space="preserve">
+    <value>90 mm Gun M3E</value>
   </data>
 </root>

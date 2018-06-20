@@ -154,7 +154,7 @@
     <value>Enable dynamic camera</value>
   </data>
   <data name="SPEEDTREE_QUALITY" xml:space="preserve">
-    <value>Foliage Quality</value>
+    <value>Vegetation Quality</value>
   </data>
   <data name="TEXTURE_COMPRESSION" xml:space="preserve">
     <value>Texture Compression</value>
@@ -1078,7 +1078,7 @@
     <value>Decals Quality</value>
   </data>
   <data name="FLORA_QUALITY" xml:space="preserve">
-    <value>Flora Density</value>
+    <value>Grass Density</value>
   </data>
   <data name="LIGHTING_QUALITY" xml:space="preserve">
     <value>Lighting Quality</value>
@@ -1468,9 +1468,7 @@ Reducing the value of this parameter can improve game performance.</value>
     <value>Determines the display distance of relief features, buildings, enemy vehicles and other game objects.</value>
   </data>
   <data name="FLORA_QUALITY/description" xml:space="preserve">
-    <value>Determines the density and draw quality of grass and bushes.
-
-Reducing the value of this parameter can improve game performance.</value>
+    <value>Determines the density of grass displayed in Arcade and Sniper modes.</value>
   </data>
   <data name="LIGHTING_QUALITY/description" xml:space="preserve">
     <value>Accuracy of setting sun rays, lighting, and optical effects. 
@@ -1484,7 +1482,7 @@ Increasing the value of this parameter considerably increases load on video card
     <value>Determines the number of displayed objects and their quality.</value>
   </data>
   <data name="POST_PROCESSING_QUALITY/description" xml:space="preserve">
-    <value>Determines the quality of fog, glow effects, and other post-processing visual effects.
+    <value>Determines the quality of post-processing visual effects: heat shimmer and shockwave effects, chromatic aberration, vignette, film grain, etc.
 
 Reducing the value of this parameter can improve game performance.</value>
   </data>
@@ -1500,7 +1498,7 @@ Standard: allows for maximum performance by simplifying or disabling some visual
     <value>Change of this parameter will be applied upon game restart.</value>
   </data>
   <data name="SHADOWS_QUALITY/description" xml:space="preserve">
-    <value>Determines the quality of dynamic shadow processing over the entire draw distance. Full disabling of shadows can cause strong visual inconsistency.
+    <value>Determines the quality of dynamic shadow processing over the entire draw distance.
 
 Reducing the value of this parameter can considerably improve game performance.</value>
   </data>
@@ -1515,7 +1513,7 @@ Reducing the value of this parameter can improve the game performance.</value>
 Disabling this parameter can improve game performance.</value>
   </data>
   <data name="SPEEDTREE_QUALITY/description" xml:space="preserve">
-    <value>Determines the draw quality of foliage.</value>
+    <value>Determines the draw quality of trees, bushes, and grass.</value>
   </data>
   <data name="TERRAIN_QUALITY/description" xml:space="preserve">
     <value>Determines the draw quality of map relief features.
@@ -1614,15 +1612,13 @@ In a windowed mode, current operating system settings are used.</value>
     <value>Graphics Quality</value>
   </data>
   <data name="graphicsQuality/description" xml:space="preserve">
-    <value>Determines the general quality of the image. 
+    <value>Determines the general quality of the image. Determines the parameters of the Details tab.
 
-Determines the parameters of the Details tab.
+Reducing the graphics quality can:
+• Improve game performance
+• Cause desynchronization of the landscape's display between client and server.
 
-Reducing graphics quality can improve game performance.
-
-Use the minimum graphics quality only in the case of low computer performance.
-
-Reducing the value of this parameter can cause desynchronization of landscape display between client and server.</value>
+Use the minimum graphics quality only in the case of low computer performance.</value>
   </data>
   <data name="graphicsSettingsOptions/ANISOTROPIC_16X" xml:space="preserve">
     <value>Anisotropic 16x</value>
@@ -1797,7 +1793,7 @@ Minimum angle is used when zoomed in to the vehicle.</value>
 Disabling this parameter displays the foliage of nearby trees and bushes as completely invisible, which can improve game performance.</value>
   </data>
   <data name="HAVOK_ENABLED" xml:space="preserve">
-    <value>Enhanced Effect Physics</value>
+    <value>Enhanced Destruction Physics</value>
   </data>
   <data name="HAVOK_ENABLED/OFF" xml:space="preserve">
     <value>OFF</value>
@@ -1806,7 +1802,7 @@ Disabling this parameter displays the foliage of nearby trees and bushes as comp
     <value>ON</value>
   </data>
   <data name="HAVOK_ENABLED/description" xml:space="preserve">
-    <value>Enables a more realistic model of object destruction and interaction on the Stalingrad map.
+    <value>Enables a more detailed and realistic processing of object destruction on maps.
 
 Disabling this parameter can improve game performance.</value>
   </data>
@@ -1876,7 +1872,7 @@ when maximizing game screen/window.</value>
     <value>Client Types</value>
   </data>
   <data name="graphicsQualityHDSD/HD" xml:space="preserve">
-    <value>HD Client (Beta)</value>
+    <value>HD Client</value>
   </data>
   <data name="graphicsQualityHDSD/SD" xml:space="preserve">
     <value>Standard (SD) Client installed</value>
@@ -1884,7 +1880,7 @@ when maximizing game screen/window.</value>
   <data name="graphicsQualityHDSD/description" xml:space="preserve">
     <value>Standard Client—full game without maximum-quality textures.
 
-HD Client (Beta)—full game including maximum-quality textures. Requires more space on the hard drive than the Standard Client.</value>
+HD Client—full game including maximum-quality textures. Requires more hard drive space than the Standard Client.</value>
   </data>
   <data name="DRR_AUTOSCALER_ENABLED" xml:space="preserve">
     <value>Dynamic Adjustment</value>
@@ -2476,7 +2472,8 @@ on your vehicle</value>
     <value>103</value>
   </data>
   <data name="feedback/tab/damageLogPanel/screenAlert" xml:space="preserve">
-    <value>Enabling this setting is not recommended for displays with a low resolution</value>
+    <value>Enabling this setting is not recommended
+for displays with a low resolution</value>
   </data>
   <data name="feedback/tab/damageLogPanel/summaryAssist" xml:space="preserve">
     <value>1200</value>
@@ -2746,7 +2743,7 @@ on your vehicle</value>
     <value>Standard</value>
   </data>
   <data name="sounds/sixthSense/body" xml:space="preserve">
-    <value>Custom sound. Move the sixthSense.mp3 file to the resaudioww folder.</value>
+    <value>Custom sound. Move the sixthSense.mp3 file to the res/audioww folder.</value>
   </data>
   <data name="sounds/sixthSense/header" xml:space="preserve">
     <value>Custom</value>
@@ -2771,5 +2768,256 @@ on your vehicle</value>
   </data>
   <data name="keyboard/keysBlocks/command/fire_secondary" xml:space="preserve">
     <value>Fire secondary only</value>
+  </data>
+  <data name="game/c11nHistoricallyAccurate" xml:space="preserve">
+    <value>Hide non-historical elements</value>
+  </data>
+  <data name="CUSTOM_AA_MODE" xml:space="preserve">
+    <value>Antialiasing</value>
+  </data>
+  <data name="CUSTOM_AA_MODE/description" xml:space="preserve">
+    <value>Determines the degree of additional processing for thin lines and contours of game objects. Minimizes aliasing effect.
+
+• High—FXAA
+• Maximum—Temporal Supersampling Antialiasing LQ (TSSAA LQ)
+• Ultra—Temporal Supersampling Antialiasing HQ (TSSAA HQ)</value>
+  </data>
+  <data name="MSAA_QUALITY" xml:space="preserve">
+    <value>Antialiasing</value>
+  </data>
+  <data name="MSAA_QUALITY/description" xml:space="preserve">
+    <value>Determines the degree of additional processing for thin lines and contours of game objects. Minimizes aliasing effect.
+
+• Low—MSAA 2x
+• Medium—MSAA 4x
+• High—MSAA 8x</value>
+  </data>
+  <data name="RENDER_PIPELINE_XP" xml:space="preserve">
+    <value>Graphics:</value>
+  </data>
+  <data name="RENDER_PIPELINE_XP/description" xml:space="preserve">
+    <value>Improved: allows for maximum image quality.
+
+Standard: allows for maximum performance by simplifying or disabling some visual effects.</value>
+  </data>
+  <data name="RENDER_PIPELINE_XP/warning" xml:space="preserve">
+    <value>The improved graphics setting is not supported by Windows XP and previous OS versions.</value>
+  </data>
+  <data name="SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED" xml:space="preserve">
+    <value>Terrain tessellation in Sniper mode</value>
+  </data>
+  <data name="SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description" xml:space="preserve">
+    <value>Increases the quality of terrain within a radius of 50 meters from your vehicle in Sniper mode. Available only with the Terrain Tessellation option enabled.
+
+Disabling this parameter can improve game performance.</value>
+  </data>
+  <data name="TERRAIN_TESSELLATION_ENABLED" xml:space="preserve">
+    <value>Terrain Tessellation</value>
+  </data>
+  <data name="TERRAIN_TESSELLATION_ENABLED/description" xml:space="preserve">
+    <value>Hardware-accelerated process of adding new triangles to the polygon mesh to increase the mesh details.
+
+The function will only work with:
+• Improved Graphics
+• High, Maximum or Ultra Terrain Quality
+• DirectX 11 installed.</value>
+  </data>
+  <data name="aim/x2" xml:space="preserve">
+    <value>x2</value>
+  </data>
+  <data name="colorCorrection" xml:space="preserve">
+    <value>Color Adjustment</value>
+  </data>
+  <data name="colorCorrectionBtn/label" xml:space="preserve">
+    <value>Configure</value>
+  </data>
+  <data name="colorSettings/tab/customSettings" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="colorSettings/tab/customSettings/brightness" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="colorSettings/tab/customSettings/contrast" xml:space="preserve">
+    <value>Contrast</value>
+  </data>
+  <data name="colorSettings/tab/customSettings/saturation" xml:space="preserve">
+    <value>Saturation</value>
+  </data>
+  <data name="colorSettings/tab/default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="colorSettings/tab/filters" xml:space="preserve">
+    <value>Preset Filters</value>
+  </data>
+  <data name="colorSettings/tab/filters/intensity" xml:space="preserve">
+    <value>Filter Intensity</value>
+  </data>
+  <data name="colorSettings/view/after" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="colorSettings/view/before" xml:space="preserve">
+    <value>Before</value>
+  </data>
+  <data name="colorSettings/view/closeBtn" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="colorSettings/view/description" xml:space="preserve">
+    <value>Select one of the image adjustment options</value>
+  </data>
+  <data name="colorSettings/view/header" xml:space="preserve">
+    <value>Color Adjustment</value>
+  </data>
+  <data name="colorSettings/view/resetBtn" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="colorSettings/view/subTitle" xml:space="preserve">
+    <value>Image Adjustment Options</value>
+  </data>
+  <data name="feedback/tab/battleBorderMap" xml:space="preserve">
+    <value>Map Border</value>
+  </data>
+  <data name="feedback/tab/borderMap/hideBorderWarning" xml:space="preserve">
+    <value>Hiding the map border may result in disorientation in battle.</value>
+  </data>
+  <data name="feedback/tab/borderMap/showMode/alt" xml:space="preserve">
+    <value>Upon pressing Alt</value>
+  </data>
+  <data name="feedback/tab/borderMap/showMode/always" xml:space="preserve">
+    <value>Always highlighted</value>
+  </data>
+  <data name="feedback/tab/borderMap/showMode/alwaysHide" xml:space="preserve">
+    <value>Do not highlight</value>
+  </data>
+  <data name="feedback/tab/borderMap/showMode/hide" xml:space="preserve">
+    <value>When approaching</value>
+  </data>
+  <data name="feedback/tab/borderMap/showMode/label" xml:space="preserve">
+    <value>Additional highlighting</value>
+  </data>
+  <data name="feedback/tab/borderMap/typeBorder/dotted" xml:space="preserve">
+    <value>Dotted line</value>
+  </data>
+  <data name="feedback/tab/borderMap/typeBorder/hide" xml:space="preserve">
+    <value>Do not display</value>
+  </data>
+  <data name="feedback/tab/borderMap/typeBorder/label" xml:space="preserve">
+    <value>Border Type</value>
+  </data>
+  <data name="feedback/tab/borderMap/typeBorder/wall" xml:space="preserve">
+    <value>Wall</value>
+  </data>
+  <data name="game/hangarCamCheckbox" xml:space="preserve">
+    <value>Garage camera animation when moving the mouse cursor</value>
+  </data>
+  <data name="game/hangarCamDropdownTitle" xml:space="preserve">
+    <value>Garage camera rotation when idle for</value>
+  </data>
+  <data name="game/hangarCamGroupTitle" xml:space="preserve">
+    <value>Garage camera animation</value>
+  </data>
+  <data name="game/hangarCamPeriod/never" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="game/hangarCamPeriod/type0" xml:space="preserve">
+    <value>30 seconds</value>
+  </data>
+  <data name="game/hangarCamPeriod/type1" xml:space="preserve">
+    <value>45 seconds</value>
+  </data>
+  <data name="game/hangarCamPeriod/type2" xml:space="preserve">
+    <value>60 seconds</value>
+  </data>
+  <data name="game/optimizeGraphics" xml:space="preserve">
+    <value>Optimize interface rendering</value>
+  </data>
+  <data name="gammaBtn/label" xml:space="preserve">
+    <value>Configure</value>
+  </data>
+  <data name="gammaWizard/apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="gammaWizard/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="gammaWizard/closeBtn" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="gammaWizard/default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="gammaWizard/description" xml:space="preserve">
+    <value>Move the slider until the background and logo reach the same brightness. Close your eyes partially or move away from your monitor, to make the image details hardly visible.</value>
+  </data>
+  <data name="gammaWizard/header" xml:space="preserve">
+    <value>Gamma</value>
+  </data>
+  <data name="gammaWizard/title" xml:space="preserve">
+    <value>Gamma Settings</value>
+  </data>
+  <data name="gammaWizard/tooltip/body" xml:space="preserve">
+    <value>Allows for the brightness to be adjusted to the optimal value. This option aims to
+compensate for the effects from video card drivers and display
+settings that affect the game's visual quality.</value>
+  </data>
+  <data name="gammaWizard/tooltip/header" xml:space="preserve">
+    <value>Gamma</value>
+  </data>
+  <data name="graphics/block/effects" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="graphics/block/greenery" xml:space="preserve">
+    <value>Vegetation</value>
+  </data>
+  <data name="graphics/block/landscapeAndWater" xml:space="preserve">
+    <value>Terrain and water</value>
+  </data>
+  <data name="graphics/block/lightingAndShadows" xml:space="preserve">
+    <value>Lighting and post processing</value>
+  </data>
+  <data name="graphics/block/main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="graphicsQualityHDSDHigh" xml:space="preserve">
+    <value>Client Types</value>
+  </data>
+  <data name="graphicsQualityHDSDHigh/description" xml:space="preserve">
+    <value>HD Client—full game including maximum-quality textures. Requires more hard drive space than the Standard Client.
+
+Standard Client (SD)—full game without maximum-quality textures.</value>
+  </data>
+  <data name="graphicsQualityHDSDHigh/warning" xml:space="preserve">
+    <value>Maximum (SD) and Ultra (SD) graphics quality do not provide the maximum value of the Texture Quality parameter. To set the maximum graphics quality, switch to HD Client in the game launcher.</value>
+  </data>
+  <data name="graphicsQuality_XP" xml:space="preserve">
+    <value>Graphics Quality</value>
+  </data>
+  <data name="graphicsQuality_XP/description" xml:space="preserve">
+    <value>Determines the general quality of the image. 
+
+Determines the parameters of the Details tab.
+
+Reducing graphics quality can improve game performance.
+
+Use the minimum graphics quality only in the case of low computer performance.
+
+Reducing the value of this parameter can cause desynchronization of landscape display between client and server.</value>
+  </data>
+  <data name="graphicsQuality_XP/warning" xml:space="preserve">
+    <value>The improved graphics setting is not supported by Windows XP and previous OS versions.</value>
+  </data>
+  <data name="graphicsSettingsOptions/MAX_SD" xml:space="preserve">
+    <value>Maximum (SD)</value>
+  </data>
+  <data name="graphicsSettingsOptions/ULTRA_SD" xml:space="preserve">
+    <value>Ultra (SD)</value>
+  </data>
+  <data name="HAVOK_ENABLED/warning" xml:space="preserve">
+    <value>The setting will be applied in the next battle, if it is disabled in the current battle.</value>
+  </data>
+  <data name="game/showDamageIcon" xml:space="preserve">
+    <value>Display notifications when causing damage</value>
+  </data>
+  <data name="game/loginServerSelection" xml:space="preserve">
+    <value>Display server selection upon game launch</value>
   </data>
 </root>

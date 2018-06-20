@@ -22,28 +22,37 @@ namespace WotDossier.Applications
 				BattleType.CompanyWar,
 				BattleType.ClanWar,
 				BattleType.Event,
-				BattleType.Event2
-			};
+				BattleType.Event2,
+			    BattleType.Epic,
+            };
 
 			if (list.Contains(battleType))
 			{
 				if (gameplayId == Gameplay.ctf)
 				{
-					return Resources.Resources.BattleType_ctf;
+					return Resources.Strings.Arenas.type_ctf_name;
 				}
 				if (gameplayId == Gameplay.domination)
 				{
-					return Resources.Resources.BattleType_domination;
+					return Resources.Strings.Arenas.type_domination_name;
 				}
 				if (gameplayId == Gameplay.nations)
 				{
-					return Resources.Resources.BattleType_nations;
+					return Resources.Strings.Arenas.type_nations_name;
 				}
 				if (gameplayId == Gameplay.leviathan)
 				{
 					return Resources.Resources.BattleType_leviathan;
 				}
-				return Resources.Resources.BattleType_assault;
+			    if (gameplayId == Gameplay.epic)
+			    {
+			        return Resources.Strings.Arenas.type_epic_name;
+			    }
+			    if (gameplayId == Gameplay.football)
+			    {
+			        return Resources.Strings.Arenas.type_football_name;
+			    }
+                return Resources.Resources.BattleType_assault;
 			}
 			return Resources.Resources.ResourceManager.GetEnumResource(battleType);
 		}

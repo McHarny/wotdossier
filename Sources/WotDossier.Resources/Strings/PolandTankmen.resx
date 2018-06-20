@@ -555,4 +555,10 @@
   <data name="ranksPl/szeregowiec" xml:space="preserve">
     <value>Szeregowiec</value>
   </data>
+  <data name="names/Buffon" xml:space="preserve">
+    <value>Buffon</value>
+  </data>
+  <data name="names/Gianluigi" xml:space="preserve">
+    <value>Gianluigi</value>
+  </data>
 </root>

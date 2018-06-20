@@ -966,7 +966,7 @@ to join a Platoon.</value>
     <value>Days of Premium Account deducted</value>
   </data>
   <data name="serviceChannelMessages/invoiceReceived/premium_account" xml:space="preserve">
-    <value>Premium</value>
+    <value>Premium Account</value>
   </data>
   <data name="serviceChannelMessages/invoiceReceived/vehiclesAccrued" xml:space="preserve">
     <value>Vehicles added</value>
@@ -2468,7 +2468,8 @@ Other clans can now attack you—stay prepared!</value>
 to receive more experience</value>
   </data>
   <data name="dialogs/squadChannel/headerMsg/eventFormationRestriction" xml:space="preserve">
-    <value>Must use Fallen Tanks</value>
+    <value>+++ event +++
++++ event +++</value>
   </data>
   <data name="dialogs/squadChannel/headerMsg/squadFormation" xml:space="preserve">
     <value>Additional experience per battle
@@ -2599,7 +2600,7 @@ starting from Tier IV and receive additional experience</value>
     <value>Bonds: %(crystal)s</value>
   </data>
   <data name="serviceChannelMessages/sysMsg/titles/primeTime" xml:space="preserve">
-    <value>Ceasefires</value>
+    <value>Ceasefire</value>
   </data>
   <data name="serviceChannelMessages/sysMsg/titles/rankedBattlesAvailable" xml:space="preserve">
     <value>Ranked Battles Available</value>
@@ -2643,5 +2644,119 @@ For successful completion of personal missions you receive the following rewards
   </data>
   <data name="serviceChannelMessages/gift/text" xml:space="preserve">
     <value>You received a free female crew member with a bunk in the Barracks.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleDisabledOption" xml:space="preserve">
+    <value>Failed to extend the style rental for %s. Purchase the style using gold.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleError" xml:space="preserve">
+    <value>Failed to extend the style rental for %s. Insufficient funds.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleErrorNoWallet" xml:space="preserve">
+    <value>Failed to extend the style rental for %s. All your gold will be available after WG Wallet operability is restored automatically.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleSkipped" xml:space="preserve">
+    <value>Failed to automatically extend the style rental for %s. Purchase the style manually.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleSuccess" xml:space="preserve">
+    <value>Style rental for %s successfully extended. Spent </value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/nothingChanged" xml:space="preserve">
+    <value>chevron retained</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/rankEarned" xml:space="preserve">
+    <value>rank %(rank)s received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/rankLost" xml:space="preserve">
+    <value>rank %(rank)s lost</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/rankPoint" xml:space="preserve">
+    <value>rank point received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/stepEarned" xml:space="preserve">
+    <value>chevron received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/stepLost" xml:space="preserve">
+    <value>chevron lost</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/lose/stepsEarned" xml:space="preserve">
+    <value>chevrons received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/shield/shield_lose" xml:space="preserve">
+    <value>rank shield broken</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/shield/shield_lose_step" xml:space="preserve">
+    <value>rank shield weakened</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/nothingChanged" xml:space="preserve">
+    <value>chevron retained</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/rankEarned" xml:space="preserve">
+    <value>rank %(rank)s received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/rankLost" xml:space="preserve">
+    <value>rank %(rank)s lost</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/rankPoint" xml:space="preserve">
+    <value>rank point received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/stepEarned" xml:space="preserve">
+    <value>chevron received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/stepLost" xml:space="preserve">
+    <value>chevron lost</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/win/stepsEarned" xml:space="preserve">
+    <value>chevrons received</value>
+  </data>
+  <data name="serviceChannelMessages/removedBadgeAchievement" xml:space="preserve">
+    <value>Badges removed</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/customizations" xml:space="preserve">
+    <value>Exterior elements changed.</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/customizationsBuy" xml:space="preserve">
+    <value>Customization elements changed. Elements purchased: %(count)s. You have spent %(money)s.</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/customizations/buy" xml:space="preserve">
+    <value>%(itemType)s "%(itemName)s" x%(count)s. Spent: %(money)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/customizations/sell" xml:space="preserve">
+    <value>%(itemType)s "%(itemName)s" x%(count)s. Received: %(money)s</value>
+  </data>
+  <data name="chat/personalMessage/warningBody" xml:space="preserve">
+    <value>Messages from unknown players may contain malicious links. Do not follow the links and do not share your password with anyone.</value>
+  </data>
+  <data name="chat/personalMessage/warningHead" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="dialogs/squadChannel/headerMsg/epicBattleFormationRestriction" xml:space="preserve">
+    <value>Frontline mode is available only to Tier VIII vehicles.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/credits/notAccrued" xml:space="preserve">
+    <value>not added</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleRentIsOver/button" xml:space="preserve">
+    <value>To Exterior</value>
+  </data>
+  <data name="serviceChannelMessages/autoRentStyleRentIsOver/text" xml:space="preserve">
+    <value>The %s rental style applied to the %s vehicle has expired. You can extend the style rental on the Exterior screen.</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/camouflage" xml:space="preserve">
+    <value>camouflage</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/emblem" xml:space="preserve">
+    <value>emblem</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/inscription" xml:space="preserve">
+    <value>inscription</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/modification" xml:space="preserve">
+    <value>effect</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/paint" xml:space="preserve">
+    <value>paint</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/style" xml:space="preserve">
+    <value>style</value>
   </data>
 </root>

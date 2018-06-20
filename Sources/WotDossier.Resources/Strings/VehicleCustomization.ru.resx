@@ -2732,7 +2732,7 @@
   </data>
   <data name="camouflage/france/tricolor/Geometric_Shapes/description" xml:space="preserve">
     <value>1919 г.
-Один из ранних камуфляжей французских танковых войск.</value>
+Одна из ранних камуфляжных схем французских танковых войск.</value>
   </data>
   <data name="camouflage/france/tricolor/Geometric_Shapes/label" xml:space="preserve">
     <value>Двухцветный оскольчатый камуфляж</value>
@@ -3270,7 +3270,7 @@
     <value>Эмблема</value>
   </data>
   <data name="emblem/auto" xml:space="preserve">
-    <value>Национальные эмблемы</value>
+    <value>Национальные</value>
   </data>
   <data name="emblem/auto/alpha_tester" xml:space="preserve">
     <value>Альфа-тест</value>
@@ -3410,7 +3410,7 @@
     <value>Киви</value>
   </data>
   <data name="emblem/group10/special_21" xml:space="preserve">
-    <value>Эмблема ЛРН</value>
+    <value>Победитель ЛРН</value>
   </data>
   <data name="emblem/group7/clan_content_11" xml:space="preserve">
     <value>Орден «Завоеватель I»</value>
@@ -4489,7 +4489,7 @@
     <value>Установить по умолчанию</value>
   </data>
   <data name="customization/headerCloseBtn/body" xml:space="preserve">
-    <value>Неоплаченные элементы внешнего вида сохранены не будут.</value>
+    <value>Неоплаченные или взятые со Склада элементы внешнего вида сохранены не будут.</value>
   </data>
   <data name="customization/headerCloseBtn/header" xml:space="preserve">
     <value>Вернуться в Ангар</value>
@@ -4682,7 +4682,7 @@
     <value>Все группы</value>
   </data>
   <data name="filter/popover/groups/title" xml:space="preserve">
-    <value>Группы:</value>
+    <value>Группы</value>
   </data>
   <data name="filter/popover/title" xml:space="preserve">
     <value>Фильтр</value>
@@ -4904,34 +4904,34 @@
     <value>WG Fest 2016</value>
   </data>
   <data name="emblem/group27/special_201" xml:space="preserve">
-    <value>Heavy</value>
+    <value>Бетонолом</value>
   </data>
   <data name="emblem/group27/special_202" xml:space="preserve">
-    <value>Artillery Magnet</value>
+    <value>Магнит</value>
   </data>
   <data name="emblem/group27/special_203" xml:space="preserve">
-    <value>Tank</value>
+    <value>Крепость</value>
   </data>
   <data name="emblem/group27/special_204" xml:space="preserve">
-    <value>Rammer</value>
+    <value>Манекен</value>
   </data>
   <data name="emblem/group27/special_205" xml:space="preserve">
-    <value>Camper</value>
+    <value>Палатка</value>
   </data>
   <data name="emblem/group27/special_206" xml:space="preserve">
-    <value>Spotter</value>
+    <value>Бинокль</value>
   </data>
   <data name="emblem/group27/special_207" xml:space="preserve">
-    <value>Artillery</value>
+    <value>Наблюдатель</value>
   </data>
   <data name="emblem/group27/special_208" xml:space="preserve">
-    <value>Unstoppable</value>
+    <value>Тормозные парашюты</value>
   </data>
   <data name="emblem/group27/special_209" xml:space="preserve">
-    <value>Wolf Pack</value>
+    <value>Стая</value>
   </data>
   <data name="emblem/group27/special_210" xml:space="preserve">
-    <value>Sniper</value>
+    <value>Прицел</value>
   </data>
   <data name="emblem/group7/clan_content_17" xml:space="preserve">
     <value>ГК Сезон 4</value>
@@ -5369,19 +5369,19 @@
     <value>Не удалось приобрести некоторые элементы. Проверьте ваш инвентарь.</value>
   </data>
   <data name="buyWindow/title/activeStyle" xml:space="preserve">
-    <value>Текущий стиль:</value>
+    <value>Постоянный стиль</value>
   </data>
   <data name="buyWindow/title/desert" xml:space="preserve">
-    <value>Пустынный:</value>
+    <value>Пустынная карта</value>
   </data>
   <data name="buyWindow/title/event" xml:space="preserve">
     <value>Особый:</value>
   </data>
   <data name="buyWindow/title/summer" xml:space="preserve">
-    <value>Летний:</value>
+    <value>Летняя карта</value>
   </data>
   <data name="buyWindow/title/winter" xml:space="preserve">
-    <value>Зимний:</value>
+    <value>Зимняя карта</value>
   </data>
   <data name="camouflage/Clan_camouflage_04_desert/description" xml:space="preserve">
     <value>Китайский пустынный четырёхцветный камуфляж
@@ -5464,19 +5464,19 @@
     <value>Пустынный камуфляж постоянного стиля.</value>
   </data>
   <data name="camouflage/prem_camouflage_desert/label" xml:space="preserve">
-    <value>Камуфляж для стиля 03</value>
+    <value>Камуфляж для стиля «Чёрная вдова»</value>
   </data>
   <data name="camouflage/prem_camouflage_summer/description" xml:space="preserve">
     <value>Летний камуфляж постоянного стиля.</value>
   </data>
   <data name="camouflage/prem_camouflage_summer/label" xml:space="preserve">
-    <value>Камуфляж для стиля 02</value>
+    <value>Камуфляж для стиля «Чёрная вдова»</value>
   </data>
   <data name="camouflage/prem_camouflage_winter/description" xml:space="preserve">
     <value>Зимний камуфляж постоянного стиля.</value>
   </data>
   <data name="camouflage/prem_camouflage_winter/label" xml:space="preserve">
-    <value>Камуфляж для стиля 01</value>
+    <value>Камуфляж для стиля «Чёрная вдова»</value>
   </data>
   <data name="camouflage/transparent" xml:space="preserve">
     <value>Прозрачный</value>
@@ -5497,7 +5497,7 @@
     <value>Применить и выйти</value>
   </data>
   <data name="commit/buy" xml:space="preserve">
-    <value>Купить</value>
+    <value>Перейти к оплате</value>
   </data>
   <data name="customization/Popover/Camo/color" xml:space="preserve">
     <value>Цвет</value>
@@ -5527,10 +5527,10 @@
     <value>--</value>
   </data>
   <data name="customization/Popover/emptySlot/hint" xml:space="preserve">
-    <value>Выберите понравившийся элемент внешнего вида из нижней панели</value>
+    <value>Выберите понравившийся элемент внешнего вида из нижней панели.</value>
   </data>
   <data name="customization/Popover/emptyStyle/hint" xml:space="preserve">
-    <value>Выберите понравившийся готовый стиль из нижней панели</value>
+    <value>Выберите понравившийся готовый стиль из нижней панели.</value>
   </data>
   <data name="customization/Popover/emptyText" xml:space="preserve">
     <value>%(elementType)s: отсутствует</value>
@@ -5590,13 +5590,13 @@
     <value>Стиль</value>
   </data>
   <data name="customization/infotype/type/style/custom" xml:space="preserve">
-    <value>Настраиваемый</value>
+    <value>Основной</value>
   </data>
   <data name="customization/infotype/type/style/rental" xml:space="preserve">
     <value>Арендный</value>
   </data>
   <data name="customization/infotype/type/style/special" xml:space="preserve">
-    <value>Специальный</value>
+    <value>Особый</value>
   </data>
   <data name="customization/mapType/all" xml:space="preserve">
     <value>Все</value>
@@ -5665,7 +5665,7 @@
     <value>Неисторичные</value>
   </data>
   <data name="customization/tooltip/description/historic/false/description" xml:space="preserve">
-    <value>Другие игроки могут не видеть данный элемент внешнего вида.</value>
+    <value>Если на вашу машину нанесён хотя бы один неисторичный элемент, то никакой другой элемент внешнего вида вашей машины не будет виден другим игрокам, если у них включена соответствующая настройка.</value>
   </data>
   <data name="customization/tooltip/description/historic/true" xml:space="preserve">
     <value>Историчные</value>
@@ -5701,7 +5701,7 @@
     <value>Внимание!</value>
   </data>
   <data name="defaultStyle/label" xml:space="preserve">
-    <value>Выберите готовый всесезонный стиль</value>
+    <value>Стили действуют сразу на всех типах карт</value>
   </data>
   <data name="emblem/group40/special_330" xml:space="preserve">
     <value>Ярость</value>
@@ -5752,7 +5752,7 @@
     <value>Историчные элементы</value>
   </data>
   <data name="filter/popover/showonlyfilters/title" xml:space="preserve">
-    <value>Показывать только:</value>
+    <value>Основные</value>
   </data>
   <data name="gold_style/gold_style_01" xml:space="preserve">
     <value>«Чёрная вдова»</value>
@@ -5842,7 +5842,7 @@
     <value>Пусть год Собаки принесёт вам удачу!</value>
   </data>
   <data name="inscription/special/special_174" xml:space="preserve">
-    <value>С Новым годом!</value>
+    <value>С Рождеством!</value>
   </data>
   <data name="inscription/special/special_175" xml:space="preserve">
     <value>С Рождеством!</value>
@@ -5866,7 +5866,7 @@
     <value>Износ покрытия 03</value>
   </data>
   <data name="modifications/age_effect_03/description" xml:space="preserve">
-    <value>Явные потёртости покрытия, цвет блеклый.</value>
+    <value>Лёгкие потёртости покрытия, выгоревшие цвета.</value>
   </data>
   <data name="ny_style/asian_ny_style_01" xml:space="preserve">
     <value>Китайский Новый год</value>
@@ -5974,22 +5974,22 @@
     <value>Небесно-голубой</value>
   </data>
   <data name="repaint/custom_color_10" xml:space="preserve">
-    <value>Краска для стиля 01</value>
+    <value>Краска для стиля «Чёрная вдова»</value>
   </data>
   <data name="repaint/custom_color_11" xml:space="preserve">
-    <value>Краска для стиля 02</value>
+    <value>Краска для стиля «Чёрная вдова»</value>
   </data>
   <data name="repaint/custom_color_12" xml:space="preserve">
-    <value>Краска для стиля 01</value>
+    <value>Краска для стиля «Чёрная вдова»</value>
   </data>
   <data name="repaint/custom_color_13" xml:space="preserve">
-    <value>Краска для стиля 02</value>
+    <value>Краска для стиля «Чёрная вдова»</value>
   </data>
   <data name="repaint/custom_color_14" xml:space="preserve">
-    <value>Краска для стиля 01</value>
+    <value>Краска для стиля «Чёрная вдова»</value>
   </data>
   <data name="repaint/custom_color_15" xml:space="preserve">
-    <value>Краска для стиля 02</value>
+    <value>Краска для стиля «Чёрная вдова»</value>
   </data>
   <data name="repaint/custom_color_16" xml:space="preserve">
     <value>Краска для стиля «Китайский Новый год»</value>
@@ -6163,34 +6163,34 @@
     <value>Светло-зелёный</value>
   </data>
   <data name="repaint/usa_color_04" xml:space="preserve">
-    <value>«Green 383»</value>
+    <value>Green 383</value>
   </data>
   <data name="repaint/usa_color_05" xml:space="preserve">
-    <value>«Tan 686»</value>
+    <value>Tan 686</value>
   </data>
   <data name="repaint/usa_color_06" xml:space="preserve">
     <value>Серый</value>
   </data>
   <data name="repaint/usa_color_07" xml:space="preserve">
-    <value>«Blue 85285»</value>
+    <value>Blue 85285</value>
   </data>
   <data name="repaint/ussr_base_color" xml:space="preserve">
     <value>Советский базовый</value>
   </data>
   <data name="repaint/ussr_color_01" xml:space="preserve">
-    <value>«4BO защитный»</value>
+    <value>4BO защитный</value>
   </data>
   <data name="repaint/ussr_color_02" xml:space="preserve">
     <value>23pn</value>
   </data>
   <data name="repaint/ussr_color_03" xml:space="preserve">
-    <value>«7K жёлто-красный»</value>
+    <value>7K жёлто-красный</value>
   </data>
   <data name="repaint/ussr_color_04" xml:space="preserve">
-    <value>«К защитный»</value>
+    <value>К защитный</value>
   </data>
   <data name="repaint/ussr_color_05" xml:space="preserve">
-    <value>«6K тёмно-коричневый»</value>
+    <value>6K тёмно-коричневый</value>
   </data>
   <data name="repaint/ussr_color_06" xml:space="preserve">
     <value>22lg</value>
@@ -6199,16 +6199,16 @@
     <value>Изумрудно-зеленый</value>
   </data>
   <data name="season/selection/desert" xml:space="preserve">
-    <value>ПУСТЫННЫЙ</value>
+    <value>ПУСТЫННАЯ</value>
   </data>
   <data name="season/selection/header" xml:space="preserve">
     <value>Выбор сезона</value>
   </data>
   <data name="season/selection/summer" xml:space="preserve">
-    <value>ЛЕТНИЙ</value>
+    <value>ЛЕТНЯЯ</value>
   </data>
   <data name="season/selection/winter" xml:space="preserve">
-    <value>ЗИМНИЙ</value>
+    <value>ЗИМНЯЯ</value>
   </data>
   <data name="switcher/name/custsomStyle" xml:space="preserve">
     <value>СВОЙ СТИЛЬ</value>
@@ -6221,5 +6221,1070 @@
   </data>
   <data name="window/purchase/tableHeader/ammount" xml:space="preserve">
     <value>Количество</value>
+  </data>
+  <data name="camouflage/amx40ducks/description" xml:space="preserve">
+    <value>Разработан в КБ МакКряка в 1991 году. Призван наводить на противника ужас, летящий на крыльях ночи.</value>
+  </data>
+  <data name="camouflage/amx40ducks/label" xml:space="preserve">
+    <value>Всепогодный лапчатый камуфляж</value>
+  </data>
+  <data name="camouflage/rostelekom2018/description" xml:space="preserve">
+    <value>Представляет собой крупные асимметричные пятна холодных тонов, которые наносятся на светло-серый базовый цвет. Изготовлен специально для танка Т-44-100 (Р).</value>
+  </data>
+  <data name="camouflage/rostelekom2018/label" xml:space="preserve">
+    <value>Всесезонный камуфляж «Сеть»</value>
+  </data>
+  <data name="camouflage/wg_fest_camo/description" xml:space="preserve">
+    <value>Всесезонный камуфляж для стиля «WG Fest»</value>
+  </data>
+  <data name="camouflage/wg_fest_camo/label" xml:space="preserve">
+    <value>Камуфляж для стиля «WG Fest»</value>
+  </data>
+  <data name="carousel/filter/equippedBtn/body" xml:space="preserve">
+    <value>Включить/отключить отображение элементов внешнего вида на технике.</value>
+  </data>
+  <data name="carousel/filter/equippedBtn/header" xml:space="preserve">
+    <value>На технике</value>
+  </data>
+  <data name="carousel/filter/mainBtn/body" xml:space="preserve">
+    <value>Расширенная фильтрация элементов внешнего вида.</value>
+  </data>
+  <data name="carousel/filter/mainBtn/header" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="carousel/filter/nonHistoricalBtn/body" xml:space="preserve">
+    <value>Включить/отключить отображение неисторичных элементов внешнего вида.</value>
+  </data>
+  <data name="carousel/filter/nonHistoricalBtn/header" xml:space="preserve">
+    <value>Неисторичные</value>
+  </data>
+  <data name="carousel/filter/storageBtn/body" xml:space="preserve">
+    <value>Включить/отключить отображение элементов внешнего вида на Складе.</value>
+  </data>
+  <data name="carousel/filter/storageBtn/header" xml:space="preserve">
+    <value>На Складе</value>
+  </data>
+  <data name="emblem/group45/special_360" xml:space="preserve">
+    <value>Уточки не пройдут</value>
+  </data>
+  <data name="emblem/group45/special_361" xml:space="preserve">
+    <value>Селезень 1</value>
+  </data>
+  <data name="emblem/group45/special_362" xml:space="preserve">
+    <value>Резиновая уточка</value>
+  </data>
+  <data name="emblem/group45/special_363" xml:space="preserve">
+    <value>Штурмовой селезень 1</value>
+  </data>
+  <data name="emblem/group45/special_364" xml:space="preserve">
+    <value>Штурмовой селезень 2</value>
+  </data>
+  <data name="emblem/group45/special_365" xml:space="preserve">
+    <value>Штурмовой селезень 3</value>
+  </data>
+  <data name="emblem/group45/special_366" xml:space="preserve">
+    <value>Штурмовой селезень 4</value>
+  </data>
+  <data name="emblem/group45/special_367" xml:space="preserve">
+    <value>Селезень 2</value>
+  </data>
+  <data name="inscription/special/special_190" xml:space="preserve">
+    <value>Кря-кря!</value>
+  </data>
+  <data name="repaint/custom_color_20" xml:space="preserve">
+    <value>Краска для стиля «WG Fest»</value>
+  </data>
+  <data name="repaint/custom_color_21" xml:space="preserve">
+    <value>Краска для стиля «Сеть»</value>
+  </data>
+  <data name="special_style/rostelekom2018_style_01" xml:space="preserve">
+    <value>«Сеть»</value>
+  </data>
+  <data name="special_style/wgfest_style_01" xml:space="preserve">
+    <value>«WG Fest»</value>
+  </data>
+  <data name="window/purchase/btnApply" xml:space="preserve">
+    <value>Применить и выйти</value>
+  </data>
+  <data name="camouflage/1_0_event/description" xml:space="preserve">
+    <value>Представляет из себя сочетание больших «естественных» пятен зеленовато-жёлтого и среднезелёного цветов, нанесённых на загрунтованную поверхность. Широко использовался в южной Европе 1930-1990 гг.</value>
+  </data>
+  <data name="camouflage/1_0_event/label" xml:space="preserve">
+    <value>Наградной всесезонный</value>
+  </data>
+  <data name="camouflage/23feb_desert/description" xml:space="preserve">
+    <value>Состоит из пятен песочного, светло-коричневого, чёрного и песчано-розового цветов. Получил широкое распространение во второй половине ХХ века.</value>
+  </data>
+  <data name="camouflage/23feb_desert/label" xml:space="preserve">
+    <value>Пустынный комбинированный камуфляж</value>
+  </data>
+  <data name="camouflage/23feb_summer/description" xml:space="preserve">
+    <value>Состоит из пятен оливкового, светло-коричневого, чёрного и песочного цветов. Получил широкое распространение во второй половине ХХ века.</value>
+  </data>
+  <data name="camouflage/23feb_summer/label" xml:space="preserve">
+    <value>Летний комбинированный камуфляж</value>
+  </data>
+  <data name="camouflage/23feb_winter/description" xml:space="preserve">
+    <value>Состоит из пятен синего, коричневого, светло-серого цветов, нанесённых на базовый белый цвет. Получил широкое распространение во второй половине ХХ века.</value>
+  </data>
+  <data name="camouflage/23feb_winter/label" xml:space="preserve">
+    <value>Зимний комбинированный камуфляж</value>
+  </data>
+  <data name="camouflage/italy/african_bicolor/description" xml:space="preserve">
+    <value>Поверх базового песочного цвета нанесены полосы серо-зелёного цвета. Использовался на африканском ТВД.</value>
+  </data>
+  <data name="camouflage/italy/african_bicolor/label" xml:space="preserve">
+    <value>Двухцветный полосатый камуфляж</value>
+  </data>
+  <data name="camouflage/italy/ariete_summer/description" xml:space="preserve">
+    <value>Поверх базового серо-зелёного цвета нанесены мелкие пятна коричневого цвета с размытыми краями. Использовался в 1-м батальоне 32-го танкового полка 132-й танковой дивизии «Ариете». Италия, 1940 г.</value>
+  </data>
+  <data name="camouflage/italy/ariete_summer/label" xml:space="preserve">
+    <value>Двухцветный мелкопятнистый камуфляж</value>
+  </data>
+  <data name="camouflage/italy/desert_bicolor/description" xml:space="preserve">
+    <value>Поверх базового песочного цвета нанесены крупные серо-зелёные пятна геометрической формы с чёткими краями. Использовался в северной Африке в 1942 г.</value>
+  </data>
+  <data name="camouflage/italy/desert_bicolor/label" xml:space="preserve">
+    <value>Двухцветный геометрический камуфляж</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_black/description" xml:space="preserve">
+    <value>Чёрный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_black/label" xml:space="preserve">
+    <value>Чёрный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_gold/description" xml:space="preserve">
+    <value>Золотой камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_gold/label" xml:space="preserve">
+    <value>Золотой камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_red/description" xml:space="preserve">
+    <value>Красный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_red/label" xml:space="preserve">
+    <value>Красный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_silver/description" xml:space="preserve">
+    <value>Серебряный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_silver/label" xml:space="preserve">
+    <value>Серебряный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/italy/italian_winter/description" xml:space="preserve">
+    <value>Поверх базового песочного цвета раствором извести нанесён белый камуфляж. Использовался в 67-м берсальерском танковом батальоне.</value>
+  </data>
+  <data name="camouflage/italy/italian_winter/label" xml:space="preserve">
+    <value>Белый известковый камуфляж</value>
+  </data>
+  <data name="camouflage/italy/italian_winter_2/description" xml:space="preserve">
+    <value>Широко использовался в основном на европейском ТВД. Наносился различными красками белого цвета поверх базовой окраски или другого камуфляжа.</value>
+  </data>
+  <data name="camouflage/italy/italian_winter_2/label" xml:space="preserve">
+    <value>Белый «рваный» камуфляж</value>
+  </data>
+  <data name="camouflage/italy/summer_tricolor/description" xml:space="preserve">
+    <value>Поверх базового песочного цвета наносились пятна серо-зелёного и коричневого цветов. Так окрашивались танки и САУ непосредственно на заводах-изготовителях в Италии летом 1943 г.</value>
+  </data>
+  <data name="camouflage/italy/summer_tricolor/label" xml:space="preserve">
+    <value>Трёхцветный пятнистый камуфляж</value>
+  </data>
+  <data name="camouflage/nation/italy" xml:space="preserve">
+    <value>Наносится на итальянскую технику</value>
+  </data>
+  <data name="camouflage/ranked_1/description" xml:space="preserve">
+    <value>Выдаётся игрокам, занявшим призовые места в первой лиге первого сезона Ранговых боёв.</value>
+  </data>
+  <data name="camouflage/ranked_1/label" xml:space="preserve">
+    <value>Всесезонный камуфляж первой лиги Ранговых боёв</value>
+  </data>
+  <data name="camouflage/ranked_2/description" xml:space="preserve">
+    <value>Выдаётся игрокам, занявшим призовые места во второй лиге первого сезона Ранговых боёв.</value>
+  </data>
+  <data name="camouflage/ranked_2/label" xml:space="preserve">
+    <value>Всесезонный камуфляж второй лиги Ранговых боёв</value>
+  </data>
+  <data name="camouflage/ranked_3/description" xml:space="preserve">
+    <value>Выдаётся игрокам, занявшим призовые места в третьей лиге первого сезона Ранговых боёв.</value>
+  </data>
+  <data name="camouflage/ranked_3/label" xml:space="preserve">
+    <value>Всесезонный камуфляж третьей лиги Ранговых боёв</value>
+  </data>
+  <data name="camouflage/victim/china_black/description" xml:space="preserve">
+    <value>Чёрный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/china_black/label" xml:space="preserve">
+    <value>Чёрный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/china_gold/description" xml:space="preserve">
+    <value>Золотой камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/china_gold/label" xml:space="preserve">
+    <value>Золотой камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/china_red/description" xml:space="preserve">
+    <value>Красный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/china_red/label" xml:space="preserve">
+    <value>Красный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/china_silver/description" xml:space="preserve">
+    <value>Серебряный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/china_silver/label" xml:space="preserve">
+    <value>Серебряный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/czech_black/description" xml:space="preserve">
+    <value>Чёрный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/czech_black/label" xml:space="preserve">
+    <value>Чёрный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/czech_gold/description" xml:space="preserve">
+    <value>Золотой камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/czech_gold/label" xml:space="preserve">
+    <value>Золотой камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/czech_red/description" xml:space="preserve">
+    <value>Красный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/czech_red/label" xml:space="preserve">
+    <value>Красный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/czech_silver/description" xml:space="preserve">
+    <value>Серебряный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/czech_silver/label" xml:space="preserve">
+    <value>Серебряный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/france_black/description" xml:space="preserve">
+    <value>Чёрный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/france_black/label" xml:space="preserve">
+    <value>Чёрный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/france_gold/description" xml:space="preserve">
+    <value>Золотой камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/france_gold/label" xml:space="preserve">
+    <value>Золотой камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/france_red/description" xml:space="preserve">
+    <value>Красный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/france_red/label" xml:space="preserve">
+    <value>Красный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/france_silver/description" xml:space="preserve">
+    <value>Серебряный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/france_silver/label" xml:space="preserve">
+    <value>Серебряный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/germany_black/description" xml:space="preserve">
+    <value>Чёрный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/germany_black/label" xml:space="preserve">
+    <value>Чёрный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/germany_gold/description" xml:space="preserve">
+    <value>Золотой камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/germany_gold/label" xml:space="preserve">
+    <value>Золотой камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/germany_red/description" xml:space="preserve">
+    <value>Красный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/germany_red/label" xml:space="preserve">
+    <value>Красный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/germany_silver/description" xml:space="preserve">
+    <value>Серебряный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/germany_silver/label" xml:space="preserve">
+    <value>Серебряный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/japan_black/description" xml:space="preserve">
+    <value>Чёрный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/japan_black/label" xml:space="preserve">
+    <value>Чёрный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/japan_gold/description" xml:space="preserve">
+    <value>Золотой камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/japan_gold/label" xml:space="preserve">
+    <value>Золотой камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/japan_red/description" xml:space="preserve">
+    <value>Красный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/japan_red/label" xml:space="preserve">
+    <value>Красный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/japan_silver/description" xml:space="preserve">
+    <value>Серебряный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/japan_silver/label" xml:space="preserve">
+    <value>Серебряный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/sweden_black/description" xml:space="preserve">
+    <value>Чёрный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/sweden_black/label" xml:space="preserve">
+    <value>Чёрный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/sweden_gold/description" xml:space="preserve">
+    <value>Золотой камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/sweden_gold/label" xml:space="preserve">
+    <value>Золотой камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/sweden_red/description" xml:space="preserve">
+    <value>Красный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/sweden_red/label" xml:space="preserve">
+    <value>Красный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/sweden_silver/description" xml:space="preserve">
+    <value>Серебряный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/sweden_silver/label" xml:space="preserve">
+    <value>Серебряный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/uk_black/description" xml:space="preserve">
+    <value>Чёрный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/uk_black/label" xml:space="preserve">
+    <value>Чёрный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/uk_gold/description" xml:space="preserve">
+    <value>Золотой камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/uk_gold/label" xml:space="preserve">
+    <value>Золотой камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/uk_red/description" xml:space="preserve">
+    <value>Красный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/uk_red/label" xml:space="preserve">
+    <value>Красный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/uk_silver/description" xml:space="preserve">
+    <value>Серебряный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/uk_silver/label" xml:space="preserve">
+    <value>Серебряный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/usa_black/description" xml:space="preserve">
+    <value>Чёрный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/usa_black/label" xml:space="preserve">
+    <value>Чёрный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/usa_gold/description" xml:space="preserve">
+    <value>Золотой камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/usa_gold/label" xml:space="preserve">
+    <value>Золотой камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/usa_red/description" xml:space="preserve">
+    <value>Красный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/usa_red/label" xml:space="preserve">
+    <value>Красный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/usa_silver/description" xml:space="preserve">
+    <value>Серебряный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/usa_silver/label" xml:space="preserve">
+    <value>Серебряный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/ussr_black/description" xml:space="preserve">
+    <value>Чёрный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/ussr_black/label" xml:space="preserve">
+    <value>Чёрный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/ussr_gold/description" xml:space="preserve">
+    <value>Золотой камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/ussr_gold/label" xml:space="preserve">
+    <value>Золотой камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/ussr_red/description" xml:space="preserve">
+    <value>Красный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/ussr_red/label" xml:space="preserve">
+    <value>Красный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/ussr_silver/description" xml:space="preserve">
+    <value>Серебряный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/ussr_silver/label" xml:space="preserve">
+    <value>Серебряный камуфляж для «Охоты»</value>
+  </data>
+  <data name="emblem/auto/italian_flag" xml:space="preserve">
+    <value>Эмблема Италии</value>
+  </data>
+  <data name="emblem/battle/sticker_80" xml:space="preserve">
+    <value>1-й танковый батальон</value>
+  </data>
+  <data name="emblem/battle/sticker_81" xml:space="preserve">
+    <value>8-й берсальерский батальон</value>
+  </data>
+  <data name="emblem/battle/sticker_82" xml:space="preserve">
+    <value>131-я танковая дивизия «Чентауро»</value>
+  </data>
+  <data name="emblem/battle/sticker_83" xml:space="preserve">
+    <value>132-я танковая дивизия «Ариете»</value>
+  </data>
+  <data name="emblem/battle/sticker_84" xml:space="preserve">
+    <value>3-я кавалерийская дивизия им. Амeдео Савойского</value>
+  </data>
+  <data name="emblem/battle/sticker_85" xml:space="preserve">
+    <value>5-й кавалерийский полк</value>
+  </data>
+  <data name="emblem/battle/sticker_86" xml:space="preserve">
+    <value>Знак механика-водителя</value>
+  </data>
+  <data name="emblem/battle/sticker_87" xml:space="preserve">
+    <value>Берсальерский батальон</value>
+  </data>
+  <data name="emblem/battle/sticker_88" xml:space="preserve">
+    <value>Эмблема танковых частей</value>
+  </data>
+  <data name="inscription/italy/inscription_01" xml:space="preserve">
+    <value>Адуа</value>
+  </data>
+  <data name="inscription/italy/inscription_02" xml:space="preserve">
+    <value>Амба-Алаге</value>
+  </data>
+  <data name="inscription/italy/inscription_03" xml:space="preserve">
+    <value>Победа любой ценой</value>
+  </data>
+  <data name="inscription/italy/inscription_04" xml:space="preserve">
+    <value>Кьеза</value>
+  </data>
+  <data name="inscription/italy/inscription_05" xml:space="preserve">
+    <value>Кустоца</value>
+  </data>
+  <data name="inscription/italy/inscription_07" xml:space="preserve">
+    <value>Стальная стрела</value>
+  </data>
+  <data name="inscription/italy/inscription_08" xml:space="preserve">
+    <value>Гойто</value>
+  </data>
+  <data name="inscription/italy/inscription_09" xml:space="preserve">
+    <value>Говерноло</value>
+  </data>
+  <data name="inscription/italy/inscription_10" xml:space="preserve">
+    <value>Маджента</value>
+  </data>
+  <data name="inscription/italy/inscription_11" xml:space="preserve">
+    <value>Монтебелло</value>
+  </data>
+  <data name="inscription/italy/inscription_12" xml:space="preserve">
+    <value>Палестро</value>
+  </data>
+  <data name="inscription/italy/inscription_13" xml:space="preserve">
+    <value>Пастренго</value>
+  </data>
+  <data name="inscription/italy/inscription_14" xml:space="preserve">
+    <value>Королева</value>
+  </data>
+  <data name="inscription/italy/inscription_15" xml:space="preserve">
+    <value>Святой Марк</value>
+  </data>
+  <data name="inscription/italy/inscription_16" xml:space="preserve">
+    <value>Суббота</value>
+  </data>
+  <data name="inscription/italy/inscription_17" xml:space="preserve">
+    <value>Санта Лючия</value>
+  </data>
+  <data name="inscription/italy/inscription_18" xml:space="preserve">
+    <value>Cольферино</value>
+  </data>
+  <data name="inscription/italy/inscription_19" xml:space="preserve">
+    <value>Варесе</value>
+  </data>
+  <data name="inscription/italy/inscription_20" xml:space="preserve">
+    <value>Да здравствует Италия!</value>
+  </data>
+  <data name="inscription/italy/inscription_21" xml:space="preserve">
+    <value>Дзеньсон</value>
+  </data>
+  <data name="inscription/special/special_191" xml:space="preserve">
+    <value>Первая лига Ранговых боёв</value>
+  </data>
+  <data name="inscription/special/special_192" xml:space="preserve">
+    <value>Вторая лига Ранговых боёв</value>
+  </data>
+  <data name="inscription/special/special_193" xml:space="preserve">
+    <value>Третья лига Ранговых боёв</value>
+  </data>
+  <data name="inscription/special/special_194" xml:space="preserve">
+    <value>«23»</value>
+  </data>
+  <data name="rented_style/italy" xml:space="preserve">
+    <value>Италия</value>
+  </data>
+  <data name="repaint/color_group_04" xml:space="preserve">
+    <value>Специальные</value>
+  </data>
+  <data name="repaint/custom_color_22" xml:space="preserve">
+    <value>Краска для стилей Ранговых боёв</value>
+  </data>
+  <data name="repaint/italy_base_color" xml:space="preserve">
+    <value>Итальянский базовый</value>
+  </data>
+  <data name="repaint/italy_color_01" xml:space="preserve">
+    <value>Серо-зелёный</value>
+  </data>
+  <data name="repaint/italy_color_02" xml:space="preserve">
+    <value>Ржаво-красный</value>
+  </data>
+  <data name="repaint/italy_color_03" xml:space="preserve">
+    <value>Защитный серый</value>
+  </data>
+  <data name="repaint/italy_color_04" xml:space="preserve">
+    <value>Зелёный</value>
+  </data>
+  <data name="repaint/italy_color_05" xml:space="preserve">
+    <value>Слоновая кость</value>
+  </data>
+  <data name="repaint/italy_color_06" xml:space="preserve">
+    <value>Зелёный грунт</value>
+  </data>
+  <data name="repaint/italy_color_07" xml:space="preserve">
+    <value>Защитный красный</value>
+  </data>
+  <data name="special_style/23feb" xml:space="preserve">
+    <value>«23»</value>
+  </data>
+  <data name="special_style/ranked_1" xml:space="preserve">
+    <value>«Первая лига»</value>
+  </data>
+  <data name="special_style/ranked_2" xml:space="preserve">
+    <value>«Вторая лига»</value>
+  </data>
+  <data name="special_style/ranked_3" xml:space="preserve">
+    <value>«Третья лига»</value>
+  </data>
+  <data name="victim_style/default" xml:space="preserve">
+    <value>«Охота»</value>
+  </data>
+  <data name="camouflage/anniversary_NA_EU_desert/description" xml:space="preserve">
+    <value>Пустынный вариант четырёхцветного камуфляжа, разработанный Инженерной научно-исследовательской лабораторией (ERLD) армии США для использования в горной местности юго-восточной Азии.</value>
+  </data>
+  <data name="camouflage/anniversary_NA_EU_desert/label" xml:space="preserve">
+    <value>Камуфляж «7-я годовщина: пустынный»</value>
+  </data>
+  <data name="camouflage/anniversary_NA_EU_summer/description" xml:space="preserve">
+    <value>Летний вариант четырёхцветного камуфляжа, разработанный Инженерной научно-исследовательской лабораторией (ERLD) армии США в 1948 году. В различных цветовых вариациях широко использовался во второй половине ХХ века.</value>
+  </data>
+  <data name="camouflage/anniversary_NA_EU_summer/label" xml:space="preserve">
+    <value>Камуфляж «7-я годовщина: летний»</value>
+  </data>
+  <data name="camouflage/anniversary_NA_EU_winter/description" xml:space="preserve">
+    <value>Зимний вариант четырёхцветного камуфляжа, разработанный Инженерной научно-исследовательской лабораторией (ERLD) армии США.</value>
+  </data>
+  <data name="camouflage/anniversary_NA_EU_winter/label" xml:space="preserve">
+    <value>Камуфляж «7-я годовщина: зимний»</value>
+  </data>
+  <data name="camouflage/global_map_camo/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/global_map_camo/label" xml:space="preserve">
+    <value>«Грозовое небо»</value>
+  </data>
+  <data name="camouflage/italian_marathon_camo/description" xml:space="preserve">
+    <value>Четырёхцветная схема состоит из пятен неправильной формы, преимущественно красновато-коричневого, коричневого, оливково-зелёного и песочно-зелёного цветов. В различных вариациях используется итальянской армией во всех климатических зонах.</value>
+  </data>
+  <data name="camouflage/italian_marathon_camo/label" xml:space="preserve">
+    <value>«Растительный» камуфляж</value>
+  </data>
+  <data name="emblem/special/sticker_368" xml:space="preserve">
+    <value>Шеврон</value>
+  </data>
+  <data name="emblem/special/sticker_369" xml:space="preserve">
+    <value>7-я годовщина</value>
+  </data>
+  <data name="emblem/special/sticker_370" xml:space="preserve">
+    <value>Глобальная карта</value>
+  </data>
+  <data name="repaint/custom_color_23" xml:space="preserve">
+    <value>Краска для стиля «Молния»</value>
+  </data>
+  <data name="special_style/global_map" xml:space="preserve">
+    <value>«Молния»</value>
+  </data>
+  <data name="special_style/italian_marathion_01" xml:space="preserve">
+    <value>«Монте-Роза»</value>
+  </data>
+  <data name="camouflage/BRW_winner_camo/description" xml:space="preserve">
+    <value>Всесезонный камуфляж, выдаваемый за победу в конкурсе «Лучшие реплеи недели».</value>
+  </data>
+  <data name="camouflage/BRW_winner_camo/label" xml:space="preserve">
+    <value>Победитель ЛРН</value>
+  </data>
+  <data name="camouflage/blank_camouflage/description" xml:space="preserve">
+    <value>Прозрачный вспомогательный камуфляж.</value>
+  </data>
+  <data name="camouflage/blank_camouflage/label" xml:space="preserve">
+    <value>Прозрачный вспомогательный камуфляж.</value>
+  </data>
+  <data name="camouflage/china_veteran/description" xml:space="preserve">
+    <value>Камуфляж выделяет машину на поле боя, как бывалого ветерана танковых сражений. Машина покрыта многочисленными следами прошедших боёв — пороховой гарью, сколами краски и грязью. Камуфляж выполнен в цветовой палитре базовой раскраски и наносится только на технику, полученную в награду за события на Глобальной карте.</value>
+  </data>
+  <data name="camouflage/china_veteran/label" xml:space="preserve">
+    <value>Камуфляж «Ветеран»</value>
+  </data>
+  <data name="camouflage/frontline_alliance_camo/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/frontline_alliance_camo/label" xml:space="preserve">
+    <value>Камуфляж для стиля «Западный фронт»</value>
+  </data>
+  <data name="camouflage/frontline_captured_camo/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/frontline_captured_camo/label" xml:space="preserve">
+    <value>Камуфляж для стиля «Военный трофей»</value>
+  </data>
+  <data name="camouflage/frontline_ussr_camo/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/frontline_ussr_camo/label" xml:space="preserve">
+    <value>Камуфляж для стиля «Восточный фронт»</value>
+  </data>
+  <data name="emblem/special/sticker_381" xml:space="preserve">
+    <value>Золотой дракон</value>
+  </data>
+  <data name="emblem/special/sticker_382" xml:space="preserve">
+    <value>Эмблема для стиля «Военный трофей»</value>
+  </data>
+  <data name="inscription/special/special_195" xml:space="preserve">
+    <value>Героический танк</value>
+  </data>
+  <data name="inscription/special/special_196" xml:space="preserve">
+    <value>Победитель ЛРН</value>
+  </data>
+  <data name="inscription/special/special_197" xml:space="preserve">
+    <value>BRW Winner</value>
+  </data>
+  <data name="inscription/special/special_198" xml:space="preserve">
+    <value>1945</value>
+  </data>
+  <data name="inscription/special/special_199" xml:space="preserve">
+    <value>1945 парадная</value>
+  </data>
+  <data name="special_style/brw_winner" xml:space="preserve">
+    <value>«Победитель ЛРН»</value>
+  </data>
+  <data name="special_style/frontline_alliance" xml:space="preserve">
+    <value>«Западный фронт»</value>
+  </data>
+  <data name="special_style/frontline_alliance_desc" xml:space="preserve">
+    <value>Раскраска техники западных союзников для участия в параде ко Дню Победы</value>
+  </data>
+  <data name="special_style/frontline_captured" xml:space="preserve">
+    <value>«Военный трофей»</value>
+  </data>
+  <data name="special_style/frontline_captured_desc" xml:space="preserve">
+    <value>Раскраска трофейной техники для показа на параде ко Дню Победы</value>
+  </data>
+  <data name="special_style/frontline_ussr" xml:space="preserve">
+    <value>«Восточный фронт»</value>
+  </data>
+  <data name="special_style/frontline_ussr_desc" xml:space="preserve">
+    <value>Раскраска советской и союзной техники для участия в параде ко Дню Победы</value>
+  </data>
+  <data name="special_style/bdr_g1b_w" xml:space="preserve">
+    <value>Mordian</value>
+  </data>
+  <data name="special_style/bdr_g1b_w_description" xml:space="preserve">
+    <value>Комплект боевого обвеса тяжёлого танка Мордианской Железной гвардии.</value>
+  </data>
+  <data name="special_style/kv2_w" xml:space="preserve">
+    <value>Valhallan Ragnarok</value>
+  </data>
+  <data name="special_style/kv2_w_description" xml:space="preserve">
+    <value>Боевой окрас, вдохновлённый штурмовыми машинами Валхалианских Астра Милитарум. Отлично подходит для боёв с хаоситами на любой местности во славу Императора.</value>
+  </data>
+  <data name="buypopover/btn" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="buypopover/fromStorage" xml:space="preserve">
+    <value>Со Склада</value>
+  </data>
+  <data name="buypopover/price" xml:space="preserve">
+    <value>К оплате</value>
+  </data>
+  <data name="buypopover/result" xml:space="preserve">
+    <value>ИТОГО</value>
+  </data>
+  <data name="camouflage/bdr_g1b_w/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/bdr_g1b_w/label" xml:space="preserve">
+    <value>Mordian</value>
+  </data>
+  <data name="camouflage/kv2_w/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/kv2_w/label" xml:space="preserve">
+    <value>Valhallan Ragnarok</value>
+  </data>
+  <data name="carousel/rentalBattles" xml:space="preserve">
+    <value>%(battlesNum)d боёв за</value>
+  </data>
+  <data name="carousel/swatch/style/main" xml:space="preserve">
+    <value>Основной стиль</value>
+  </data>
+  <data name="carousel/swatch/style/rented" xml:space="preserve">
+    <value>Арендный стиль</value>
+  </data>
+  <data name="carousel/swatch/style/special" xml:space="preserve">
+    <value>Особый стиль</value>
+  </data>
+  <data name="customization/buyWindow/title" xml:space="preserve">
+    <value>Элементы для покупки</value>
+  </data>
+  <data name="customization/infotype/mapType/desert" xml:space="preserve">
+    <value>пустынной</value>
+  </data>
+  <data name="customization/infotype/mapType/summer" xml:space="preserve">
+    <value>летней</value>
+  </data>
+  <data name="customization/infotype/mapType/winter" xml:space="preserve">
+    <value>зимней</value>
+  </data>
+  <data name="customization/itemsPopover/btn" xml:space="preserve">
+    <value>Элементы внешнего вида на машине</value>
+  </data>
+  <data name="customization/itemsPopover/clear/massage" xml:space="preserve">
+    <value>На машине нет элементов внешнего вида.</value>
+  </data>
+  <data name="customization/itemsPopover/clear/nonHistoricMassage" xml:space="preserve">
+    <value>На машине нет неисторичных элементов внешнего вида.</value>
+  </data>
+  <data name="customization/itemsPopover/historicCheckBox/items" xml:space="preserve">
+    <value>Неисторичные элементы на машине</value>
+  </data>
+  <data name="customization/itemsPopover/title/items" xml:space="preserve">
+    <value>Внешний вид на %(mapType)s карте</value>
+  </data>
+  <data name="customization/nonHistoric/buttonClearText" xml:space="preserve">
+    <value>Показать всё</value>
+  </data>
+  <data name="customization/nonHistoric/tableHeaders/new" xml:space="preserve">
+    <value>Новые:</value>
+  </data>
+  <data name="customization/nonHistoric/tableHeaders/purchase" xml:space="preserve">
+    <value>Приобретённые:</value>
+  </data>
+  <data name="customizationHeader/back" xml:space="preserve">
+    <value>НАЗАД</value>
+  </data>
+  <data name="emblem/group46/special_383" xml:space="preserve">
+    <value>«Способный ученик»</value>
+  </data>
+  <data name="propertySheet/actionBtn/applyToAllMaps" xml:space="preserve">
+    <value>Нанести для всех карт</value>
+  </data>
+  <data name="propertySheet/actionBtn/applyToWholeTank" xml:space="preserve">
+    <value>Покрасить целиком</value>
+  </data>
+  <data name="propertySheet/actionBtn/cancel" xml:space="preserve">
+    <value>Снять с машины</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/chassis" xml:space="preserve">
+    <value>Снять с ходовой</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/emblem" xml:space="preserve">
+    <value>Снять эмблему</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/gun" xml:space="preserve">
+    <value>Снять с орудия</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/hull" xml:space="preserve">
+    <value>Снять с корпуса</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/inscription" xml:space="preserve">
+    <value>Снять надпись</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/mask" xml:space="preserve">
+    <value>Снять с маски</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/seasons" xml:space="preserve">
+    <value>Снять для всех карт</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/tank" xml:space="preserve">
+    <value>Снять с машины</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/turret" xml:space="preserve">
+    <value>Снять с башни</value>
+  </data>
+  <data name="propertySheet/actionBtn/removeStyle" xml:space="preserve">
+    <value>Снять стиль</value>
+  </data>
+  <data name="propertySheet/choose/camouflage" xml:space="preserve">
+    <value>Выберите камуфляж</value>
+  </data>
+  <data name="propertySheet/choose/emblem" xml:space="preserve">
+    <value>Выберите эмблему</value>
+  </data>
+  <data name="propertySheet/choose/inscription" xml:space="preserve">
+    <value>Выберите надпись</value>
+  </data>
+  <data name="propertySheet/choose/modification" xml:space="preserve">
+    <value>Выберите эффект</value>
+  </data>
+  <data name="propertySheet/choose/paint" xml:space="preserve">
+    <value>Выберите краску</value>
+  </data>
+  <data name="propertySheet/choose/style" xml:space="preserve">
+    <value>Выберите стиль</value>
+  </data>
+  <data name="propertySheet/description" xml:space="preserve">
+    <value>%(itemType)s «%(itemName)s»</value>
+  </data>
+  <data name="propertySheet/elementType/all" xml:space="preserve">
+    <value>Вся машина</value>
+  </data>
+  <data name="propertySheet/elementType/chassis" xml:space="preserve">
+    <value>Ходовая</value>
+  </data>
+  <data name="propertySheet/elementType/emblem" xml:space="preserve">
+    <value>Место для эмблемы</value>
+  </data>
+  <data name="propertySheet/elementType/gun" xml:space="preserve">
+    <value>Орудие</value>
+  </data>
+  <data name="propertySheet/elementType/hull" xml:space="preserve">
+    <value>Корпус</value>
+  </data>
+  <data name="propertySheet/elementType/inscription" xml:space="preserve">
+    <value>Место для надписи</value>
+  </data>
+  <data name="propertySheet/elementType/mask" xml:space="preserve">
+    <value>Маска</value>
+  </data>
+  <data name="propertySheet/elementType/turret" xml:space="preserve">
+    <value>Башня</value>
+  </data>
+  <data name="propertySheet/map/desert" xml:space="preserve">
+    <value>Пустынная карта</value>
+  </data>
+  <data name="propertySheet/map/summer" xml:space="preserve">
+    <value>Летняя карта</value>
+  </data>
+  <data name="propertySheet/map/winter" xml:space="preserve">
+    <value>Зимняя карта</value>
+  </data>
+  <data name="propertySheet/title/allMaps" xml:space="preserve">
+    <value>Нанесено для всех карт</value>
+  </data>
+  <data name="propertySheet/title/allTankPainted" xml:space="preserve">
+    <value>Покрашена вся машина</value>
+  </data>
+  <data name="propertySheet/title/appliedTo" xml:space="preserve">
+    <value>Нанесено на: %(elementType)s</value>
+  </data>
+  <data name="propertySheet/title/appliedToMap" xml:space="preserve">
+    <value>Нанесено для: %(mapType)s</value>
+  </data>
+  <data name="propertySheet/title/color" xml:space="preserve">
+    <value>Цветовая схема</value>
+  </data>
+  <data name="propertySheet/title/remove/camouflage" xml:space="preserve">
+    <value>Удаление камуфляжа</value>
+  </data>
+  <data name="propertySheet/title/remove/emblem" xml:space="preserve">
+    <value>Удаление эмблемы</value>
+  </data>
+  <data name="propertySheet/title/remove/inscription" xml:space="preserve">
+    <value>Удаление надписи</value>
+  </data>
+  <data name="propertySheet/title/remove/modification" xml:space="preserve">
+    <value>Удаление эффекта</value>
+  </data>
+  <data name="propertySheet/title/remove/paint" xml:space="preserve">
+    <value>Удаление краски</value>
+  </data>
+  <data name="propertySheet/title/scale" xml:space="preserve">
+    <value>Масштабирование рисунка</value>
+  </data>
+  <data name="season/selection/mapName/desert" xml:space="preserve">
+    <value>пустынных карт</value>
+  </data>
+  <data name="season/selection/mapName/summer" xml:space="preserve">
+    <value>летних карт</value>
+  </data>
+  <data name="season/selection/mapName/winter" xml:space="preserve">
+    <value>зимних карт</value>
+  </data>
+  <data name="season/selection/selected/desert" xml:space="preserve">
+    <value>ПУСТЫННАЯ КАРТА</value>
+  </data>
+  <data name="season/selection/selected/summer" xml:space="preserve">
+    <value>ЛЕТНЯЯ КАРТА</value>
+  </data>
+  <data name="season/selection/selected/winter" xml:space="preserve">
+    <value>ЗИМНЯЯ КАРТА</value>
+  </data>
+  <data name="season/selection/tooltip" xml:space="preserve">
+    <value>Список содержит все элементы внешнего вида на машине для %(mapName)s</value>
+  </data>
+  <data name="styles/main_styles" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="styles/rented_styles" xml:space="preserve">
+    <value>Арендные</value>
+  </data>
+  <data name="styles/special_styles" xml:space="preserve">
+    <value>Особые</value>
+  </data>
+  <data name="camouflage/football_4sale1/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_4sale1/label" xml:space="preserve">
+    <value>Голкипер-2018</value>
+  </data>
+  <data name="camouflage/football_4sale2/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_4sale2/label" xml:space="preserve">
+    <value>Форвард-2018</value>
+  </data>
+  <data name="camouflage/football_aces/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_aces/label" xml:space="preserve">
+    <value>Победитель-2018</value>
+  </data>
+  <data name="camouflage/football_free/description" xml:space="preserve">
+    <value>Всесезонный камуфляж, выдаваемый на время проведения футбольного события.</value>
+  </data>
+  <data name="camouflage/football_free_01/label" xml:space="preserve">
+    <value>«Футбольный: тип 1»</value>
+  </data>
+  <data name="camouflage/football_free_02/label" xml:space="preserve">
+    <value>«Футбольный: тип 2»</value>
+  </data>
+  <data name="camouflage/football_free_03/label" xml:space="preserve">
+    <value>«Футбольный: тип 3»</value>
+  </data>
+  <data name="camouflage/football_gift/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_gift/label" xml:space="preserve">
+    <value>Болельщик-2018</value>
+  </data>
+  <data name="camouflage/football_meta/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_meta/label" xml:space="preserve">
+    <value>Футболист-2018</value>
+  </data>
+  <data name="camouflage/football_otms/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_otms/label" xml:space="preserve">
+    <value>Чемпион-2018</value>
+  </data>
+  <data name="camouflage/football_tms/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_tms/label" xml:space="preserve">
+    <value>Бомбардир-2018</value>
+  </data>
+  <data name="emblem/special/sticker_380" xml:space="preserve">
+    <value>Вперёд, к победе!</value>
+  </data>
+  <data name="emblem/special/sticker_384" xml:space="preserve">
+    <value>Чемпион-2018</value>
+  </data>
+  <data name="emblem/special/sticker_385" xml:space="preserve">
+    <value>Бомбардир-2018</value>
+  </data>
+  <data name="emblem/special/sticker_386" xml:space="preserve">
+    <value>Победитель-2018</value>
+  </data>
+  <data name="emblem/special/sticker_387" xml:space="preserve">
+    <value>Форвард-2018</value>
+  </data>
+  <data name="emblem/special/sticker_388" xml:space="preserve">
+    <value>Голкипер-2018</value>
+  </data>
+  <data name="emblem/special/sticker_389" xml:space="preserve">
+    <value>Футболист-2018</value>
+  </data>
+  <data name="emblem/special/sticker_390" xml:space="preserve">
+    <value>Болельщик-2018</value>
+  </data>
+  <data name="emblem/special/sticker_391" xml:space="preserve">
+    <value>Болельщица-2018</value>
+  </data>
+  <data name="emblem/special/sticker_392" xml:space="preserve">
+    <value>Защитник-2018</value>
+  </data>
+  <data name="emblem/special/sticker_393" xml:space="preserve">
+    <value>Полузащитник-2018</value>
+  </data>
+  <data name="emblem/special/sticker_394" xml:space="preserve">
+    <value>Нападающий-2018</value>
+  </data>
+  <data name="inscription/special/special_200" xml:space="preserve">
+    <value>Футбол-2018</value>
+  </data>
+  <data name="inscription/special/special_201" xml:space="preserve">
+    <value>Футбол-2018</value>
+  </data>
+  <data name="inscription/special/special_202" xml:space="preserve">
+    <value>Футбол-2018</value>
+  </data>
+  <data name="special_style/football_4sale1" xml:space="preserve">
+    <value>«Голкипер-2018»</value>
+  </data>
+  <data name="special_style/football_4sale2" xml:space="preserve">
+    <value>«Форвард-2018»</value>
+  </data>
+  <data name="special_style/football_aces1" xml:space="preserve">
+    <value>«Победитель: тип 1»</value>
+  </data>
+  <data name="special_style/football_aces2" xml:space="preserve">
+    <value>«Победитель: тип 2»</value>
+  </data>
+  <data name="special_style/football_aces3" xml:space="preserve">
+    <value>«Победитель: тип 3»</value>
+  </data>
+  <data name="special_style/football_aces4" xml:space="preserve">
+    <value>«Победитель: тип 4»</value>
+  </data>
+  <data name="special_style/football_gift" xml:space="preserve">
+    <value>«Болельщик-2018»</value>
+  </data>
+  <data name="special_style/football_meta" xml:space="preserve">
+    <value>«Футболист-2018»</value>
+  </data>
+  <data name="special_style/football_otms" xml:space="preserve">
+    <value>«Чемпион-2018»</value>
+  </data>
+  <data name="special_style/football_tms1" xml:space="preserve">
+    <value>«Бомбардир: тип 1»</value>
+  </data>
+  <data name="special_style/football_tms2" xml:space="preserve">
+    <value>«Бомбардир: тип 2»</value>
+  </data>
+  <data name="special_style/football_tms3" xml:space="preserve">
+    <value>«Бомбардир: тип 3»</value>
+  </data>
+  <data name="special_style/football_tms4" xml:space="preserve">
+    <value>«Бомбардир: тип 4»</value>
   </data>
 </root>

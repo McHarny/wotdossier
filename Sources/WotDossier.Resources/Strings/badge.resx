@@ -336,4 +336,58 @@
   <data name="badgesPage/header/descr" xml:space="preserve">
     <value>Badges show your achievements in the game to players from both teams.</value>
   </data>
+  <data name="badge_27" xml:space="preserve">
+    <value>Global Map Legend</value>
+  </data>
+  <data name="badge_27_descr" xml:space="preserve">
+    <value>For remarkable achievements on the Global Map.</value>
+  </data>
+  <data name="badge_28" xml:space="preserve">
+    <value>Gambit Hero</value>
+  </data>
+  <data name="badge_28_descr" xml:space="preserve">
+    <value>Fight at least 10 battles on the Global Map (during Operation Gambit) as part of a clan that reached the top 10% of clans in Operation Gambit.</value>
+  </data>
+  <data name="badge_29" xml:space="preserve">
+    <value>Gold, Season 1</value>
+  </data>
+  <data name="badge_29_descr" xml:space="preserve">
+    <value>Reach League I in Season 1 of the Ranked Battle mode.</value>
+  </data>
+  <data name="badge_30" xml:space="preserve">
+    <value>Silver, Season 1</value>
+  </data>
+  <data name="badge_30_descr" xml:space="preserve">
+    <value>Reach League II in Season 1 of the Ranked Battle mode.</value>
+  </data>
+  <data name="badge_31" xml:space="preserve">
+    <value>Bronze, Season 1</value>
+  </data>
+  <data name="badge_31_descr" xml:space="preserve">
+    <value>Reach League III in Season 1 of the Ranked Battle mode.</value>
+  </data>
+  <data name="badge_32" xml:space="preserve">
+    <value>Frontline Veteran</value>
+  </data>
+  <data name="badge_32_descr" xml:space="preserve">
+    <value>Reach the first level of prestige in Frontline mode.</value>
+  </data>
+  <data name="badge_33" xml:space="preserve">
+    <value>Frontline Hero</value>
+  </data>
+  <data name="badge_33_descr" xml:space="preserve">
+    <value>Reach the second level of prestige in Frontline mode.</value>
+  </data>
+  <data name="badge_34" xml:space="preserve">
+    <value>Frontline Conqueror</value>
+  </data>
+  <data name="badge_34_descr" xml:space="preserve">
+    <value>Reach the third level of prestige in Frontline mode.</value>
+  </data>
+  <data name="badge_35" xml:space="preserve">
+    <value>Arms Race Hero</value>
+  </data>
+  <data name="badge_35_descr" xml:space="preserve">
+    <value>Be among the top 10% of players of the Arms Race event on the Global Map.</value>
+  </data>
 </root>

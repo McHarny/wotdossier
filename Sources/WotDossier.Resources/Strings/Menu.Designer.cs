@@ -358,6 +358,42 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Halloween Rewards Earned!.
+        /// </summary>
+        public static string awardWindow_halloweenMission_awardsGranted {
+            get {
+                return ResourceManager.GetString("awardWindow/halloweenMission/awardsGranted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close.
+        /// </summary>
+        public static string awardWindow_halloweenMission_closeButton {
+            get {
+                return ResourceManager.GetString("awardWindow/halloweenMission/closeButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Go to Reward.
+        /// </summary>
+        public static string awardWindow_halloweenMission_nextButton {
+            get {
+                return ResourceManager.GetString("awardWindow/halloweenMission/nextButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reward Received!.
+        /// </summary>
+        public static string awardWindow_halloweenMission_rewardOpened {
+            get {
+                return ResourceManager.GetString("awardWindow/halloweenMission/rewardOpened", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Secondary condition fulfilled..
         /// </summary>
         public static string awardWindow_mission_additionalComplete {
@@ -1634,6 +1670,15 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Leviathan&apos;s Onslaught (PvE).
+        /// </summary>
+        public static string bonusType_26 {
+            get {
+                return ResourceManager.GetString("bonusType/26", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Tank Company Battle.
         /// </summary>
         public static string bonusType_3 {
@@ -1688,7 +1733,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Special Event.
+        ///   Looks up a localized string similar to Special game mode.
         /// </summary>
         public static string bonusType_9 {
             get {
@@ -2606,7 +2651,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ++++.
+        ///   Looks up a localized string similar to Create ++event++ Squad.
         /// </summary>
         public static string contextMenu_createEventSquad {
             get {
@@ -2701,6 +2746,15 @@ namespace WotDossier.Resources.Strings {
         public static string contextMenu_forbiddenNick {
             get {
                 return ResourceManager.GetString("contextMenu/forbiddenNick", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Designate as a Forward Observer.
+        /// </summary>
+        public static string contextMenu_giveEquipmentCommander {
+            get {
+                return ResourceManager.GetString("contextMenu/giveEquipmentCommander", resourceCulture);
             }
         }
         
@@ -3056,6 +3110,15 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Revoke a designation.
+        /// </summary>
+        public static string contextMenu_takeEquipmentCommander {
+            get {
+                return ResourceManager.GetString("contextMenu/takeEquipmentCommander", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Take Commander&apos;s permissions.
         /// </summary>
         public static string contextMenu_takeLeadership {
@@ -3254,7 +3317,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to © 2009–2017 Wargaming.net. All rights reserved..
+        ///   Looks up a localized string similar to © 2009–2018 Wargaming.net. All rights reserved..
         /// </summary>
         public static string copy {
             get {
@@ -3340,6 +3403,33 @@ namespace WotDossier.Resources.Strings {
         public static string crystals_promoWindow_title {
             get {
                 return ResourceManager.GetString("crystals/promoWindow/title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Purchase.
+        /// </summary>
+        public static string cst_item_ctx_menu_buy {
+            get {
+                return ResourceManager.GetString("cst_item_ctx_menu/buy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove From Current Vehicle.
+        /// </summary>
+        public static string cst_item_ctx_menu_removeFromTank {
+            get {
+                return ResourceManager.GetString("cst_item_ctx_menu/removeFromTank", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sell.
+        /// </summary>
+        public static string cst_item_ctx_menu_sell {
+            get {
+                return ResourceManager.GetString("cst_item_ctx_menu/sell", resourceCulture);
             }
         }
         
@@ -5537,7 +5627,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This equipment is available for purchase with %(currencyName)s, which can be earned in Tier X vehicles in the %(battleType)s mode. You can purchase it in the Improved tab..
+        ///   Looks up a localized string similar to This equipment is available for purchase with %(currencyName)s. You can purchase it in the Improved tab..
         /// </summary>
         public static string fittingSelectPopover_descText {
             get {
@@ -5569,6 +5659,24 @@ namespace WotDossier.Resources.Strings {
         public static string fittingSelectPopover_titleText {
             get {
                 return ResourceManager.GetString("fittingSelectPopover/titleText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Main.
+        /// </summary>
+        public static string fittingSelectPopoverMulti_main {
+            get {
+                return ResourceManager.GetString("fittingSelectPopoverMulti/main", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secondary.
+        /// </summary>
+        public static string fittingSelectPopoverMulti_secondary {
+            get {
+                return ResourceManager.GetString("fittingSelectPopoverMulti/secondary", resourceCulture);
             }
         }
         
@@ -6053,6 +6161,71 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TO GARAGE.
+        /// </summary>
+        public static string hangar_leviathanPreview_backDescr {
+            get {
+                return ResourceManager.GetString("hangar/leviathanPreview/backDescr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CLOSE.
+        /// </summary>
+        public static string hangar_leviathanPreview_close {
+            get {
+                return ResourceManager.GetString("hangar/leviathanPreview/close", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Terror of Leviathan fills your soul..
+        /// </summary>
+        public static string hangar_leviathanPreview_headerDesc {
+            get {
+                return ResourceManager.GetString("hangar/leviathanPreview/headerDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Leviathan.
+        /// </summary>
+        public static string hangar_leviathanPreview_headerTitle {
+            get {
+                return ResourceManager.GetString("hangar/leviathanPreview/headerTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Info.
+        /// </summary>
+        public static string hangar_leviathanPreview_infoButton {
+            get {
+                return ResourceManager.GetString("hangar/leviathanPreview/infoButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Halloween Event Boss.
+        /// </summary>
+        public static string hangar_leviathanPreview_summary {
+            get {
+                return ResourceManager.GetString("hangar/leviathanPreview/summary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Leviathan rules over the Armored Afterlife. It has spent eons passing judgment on those who fall in battle. Towering over all others, it grinds the unworthy beneath its titanic treads.
+        ///
+        ///No longer content with being a mere steward of the Armored Afterlife, Leviathan has decided to storm the Gate and cross over to the Mortal Plane. Claiming all for itself, it will unleash armageddon upon the souls of the living... unless it can be stopped..
+        /// </summary>
+        public static string hangar_leviathanPreview_vehicleInfo {
+            get {
+                return ResourceManager.GetString("hangar/leviathanPreview/vehicleInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Vehicle locked.
         /// </summary>
         public static string hangar_vehicle_locked {
@@ -6404,6 +6577,15 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to BADGE AVAILABLE.
+        /// </summary>
+        public static string header_account_popover_tutorial_newBadge {
+            get {
+                return ResourceManager.GetString("header/account/popover/tutorial/newBadge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to d.
         /// </summary>
         public static string header_account_premium_days {
@@ -6418,6 +6600,33 @@ namespace WotDossier.Resources.Strings {
         public static string header_account_premium_hours {
             get {
                 return ResourceManager.GetString("header/account/premium/hours", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to DESERT.
+        /// </summary>
+        public static string header_customization_season_desert {
+            get {
+                return ResourceManager.GetString("header/customization/season/desert", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SUMMER.
+        /// </summary>
+        public static string header_customization_season_summer {
+            get {
+                return ResourceManager.GetString("header/customization/season/summer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WINTER.
+        /// </summary>
+        public static string header_customization_season_winter {
+            get {
+                return ResourceManager.GetString("header/customization/season/winter", resourceCulture);
             }
         }
         
@@ -6917,7 +7126,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to +++Лунный взвод+++.
+        ///   Looks up a localized string similar to +++event platoon+++.
         /// </summary>
         public static string headerButtons_battle_types_eventSquad {
             get {
@@ -7151,7 +7360,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Season %(season)s, Stage %(cycle)s.
+        ///   Looks up a localized string similar to Season %(season)s.
         /// </summary>
         public static string headerButtons_battle_types_ranked_availability_season {
             get {
@@ -7243,7 +7452,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ++++.
+        ///   Looks up a localized string similar to +++: event+++.
         /// </summary>
         public static string headerButtons_battle_types_squad_event {
             get {
@@ -7683,6 +7892,15 @@ namespace WotDossier.Resources.Strings {
         public static string headerButtons_fightBtn_tooltip_groupNotReady_note {
             get {
                 return ResourceManager.GetString("headerButtons/fightBtn/tooltip/groupNotReady/note", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You can only join the battle in researchable or Premium vehicles of Tier %(levels)s..
+        /// </summary>
+        public static string headerButtons_fightBtn_tooltip_halloween_invalid_level_body {
+            get {
+                return ResourceManager.GetString("headerButtons/fightBtn/tooltip/halloween/invalid/level/body", resourceCulture);
             }
         }
         
@@ -8992,6 +9210,15 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Leviathan&apos;s Onslaught (PvE).
+        /// </summary>
+        public static string loading_battleTypes_21 {
+            get {
+                return ResourceManager.GetString("loading/battleTypes/21", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Tank Company Battle.
         /// </summary>
         public static string loading_battleTypes_3 {
@@ -9028,7 +9255,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Special Event.
+        ///   Looks up a localized string similar to Special game mode.
         /// </summary>
         public static string loading_battleTypes_7 {
             get {
@@ -9192,6 +9419,15 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Destroy Leviathan before it reaches the Gate.
+        /// </summary>
+        public static string loading_battleTypes_desc_21 {
+            get {
+                return ResourceManager.GetString("loading/battleTypes/desc/21", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to  .
         /// </summary>
         public static string loading_battleTypes_desc_3 {
@@ -9228,7 +9464,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to  .
+        ///   Looks up a localized string similar to ?empty?.
         /// </summary>
         public static string loading_battleTypes_desc_7 {
             get {
@@ -12575,6 +12811,51 @@ namespace WotDossier.Resources.Strings {
         /// <summary>
         ///   Looks up a localized string similar to Assembling teams....
         /// </summary>
+        public static string pveHalloween_queue_message {
+            get {
+                return ResourceManager.GetString("pveHalloween/queue/message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to more than %(minutes)s min.
+        /// </summary>
+        public static string pveHalloween_queue_more_n_minutes {
+            get {
+                return ResourceManager.GetString("pveHalloween/queue/more_n_minutes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In queue: .
+        /// </summary>
+        public static string pveHalloween_queue_player_waiting_time {
+            get {
+                return ResourceManager.GetString("pveHalloween/queue/player-waiting-time", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Queue for Halloween.
+        /// </summary>
+        public static string pveHalloween_queue_title {
+            get {
+                return ResourceManager.GetString("pveHalloween/queue/title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %(units)s s.
+        /// </summary>
+        public static string pveHalloween_queue_units {
+            get {
+                return ResourceManager.GetString("pveHalloween/queue/units", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Assembling teams....
+        /// </summary>
         public static string pveSandbox_queue_message {
             get {
                 return ResourceManager.GetString("pveSandbox/queue/message", resourceCulture);
@@ -14773,6 +15054,15 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Aiming Time .
+        /// </summary>
+        public static string tank_params_aimingTime_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/aimingTime_Secondary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Speed after 5 seconds of acceleration.
         /// </summary>
         public static string tank_params_attainableSpeed {
@@ -14791,6 +15081,15 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Average Damage per Shot .
+        /// </summary>
+        public static string tank_params_avgDamage_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/avgDamage_Secondary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Average Damage per Minute .
         /// </summary>
         public static string tank_params_avgDamagePerMinute {
@@ -14800,11 +15099,29 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Average Damage per Minute .
+        /// </summary>
+        public static string tank_params_avgDamagePerMinute_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/avgDamagePerMinute_Secondary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Average Penetration .
         /// </summary>
         public static string tank_params_avgPiercingPower {
             get {
                 return ResourceManager.GetString("tank_params/avgPiercingPower", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Average Penetration .
+        /// </summary>
+        public static string tank_params_avgPiercingPower_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/avgPiercingPower_Secondary", resourceCulture);
             }
         }
         
@@ -14832,6 +15149,15 @@ namespace WotDossier.Resources.Strings {
         public static string tank_params_clipFireRate {
             get {
                 return ResourceManager.GetString("tank_params/clipFireRate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Load (magazine/shell/number of shells).
+        /// </summary>
+        public static string tank_params_clipFireRate_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/clipFireRate_Secondary", resourceCulture);
             }
         }
         
@@ -14953,6 +15279,15 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Gun Traverse Limits .
+        /// </summary>
+        public static string tank_params_gunYawLimits_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/gunYawLimits_Secondary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to (rounds).
         /// </summary>
         public static string tank_params_h {
@@ -14994,6 +15329,42 @@ namespace WotDossier.Resources.Strings {
         public static string tank_params_kg {
             get {
                 return ResourceManager.GetString("tank_params/kg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Monstrous.
+        /// </summary>
+        public static string tank_params_leviathan_monstrous {
+            get {
+                return ResourceManager.GetString("tank_params/leviathan/monstrous", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unbelievable.
+        /// </summary>
+        public static string tank_params_leviathan_unbelievable {
+            get {
+                return ResourceManager.GetString("tank_params/leviathan/unbelievable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unknown.
+        /// </summary>
+        public static string tank_params_leviathan_unknown {
+            get {
+                return ResourceManager.GetString("tank_params/leviathan/unknown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unstoppable.
+        /// </summary>
+        public static string tank_params_leviathan_unstoppable {
+            get {
+                return ResourceManager.GetString("tank_params/leviathan/unstoppable", resourceCulture);
             }
         }
         
@@ -15061,6 +15432,24 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Main Gun .
+        /// </summary>
+        public static string tank_params_paramTitle_PrimaryTurret {
+            get {
+                return ResourceManager.GetString("tank_params/paramTitle_PrimaryTurret", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secondary Gun .
+        /// </summary>
+        public static string tank_params_paramTitle_SecondaryTurret {
+            get {
+                return ResourceManager.GetString("tank_params/paramTitle_SecondaryTurret", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to  .
         /// </summary>
         public static string tank_params_percent {
@@ -15084,6 +15473,15 @@ namespace WotDossier.Resources.Strings {
         public static string tank_params_pitchLimits {
             get {
                 return ResourceManager.GetString("tank_params/pitchLimits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gun Depression/Elevation Angles .
+        /// </summary>
+        public static string tank_params_pitchLimits_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/pitchLimits_Secondary", resourceCulture);
             }
         }
         
@@ -15160,11 +15558,29 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rate of Fire .
+        /// </summary>
+        public static string tank_params_reloadTime_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/reloadTime_Secondary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reload Time .
         /// </summary>
         public static string tank_params_reloadTimeSecs {
             get {
                 return ResourceManager.GetString("tank_params/reloadTimeSecs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reload Time .
+        /// </summary>
+        public static string tank_params_reloadTimeSecs_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/reloadTimeSecs_Secondary", resourceCulture);
             }
         }
         
@@ -15183,6 +15599,15 @@ namespace WotDossier.Resources.Strings {
         public static string tank_params_shotDispersionAngle {
             get {
                 return ResourceManager.GetString("tank_params/shotDispersionAngle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dispersion at 100 m .
+        /// </summary>
+        public static string tank_params_shotDispersionAngle_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/shotDispersionAngle_Secondary", resourceCulture);
             }
         }
         
@@ -15277,6 +15702,24 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Main Turret Armor .
+        /// </summary>
+        public static string tank_params_turretArmor_Primary {
+            get {
+                return ResourceManager.GetString("tank_params/turretArmor_Primary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secondary Turret Armor .
+        /// </summary>
+        public static string tank_params_turretArmor_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/turretArmor_Secondary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Turret Traverse Speed .
         /// </summary>
         public static string tank_params_turretRotationSpeed {
@@ -15286,11 +15729,29 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Turret Traverse Speed .
+        /// </summary>
+        public static string tank_params_turretRotationSpeed_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/turretRotationSpeed_Secondary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Turret Traverse Angles .
         /// </summary>
         public static string tank_params_turretYawLimits {
             get {
                 return ResourceManager.GetString("tank_params/turretYawLimits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Turret Traverse Angles .
+        /// </summary>
+        public static string tank_params_turretYawLimits_Secondary {
+            get {
+                return ResourceManager.GetString("tank_params/turretYawLimits_Secondary", resourceCulture);
             }
         }
         
@@ -16499,6 +16960,15 @@ namespace WotDossier.Resources.Strings {
         public static string technicalMaintenance_ammoTitleEx {
             get {
                 return ResourceManager.GetString("technicalMaintenance/ammoTitleEx", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Coming soon.
+        /// </summary>
+        public static string techtree_Announcement {
+            get {
+                return ResourceManager.GetString("techtree/Announcement", resourceCulture);
             }
         }
         

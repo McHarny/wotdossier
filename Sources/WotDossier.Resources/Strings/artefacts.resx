@@ -118,10 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="afterburning/descr" xml:space="preserve">
-    <value>+15% to engine power for one minute</value>
+    <value>Boosts the speed and acceleration of your vehicle for limited time.
+Cooldown: 20 s.</value>
   </data>
   <data name="afterburning/name" xml:space="preserve">
-    <value>Engine Power Boost</value>
+    <value>Turbocharger</value>
   </data>
   <data name="aimingStabilizer/descr" xml:space="preserve">
     <value>{colorTagOpen}+20%{colorTagClose} to accuracy during movement and turret rotation</value>
@@ -511,7 +512,7 @@ up to 445 m</value>
     <value>?empty?</value>
   </data>
   <data name="gasoline100/restriction" xml:space="preserve">
-    <value>Restricted: German, U.S., U.K., French, Czechoslovakian, Swedish and Polish gasoline engines.</value>
+    <value>Restricted: German, U.S., U.K., French, Czechoslovakian, Swedish, Polish, and Italian gasoline engines.</value>
   </data>
   <data name="gasoline105/always" xml:space="preserve">
     <value>+10% to engine power and turret traverse speed for the course of the battle.</value>
@@ -520,7 +521,7 @@ up to 445 m</value>
     <value>?empty?</value>
   </data>
   <data name="gasoline105/restriction" xml:space="preserve">
-    <value>Restricted: German, U.S., U.K., French, Czechoslovakian, Swedish and Polish gasoline engines.</value>
+    <value>Restricted: German, U.S., U.K., French, Czechoslovakian, Swedish, Polish, and Italian gasoline engines.</value>
   </data>
   <data name="handExtinguishers/always" xml:space="preserve">
     <value>?empty?</value>
@@ -647,7 +648,7 @@ up to 445 m</value>
     <value>Restricted: Japanese vehicles.</value>
   </data>
   <data name="artillery/descr" xml:space="preserve">
-    <value>Upon activation, commands the artillery to lay fire at the specified map coordinates.</value>
+    <value>Upon activation, commands the artillery to lay fire at the specified map area.</value>
   </data>
   <data name="artillery/name" xml:space="preserve">
     <value>Artillery Strike</value>
@@ -659,7 +660,7 @@ up to 445 m</value>
     <value>Secret Weapon</value>
   </data>
   <data name="bomber/descr" xml:space="preserve">
-    <value>Upon activation, commands a ground-attack plane to take off and drop bombs at the specified map coordinates.</value>
+    <value>Upon activation, commands a ground-attack plane to take off and drop bombs in the specified map area.</value>
   </data>
   <data name="bomber/name" xml:space="preserve">
     <value>Airstrike</value>
@@ -924,5 +925,93 @@ up to 445 m</value>
   </data>
   <data name="virtuosoBattleBooster/name" xml:space="preserve">
     <value>Combat Course</value>
+  </data>
+  <data name="ration_italy/always" xml:space="preserve">
+    <value>+10% to all crew skills and perks for the course of the battle.</value>
+  </data>
+  <data name="ration_italy/descr" xml:space="preserve">
+    <value>+10% to all crew skills and perks.</value>
+  </data>
+  <data name="ration_italy/name" xml:space="preserve">
+    <value>Spaghetti with Meat Sauce</value>
+  </data>
+  <data name="ration_italy/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_italy/restriction" xml:space="preserve">
+    <value>Restricted: Italian vehicles.</value>
+  </data>
+  <data name="artillery/longDescr" xml:space="preserve">
+    <value>Artillery Strike commands artillery to lay fire on a small area for a short duration. Vehicles in the center of the impact area are heavily damaged, while the targets on the border have a high chance to escape the artillery fire.</value>
+  </data>
+  <data name="artillery/shortDescr" xml:space="preserve">
+    <value>Upon activation, commands the artillery to lay fire at the specified map area.</value>
+  </data>
+  <data name="bomber/longDescr" xml:space="preserve">
+    <value>Airstrike commands a ground-attack plane to take off and drop bombs along a rectangular path. Vehicles in that medium-sized area are lightly damaged and receive an additional stun effect for a certain duration.</value>
+  </data>
+  <data name="bomber/shortDescr" xml:space="preserve">
+    <value>Upon activation, commands a ground-attack plane to take off and drop bombs in the specified map area.</value>
+  </data>
+  <data name="inspire/descr" xml:space="preserve">
+    <value>Upon activation, improves the crew performance and all allies in a certain radius for a short duration.</value>
+  </data>
+  <data name="inspire/longDescr" xml:space="preserve">
+    <value>Inspire improves the crew performance of the vehicle and of all allies in close distance for a certain duration. When a vehicle leaves the area, the effect stays active for a few additional seconds.</value>
+  </data>
+  <data name="inspire/name" xml:space="preserve">
+    <value>Inspire</value>
+  </data>
+  <data name="inspire/shortDescr" xml:space="preserve">
+    <value>Upon activation, improves the crew performance and all allies in a certain radius for a short duration.</value>
+  </data>
+  <data name="passive_engineering/descr" xml:space="preserve">
+    <value>Provides a constant bonus to capture speed, capture blocking, and resupply.</value>
+  </data>
+  <data name="passive_engineering/longDescr" xml:space="preserve">
+    <value>Engineering provides a constant bonus to capture and resupply speed. Enemies who are damaged inside a capture circle receive an increased capture block time. In addition, capturing can be blocked by occupying the capture circle.</value>
+  </data>
+  <data name="passive_engineering/name" xml:space="preserve">
+    <value>Engineering</value>
+  </data>
+  <data name="passive_engineering/shortDescr" xml:space="preserve">
+    <value>Provides a constant bonus to capture speed, capture blocking, and resupply.</value>
+  </data>
+  <data name="recon/descr" xml:space="preserve">
+    <value>Upon activation, commands a reconnaissance plane to spot a line over the specified map area.</value>
+  </data>
+  <data name="recon/longDescr" xml:space="preserve">
+    <value>Recon Flight commands a reconnaissance plane to spot a line in a large area. Vehicles in the plane's sight are spotted and stay visible for a certain duration.</value>
+  </data>
+  <data name="recon/name" xml:space="preserve">
+    <value>Recon Flight</value>
+  </data>
+  <data name="recon/shortDescr" xml:space="preserve">
+    <value>Upon activation, commands a reconnaissance plane to spot a line over the specified map area.</value>
+  </data>
+  <data name="smoke/descr" xml:space="preserve">
+    <value>Upon activation, commands the artillery to lay a smoke screen at the specified map area.</value>
+  </data>
+  <data name="smoke/longDescr" xml:space="preserve">
+    <value>Smoke Screen fires a line of smoke grenades in a large area. Smoke blocks the line-of-sight and conceals tanks. Vehicles inside smoke have a decreased view range.</value>
+  </data>
+  <data name="smoke/name" xml:space="preserve">
+    <value>Smoke Screen</value>
+  </data>
+  <data name="smoke/shortDescr" xml:space="preserve">
+    <value>Upon activation, commands the artillery to lay a smoke screen at the specified map area.</value>
+  </data>
+  <data name="defenderAbility/descr" xml:space="preserve">
+    <value>Strong explosion effect pushes the ball and destroys enemies' tracks.</value>
+  </data>
+  <data name="defenderAbility/name" xml:space="preserve">
+    <value>Splash</value>
+  </data>
+  <data name="lastchance/descr" xml:space="preserve">
+    <value>Instant reloading of two rounds of the empty magazine.
+Cooldown: 40 s.</value>
+  </data>
+  <data name="lastchance/name" xml:space="preserve">
+    <value>Second Chance</value>
   </data>
 </root>

@@ -19,7 +19,8 @@ namespace WotDossier.Applications.Logic
                 cfg.CreateMap<IClanBattlesAchievements, IClanBattlesAchievements>();
 	            cfg.CreateMap<IRankedBattlesAchievements, IRankedBattlesAchievements>();
 	            cfg.CreateMap<IFalloutAchievements, IFalloutAchievements>();
-	            cfg.CreateMap<ITeamRatedBattlesAchievements, ITeamRatedBattlesAchievements>();
+                cfg.CreateMap<IEpicBattleAchievements, IEpicBattleAchievements>();
+                cfg.CreateMap<ITeamRatedBattlesAchievements, ITeamRatedBattlesAchievements>();
 				cfg.CreateMap<ExpandoObject, Map>();
                 cfg.CreateMap<FavoritePlayerEntity, ListItem<int>>()
                     .ForMember(x => x.Id, opt => opt.MapFrom(x => x.Id))

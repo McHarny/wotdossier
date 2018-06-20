@@ -448,4 +448,10 @@ No longer content with being a mere steward of the Armored Afterlife, Leviathan 
   <data name="leviathan/title" xml:space="preserve">
     <value>Leviathan</value>
   </data>
+  <data name="lootbox/desc" xml:space="preserve">
+    <value>Click to open the crate with valuable rewards.</value>
+  </data>
+  <data name="lootbox/title" xml:space="preserve">
+    <value>Crate With Rewards</value>
+  </data>
 </root>

@@ -280,7 +280,9 @@
     <value>Type 4 Chi-To</value>
   </data>
   <data name="Chi_To_descr" xml:space="preserve">
-    <value>Type 4 Chi-To medium tank was the first Japanese tank to be developed with an emphasis on anti-tank combat capabilities. Although the vehicle entered development prior to the Type 3 Chi-Nu medium tank, material shortages and war situation resulted in only 2 prototypes being completed before the end of the war.</value>
+    <value>Type 4 Chi-To medium tank was the first Japanese tank
+to be developed with an emphasis on anti-tank combat capabilities. Although the vehicle entered development in 1941, prior to the Type 3 Chi-Nu medium tank, material shortages and war situation resulted in only 2 prototypes
+being completed before the end of the war.</value>
   </data>
   <data name="Chi_To_short" xml:space="preserve">
     <value>Chi-To</value>
@@ -316,7 +318,7 @@
     <value>Type 98 Ke-Ni Otsu</value>
   </data>
   <data name="Ke_Ni_B_descr" xml:space="preserve">
-    <value>A modification of the Type 98A Ke-Ni light tank with the Christie type suspension. Developed by Mitsubishi in 1939 under the influence of the Soviet BT-7. Only one prototype was manufactured.</value>
+    <value>A modification of the Type 98 Ke-Ni light tank was developed by Mitsubishi in 1939. Unlike the original model, the vehicle featured the Christie-type suspension similar to the Soviet BT-7 tanks. Despite a relatively successful configuration, the vehicle did not see mass production. Only one prototype was manufactured.</value>
   </data>
   <data name="Ke_Ni_B_short" xml:space="preserve">
     <value>Ke-Ni Otsu</value>

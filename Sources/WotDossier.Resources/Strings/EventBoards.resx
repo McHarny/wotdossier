@@ -178,10 +178,10 @@
     <value>Rewards for Selected Vehicle</value>
   </data>
   <data name="badge/tooltip/description" xml:space="preserve">
-    <value>?empty?</value>
+    <value>A badge is a unique icon that will be displayed next to your nickname in battle. The badge is displayed to players on both teams and indicates your remarkable performance in the March of Nations event.</value>
   </data>
   <data name="badgesGroup/tooltip/header" xml:space="preserve">
-    <value>Badges</value>
+    <value>Commemorative Badges</value>
   </data>
   <data name="block/award" xml:space="preserve">
     <value>Main Reward</value>
@@ -385,7 +385,7 @@
     <value>Go to Rating</value>
   </data>
   <data name="popover/title" xml:space="preserve">
-    <value>Rating Selection</value>
+    <value>Ratings List</value>
   </data>
   <data name="popover/tooltip/class" xml:space="preserve">
     <value>Go to the rating for vehicles of the selected type.</value>
@@ -400,7 +400,7 @@
     <value>To make your battles count toward the competition, transfer to the following server:</value>
   </data>
   <data name="server/noSuitable/body" xml:space="preserve">
-    <value>Battle results will be counted next at: %(time)s on %(server)s. Competition schedule</value>
+    <value>Battle results will be counted next at: %(data)s. Competition schedule</value>
   </data>
   <data name="server/noSuitable/header" xml:space="preserve">
     <value>Battle results are not counted toward the competition at this time</value>
@@ -461,7 +461,7 @@ You cannot enter this competition again.</value>
     <value>Meet the specified requirements in battles, and your results will be shown here after the ratings are updated.</value>
   </data>
   <data name="status/participate/notParticipated" xml:space="preserve">
-    <value>You did not participate in the competition</value>
+    <value>You did not participate in this rating</value>
   </data>
   <data name="summary/averagedamage" xml:space="preserve">
     <value>Average damage</value>
@@ -578,7 +578,7 @@ You cannot enter this competition again.</value>
     <value>Average experience</value>
   </data>
   <data name="summary/param/sumN/damageAssisted" xml:space="preserve">
-    <value>Average damage caused with player's assistance</value>
+    <value>Total damage caused with player's assistance</value>
   </data>
   <data name="summary/param/sumN/damageDealt" xml:space="preserve">
     <value>Total Damage</value>
@@ -632,7 +632,7 @@ You cannot enter this competition again.</value>
     <value>Quit Competition</value>
   </data>
   <data name="table/selectRatingBtn/" xml:space="preserve">
-    <value>All Ratings</value>
+    <value>Ratings List</value>
   </data>
   <data name="table/selectRegistrationBtn/" xml:space="preserve">
     <value>Join as Participant</value>
@@ -826,7 +826,7 @@ Extra experience from Premium Account is counted.</value>
     <value>You are not in a prize place</value>
   </data>
   <data name="top/position" xml:space="preserve">
-    <value>Place:</value>
+    <value>Your position:</value>
   </data>
   <data name="top/reason/notfull" xml:space="preserve">
     <value>To get placed in the rating, fight more battles:</value>
@@ -851,5 +851,71 @@ Extra experience from Premium Account is counted.</value>
   </data>
   <data name="status/cantJoin/reason/vehiclesMissing" xml:space="preserve">
     <value>no suitable vehicles</value>
+  </data>
+  <data name="excel/award/title" xml:space="preserve">
+    <value>Award</value>
+  </data>
+  <data name="excel/group/title" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="popover/buttons/select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="popover/noVehicles" xml:space="preserve">
+    <value>No vehicles match the selected filter.</value>
+  </data>
+  <data name="popover/resetFilter" xml:space="preserve">
+    <value>Reset filter</value>
+  </data>
+  <data name="popover/title/vehicle" xml:space="preserve">
+    <value>Ratings List</value>
+  </data>
+  <data name="summary/description/sumMSeqN/class" xml:space="preserve">
+    <value>Best series of battles in %(value)s</value>
+  </data>
+  <data name="summary/description/sumMSeqN/level" xml:space="preserve">
+    <value>Best series of battles in Tier %(value)s vehicles</value>
+  </data>
+  <data name="summary/description/sumMSeqN/nation" xml:space="preserve">
+    <value>Best series of battles in vehicles of the following nation: %(value)s</value>
+  </data>
+  <data name="summary/description/sumMSeqN/vehicle" xml:space="preserve">
+    <value>Best series of battles in the %(value)s</value>
+  </data>
+  <data name="summary/param/sumMSeqN/damageAssisted" xml:space="preserve">
+    <value>Average damage caused with player's assistance</value>
+  </data>
+  <data name="summary/param/sumMSeqN/damageDealt" xml:space="preserve">
+    <value>Total damage</value>
+  </data>
+  <data name="summary/param/sumMSeqN/originalXP" xml:space="preserve">
+    <value>Total base experience</value>
+  </data>
+  <data name="summary/param/sumMSeqN/xp" xml:space="preserve">
+    <value>Total experience</value>
+  </data>
+  <data name="task/objective/sum/wins" xml:space="preserve">
+    <value>Get placed in the rating by number of victories</value>
+  </data>
+  <data name="task/selection/sumMSeqN" xml:space="preserve">
+    <value>Best (%(cardinality)s) battles in the series are counted. Battles in the series: %(distance)s</value>
+  </data>
+  <data name="top/participation/notParticipated" xml:space="preserve">
+    <value>You did not participate in this rating</value>
+  </data>
+  <data name="summary/param/sumAll/wins" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="server/noSuitable/server" xml:space="preserve">
+    <value>%(time)s on %(server)s</value>
+  </data>
+  <data name="table/selectParticipateBtn" xml:space="preserve">
+    <value>Quit Competition</value>
+  </data>
+  <data name="table/selectRatingBtn" xml:space="preserve">
+    <value>Ratings List</value>
+  </data>
+  <data name="table/selectRegistrationBtn" xml:space="preserve">
+    <value>Join as Participant</value>
   </data>
 </root>

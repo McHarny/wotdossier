@@ -24,12 +24,16 @@ namespace WotDossier.Domain
         private static readonly object _syncObject = new object();
         
         public static readonly Version VersionAll = new Version("100.0.0.0");
-        public static readonly Version VersionRelease = new Version("0.9.21.0");
-        public static readonly Version VersionTest = new Version("0.9.21.1");
+        public static readonly Version VersionRelease = new Version("1.0.2.0");
+        public static readonly Version VersionTest = new Version("1.0.1.0");
 
         private static readonly List<Version> _versions = new List<Version>
         {
                 VersionRelease,
+                new Version("1.0.1.0"),
+                new Version("1.0.0.0"),
+                new Version("0.9.22.0"),
+                new Version("0.9.21.0"),
                 new Version("0.9.20.1"),
                 new Version("0.9.20.0"),
 				new Version("0.9.19.0"),
@@ -191,7 +195,9 @@ namespace WotDossier.Domain
 	    /// </summary>
 	    public Dictionary<int, TankDescription> AllVehicles { get; } = MakeFullTankDescriptionList();
 
-	    private Dictionary<WN8Type, RatingExpectedValues> expectedValues { get; set; }
+        public Dictionary<int, TankDescription> CurrentVehicles => GetTanksList(VersionRelease);
+
+        private Dictionary<WN8Type, RatingExpectedValues> expectedValues { get; set; }
 	    private Dictionary<Version, Dictionary<int, TankDescription>> tanksList { get; } = new Dictionary<Version, Dictionary<int, TankDescription>>();
 	    private Dictionary<Version, Dictionary<string, MapDescription>> mapsList { get; } = new Dictionary<Version, Dictionary<string, MapDescription>>();
 
@@ -361,12 +367,15 @@ namespace WotDossier.Domain
 
 	    private Dictionary<int, TankDescription> GetTanksList(Version version)
 	    {
-		    if (tanksList.TryGetValue(version, out var dict))
-			    return dict;
-
-		    dict = ReadTanksDictionary(version);
-			tanksList.Add(version, dict);
-		    return dict;
+	        if (tanksList.TryGetValue(version, out var dict))
+	            return dict;
+            lock (tanksList)
+	        {
+	            dict = ReadTanksDictionary(version);
+	            tanksList.Add(version, dict);
+	            return dict;
+            }
+		    
 	    }
 
 	    public TankDescription GetTankDescription(int? typeCompDescr, Version clientVersion = null)
@@ -393,7 +402,7 @@ namespace WotDossier.Domain
 
 	    public static TankDescription FromXElement(XElement element, Version version)
 	    {
-		    return new TankDescription
+		    var descr = new TankDescription
 		    {
 			    TankId = Convert.ToInt32(element.Attribute("id").Value),
 			    CountryId = Convert.ToInt32(element.Attribute("countryid").Value),
@@ -401,14 +410,19 @@ namespace WotDossier.Domain
 			    Type = Convert.ToInt32(element.Attribute("type").Value),
 			    Tier = Convert.ToInt32(element.Attribute("tier").Value),
 				Secret = Convert.ToBoolean(element.Attribute("secret").Value),
-			    Hidden = Convert.ToBoolean(element.Attribute("secret").Value),
-				Premium = Convert.ToBoolean(element.Attribute("premium").Value),
+		        InGame = element.Attributes("inGame").Any() && Convert.ToBoolean(element.Attribute("inGame").Value),
+		        NotInShop = element.Attributes("notInShop").Any() && Convert.ToBoolean(element.Attribute("notInShop").Value),
+                Premium = Convert.ToBoolean(element.Attribute("premium").Value),
 			    Key = element.Attribute("key").Value,
 			    userString = element.Attribute("userString").Value,
 			    descriptionString = element.Attribute("description").Value,
 			    Health = Convert.ToInt32(element.Attribute("health").Value),
 				Version = version,
 		    };
+
+            //descr.Hidden = descr.Secret && descr.NotInShop && !descr.InGame;
+	        descr.Hidden = descr.Secret && !descr.InGame;
+            return descr;
 	    }
 
 	    private static Dictionary<int, TankDescription> MakeFullTankDescriptionList()
@@ -443,13 +457,14 @@ namespace WotDossier.Domain
 		        typeof(ImageCache).Assembly.GetManifestResourceStream(
 			        $"{typeof(ImageCache).Namespace}.Vehicles.Vehicles.xml")).Root;
 
-	        return docElem.Elements("patch")
-				.OrderByDescending(e=> e.Attribute("version").Value, StringVersionComparer.Default)
-				.First(e => StringVersionComparer.Default.Compare(e.Attribute("version").Value, version) <= 0)
-				.Elements()
-		        .Union(docElem.Elements("actionVehicles").Elements())
-		        .Select(x=>FromXElement(x, version))
-		        .ToDictionary(tank => tank.UniqueId);
+            return docElem.Elements("patch")
+                .OrderByDescending(e => e.Attribute("version").Value, StringVersionComparer.Default)
+                .First(e => StringVersionComparer.Default.Compare(e.Attribute("version").Value, version) <= 0)
+                .Elements()
+                .Union(docElem.Elements("actionVehicles").Elements())
+                .Select(x => FromXElement(x, version))
+                .ToDictionary(tank => tank.UniqueId);
+
         }
 
 	    private static Dictionary<string, MapDescription> MakeFullMapDescriptionList()

@@ -1,0 +1,900 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abilityInfo/manage_abilities" xml:space="preserve">
+    <value>Manage Reserves</value>
+  </data>
+  <data name="abilityInfo/manage_abilities_desc" xml:space="preserve">
+    <value>Click to select available Combat Reserves.</value>
+  </data>
+  <data name="abilityInfo/params/airstrike/bombsNumber" xml:space="preserve">
+    <value>Bombs</value>
+  </data>
+  <data name="abilityInfo/params/airstrike/dropArea" xml:space="preserve">
+    <value>Targeted Area</value>
+  </data>
+  <data name="abilityInfo/params/airstrike/stun" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="abilityInfo/params/artillery/areaRadius" xml:space="preserve">
+    <value>Impact Area</value>
+  </data>
+  <data name="abilityInfo/params/artillery/duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="abilityInfo/params/artillery/shotsNumber" xml:space="preserve">
+    <value>Shells</value>
+  </data>
+  <data name="abilityInfo/params/common/cooldownTime" xml:space="preserve">
+    <value>Cooldown</value>
+  </data>
+  <data name="abilityInfo/params/common/delay" xml:space="preserve">
+    <value>Deployment</value>
+  </data>
+  <data name="abilityInfo/params/inspire/crewIncreaseFactor" xml:space="preserve">
+    <value>Crew Performance</value>
+  </data>
+  <data name="abilityInfo/params/inspire/duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="abilityInfo/params/inspire/inactivationDelay" xml:space="preserve">
+    <value>Wind Down Time</value>
+  </data>
+  <data name="abilityInfo/params/inspire/radius" xml:space="preserve">
+    <value>Effect Radius</value>
+  </data>
+  <data name="abilityInfo/params/passive_engineering/captureBlockBonusTime" xml:space="preserve">
+    <value>Capture Block Time</value>
+  </data>
+  <data name="abilityInfo/params/passive_engineering/captureSpeedFactor" xml:space="preserve">
+    <value>Capture Speed</value>
+  </data>
+  <data name="abilityInfo/params/passive_engineering/resupplyCooldownFactor" xml:space="preserve">
+    <value>Resupply Circle Refresh</value>
+  </data>
+  <data name="abilityInfo/params/passive_engineering/resupplyHealthPointsFactor" xml:space="preserve">
+    <value>Resupply Speed</value>
+  </data>
+  <data name="abilityInfo/params/recon/revealedArea" xml:space="preserve">
+    <value>Revealed Area</value>
+  </data>
+  <data name="abilityInfo/params/recon/revealedArea/value" xml:space="preserve">
+    <value>300m x 750m</value>
+  </data>
+  <data name="abilityInfo/params/recon/spottingDuration" xml:space="preserve">
+    <value>Spotting Duration</value>
+  </data>
+  <data name="abilityInfo/params/smoke/projectilesNumber" xml:space="preserve">
+    <value>Smoke Grenades</value>
+  </data>
+  <data name="abilityInfo/params/smoke/targetedArea" xml:space="preserve">
+    <value>Targeted Area (length, width)</value>
+  </data>
+  <data name="abilityInfo/params/smoke/totalDuration" xml:space="preserve">
+    <value>Smoke Lifetime</value>
+  </data>
+  <data name="abilityInfo/properties" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="abilityInfo/units/meter" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="abilityInfo/units/seconds" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="advance_message_txt" xml:space="preserve">
+    <value>Advance to Frontline</value>
+  </data>
+  <data name="advance_mission_txt" xml:space="preserve">
+    <value>Advance to Frontline</value>
+  </data>
+  <data name="after_battle_stats/bases_captured" xml:space="preserve">
+    <value>Bases captured</value>
+  </data>
+  <data name="after_battle_stats/destroy_recover" xml:space="preserve">
+    <value>Number of own vehicles destroyed / recovered</value>
+  </data>
+  <data name="after_battle_stats/objectives_atk" xml:space="preserve">
+    <value>Zones captured / objectives destroyed</value>
+  </data>
+  <data name="after_battle_stats/objectives_def" xml:space="preserve">
+    <value>Times defended</value>
+  </data>
+  <data name="after_battle_stats/objectives_destroyed" xml:space="preserve">
+    <value>Objectives destroyed</value>
+  </data>
+  <data name="after_battle_stats/objectives_reached" xml:space="preserve">
+    <value>Objectives reached</value>
+  </data>
+  <data name="after_battle_stats/with_premium" xml:space="preserve">
+    <value>With Premium:</value>
+  </data>
+  <data name="base/contested_atk" xml:space="preserve">
+    <value>Contested</value>
+  </data>
+  <data name="base/contested_def" xml:space="preserve">
+    <value>Under Attack</value>
+  </data>
+  <data name="battleResults/armor" xml:space="preserve">
+    <value>Use of Armor</value>
+  </data>
+  <data name="battleResults/assistance" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="battleResults/crits" xml:space="preserve">
+    <value>Critical Damage</value>
+  </data>
+  <data name="battleResults/damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="battleResults/kill" xml:space="preserve">
+    <value>Destroyed</value>
+  </data>
+  <data name="battleResults/spotting" xml:space="preserve">
+    <value>Spotted</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_base_atk" xml:space="preserve">
+    <value>Capture %(strArg1)s</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_base_def" xml:space="preserve">
+    <value>Defend %(strArg1)s</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_objective_atk" xml:space="preserve">
+    <value>Attack Objective %(int32Arg1)s</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_objective_def" xml:space="preserve">
+    <value>Defend Objective %(int32Arg1)s</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_position" xml:space="preserve">
+    <value>Attention to location!</value>
+  </data>
+  <data name="command_shortcut/title" xml:space="preserve">
+    <value>Commands</value>
+  </data>
+  <data name="deploymentMap/lanePlayerLimitReached" xml:space="preserve">
+    <value>Front blockedplayer limit reached</value>
+  </data>
+  <data name="deploymentMap/spgLimitReached" xml:space="preserve">
+    <value>Front blockedvehicle type limit reached</value>
+  </data>
+  <data name="destroy_timers/airstrike_txt" xml:space="preserve">
+    <value>Leave zone!</value>
+  </data>
+  <data name="epicBattlesCarousel/lockedTooltip/body" xml:space="preserve">
+    <value>Select a Tier VIII vehicle for the Frontline mode.</value>
+  </data>
+  <data name="epicBattlesCarousel/lockedTooltip/header" xml:space="preserve">
+    <value>Not Suitable</value>
+  </data>
+  <data name="epicBattlesInfoView/battleModeTitle" xml:space="preserve">
+    <value>FRONTLINE</value>
+  </data>
+  <data name="epicBattlesInfoView/fameLabelHighlight" xml:space="preserve">
+    <value>Tier Progress</value>
+  </data>
+  <data name="epicBattlesInfoView/maxLevel" xml:space="preserve">
+    <value>You have reached the highest Tier</value>
+  </data>
+  <data name="epicBattlesInfoView/maxMetaString" xml:space="preserve">
+    <value>max</value>
+  </data>
+  <data name="epicBattlesInfoView/metaLevel" xml:space="preserve">
+    <value>Tier</value>
+  </data>
+  <data name="epicBattlesInfoView/panelDescription/abilities" xml:space="preserve">
+    <value>Spend Supply Points to acquire unique and powerful Combat Reserves.</value>
+  </data>
+  <data name="epicBattlesInfoView/panelDescription/battlePerformance" xml:space="preserve">
+    <value>Perform well in battle to get Ranks and increase your Tier.</value>
+  </data>
+  <data name="epicBattlesInfoView/panelDescription/prestige" xml:space="preserve">
+    <value>Earn special rewards by resetting your Tier and your Combat Reserves.</value>
+  </data>
+  <data name="epicBattlesInfoView/panelDescription/rewards" xml:space="preserve">
+    <value>Earn an increasing amount of rewards until you reach Tier 30.</value>
+  </data>
+  <data name="epicBattlesInfoView/panelTitle/abilities" xml:space="preserve">
+    <value>COMBAT RESERVES</value>
+  </data>
+  <data name="epicBattlesInfoView/panelTitle/battlePerformance" xml:space="preserve">
+    <value>TIER PROGRESS</value>
+  </data>
+  <data name="epicBattlesInfoView/panelTitle/prestige" xml:space="preserve">
+    <value>PRESTIGE REWARDS</value>
+  </data>
+  <data name="epicBattlesInfoView/panelTitle/rewards" xml:space="preserve">
+    <value>TIER REWARDS</value>
+  </data>
+  <data name="epicBattlesInfoView/ruleBattlePerformanceButton/label" xml:space="preserve">
+    <value>Read Introduction</value>
+  </data>
+  <data name="epicBattlesInfoView/ruleRewardsButton/label" xml:space="preserve">
+    <value>See Rewards</value>
+  </data>
+  <data name="epicBattlesInfoView/ruleRewardsPrestigeButton/label" xml:space="preserve">
+    <value>Collect Rewards</value>
+  </data>
+  <data name="epicBattlesPrestigeView/cancelButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="epicBattlesPrestigeView/congratulations" xml:space="preserve">
+    <value>Congratulations!</value>
+  </data>
+  <data name="epicBattlesPrestigeView/exchange" xml:space="preserve">
+    <value>In exchange you will get the following rewards:</value>
+  </data>
+  <data name="epicBattlesPrestigeView/mainTitle" xml:space="preserve">
+    <value>Reset your Frontline progress</value>
+  </data>
+  <data name="epicBattlesPrestigeView/prestigeInfo" xml:space="preserve">
+    <value>You will achieve: </value>
+  </data>
+  <data name="epicBattlesPrestigeView/prestigeLevel" xml:space="preserve">
+    <value>Prestige Level %(level)s</value>
+  </data>
+  <data name="epicBattlesPrestigeView/removeAbilities/desc" xml:space="preserve">
+    <value>All your Combat Reserves and Supply Points will be removed.</value>
+  </data>
+  <data name="epicBattlesPrestigeView/removeAbilities/title" xml:space="preserve">
+    <value>Remove Combat Reserves</value>
+  </data>
+  <data name="epicBattlesPrestigeView/resetButtonText" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="epicBattlesPrestigeView/resetLevel/desc" xml:space="preserve">
+    <value>Your Frontline Tier will be reset to Tier 1.</value>
+  </data>
+  <data name="epicBattlesPrestigeView/resetLevel/title" xml:space="preserve">
+    <value>Reset Tier</value>
+  </data>
+  <data name="epicBattlesPrestigeView/warning" xml:space="preserve">
+    <value>This action cannot be undone!</value>
+  </data>
+  <data name="epicBattlesWidgetTooltip/famePoints" xml:space="preserve">
+    <value>Tier Progress</value>
+  </data>
+  <data name="epicBattlesWidgetTooltip/famePointsDescription" xml:space="preserve">
+    <value>Increase your Tier by fighting in Frontline battles</value>
+  </data>
+  <data name="epicBattlesWidgetTooltip/prestigeReached" xml:space="preserve">
+    <value>You have reached the highest Tier. Reset your Tier to receive additional rewards.</value>
+  </data>
+  <data name="epic_battle_meta_view/Acquire_skill" xml:space="preserve">
+    <value>Acquire</value>
+  </data>
+  <data name="epic_battle_meta_view/Max_skill" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="epic_battle_meta_view/abilities" xml:space="preserve">
+    <value>Combat Reserves</value>
+  </data>
+  <data name="epic_battle_meta_view/commander_level" xml:space="preserve">
+    <value>Commander Level</value>
+  </data>
+  <data name="epic_battles_after_battle/Achieved_Rank" xml:space="preserve">
+    <value>Achieved Rank</value>
+  </data>
+  <data name="epic_battles_after_battle/Level_Up_Max_Title" xml:space="preserve">
+    <value>Highest Tier Reached</value>
+  </data>
+  <data name="epic_battles_after_battle/Level_Up_Title" xml:space="preserve">
+    <value>New Tier Achieved</value>
+  </data>
+  <data name="epic_battles_after_battle/Title" xml:space="preserve">
+    <value>Congratulations!</value>
+  </data>
+  <data name="epictraining/info/otherLabel" xml:space="preserve">
+    <value>Undistributed players: %(total)s</value>
+  </data>
+  <data name="epictraining/info/team1LaneLabel" xml:space="preserve">
+    <value>Attackers [%(lane1)s|%(lane2)s|%(lane3)s]</value>
+  </data>
+  <data name="epictraining/info/team2LaneLabel" xml:space="preserve">
+    <value>Defenders [%(lane1)s|%(lane2)s|%(lane3)s]</value>
+  </data>
+  <data name="fittingSelectPopover/ChangeOrder" xml:space="preserve">
+    <value>Change Order</value>
+  </data>
+  <data name="fittingSelectPopover/RemoveButton" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="fittingSelectPopoverBattkeAbility/descText" xml:space="preserve">
+    <value>Combat Reserves can be acquired through the Manage Reserves screen.</value>
+  </data>
+  <data name="fittingSelectPopoverBattkeAbility/titleText" xml:space="preserve">
+    <value>You have not acquired any Combat Reserves yet.</value>
+  </data>
+  <data name="game/all_enemies_defeated" xml:space="preserve">
+    <value>All enemy vehicles destroyed</value>
+  </data>
+  <data name="game/all_hqs_destroyed" xml:space="preserve">
+    <value>All objectives destroyed</value>
+  </data>
+  <data name="game/all_tanks_defeated" xml:space="preserve">
+    <value>All allied vehicles destroyed</value>
+  </data>
+  <data name="game/defeat" xml:space="preserve">
+    <value>Defeat!</value>
+  </data>
+  <data name="game/draw" xml:space="preserve">
+    <value>Draw!</value>
+  </data>
+  <data name="game/time_over" xml:space="preserve">
+    <value>Objectives have survived</value>
+  </data>
+  <data name="game/victory" xml:space="preserve">
+    <value>Victory!</value>
+  </data>
+  <data name="global_msg/atk/focus_hq_short" xml:space="preserve">
+    <value>Destroy objectives!</value>
+  </data>
+  <data name="global_msg/atk/time_short" xml:space="preserve">
+    <value>Capture a zone!</value>
+  </data>
+  <data name="global_msg/def/focus_hq_short" xml:space="preserve">
+    <value>Defend objectives!</value>
+  </data>
+  <data name="global_msg/def/time_short" xml:space="preserve">
+    <value>Defend the zones!</value>
+  </data>
+  <data name="global_msg/lane/center_short" xml:space="preserve">
+    <value>Reinforce %(strArg1)s!</value>
+  </data>
+  <data name="global_msg/lane/east_short" xml:space="preserve">
+    <value>Reinforce %(strArg1)s!</value>
+  </data>
+  <data name="global_msg/lane/west_short" xml:space="preserve">
+    <value>Reinforce %(strArg1)s!</value>
+  </data>
+  <data name="global_msg/save_tanks_short" xml:space="preserve">
+    <value>Save your tanks!</value>
+  </data>
+  <data name="help_window/communication" xml:space="preserve">
+    <value>Communication Area</value>
+  </data>
+  <data name="help_window/communication/description" xml:space="preserve">
+    <value>You can only receive commands from allies who are in your visible minimap area or when the target of the command is in that area.</value>
+  </data>
+  <data name="help_window/overview_map" xml:space="preserve">
+    <value>Overview Map</value>
+  </data>
+  <data name="help_window/overview_map/description" xml:space="preserve">
+    <value>The overview map is used to get a tactical and strategic view of the whole battlefield. When the overview map is opened, the communication of the whole team can be received and messages can be sent.</value>
+  </data>
+  <data name="help_window/recovery" xml:space="preserve">
+    <value>Recovery</value>
+  </data>
+  <data name="help_window/recovery/description" xml:space="preserve">
+    <value>Recovery is introduced to self-destruct a vehicle that is stuck in the terrain. The mechanic is needed because increased battle duration and respawn possibility call for permanent engagement of the player.</value>
+  </data>
+  <data name="help_window/reserves" xml:space="preserve">
+    <value>Vehicle Reserves</value>
+  </data>
+  <data name="help_window/reserves/description" xml:space="preserve">
+    <value>Every few minutes one vehicle is added to your reserve. The reserve can hold a maximum of two vehicles. When there are no vehicles left, you cannot deploy and need to wait until new vehicles are delivered.</value>
+  </data>
+  <data name="hq/under_attack_atk" xml:space="preserve">
+    <value>Reached</value>
+  </data>
+  <data name="hq/under_attack_def" xml:space="preserve">
+    <value>Under Attack</value>
+  </data>
+  <data name="in_game_rank/experience_text" xml:space="preserve">
+    <value>XP</value>
+  </data>
+  <data name="inspire/inspired" xml:space="preserve">
+    <value>Inspired</value>
+  </data>
+  <data name="inspire/inspiring" xml:space="preserve">
+    <value>Inspiring</value>
+  </data>
+  <data name="lane_central_name" xml:space="preserve">
+    <value>Centre</value>
+  </data>
+  <data name="lane_east_name" xml:space="preserve">
+    <value>East</value>
+  </data>
+  <data name="lane_west_name" xml:space="preserve">
+    <value>West</value>
+  </data>
+  <data name="metaAbilityScreen/Ability_level" xml:space="preserve">
+    <value>Level %(lvl)s</value>
+  </data>
+  <data name="metaAbilityScreen/Ability_locked" xml:space="preserve">
+    <value>Acquire is unavailable: You have no Supply Points.</value>
+  </data>
+  <data name="metaAbilityScreen/Ability_max_level" xml:space="preserve">
+    <value>You have reached maximum level for this Combat Reserve.</value>
+  </data>
+  <data name="metaAbilityScreen/Ability_not_points" xml:space="preserve">
+    <value>Upgrade is unavailable: You have no Supply Points.</value>
+  </data>
+  <data name="metaAbilityScreen/Ability_not_unlocked" xml:space="preserve">
+    <value>Not acquired</value>
+  </data>
+  <data name="metaAbilityScreen/Acquire_skill" xml:space="preserve">
+    <value>Acquire</value>
+  </data>
+  <data name="metaAbilityScreen/Manage_abilities" xml:space="preserve">
+    <value>Manage reserves</value>
+  </data>
+  <data name="metaAbilityScreen/Manage_reserves_header" xml:space="preserve">
+    <value>MANAGE RESERVES</value>
+  </data>
+  <data name="metaAbilityScreen/Unspent_points" xml:space="preserve">
+    <value>Unspent Supply Points:</value>
+  </data>
+  <data name="metaAbilityScreen/Upgrade_skill" xml:space="preserve">
+    <value>Upgrade</value>
+  </data>
+  <data name="metaAbilityScreen/get_skill_points" xml:space="preserve">
+    <value>Get Supply Points by increasing your Frontline Tier.</value>
+  </data>
+  <data name="mission/primary/title" xml:space="preserve">
+    <value>Main Objective</value>
+  </data>
+  <data name="mission/title" xml:space="preserve">
+    <value>Your Mission</value>
+  </data>
+  <data name="mission/zone_closing_atk" xml:space="preserve">
+    <value>Zone opens in: </value>
+  </data>
+  <data name="mission/zone_closing_def" xml:space="preserve">
+    <value>Enemy bombardment in: </value>
+  </data>
+  <data name="missions/primary/atk/base" xml:space="preserve">
+    <value>Capture Zone</value>
+  </data>
+  <data name="missions/primary/atk/hq" xml:space="preserve">
+    <value>Destroy Objective</value>
+  </data>
+  <data name="missions/primary/atk/hq_additional_info" xml:space="preserve">
+    <value>%(positiveOpen)s%(destroyed)s%(positiveClose)s of %(toDestroy)s</value>
+  </data>
+  <data name="missions/primary/atk/hq_sub_title" xml:space="preserve">
+    <value>Objectives destroyed:</value>
+  </data>
+  <data name="missions/primary/atk/longdescription" xml:space="preserve">
+    <value>Capture zones to reach the main objectives. Destroy the main objectives.</value>
+  </data>
+  <data name="missions/primary/def/base" xml:space="preserve">
+    <value>Defend Zone</value>
+  </data>
+  <data name="missions/primary/def/hq" xml:space="preserve">
+    <value>Defend Objective</value>
+  </data>
+  <data name="missions/primary/def/hq_additional_info" xml:space="preserve">
+    <value>%(negativeOpen)s%(destroyed)s%(negativeClose)s of %(toDestroy)s</value>
+  </data>
+  <data name="missions/primary/def/hq_sub_title" xml:space="preserve">
+    <value>Objectives lost:</value>
+  </data>
+  <data name="missions/primary/def/longdescription" xml:space="preserve">
+    <value>Defend the main objectives until the time runs out or destroy all attackers.</value>
+  </data>
+  <data name="overtime/label" xml:space="preserve">
+    <value>OVERTIME</value>
+  </data>
+  <data name="primeTime/applyBtn" xml:space="preserve">
+    <value>Proceed</value>
+  </data>
+  <data name="primeTime/continueBtn" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="primeTime/serverTooltip" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="primeTime/servers" xml:space="preserve">
+    <value>Available servers: %(server)s</value>
+  </data>
+  <data name="primeTime/status/disable" xml:space="preserve">
+    <value>You can switch to a Frontline server to continue pre-battle preparations.</value>
+  </data>
+  <data name="primeTime/status/disableFirst" xml:space="preserve">
+    <value>Frontline is currently unavailable on all servers.</value>
+  </data>
+  <data name="primeTime/status/thisEnable" xml:space="preserve">
+    <value>On server %(server)s Frontline is available for: %(time)s.</value>
+  </data>
+  <data name="primeTime/title" xml:space="preserve">
+    <value>FRONTLINE
+IS CURRENTLY UNAVAILABLE</value>
+  </data>
+  <data name="primeTime/titleWelcome" xml:space="preserve">
+    <value>WELCOME
+TO FRONTLINE</value>
+  </data>
+  <data name="primeTimeAlertMessageBlock/message" xml:space="preserve">
+    <value>Ceasefire is effective. It will end in %(time)s.</value>
+  </data>
+  <data name="progress_timers/active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="progress_timers/base_capture" xml:space="preserve">
+    <value>Base capture</value>
+  </data>
+  <data name="progress_timers/blocked" xml:space="preserve">
+    <value>Blocked</value>
+  </data>
+  <data name="progress_timers/captured" xml:space="preserve">
+    <value>Base captured</value>
+  </data>
+  <data name="progress_timers/fully_equipped" xml:space="preserve">
+    <value>Fully equipped</value>
+  </data>
+  <data name="progress_timers/resupply" xml:space="preserve">
+    <value>Resupply point</value>
+  </data>
+  <data name="progress_timers/unavailable" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="rank/no_name" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="rank/promotion" xml:space="preserve">
+    <value>promoted to %(rank)s</value>
+  </data>
+  <data name="rank/rank0" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="rank/rank1" xml:space="preserve">
+    <value>Sergeant</value>
+  </data>
+  <data name="rank/rank2" xml:space="preserve">
+    <value>Lieutenant</value>
+  </data>
+  <data name="rank/rank3" xml:space="preserve">
+    <value>Captain</value>
+  </data>
+  <data name="rank/rank4" xml:space="preserve">
+    <value>Major</value>
+  </data>
+  <data name="rank/rank5" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="recovery/Blocked" xml:space="preserve">
+    <value>Temporarily
+blocked</value>
+  </data>
+  <data name="recovery/disabled" xml:space="preserve">
+    <value>Recovery unavailable</value>
+  </data>
+  <data name="recovery_panel/base_text" xml:space="preserve">
+    <value>Press J
+to recover</value>
+  </data>
+  <data name="recovery_panel/recovery_cancel" xml:space="preserve">
+    <value>Move or shoot to cancel.</value>
+  </data>
+  <data name="recovery_panel/recovery_cancelled" xml:space="preserve">
+    <value>Recovery
+canceled</value>
+  </data>
+  <data name="recovery_panel/recovery_requested" xml:space="preserve">
+    <value>Recovery
+requested</value>
+  </data>
+  <data name="reinforcement/capture_next_base_text" xml:space="preserve">
+    <value>Capture the next base</value>
+  </data>
+  <data name="reinforcement/reinforcement_in_text" xml:space="preserve">
+    <value>Reinforcements in </value>
+  </data>
+  <data name="reinforcement/unavailable" xml:space="preserve">
+    <value>Reinforcements unavailable</value>
+  </data>
+  <data name="reinforcementsPanel/inText" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="respawn/auto_timer_txt" xml:space="preserve">
+    <value>%(seconds)s s until automatic deployment.</value>
+  </data>
+  <data name="respawn/deploy_button" xml:space="preserve">
+    <value>Battle!</value>
+  </data>
+  <data name="respawn/gold_ammo_not_available" xml:space="preserve">
+    <value>Premium consumables cannot be purchased in a battle.</value>
+  </data>
+  <data name="respawn/shop_title" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="respawn/tanks_left" xml:space="preserve">
+    <value>vehicles left</value>
+  </data>
+  <data name="respawnScreen/headerTitle" xml:space="preserve">
+    <value>Choose a front and vehicle to fight in</value>
+  </data>
+  <data name="respawnScreen/secondsTimerText" xml:space="preserve">
+    <value>%(seconds)s seconds</value>
+  </data>
+  <data name="retreat_message_txt" xml:space="preserve">
+    <value>Retreat</value>
+  </data>
+  <data name="retreat_mission_txt" xml:space="preserve">
+    <value>Retreat to the next zone</value>
+  </data>
+  <data name="scorePanel/stage1" xml:space="preserve">
+    <value>Stage 1</value>
+  </data>
+  <data name="scorePanel/stage2" xml:space="preserve">
+    <value>Stage 2</value>
+  </data>
+  <data name="scorePanel/stage3" xml:space="preserve">
+    <value>Stage 3</value>
+  </data>
+  <data name="selectorTooltip/epicBattle/disabled/desc" xml:space="preserve">
+    <value>The queue for Frontline is currently not open. You can still make changes to your loadout and manage Combat Reserves. You need a Tier VIII vehicle to participate in this game mode.</value>
+  </data>
+  <data name="selectorTooltip/epicBattle/disabled/startIn" xml:space="preserve">
+    <value>Event starts in:</value>
+  </data>
+  <data name="selectorTooltip/epicBattle/disabled/tillEnd" xml:space="preserve">
+    <value>Event ends in:</value>
+  </data>
+  <data name="selectorTooltip/epicBattle/disabled/timeTable/empty" xml:space="preserve">
+    <value />
+  </data>
+  <data name="selectorTooltip/epicBattle/disabled/timeTable/title" xml:space="preserve">
+    <value>Event Schedule</value>
+  </data>
+  <data name="selectorTooltip/epicBattle/disabled/timeTable/today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="selectorTooltip/epicBattle/disabled/timeTable/tomorrow" xml:space="preserve">
+    <value>Tomorrow</value>
+  </data>
+  <data name="selectorTooltip/epicBattle/disabled/title" xml:space="preserve">
+    <value>Mode temporarily unavailable</value>
+  </data>
+  <data name="selectorTooltip/epicBattle/enabled/attention/assuredLowPerformance" xml:space="preserve">
+    <value>Your computer's performance is insufficient for this mode. You will experience issues with graphics and vehicle movement. Game client crashes are also probable.</value>
+  </data>
+  <data name="selectorTooltip/epicBattle/enabled/attention/informativeLowPerformance" xml:space="preserve">
+    <value>This mode demands high computer performance. In case of insufficient performance, try a lower graphics quality in Settings.</value>
+  </data>
+  <data name="selectorTooltip/epicBattle/enabled/attention/possibleLowPerformance" xml:space="preserve">
+    <value>This mode demands high computer performance. You will experience issues with map loading, graphics, and vehicle movement. In case of insufficient performance, try a lower graphics quality in Settings.</value>
+  </data>
+  <data name="selectorTooltip/epicBattle/enabled/body" xml:space="preserve">
+    <value>Battle with automatic matching of allies against random enemies.
+ Battle Type: Attack/Defense
+ Player limit: 30
+ Tier allowed: VIII</value>
+  </data>
+  <data name="selectorTooltip/epicBattle/enabled/header" xml:space="preserve">
+    <value>Frontline</value>
+  </data>
+  <data name="smoke/In_smoke" xml:space="preserve">
+    <value>In smoke</value>
+  </data>
+  <data name="spectator_mode/camera_controls_title" xml:space="preserve">
+    <value>Spectator Mode Camera</value>
+  </data>
+  <data name="spectator_mode/camera_mouse_rotate" xml:space="preserve">
+    <value>Rotate the camera with your mouse.</value>
+  </data>
+  <data name="spectator_mode/camera_wasd" xml:space="preserve">
+    <value>Use W,A,S,D to move the camera around the map.</value>
+  </data>
+  <data name="spectator_mode/follow_text" xml:space="preserve">
+    <value>Left click to start following.</value>
+  </data>
+  <data name="spectator_mode/follow_title" xml:space="preserve">
+    <value>Follow</value>
+  </data>
+  <data name="spectator_mode/msg_text" xml:space="preserve">
+    <value>Next vehicle arrives in:</value>
+  </data>
+  <data name="spectator_mode/msg_title" xml:space="preserve">
+    <value>All vehicles destroyed!</value>
+  </data>
+  <data name="spectator_mode/unfollow_text" xml:space="preserve">
+    <value>Click again to stop following.</value>
+  </data>
+  <data name="spectator_mode/unfollow_title" xml:space="preserve">
+    <value>Stop following</value>
+  </data>
+  <data name="status/timeLeft/days" xml:space="preserve">
+    <value>%(day)s d</value>
+  </data>
+  <data name="status/timeLeft/hours" xml:space="preserve">
+    <value>%(hour)s h</value>
+  </data>
+  <data name="status/timeLeft/lessMin" xml:space="preserve">
+    <value>less than a minute</value>
+  </data>
+  <data name="status/timeLeft/min" xml:space="preserve">
+    <value>%(min)s min</value>
+  </data>
+  <data name="super_platoon_panel/title" xml:space="preserve">
+    <value>Platoon</value>
+  </data>
+  <data name="tab_screen/show_all_lanes" xml:space="preserve">
+    <value>All fronts</value>
+  </data>
+  <data name="tab_screen/show_my_lane" xml:space="preserve">
+    <value>My front</value>
+  </data>
+  <data name="team1Name" xml:space="preserve">
+    <value>Attacker</value>
+  </data>
+  <data name="team2Name" xml:space="preserve">
+    <value>Defender</value>
+  </data>
+  <data name="tooltip/epicBattle/availableIn" xml:space="preserve">
+    <value>Available in %(time)s.</value>
+  </data>
+  <data name="tutorial/hint/epicReservesBtnHint" xml:space="preserve">
+    <value>CHOOSE RESERVES</value>
+  </data>
+  <data name="tutorial/hint/epicReservesSlotHint" xml:space="preserve">
+    <value>COMBAT RESERVES</value>
+  </data>
+  <data name="zone/arrived_text" xml:space="preserve">
+    <value>Arrived!</value>
+  </data>
+  <data name="zone/capture_text" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="zone/captured_text" xml:space="preserve">
+    <value>Captured</value>
+  </data>
+  <data name="zone/defend_text" xml:space="preserve">
+    <value>Defend</value>
+  </data>
+  <data name="zone/destroy_text" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="zone/destroyed_text" xml:space="preserve">
+    <value>Destroyed</value>
+  </data>
+  <data name="zone/enemy_reinforced_text" xml:space="preserve">
+    <value>Enemy reinforcements</value>
+  </data>
+  <data name="zone/headquarters_text" xml:space="preserve">
+    <value>Objectives</value>
+  </data>
+  <data name="zone/leave_zone" xml:space="preserve">
+    <value>Leave Zone!</value>
+  </data>
+  <data name="zone/lost_text" xml:space="preserve">
+    <value>Lost</value>
+  </data>
+  <data name="zone/reached_text" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="zone/reinforcement_timer_atk" xml:space="preserve">
+    <value>Enemy reinforcements:</value>
+  </data>
+  <data name="zone/reinforcement_timer_def" xml:space="preserve">
+    <value>Reinforcements:</value>
+  </data>
+  <data name="zone/reinforcements_text" xml:space="preserve">
+    <value>Reinforcements</value>
+  </data>
+  <data name="zone/time_added" xml:space="preserve">
+    <value>%(minutes)s added</value>
+  </data>
+  <data name="zone/time_left" xml:space="preserve">
+    <value>%(minutes)s minutes remaining</value>
+  </data>
+  <data name="zone/zone_text" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+</root>

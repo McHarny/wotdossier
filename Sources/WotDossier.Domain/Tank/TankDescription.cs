@@ -24,6 +24,7 @@ namespace WotDossier.Domain.Tank
 		    return new TankDescription { Title = rowHeader, Key = String.Empty, CompDescr = 65521, CountryId  = -1, TankId = -1 };
 	    }
 
+        
 		/// <summary>
 		/// Gets or sets the tank id.
 		/// </summary>
@@ -57,8 +58,14 @@ namespace WotDossier.Domain.Tank
 		{
 			get
 			{
-				if(string.IsNullOrEmpty(_title))
-					_title = ResourceHelper.ResourceManager(userString.ParseUserString(UserStringPart.Type)).GetString(userString.ParseUserString(UserStringPart.Key)) ?? Key;
+			    if (string.IsNullOrEmpty(_title))
+			    {
+			        if (CompDescr == 65521)
+			            _title = UNKNOWN;
+                    else
+                        _title = ResourceHelper.ResourceManager(userString.ParseUserString(UserStringPart.Type)).GetString(userString.ParseUserString(UserStringPart.Key)) ?? Key;
+			    }
+
 				return _title;
 			}
 			set => _title = value;
@@ -81,26 +88,31 @@ namespace WotDossier.Domain.Tank
 
 		public bool Hidden { get; set; }
 
-		public string userString { get; set; } = "";
+	    public bool InGame { get; set; }
 
+	    public bool NotInShop { get; set; }
 
-		public string descriptionString { get; set; } = "";
+        public string userString { get; set; } = "";
+
+	    
+
+        public string descriptionString { get; set; } = "";
 
 
 	    public string IconId => $"{Country.ToString().ToLower()}-{Dictionaries.Instance.AllVehicles[UniqueId].Key}";
 
 		public string CountryKey => $"{Country.ToString().ToLower()}-{Key}";
 
-		/// <summary>
-		/// Gets or sets the comp descr.
-		/// </summary>
-		[DataMember(Name = "compDescr")]
-        public int CompDescr { get; set; }
+	    /// <summary>
+	    /// Gets or sets the comp descr.
+	    /// </summary>
+	    [DataMember(Name = "compDescr")]
+	    public int CompDescr { get; set; }
 
-        /// <summary>
-        /// Gets or sets the health.
-        /// </summary>
-        [DataMember(Name = "health")]
+	    /// <summary>
+	    /// Gets or sets the health.
+	    /// </summary>
+	    [DataMember(Name = "health")]
         public int Health { get; set; }
 
         public LevelRange LevelRange { get; set; }
@@ -110,7 +122,7 @@ namespace WotDossier.Domain.Tank
 
 		private int _uniqueId = -1;
 
-        /// <summary>
+	    /// <summary>
         /// Uniques the id.
         /// </summary>
         public int UniqueId

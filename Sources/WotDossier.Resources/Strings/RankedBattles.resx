@@ -121,8 +121,8 @@
     <value>Congratulations!</value>
   </data>
   <data name="awards/gotRank" xml:space="preserve">
-    <value>You achieved
-a rank</value>
+    <value>You achieved rank
+%(rank)s</value>
   </data>
   <data name="awards/next" xml:space="preserve">
     <value>Next</value>
@@ -149,7 +149,7 @@ a rank</value>
     <value>Chevron received</value>
   </data>
   <data name="battleResult/rank/unchanged" xml:space="preserve">
-    <value>Chevron not received</value>
+    <value>Chevron retained</value>
   </data>
   <data name="battleResult/rank/up" xml:space="preserve">
     <value>Rank achieved</value>
@@ -176,7 +176,8 @@ a rank</value>
     <value>You are not among the top 3 players on the losing team by experience earned</value>
   </data>
   <data name="battleresult/rankEarned" xml:space="preserve">
-    <value>Rank received</value>
+    <value>You achieved rank
+%(rank)s</value>
   </data>
   <data name="battleresult/rankLost" xml:space="preserve">
     <value>Rank lost</value>
@@ -188,7 +189,7 @@ a rank</value>
     <value>Chevron lost</value>
   </data>
   <data name="battleresult/stageNotEarned" xml:space="preserve">
-    <value>No changes</value>
+    <value>Chevron retained</value>
   </data>
   <data name="calendarDay/serverName" xml:space="preserve">
     <value>%(server)s</value>
@@ -219,7 +220,7 @@ Awards received: %(medalsCount)s</value>
     <value>chevron lost</value>
   </data>
   <data name="notification/stageNotEarned" xml:space="preserve">
-    <value>chevron not received</value>
+    <value>chevron retained</value>
   </data>
   <data name="notification/vehicleRankEarned" xml:space="preserve">
     <value>vehicle rank received</value>
@@ -234,7 +235,7 @@ Awards received: %(medalsCount)s</value>
     <value>Available servers: %(server)s</value>
   </data>
   <data name="primeTime/status/disable" xml:space="preserve">
-    <value>Ranked Battles are temporarily unavailable, but you can continue preparing for new battles and view your results.</value>
+    <value>You can go to the selected server and continue your pre-battle preparations.</value>
   </data>
   <data name="primeTime/status/thisEnable" xml:space="preserve">
     <value>On the %(server)s server, Ranked Battles will be available for another: %(time)s.</value>
@@ -268,7 +269,7 @@ are currently unavailable</value>
     <value>Points</value>
   </data>
   <data name="rankedBattleCyclesView/title" xml:space="preserve">
-    <value>Season %(season)s</value>
+    <value>Season Rewards</value>
   </data>
   <data name="rankedBattleHeader/cycle" xml:space="preserve">
     <value>STAGE %(cycle)d</value>
@@ -335,7 +336,7 @@ Season Finals—%(date)s</value>
     <value>Mission</value>
   </data>
   <data name="rankedBattleView/awardBlock/seasonAward/description" xml:space="preserve">
-    <value>Stages completed:</value>
+    <value>Click to view the rewards</value>
   </data>
   <data name="rankedBattleView/awardBlock/seasonAward/header" xml:space="preserve">
     <value>Season Awards</value>
@@ -377,10 +378,10 @@ Season Finals—%(date)s</value>
     <value>Win a battle</value>
   </data>
   <data name="rankedBattleView/progressBlock/bestRank" xml:space="preserve">
-    <value>Stage record</value>
+    <value>Season record</value>
   </data>
   <data name="rankedBattleView/progressBlock/currentRank" xml:space="preserve">
-    <value>Current rank</value>
+    <value>Your current rank: %(rank)s</value>
   </data>
   <data name="rankedBattleView/progressBlock/steps" xml:space="preserve">
     <value>Chevrons: %(numbers)s</value>
@@ -389,7 +390,7 @@ Season Finals—%(date)s</value>
     <value>Next rank on the %(vehicle)s</value>
   </data>
   <data name="rankedBattleView/progressBlock/vehicleRank" xml:space="preserve">
-    <value>Vehicle rank on the %(vehicle)s</value>
+    <value>Rank Points</value>
   </data>
   <data name="rankedBattleView/statusBlock/calendarBtnTooltip/body" xml:space="preserve">
     <value>Click to view the information about all season stages.</value>
@@ -401,13 +402,13 @@ Season Finals—%(date)s</value>
     <value>Results of Stage %(cycleNumber)s in %(timeLeft)s</value>
   </data>
   <data name="rankedBattleView/statusBlock/calendarPopover/cycleItem" xml:space="preserve">
-    <value>STAGE %(cycleNumber)s:  %(day0)s.%(month0)s—%(day1)s.%(month1)s</value>
+    <value>Season %(cycleNumber)s: %(day0)s/%(month0)s—%(day1)s/%(month1)s</value>
   </data>
   <data name="rankedBattleView/statusBlock/statusText" xml:space="preserve">
-    <value>The results of Stage %(cycleNumber)s will be finalized in: </value>
+    <value>The season results will be finalized in: </value>
   </data>
   <data name="rankedBattleView/title" xml:space="preserve">
-    <value>Stage %(cycle)d</value>
+    <value>Ranked Battle</value>
   </data>
   <data name="rankedBattlesCarousel/lockedTooltip/body" xml:space="preserve">
     <value>Select a Tier X vehicle for the Ranked Battle mode.</value>
@@ -425,7 +426,7 @@ Season Finals—%(date)s</value>
     <value>CLOSE</value>
   </data>
   <data name="rankedBattlesCyclesView/currentCycle/item/awardRecieved" xml:space="preserve">
-    <value>Reward already received</value>
+    <value>Reward received</value>
   </data>
   <data name="rankedBattlesCyclesView/currentCycle/item/boxTooltip/body" xml:space="preserve">
     <value>Received at the end of a stage and contains various rewards. The number of rewards and their quality depend on the achieved rank.</value>
@@ -446,10 +447,10 @@ Season Finals—%(date)s</value>
     <value>POINTS</value>
   </data>
   <data name="rankedBattlesCyclesView/currentCycle/tableHeader/rank" xml:space="preserve">
-    <value>RANK</value>
+    <value>Rank</value>
   </data>
   <data name="rankedBattlesCyclesView/currentCycle/tableHeader/rankAward" xml:space="preserve">
-    <value>REWARD FOR ACHIEVED RANK</value>
+    <value>Reward for Achieved Rank</value>
   </data>
   <data name="rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body" xml:space="preserve">
     <value>Awarded for the best result achieved during one stage. The best result will not be reset even if a rank is lost.</value>
@@ -468,7 +469,7 @@ Season Finals—%(date)s</value>
 vehicle rank earned:</value>
   </data>
   <data name="rankedBattlesCyclesView/final/btnLadder" xml:space="preserve">
-    <value>Season Leaders</value>
+    <value>Go to Leaderboard</value>
   </data>
   <data name="rankedBattlesCyclesView/final/btnLadderTooltip/body" xml:space="preserve">
     <value>Click to go to the list of Season Leaders and view your position.</value>
@@ -484,19 +485,19 @@ are formed using the number of points earned for the whole season.</value>
     <value>Reward at the end of the season</value>
   </data>
   <data name="rankedBattlesCyclesView/final/first" xml:space="preserve">
-    <value>%(count)s of top players</value>
+    <value>top %(count)s players</value>
   </data>
   <data name="rankedBattlesCyclesView/final/intermediate" xml:space="preserve">
     <value>next %(count)s</value>
   </data>
   <data name="rankedBattlesCyclesView/final/last" xml:space="preserve">
-    <value>out of Leaderboard</value>
+    <value>Wood League</value>
   </data>
   <data name="rankedBattlesCyclesView/final/tableHeader/position" xml:space="preserve">
-    <value>POSITION ON LEADERBOARD</value>
+    <value>Position on Leaderboard</value>
   </data>
   <data name="rankedBattlesCyclesView/final/tableHeader/seasonAward" xml:space="preserve">
-    <value>REWARD AT THE END OF SEASON</value>
+    <value>Final Reward</value>
   </data>
   <data name="rankedBattlesCyclesView/noAchievements/future/footer" xml:space="preserve">
     <value>From %(start)s through %(end)s</value>
@@ -523,7 +524,7 @@ you achieved a rank!</value>
     <value>Your highest rank</value>
   </data>
   <data name="seasonComplete/placeInRating" xml:space="preserve">
-    <value>Season Leaders</value>
+    <value>Position on Leaderboard</value>
   </data>
   <data name="seasonComplete/placeInRating/tooltip/body" xml:space="preserve">
     <value>Click to view the Season Leaders. Your reward will be added automatically.</value>
@@ -544,13 +545,13 @@ you achieved a rank!</value>
     <value>Stage %(stage)s ended</value>
   </data>
   <data name="seasonComplete/totalScores" xml:space="preserve">
-    <value>Points earned for the whole season</value>
+    <value>Points earned for the season</value>
   </data>
   <data name="selectorTooltip/desc" xml:space="preserve">
     <value>Battles in Tier X vehicles under Standard Battle rules. The teams will comprise players with a more or less similar rank.</value>
   </data>
   <data name="selectorTooltip/tillEnd" xml:space="preserve">
-    <value>Stage ends in:</value>
+    <value>Season ends in:</value>
   </data>
   <data name="selectorTooltip/timeTable/empty" xml:space="preserve">
     <value>—</value>
@@ -571,7 +572,7 @@ you achieved a rank!</value>
     <value>Season Leaders</value>
   </data>
   <data name="statistic/vehicleRank" xml:space="preserve">
-    <value>Achieved rank</value>
+    <value>Rank points earned</value>
   </data>
   <data name="status/timeLeft/days" xml:space="preserve">
     <value>%(day)s d</value>
@@ -599,8 +600,7 @@ on the %(team)s by experience earned</value>
     <value>Received</value>
   </data>
   <data name="tooltip/step/decommission/description" xml:space="preserve">
-    <value>If a player is not among the top %(battlesNum)s players on the losing team by experience earned.
-Chevrons are not removed before Rank I.</value>
+    <value>If a player ranks %(fromTill)s on the losing team by experience earned.</value>
   </data>
   <data name="tooltip/step/decommission/header" xml:space="preserve">
     <value>Removed</value>
@@ -615,10 +615,10 @@ Chevrons are not removed before Rank I.</value>
     <value>losing team</value>
   </data>
   <data name="tooltip/step/notCharged/description" xml:space="preserve">
-    <value>If a player is not among the top %(battlesNum)s players on the victorious team by experience earned.</value>
+    <value>If a player is not among the top %(battlesNum)s players on the winning team by experience earned, but ranks %(fromTill)s.</value>
   </data>
   <data name="tooltip/step/notCharged/header" xml:space="preserve">
-    <value>Saved</value>
+    <value>Retained</value>
   </data>
   <data name="tooltip/step/or" xml:space="preserve">
     <value>or</value>
@@ -712,7 +712,7 @@ vehicles</value>
     <value>You are not among the top {topNumber} players on the winning team by experience earned</value>
   </data>
   <data name="battleresult/stageSaved" xml:space="preserve">
-    <value>No changes</value>
+    <value>Chevron retained</value>
   </data>
   <data name="calendarStepsTooltip/title" xml:space="preserve">
     <value>Stage Schedule</value>
@@ -743,6 +743,168 @@ Ranked Battles!</value>
     <value>Beta</value>
   </data>
   <data name="tooltip/step/notChargedLose/description" xml:space="preserve">
-    <value>If a player is among the top %(battlesNum)s players on the losing team by experience earned.</value>
+    <value>If a player is not among the top %(battlesNum)s players on the losing team by experience earned, but ranks %(fromTill)s.</value>
+  </data>
+  <data name="awards/gotLadderPoint" xml:space="preserve">
+    <value>Rank
+point
+received</value>
+  </data>
+  <data name="awards/ladderPointsTotal" xml:space="preserve">
+    <value>Total points received: %(scores)s</value>
+  </data>
+  <data name="battleresult/headerText" xml:space="preserve">
+    <value>Battle Results</value>
+  </data>
+  <data name="battleresult/shieldLose" xml:space="preserve">
+    <value>Rank shield weakened</value>
+  </data>
+  <data name="battleresult/stagesEarned" xml:space="preserve">
+    <value>Chevrons received</value>
+  </data>
+  <data name="battleresult/status/rankEarned" xml:space="preserve">
+    <value>Rank %(rank)s received</value>
+  </data>
+  <data name="battleresult/status/rankLost" xml:space="preserve">
+    <value>Rank %(rank)s lost</value>
+  </data>
+  <data name="battleresult/status/rankPoint" xml:space="preserve">
+    <value>Rank point received</value>
+  </data>
+  <data name="battleresult/status/shieldCount" xml:space="preserve">
+    <value> 
+Hit points retained: %(count)s</value>
+  </data>
+  <data name="battleresult/status/shieldLose" xml:space="preserve">
+    <value>Rank shield broken!</value>
+  </data>
+  <data name="battleresult/status/shieldLoseStep" xml:space="preserve">
+    <value>Rank shield weakened!</value>
+  </data>
+  <data name="battleresult/status/shieldRenew" xml:space="preserve">
+    <value> 
+Rank shield restored</value>
+  </data>
+  <data name="battleresult/status/shieldWarning" xml:space="preserve">
+    <value> 
+Another defeat may lead to the loss of your rank.</value>
+  </data>
+  <data name="battleresult/status/stageEarned" xml:space="preserve">
+    <value>Chevron received</value>
+  </data>
+  <data name="battleresult/status/stageLost" xml:space="preserve">
+    <value>Chevron lost</value>
+  </data>
+  <data name="battleresult/status/stageNotEarned" xml:space="preserve">
+    <value>Chevron retained</value>
+  </data>
+  <data name="battleresult/status/stageSaved" xml:space="preserve">
+    <value> 
+Chevron retained</value>
+  </data>
+  <data name="battleresult/status/stagesEarned" xml:space="preserve">
+    <value>Chevrons received</value>
+  </data>
+  <data name="rankedBattleCyclesView/tabs/final" xml:space="preserve">
+    <value>Final</value>
+  </data>
+  <data name="rankedBattleCyclesView/tabs/ranks" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/points/currLeagueHeader" xml:space="preserve">
+    <value>Current League</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/points/noLeagueHeader" xml:space="preserve">
+    <value>Outside Leaderboard</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/points/noPriseHeader" xml:space="preserve">
+    <value>Wood League</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/points/totalLabel" xml:space="preserve">
+    <value>Total points: </value>
+  </data>
+  <data name="rankedBattleView/progressBlock/continue" xml:space="preserve">
+    <value>Earn points to receive rewards in the Finals</value>
+  </data>
+  <data name="rankedBattleView/progressBlock/finalRank" xml:space="preserve">
+    <value>Congratulations! You achieved the highest rank %(rank)s in this Season.</value>
+  </data>
+  <data name="rankedBattlesBattleResults/animationCheckBoxLabel" xml:space="preserve">
+    <value>Show animation</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/vehicleRankComment" xml:space="preserve">
+    <value>Regular reward</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/lastComment" xml:space="preserve">
+    <value>Earn points for progressing up the Leaderboard.
+The final reward that you will receive depends on
+your current league.</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip" xml:space="preserve">
+    <value>Information about your current league is temporarily unavailable. Try again later.</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/bottom/missions" xml:space="preserve">
+    <value>Complete Personal Missions</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/bottom/premium" xml:space="preserve">
+    <value>Use Premium Account</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/bottom/reserves" xml:space="preserve">
+    <value>Activate Personal Reserves</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/bottomText" xml:space="preserve">
+    <value>What is the fastest way to research Tier {levels} vehicles?</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/closeBtnLabel" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/headerText" xml:space="preserve">
+    <value>Ranked Battle</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/unreachableText" xml:space="preserve">
+    <value>Mode unavailable:
+you need Tier {levels} vehicles</value>
+  </data>
+  <data name="rankedBattlesUnreachableView/videoBrowser/title" xml:space="preserve">
+    <value>Ranked Battles</value>
+  </data>
+  <data name="rankedBattlesViewHeader/tabs/current" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="rankedBattlesViewHeader/tabs/final" xml:space="preserve">
+    <value>Final</value>
+  </data>
+  <data name="seasonComplete/bigTitle" xml:space="preserve">
+    <value>Season %(season)s Results</value>
+  </data>
+  <data name="seasonComplete/effectLabel" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="seasonComplete/expLabel" xml:space="preserve">
+    <value>Average experience per battle</value>
+  </data>
+  <data name="seasonComplete/leadersButton" xml:space="preserve">
+    <value>Season Leaders</value>
+  </data>
+  <data name="seasonComplete/smallTitle" xml:space="preserve">
+    <value>Ranked Battle</value>
+  </data>
+  <data name="seasonComplete/underLabel" xml:space="preserve">
+    <value>Current League</value>
+  </data>
+  <data name="tooltip/step/decommission/beforeRank" xml:space="preserve">
+    <value>Rank 1 is permanent</value>
+  </data>
+  <data name="tooltip/step/decommissionWin/description" xml:space="preserve">
+    <value>If a player ranks %(fromTill)s on the winning team by experience earned.</value>
+  </data>
+  <data name="tooltip/step/fromTill" xml:space="preserve">
+    <value>%(fromPlace)s–%(tillPlace)s</value>
+  </data>
+  <data name="welcomeScreen/rankDescr" xml:space="preserve">
+    <value>To achieve Rank 1</value>
+  </data>
+  <data name="primeTime/status/disableFirst" xml:space="preserve">
+    <value>Ranked Battles are currently unavailable on this server.</value>
   </data>
 </root>

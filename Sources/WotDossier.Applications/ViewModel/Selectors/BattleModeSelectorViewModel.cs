@@ -18,6 +18,7 @@ namespace WotDossier.Applications.ViewModel.Selectors
 	        new ListItem<BattleMode>(BattleMode.Fallout, Resources.Strings.Profile.profile_dropdown_labels_fallout),
 	        new ListItem<BattleMode>(BattleMode.Ranked, Resources.Strings.Profile.profile_dropdown_labels_ranked),
 			new ListItem<BattleMode>(BattleMode.GrandBattle, Resources.Strings.Profile.profile_dropdown_labels_epicRandom),
+            new ListItem<BattleMode>(BattleMode.EpicBattle, Resources.Strings.EpicBattle.selectorTooltip_epicBattle_enabled_header),
         };
         
         public List<ListItem<BattleMode>> BattleModes

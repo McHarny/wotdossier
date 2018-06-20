@@ -2288,10 +2288,10 @@ to the World of Tanks server '%s'!</value>
     <value>Inscription successfully changed.</value>
   </data>
   <data name="igr/customization/begin" xml:space="preserve">
-    <value>Free Camouflage, Inscriptions, and Emblems are available in %(igrIcon)s.</value>
+    <value>Free camouflage, inscriptions, and emblems are available in %(igrIcon)s.</value>
   </data>
   <data name="igr/customization/end" xml:space="preserve">
-    <value>%(igrIcon)s has expired. Free Camouflage, Inscriptions, and Emblems will be removed from your vehicle.</value>
+    <value>%(igrIcon)s has expired. Free camouflage, inscriptions, and emblems will be removed from your vehicle.</value>
   </data>
   <data name="layout_apply/invalid_vehicle" xml:space="preserve">
     <value>Service error '%(vehName)s'. Wrong vehicle.</value>
@@ -3950,7 +3950,7 @@ You cannot leave the Platoon. You are a Platoon member ready for battle.</value>
     <value>%(vehicles)s</value>
   </data>
   <data name="telecom/notifications/vehicleBlocked/subcomment" xml:space="preserve">
-    <value>Причина: блокировка услуги провайдером. Проверьте статус услуги «Домашний интернет».</value>
+    <value>Причина: блокировка услуги провайдером. Проверьте статус услуги в личном кабинете %(provider)s.</value>
   </data>
   <data name="telecom/notifications/vehicleBlocked/title" xml:space="preserve">
     <value>Vehicle unavailable</value>
@@ -3971,7 +3971,7 @@ You cannot leave the Platoon. You are a Platoon member ready for battle.</value>
 Списано: %(vehicles)s, слот в Ангаре.</value>
   </data>
   <data name="telecom/notifications/vehicleRemoved/subcomment" xml:space="preserve">
-    <value>Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой».</value>
+    <value>Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «%(tariff)s».</value>
   </data>
   <data name="telecom/notifications/vehicleRemoved/title" xml:space="preserve">
     <value>Vehicles removed</value>
@@ -4211,7 +4211,7 @@ You cannot leave the Platoon. You are a Platoon member ready for battle.</value>
     <value>Failed to trade in the %(tradeOffVehName)s. The vehicle will be removed automatically.</value>
   </data>
   <data name="vehicle_trade_in/vehicle_cannot_trade_in" xml:space="preserve">
-    <value>Failed to trade in the %(vehName)s. The vehicle cannot be received under trade-in.</value>
+    <value>Failed to trade in for the %(vehName)s. The vehicle cannot be received under trade-in.</value>
   </data>
   <data name="vehicle_trade_in/vehicle_cannot_trade_off" xml:space="preserve">
     <value>Failed to trade in the %(tradeOffVehName)s. The vehicle is not subject to trade-in.</value>
@@ -4223,7 +4223,7 @@ You cannot leave the Platoon. You are a Platoon member ready for battle.</value>
     <value>Failed to trade in the %(tradeOffVehName)s. Repair the vehicle.</value>
   </data>
   <data name="vehicle_trade_in/vehicle_not_found_in_inventory" xml:space="preserve">
-    <value>Failed to trade in the %(tradeOffVehName)s. The vehicle is not in the Depot.</value>
+    <value>Failed to trade in the %(tradeOffVehName)s. The vehicle is not in the Garage.</value>
   </data>
   <data name="vehicle_trade_in/wallet_not_available" xml:space="preserve">
     <value>Operation unavailable. All your gold will be available after WG Wallet operability is restored automatically.</value>
@@ -4548,5 +4548,143 @@ They can be used again.</value>
   </data>
   <data name="giftTankwoman/success" xml:space="preserve">
     <value>Female crew member successfully recruited.</value>
+  </data>
+  <data name="customization/added/camouflage" xml:space="preserve">
+    <value>Camouflage added</value>
+  </data>
+  <data name="customization/added/camouflageValue" xml:space="preserve">
+    <value>Camouflage added: (x%s)</value>
+  </data>
+  <data name="customization/added/decal" xml:space="preserve">
+    <value>Decal added</value>
+  </data>
+  <data name="customization/added/decalValue" xml:space="preserve">
+    <value>Decal added: (x%s)</value>
+  </data>
+  <data name="customization/added/modification" xml:space="preserve">
+    <value>Effect added</value>
+  </data>
+  <data name="customization/added/modificationValue" xml:space="preserve">
+    <value>Effect added: (x%s)</value>
+  </data>
+  <data name="customization/added/paint" xml:space="preserve">
+    <value>Paint added</value>
+  </data>
+  <data name="customization/added/paintValue" xml:space="preserve">
+    <value>Paint added: (x%s)</value>
+  </data>
+  <data name="customization/added/style" xml:space="preserve">
+    <value>Style added</value>
+  </data>
+  <data name="customization/added/styleValue" xml:space="preserve">
+    <value>Style added: (x%s)</value>
+  </data>
+  <data name="customization/prohibited" xml:space="preserve">
+    <value>Unable to apply: %(itemName)s is not in the inventory.</value>
+  </data>
+  <data name="customization/removed/camouflage" xml:space="preserve">
+    <value>Camouflage removed</value>
+  </data>
+  <data name="customization/removed/decal" xml:space="preserve">
+    <value>Decal removed</value>
+  </data>
+  <data name="customization/removed/modification" xml:space="preserve">
+    <value>Effect removed</value>
+  </data>
+  <data name="customization/removed/paint" xml:space="preserve">
+    <value>Paint removed</value>
+  </data>
+  <data name="customization/removed/style" xml:space="preserve">
+    <value>Style removed</value>
+  </data>
+  <data name="customization/server_error" xml:space="preserve">
+    <value>Unable to customize.</value>
+  </data>
+  <data name="customization/unavailable" xml:space="preserve">
+    <value>Vehicle customization functionality is temporarily disabled due to technical reasons.</value>
+  </data>
+  <data name="squad/notValidMaxSpgDeleted" xml:space="preserve">
+    <value>The %(vehName)s was excluded from the Platoon due to a limitation on the number of SPGs. Select a vehicle of another type.</value>
+  </data>
+  <data name="tokens/notification/mark_acquired" xml:space="preserve">
+    <value>Congratulations! You received %(count)s tokens.</value>
+  </data>
+  <data name="unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER" xml:space="preserve">
+    <value>You have been granted control over Combat Reserves.</value>
+  </data>
+  <data name="unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER" xml:space="preserve">
+    <value>Control over Combat Reserves has been transferred to another player.</value>
+  </data>
+  <data name="customization/removed/camouflageValue" xml:space="preserve">
+    <value>Camouflage removed: (x%s)</value>
+  </data>
+  <data name="customization/removed/decalValue" xml:space="preserve">
+    <value>Decal removed: (x%s)</value>
+  </data>
+  <data name="customization/removed/modificationValue" xml:space="preserve">
+    <value>Effect removed: (x%s)</value>
+  </data>
+  <data name="customization/removed/paintValue" xml:space="preserve">
+    <value>Paint removed: (x%s)</value>
+  </data>
+  <data name="customization/removed/styleValue" xml:space="preserve">
+    <value>Style removed: (x%s)</value>
+  </data>
+  <data name="arena_start_errors/join/QUEUE_FULL" xml:space="preserve">
+    <value>Action unavailable. The queue for this game mode seems to be full at the moment. Please try again later.</value>
+  </data>
+  <data name="arena_start_errors/join/WRONG_VEHICLE_LVL" xml:space="preserve">
+    <value>Error: vehicles of this tier cannot fight in this battle mode.</value>
+  </data>
+  <data name="epicBattles/notification/available" xml:space="preserve">
+    <value>End of Ceasefire: Frontline is available again.</value>
+  </data>
+  <data name="epicBattles/notification/notAvailable" xml:space="preserve">
+    <value>The Frontline mode is unavailable. Follow the updates on the game portal.</value>
+  </data>
+  <data name="epicBattles/notification/primeTime" xml:space="preserve">
+    <value>Frontline is not available until the end of Ceasefire.</value>
+  </data>
+  <data name="unit/errors/BAD_VEHICLES_SET" xml:space="preserve">
+    <value>Action unavailable. Wrong vehicle type for battle in a Platoon.</value>
+  </data>
+  <data name="unit/errors/SWITCH_SIZE_CONSTRAINTS" xml:space="preserve">
+    <value>Unable to switch to another game mode. Platoon members limit exceeded.</value>
+  </data>
+  <data name="unit/errors/WRONG_VEHICLE" xml:space="preserve">
+    <value>Action unavailable. Vehicle is not ready or does not meet the requirements.</value>
+  </data>
+  <data name="customization/added/emblem" xml:space="preserve">
+    <value>Emblem added</value>
+  </data>
+  <data name="customization/added/emblemValue" xml:space="preserve">
+    <value>Emblem added (x%s)</value>
+  </data>
+  <data name="customization/added/inscription" xml:space="preserve">
+    <value>Inscription added</value>
+  </data>
+  <data name="customization/added/inscriptionValue" xml:space="preserve">
+    <value>Inscription added (x%s)</value>
+  </data>
+  <data name="customization/removed/emblem" xml:space="preserve">
+    <value>Emblem removed</value>
+  </data>
+  <data name="customization/removed/emblemValue" xml:space="preserve">
+    <value>Emblem removed (x%s)</value>
+  </data>
+  <data name="customization/removed/inscription" xml:space="preserve">
+    <value>Inscription removed</value>
+  </data>
+  <data name="customization/removed/inscriptionValue" xml:space="preserve">
+    <value>Inscription removed (x%s)</value>
+  </data>
+  <data name="football_recruit_window/success" xml:space="preserve">
+    <value>Crew member successfully recruited.
+%(rank)s, %(name)s
+(%(role)s, %(vehicle)s, 100%%)
+Bunks added to the Barracks: 1</value>
+  </data>
+  <data name="tokens/notification/football_card_acquired" xml:space="preserve">
+    <value>Football cards received: %(count)s</value>
   </data>
 </root>

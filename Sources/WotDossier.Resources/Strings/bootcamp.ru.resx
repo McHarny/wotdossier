@@ -1561,7 +1561,7 @@
     <value>Премиум аккаунт</value>
   </data>
   <data name="result/award/premium/text" xml:space="preserve">
-    <value>Ваш аккаунт получил премиум дни. Премиум аккаунт — это не только больше кредитов и опыта за каждый бой, но и чистый, красивый Ангар.</value>
+    <value>Ваш аккаунт получил премиум дни. Премиум аккаунт — это +50% к заработку опыта и кредитов в каждом бою.</value>
   </data>
   <data name="result/award/repairkit/label" xml:space="preserve">
     <value>Большой ремкомплект</value>

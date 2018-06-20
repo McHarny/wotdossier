@@ -1886,7 +1886,7 @@
 Включает в себя:%(simpleText_close)s
 %(xpIcon)s%(orangeText_open)sБоевой опыт%(orangeText_close)s%(simpleText_open)s используется для изучения новых модулей определённой машины и дальнейшего развития в том проекте игровой вселенной Wargaming, в котором он был заработан.%(simpleText_close)s
 
-%(freeXPIcon)s%(orangeText_open)sСвободный опыт%(orangeText_close)s%(simpleText_open)s используется для изучения доступных модулей и техники в любом из проектов игровой вселенной Wargaming. Использование свободного опыта в одном из проектов отразится на его суммарном количестве во всех проектах. Расходуйте свободный опыт рационально.%(simpleText_close)s</value>
+%(freeXPIcon)s%(orangeText_open)sСвободный опыт%(orangeText_close)s%(simpleText_open)s используется для изучения любых модулей и техники. Расходуйте свободный опыт рационально.%(simpleText_close)s</value>
   </data>
   <data name="freeXPInfo/submitBtnLbl" xml:space="preserve">
     <value>Продолжить</value>
@@ -2939,13 +2939,13 @@
     <value>Отменить</value>
   </data>
   <data name="customization/close/message" xml:space="preserve">
-    <value>На выбранную машину добавлены новые элементы внешнего вида. Подтвердить выход, не применив указанные изменения?</value>
+    <value>Выйти в Ангар без сохранения изменений?</value>
   </data>
   <data name="customization/close/submit" xml:space="preserve">
-    <value>Подтвердить</value>
+    <value>Выйти</value>
   </data>
   <data name="customization/close/title" xml:space="preserve">
-    <value>Подтверждение возврата в Ангар</value>
+    <value>Выход в Ангар</value>
   </data>
   <data name="customization/filter/cancel" xml:space="preserve">
     <value>Отменить</value>
@@ -3286,7 +3286,7 @@
     <value>Отменить</value>
   </data>
   <data name="soundSpeakersPresetDoesNotMatch/message" xml:space="preserve">
-    <value>Выбранный тип акустики отличается от автоматически определённого игрой. Вы можете протестировать изменения звучания. Подтвердить изменения?</value>
+    <value>Выбранный тип акустики отличается от автоматически определённого игрой. Часть звуков может отсутствовать, поэтому рекомендуем протестировать изменения звучания. Подтвердить изменения?</value>
   </data>
   <data name="soundSpeakersPresetDoesNotMatch/submit" xml:space="preserve">
     <value>Подтвердить</value>
@@ -3831,5 +3831,95 @@
   </data>
   <data name="nextBattleOptionConfirmation/title" xml:space="preserve">
     <value>Изменение настроек</value>
+  </data>
+  <data name="gammaDialog/cancel" xml:space="preserve">
+    <value>Начать</value>
+  </data>
+  <data name="gammaDialog/message/description" xml:space="preserve">
+    <value>Боец! Для улучшения изображения на экране проведите настройку своего монитора и скорректируйте цветовую гамму.
+
+ </value>
+  </data>
+  <data name="gammaDialog/message/header" xml:space="preserve">
+    <value>Настройте свой монитор прямо сейчас!</value>
+  </data>
+  <data name="gammaDialog/title" xml:space="preserve">
+    <value>Настройка гаммы</value>
+  </data>
+  <data name="minimapAlphaNotification/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="minimapAlphaNotification/message" xml:space="preserve">
+    <value>&lt;img src='img://gui/maps/icons/library/alertIcon.png' width='16' height='16' vspace='-4' hspace='0'/&gt;&lt;font color='#EE7000'&gt;Внимание!&lt;/font&gt; Включение этой настройки снизит производительность в бою.</value>
+  </data>
+  <data name="minimapAlphaNotification/submit" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="minimapAlphaNotification/title" xml:space="preserve">
+    <value>Прозрачность миникарты</value>
+  </data>
+  <data name="recruitWindow/nationDropdown/italy" xml:space="preserve">
+    <value>Италия</value>
+  </data>
+  <data name="soundSpeakersPresetReset/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="soundSpeakersPresetReset/message" xml:space="preserve">
+    <value>Выбранный тип акустики отличается от автоматически определённого игрой. Часть звуков может отсутствовать. Выставить оптимальные настройки звука?</value>
+  </data>
+  <data name="soundSpeakersPresetReset/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="soundSpeakersPresetReset/title" xml:space="preserve">
+    <value>Несоответствующий тип акустики</value>
+  </data>
+  <data name="epicBattleConfirmDialog/cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="epicBattleConfirmDialog/checkBox" xml:space="preserve">
+    <value>Больше не показывать это предупреждение</value>
+  </data>
+  <data name="epicBattleConfirmDialog/message" xml:space="preserve">
+    <value>В этом режиме будет наблюдаться низкий уровень FPS или графические искажения из-за конфигурации вашего компьютера. Загрузка боя займёт дополнительное время и может завершиться сбоем игрового клиента. Выйти в бой?</value>
+  </data>
+  <data name="epicBattleConfirmDialog/submit" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="epicBattleConfirmDialog/title" xml:space="preserve">
+    <value>Предупреждение о производительности</value>
+  </data>
+  <data name="eula/asia/p1" xml:space="preserve">
+    <value>ВАЖНЫЕ ИЗМЕНЕНИЯ В ЛИЦЕНЗИОННОМ СОГЛАШЕНИИ И УСЛОВИЯХ ИСПОЛЬЗОВАНИЯ</value>
+  </data>
+  <data name="eula/asia/p2" xml:space="preserve">
+    <value>15 июня 2018 года Wargaming объединит Лицензионное соглашение и Условия использования в один документ, а также начнёт использовать отдельное Лицензионное соглашение для Австралии и Новой Зеландии. Предварительное уведомление об этом было отправлено вам на адрес электронной почты, который вы указали при регистрации аккаунта.
+Нажимая кнопку «Принимаю», вы подтверждаете, что внимательно прочитали, поняли и полностью согласны с условиями текущего Лицензионного соглашения (действующего до 15 июня 2018 года), а также нового Лицензионного соглашения (вступающего в силу 15 июня 2018 года), обязуетесь их соблюдать и нести ответственность за их нарушение. Текущее и новое Соглашения (в том числе новое Лицензионное соглашение для Австралии и Новой Зеландии) доступны на нашей странице с юридическими документами для Азиатско-Тихоокеанского региона: &lt;A HREF='event:%(eulaURL)s'&gt;&lt;U&gt;Лицензионное соглашение&lt;/U&gt;&lt;/A&gt;.
+Условия Лицензионного соглашения и дополнений к нему являются существенными и обязательными для всех пользователей.</value>
+  </data>
+  <data name="eula/default/p1" xml:space="preserve">
+    <value>Пожалуйста, ознакомьтесь с условиями &lt;BR/&gt;&lt;A HREF='event:%(eulaURL)s'&gt;&lt;U&gt;Лицензионного соглашения&lt;/U&gt;&lt;/A&gt;, прежде чем продолжить.</value>
+  </data>
+  <data name="eula/default/p2" xml:space="preserve">
+    <value>НАЖИМАЯ КНОПКУ «ПРИНИМАЮ», ВЫ ПОДТВЕРЖДАЕТЕ, ЧТО ВНИМАТЕЛЬНО ПРОЧИТАЛИ, ПОНЯЛИ И ПОЛНОСТЬЮ СОГЛАСНЫ С УСЛОВИЯМИ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ, ОБЯЗУЕТЕСЬ ИХ СОБЛЮДАТЬ И НЕСТИ ОТВЕТСТВЕННОСТЬ ЗА ИХ НАРУШЕНИЕ. УСЛОВИЯ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ И ДОПОЛНЕНИЙ К НЕМУ ЯВЛЯЮТСЯ СУЩЕСТВЕННЫМИ И ОБЯЗАТЕЛЬНЫМИ ДЛЯ ВСЕХ УЧАСТНИКОВ ПРОЕКТА.</value>
+  </data>
+  <data name="eula/na/p1" xml:space="preserve">
+    <value>ВАЖНЫЕ ИЗМЕНЕНИЯ В ЛИЦЕНЗИОННОМ СОГЛАШЕНИИ И УСЛОВИЯХ ИСПОЛЬЗОВАНИЯ</value>
+  </data>
+  <data name="eula/na/p2" xml:space="preserve">
+    <value>15 июня 2018 года Wargaming объединит Лицензионное соглашение и Условия использования в один документ. Предварительное уведомление об этом было отправлено вам на адрес электронной почты, который вы указали при регистрации аккаунта.
+Нажимая кнопку «Принимаю», вы подтверждаете, что внимательно прочитали, поняли и полностью согласны с условиями текущего Лицензионного соглашения (действующего до 15 июня 2018 года), а также нового Лицензионного соглашения (вступающего в силу 15 июня 2018 года), обязуетесь их соблюдать и нести ответственность за их нарушение. Текущее и новое Соглашения доступны на нашей странице с юридическими документами для стран Северной и Южной Америки: &lt;A HREF='event:%(eulaURL)s'&gt;&lt;U&gt;Лицензионное соглашение&lt;/U&gt;&lt;/A&gt;.
+Условия Лицензионного соглашения и дополнений к нему являются существенными и обязательными для всех пользователей.</value>
+  </data>
+  <data name="quitBattleEvent/deserter/cancel" xml:space="preserve">
+    <value>Остаться</value>
+  </data>
+  <data name="quitBattleEvent/deserter/message" xml:space="preserve">
+    <value>Вы нужны команде! Покидание матча до его окончания расценивается как дезертирство, может повлечь общественное порицание и обязательно вызовет недовольство со стороны ваших сокомандников. Возвращайтесь и играйте в футбол!</value>
+  </data>
+  <data name="quitBattleEvent/deserter/submit" xml:space="preserve">
+    <value>Сбежать</value>
+  </data>
+  <data name="quitBattleEvent/deserter/title" xml:space="preserve">
+    <value>Бегство с футбольного поля</value>
   </data>
 </root>

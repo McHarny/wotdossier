@@ -2,6 +2,7 @@
 using System.CodeDom;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Dynamic;
 using System.IO;
 using System.Linq;
@@ -11,6 +12,7 @@ using System.Windows.Input;
 using System.Xml.Linq;
 using Newtonsoft.Json;
 using WotDossier.Common.Extensions;
+using WotDossier.Common.Json;
 using WotDossier.Common.Python;
 using WotDossier.Domain.Dossier.Processor;
 using WotDossier.Domain.Dossier.Utils;
@@ -44,6 +46,7 @@ namespace WotDossier.Domain.Dossier
                             $"{typeof(DossierReader).Namespace}.vehicleDossierLayout.xml"));
                 
                 Hashtable tankItems = (Hashtable)pickle[1];
+                
                 foreach (DictionaryEntry tankItem in tankItems)
                 {
                     var data = ((string)((object[])tankItem.Value)[1]).Select(Convert.ToByte).ToArray();
@@ -62,7 +65,10 @@ namespace WotDossier.Domain.Dossier
                     if (layout == null)
                     {
                         Console.WriteLine($"Invalid tankversion{tankversion}");
-                        continue;
+                        layout = layoutList.Root.Elements("vehicleDossierLayout").OrderByDescending(e => Convert.ToInt32(e.Attribute("version").Value))
+                            .First();
+                        if (layout == null)
+                            continue;
                     }
 
                     var tankData = (layout.Attribute("dossierVersion").Value == "1")
@@ -77,6 +83,17 @@ namespace WotDossier.Domain.Dossier
                     item.Raw = CompressHelper.Compress(JsonConvert.SerializeObject(item));
                     result.Add(item);
                 }
+
+                if (Debugger.IsAttached)
+                {
+                    var settings = new JsonSerializerSettings
+                    {
+                        Formatting = Formatting.Indented,
+                    };
+                    settings.Converters.Add(new WotDossierConverter());
+                    File.WriteAllText(Path.Combine(Folder.DossierLocalAppDataFolder, "Logs", $"{cacheFile}.json"), JsonConvert.SerializeObject(result, settings));
+                }
+
                 return result;
             }
         }

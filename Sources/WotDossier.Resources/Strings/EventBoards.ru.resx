@@ -400,7 +400,7 @@
     <value>Чтобы бои учитывались в соревновании, перейдите на сервер:</value>
   </data>
   <data name="server/noSuitable/body" xml:space="preserve">
-    <value>Ближайшее время учёта боёв: %(time)s на %(server)s. Расписание боёв соревнования</value>
+    <value>Ближайшее время учёта боёв: %(data)s. Расписание боёв соревнования</value>
   </data>
   <data name="server/noSuitable/header" xml:space="preserve">
     <value>В это время бои в рамках соревнования не учитываются</value>
@@ -578,7 +578,7 @@
     <value>Средний опыт</value>
   </data>
   <data name="summary/param/sumN/damageAssisted" xml:space="preserve">
-    <value>Средний урон, нанесённый с помощью игрока</value>
+    <value>Сумма урона, нанесённого с помощью игрока</value>
   </data>
   <data name="summary/param/sumN/damageDealt" xml:space="preserve">
     <value>Сумма урона</value>
@@ -826,7 +826,7 @@
     <value>Вы не занимаете призовое место</value>
   </data>
   <data name="top/position" xml:space="preserve">
-    <value>Позиция:</value>
+    <value>Ваша позиция:</value>
   </data>
   <data name="top/reason/notfull" xml:space="preserve">
     <value>Для попадания в рейтинг осталось провести боёв:</value>
@@ -898,9 +898,24 @@
     <value>Попасть в рейтинг по количеству побед</value>
   </data>
   <data name="task/selection/sumMSeqN" xml:space="preserve">
-    <value>Учитывается следующее количество лучших боёв в серии: %(cardinality)s. Боёв в серии: %(distance)s</value>
+    <value>Учитываются лучшие бои (%(cardinality)s) в серии. Боёв в серии: %(distance)s</value>
   </data>
   <data name="top/participation/notParticipated" xml:space="preserve">
     <value>Вы не участвовали в данном рейтинге</value>
+  </data>
+  <data name="summary/param/sumAll/wins" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="server/noSuitable/server" xml:space="preserve">
+    <value>%(time)s на %(server)s</value>
+  </data>
+  <data name="table/selectParticipateBtn" xml:space="preserve">
+    <value>Покинуть событие</value>
+  </data>
+  <data name="table/selectRatingBtn" xml:space="preserve">
+    <value>Список рейтингов</value>
+  </data>
+  <data name="table/selectRegistrationBtn" xml:space="preserve">
+    <value>Записаться в участники</value>
   </data>
 </root>

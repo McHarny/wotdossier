@@ -385,7 +385,7 @@
     <value>Снять отметку «основной»</value>
   </data>
   <data name="copy" xml:space="preserve">
-    <value>© 2009–2017 Wargaming.net. Все права защищены.</value>
+    <value>© 2009–2018 Wargaming.net. Все права защищены.</value>
   </data>
   <data name="currentVehicleStatus/ammoNotFull" xml:space="preserve">
     <value>Неполный боекомплект</value>
@@ -3099,7 +3099,7 @@
     <value>Время полной перезарядки </value>
   </data>
   <data name="moduleInfo/params/shellReloadingTime" xml:space="preserve">
-    <value>Время перезарядки одного снаряда </value>
+    <value>Время перезарядки между выстрелами </value>
   </data>
   <data name="moduleInfo/params/shellsCount" xml:space="preserve">
     <value>Снарядов в магазине </value>
@@ -3331,7 +3331,7 @@
     <value>Исторический бой</value>
   </data>
   <data name="bonusType/9" xml:space="preserve">
-    <value>Специальный игровой режим</value>
+    <value>Футбольный матч</value>
   </data>
   <data name="contextMenu/selectVehicleInHangar" xml:space="preserve">
     <value>Перейти к машине в Ангаре</value>
@@ -4305,7 +4305,7 @@
     <value>Редактировать заметку</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad" xml:space="preserve">
-    <value>+++Лунный взвод+++</value>
+    <value>Футбольный взвод</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad/descr" xml:space="preserve">
     <value>5 игроков</value>
@@ -5117,21 +5117,21 @@
     <value>Показать в Ангаре</value>
   </data>
   <data name="awardWindow/telecomAward/description" xml:space="preserve">
-    <value>Поздравляем! В рамках тарифного плана «Игровой» вам стали доступны:
+    <value>Поздравляем! В рамках тарифного плана «%(tariff)s» вам стали доступны:
 %(vehicles)s
 • Экипаж, обученный на 100%%;
 • %(prem)s на время действия тарифа;
 • Дополнительный слот в Ангаре.</value>
   </data>
   <data name="awardWindow/telecomAward/description/withBrotherhood" xml:space="preserve">
-    <value>Поздравляем! В рамках тарифного плана «Игровой» вам стали доступны:
+    <value>Поздравляем! В рамках тарифного плана «%(tariff)s» вам стали доступны:
 %(vehicles)s
 • Экипаж, обученный на 100%% (включая полностью изученный навык «Боевое братство»);
 • %(prem)s на время действия тарифа;
 • Дополнительный слот в Ангаре.</value>
   </data>
   <data name="awardWindow/telecomAward/description/withoutCrew" xml:space="preserve">
-    <value>Поздравляем! В рамках тарифного плана «Игровой» вам стали доступны:
+    <value>Поздравляем! В рамках тарифного плана «%(tariff)s» вам стали доступны:
 %(vehicles)s
 • %(prem)s на время действия тарифа;
 • Дополнительный слот в Ангаре.</value>
@@ -5173,7 +5173,7 @@
     <value>Тип ресурса:</value>
   </data>
   <data name="contextMenu/createEventSquad" xml:space="preserve">
-    <value>Создать ++ивентный++ взвод</value>
+    <value>Создать футбольный взвод</value>
   </data>
   <data name="hangar/ammunitionPanel/technicalMaitenance/messageText" xml:space="preserve">
     <value>Установка снаряжения
@@ -5252,7 +5252,7 @@
     <value>Не подходит</value>
   </data>
   <data name="headerButtons/battle/types/squad/event" xml:space="preserve">
-    <value>+++: событие+++</value>
+    <value>: Танковый футбол 2018</value>
   </data>
   <data name="headerButtons/battle/types/squad/randomBattle" xml:space="preserve">
     <value>: случайный бой</value>
@@ -5584,7 +5584,7 @@
     <value>Некорректное поведение в чате</value>
   </data>
   <data name="disconnect/codes/1013" xml:space="preserve">
-    <value>рассинхронизация инвентаря, связанная с компонентом «Камуфляж» (код 1013).</value>
+    <value>рассинхронизация инвентаря, связанная с компонентом «Внешний вид» (код 1013)</value>
   </data>
   <data name="disconnect/codes/1014" xml:space="preserve">
     <value>рассинхронизация инвентаря, связанная с компонентом «Надписи» (код 1014).</value>
@@ -5818,7 +5818,7 @@
     <value>Экономия при обмене</value>
   </data>
   <data name="shop/menu/vehicle/tradeInVehicle/vehForTrade" xml:space="preserve">
-    <value>Можно обменять</value>
+    <value>Доступно для обмена</value>
   </data>
   <data name="tankCarousel/statsStatus/unavailable" xml:space="preserve">
     <value>Данных пока нет</value>
@@ -5842,7 +5842,7 @@
     <value>Бесплатно</value>
   </data>
   <data name="trade/in" xml:space="preserve">
-    <value>Можно обменять</value>
+    <value>Доступно для обмена</value>
   </data>
   <data name="vehicleInfo/params/avgDamage" xml:space="preserve">
     <value>Средний урон за выстрел</value>
@@ -6025,7 +6025,7 @@
     <value>%(min)s мин</value>
   </data>
   <data name="headerButtons/battle/types/ranked/availability/season" xml:space="preserve">
-    <value>Сезон %(season)s, этап %(cycle)s</value>
+    <value>Сезон %(season)s</value>
   </data>
   <data name="headerButtons/battle/types/ranked/availability/until" xml:space="preserve">
     <value>C %(time)s.</value>
@@ -6236,10 +6236,10 @@
     <value>Присоединиться к бою можно только на исследуемой и премиум технике %(levels)s уровня.</value>
   </data>
   <data name="loading/battleTypes/21" xml:space="preserve">
-    <value>Вторжение (PvE)</value>
+    <value>«Линия фронта»</value>
   </data>
   <data name="loading/battleTypes/desc/21" xml:space="preserve">
-    <value>Уничтожьте Левиафана до того, как он достигнет Врат</value>
+    <value> </value>
   </data>
   <data name="pveHalloween/queue/message" xml:space="preserve">
     <value>Сбор команд...</value>
@@ -6333,5 +6333,154 @@
   </data>
   <data name="header/customization/season/winter" xml:space="preserve">
     <value>ЗИМНИЙ</value>
+  </data>
+  <data name="contextMenu/giveEquipmentCommander" xml:space="preserve">
+    <value>Назначить наводчиком</value>
+  </data>
+  <data name="contextMenu/takeEquipmentCommander" xml:space="preserve">
+    <value>Забрать полномочия наводчика</value>
+  </data>
+  <data name="header/account/popover/tutorial/newBadge" xml:space="preserve">
+    <value>ДОСТУПНА НАШИВКА</value>
+  </data>
+  <data name="techtree/Announcement" xml:space="preserve">
+    <value>Скоро</value>
+  </data>
+  <data name="moduleInfo/autoReloadGunLabel" xml:space="preserve">
+    <value>Система дозарядки магазина</value>
+  </data>
+  <data name="moduleInfo/params/autoReloadTime" xml:space="preserve">
+    <value>Время дозарядки одного снаряда </value>
+  </data>
+  <data name="nation_tree/title/italy" xml:space="preserve">
+    <value>Техника Италии</value>
+  </data>
+  <data name="nations/italy" xml:space="preserve">
+    <value>Италия</value>
+  </data>
+  <data name="premium/bonus" xml:space="preserve">
+    <value>Кредитов и опыта
+за каждый бой</value>
+  </data>
+  <data name="tank_params/switchTime" xml:space="preserve">
+    <value>Время перехода в осадный / походный режим</value>
+  </data>
+  <data name="vehicleInfo/params/switchTime" xml:space="preserve">
+    <value>Время перехода в осадный / походный режим (с)</value>
+  </data>
+  <data name="viewHeader/backBtn/label" xml:space="preserve">
+    <value>НАЗАД</value>
+  </data>
+  <data name="viewHeader/closeBtn/label" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="battleAbility/title" xml:space="preserve">
+    <value>Боевые резервы</value>
+  </data>
+  <data name="contextMenu/unequip" xml:space="preserve">
+    <value>Выгрузить</value>
+  </data>
+  <data name="finalStatistic/tabs/epicStats" xml:space="preserve">
+    <value>Личный результат</value>
+  </data>
+  <data name="fittingPopover/manageAbilities" xml:space="preserve">
+    <value>Распределить резервы</value>
+  </data>
+  <data name="headerButtons/battle/menu/attention/lowPerformance" xml:space="preserve">
+    <value>Низкая производительность</value>
+  </data>
+  <data name="headerButtons/battle/menu/attention/reducedPerformance" xml:space="preserve">
+    <value>Снижение производительности</value>
+  </data>
+  <data name="headerButtons/battle/menu/epicBattle" xml:space="preserve">
+    <value>«Линия фронта»</value>
+  </data>
+  <data name="headerButtons/battle/types/epic" xml:space="preserve">
+    <value>«Линия фронта»</value>
+  </data>
+  <data name="headerButtons/battle/types/epic/descr" xml:space="preserve">
+    <value>Режим с автоматическим подбором союзников для игры против случайных противников.</value>
+  </data>
+  <data name="headerButtons/battle/types/epicBattle" xml:space="preserve">
+    <value>Режим ожидания Линии фронта</value>
+  </data>
+  <data name="headerButtons/battle/types/epicBattle/descr" xml:space="preserve">
+    <value>Войти в режим ожидания Линии фронта</value>
+  </data>
+  <data name="headerButtons/battle/types/squad/epic" xml:space="preserve">
+    <value>: «Линия фронта»</value>
+  </data>
+  <data name="internet_provider/Beltelecom/name" xml:space="preserve">
+    <value>Белтелеком</value>
+  </data>
+  <data name="internet_provider/Beltelecom/tariff" xml:space="preserve">
+    <value>Игровой</value>
+  </data>
+  <data name="internet_provider/Rostelecom/name" xml:space="preserve">
+    <value>Ростелеком</value>
+  </data>
+  <data name="internet_provider/Rostelecom/tariff" xml:space="preserve">
+    <value>Игровой</value>
+  </data>
+  <data name="loading/battleTypes/22" xml:space="preserve">
+    <value>«Линия фронта»</value>
+  </data>
+  <data name="loading/battleTypes/desc/22" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="prebattle/startingTankLabel" xml:space="preserve">
+    <value>Ваша первая машина: </value>
+  </data>
+  <data name="tank_params/autoReloadTime" xml:space="preserve">
+    <value>Время дозарядки одного снаряда </value>
+  </data>
+  <data name="vehicleInfo/params/autoReloadTime" xml:space="preserve">
+    <value>Время дозарядки одного снаряда (c)</value>
+  </data>
+  <data name="headerButtons/wiki" xml:space="preserve">
+    <value>Руководство</value>
+  </data>
+  <data name="login/social/status/WGC_ERROR" xml:space="preserve">
+    <value>При авторизации произошла ошибка. Пожалуйста, введите электронную почту и пароль.</value>
+  </data>
+  <data name="login/status/WGC_LOGOUT" xml:space="preserve">
+    <value>Вы вышли из аккаунта %(userName)s. Для входа в игру введите электронную почту и пароль.</value>
+  </data>
+  <data name="descriptions/vehicleGun/autoReload" xml:space="preserve">
+    <value>Перезарядка %(autoReloadTime)s с; Средний урон: %(avgDamageList)s
+Средняя пробиваемость: %(avgPiercingPower)s мм</value>
+  </data>
+  <data name="finalStatistic/commonStats/resultlabel/football_1_lose" xml:space="preserve">
+    <value>Поражение</value>
+  </data>
+  <data name="finalStatistic/commonStats/resultlabel/football_1_win" xml:space="preserve">
+    <value>Победа!</value>
+  </data>
+  <data name="finalStatistic/commonStats/resultlabel/football_2_lose" xml:space="preserve">
+    <value>Поражение</value>
+  </data>
+  <data name="finalStatistic/commonStats/resultlabel/football_2_win" xml:space="preserve">
+    <value>Победа!</value>
+  </data>
+  <data name="finalStatistic/commonStats/resultlabel/football_tie" xml:space="preserve">
+    <value>Ничья</value>
+  </data>
+  <data name="header/vehicleType/role_defender" xml:space="preserve">
+    <value>Защитник</value>
+  </data>
+  <data name="header/vehicleType/role_midfielder" xml:space="preserve">
+    <value>Полузащитник</value>
+  </data>
+  <data name="header/vehicleType/role_striker" xml:space="preserve">
+    <value>Нападающий</value>
+  </data>
+  <data name="tankmen/role_defender" xml:space="preserve">
+    <value>защитник</value>
+  </data>
+  <data name="tankmen/role_midfielder" xml:space="preserve">
+    <value>полузащитник</value>
+  </data>
+  <data name="tankmen/role_striker" xml:space="preserve">
+    <value>нападающий</value>
   </data>
 </root>

@@ -122,7 +122,7 @@
   </data>
   <data name="awards/gotRank" xml:space="preserve">
     <value>Получен
-ранг</value>
+%(rank)s ранг</value>
   </data>
   <data name="awards/next" xml:space="preserve">
     <value>Далее</value>
@@ -149,7 +149,7 @@
     <value>Получение шеврона</value>
   </data>
   <data name="battleResult/rank/unchanged" xml:space="preserve">
-    <value>Шеврон не получен</value>
+    <value>Шеврон сохранён</value>
   </data>
   <data name="battleResult/rank/up" xml:space="preserve">
     <value>Получение ранга</value>
@@ -176,7 +176,8 @@
     <value>Вы не попали в топ-3 игроков проигравшей команды по опыту</value>
   </data>
   <data name="battleresult/rankEarned" xml:space="preserve">
-    <value>Получен ранг</value>
+    <value>Получен
+%(rank)s ранг</value>
   </data>
   <data name="battleresult/rankLost" xml:space="preserve">
     <value>Потерян ранг</value>
@@ -188,7 +189,7 @@
     <value>Потерян шеврон</value>
   </data>
   <data name="battleresult/stageNotEarned" xml:space="preserve">
-    <value>Без изменений</value>
+    <value>Шеврон сохранён</value>
   </data>
   <data name="calendarDay/serverName" xml:space="preserve">
     <value>%(server)s</value>
@@ -219,7 +220,7 @@
     <value>потерян шеврон</value>
   </data>
   <data name="notification/stageNotEarned" xml:space="preserve">
-    <value>шеврон не получен</value>
+    <value>шеврон сохранён</value>
   </data>
   <data name="notification/vehicleRankEarned" xml:space="preserve">
     <value>получен ранг машины</value>
@@ -234,7 +235,7 @@
     <value>Доступные для игры серверы: %(server)s</value>
   </data>
   <data name="primeTime/status/disable" xml:space="preserve">
-    <value>Ранговые бои пока не проводятся, но вы можете продолжить предбоевую подготовку и просмотреть свои результаты.</value>
+    <value>Вы можете перейти на выбранный сервер, чтобы продолжить предбоевую подготовку.</value>
   </data>
   <data name="primeTime/status/thisEnable" xml:space="preserve">
     <value>На сервере %(server)s Ранговые бои доступны ещё: %(time)s.</value>
@@ -268,7 +269,7 @@
     <value>Очков</value>
   </data>
   <data name="rankedBattleCyclesView/title" xml:space="preserve">
-    <value>Сезон %(season)s</value>
+    <value>Награды сезона</value>
   </data>
   <data name="rankedBattleHeader/cycle" xml:space="preserve">
     <value>ЭТАП %(cycle)d</value>
@@ -335,7 +336,7 @@
     <value>Боевая задача</value>
   </data>
   <data name="rankedBattleView/awardBlock/seasonAward/description" xml:space="preserve">
-    <value>Пройдено этапов:</value>
+    <value>Нажмите, чтобы перейти к наградам</value>
   </data>
   <data name="rankedBattleView/awardBlock/seasonAward/header" xml:space="preserve">
     <value>Награды сезона</value>
@@ -377,10 +378,10 @@
     <value>Победить</value>
   </data>
   <data name="rankedBattleView/progressBlock/bestRank" xml:space="preserve">
-    <value>Рекорд этапа</value>
+    <value>Рекорд сезона</value>
   </data>
   <data name="rankedBattleView/progressBlock/currentRank" xml:space="preserve">
-    <value>Текущий ранг</value>
+    <value>Ваш текущий ранг: %(rank)s</value>
   </data>
   <data name="rankedBattleView/progressBlock/steps" xml:space="preserve">
     <value>Шевронов: %(numbers)s</value>
@@ -389,7 +390,7 @@
     <value>Следующий ранг для %(vehicle)s</value>
   </data>
   <data name="rankedBattleView/progressBlock/vehicleRank" xml:space="preserve">
-    <value>Ранг машины на %(vehicle)s</value>
+    <value>Очки ранга</value>
   </data>
   <data name="rankedBattleView/statusBlock/calendarBtnTooltip/body" xml:space="preserve">
     <value>Нажмите, чтобы посмотреть информацию обо всех этапах сезона.</value>
@@ -401,13 +402,13 @@
     <value>Итоги %(cycleNumber)s этапа через %(timeLeft)s</value>
   </data>
   <data name="rankedBattleView/statusBlock/calendarPopover/cycleItem" xml:space="preserve">
-    <value>ЭТАП %(cycleNumber)s:  %(day0)s.%(month0)s - %(day1)s.%(month1)s</value>
+    <value>Сезон %(cycleNumber)s: %(day0)s.%(month0)s - %(day1)s.%(month1)s</value>
   </data>
   <data name="rankedBattleView/statusBlock/statusText" xml:space="preserve">
-    <value>Подведение итогов %(cycleNumber)s этапа через: </value>
+    <value>Подведение итогов сезона через: </value>
   </data>
   <data name="rankedBattleView/title" xml:space="preserve">
-    <value>Этап %(cycle)d</value>
+    <value>Ранговый бой</value>
   </data>
   <data name="rankedBattlesCarousel/lockedTooltip/body" xml:space="preserve">
     <value>Для режима «Ранговый бой» выберите машину X уровня.</value>
@@ -425,7 +426,7 @@
     <value>ЗАКРЫТЬ</value>
   </data>
   <data name="rankedBattlesCyclesView/currentCycle/item/awardRecieved" xml:space="preserve">
-    <value>Награда уже получена</value>
+    <value>Награда получена</value>
   </data>
   <data name="rankedBattlesCyclesView/currentCycle/item/boxTooltip/body" xml:space="preserve">
     <value>Присваивается в конце этапа и содержит различные награды. Количество наград и их качество зависит от полученного ранга.</value>
@@ -446,10 +447,10 @@
     <value>ОЧКИ</value>
   </data>
   <data name="rankedBattlesCyclesView/currentCycle/tableHeader/rank" xml:space="preserve">
-    <value>РАНГ</value>
+    <value>Ранг</value>
   </data>
   <data name="rankedBattlesCyclesView/currentCycle/tableHeader/rankAward" xml:space="preserve">
-    <value>НАГРАДА ЗА ПОЛУЧЕНИЕ РАНГА</value>
+    <value>Награда за получение ранга</value>
   </data>
   <data name="rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body" xml:space="preserve">
     <value>Выдаётся за максимальный результат, достигнутый за время одного этапа. Максимальный результат не отменяется даже при потере ранга.</value>
@@ -468,7 +469,7 @@
 ранг машины:</value>
   </data>
   <data name="rankedBattlesCyclesView/final/btnLadder" xml:space="preserve">
-    <value>Лидеры сезона</value>
+    <value>Показать в таблице</value>
   </data>
   <data name="rankedBattlesCyclesView/final/btnLadderTooltip/body" xml:space="preserve">
     <value>Нажмите, чтобы перейти к списку лидеров сезона и посмотреть свою позицию.</value>
@@ -490,13 +491,13 @@
     <value>следующие %(count)s</value>
   </data>
   <data name="rankedBattlesCyclesView/final/last" xml:space="preserve">
-    <value>вне ладдера</value>
+    <value>Непризовая лига</value>
   </data>
   <data name="rankedBattlesCyclesView/final/tableHeader/position" xml:space="preserve">
-    <value>ПОЗИЦИЯ В ЛАДДЕРЕ</value>
+    <value>Позиция в рейтинге</value>
   </data>
   <data name="rankedBattlesCyclesView/final/tableHeader/seasonAward" xml:space="preserve">
-    <value>НАГРАДА В КОНЦЕ СЕЗОНА</value>
+    <value>Награда в конце сезона</value>
   </data>
   <data name="rankedBattlesCyclesView/noAchievements/future/footer" xml:space="preserve">
     <value>С %(start)s по %(end)s</value>
@@ -523,7 +524,7 @@
     <value>Ваш лучший ранг</value>
   </data>
   <data name="seasonComplete/placeInRating" xml:space="preserve">
-    <value>Лидеры сезона</value>
+    <value>Позиция в рейтинге</value>
   </data>
   <data name="seasonComplete/placeInRating/tooltip/body" xml:space="preserve">
     <value>Нажмите, чтобы перейти к списку лидеров сезона. Награда будет начислена автоматически.</value>
@@ -544,13 +545,13 @@
     <value>Этап %(stage)s окончен</value>
   </data>
   <data name="seasonComplete/totalScores" xml:space="preserve">
-    <value>Очков за весь сезон</value>
+    <value>Очки за сезон</value>
   </data>
   <data name="selectorTooltip/desc" xml:space="preserve">
     <value>Бои на технике десятого уровня по правилам стандартного боя. Команды подбираются из игроков примерно одного ранга.</value>
   </data>
   <data name="selectorTooltip/tillEnd" xml:space="preserve">
-    <value>До конца этапа:</value>
+    <value>До конца сезона:</value>
   </data>
   <data name="selectorTooltip/timeTable/empty" xml:space="preserve">
     <value>—</value>
@@ -571,7 +572,7 @@
     <value>Лидеры сезона</value>
   </data>
   <data name="statistic/vehicleRank" xml:space="preserve">
-    <value>Заслуженный ранг</value>
+    <value>Заработанные очки ранга</value>
   </data>
   <data name="status/timeLeft/days" xml:space="preserve">
     <value>%(day)s д.</value>
@@ -599,8 +600,7 @@
     <value>Начисляется</value>
   </data>
   <data name="tooltip/step/decommission/description" xml:space="preserve">
-    <value>Если игрок не попал в топ-%(battlesNum)s проигравшей команды по опыту.
-Шевроны перед I рангом не списываются.</value>
+    <value>Если игрок занял %(fromTill)s место по опыту в проигравшей команде.</value>
   </data>
   <data name="tooltip/step/decommission/header" xml:space="preserve">
     <value>Списывается</value>
@@ -615,7 +615,7 @@
     <value>проигравшей команды</value>
   </data>
   <data name="tooltip/step/notCharged/description" xml:space="preserve">
-    <value>Если игрок не попал в топ-%(battlesNum)s победившей команды по опыту.</value>
+    <value>Если игрок не попал в топ-%(battlesNum)s по опыту в победившей команде и занял %(fromTill)s место.</value>
   </data>
   <data name="tooltip/step/notCharged/header" xml:space="preserve">
     <value>Сохраняется</value>
@@ -712,7 +712,7 @@
     <value>Вы не попали в топ-{topNumber} игроков победившей команды по опыту</value>
   </data>
   <data name="battleresult/stageSaved" xml:space="preserve">
-    <value>Без изменений</value>
+    <value>Шеврон защищён</value>
   </data>
   <data name="calendarStepsTooltip/title" xml:space="preserve">
     <value>Расписание этапов</value>
@@ -743,7 +743,7 @@
     <value>БЕТА</value>
   </data>
   <data name="tooltip/step/notChargedLose/description" xml:space="preserve">
-    <value>Если игрок попал в топ-%(battlesNum)s проигравшей команды по опыту.</value>
+    <value>Если игрок не попал в топ-%(battlesNum)s по опыту в проигравшей команде, но занял %(fromTill)s место.</value>
   </data>
   <data name="rankedBattlesUnreachableView/bottom/missions" xml:space="preserve">
     <value>Выполняйте боевые задачи</value>
@@ -767,12 +767,150 @@
     <value>Лидеры сезона</value>
   </data>
   <data name="rankedBattlesUnreachableView/unreachableText" xml:space="preserve">
-    <value>Режим недоступен: нужна техника {levels} уровня</value>
+    <value>Режим недоступен:
+нужна техника {levels} уровня</value>
   </data>
   <data name="rankedBattlesUnreachableView/videoBrowser/title" xml:space="preserve">
     <value>Ранговые бои</value>
   </data>
   <data name="rankedBattlesUnreachableView/videoBtnLabel" xml:space="preserve">
     <value>Видео о режиме</value>
+  </data>
+  <data name="awards/gotLadderPoint" xml:space="preserve">
+    <value>Получено
+очко
+ранга</value>
+  </data>
+  <data name="awards/ladderPointsTotal" xml:space="preserve">
+    <value>Всего очков получено: %(scores)s</value>
+  </data>
+  <data name="battleresult/headerText" xml:space="preserve">
+    <value>Результаты боя</value>
+  </data>
+  <data name="battleresult/shieldLose" xml:space="preserve">
+    <value>Защита ранга ослабла</value>
+  </data>
+  <data name="battleresult/stagesEarned" xml:space="preserve">
+    <value>Получены шевроны</value>
+  </data>
+  <data name="battleresult/status/rankEarned" xml:space="preserve">
+    <value>Получен %(rank)s ранг</value>
+  </data>
+  <data name="battleresult/status/rankLost" xml:space="preserve">
+    <value>%(rank)s ранг потерян</value>
+  </data>
+  <data name="battleresult/status/rankPoint" xml:space="preserve">
+    <value>Получено очко ранга</value>
+  </data>
+  <data name="battleresult/status/shieldCount" xml:space="preserve">
+    <value> 
+Осталось очков прочности: %(count)s</value>
+  </data>
+  <data name="battleresult/status/shieldLose" xml:space="preserve">
+    <value>Защита ранга разбита!</value>
+  </data>
+  <data name="battleresult/status/shieldLoseStep" xml:space="preserve">
+    <value>Защита ранга ослабла!</value>
+  </data>
+  <data name="battleresult/status/shieldRenew" xml:space="preserve">
+    <value> 
+Защита ранга восстановлена</value>
+  </data>
+  <data name="battleresult/status/shieldWarning" xml:space="preserve">
+    <value> 
+При следующем поражении вы можете потерять ранг.</value>
+  </data>
+  <data name="battleresult/status/stageEarned" xml:space="preserve">
+    <value>Получен шеврон</value>
+  </data>
+  <data name="battleresult/status/stageLost" xml:space="preserve">
+    <value>Шеврон потерян</value>
+  </data>
+  <data name="battleresult/status/stageNotEarned" xml:space="preserve">
+    <value>Шеврон сохранён</value>
+  </data>
+  <data name="battleresult/status/stageSaved" xml:space="preserve">
+    <value> 
+Шеврон защищён</value>
+  </data>
+  <data name="battleresult/status/stagesEarned" xml:space="preserve">
+    <value>Получены шевроны</value>
+  </data>
+  <data name="rankedBattleCyclesView/tabs/final" xml:space="preserve">
+    <value>Финальные</value>
+  </data>
+  <data name="rankedBattleCyclesView/tabs/ranks" xml:space="preserve">
+    <value>За ранг</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/points/currLeagueHeader" xml:space="preserve">
+    <value>Текущая лига</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/points/noLeagueHeader" xml:space="preserve">
+    <value>Вне рейтинга</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/points/noPriseHeader" xml:space="preserve">
+    <value>Непризовая лига</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/points/totalLabel" xml:space="preserve">
+    <value>Всего очков: </value>
+  </data>
+  <data name="rankedBattleView/progressBlock/continue" xml:space="preserve">
+    <value>Продолжайте зарабатывать очки для получения награды в финале</value>
+  </data>
+  <data name="rankedBattleView/progressBlock/finalRank" xml:space="preserve">
+    <value>Поздравляем! В этом сезоне вы заслужили наивысший %(rank)s ранг.</value>
+  </data>
+  <data name="rankedBattlesBattleResults/animationCheckBoxLabel" xml:space="preserve">
+    <value>Показывать анимацию</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/vehicleRankComment" xml:space="preserve">
+    <value>Регулярная награда</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/lastComment" xml:space="preserve">
+    <value>Зарабатывайте очки и продвигайтесь вверх по рейтинговой таблице.
+Финальная награда, которую вы получите, зависит от
+текущей лиги.</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip" xml:space="preserve">
+    <value>Информация о текущей лиге временно недоступна. Попробуйте позже.</value>
+  </data>
+  <data name="rankedBattlesViewHeader/tabs/current" xml:space="preserve">
+    <value>За ранг</value>
+  </data>
+  <data name="rankedBattlesViewHeader/tabs/final" xml:space="preserve">
+    <value>Финальные</value>
+  </data>
+  <data name="seasonComplete/bigTitle" xml:space="preserve">
+    <value>Итоги сезона %(season)s</value>
+  </data>
+  <data name="seasonComplete/effectLabel" xml:space="preserve">
+    <value>Эффективность</value>
+  </data>
+  <data name="seasonComplete/expLabel" xml:space="preserve">
+    <value>Средний опыт за бой</value>
+  </data>
+  <data name="seasonComplete/leadersButton" xml:space="preserve">
+    <value>Лидеры сезона</value>
+  </data>
+  <data name="seasonComplete/smallTitle" xml:space="preserve">
+    <value>Ранговый бой</value>
+  </data>
+  <data name="seasonComplete/underLabel" xml:space="preserve">
+    <value>Текущая лига</value>
+  </data>
+  <data name="tooltip/step/decommission/beforeRank" xml:space="preserve">
+    <value>При этом ранг 1 потерять нельзя</value>
+  </data>
+  <data name="tooltip/step/decommissionWin/description" xml:space="preserve">
+    <value>Если игрок занял %(fromTill)s место по опыту в победившей команде.</value>
+  </data>
+  <data name="tooltip/step/fromTill" xml:space="preserve">
+    <value>%(fromPlace)s-%(tillPlace)s</value>
+  </data>
+  <data name="welcomeScreen/rankDescr" xml:space="preserve">
+    <value>Для достижения первого ранга</value>
+  </data>
+  <data name="primeTime/status/disableFirst" xml:space="preserve">
+    <value>В данный момент Ранговые бои недоступны на этом сервере.</value>
   </data>
 </root>

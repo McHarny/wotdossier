@@ -87,6 +87,11 @@
                      ConverterParameter={x:Static domain:BattleMode.GrandBattle}}">
                 <tabs:RecentActivityTab></tabs:RecentActivityTab>
             </TabItem>
+            <TabItem TabIndex="0" Header="{Binding PeriodTabHeader}"
+                     Visibility="{Binding BattleModeSelector.BattleMode, Converter={x:Static converters:BattleModeToVisibilityConverter.Default}, 
+                     ConverterParameter={x:Static domain:BattleMode.EpicBattle}}">
+                <tabs:RecentActivityTab></tabs:RecentActivityTab>
+            </TabItem>
             
             <!--Session-->
             <!--<TabItem TabIndex="0" Header="{x:Static Resources:Resources.Tab_Header_Session}" Name="tabSession">
@@ -134,6 +139,13 @@
             <TabItem Header="{x:Static resources:Resources.Tab_Header_Achievements}"
                      Visibility="{Binding BattleModeSelector.BattleMode, Converter={x:Static converters:BattleModeToVisibilityConverter.Default}, 
                      ConverterParameter={x:Static domain:BattleMode.Ranked}}">
+                <ScrollViewer>
+                    <controls:Achievements DataContext="{Binding PlayerStatistic}"></controls:Achievements>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="{x:Static resources:Resources.Tab_Header_Achievements}"
+                     Visibility="{Binding BattleModeSelector.BattleMode, Converter={x:Static converters:BattleModeToVisibilityConverter.Default}, 
+                     ConverterParameter={x:Static domain:BattleMode.EpicBattle}}">
                 <ScrollViewer>
                     <controls:Achievements DataContext="{Binding PlayerStatistic}"></controls:Achievements>
                 </ScrollViewer>

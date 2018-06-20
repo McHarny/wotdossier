@@ -82,13 +82,16 @@
     <Compile Include="Entities\FavoritePlayerEntity.cs" />
     <Compile Include="Entities\GrandBattleBattlesStatisticEntity.cs" />
     <Compile Include="Entities\IRevised.cs" />
+    <Compile Include="Entities\EpicBattlesAchievementsEntity.cs" />
     <Compile Include="Entities\RankedBattlesAchievementsEntity.cs" />
+    <Compile Include="Entities\EpicBattlesStatisticEntity.cs" />
     <Compile Include="Entities\RankedBattlesStatisticEntity.cs" />
     <Compile Include="Entities\TankGrandBattleBattlesStatisticEntity.cs" />
     <Compile Include="Entities\TankRankedBattlesStatisticEntity.cs" />
     <Compile Include="Entities\VehicleEntity.cs" />
     <Compile Include="Folder.cs" />
     <Compile Include="GameplayDescription.cs" />
+    <Compile Include="Interfaces\IEpicBattleAchievements.cs" />
     <Compile Include="Interfaces\IFortAchievements.cs" />
     <Compile Include="Interfaces\IClanBattlesAchievements.cs" />
     <Compile Include="Interfaces\IMapDescription.cs" />
@@ -201,6 +204,7 @@
     <Compile Include="Tank\AchievementsHistorical.cs" />
     <Compile Include="Tank\Achievements7x7.cs" />
     <Compile Include="Interfaces\ITankFilterable.cs" />
+    <Compile Include="Tank\AchievementsEpicBattle.cs" />
     <Compile Include="Tank\AchievementsRanked.cs" />
     <Compile Include="Tank\AchievementsRandom.cs">
       <SubType>Code</SubType>
@@ -215,6 +219,7 @@
     <Compile Include="Tank\RatingExpectancy.cs" />
     <Compile Include="Tank\ShellDescription.cs" />
     <Compile Include="Tank\StatisticJson.cs" />
+    <Compile Include="Tank\StatisticJsonEpicBattle.cs" />
     <Compile Include="Tank\StatisticJsonFallout.cs" />
     <Compile Include="Tank\StatisticJsonFort.cs" />
     <Compile Include="Tank\StatisticJsonSortie.cs" />
@@ -249,7 +254,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_DetectChanges="False" BuildVersion_StartDate="2000/1/1" BuildVersion_UseGlobalSettings="True" />
+      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" BuildVersion_DetectChanges="False" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

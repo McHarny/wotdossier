@@ -618,4 +618,7 @@
   <data name="PersonalMissionsPlanRegion/mainAward/radio" xml:space="preserve">
     <value />
   </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/hullAndTurret" xml:space="preserve">
+    <value>  </value>
+  </data>
 </root>

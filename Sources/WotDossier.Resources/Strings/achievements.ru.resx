@@ -637,11 +637,11 @@
   <data name="globalRating_descr" xml:space="preserve">
     <value>Личный рейтинг — показатель игровых навыков и опытности, при расчёте которого учитываются:
 
-• Победы
-• Урон, нанесённый с вашей помощью
-• Средний урон за бой
-• Средний опыт за бой
-• Выживаемость
+• победы;
+• урон, нанесённый с вашей помощью;
+• средний урон за бой;
+• средний опыт за бой;
+• выживаемость.
 
 Значение личного рейтинга уточняется с увеличением количества проведённых боёв.</value>
   </data>
@@ -895,7 +895,7 @@
   <data name="pattonValley_condition" xml:space="preserve">
     <value>	• M46 Patton
 	• M46 Patton KR
-	• M48A1 Patton III
+	• M48A5 Patton
 	• M48A2/T54E2/T123E6
 	• M60
 
@@ -914,11 +914,11 @@
 • Выдаётся только в Случайных боях.</value>
   </data>
   <data name="sinai_condition" xml:space="preserve">
-    <value>• ИС, ИС-2, ИС-3, ИС-3&amp;nbsp;с&amp;nbsp;МЗ, ИС-4, ИС-5, ИС-6, ИС-7, Кировец-1, Т-10
+    <value>• ИС, ИС-М, ИС-2, ИС-3, ИС-3&amp;nbsp;с&amp;nbsp;МЗ, ИС-4, ИС-5, ИС-6, ИС-7, Кировец-1, Т-10
 
 • ИСУ-122С, ИСУ-130, ИСУ-152
 
-• Объект&amp;nbsp;252У, «Защитник», Объект&amp;nbsp;260, Объект&amp;nbsp;261, Объект&amp;nbsp;263, Объект&amp;nbsp;268, Объект&amp;nbsp;704
+• Объект&amp;nbsp;252У, «Защитник», Объект&amp;nbsp;260, Объект&amp;nbsp;261, Объект&amp;nbsp;257, Объект&amp;nbsp;263, Объект&amp;nbsp;268, Объект&amp;nbsp;268&amp;nbsp;Вариант&amp;nbsp;4, Объект&amp;nbsp;704
 
 • Учитывается только техника СССР.
 • Засчитывается сумма результатов по всем машинам.
@@ -2296,10 +2296,10 @@
     <value>За проявленный героизм при повышении атмосферы праздника до V уровня вы получаете медаль «Хвоин II степени»</value>
   </data>
   <data name="honoredRank" xml:space="preserve">
-    <value>Ранг машины</value>
+    <value>Очки ранга</value>
   </data>
   <data name="honoredRank_descr" xml:space="preserve">
-    <value>Показывает, как высоко вы поднялись на данной машине в Ранговых боях.</value>
+    <value>Очки ранга для техники зарабатываются после получения максимального ранга в сезоне.</value>
   </data>
   <data name="mechanicEngineer9" xml:space="preserve">
     <value>«Инженер-механик: Польша»</value>
@@ -2454,5 +2454,334 @@
   </data>
   <data name="rare1320_descr" xml:space="preserve">
     <value>Выдавалась за выполнение боевых задач, приуроченных к WG Fest 2017.</value>
+  </data>
+  <data name="mechanicEngineer10" xml:space="preserve">
+    <value>«Инженер-механик: Италия»</value>
+  </data>
+  <data name="mechanicEngineer10_condition" xml:space="preserve">
+    <value>• Неисследованные модули не являются препятствием.</value>
+  </data>
+  <data name="mechanicEngineer10_descr" xml:space="preserve">
+    <value>Исследовать всю технику в Дереве исследований Италии.</value>
+  </data>
+  <data name="rankedBattlesHero" xml:space="preserve">
+    <value>Герой Ранговых боёв</value>
+  </data>
+  <data name="rankedBattlesHero_condition" xml:space="preserve">
+    <value>• Выдаётся по окончании каждого сезона Ранговых боёв.</value>
+  </data>
+  <data name="rankedBattlesHero_descr" xml:space="preserve">
+    <value>Достигнуть максимального ранга в режиме «Ранговый бой».</value>
+  </data>
+  <data name="rankedBattlesSeasonOne" xml:space="preserve">
+    <value>Участник первого сезона Ранговых боёв</value>
+  </data>
+  <data name="rankedBattlesSeasonOne_condition" xml:space="preserve">
+    <value>• Выдаётся по окончании первого сезона Ранговых боёв.</value>
+  </data>
+  <data name="rankedBattlesSeasonOne_descr" xml:space="preserve">
+    <value>Одержать 10 побед в первом сезоне Ранговых боёв.</value>
+  </data>
+  <data name="tankExpert10" xml:space="preserve">
+    <value>«Эксперт: Италия»</value>
+  </data>
+  <data name="tankExpert10_descr" xml:space="preserve">
+    <value>Уничтожить всю технику из Дерева исследований Италии, исключая премиум и наградные машины.
+• Засчитывается техника, уничтоженная в Случайных, Командных и Ротных боях, в боях при Наступлениях, на Глобальной карте, а также в Учебном бою (первые 10 боёв).</value>
+  </data>
+  <data name="frontlineMedal" xml:space="preserve">
+    <value>«Гроза передовой»</value>
+  </data>
+  <data name="frontlineMedal_descr" xml:space="preserve">
+    <value>Получить максимальный уровень в режиме «Линия фронта».</value>
+  </data>
+  <data name="generalOfTheArmy" xml:space="preserve">
+    <value>«Главнокомандующий»</value>
+  </data>
+  <data name="generalOfTheArmy_condition" xml:space="preserve">
+    <value>• Заслужить звание генерала.
+• Выдаётся только в режиме «Линия фронта».</value>
+  </data>
+  <data name="generalOfTheArmy_descr" xml:space="preserve">
+    <value>Заработать наибольшее количество опыта за бой.</value>
+  </data>
+  <data name="ironShield" xml:space="preserve">
+    <value>«Железный щит»</value>
+  </data>
+  <data name="ironShield_condition" xml:space="preserve">
+    <value>• Машины противника должны находиться в зоне захвата базы при получении вашего урона.
+• База не должна быть захвачена в момент нанесения урона.
+• Машины противника должны находиться в радиусе 150 метров от основных целей.
+• Основная цель не должна быть уничтожена в момент нанесения урона противнику.
+• Выдаётся только в режиме «Линия фронта».</value>
+  </data>
+  <data name="ironShield_descr" xml:space="preserve">
+    <value>Играя за обороняющихся, нанести не менее 1800 урона машинам противника, находящимся в зонах захвата баз или в радиусе 150 метров от основных целей.</value>
+  </data>
+  <data name="occupyingForce" xml:space="preserve">
+    <value>«Штурмовик»</value>
+  </data>
+  <data name="occupyingForce_condition" xml:space="preserve">
+    <value>• Заработать 100 очков захвата базы.
+• Уничтожить ДОТ противника.
+• Выдаётся только в режиме «Линия фронта».</value>
+  </data>
+  <data name="occupyingForce_descr" xml:space="preserve">
+    <value>Играя за атакующих, заработать 100 очков захвата базы или уничтожить ДОТ противника.</value>
+  </data>
+  <data name="smallArmy" xml:space="preserve">
+    <value>«Штурмовой взвод»</value>
+  </data>
+  <data name="smallArmy_condition" xml:space="preserve">
+    <value>• Выдаётся взводу, уничтожившему наибольшее количество машин противника.
+• Если несколько взводов уничтожили одинаковое количество машин (не менее 20), награда выдаётся взводу с наибольшей суммой заработанного опыта.
+• Выдаётся всем игрокам взвода.
+• Выдаётся только в режиме «Линия фронта».</value>
+  </data>
+  <data name="smallArmy_descr" xml:space="preserve">
+    <value>Взвод должен уничтожить не менее 20 машин противника.</value>
+  </data>
+  <data name="supremeGun" xml:space="preserve">
+    <value>«Профессионал»</value>
+  </data>
+  <data name="supremeGun_condition" xml:space="preserve">
+    <value>• Не наносить урон союзникам.
+• Учитывается нанесённый урон, урон союзников, нанесённый с вашей помощью, а также урон от применения боевых резервов.
+• Если несколько игроков нанесли одинаковое количество урона, награда выдаётся игроку с наибольшим количеством заработанного опыта.
+• Выдаётся только в режиме «Линия фронта».</value>
+  </data>
+  <data name="supremeGun_descr" xml:space="preserve">
+    <value>Нанести за бой больше всех суммарного урона, включая урон по разведданным или после сбития гусеницы, но не менее 10 000 ед.</value>
+  </data>
+  <data name="rankedBattlesHeroProgress" xml:space="preserve">
+    <value>Герой Ранговых боёв</value>
+  </data>
+  <data name="rankedBattlesHeroProgress_condition" xml:space="preserve">
+    <value>• Выдаётся по окончании каждого сезона Ранговых боёв.</value>
+  </data>
+  <data name="rankedBattlesHeroProgress_descr" xml:space="preserve">
+    <value>Достигнуть максимального ранга в режиме «Ранговый бой».</value>
+  </data>
+  <data name="FE18ClosedStage1" xml:space="preserve">
+    <value>Полевой игрок II степени</value>
+  </data>
+  <data name="FE18ClosedStage1_condition" xml:space="preserve">
+    <value>• Результат матча не имеет значения.
+• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18ClosedStage1_descr" xml:space="preserve">
+    <value>Сыграть как минимум один матч в рамках одного этапа турнира «Серебряный мяч».</value>
+  </data>
+  <data name="FE18ClosedStage2" xml:space="preserve">
+    <value>Полевой игрок I степени</value>
+  </data>
+  <data name="FE18ClosedStage2_condition" xml:space="preserve">
+    <value>• Результат матча не имеет значения.
+• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18ClosedStage2_descr" xml:space="preserve">
+    <value>Сыграть как минимум по одному матчу в рамках двух этапов турнира «Серебряный мяч».</value>
+  </data>
+  <data name="FE18ClosedStage3" xml:space="preserve">
+    <value>Полевой игрок II степени</value>
+  </data>
+  <data name="FE18ClosedStage3_condition" xml:space="preserve">
+    <value>• Результат матча не имеет значения.
+• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18ClosedStage3_descr" xml:space="preserve">
+    <value>Сыграть как минимум один матч в рамках одного этапа турнира «Серебряный мяч».</value>
+  </data>
+  <data name="FE18ClosedStage4" xml:space="preserve">
+    <value>Полевой игрок I степени</value>
+  </data>
+  <data name="FE18ClosedStage4_condition" xml:space="preserve">
+    <value>• Результат матча не имеет значения.
+• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18ClosedStage4_descr" xml:space="preserve">
+    <value>Сыграть как минимум по одному матчу в рамках двух этапов турнира «Серебряный мяч».</value>
+  </data>
+  <data name="FE18Collection1" xml:space="preserve">
+    <value>Начинающий коллекционер</value>
+  </data>
+  <data name="FE18Collection1_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18Collection1_descr" xml:space="preserve">
+    <value>Получить 30 очков коллекции.</value>
+  </data>
+  <data name="FE18Collection2" xml:space="preserve">
+    <value>Опытный коллекционер</value>
+  </data>
+  <data name="FE18Collection2_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18Collection2_descr" xml:space="preserve">
+    <value>Получить 60 очков Коллекции.</value>
+  </data>
+  <data name="FE18Collection3" xml:space="preserve">
+    <value>«Буффонище! Футболище!»</value>
+  </data>
+  <data name="FE18Collection3_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18Collection3_descr" xml:space="preserve">
+    <value>Получить 100 очков Коллекции.</value>
+  </data>
+  <data name="FE18OpenFinalStage" xml:space="preserve">
+    <value>Финишная прямая</value>
+  </data>
+  <data name="FE18OpenFinalStage_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18OpenFinalStage_descr" xml:space="preserve">
+    <value>Дойти до финала в рамках турнира «Золотой мяч».</value>
+  </data>
+  <data name="FE18OpenFirstPlace" xml:space="preserve">
+    <value>«Такой футбол нам нужен!»</value>
+  </data>
+  <data name="FE18OpenFirstPlace_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18OpenFirstPlace_descr" xml:space="preserve">
+    <value>Победить в финальном матче турнира «Золотой мяч».</value>
+  </data>
+  <data name="FE18OpenPlayOff" xml:space="preserve">
+    <value>Игра на вылет</value>
+  </data>
+  <data name="FE18OpenPlayOff_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18OpenPlayOff_descr" xml:space="preserve">
+    <value>Дойти до плей-офф в рамках турнира «Золотой мяч».</value>
+  </data>
+  <data name="FE18OpenRegistration" xml:space="preserve">
+    <value>Участник турнира</value>
+  </data>
+  <data name="FE18OpenRegistration_condition" xml:space="preserve">
+    <value>• Результат матча не имеет значения.
+• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18OpenRegistration_descr" xml:space="preserve">
+    <value>Сыграть как минимум один матч в рамках турнира «Золотой мяч».</value>
+  </data>
+  <data name="FE18SoloDefender1" xml:space="preserve">
+    <value>Защитник IV степени</value>
+  </data>
+  <data name="FE18SoloDefender1_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18SoloDefender1_descr" xml:space="preserve">
+    <value>Попасть на любую позицию в рейтинговой таблице защитников в рамках одного этапа футбольного события.</value>
+  </data>
+  <data name="FE18SoloDefender2" xml:space="preserve">
+    <value>Защитник III степени</value>
+  </data>
+  <data name="FE18SoloDefender2_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18SoloDefender2_descr" xml:space="preserve">
+    <value>Попасть на любую позицию в рейтинговой таблице защитников в каждом из двух этапов футбольного события.</value>
+  </data>
+  <data name="FE18SoloDefender3" xml:space="preserve">
+    <value>Защитник II степени</value>
+  </data>
+  <data name="FE18SoloDefender3_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18SoloDefender3_descr" xml:space="preserve">
+    <value>Попасть на любую позицию в рейтинговой таблице защитников в каждом из трёх этапов футбольного события.</value>
+  </data>
+  <data name="FE18SoloDefender4" xml:space="preserve">
+    <value>Защитник I степени</value>
+  </data>
+  <data name="FE18SoloDefender4_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18SoloDefender4_descr" xml:space="preserve">
+    <value>Попасть на любую позицию в рейтинговой таблице защитников в каждом из четырёх этапов футбольного события.</value>
+  </data>
+  <data name="FE18SoloMidfielder1" xml:space="preserve">
+    <value>Полузащитник IV степени</value>
+  </data>
+  <data name="FE18SoloMidfielder1_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18SoloMidfielder1_descr" xml:space="preserve">
+    <value>Попасть на любую позицию в рейтинговой таблице полузащитников в рамках одного этапа футбольного события.</value>
+  </data>
+  <data name="FE18SoloMidfielder2" xml:space="preserve">
+    <value>Полузащитник III степени</value>
+  </data>
+  <data name="FE18SoloMidfielder2_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18SoloMidfielder2_descr" xml:space="preserve">
+    <value>Попасть на любую позицию в рейтинговой таблице полузащитников в каждом из двух этапов футбольного события.</value>
+  </data>
+  <data name="FE18SoloMidfielder3" xml:space="preserve">
+    <value>Полузащитник II степени</value>
+  </data>
+  <data name="FE18SoloMidfielder3_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18SoloMidfielder3_descr" xml:space="preserve">
+    <value>Попасть на любую позицию в рейтинговой таблице полузащитников в каждом из трёх этапов футбольного события.</value>
+  </data>
+  <data name="FE18SoloMidfielder4" xml:space="preserve">
+    <value>Полузащитник I степени</value>
+  </data>
+  <data name="FE18SoloMidfielder4_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18SoloMidfielder4_descr" xml:space="preserve">
+    <value>Попасть на любую позицию в рейтинговой таблице полузащитников в каждом из четырёх этапов футбольного события.</value>
+  </data>
+  <data name="FE18SoloStriker1" xml:space="preserve">
+    <value>Нападающий IV степени</value>
+  </data>
+  <data name="FE18SoloStriker1_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18SoloStriker1_descr" xml:space="preserve">
+    <value>Попасть на любую позицию в рейтинговой таблице нападающих в рамках одного этапа футбольного события.</value>
+  </data>
+  <data name="FE18SoloStriker2" xml:space="preserve">
+    <value>Нападающий III степени</value>
+  </data>
+  <data name="FE18SoloStriker2_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18SoloStriker2_descr" xml:space="preserve">
+    <value>Попасть на любую позицию в рейтинговой таблице нападающих в каждом из двух этапов футбольного события.</value>
+  </data>
+  <data name="FE18SoloStriker3" xml:space="preserve">
+    <value>Нападающий II степени</value>
+  </data>
+  <data name="FE18SoloStriker3_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18SoloStriker3_descr" xml:space="preserve">
+    <value>Попасть на любую позицию в рейтинговой таблице нападающих в каждом из трёх этапов футбольного события.</value>
+  </data>
+  <data name="FE18SoloStriker4" xml:space="preserve">
+    <value>Нападающий I степени</value>
+  </data>
+  <data name="FE18SoloStriker4_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18SoloStriker4_descr" xml:space="preserve">
+    <value>Попасть на любую позицию в рейтинговой таблице нападающих в каждом из четырёх этапов футбольного события.</value>
+  </data>
+  <data name="FE18Universal" xml:space="preserve">
+    <value>И швец, и жнец</value>
+  </data>
+  <data name="FE18Universal_condition" xml:space="preserve">
+    <value>• Выполнять условие в трёх матчах подряд не обязательно.
+• Выдавалась в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="FE18Universal_descr" xml:space="preserve">
+    <value>Победить в трёх матчах за каждую из ролей на поле: нападающий, полузащитник и защитник.</value>
   </data>
 </root>

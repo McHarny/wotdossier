@@ -1057,7 +1057,7 @@
     <value>Škoda T-15</value>
   </data>
   <data name="Somua_S-40" xml:space="preserve">
-    <value>Somua S-40</value>
+    <value>Somua S40</value>
   </data>
   <data name="Somuaturm" xml:space="preserve">
     <value>Pz.Kpfw. S35 739 (f)</value>
@@ -3221,9 +3221,7 @@ TD 103 P</value>
     <value>Spähpanzer Ru 251</value>
   </data>
   <data name="G103_RU_251_descr" xml:space="preserve">
-    <value>Был построен компанией Henschel в 1964 году по программе замены устаревающих танков M41 Walker Bulldog в немецкой армии, где ими вооружались разведывательные батальоны танковых дивизий и другие подразделения. Базой послужила ПТ-САУ Kanonenjagdpanzer 4–5. Машина не была выпущена в серийное производство,
-но некоторые технические решения использовались
-в проектировании других танков. Количество изготовленных прототипов неизвестно.</value>
+    <value>Был построен компанией Henschel в 1964 году по программе замены устаревающих танков M41 Walker Bulldog в немецкой армии, где ими вооружались разведывательные батальоны танковых дивизий и другие подразделения. Базой послужила ПТ-САУ Kanonenjagdpanzer 4–5. Машина не была выпущена в серийное производство, но некоторые технические решения использовались в проектировании других танков. Количество изготовленных прототипов неизвестно.</value>
   </data>
   <data name="G103_RU_251_short" xml:space="preserve">
     <value>Ru 251</value>
@@ -4411,5 +4409,9 @@ TRM P45</value>
   </data>
   <data name="_75mm_Waffe0725_1944" xml:space="preserve">
     <value>7,5/5,5 cm Kw.K. 44 L/53</value>
+  </data>
+  <data name="Maybach_HL_234_TRM_P45_Leicht_short" xml:space="preserve">
+    <value>Maybach HL 295
+Ausf. A</value>
   </data>
 </root>

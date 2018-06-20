@@ -76,15 +76,30 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Achievements.resx</DependentUpon>
     </Compile>
+    <Compile Include="Strings\Arenas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Arenas.resx</DependentUpon>
+    </Compile>
     <Compile Include="Strings\BattleResults.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BattleResults.resx</DependentUpon>
     </Compile>
+    <Compile Include="Strings\EpicBattle.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EpicBattle.resx</DependentUpon>
+    </Compile>
     <Compile Include="Strings\Menu.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Menu.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Strings\Nations.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nations.resx</DependentUpon>
     </Compile>
     <Compile Include="Strings\Profile.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -95,11 +110,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Settings.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Tanks.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Tanks.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -469,6 +479,8 @@
     <EmbeddedResource Include="Strings\AOGAS.ru.resx" />
     <EmbeddedResource Include="Strings\Arenas.resx">
       <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Arenas.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Strings\Arenas.ru.resx">
       <SubType>Designer</SubType>
@@ -521,12 +533,21 @@
     <EmbeddedResource Include="Strings\Dialogs.ru.resx" />
     <EmbeddedResource Include="Strings\EnvironmentTooltips.resx" />
     <EmbeddedResource Include="Strings\EnvironmentTooltips.ru.resx" />
+    <EmbeddedResource Include="Strings\EpicBattle.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>EpicBattle.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\EpicBattle.ru.resx" />
+    <EmbeddedResource Include="Strings\ErrorDlg.resx" />
+    <EmbeddedResource Include="Strings\ErrorDlg.ru.resx" />
     <EmbeddedResource Include="Strings\EventBoards.resx" />
     <EmbeddedResource Include="Strings\EventBoards.ru.resx" />
     <EmbeddedResource Include="Strings\Fallout.resx" />
     <EmbeddedResource Include="Strings\Fallout.ru.resx" />
     <EmbeddedResource Include="Strings\Faq.resx" />
     <EmbeddedResource Include="Strings\Faq.ru.resx" />
+    <EmbeddedResource Include="Strings\Football2018.resx" />
+    <EmbeddedResource Include="Strings\Football2018.ru.resx" />
     <EmbeddedResource Include="Strings\Fortifications.resx" />
     <EmbeddedResource Include="Strings\Fortifications.ru.resx" />
     <EmbeddedResource Include="Strings\FranceTankmen.resx" />
@@ -553,6 +574,10 @@
     <EmbeddedResource Include="Strings\IngameHelp.ru.resx" />
     <EmbeddedResource Include="Strings\Invites.resx" />
     <EmbeddedResource Include="Strings\Invites.ru.resx" />
+    <EmbeddedResource Include="Strings\ItalyTankmen.resx" />
+    <EmbeddedResource Include="Strings\ItalyTankmen.ru.resx" />
+    <EmbeddedResource Include="Strings\ItalyVehicles.resx" />
+    <EmbeddedResource Include="Strings\ItalyVehicles.ru.resx" />
     <EmbeddedResource Include="Strings\ItemTypes.resx" />
     <EmbeddedResource Include="Strings\ItemTypes.ru.resx" />
     <EmbeddedResource Include="Strings\JapanTankmen.resx" />
@@ -563,8 +588,12 @@
     <EmbeddedResource Include="Strings\KongCaptcha.ru.resx" />
     <EmbeddedResource Include="Strings\LadderQuests.resx" />
     <EmbeddedResource Include="Strings\LadderQuests.ru.resx" />
+    <EmbeddedResource Include="Strings\Linkedset.resx" />
+    <EmbeddedResource Include="Strings\Linkedset.ru.resx" />
     <EmbeddedResource Include="Strings\LobbyHelp.resx" />
     <EmbeddedResource Include="Strings\LobbyHelp.ru.resx" />
+    <EmbeddedResource Include="Strings\Manual.resx" />
+    <EmbeddedResource Include="Strings\Manual.ru.resx" />
     <EmbeddedResource Include="Strings\Menu.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Menu.Designer.cs</LastGenOutput>
@@ -579,8 +608,12 @@
     <EmbeddedResource Include="Strings\Miniclient.ru.resx" />
     <EmbeddedResource Include="Strings\MotivationQuests.resx" />
     <EmbeddedResource Include="Strings\MotivationQuests.ru.resx" />
-    <EmbeddedResource Include="Strings\Nations.resx" />
+    <EmbeddedResource Include="Strings\Nations.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nations.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings\Nations.ru.resx" />
+    <EmbeddedResource Include="Strings\Ny.resx" />
     <EmbeddedResource Include="Strings\Ny.ru.resx" />
     <EmbeddedResource Include="Strings\PersonalMissions.resx" />
     <EmbeddedResource Include="Strings\PersonalMissions.ru.resx" />
@@ -650,12 +683,9 @@
     <EmbeddedResource Include="Strings\VehiclePreview.ru.resx" />
     <EmbeddedResource Include="Strings\Waiting.resx" />
     <EmbeddedResource Include="Strings\Waiting.ru.resx" />
+    <EmbeddedResource Include="Strings\Wgm.resx" />
+    <EmbeddedResource Include="Strings\Wgm.ru.resx" />
     <EmbeddedResource Include="Strings\Wp.ru.resx" />
-    <EmbeddedResource Include="Tanks.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Tanks.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Tanks.ru.resx" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Replays\replay.png" />
@@ -683,68 +713,6 @@
     <Resource Include="Images\Replays\folder.png" />
     <Resource Include="Images\Replays\selected_folder.png" />
     <Resource Include="Images\Replays\tile.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Maps\Minimap\00_tank_tutorial.png" />
-    <Resource Include="Images\Maps\Minimap\01_karelia.png" />
-    <Resource Include="Images\Maps\Minimap\02_malinovka.png" />
-    <Resource Include="Images\Maps\Minimap\03_campania.png" />
-    <Resource Include="Images\Maps\Minimap\04_himmelsdorf.png" />
-    <Resource Include="Images\Maps\Minimap\05_prohorovka.png" />
-    <Resource Include="Images\Maps\Minimap\06_ensk.png" />
-    <Resource Include="Images\Maps\Minimap\07_lakeville.png" />
-    <Resource Include="Images\Maps\Minimap\08_ruinberg.png" />
-    <Resource Include="Images\Maps\Minimap\100_thepit.png" />
-    <Resource Include="Images\Maps\Minimap\101_dday.png" />
-    <Resource Include="Images\Maps\Minimap\102_deathtrack.png" />
-    <Resource Include="Images\Maps\Minimap\103_ruinberg_winter.png" />
-    <Resource Include="Images\Maps\Minimap\105_germany.png" />
-    <Resource Include="Images\Maps\Minimap\109_battlecity_ny.png" />
-    <Resource Include="Images\Maps\Minimap\10_hills.png" />
-    <Resource Include="Images\Maps\Minimap\111_paris.png" />
-    <Resource Include="Images\Maps\Minimap\112_eiffel_tower.png" />
-    <Resource Include="Images\Maps\Minimap\112_eiffel_tower_ctf.png" />
-    <Resource Include="Images\Maps\Minimap\114_czech.png" />
-    <Resource Include="Images\Maps\Minimap\11_murovanka.png" />
-    <Resource Include="Images\Maps\Minimap\13_erlenberg.png" />
-    <Resource Include="Images\Maps\Minimap\14_siegfried_line.png" />
-    <Resource Include="Images\Maps\Minimap\15_komarin.png" />
-    <Resource Include="Images\Maps\Minimap\17_munchen.png" />
-    <Resource Include="Images\Maps\Minimap\18_cliff.png" />
-    <Resource Include="Images\Maps\Minimap\19_monastery.png" />
-    <Resource Include="Images\Maps\Minimap\22_slough.png" />
-    <Resource Include="Images\Maps\Minimap\23_westfeld.png" />
-    <Resource Include="Images\Maps\Minimap\28_desert.png" />
-    <Resource Include="Images\Maps\Minimap\29_el_hallouf.png" />
-    <Resource Include="Images\Maps\Minimap\31_airfield.png" />
-    <Resource Include="Images\Maps\Minimap\33_fjord.png" />
-    <Resource Include="Images\Maps\Minimap\34_redshire.png" />
-    <Resource Include="Images\Maps\Minimap\35_steppes.png" />
-    <Resource Include="Images\Maps\Minimap\36_fishing_bay.png" />
-    <Resource Include="Images\Maps\Minimap\37_caucasus.png" />
-    <Resource Include="Images\Maps\Minimap\38_mannerheim_line.png" />
-    <Resource Include="Images\Maps\Minimap\39_crimea.png" />
-    <Resource Include="Images\Maps\Minimap\42_north_america.png" />
-    <Resource Include="Images\Maps\Minimap\43_north_america.png" />
-    <Resource Include="Images\Maps\Minimap\44_north_america.png" />
-    <Resource Include="Images\Maps\Minimap\45_north_america.png" />
-    <Resource Include="Images\Maps\Minimap\47_canada_a.png" />
-    <Resource Include="Images\Maps\Minimap\51_asia.png" />
-    <Resource Include="Images\Maps\Minimap\53_japan.png" />
-    <Resource Include="Images\Maps\Minimap\59_asia_great_wall.png" />
-    <Resource Include="Images\Maps\Minimap\60_asia_miao.png" />
-    <Resource Include="Images\Maps\Minimap\63_tundra.png" />
-    <Resource Include="Images\Maps\Minimap\73_asia_korea.png" />
-    <Resource Include="Images\Maps\Minimap\83_kharkiv.png" />
-    <Resource Include="Images\Maps\Minimap\84_winter.png" />
-    <Resource Include="Images\Maps\Minimap\85_winter.png" />
-    <Resource Include="Images\Maps\Minimap\86_himmelsdorf_winter.png" />
-    <Resource Include="Images\Maps\Minimap\87_ruinberg_on_fire.png" />
-    <Resource Include="Images\Maps\Minimap\92_stalingrad.png" />
-    <Resource Include="Images\Maps\Minimap\94_battlecity.png" />
-    <Resource Include="Images\Maps\Minimap\95_lost_city.png" />
-    <Resource Include="Images\Maps\Minimap\96_prohorovka_defense.png" />
-    <Resource Include="Images\Maps\Minimap\99_himmelball.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Replays\yellow_ribbon.png" />
@@ -815,56 +783,12 @@
     <Resource Include="Images\nations\poland.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\Maps\Stat\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Maps\00_tank_tutorial.png" />
-    <Resource Include="Images\Maps\01_karelia.png" />
-    <Resource Include="Images\Maps\02_malinovka.png" />
-    <Resource Include="Images\Maps\04_himmelsdorf.png" />
-    <Resource Include="Images\Maps\05_prohorovka.png" />
-    <Resource Include="Images\Maps\06_ensk.png" />
-    <Resource Include="Images\Maps\07_lakeville.png" />
-    <Resource Include="Images\Maps\08_ruinberg.png" />
-    <Resource Include="Images\Maps\100_thepit.png" />
-    <Resource Include="Images\Maps\101_dday.png" />
-    <Resource Include="Images\Maps\103_ruinberg_winter.png" />
-    <Resource Include="Images\Maps\10_hills.png" />
-    <Resource Include="Images\Maps\112_eiffel_tower_ctf.png" />
-    <Resource Include="Images\Maps\114_czech.png" />
-    <Resource Include="Images\Maps\11_murovanka.png" />
-    <Resource Include="Images\Maps\13_erlenberg.png" />
-    <Resource Include="Images\Maps\14_siegfried_line.png" />
-    <Resource Include="Images\Maps\17_munchen.png" />
-    <Resource Include="Images\Maps\18_cliff.png" />
-    <Resource Include="Images\Maps\19_monastery.png" />
-    <Resource Include="Images\Maps\212_epic_random_valley.png" />
-    <Resource Include="Images\Maps\22_slough.png" />
-    <Resource Include="Images\Maps\23_westfeld.png" />
-    <Resource Include="Images\Maps\28_desert.png" />
-    <Resource Include="Images\Maps\29_el_hallouf.png" />
-    <Resource Include="Images\Maps\31_airfield.png" />
-    <Resource Include="Images\Maps\33_fjord.png" />
-    <Resource Include="Images\Maps\34_Redshire.png" />
-    <Resource Include="Images\Maps\35_steppes.png" />
-    <Resource Include="Images\Maps\36_fishing_bay.png" />
-    <Resource Include="Images\Maps\37_caucasus.png" />
-    <Resource Include="Images\Maps\38_mannerheim_line.png" />
-    <Resource Include="Images\Maps\44_north_america.png" />
-    <Resource Include="Images\Maps\45_north_america.png" />
-    <Resource Include="Images\Maps\47_canada_a.png" />
-    <Resource Include="Images\Maps\59_asia_great_wall.png" />
-    <Resource Include="Images\Maps\63_tundra.png" />
-    <Resource Include="Images\Maps\73_Asia_Korea.png" />
-    <Resource Include="Images\Maps\83_kharkiv.png" />
-    <Resource Include="Images\Maps\84_winter.png" />
-    <Resource Include="Images\Maps\86_himmelsdorf_winter.png" />
-    <Resource Include="Images\Maps\92_stalingrad.png" />
-    <Resource Include="Images\Maps\95_lost_city.png" />
-    <Resource Include="Images\Maps\96_prohorovka_defense.png" />
-    <Resource Include="Images\Maps\content_bg.png" />
-    <Resource Include="Images\Maps\noImage.png" />
-    <Resource Include="Images\Maps\overlay.png" />
+    <Resource Include="Achievements\Images\Achievement\frontlineMedal.png" />
+    <Resource Include="Achievements\Images\Achievement\generalOfTheArmy.png" />
+    <Resource Include="Achievements\Images\Achievement\ironShield.png" />
+    <Resource Include="Achievements\Images\Achievement\occupyingForce.png" />
+    <Resource Include="Achievements\Images\Achievement\smallArmy.png" />
+    <Resource Include="Achievements\Images\Achievement\supremeGun.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Countries\china_131x31.png" />
@@ -877,30 +801,6 @@
     <Resource Include="Images\Countries\uk_131x31.png" />
     <Resource Include="Images\Countries\usa_131x31.png" />
     <Resource Include="Images\Countries\ussr_131x31.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Maps\03_campania.png" />
-    <Resource Include="Images\Maps\102_DeathTrack.png" />
-    <Resource Include="Images\Maps\105_germany.png" />
-    <Resource Include="Images\Maps\105_germany_fallout.png" />
-    <Resource Include="Images\Maps\109_Battlecity_NY.png" />
-    <Resource Include="Images\Maps\111_paris.png" />
-    <Resource Include="Images\Maps\111_Paris_fallout.png" />
-    <Resource Include="Images\Maps\112_eiffel_tower.png" />
-    <Resource Include="Images\Maps\112_eiffel_tower_fallout.png" />
-    <Resource Include="Images\Maps\15_komarin.png" />
-    <Resource Include="Images\Maps\39_crimea.png" />
-    <Resource Include="Images\Maps\42_north_america.png" />
-    <Resource Include="Images\Maps\43_north_america.png" />
-    <Resource Include="Images\Maps\51_asia.png" />
-    <Resource Include="Images\Maps\53_japan.png" />
-    <Resource Include="Images\Maps\60_asia_miao.png" />
-    <Resource Include="Images\Maps\85_winter.png" />
-    <Resource Include="Images\Maps\87_ruinberg_on_fire.png" />
-    <Resource Include="Images\Maps\99_himmelball.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Maps\Minimap\212_epic_random_valley.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Replays\CreditsIconBig-1.png" />
@@ -2360,10 +2260,10 @@
     <Resource Include="Vehicles\Images\Vehicle\france-F80_FCM_F1_Mle1940_HE2017.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Vehicles\Images\Vehicle\germany-G150_Leviathan.png" />
+    <Resource Include="Vehicles\Images\Vehicle\germany-G150_Leviathan.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Vehicles\Images\Vehicle\unknown-tank.png" />
+    <Resource Include="Vehicles\Images\Vehicle\unknown-tank.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WotDossier.Common\WotDossier.Common.csproj">
@@ -2403,6 +2303,194 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Achievements\Images\Achievement\HE17A1.png" />
+    <Resource Include="Achievements\Images\Achievement\HE17A2.png" />
+    <Resource Include="Achievements\Images\Achievement\HE17A3.png" />
+    <Resource Include="Achievements\Images\Achievement\honoredRank.png" />
+    <Resource Include="Achievements\Images\Achievement\NY18A1.png" />
+    <Resource Include="Achievements\Images\Achievement\NY18A2.png" />
+    <Resource Include="Achievements\Images\Achievement\NY18A3.png" />
+    <Resource Include="Achievements\Images\Achievement\rare1319.png" />
+    <Resource Include="Achievements\Images\Achievement\rare1320.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R139_IS_2_Sh.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R145_Object_705_A.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R148_Object_430_U.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R149_Object_268_4.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R151_Object_257_2.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R153_Object_705.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R93_Object263B.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R96_Object_430B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Achievements\Images\Achievement\mechanicEngineer10.png" />
+    <Resource Include="Achievements\Images\Achievement\rankedBattlesHero.png" />
+    <Resource Include="Achievements\Images\Achievement\rankedBattlesSeasonOne.png" />
+    <Resource Include="Achievements\Images\Achievement\tankExpert10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Stats\115_sweden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Minimap\01_karelia-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\02_malinovka-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\04_himmelsdorf-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\05_prohorovka-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\06_ensk-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\07_lakeville-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\08_ruinberg-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\101_dday-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\10_hills-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\112_eiffel_tower_ctf-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\115_sweden.png" />
+    <Resource Include="Maps\Images\Minimap\11_murovanka-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\13_erlenberg-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\14_siegfried_line-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\18_cliff-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\19_monastery-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\212_epic_random_valley-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\23_westfeld-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\28_desert-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\29_el_hallouf-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\31_airfield-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\33_fjord-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\34_redshire-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\35_steppes-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\36_fishing_bay-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\37_caucasus-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\38_mannerheim_line-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\44_north_america-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\47_canada_a-0.9.22.png" />
+    <Resource Include="Maps\Images\Minimap\63_tundra-0.9.22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Artefact\ration_italy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\italy-It13_Progetto_M35_mod_46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Countries\italy_131x31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\nations\igr.png" />
+    <Resource Include="Images\nations\italy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\marksOnGun\95x85\italy_1_mark.png" />
+    <Resource Include="Images\marksOnGun\95x85\italy_2_marks.png" />
+    <Resource Include="Images\marksOnGun\95x85\italy_3_marks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Minimap\03_campania_big.png" />
+    <Resource Include="Maps\Images\Minimap\1001_frontline_testmap.png" />
+    <Resource Include="Maps\Images\Minimap\208_bf_epic_normandy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Stats\03_campania_big.png" />
+    <Resource Include="Maps\Images\Stats\1001_frontline_testmap.png" />
+    <Resource Include="Maps\Images\Stats\208_bf_epic_normandy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Artefact\inspire.png" />
+    <Resource Include="Vehicles\Images\Artefact\passive_engineering.png" />
+    <Resource Include="Vehicles\Images\Artefact\recon.png" />
+    <Resource Include="Vehicles\Images\Artefact\smoke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\italy-It03_M15_42.png" />
+    <Resource Include="Vehicles\Images\Vehicle\italy-It04_Fiat_3000.png" />
+    <Resource Include="Vehicles\Images\Vehicle\italy-It05_Carro_L6_40.png" />
+    <Resource Include="Vehicles\Images\Vehicle\italy-It06_M14_41.png" />
+    <Resource Include="Vehicles\Images\Vehicle\italy-It07_P26_40.png" />
+    <Resource Include="Vehicles\Images\Vehicle\italy-It08_Progetto_M40_mod_65.png" />
+    <Resource Include="Vehicles\Images\Vehicle\italy-It09_P43_ter.png" />
+    <Resource Include="Vehicles\Images\Vehicle\italy-It10_P43_bis.png" />
+    <Resource Include="Vehicles\Images\Vehicle\italy-It11_P43.png" />
+    <Resource Include="Vehicles\Images\Vehicle\italy-It12_Prototipo_Standard_B.png" />
+    <Resource Include="Vehicles\Images\Vehicle\italy-It14_P44_Pantera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\uk-GB94_Centurion_Mk5-1_RAAC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\usa-A12_T32_FL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R20_T-44_FL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R152_KV2_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Achievements\Images\Achievement\rankedBattlesHeroProgress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Minimap\02_malinovka-1.0.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Minimap\13_erlenberg-1.0.1.png" />
+    <Resource Include="Maps\Images\Minimap\217_er_alaska-0.9.21.png" />
+    <Resource Include="Maps\Images\Minimap\33_fjord-1.0.1.png" />
+    <Resource Include="Maps\Images\Minimap\37_caucasus-1.0.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl08_Czolg_T_wz51.png" />
+    <Resource Include="Vehicles\Images\Vehicle\uk-GB95_Ekins_Firefly_M4A4.png" />
+    <Resource Include="Vehicles\Images\Vehicle\usa-A121_M26_Cologne.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R139_IS_M.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R144_K_91.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R154_T_34E_1943.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R155_Object_277.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Replays\overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Minimap\116_himmelball.png" />
+    <Resource Include="Maps\Images\Minimap\119_lostcityball.png" />
+    <Resource Include="Maps\Images\Minimap\120_moscowball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Stats\116_himmelball.png" />
+    <Resource Include="Maps\Images\Stats\119_lostcityball.png" />
+    <Resource Include="Maps\Images\Stats\120_moscowball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Achievements\Images\Achievement\FE18ClosedStage1.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18ClosedStage2.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18ClosedStage3.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18ClosedStage4.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18Collection1.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18Collection2.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18Collection3.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18OpenFinalStage.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18OpenFirstPlace.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18OpenPlayOff.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18OpenRegistration.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18SoloDefender1.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18SoloDefender2.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18SoloDefender3.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18SoloDefender4.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18SoloMidfielder1.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18SoloMidfielder2.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18SoloMidfielder3.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18SoloMidfielder4.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18SoloStriker1.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18SoloStriker2.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18SoloStriker3.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18SoloStriker4.png" />
+    <Resource Include="Achievements\Images\Achievement\FE18Universal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Artefact\defenderAbility.png" />
+    <Resource Include="Vehicles\Images\Artefact\lastchance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\france-F88_AMX_13_105_sport.png" />
+    <Resource Include="Vehicles\Images\Vehicle\germany-G56_E-100_sport.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R87_T62A_sport.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

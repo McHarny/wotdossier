@@ -1339,7 +1339,7 @@ Train this crew member in his Personal File.</value>
     <value>Not enough credits</value>
   </data>
   <data name="vehicleStatus/notEnoughCredits/text" xml:space="preserve">
-    <value>Earn it in battle, sell surplus items from your storage, or exchange gold to acquire more.</value>
+    <value>Earn them in battles, sell surplus items from your storage, or exchange Gold to acquire more.</value>
   </data>
   <data name="vehicleStatus/notEnoughGold/header" xml:space="preserve">
     <value>Not enough gold</value>
@@ -2011,7 +2011,7 @@ because %(deviceName)s can be purchased at a discount.</value>
     <value>Tier Not Allowed</value>
   </data>
   <data name="igr/msg3" xml:space="preserve">
-    <value>Free Camouflage, Inscriptions, and Emblems are available. You can use them in %(igrIcon)s only.</value>
+    <value>Free camouflage, inscriptions, and emblems are available. You can use them in %(igrIcon)s only.</value>
   </data>
   <data name="quests/newLabel/action" xml:space="preserve">
     <value>New special</value>
@@ -2063,7 +2063,7 @@ or modules in any Wargaming.net game.</value>
 • Battle types: Standard Battle, Assault.
 • Team members: can be varied.
 • Details: only vehicles with historical loadout and specified ammunition can fight.
-• Marks of Excellence and Emblems are not displayed.</value>
+• Marks of Excellence and emblems are not displayed.</value>
   </data>
   <data name="battleTypes/historical/header" xml:space="preserve">
     <value>Historical Battle</value>
@@ -3415,7 +3415,7 @@ Repair the structure and/or the Command Center.</value>
     <value>Online Players</value>
   </data>
   <data name="header/menu/description" xml:space="preserve">
-    <value>Click to open the Game Menu. From the Game Menu you can select a different server, open the Settings menu, or exit the game.</value>
+    <value>Click to open the Game Menu. From the Game Menu you can select a different server, go to the Bootcamp, open the Settings menu, or exit the game.</value>
   </data>
   <data name="header/menu/playersOnServer" xml:space="preserve">
     <value>Players on the server / in the region</value>
@@ -5110,7 +5110,7 @@ Attention! The defending clan can use Combat Reserves.</value>
     <value>Desert Camouflage</value>
   </data>
   <data name="hangarTutorial/customization/types/emblemBlockDescription" xml:space="preserve">
-    <value>Various insignia that replace standard national Emblems.</value>
+    <value>Various insignia that replace standard national emblems.</value>
   </data>
   <data name="hangarTutorial/customization/types/emblemBlockTitle" xml:space="preserve">
     <value>Emblems</value>
@@ -5149,7 +5149,7 @@ Attention! The defending clan can use Combat Reserves.</value>
     <value>Duration</value>
   </data>
   <data name="hangarTutorial/customizationOptions/body" xml:space="preserve">
-    <value>Camouflage patterns, Emblems, and Inscriptions are displayed here.</value>
+    <value>Camouflage patterns, emblems, and inscriptions are displayed here.</value>
   </data>
   <data name="hangarTutorial/customizationOptions/header" xml:space="preserve">
     <value>Variants</value>
@@ -5833,7 +5833,7 @@ Earned in battles or purchased with gold.</value>
   </data>
   <data name="awardItem/gold/body" xml:space="preserve">
     <value>A valuable in-game currency. You can use it to purchase Premium Account and vehicles,
-permanent Camouflage, Inscriptions, Emblems, etc.
+permanent camouflage, inscriptions, emblems, etc.
 You can also use gold to convert Free Experience.</value>
   </data>
   <data name="awardItem/gold/header" xml:space="preserve">
@@ -5847,8 +5847,7 @@ per battle.</value>
     <value>Premium Days</value>
   </data>
   <data name="battleTypes/battleTeaching/body" xml:space="preserve">
-    <value>Apply everything you have learned from Battle Training in a battle against bots on the %(map1)s and %(map2)s maps.
-
+    <value>Apply everything you have learned from Battle Training in a battle against bots on the %(map1)s map.
 • Note: after you have fought %(battles)d battles (of any type) on your account, you will not earn credits or experience in this mode.
 • Tiers allowed: I–II.</value>
   </data>
@@ -5975,7 +5974,7 @@ of the customization elements filter to default.</value>
     <value>Set by Default</value>
   </data>
   <data name="customization/headerCloseBtn/body" xml:space="preserve">
-    <value>Customization elements that were not purchased will not be saved.</value>
+    <value>Customization elements that were not purchased or applied will not be saved.</value>
   </data>
   <data name="customization/headerCloseBtn/header" xml:space="preserve">
     <value>Return to Garage</value>
@@ -6273,13 +6272,13 @@ Suitable for small sound systems, laptop speakers, and low-end headphones. Ensur
     <value>Medium Tank</value>
   </data>
   <data name="vehicle/deal/telecom/main" xml:space="preserve">
-    <value>Машина доступна абонентам тарифного плана «Игровой» от Ростелеком.</value>
+    <value>Машина доступна абонентам тарифного плана «%(tariff)s» от %(provider)s.</value>
   </data>
   <data name="vehicleStatus/dealIsOver/header" xml:space="preserve">
     <value>Vehicle Unavailable</value>
   </data>
   <data name="vehicleStatus/dealIsOver/text" xml:space="preserve">
-    <value>Причина: блокировка услуги провайдером. Проверьте статус услуги «Домашний интернет».</value>
+    <value>Причина: блокировка услуги провайдером. Проверьте статус услуги в личном кабинете %(provider)s.</value>
   </data>
   <data name="achievement/params/maxEFC2016WinSeries" xml:space="preserve">
     <value>Record combo, victories in a row:</value>
@@ -6300,10 +6299,10 @@ Suitable for small sound systems, laptop speakers, and low-end headphones. Ensur
     <value>Not Enough Credits</value>
   </data>
   <data name="deviceFits/credits_error/text" xml:space="preserve">
-    <value>Earn credits in battle, sell surplus items from your storage, or exchange gold to acquire more.</value>
+    <value>Earn credits in battles, sell surplus items from your Depot, or exchange Gold to acquire more.</value>
   </data>
   <data name="event/squad/disable/body" xml:space="preserve">
-    <value>To join the Squad of the Fallen select %(tankName)s</value>
+    <value>To join the event select %(tankName)s</value>
   </data>
   <data name="event/squad/disable/header" xml:space="preserve">
     <value>Attention!</value>
@@ -6416,7 +6415,7 @@ in the Sniper mode (%(zooms)s).</value>
     <value>Not Enough Credits</value>
   </data>
   <data name="moduleFits/credits_error/text" xml:space="preserve">
-    <value>Earn it in battle, sell surplus items from your storage, or exchange gold to acquire more.</value>
+    <value>Earn them in battles, sell surplus items from your storage, or exchange Gold to acquire more.</value>
   </data>
   <data name="moduleFits/not_removable/dismantling/price" xml:space="preserve">
     <value>Demounting cost</value>
@@ -6448,13 +6447,13 @@ Uses the positioning principle of the 2.0/2.1 Sound System preset but adjusts th
     <value>Type of Audio Device</value>
   </data>
   <data name="squadWindow/buttons/leaveEventSquad/body" xml:space="preserve">
-    <value>Click to leave the Squad of the Fallen.</value>
+    <value>Click to leave the football platoon.</value>
   </data>
   <data name="squadWindow/buttons/leaveEventSquad/header" xml:space="preserve">
-    <value>Leave the Squad of the Fallen</value>
+    <value>Leave the Football Platoon</value>
   </data>
   <data name="squadWindow/eventVehicle" xml:space="preserve">
-    <value>To join the Squad of the Fallen select %(tankName)s</value>
+    <value>To join the event select %(tankName)s</value>
   </data>
   <data name="squadWindow/infoIcon/tech/body" xml:space="preserve">
     <value>The Platoon should comprise vehicles of the same tier.</value>
@@ -6554,7 +6553,7 @@ additional experience will not be awarded to Platoon members.</value>
     <value>Maximum angles of gun depression/elevation with respect to its default position.</value>
   </data>
   <data name="tank_params/desc/radioDistance" xml:space="preserve">
-    <value>Communication—sharing information with allies about the positions of vehicles. The communication range for each individual vehicle is represented by a circle with a radius that is set for this parameter. When several circles overlap, information is shared at any distance if there are enough vehicles in the communication chain.</value>
+    <value>Communication—sharing information with allies about the positions of vehicles. The communication range is represented by a circle with a radius that is set for this parameter. When several circles overlap, information is shared at any distance.</value>
   </data>
   <data name="tank_params/desc/relativeArmor" xml:space="preserve">
     <value>A set of parameters that shows the vehicle resilience to damage caused.</value>
@@ -7240,19 +7239,19 @@ and press the selected key.</value>
     <value>Default shell</value>
   </data>
   <data name="skills/brotherhood/descr" xml:space="preserve">
-    <value>Improves major qualifications and all skills for the entire crew. This perk is cumulative with the effects of Improved Ventilation, Extra Combat Rations, Chocolate, Case of Cola, Pudding and Tea, Strong Coffee, Improved Combat Rations, Onigiri, Buchty, and Coffee with Buns.</value>
+    <value>Improves major qualifications and all skills for the entire crew. This perk is cumulative with the effects of Improved Ventilation, Venting System, Extra Combat Rations, Chocolate, Case of Cola, Strong Coffee, Improved Combat Rations, Pudding and Tea, Onigiri, Buchty, Coffee with Cinnamon Buns, Bread with Smalec, and Spaghetti with Meat Sauce, as well as Vent Purge.</value>
   </data>
   <data name="skills/brotherhood/header" xml:space="preserve">
     <value>Brothers in Arms</value>
   </data>
   <data name="skills/camouflage/descr" xml:space="preserve">
-    <value>Reduces vehicle visibility. This skill is cumulative with the effects of Camouflage (for the corresponding types of maps) and a Camouflage Net.</value>
+    <value>Reduces vehicle visibility. This skill is cumulative with the effects of Camouflage (for the corresponding types of maps) and a Camouflage Net, as well as Natural Cover.</value>
   </data>
   <data name="skills/camouflage/header" xml:space="preserve">
     <value>Concealment</value>
   </data>
   <data name="skills/commander_eagleEye/descr" xml:space="preserve">
-    <value>Increases Maximum View Range. This skill is more effective if observation devices are damaged, or when combined with Situational Awareness, Coated Optics, and Binocular Telescope.</value>
+    <value>Increases the Maximum View Range. This skill is more effective when observation devices are damaged, or when combined with Situational Awareness, Coated Optics, Experimental Optics, and Binocular Telescope.</value>
   </data>
   <data name="skills/commander_eagleEye/header" xml:space="preserve">
     <value>Recon</value>
@@ -7264,7 +7263,7 @@ and press the selected key.</value>
     <value>Off-Road Driving</value>
   </data>
   <data name="skills/driver_virtuoso/descr" xml:space="preserve">
-    <value>Increases vehicle traverse speed. This skill is cumulative with the effects of Additional Grousers, Lend-Lease Oil, Quality Oil, Removed Speed Governor, 100-octane Gasoline, and 105-octane Gasoline. Important! This skill increases gun dispersion on hull traverse.</value>
+    <value>Increases vehicle traverse speed. This skill is cumulative with the effects of Additional Grousers, Lend-Lease Oil, Quality Oil, Removed Speed Governor, 100-octane Gasoline, and 105-octane Gasoline, as well as Combat Course. Important! This skill increases gun dispersion on hull traverse.</value>
   </data>
   <data name="skills/driver_virtuoso/header" xml:space="preserve">
     <value>Clutch Braking</value>
@@ -7288,7 +7287,7 @@ and press the selected key.</value>
     <value>Radio Operator</value>
   </data>
   <data name="skills/radioman_finder/descr" xml:space="preserve">
-    <value>Increases Maximum View Range. If two Radio Operators have the skill, only the higher rating is effective. The skill is cumulative with the effects of Recon, Coated Optics and Binocular Telescope.</value>
+    <value>Increases the Maximum View Range. This skill is more effective when combined with Recon, Coated Optics, Experimental Optics, and Binocular Telescope.</value>
   </data>
   <data name="skills/radioman_finder/header" xml:space="preserve">
     <value>Situational Awareness</value>
@@ -7337,10 +7336,10 @@ Values are shown for hard/moderately soft/soft ground.</value>
     <value>Average damage caused by a standard shell after an armor-penetrating hit.</value>
   </data>
   <data name="tank_params/desc/avgDamagePerMinute" xml:space="preserve">
-    <value>Amount of damage that can potentially be caused to an enemy vehicle within 1 minute if all hits penetrate the armor.</value>
+    <value>The amount of damage that can potentially be caused to an enemy vehicle within 1 minute if all hits penetrate the armor.</value>
   </data>
   <data name="tank_params/desc/avgPiercingPower" xml:space="preserve">
-    <value>Average thickness of armor penetrated by a standard shell adjusted for shell normalization.</value>
+    <value>The average thickness of armor penetrated by a standard shell adjusted for shell normalization.</value>
   </data>
   <data name="tank_params/desc/switchOffTime" xml:space="preserve">
     <value>The time needed to switch between modes depends on the engine's condition. A damaged engine increases the time needed for switching. Switching is unavailable when the engine is destroyed.</value>
@@ -7354,7 +7353,7 @@ Values are shown for hard/moderately soft/soft ground.</value>
   </data>
   <data name="trade/body" xml:space="preserve">
     <value>Premium vehicles can be traded in
-for other Premium vehicles of the same or higher tier.
+for other Premium vehicles of the same or a higher Tier.
 
 %(discount)s</value>
   </data>
@@ -7449,7 +7448,7 @@ for other Premium vehicles of the same or higher tier.
     <value>(%(value)s)</value>
   </data>
   <data name="vehiclePreview/buyButton/notEnoughCredits/body" xml:space="preserve">
-    <value>Earn it in battle, sell surplus items from your storage, or exchange gold to acquire more.</value>
+    <value>Earn them in battles, sell surplus items from your storage, or exchange Gold to acquire more.</value>
   </data>
   <data name="vehiclePreview/buyButton/notEnoughCredits/header" xml:space="preserve">
     <value>Not enough credits</value>
@@ -7539,7 +7538,7 @@ due to a current special.</value>
   </data>
   <data name="actionPrice/severalActions" xml:space="preserve">
     <value>There are several discounts on purchasing %(deviceName)s.
-Maximum discount: under the %(actionName)s special</value>
+%(action)s</value>
   </data>
   <data name="awardItem/crystal/body" xml:space="preserve">
     <value>A rare special currency used to purchase unique items that are unavailable through other means.</value>
@@ -7672,7 +7671,7 @@ The number of rewards and their quality depend on the Leaderboard position.</val
     <value>nine chevrons</value>
   </data>
   <data name="battleTypes/ranked/vehRank/achievedCount" xml:space="preserve">
-    <value>Total vehicle ranks in the %(vehName)s: </value>
+    <value>Total points earned in the %(vehName)s: </value>
   </data>
   <data name="contentBuyView/slotCheckbox/notEnoughSlots/body" xml:space="preserve">
     <value>There is no space left in the Garage. Consider purchasing a slot or selling a vehicle to clear some space.</value>
@@ -7711,10 +7710,10 @@ The number of rewards and their quality depend on the Leaderboard position.</val
     <value>Poland</value>
   </data>
   <data name="header/buttons/credits/body" xml:space="preserve">
-    <value>Click to exchange gold for credits.</value>
+    <value>Retrieving balance data. All your credits will become available soon.</value>
   </data>
   <data name="header/buttons/credits/header" xml:space="preserve">
-    <value>Exchange Gold</value>
+    <value>Credits</value>
   </data>
   <data name="header/buttons/crystal/available" xml:space="preserve">
     <value>Available</value>
@@ -7736,10 +7735,10 @@ The number of rewards and their quality depend on the Leaderboard position.</val
     <value>Bonds</value>
   </data>
   <data name="header/buttons/freeXP/body" xml:space="preserve">
-    <value>Click to convert experience to Free Experience.</value>
+    <value>Retrieving balance data. All your Free Experience will be available soon.</value>
   </data>
   <data name="header/buttons/freeXP/header" xml:space="preserve">
-    <value>Convert Experience</value>
+    <value>Free Experience</value>
   </data>
   <data name="header/buttons/gold/action/body" xml:space="preserve">
     <value>Click to go to the Purchase Gold page
@@ -7749,11 +7748,10 @@ on the game portal.</value>
     <value>Purchase Gold</value>
   </data>
   <data name="header/buttons/gold/body" xml:space="preserve">
-    <value>Click to go to the Purchase Gold page
-on the game portal.</value>
+    <value>Retrieving balance data. All your gold will become available soon.</value>
   </data>
   <data name="header/buttons/gold/header" xml:space="preserve">
-    <value>Purchase Gold</value>
+    <value>Gold</value>
   </data>
   <data name="header/buttons/missions/body" xml:space="preserve">
     <value>Go to the missions and specials menu, and find out more about conditions and potential rewards.</value>
@@ -7828,7 +7826,7 @@ on the game portal.</value>
     <value>Rewards:</value>
   </data>
   <data name="quests/bonuses/token/body" xml:space="preserve">
-    <value>This token is a unique reward that unlocks particular missions or is used for their completion.</value>
+    <value>This token is a reward item used for completion of a certain mission.</value>
   </data>
   <data name="quests/bonuses/token/header" xml:space="preserve">
     <value>%(userName)s Token</value>
@@ -8204,7 +8202,7 @@ You can quit the competition until %(date)s</value>
     <value>Click to select a competition rating.</value>
   </data>
   <data name="elen/button/raiting/header" xml:space="preserve">
-    <value>All Ratings</value>
+    <value>Ratings List</value>
   </data>
   <data name="elen/button/registration/notStarted/body" xml:space="preserve">
     <value>Click to enable the tracking of your battle results once the competition starts, so you can get placed in the rating and receive a reward.</value>
@@ -8484,7 +8482,7 @@ Extra experience from Premium Account is counted.</value>
     <value>Click to select a competition rating.</value>
   </data>
   <data name="elen/excel/selectRatingBtn/tooltip/header" xml:space="preserve">
-    <value>All Ratings</value>
+    <value>Ratings List</value>
   </data>
   <data name="elen/header/participate/button/leaveNotStarted/body" xml:space="preserve">
     <value>The results of your battles will not be counted in this competition. You will not be able to get placed in the rating and receive a reward.
@@ -8792,13 +8790,16 @@ Extra experience from Premium Account is counted.</value>
     <value>Vehicles of any nation are allowed in the competition.</value>
   </data>
   <data name="elen/task/eventType/notFull/class" xml:space="preserve">
-    <value>Vehicles of the following types are allowed in the competition: %(classes)s.</value>
+    <value>Vehicles of the following types are allowed in the competition: 
+%(classes)s.</value>
   </data>
   <data name="elen/task/eventType/notFull/level" xml:space="preserve">
-    <value>Vehicles of the following tiers are allowed in the competition: %(levels)s.</value>
+    <value>Vehicles of the following tiers are allowed in the competition: 
+%(levels)s.</value>
   </data>
   <data name="elen/task/eventType/notFull/nation" xml:space="preserve">
-    <value>Vehicles of the following nations are allowed in the competition: %(nations)s.</value>
+    <value>Vehicles of the following nations are allowed in the competition: 
+%(nations)s.</value>
   </data>
   <data name="elen/task/eventType/notFull/vehicle" xml:space="preserve">
     <value>To display the list of vehicles that are allowed in the competition, click Vehicles in Competition.</value>
@@ -8824,7 +8825,7 @@ Battles counted: %(cardinality)s.</value>
 Battles in the series: %(cardinality)s.</value>
   </data>
   <data name="hangar/elen/bottom/allperiphery/body" xml:space="preserve">
-    <value>Only the following types of Random Battles are counted: Standard Battle, Assault, and Encounter Battle.</value>
+    <value>Grand Battles are not counted. Only the following types of Random Battles are counted: Standard Battle, Assault, and Encounter Battle.</value>
   </data>
   <data name="hangar/elen/bottom/allperiphery/header" xml:space="preserve">
     <value>Grand Battles Are Not Counted</value>
@@ -8877,9 +8878,9 @@ Battles in the series: %(cardinality)s.</value>
   <data name="personalMissions/awards/camouflage/body" xml:space="preserve">
     <value>A set of three Camouflage patterns (summer, winter, and desert).
 
-Awarded when completing all operations with honors and can be applied to any vehicle of the nation to which the reward vehicle belongs.
+Awarded for free for a reward vehicle when the primary conditions of all 75 missions of an operation are completed.
 
-To find the unique Camouflage patterns, use the Missions filtering option in the vehicle's Exterior screen.</value>
+Can be applied to any vehicle of the nation to which the reward vehicle belongs when all 75 missions of an operation are completed with honors.</value>
   </data>
   <data name="personalMissions/awards/camouflage/header" xml:space="preserve">
     <value>Unique Set of Camouflage</value>
@@ -9248,5 +9249,770 @@ You are awarded with one component for completing each final mission in a set.</
   </data>
   <data name="elen/status/cantJoin/reason/byVehicle" xml:space="preserve">
     <value>Suitable vehicles</value>
+  </data>
+  <data name="actionPrice/buyPrice/actionPrice" xml:space="preserve">
+    <value>Purchase price with %(value)s discount</value>
+  </data>
+  <data name="actionPrice/buyPrice/defaultPrice" xml:space="preserve">
+    <value>Previous purchase price</value>
+  </data>
+  <data name="actionPrice/rentPrice/1day" xml:space="preserve">
+    <value>Rental cost for 1 day with a %(value)s discount</value>
+  </data>
+  <data name="actionPrice/rentPrice/3day" xml:space="preserve">
+    <value>Rental cost for 3 days with a %(value)s discount</value>
+  </data>
+  <data name="actionPrice/rentPrice/days" xml:space="preserve">
+    <value>Rental cost for %(days)s days with a %(value)s discount</value>
+  </data>
+  <data name="actionPrice/rentPrice/defaultPrice" xml:space="preserve">
+    <value>Purchase price</value>
+  </data>
+  <data name="actionPrice/severalActions/action" xml:space="preserve">
+    <value>Maximum discount: under the
+%(actionName)s special</value>
+  </data>
+  <data name="actionPrice/severalActions/personal" xml:space="preserve">
+    <value>Your personal discount is the highest one.</value>
+  </data>
+  <data name="battleTypes/ranked/haveShield" xml:space="preserve">
+    <value>Maximum number of hit points: %(hp)s. Hit points are fully restored when one chevron is received.</value>
+  </data>
+  <data name="battleTypes/ranked/vehRank/conditions" xml:space="preserve">
+    <value>To receive one rank point, you need to earn the following number of chevrons: %(stepsNumber)s</value>
+  </data>
+  <data name="c11nHistoricallyAccurate/body" xml:space="preserve">
+    <value>When this setting is enabled, only historical customization elements will be displayed on players' vehicles. Note:
+• Settings changed during a battle will come into effect after exiting the battle.
+• If a vehicle has at least one non-historical element, no customization elements of this vehicle will be displayed to you.
+• This setting does not affect the exterior of your vehicle.</value>
+  </data>
+  <data name="c11nHistoricallyAccurate/header" xml:space="preserve">
+    <value>Hide non-historical elements</value>
+  </data>
+  <data name="customization/filter/counter/body" xml:space="preserve">
+    <value>Shows customization elements that meet the selected criteria.</value>
+  </data>
+  <data name="customization/filter/counter/close/body" xml:space="preserve">
+    <value>Click to reset filter</value>
+  </data>
+  <data name="customization/filter/counter/close/header" xml:space="preserve">
+    <value>Reset Filter</value>
+  </data>
+  <data name="customization/filter/counter/header" xml:space="preserve">
+    <value>Customization Filter</value>
+  </data>
+  <data name="customization/nonHistoricIndicator/body" xml:space="preserve">
+    <value>Click to view the list of non-historical elements.</value>
+  </data>
+  <data name="customization/nonHistoricIndicator/header" xml:space="preserve">
+    <value>Non-Historical Elements</value>
+  </data>
+  <data name="customization/scrollbar/bookmark/header" xml:space="preserve">
+    <value>%(bookmark)s</value>
+  </data>
+  <data name="customization/tabs/camouflage/body" xml:space="preserve">
+    <value>Camouflage modifies the vehicle's exterior and provides a bonus to concealment.</value>
+  </data>
+  <data name="customization/tabs/emblem/body" xml:space="preserve">
+    <value>Emblems are applied to vehicles and add individuality to a particular vehicle.</value>
+  </data>
+  <data name="customization/tabs/inscription/body" xml:space="preserve">
+    <value>Inscriptions are applied to vehicles and add individuality to a particular vehicle.</value>
+  </data>
+  <data name="customization/tabs/modification/body" xml:space="preserve">
+    <value>Effects modify the display of the paint coat, making it look worn or brand new.</value>
+  </data>
+  <data name="customization/tabs/paint/body" xml:space="preserve">
+    <value>Paint changes the default vehicle color.</value>
+  </data>
+  <data name="customizationBuyWindow/fromStorage" xml:space="preserve">
+    <value>Element from the Depot</value>
+  </data>
+  <data name="elen/condition/battletype/notrandom" xml:space="preserve">
+    <value>Take this vehicle into battles, hit the prize place in the competition rating, and receive rewards.</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/damageAssisted/body" xml:space="preserve">
+    <value>Amount of damage caused with player's assistance during the player's best battle in the player's best series of battles in the competition.</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/damageAssisted/header" xml:space="preserve">
+    <value>Damage Caused With Player's Assistance in the Player's Best Battle</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/damageDealt/body" xml:space="preserve">
+    <value>Amount of damage caused during the player's best battle in the player's best series of battles in the competition.</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/damageDealt/header" xml:space="preserve">
+    <value>Damage in the Player's Best Battle</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/originalXP/body" xml:space="preserve">
+    <value>Amount of base experience earned during the player's best battle in the player's best series of battles in the competition.
+The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/originalXP/header" xml:space="preserve">
+    <value>Base Experience Earned in the Player's Best Battle</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/xp/body" xml:space="preserve">
+    <value>Amount of experience earned during the player's best battle in the player's best series of battles in the competition.
+The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+  </data>
+  <data name="elen/excel/addParam/sumMSeqN/xp/header" xml:space="preserve">
+    <value>Experience Earned in the Player's Best Battle</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/damageAssisted/body" xml:space="preserve">
+    <value>Total damage caused with player's assistance during the player's best series of battles in the competition.</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/damageAssisted/header" xml:space="preserve">
+    <value>Total Damage Caused With Player's Assistance</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/damageDealt/body" xml:space="preserve">
+    <value>Total damage caused during the best series of battles in the competition.</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/damageDealt/header" xml:space="preserve">
+    <value>Total Damage</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/originalXP/body" xml:space="preserve">
+    <value>Total base experience earned during the best series of battles in the competition.
+The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/originalXP/header" xml:space="preserve">
+    <value>Total Base Experience</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/xp/body" xml:space="preserve">
+    <value>Total experience earned during the player's best series of battles in the competition.
+The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
+Extra experience from Premium Account is counted.</value>
+  </data>
+  <data name="elen/excel/objParam/sumMSeqN/xp/header" xml:space="preserve">
+    <value>Total Experience</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/damageAssisted/body" xml:space="preserve">
+    <value>Total damage caused with player's assistance during the player's best series of battles in the competition.</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/damageAssisted/header" xml:space="preserve">
+    <value>Total Damage Caused With Player's Assistance</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/damageDealt/body" xml:space="preserve">
+    <value>Total damage caused during the best series of battles in the competition.</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/damageDealt/header" xml:space="preserve">
+    <value>Total Damage</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/originalXP/body" xml:space="preserve">
+    <value>Total base experience earned during the best series of battles in the competition.
+The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/originalXP/header" xml:space="preserve">
+    <value>Total Base Experience</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/xp/body" xml:space="preserve">
+    <value>Total experience earned during the player's best series of battles in the competition.
+The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
+Extra experience from Premium Account is counted.</value>
+  </data>
+  <data name="elen/summary/objParam/sumMSeqN/xp/header" xml:space="preserve">
+    <value>Total Experience</value>
+  </data>
+  <data name="elen/task/selection/sumMSeqN" xml:space="preserve">
+    <value>The following value is counted: the best total value of the parameter used in the rating for the best battles in the series.
+Battles in the series: %(cardinality)s.
+Battles counted: %(distance)s.</value>
+  </data>
+  <data name="fortification/sortie/gunnerIcon/body" xml:space="preserve">
+    <value>The Forward Observer can direct an Artillery Strike or Airstrike at the selected area if these Reserves were mounted before the battle.</value>
+  </data>
+  <data name="fortification/sortie/gunnerIcon/header" xml:space="preserve">
+    <value>Forward Observer</value>
+  </data>
+  <data name="hangar/elen/bottom/allperiphery/notrandom/body" xml:space="preserve">
+    <value>Take this vehicle into battles, hit the prize place in the competition rating, and receive rewards.</value>
+  </data>
+  <data name="hangar/header/nyquests/header" xml:space="preserve">
+    <value>Holiday Ops</value>
+  </data>
+  <data name="hangar/tuning/disabled/body" xml:space="preserve">
+    <value>Customization of the selected vehicle is unavailable.</value>
+  </data>
+  <data name="hangar/tuning/disabled/header" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="header/buttons/available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="header/buttons/credits/clickDesc" xml:space="preserve">
+    <value>Click to exchange gold for credits.</value>
+  </data>
+  <data name="header/buttons/credits/firstDesc" xml:space="preserve">
+    <value>You can earn credits for fighting in battles, exchanging gold, as well as for selling equipment, consumables, shells, etc.</value>
+  </data>
+  <data name="header/buttons/credits/title" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="header/buttons/crystal/body" xml:space="preserve">
+    <value>Retrieving balance data. All your bonds will be available soon.</value>
+  </data>
+  <data name="header/buttons/crystal/clickDesc" xml:space="preserve">
+    <value>Click to receive additional information.</value>
+  </data>
+  <data name="header/buttons/crystal/header" xml:space="preserve">
+    <value>Bonds</value>
+  </data>
+  <data name="header/buttons/freeXP/clickDesc" xml:space="preserve">
+    <value>Click to convert Combat Experience to Free Experience.</value>
+  </data>
+  <data name="header/buttons/freeXP/firstDesc" xml:space="preserve">
+    <value>You can earn Free Experience in battles or use gold to convert Combat Experience earned on Elite vehicles.</value>
+  </data>
+  <data name="header/buttons/freeXP/title" xml:space="preserve">
+    <value>Free Experience</value>
+  </data>
+  <data name="header/buttons/gold/clickDesc" xml:space="preserve">
+    <value>Click to go to the Purchase Gold page on the game portal.</value>
+  </data>
+  <data name="header/buttons/gold/title" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="rankedBattleView/scorePoint/body" xml:space="preserve">
+    <value>Awarded for an achieved rank and added together. The more points you earn, the higher your position on the Leaderboard, and the better the rewards you receive at the end of a season.</value>
+  </data>
+  <data name="rankedBattleView/scorePoint/header" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="summary/status/tooltip" xml:space="preserve">
+    <value>The data updates every %(interval)s min.</value>
+  </data>
+  <data name="techtree/Announcement_HT" xml:space="preserve">
+    <value>We are looking for a heavy tank that matches the characteristics of previous vehicles to fill this position. It is too early to mention any specific models, but our specialists are already reviewing several suitable options.</value>
+  </data>
+  <data name="techtree/Announcement_MT" xml:space="preserve">
+    <value>We are looking for a medium tank that matches the characteristics of previous vehicles to fill this position. It is too early to mention any specific models, but our specialists are already reviewing several suitable options.</value>
+  </data>
+  <data name="TERRAIN_TESSELLATION_ENABLED/body" xml:space="preserve">
+    <value>Hardware-accelerated process of adding new triangles to the polygon mesh to increase the mesh details.
+
+The function will only work with:
+• Improved Graphics
+• High, Maximum or Ultra Terrain Quality
+• DirectX 11 installed.</value>
+  </data>
+  <data name="TERRAIN_TESSELLATION_ENABLED/header" xml:space="preserve">
+    <value>Terrain Tessellation</value>
+  </data>
+  <data name="actionPrice/sell/body/simple" xml:space="preserve">
+    <value>The sale price is lower than usual—
+you can purchase it at a discount.</value>
+  </data>
+  <data name="battleBorderMapModeButtonBar/info/body" xml:space="preserve">
+    <value>The indication of the border of the map will become visible at a distance of 300 meters.</value>
+  </data>
+  <data name="battleBorderMapModeButtonBar/info/header" xml:space="preserve">
+    <value>When Approaching</value>
+  </data>
+  <data name="battleBorderMapTypeButtonBar/info/attention" xml:space="preserve">
+    <value>Enabling this setting may result in disorientation in battle.</value>
+  </data>
+  <data name="battleBorderMapTypeButtonBar/info/body" xml:space="preserve">
+    <value>This setting hides the red line that indicates the border of a map.</value>
+  </data>
+  <data name="battleBorderMapTypeButtonBar/info/header" xml:space="preserve">
+    <value>Hide Map Border</value>
+  </data>
+  <data name="colorFilter/attention" xml:space="preserve">
+    <value>Color adjustment is available only when Improved Graphics is selected.</value>
+  </data>
+  <data name="colorFilter/body" xml:space="preserve">
+    <value>In this section, you can select one of the preset filters or manually configure the image saturation, brightness, and contrast.</value>
+  </data>
+  <data name="colorFilter/header" xml:space="preserve">
+    <value>Color Adjustment</value>
+  </data>
+  <data name="crew/roleChange/header" xml:space="preserve">
+    <value>Change Qualification</value>
+  </data>
+  <data name="crew/roleChange/text" xml:space="preserve">
+    <value>Click to select a new major qualification and vehicle to retrain your crew member.</value>
+  </data>
+  <data name="gamma/attention" xml:space="preserve">
+    <value>Gamma settings are not available: 
+• In fullscreen mode with the set resolution different to the native one
+• In windowed mode with standard graphics quality (the Details option).
+In windowed mode, current operating system settings are used. </value>
+  </data>
+  <data name="gamma/body" xml:space="preserve">
+    <value>Allows for the brightness to be adjusted to the optimal value. This option aims to
+compensate for the effects from video card drivers and display
+settings that affect the game's visual quality.</value>
+  </data>
+  <data name="gamma/header" xml:space="preserve">
+    <value>Gamma</value>
+  </data>
+  <data name="hangar/startBtn/preview/body" xml:space="preserve">
+    <value>Go back to the Garage to select a vehicle and enter a battle.</value>
+  </data>
+  <data name="hangarCamCheckbox/body" xml:space="preserve">
+    <value>Enables animated feedback of the Garage camera
+when moving the cursor.</value>
+  </data>
+  <data name="hangarCamCheckbox/header" xml:space="preserve">
+    <value>Garage camera animation when moving the mouse cursor</value>
+  </data>
+  <data name="hangarCamDropdown/body" xml:space="preserve">
+    <value>The camera will rotate around the selected vehicle,
+after the cursor has not been moved for the selected amount of time.</value>
+  </data>
+  <data name="hangarCamDropdown/header" xml:space="preserve">
+    <value>Garage camera rotation when idle for</value>
+  </data>
+  <data name="hangarTutorial/nations/italy" xml:space="preserve">
+    <value>Italy</value>
+  </data>
+  <data name="minimapAlpha/attention" xml:space="preserve">
+    <value>Disabling this parameter can improve game performance.</value>
+  </data>
+  <data name="minimapAlpha/body" xml:space="preserve">
+    <value>Enables you to set the minimap's transparency,
+to make the game elements visible.</value>
+  </data>
+  <data name="minimapAlpha/header" xml:space="preserve">
+    <value>Minimap Transparency</value>
+  </data>
+  <data name="personal_case/skills/accTeachingOfSkillBtn/selectSkill/body" xml:space="preserve">
+    <value>A skill or perk for accelerated training has not been selected.</value>
+  </data>
+  <data name="personal_case/skills/accTeachingOfSkillBtn/selectSkill/header" xml:space="preserve">
+    <value>Quick Training Unavailable</value>
+  </data>
+  <data name="personal_case/skills/dropSkillsButton/body" xml:space="preserve">
+    <value>Click to reset skills or perks.</value>
+  </data>
+  <data name="personal_case/skills/dropSkillsButton/header" xml:space="preserve">
+    <value>Reset Skills or Perks</value>
+  </data>
+  <data name="personal_case/skills/dropSkillsButton/noSkill/body" xml:space="preserve">
+    <value>You have no trained skills or perks.</value>
+  </data>
+  <data name="personal_case/skills/dropSkillsButton/noSkill/header" xml:space="preserve">
+    <value>Action Unavailable</value>
+  </data>
+  <data name="settings/sound/deviceAlert/body" xml:space="preserve">
+    <value>The selected sound system is different from the one that was automatically detected by the game client. Some sounds may not be available. We recommend that you test the sound difference.</value>
+  </data>
+  <data name="settings/sound/deviceAlert/header" xml:space="preserve">
+    <value>Sound System Mismatch</value>
+  </data>
+  <data name="tank_params/desc/switchTime" xml:space="preserve">
+    <value>The time needed to switch between modes depends on the engine's condition. A damaged engine increases the time needed for switching. Switching is unavailable when the engine is destroyed.</value>
+  </data>
+  <data name="techTreePage/nations/italy" xml:space="preserve">
+    <value>Go to the Italian Tech Tree</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/battle/body" xml:space="preserve">
+    <value>• Increased Combat Experience earned in each battle.
+• The Elite vehicle status provides the option to convert Combat Experience to Free Experience right after the first battle, and use it to research modules and vehicles.</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/battle/header" xml:space="preserve">
+    <value>Additional Combat Experience</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/credit/body" xml:space="preserve">
+    <value>• Premium vehicles earn more credits and experience in each battle, which saves you valuable time.</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/credit/header" xml:space="preserve">
+    <value>More Credits</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/crew/body" xml:space="preserve">
+    <value>• 50% more crew experience for each battle.
+• Accelerated crew training available from the first battle. The least experienced crew member is trained twice as fast.</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/crew/header" xml:space="preserve">
+    <value>Crew Experience</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/replace/body" xml:space="preserve">
+    <value>• Transferring crew from a researchable vehicle to a Premium vehicle of the same type without penalties and retraining.</value>
+  </data>
+  <data name="vehiclePreview/eliteBonus/replace/header" xml:space="preserve">
+    <value>Transferring crew members without penalty</value>
+  </data>
+  <data name="vehiclePreview/historicalReference/title" xml:space="preserve">
+    <value>Historical Reference</value>
+  </data>
+  <data name="vehiclePreview/moduls/body" xml:space="preserve">
+    <value>You can preview the vehicle in any configuration. However, upon purchase you will receive the vehicle in its standard configuration.</value>
+  </data>
+  <data name="vehiclePreview/moduls/header" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="vehiclePreview/modulsnoModules/body" xml:space="preserve">
+    <value>Other modules are not available for this vehicle.</value>
+  </data>
+  <data name="vehiclePreview/modulsnoModules/header" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="marathon/body" xml:space="preserve">
+    <value>Complete missions of each stage; missions for mastery are available only for Tier X vehicles, and missions for commitment for vehicles of any tier. You will receive special rewards for completing each of 10 stages and a unique Tier VIII premium vehicle for free at the end of all stages.</value>
+  </data>
+  <data name="marathon/body/extra" xml:space="preserve">
+    <value>%(day)s until the end of the sale of the unique Tier VIII vehicle with the personal discount.</value>
+  </data>
+  <data name="marathon/error/battle_type" xml:space="preserve">
+    <value>Available only in Random Battles</value>
+  </data>
+  <data name="marathon/error/veh_type" xml:space="preserve">
+    <value>Available only for Tier VIII and X vehicles</value>
+  </data>
+  <data name="marathon/extra_state/completed" xml:space="preserve">
+    <value>Tank has been received</value>
+  </data>
+  <data name="marathon/extra_state/discount" xml:space="preserve">
+    <value>Your personal discount is %(discount)s%%</value>
+  </data>
+  <data name="marathon/extra_state/steps" xml:space="preserve">
+    <value>Stages completed: %(currentStep)s / %(allStep)s</value>
+  </data>
+  <data name="marathon/header" xml:space="preserve">
+    <value>Italian Challenge</value>
+  </data>
+  <data name="marathon/off/body" xml:space="preserve">
+    <value>The event is temporarily unavailable due to technical issues. Try again later.</value>
+  </data>
+  <data name="marathon/off/header" xml:space="preserve">
+    <value>Event Unavailable</value>
+  </data>
+  <data name="marathon/state/complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="marathon/state/end" xml:space="preserve">
+    <value>Ends in: %(value)s</value>
+  </data>
+  <data name="marathon/state/start" xml:space="preserve">
+    <value>Starts in: %(value)s</value>
+  </data>
+  <data name="advanced/ARMOR_PIERCING" xml:space="preserve">
+    <value>The most common shell type that causes damage only when it penetrates a vehicle's armor. The shell can ricochet if it hits the armor at an angle. The penetration power of Armor-Piercing shells decreases with distance traveled.</value>
+  </data>
+  <data name="advanced/ARMOR_PIERCING_CR" xml:space="preserve">
+    <value>Demonstrates high flight speed and causes damage only when it penetrates a vehicle's armor. The shell can ricochet when it hits the armor at an angle. The penetration power of Armor-Piercing Composite Rigid shells decreases with distance traveled.</value>
+  </data>
+  <data name="advanced/HIGH_EXPLOSIVE" xml:space="preserve">
+    <value>Causes the highest potential damage. These shells usually demonstrate the lowest penetration characteristics. High-Explosive shells explode inside of a vehicle once they penetrate the armor. In case there is no penetration, they explode on contact with a vehicle's armor and cause minor damage. These shells cannot ricochet from armor.</value>
+  </data>
+  <data name="advanced/HOLLOW_CHARGE" xml:space="preserve">
+    <value>Demonstrates increased penetration power that is considerably reduced upon hitting screens. High-Explosive Anti-Tank shells cause damage only after penetration of vehicle's armor. The ricochets are quite rare. The penetration power of this shell is not reduced with distance traveled.</value>
+  </data>
+  <data name="advanced/aimingStabilizer" xml:space="preserve">
+    <value>Improves aiming: reduces reticle dispersion during firing, turret traverse or vehicle movement.</value>
+  </data>
+  <data name="advanced/antifragmentationLining" xml:space="preserve">
+    <value>Reduces damage from explosion of High-Explosive shells (on vehicle's armor) and ramming, reduces the duration of crew stunning, and chances for knocking out crew members.</value>
+  </data>
+  <data name="advanced/autoExtinguishers" xml:space="preserve">
+    <value>Automatic extinguishes fire in vehicle right after inflammation. The passive effect reduces the chance of inflammation.</value>
+  </data>
+  <data name="advanced/battleTeaching" xml:space="preserve">
+    <value>Apply everything you have learned from Bootcamp in a battle against bots.</value>
+  </data>
+  <data name="advanced/brotherhood" xml:space="preserve">
+    <value>Improves major qualifications and all skills for the entire crew. Comes into effect when it reaches 100% for all crew members.</value>
+  </data>
+  <data name="advanced/camouflage" xml:space="preserve">
+    <value>Reduces vehicle visibility.</value>
+  </data>
+  <data name="advanced/camouflageNet" xml:space="preserve">
+    <value>Reduces vehicle visibility for a short time after the vehicle stops moving. The effect is disabled if vehicle moves forwards or backwards, or when the hull is turned. The effect is not disabled when turning the hull of high-tier Swedish tank destroyers.</value>
+  </data>
+  <data name="advanced/carbonDioxide" xml:space="preserve">
+    <value>The vehicle can catch fire due to penetration of the fuel tank. This equipment increases the durability of the vehicle's fuel tanks.</value>
+  </data>
+  <data name="advanced/coatedOptics" xml:space="preserve">
+    <value>Increases the view range of your vehicle, allowing for early spotting of enemy vehicles.</value>
+  </data>
+  <data name="advanced/commander" xml:space="preserve">
+    <value>Affects the view range. Slightly improves the efficiency of other crew members.</value>
+  </data>
+  <data name="advanced/commander_eagleEye" xml:space="preserve">
+    <value>Increases Maximum View Range.</value>
+  </data>
+  <data name="advanced/commander_expert" xml:space="preserve">
+    <value>Enables the Commander to identify critically damaged modules on targeted vehicles within the view range.</value>
+  </data>
+  <data name="advanced/commander_sixthSense" xml:space="preserve">
+    <value>Enables the Commander to identify whether the vehicle has been spotted by the enemy.</value>
+  </data>
+  <data name="advanced/commander_tutor" xml:space="preserve">
+    <value>Provides additional experience to all crew members except the Commander.</value>
+  </data>
+  <data name="advanced/commander_universalist" xml:space="preserve">
+    <value>Enables the Commander to master every qualification and replace knocked-out crew members.</value>
+  </data>
+  <data name="advanced/driver" xml:space="preserve">
+    <value>Affects the dynamic characteristics of the vehicle.</value>
+  </data>
+  <data name="advanced/driver_badRoadsKing" xml:space="preserve">
+    <value>Reduces ground resistance when driving on soft and moderately soft terrain.</value>
+  </data>
+  <data name="advanced/driver_rammingMaster" xml:space="preserve">
+    <value>Decreases ramming damage to your vehicle and increases ramming damage to an enemy vehicle.</value>
+  </data>
+  <data name="advanced/driver_smoothDriving" xml:space="preserve">
+    <value>Improves accuracy when firing on the move.</value>
+  </data>
+  <data name="advanced/driver_tidyPerson" xml:space="preserve">
+    <value>Reduces the chance of engine fire by preventing gas or oil leakage in the engine compartment.</value>
+  </data>
+  <data name="advanced/driver_virtuoso" xml:space="preserve">
+    <value>Increases vehicle traverse speed.</value>
+  </data>
+  <data name="advanced/economyBonds" xml:space="preserve">
+    <value>A rare special currency used to purchase unique items that are unavailable through other means.</value>
+  </data>
+  <data name="advanced/economyConvertExp" xml:space="preserve">
+    <value>You can use this game resource to research any vehicle or module.</value>
+  </data>
+  <data name="advanced/economyCredits" xml:space="preserve">
+    <value>The main in-game currency. Earned in battles or purchased with gold.</value>
+  </data>
+  <data name="advanced/economyGold" xml:space="preserve">
+    <value>Presents the Premium currency that can be spent on various purposes.</value>
+  </data>
+  <data name="advanced/economyPremium" xml:space="preserve">
+    <value>Provides 50% more experience and credits after each battle.</value>
+  </data>
+  <data name="advanced/economyPremium/header" xml:space="preserve">
+    <value>Premium Account</value>
+  </data>
+  <data name="advanced/economyTankExperience" xml:space="preserve">
+    <value>The game resource earned in battles. Experience is used to research new modules and new vehicles.</value>
+  </data>
+  <data name="advanced/enhancedAimDrives" xml:space="preserve">
+    <value>Reduces the aiming time of the reticle after firing.</value>
+  </data>
+  <data name="advanced/enhancedOil" xml:space="preserve">
+    <value>Increases the engine power, improving the dynamics of your vehicle for the course of the battle.</value>
+  </data>
+  <data name="advanced/equipment" xml:space="preserve">
+    <value>The items that significantly improve your vehicle characteristics. There is simple equipment, that can be demounted for free and mounted on other vehicles, and complex equipment that can be demounted for a fee.</value>
+  </data>
+  <data name="advanced/filterCyclone" xml:space="preserve">
+    <value>Increases the hit points of the engine, making it more durable to received damage.</value>
+  </data>
+  <data name="advanced/fireFighting" xml:space="preserve">
+    <value>Enhances firefighting abilities.</value>
+  </data>
+  <data name="advanced/gamemodeRandom" xml:space="preserve">
+    <value>Battle with automatic matching of allies and enemies.</value>
+  </data>
+  <data name="advanced/gamemodeSpecial" xml:space="preserve">
+    <value>Participation of clans in championships, tournaments, and Clan Wars.</value>
+  </data>
+  <data name="advanced/gamemodeStronghold" xml:space="preserve">
+    <value>Battles for Industrial Resource against enemy detachments.</value>
+  </data>
+  <data name="advanced/gamemodeTeam" xml:space="preserve">
+    <value>Battle between pre-made peer teams.</value>
+  </data>
+  <data name="advanced/gamemodeTraining" xml:space="preserve">
+    <value>Battle with manual matching of allies and enemies.</value>
+  </data>
+  <data name="advanced/gasoline100" xml:space="preserve">
+    <value>Increases the engine power and turret traverse speed for the course of the battle.</value>
+  </data>
+  <data name="advanced/gasoline105" xml:space="preserve">
+    <value>Increases the engine power and turret traverse speed for the course of the battle.</value>
+  </data>
+  <data name="advanced/grousers" xml:space="preserve">
+    <value>Improves vehicle performance on soft terrains.</value>
+  </data>
+  <data name="advanced/gunner" xml:space="preserve">
+    <value>Affects the gun aiming and firing accuracy.</value>
+  </data>
+  <data name="advanced/gunner_gunsmith" xml:space="preserve">
+    <value>Improves the accuracy of a damaged gun.</value>
+  </data>
+  <data name="advanced/gunner_rancorous" xml:space="preserve">
+    <value>Makes targeted enemy vehicles visible for two additional seconds.</value>
+  </data>
+  <data name="advanced/gunner_smoothTurret" xml:space="preserve">
+    <value>Improves accuracy during turret rotation.</value>
+  </data>
+  <data name="advanced/gunner_sniper" xml:space="preserve">
+    <value>Increases the chance of causing damage to enemy vehicle modules and crew.</value>
+  </data>
+  <data name="advanced/handExtinguishers" xml:space="preserve">
+    <value>Extinguishes fire in your vehicle upon activation.</value>
+  </data>
+  <data name="advanced/header/shellType/ARMOR_PIERCING" xml:space="preserve">
+    <value>Armor-Piercing Shells</value>
+  </data>
+  <data name="advanced/header/shellType/ARMOR_PIERCING_CR" xml:space="preserve">
+    <value>Armor-Piercing Composite Rigid Shells</value>
+  </data>
+  <data name="advanced/header/shellType/HIGH_EXPLOSIVE" xml:space="preserve">
+    <value>High-Explosive Shells</value>
+  </data>
+  <data name="advanced/header/shellType/HOLLOW_CHARGE" xml:space="preserve">
+    <value>High-Explosive Anti-Tank Shells</value>
+  </data>
+  <data name="advanced/improvedVentilation" xml:space="preserve">
+    <value>Improves crew skills that affect the vehicle characteristics.</value>
+  </data>
+  <data name="advanced/info" xml:space="preserve">
+    <value>additional information</value>
+  </data>
+  <data name="advanced/instructions" xml:space="preserve">
+    <value>Effective during one battle. Depending on the type, increases the effect of mounted equipment, improves the trained or activates not trained skills/perks of crew members.</value>
+  </data>
+  <data name="advanced/largeMedkit" xml:space="preserve">
+    <value>Prompt treatment of all injured crew members and removes the stun effect. The passive effect improves the protection of the crew and reduces stun duration.</value>
+  </data>
+  <data name="advanced/largeRepairkit" xml:space="preserve">
+    <value>Prompt repair of all damaged modules. The passive effect increases the repair speed.</value>
+  </data>
+  <data name="advanced/loader" xml:space="preserve">
+    <value>Affects the gun loading time.</value>
+  </data>
+  <data name="advanced/loader_desperado" xml:space="preserve">
+    <value>Accelerates gun loading if the vehicle has less than 10% of its hit points left.</value>
+  </data>
+  <data name="advanced/loader_intuition" xml:space="preserve">
+    <value>Creates a chance that the Loader will promptly switch between shell types, either while the gun is loaded or during the loading process.</value>
+  </data>
+  <data name="advanced/loader_pedant" xml:space="preserve">
+    <value>Increases ammo rack durability: the shells do not come into contact with each other.</value>
+  </data>
+  <data name="advanced/radioman" xml:space="preserve">
+    <value>Affects the signal range.</value>
+  </data>
+  <data name="advanced/radioman_finder" xml:space="preserve">
+    <value>Increases Maximum View Range.</value>
+  </data>
+  <data name="advanced/radioman_inventor" xml:space="preserve">
+    <value>Extends Signal Range.</value>
+  </data>
+  <data name="advanced/radioman_lastEffort" xml:space="preserve">
+    <value>Allows a Radio Operator who survives the destruction of his vehicle to report enemy positions for another two seconds.</value>
+  </data>
+  <data name="advanced/radioman_retransmitter" xml:space="preserve">
+    <value>Extends Signal Range of allied communications within the vehicle's radio coverage.</value>
+  </data>
+  <data name="advanced/rammer" xml:space="preserve">
+    <value>Reduces Gun Reload Time.</value>
+  </data>
+  <data name="advanced/ranked" xml:space="preserve">
+    <value>Battles for progressing up the Leaderboard where you receive ranks and rewards.</value>
+  </data>
+  <data name="advanced/ration" xml:space="preserve">
+    <value>Improves crew skills and perks that affect the vehicle characteristics.</value>
+  </data>
+  <data name="advanced/relativeArmor" xml:space="preserve">
+    <value>A set of parameters that show the ability of your vehicle to survive in a battle.</value>
+  </data>
+  <data name="advanced/relativeCamouflage" xml:space="preserve">
+    <value>A set of parameters that show the vehicle concealment and spotting of your vehicle by enemies.</value>
+  </data>
+  <data name="advanced/relativeMobility" xml:space="preserve">
+    <value>A set of parameters that show the dynamic characteristics of your vehicle.</value>
+  </data>
+  <data name="advanced/relativePower" xml:space="preserve">
+    <value>A set of parameters that show the effectiveness of destroying enemy vehicles.</value>
+  </data>
+  <data name="advanced/relativeVisibility" xml:space="preserve">
+    <value>A set of parameters that show the distance at which enemy vehicles are spotted and displayed on the minimap.</value>
+  </data>
+  <data name="advanced/removedRpmLimiter" xml:space="preserve">
+    <value>Improves vehicle dynamics, but gradually damages the engine. Can be enabled and disabled manually. Purchased once and does not disappear after the battle.</value>
+  </data>
+  <data name="advanced/repair" xml:space="preserve">
+    <value>Accelerates repairs of damaged modules.</value>
+  </data>
+  <data name="advanced/service" xml:space="preserve">
+    <value>Items that improve particular vehicle characteristics or repair modules in battle.</value>
+  </data>
+  <data name="advanced/smallMedkit" xml:space="preserve">
+    <value>Prompt treatment of an injured crew member and removes the stun effect.</value>
+  </data>
+  <data name="advanced/smallRepairkit" xml:space="preserve">
+    <value>Prompt repair of one selected damaged module upon activation.</value>
+  </data>
+  <data name="advanced/steelRollers" xml:space="preserve">
+    <value>This equipment increases the load capacity and hit points of suspension. Heavier modules can be mounted on the vehicle.</value>
+  </data>
+  <data name="advanced/stereoscope" xml:space="preserve">
+    <value>Increases vehicle view range for a short time after the vehicle stops moving. The effect is disabled if the vehicle moves forwards or backwards, or when the hull is turned. The effect is not disabled when turning the hull of high-tier Swedish tank destroyers.</value>
+  </data>
+  <data name="advanced/toolbox" xml:space="preserve">
+    <value>Increases the repair speed of destroyed modules in battle.</value>
+  </data>
+  <data name="advanced/vehicleChassis" xml:space="preserve">
+    <value>The module that affects the vehicle traverse speed and crossing capacity on various types of terrain. Also affects the load capacity.</value>
+  </data>
+  <data name="advanced/vehicleEngine" xml:space="preserve">
+    <value>The module that determines vehicle dynamic characteristics. Can catch fire by a shot.</value>
+  </data>
+  <data name="advanced/vehicleGun" xml:space="preserve">
+    <value>Presents the primary weapon of a vehicle with particular accuracy, loading and aiming speed. Each gun can use several shell types.</value>
+  </data>
+  <data name="advanced/vehicleRadio" xml:space="preserve">
+    <value>Provides information exchange between allied vehicles on positions of enemy vehicles, allowing for unspotted firing.</value>
+  </data>
+  <data name="advanced/vehicleTurret" xml:space="preserve">
+    <value>Demonstrates particular traverse speed, view range, armor protection, and depression/elevation angles. Most tank destroyers and SPG vehicles have stationary superstructures instead of a turret.</value>
+  </data>
+  <data name="advanced/wetCombatPack" xml:space="preserve">
+    <value>Damage to the ammo rack may result in immediate detonation. This equipment doubles the hit points of vehicle's ammo rack.</value>
+  </data>
+  <data name="battleResults/moneyAlert/body" xml:space="preserve">
+    <value>Credits, bonds, and Free Experience earned in battles will be compensated after service operability is restored.</value>
+  </data>
+  <data name="battleResults/moneyAlert/header" xml:space="preserve">
+    <value>Currencies are Temporarily Unavailable.</value>
+  </data>
+  <data name="battleSession/alert/body" xml:space="preserve">
+    <value>You must be a member of a Platoon to fight in the battle.</value>
+  </data>
+  <data name="battleSession/alert/header" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="epicBattleWidget/body/maxMetaLevel/maxPrestige" xml:space="preserve">
+    <value>You have reached the highest Frontline Tier.</value>
+  </data>
+  <data name="epicBattleWidget/body/maxMetaLevel/prestige" xml:space="preserve">
+    <value>You have reached the highest Tier. Reset your progress to gain additional rewards.</value>
+  </data>
+  <data name="epicBattleWidget/desc" xml:space="preserve">
+    <value>Tier %(level)s</value>
+  </data>
+  <data name="epicBattleWidget/header" xml:space="preserve">
+    <value>Frontline Tier</value>
+  </data>
+  <data name="hangar/ammo_panel/battleAbility/empty/body" xml:space="preserve">
+    <value>Click to select available Combat Reserves.</value>
+  </data>
+  <data name="hangar/ammo_panel/battleAbility/empty/header" xml:space="preserve">
+    <value>Manage Reserves</value>
+  </data>
+  <data name="hangar/crew/moreskills" xml:space="preserve">
+    <value>and more skills/perks: %(skill_cnt)s</value>
+  </data>
+  <data name="showDamageIcon/blocked" xml:space="preserve">
+    <value>Armor not penetrated</value>
+  </data>
+  <data name="showDamageIcon/criticalDamage" xml:space="preserve">
+    <value>Critical damage</value>
+  </data>
+  <data name="showDamageIcon/enemyRicochet" xml:space="preserve">
+    <value>Ricochet</value>
+  </data>
+  <data name="showDamageIcon/header" xml:space="preserve">
+    <value>Notifications when causing damage</value>
+  </data>
+  <data name="showDamageIcon/trackDamage" xml:space="preserve">
+    <value>Critical damage</value>
+  </data>
+  <data name="tank_params/desc/autoReloadTime" xml:space="preserve">
+    <value>Time for successive autoreloading of each shell in the magazine.</value>
+  </data>
+  <data name="header/buttons/manual/body" xml:space="preserve">
+    <value>Go to Training Center.</value>
+  </data>
+  <data name="header/buttons/manual/header" xml:space="preserve">
+    <value>Training Center</value>
   </data>
 </root>

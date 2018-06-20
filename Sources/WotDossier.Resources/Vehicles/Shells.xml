@@ -49,7 +49,8 @@
       <id>	44	</id>
       <userString>#china_vehicles:_37mm_APC_M51</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -92,7 +93,8 @@
       <id>	16	</id>
       <userString>#china_vehicles:_37cm_Pzgr40</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -150,7 +152,8 @@
       <id>	11	</id>
       <userString>#china_vehicles:_37mm_FrtPrf1935</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -193,7 +196,8 @@
       <id>	38	</id>
       <userString>#china_vehicles:_40mm_APCR</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	40	</caliber>
       <isTracer>	true	</isTracer>
@@ -236,7 +240,8 @@
       <id>	41	</id>
       <userString>#china_vehicles:_45mm_UBR-240PA</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	45	</caliber>
       <isTracer>	true	</isTracer>
@@ -279,7 +284,8 @@
       <id>	35	</id>
       <userString>#china_vehicles:_47mm_APCR</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	47	</caliber>
       <isTracer>	true	</isTracer>
@@ -322,7 +328,8 @@
       <id>	53	</id>
       <userString>#china_vehicles:_47mm_APCR_Type1</userString>
       <icon>ap_cr</icon>
-      <price>	4	<gold></gold></price>
+      <price>	1600	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	47	</caliber>
       <isTracer>	true	</isTracer>
@@ -365,7 +372,8 @@
       <id>	50	</id>
       <userString>#china_vehicles:_57mm_HEAT_Type_97</userString>
       <icon>hc</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -410,7 +418,8 @@
       <id>	89	</id>
       <userString>#china_vehicles:_57mm_HEAT_Type_97</userString>
       <icon>hc</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	57	</caliber>
@@ -456,7 +465,8 @@
       <id>	59	</id>
       <userString>#china_vehicles:_57mm_APCR_Type_55_57</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -499,7 +509,8 @@
       <id>	47	</id>
       <userString>#china_vehicles:_76mm_APCR_type1</userString>
       <icon>ap_cr</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -542,7 +553,8 @@
       <id>	56	</id>
       <userString>#china_vehicles:_76mm_UBR-354MP</userString>
       <icon>ap_cr</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -585,7 +597,8 @@
       <id>	73	</id>
       <userString>#usa_vehicles:_76mm_HVAP_M93</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -628,7 +641,8 @@
       <id>	67	</id>
       <userString>#china_vehicles:_85mm_Po_367</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	85	</caliber>
       <isTracer>	true	</isTracer>
@@ -701,7 +715,8 @@
       <id>	4	</id>
       <userString>#china_vehicles:_85mm_HEAT</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	85	</caliber>
       <isTracer>	true	</isTracer>
@@ -716,7 +731,8 @@
       <id>	9	</id>
       <userString>#china_vehicles:_85mm_367</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	85	</caliber>
       <isTracer>	true	</isTracer>
@@ -759,7 +775,8 @@
       <id>	76	</id>
       <userString>#china_vehicles:_90mm_HEAT_M348</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -803,7 +820,8 @@
       <id>	1	</id>
       <userString>#china_vehicles:_100mm_UBR-412P</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -846,7 +864,8 @@
       <id>	19	</id>
       <userString>#china_vehicles:_100mm_TC-412G</userString>
       <icon>ap_cr</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -904,7 +923,8 @@
       <id>	80	</id>
       <userString>#china_vehicles:_105mm_HEAT_M456</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -948,7 +968,8 @@
       <id>	7	</id>
       <userString>#china_vehicles:_122mm_Type_64</userString>
       <icon>hc</icon>
-      <price>	14	<gold></gold></price>
+      <price>	5600	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	122	</caliber>
       <isTracer>	true	</isTracer>
@@ -992,7 +1013,8 @@
       <id>	62	</id>
       <userString>#china_vehicles:_122mm_PO-122</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	122	</caliber>
       <isTracer>	true	</isTracer>
@@ -1036,7 +1058,8 @@
       <id>	32	</id>
       <userString>#china_vehicles:_130mm_HEAT</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	130	</caliber>
       <isTracer>	true	</isTracer>
@@ -1062,6 +1085,51 @@
         <devices>	180	</devices>
       </damage>
     </_130mm_HE>
+    <_130mm_AP_QL>
+      <id>	91	</id>
+      <userString>#china_vehicles:_130mm_AP_QL</userString>
+      <icon>ap</icon>
+      <price>	1215	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	130	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeArmorPiercing</effects>
+      <damage>
+        <armor>	560	</armor>
+        <devices>	180	</devices>
+      </damage>
+    </_130mm_AP_QL>
+    <_130mm_HEAT_QL>
+      <id>	92	</id>
+      <userString>#china_vehicles:_130mm_HEAT_QL</userString>
+      <icon>hc</icon>
+      <price>	5200	</price>
+      <improved>	true	</improved>
+      <kind>HOLLOW_CHARGE</kind>
+      <caliber>	130	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeHollowCharge</effects>
+      <damage>
+        <armor>	560	</armor>
+        <devices>	180	</devices>
+      </damage>
+      <piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
+    </_130mm_HEAT_QL>
+    <_130mm_HE_QL>
+      <id>	93	</id>
+      <userString>#china_vehicles:_130mm_HE_QL</userString>
+      <icon>he</icon>
+      <price>	1020	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	130	</caliber>
+      <explosionRadius>2.78</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>largeHighExplosive</effects>
+      <damage>
+        <armor>	660	</armor>
+        <devices>	180	</devices>
+      </damage>
+    </_130mm_HE_QL>
     <_130mm_Chuan_bei_482G>
       <id>	85	</id>
       <userString>#china_vehicles:_130mm_Chuan_bei_482G</userString>
@@ -1080,7 +1148,8 @@
       <id>	86	</id>
       <userString>#china_vehicles:_130mm_Po_130G</userString>
       <icon>hc</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	130	</caliber>
       <isTracer>	true	</isTracer>
@@ -1124,7 +1193,8 @@
       <id>	83	</id>
       <userString>#china_vehicles:_152mm_Po_152</userString>
       <icon>hc</icon>
-      <price>	17	<gold></gold></price>
+      <price>	6800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	152	</caliber>
       <isTracer>	true	</isTracer>
@@ -1557,7 +1627,8 @@
       <id>	101	</id>
       <userString>#germany_vehicles:_7.92mm_APCR</userString>
       <icon>ap_cr</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>7.92</caliber>
       <isTracer>	true	</isTracer>
@@ -1600,7 +1671,8 @@
       <id>	1	</id>
       <userString>#germany_vehicles:_20cm_Pzgr40</userString>
       <icon>ap_cr</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	20	</caliber>
       <isTracer>	true	</isTracer>
@@ -1629,7 +1701,8 @@
       <id>	115	</id>
       <userString>#germany_vehicles:_20cm_Pzgr40</userString>
       <icon>ap_cr</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	20	</caliber>
@@ -1658,7 +1731,8 @@
       <id>	98	</id>
       <userString>#germany_vehicles:_30mm_Pzgr43</userString>
       <icon>ap_cr</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	30	</caliber>
       <isTracer>	true	</isTracer>
@@ -1701,7 +1775,8 @@
       <id>	4	</id>
       <userString>#germany_vehicles:_37cm_Pzgr40</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -1745,7 +1820,8 @@
       <id>	188	</id>
       <userString>#germany_vehicles:_37cm_Pzgr40</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
@@ -1805,7 +1881,8 @@
       <id>	7	</id>
       <userString>#germany_vehicles:_37cm_Pzgr40t</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -1849,7 +1926,8 @@
       <id>	180	</id>
       <userString>#germany_vehicles:_37cm_Pzgr40t_bootcamp</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
@@ -1894,7 +1972,8 @@
       <id>	152	</id>
       <userString>#germany_vehicles:_40mm_43_M_Magvas_Panceltoro_Granat</userString>
       <icon>ap</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	40	</caliber>
       <isTracer>	true	</isTracer>
@@ -1938,7 +2017,8 @@
       <id>	191	</id>
       <userString>#germany_vehicles:_40mm_43_M_Magvas_Panceltoro_Granat</userString>
       <icon>ap</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	40	</caliber>
@@ -1983,7 +2063,8 @@
       <id>	10	</id>
       <userString>#germany_vehicles:_47cm_Pzgr40t</userString>
       <icon>ap_cr</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	47	</caliber>
       <isTracer>	true	</isTracer>
@@ -2026,7 +2107,8 @@
       <id>	13	</id>
       <userString>#germany_vehicles:_47cm_Pzgr40f</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	47	</caliber>
       <isTracer>	true	</isTracer>
@@ -2069,7 +2151,8 @@
       <id>	16	</id>
       <userString>#germany_vehicles:_50mm_Pzgr40</userString>
       <icon>ap_cr</icon>
-      <price>	5	<gold></gold></price>
+      <price>	2000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	50	</caliber>
       <isTracer>	true	</isTracer>
@@ -2113,7 +2196,8 @@
       <id>	185	</id>
       <userString>#germany_vehicles:_50mm_Pzgr40</userString>
       <icon>ap_cr</icon>
-      <price>	5	<gold></gold></price>
+      <price>	2000	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	50	</caliber>
@@ -2173,7 +2257,8 @@
       <id>	19	</id>
       <userString>#germany_vehicles:_Gr_38_HL_A</userString>
       <icon>hc</icon>
-      <price>	5	<gold></gold></price>
+      <price>	2000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -2202,7 +2287,8 @@
       <id>	22	</id>
       <userString>#germany_vehicles:_75mm_Pzgr.40</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -2245,7 +2331,8 @@
       <id>	149	</id>
       <userString>#germany_vehicles:_75mm_40_M_Kulonleges_Nemet_Pancelgranat</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -2303,7 +2390,8 @@
       <id>	25	</id>
       <userString>#germany_vehicles:_75mm_Pzgr.40L</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -2347,7 +2435,8 @@
       <id>	182	</id>
       <userString>#germany_vehicles:_75mm_Pzgr.40L</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
@@ -2378,7 +2467,8 @@
       <id>	27	</id>
       <userString>#germany_vehicles:APCNR</userString>
       <icon>ap_cr</icon>
-      <price>	8	<gold></gold></price>
+      <price>	3200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -2448,7 +2538,8 @@
       <id>	30	</id>
       <userString>#germany_vehicles:_76mm_Pzgr.40r</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>76.2</caliber>
       <isTracer>	true	</isTracer>
@@ -2491,7 +2582,8 @@
       <id>	33	</id>
       <userString>#germany_vehicles:_88mm_Pzgr.40</userString>
       <icon>ap_cr</icon>
-      <price>	8	<gold></gold></price>
+      <price>	3200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	88	</caliber>
       <isTracer>	true	</isTracer>
@@ -2534,7 +2626,8 @@
       <id>	110	</id>
       <userString>#germany_vehicles:_88mm_Pzgr40_43</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	88	</caliber>
       <isTracer>	true	</isTracer>
@@ -2577,7 +2670,8 @@
       <id>	72	</id>
       <userString>#germany_vehicles:_88mm_Pzgr.40_43</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	88	</caliber>
       <isTracer>	true	</isTracer>
@@ -2620,7 +2714,8 @@
       <id>	36	</id>
       <userString>#germany_vehicles:_88mm_Pzgr.40L</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	88	</caliber>
       <isTracer>	true	</isTracer>
@@ -2663,7 +2758,8 @@
       <id>	103	</id>
       <userString>#germany_vehicles:_90mm_Pzgr40_48</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -2735,7 +2831,8 @@
       <id>	122	</id>
       <userString>#germany_vehicles:_90mm_M431</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -2779,7 +2876,8 @@
       <id>	133	</id>
       <userString>#germany_vehicles:_90mm_OCC_90</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -2823,7 +2921,8 @@
       <id>	136	</id>
       <userString>#germany_vehicles:_90mm_Mecar_HEAT</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -2867,7 +2966,8 @@
       <id>	168	</id>
       <userString>#germany_vehicles:_90mm_Mecar_N_HEAT</userString>
       <icon>hc</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -2911,7 +3011,8 @@
       <id>	158	</id>
       <userString>#germany_vehicles:_90mm_HEAT_T_108</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -2955,7 +3056,8 @@
       <id>	126	</id>
       <userString>#germany_vehicles:_100mm_3UBK4</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -2999,7 +3101,8 @@
       <id>	39	</id>
       <userString>#germany_vehicles:_105mmGr39H1A</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -3043,7 +3146,8 @@
       <id>	42	</id>
       <userString>#germany_vehicles:_105mm_Pzgr.40</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -3086,7 +3190,8 @@
       <id>	58	</id>
       <userString>#germany_vehicles:_105mm_Pzgr.40G</userString>
       <icon>ap_cr</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -3144,7 +3249,8 @@
       <id>	95	</id>
       <userString>#germany_vehicles:_105mmGr_39H1A_K</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -3173,7 +3279,8 @@
       <id>	67	</id>
       <userString>#germany_vehicles:_105mm_Pzgr.40L1</userString>
       <icon>ap_cr</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -3216,7 +3323,8 @@
       <id>	88	</id>
       <userString>#germany_vehicles:_105mm_PzGr.40Rot</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -3274,7 +3382,8 @@
       <id>	108	</id>
       <userString>#usa_vehicles:_105mm_HEAT-T_T384E4</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -3303,7 +3412,8 @@
       <id>	164	</id>
       <userString>#germany_vehicles:_105mm_Exp_HEAT</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -3376,7 +3486,8 @@
       <id>	171	</id>
       <userString>#germany_vehicles:_128mm_PzGr40K</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	128	</caliber>
       <isTracer>	true	</isTracer>
@@ -3404,7 +3515,8 @@
       <id>	45	</id>
       <userString>#germany_vehicles:_128mm_PzGr40</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	128	</caliber>
       <isTracer>	true	</isTracer>
@@ -3447,7 +3559,8 @@
       <id>	55	</id>
       <userString>#germany_vehicles:_128mm_PzGr43</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	128	</caliber>
       <isTracer>	true	</isTracer>
@@ -3495,7 +3608,8 @@
       <id>	48	</id>
       <userString>#germany_vehicles:_150mmGr_39H1A</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	150	</caliber>
@@ -3530,7 +3644,8 @@
       <id>	50	</id>
       <userString>#germany_vehicles:_150mmGr_39H1A_L</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	150	</caliber>
@@ -3565,7 +3680,8 @@
       <id>	52	</id>
       <userString>#germany_vehicles:_150mmGr_39H1A_G</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	150	</caliber>
@@ -3581,7 +3697,8 @@
       <id>	69	</id>
       <userString>#germany_vehicles:_150mmGr_39H2A_G</userString>
       <icon>hc</icon>
-      <price>	14	<gold></gold></price>
+      <price>	5600	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	150	</caliber>
@@ -3613,7 +3730,8 @@
       <id>	64	</id>
       <userString>#germany_vehicles:_150mm_SprgG36</userString>
       <icon>he_premium</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	150	</caliber>
       <explosionRadius>	9	</explosionRadius>
@@ -3666,7 +3784,8 @@
       <id>	75	</id>
       <userString>#germany_vehicles:_150mmGr_39H3A_G</userString>
       <icon>hc</icon>
-      <price>	15	<gold></gold></price>
+      <price>	6000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	150	</caliber>
       <isTracer>	true	</isTracer>
@@ -3709,7 +3828,8 @@
       <id>	155	</id>
       <userString>#germany_vehicles:_150mm_Gr_HL</userString>
       <icon>hc</icon>
-      <price>	15	<gold></gold></price>
+      <price>	6000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	150	</caliber>
       <isTracer>	true	</isTracer>
@@ -3753,7 +3873,8 @@
       <id>	91	</id>
       <userString>#germany_vehicles:_170mm_PaK_K72_PzGr45</userString>
       <icon>hc</icon>
-      <price>	18	<gold></gold></price>
+      <price>	7200	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	170	</caliber>
       <isTracer>	true	</isTracer>
@@ -3802,7 +3923,8 @@
       <id>	61	</id>
       <userString>#germany_vehicles:_170mm_Sprg18_Ausf_G</userString>
       <icon>he_premium</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	170	</caliber>
       <explosionRadius>10.4</explosionRadius>
@@ -3840,7 +3962,8 @@
       <id>	63	</id>
       <userString>#germany_vehicles:_210mm_Sprg18_Ausf_G</userString>
       <icon>he_premium</icon>
-      <price>	20	<gold></gold></price>
+      <price>	8000	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	210	</caliber>
       <explosionRadius>13.9</explosionRadius>
@@ -3934,6 +4057,281 @@
         <devices>	135	</devices>
       </damage>
     </bomber_shell>
+    <smoke_shell>
+      <id>	252	</id>
+      <userString>#germany_vehicles:smoke_shell</userString>
+      <icon>he</icon>
+      <price>	0	</price>
+      <notInShop>	true	</notInShop>
+      <kind>SMOKE</kind>
+      <caliber>	1	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>autoArmorPiercing</effects>
+      <damage>
+        <armor>	1	</armor>
+        <devices>	1	</devices>
+      </damage>
+    </smoke_shell>
+    <protection_zone_artillery_shell>
+      <id>	253	</id>
+      <userString>#germany_vehicles:protection_zone_artillery_shell</userString>
+      <icon>he</icon>
+      <price>	2500	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <notInShop>	true	</notInShop>
+      <caliber>	240	</caliber>
+      <explosionRadius>	13	</explosionRadius>
+      <hasStun>	true	</hasStun>
+      <stunDuration>	35	</stunDuration>
+      <guaranteedStunDuration>0.45</guaranteedStunDuration>
+      <damageDurationCoeff>0.55</damageDurationCoeff>
+      <isTracer>	true	</isTracer>
+      <effects>hugeHighExplosive</effects>
+      <damage>
+        <armor>	1000	</armor>
+        <devices>	160	</devices>
+      </damage>
+    </protection_zone_artillery_shell>
+    <sector_artillery_shell>
+      <id>	254	</id>
+      <userString>#germany_vehicles:sector_artillery_shell</userString>
+      <icon>he</icon>
+      <price>	2500	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <notInShop>	true	</notInShop>
+      <caliber>	240	</caliber>
+      <explosionRadius>	13	</explosionRadius>
+      <hasStun>	true	</hasStun>
+      <stunDuration>	35	</stunDuration>
+      <guaranteedStunDuration>0.45</guaranteedStunDuration>
+      <damageDurationCoeff>0.55</damageDurationCoeff>
+      <isTracer>	true	</isTracer>
+      <effects>hugeHighExplosive</effects>
+      <damage>
+        <armor>	1000	</armor>
+        <devices>	160	</devices>
+      </damage>
+    </sector_artillery_shell>
+    <sector_bomber_shell>
+      <id>	255	</id>
+      <userString>#germany_vehicles:sector_bomber_shell</userString>
+      <icon>he</icon>
+      <price>	0	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	100	</caliber>
+      <explosionRadius>	20	</explosionRadius>
+      <hasStun>	true	</hasStun>
+      <stunDuration>	31	</stunDuration>
+      <guaranteedStunDuration>0.45</guaranteedStunDuration>
+      <damageDurationCoeff>0.55</damageDurationCoeff>
+      <isTracer>	false	</isTracer>
+      <effects>airbombStrike</effects>
+      <damage>
+        <armor>	1500	</armor>
+        <devices>	400	</devices>
+      </damage>
+    </sector_bomber_shell>
+    <artillery_shell_epic_level1>
+      <id>	256	</id>
+      <userString>#germany_vehicles:artillery_shell_epic_level1</userString>
+      <icon>he</icon>
+      <price>	1170	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	150	</caliber>
+      <explosionRadius>5.0</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>epicArtilleryStrike</effects>
+      <damage>
+        <armor>	320	</armor>
+        <devices>	80	</devices>
+      </damage>
+    </artillery_shell_epic_level1>
+    <artillery_shell_epic_level2>
+      <id>	257	</id>
+      <userString>#germany_vehicles:artillery_shell</userString>
+      <icon>he</icon>
+      <price>	1170	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	150	</caliber>
+      <explosionRadius>5.0</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>epicArtilleryStrike</effects>
+      <damage>
+        <armor>	320	</armor>
+        <devices>	80	</devices>
+      </damage>
+    </artillery_shell_epic_level2>
+    <artillery_shell_epic_level3>
+      <id>	258	</id>
+      <userString>#germany_vehicles:artillery_shell</userString>
+      <icon>he</icon>
+      <price>	1170	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	150	</caliber>
+      <explosionRadius>5.0</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>epicArtilleryStrike</effects>
+      <damage>
+        <armor>	320	</armor>
+        <devices>	80	</devices>
+      </damage>
+    </artillery_shell_epic_level3>
+    <artillery_shell_epic_level4>
+      <id>	259	</id>
+      <userString>#germany_vehicles:artillery_shell</userString>
+      <icon>he</icon>
+      <price>	1170	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	150	</caliber>
+      <explosionRadius>5.0</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>epicArtilleryStrike</effects>
+      <damage>
+        <armor>	320	</armor>
+        <devices>	80	</devices>
+      </damage>
+    </artillery_shell_epic_level4>
+    <artillery_shell_epic_level5>
+      <id>	260	</id>
+      <userString>#germany_vehicles:artillery_shell</userString>
+      <icon>he</icon>
+      <price>	1170	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	150	</caliber>
+      <explosionRadius>5.0</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>epicArtilleryStrike</effects>
+      <damage>
+        <armor>	320	</armor>
+        <devices>	80	</devices>
+      </damage>
+    </artillery_shell_epic_level5>
+    <bomber_shell_epic_level1>
+      <id>	261	</id>
+      <userString>#germany_vehicles:bomber_shell_epic_level1</userString>
+      <icon>he</icon>
+      <price>	1170	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	100	</caliber>
+      <explosionRadius>3.0</explosionRadius>
+      <hasStun>	true	</hasStun>
+      <stunDuration>	16	</stunDuration>
+      <guaranteedStunDuration>0.45</guaranteedStunDuration>
+      <damageDurationCoeff>0.55</damageDurationCoeff>
+      <isTracer>	true	</isTracer>
+      <effects>epicAirbombStrike</effects>
+      <damage>
+        <armor>	360	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </bomber_shell_epic_level1>
+    <bomber_shell_epic_level2>
+      <id>	262	</id>
+      <userString>#germany_vehicles:bomber_shell</userString>
+      <icon>he</icon>
+      <price>	1170	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	100	</caliber>
+      <explosionRadius>3.0</explosionRadius>
+      <hasStun>	true	</hasStun>
+      <stunDuration>	17	</stunDuration>
+      <guaranteedStunDuration>0.45</guaranteedStunDuration>
+      <damageDurationCoeff>0.55</damageDurationCoeff>
+      <isTracer>	true	</isTracer>
+      <effects>epicAirbombStrike</effects>
+      <damage>
+        <armor>	360	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </bomber_shell_epic_level2>
+    <bomber_shell_epic_level3>
+      <id>	263	</id>
+      <userString>#germany_vehicles:bomber_shell</userString>
+      <icon>he</icon>
+      <price>	1170	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	100	</caliber>
+      <explosionRadius>3.0</explosionRadius>
+      <hasStun>	true	</hasStun>
+      <stunDuration>	18	</stunDuration>
+      <guaranteedStunDuration>0.45</guaranteedStunDuration>
+      <damageDurationCoeff>0.55</damageDurationCoeff>
+      <isTracer>	true	</isTracer>
+      <effects>epicAirbombStrike</effects>
+      <damage>
+        <armor>	360	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </bomber_shell_epic_level3>
+    <bomber_shell_epic_level4>
+      <id>	264	</id>
+      <userString>#germany_vehicles:bomber_shell</userString>
+      <icon>he</icon>
+      <price>	1170	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	100	</caliber>
+      <explosionRadius>3.0</explosionRadius>
+      <hasStun>	true	</hasStun>
+      <stunDuration>	19	</stunDuration>
+      <guaranteedStunDuration>0.45</guaranteedStunDuration>
+      <damageDurationCoeff>0.55</damageDurationCoeff>
+      <isTracer>	true	</isTracer>
+      <effects>epicAirbombStrike</effects>
+      <damage>
+        <armor>	360	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </bomber_shell_epic_level4>
+    <bomber_shell_epic_level5>
+      <id>	265	</id>
+      <userString>#germany_vehicles:bomber_shell</userString>
+      <icon>he</icon>
+      <price>	1170	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	100	</caliber>
+      <explosionRadius>3.0</explosionRadius>
+      <hasStun>	true	</hasStun>
+      <stunDuration>	20	</stunDuration>
+      <guaranteedStunDuration>0.45</guaranteedStunDuration>
+      <damageDurationCoeff>0.55</damageDurationCoeff>
+      <isTracer>	true	</isTracer>
+      <effects>epicAirbombStrike</effects>
+      <damage>
+        <armor>	360	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </bomber_shell_epic_level5>
+    <_210mm_Sprg18_sport>
+      <id>	501	</id>
+      <userString>#football2018:E100_210mm_Sprg18_sport</userString>
+      <icon>he</icon>
+      <price>	0	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	210	</caliber>
+      <explosionRadius>15.0</explosionRadius>
+      <hasStun>	false	</hasStun>
+      <stunDuration>	31	</stunDuration>
+      <guaranteedStunDuration>0.45</guaranteedStunDuration>
+      <damageDurationCoeff>0.55</damageDurationCoeff>
+      <isTracer>	true	</isTracer>
+      <effects>FootballHugeHighExplosive_blue</effects>
+      <damage>
+        <armor>	1100	</armor>
+        <devices>	140	</devices>
+      </damage>
+    </_210mm_Sprg18_sport>
   </germany>
   <usa>
     <_57mm_AP>
@@ -4210,6 +4608,50 @@
         <devices>	115	</devices>
       </damage>
     </_25pdr_AP_Mk_1T_SC>
+    <_105mm_AP_T32_FL>
+      <id>	145	</id>
+      <userString>#usa_vehicles:_105mm_AP_T32_FL</userString>
+      <icon>ap</icon>
+      <price>	1000	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	105	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mainArmorPiercing</effects>
+      <damage>
+        <armor>	320	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </_105mm_AP_T32_FL>
+    <_105mm_APCR_T29E3_FL>
+      <id>	146	</id>
+      <userString>#usa_vehicles:_105mm_APCR_T29E3_FL</userString>
+      <icon>ap_cr</icon>
+      <price>	4800	</price>
+      <improved>	true	</improved>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	105	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>	mainAPCR	</effects>
+      <damage>
+        <armor>	320	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </_105mm_APCR_T29E3_FL>
+    <_105mm_HE_M11_FL>
+      <id>	147	</id>
+      <userString>#usa_vehicles:_105mm_HE_M11_FL</userString>
+      <icon>he</icon>
+      <price>	680	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	105	</caliber>
+      <explosionRadius>1.91</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>mainHighExplosive</effects>
+      <damage>
+        <armor>	420	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </_105mm_HE_M11_FL>
     <_12.7mm_AP_M2>
       <id>	0	</id>
       <userString>#usa_vehicles:_12.7mm_AP_M2</userString>
@@ -4242,7 +4684,8 @@
       <id>	2	</id>
       <userString>#usa_vehicles:_20mm_APCR</userString>
       <icon>ap_cr</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	20	</caliber>
       <isTracer>	true	</isTracer>
@@ -4271,7 +4714,8 @@
       <id>	137	</id>
       <userString>#usa_vehicles:_20mm_APCR</userString>
       <icon>ap_cr</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	20	</caliber>
@@ -4300,7 +4744,8 @@
       <id>	4	</id>
       <userString>#usa_vehicles:_37mm_APC_M51</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -4344,7 +4789,8 @@
       <id>	139	</id>
       <userString>#usa_vehicles:_37mm_APC_M51</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
@@ -4389,7 +4835,8 @@
       <id>	7	</id>
       <userString>#usa_vehicles:_37mm_APCBC1935</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -4462,7 +4909,8 @@
       <id>	10	</id>
       <userString>#usa_vehicles:_37mm_APC_M59A5</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -4505,7 +4953,8 @@
       <id>	53	</id>
       <userString>#usa_vehicles:_2pdr_APCNR_Mk.1</userString>
       <icon>ap_cr</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	40	</caliber>
       <isTracer>	true	</isTracer>
@@ -4548,7 +4997,8 @@
       <id>	13	</id>
       <userString>#usa_vehicles:_6pdr_APCR_MK_1T</userString>
       <icon>ap_cr</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -4576,7 +5026,8 @@
       <id>	40	</id>
       <userString>#usa_vehicles:_57mm_APC_M86</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -4648,7 +5099,8 @@
       <id>	15	</id>
       <userString>#usa_vehicles:_75mm_M72</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -4677,7 +5129,8 @@
       <id>	142	</id>
       <userString>#usa_vehicles:_75mm_M72</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
@@ -4723,7 +5176,8 @@
       <id>	67	</id>
       <userString>#usa_vehicles:_75mm_Pzgr.40L</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
@@ -4754,7 +5208,8 @@
       <id>	22	</id>
       <userString>#usa_vehicles:_75mm_HEAT_M66</userString>
       <icon>hc</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -4811,7 +5266,8 @@
       <id>	105	</id>
       <userString>#usa_vehicles:_76mm_M79</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -4825,7 +5281,8 @@
       <id>	18	</id>
       <userString>#usa_vehicles:_76mm_HVAP_M93</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -4839,7 +5296,8 @@
       <id>	122	</id>
       <userString>#usa_vehicles:_76mm_HVAP_T4</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -4897,7 +5355,8 @@
       <id>	64	</id>
       <userString>#usa_vehicles:_76mm_HVAP_M319</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -4984,7 +5443,8 @@
       <id>	21	</id>
       <userString>#usa_vehicles:_76mm_HEAT</userString>
       <icon>hc</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -4999,7 +5459,8 @@
       <id>	92	</id>
       <userString>#usa_vehicles:_76mm_HEAT_M496</userString>
       <icon>hc</icon>
-      <price>	14	<gold></gold></price>
+      <price>	5600	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -5014,7 +5475,8 @@
       <id>	134	</id>
       <userString>#usa_vehicles:_76mm_HEAT_M496A1</userString>
       <icon>hc</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -5053,6 +5515,35 @@
         <devices>	122	</devices>
       </damage>
     </_90mm_AP_T33>
+    <_90mm_AP_M82_late>
+      <id>	148	</id>
+      <userString>#usa_vehicles:_90mm_AP_M82_late</userString>
+      <icon>ap</icon>
+      <price>	325	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	90	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mainArmorPiercing</effects>
+      <damage>
+        <armor>	240	</armor>
+        <devices>	122	</devices>
+      </damage>
+    </_90mm_AP_M82_late>
+    <_90mm_AP_T33E>
+      <id>	149	</id>
+      <userString>#usa_vehicles:_90mm_AP_T33E</userString>
+      <icon>ap</icon>
+      <price>	4400	</price>
+      <improved>	true	</improved>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	90	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mainArmorPiercing</effects>
+      <damage>
+        <armor>	240	</armor>
+        <devices>	122	</devices>
+      </damage>
+    </_90mm_AP_T33E>
     <_90mm_HVAP_T30E15>
       <id>	124	</id>
       <userString>#usa_vehicles:_90mm_HVAP_T30E15</userString>
@@ -5071,7 +5562,8 @@
       <id>	125	</id>
       <userString>#usa_vehicles:_90mm_HVAP_T30E16</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -5085,7 +5577,8 @@
       <id>	24	</id>
       <userString>#usa_vehicles:_90mm_HVAP_M304</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -5156,7 +5649,8 @@
       <id>	79	</id>
       <userString>#usa_vehicles:_90mm_HEAT_M431</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -5171,7 +5665,8 @@
       <id>	93	</id>
       <userString>#usa_vehicles:_90mm_HEAT_M348</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -5186,7 +5681,8 @@
       <id>	109	</id>
       <userString>#usa_vehicles:_90mm_HEAT_T108E45</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -5247,7 +5743,8 @@
       <id>	27	</id>
       <userString>#usa_vehicles:_105mm_HEAT_M67</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -5276,7 +5773,8 @@
       <id>	29	</id>
       <userString>#usa_vehicles:_105mm_APCR_T29E3</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -5319,7 +5817,8 @@
       <id>	43	</id>
       <userString>#usa_vehicles:_105mm_APCR_T29E3M2</userString>
       <icon>ap_cr</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -5377,7 +5876,8 @@
       <id>	84	</id>
       <userString>#usa_vehicles:_105mm_HEAT-T_T384E4</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -5406,7 +5906,8 @@
       <id>	82	</id>
       <userString>#usa_vehicles:_105mm_APCR_T140E3</userString>
       <icon>ap_cr</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -5434,7 +5935,8 @@
       <id>	130	</id>
       <userString>#usa_vehicles:_105mm_Exp_HEAT</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -5478,7 +5980,8 @@
       <id>	31	</id>
       <userString>#usa_vehicles:_120mm_APCR_T62</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	120	</caliber>
       <isTracer>	true	</isTracer>
@@ -5581,7 +6084,8 @@
       <id>	61	</id>
       <userString>#usa_vehicles:_120mm_HEAT-T_M469</userString>
       <icon>hc</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	120	</caliber>
       <isTracer>	true	</isTracer>
@@ -5596,7 +6100,8 @@
       <id>	116	</id>
       <userString>#usa_vehicles:_120mm_HEAT-T_M469_fallout</userString>
       <icon>hc</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	120	</caliber>
@@ -5627,7 +6132,8 @@
       <id>	110	</id>
       <userString>#usa_vehicles:_152mm_HE_XM657E3</userString>
       <icon>he_premium</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	152	</caliber>
       <explosionRadius>5.11</explosionRadius>
@@ -5685,7 +6191,8 @@
       <id>	34	</id>
       <userString>#usa_vehicles:_155mm_AP_M112</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	155	</caliber>
       <isTracer>	true	</isTracer>
@@ -5699,7 +6206,8 @@
       <id>	86	</id>
       <userString>#usa_vehicles:_155mm_AP_M112E1</userString>
       <icon>ap_cr</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	155	</caliber>
       <isTracer>	true	</isTracer>
@@ -5781,7 +6289,8 @@
       <id>	37	</id>
       <userString>#usa_vehicles:_155mm_HEAT_M167</userString>
       <icon>hc</icon>
-      <price>	14	<gold></gold></price>
+      <price>	5600	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	155	</caliber>
@@ -5797,7 +6306,8 @@
       <id>	45	</id>
       <userString>#usa_vehicles:_155mm_HE_M101M2</userString>
       <icon>he_premium</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	155	</caliber>
       <explosionRadius>	8	</explosionRadius>
@@ -5835,7 +6345,8 @@
       <id>	51	</id>
       <userString>#usa_vehicles:_155mm_HE_M101M6</userString>
       <icon>he_premium</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	155	</caliber>
       <explosionRadius>	9	</explosionRadius>
@@ -5873,7 +6384,8 @@
       <id>	47	</id>
       <userString>#usa_vehicles:_203mm_HE_A1M1</userString>
       <icon>he_premium</icon>
-      <price>	20	<gold></gold></price>
+      <price>	8000	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	203	</caliber>
       <explosionRadius>12.8</explosionRadius>
@@ -5926,7 +6438,8 @@
       <id>	49	</id>
       <userString>#usa_vehicles:_240mm_HE_M160</userString>
       <icon>he_premium</icon>
-      <price>	20	<gold></gold></price>
+      <price>	8000	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	240	</caliber>
       <explosionRadius>14.5</explosionRadius>
@@ -6154,6 +6667,50 @@
         <devices>	1	</devices>
       </damage>
     </moon_shell>
+    <_100mm_UBR-412_FL>
+      <id>	224	</id>
+      <userString>#ussr_vehicles:_100mm_UBR-412_FL</userString>
+      <icon>ap</icon>
+      <price>	252	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	100	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mainArmorPiercing</effects>
+      <damage>
+        <armor>	250	</armor>
+        <devices>	135	</devices>
+      </damage>
+    </_100mm_UBR-412_FL>
+    <_100mm_UBR-412P_FL>
+      <id>	225	</id>
+      <userString>#ussr_vehicles:_100mm_UBR-412P_FL</userString>
+      <icon>ap_cr</icon>
+      <price>	4400	</price>
+      <improved>	true	</improved>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	100	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>	mainAPCR	</effects>
+      <damage>
+        <armor>	250	</armor>
+        <devices>	135	</devices>
+      </damage>
+    </_100mm_UBR-412P_FL>
+    <_100mm_UOF-412_FL>
+      <id>	226	</id>
+      <userString>#ussr_vehicles:_100mm_UOF-412_FL</userString>
+      <icon>he</icon>
+      <price>	252	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	100	</caliber>
+      <explosionRadius>1.76</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>mainHighExplosive</effects>
+      <damage>
+        <armor>	330	</armor>
+        <devices>	135	</devices>
+      </damage>
+    </_100mm_UOF-412_FL>
     <_12.7mm_AP_B32>
       <id>	117	</id>
       <userString>#ussr_vehicles:_12.7mm_AP_B32</userString>
@@ -6186,7 +6743,8 @@
       <id>	1	</id>
       <userString>#ussr_vehicles:_20mm_UBR-20</userString>
       <icon>ap_cr</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	20	</caliber>
       <isTracer>	true	</isTracer>
@@ -6214,7 +6772,8 @@
       <id>	3	</id>
       <userString>#ussr_vehicles:_23mm_UBR-23</userString>
       <icon>ap_cr</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	23	</caliber>
       <isTracer>	true	</isTracer>
@@ -6242,7 +6801,8 @@
       <id>	74	</id>
       <userString>#ussr_vehicles:_37mm_APC_M51_LL</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -6315,7 +6875,8 @@
       <id>	5	</id>
       <userString>#ussr_vehicles:_37mm_UBR-160P</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -6344,7 +6905,8 @@
       <id>	195	</id>
       <userString>#ussr_vehicles:_37mm_UBR-160P_bootcamp</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
@@ -6389,7 +6951,8 @@
       <id>	8	</id>
       <userString>#ussr_vehicles:_37mm_UBR160PA</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -6432,7 +6995,8 @@
       <id>	11	</id>
       <userString>#ussr_vehicles:_37mm_BPT1</userString>
       <icon>hc</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -6491,7 +7055,8 @@
       <id>	83	</id>
       <userString>#ussr_vehicles:_2pdr_APCNR_Mk.1</userString>
       <icon>ap_cr</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	40	</caliber>
       <isTracer>	true	</isTracer>
@@ -6534,7 +7099,8 @@
       <id>	14	</id>
       <userString>#ussr_vehicles:_45mm_UBR-240PA</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	45	</caliber>
       <isTracer>	true	</isTracer>
@@ -6577,7 +7143,8 @@
       <id>	17	</id>
       <userString>#ussr_vehicles:_45mm_UBR-243SPA</userString>
       <icon>ap_cr</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	45	</caliber>
       <isTracer>	true	</isTracer>
@@ -6621,7 +7188,8 @@
       <id>	174	</id>
       <userString>#ussr_vehicles:_45mm_UBR-240PA_bootcamp</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	45	</caliber>
@@ -6666,7 +7234,8 @@
       <id>	178	</id>
       <userString>#ussr_vehicles:_45mm_UBR-243SPAU</userString>
       <icon>ap_cr</icon>
-      <price>	5	<gold></gold></price>
+      <price>	2000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	45	</caliber>
       <isTracer>	true	</isTracer>
@@ -6709,7 +7278,8 @@
       <id>	20	</id>
       <userString>#ussr_vehicles:_57mm_UBR-271NO</userString>
       <icon>ap_cr</icon>
-      <price>	5	<gold></gold></price>
+      <price>	2000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -6752,7 +7322,8 @@
       <id>	23	</id>
       <userString>#ussr_vehicles:_57mm_UBR-271N</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -6795,7 +7366,8 @@
       <id>	26	</id>
       <userString>#ussr_vehicles:_6pdr_APCR_MK_1T</userString>
       <icon>ap_cr</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -6869,7 +7441,8 @@
       <id>	29	</id>
       <userString>#ussr_vehicles:_76mm_BP-354</userString>
       <icon>hc</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -6928,7 +7501,8 @@
       <id>	32	</id>
       <userString>#ussr_vehicles:_76mm_UBR-354MP</userString>
       <icon>ap_cr</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -6938,11 +7512,41 @@
         <devices>	105	</devices>
       </damage>
     </_76mm_UBR-354MP>
+    <_76mm_UBR_350P>
+      <id>	230	</id>
+      <userString>#ussr_vehicles:_76mm_UBR_350P</userString>
+      <icon>ap_cr</icon>
+      <price>	90	</price>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	76	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mediumAPCR</effects>
+      <damage>
+        <armor>	110	</armor>
+        <devices>	105	</devices>
+      </damage>
+    </_76mm_UBR_350P>
+    <_76mm_UBR_354P>
+      <id>	231	</id>
+      <userString>#ussr_vehicles:_76mm_UBR_354P</userString>
+      <icon>ap_cr</icon>
+      <price>	2800	</price>
+      <improved>	true	</improved>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	76	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mediumAPCR</effects>
+      <damage>
+        <armor>	110	</armor>
+        <devices>	105	</devices>
+      </damage>
+    </_76mm_UBR_354P>
     <_76mm_UBR-354MP_bootcamp>
       <id>	194	</id>
       <userString>#ussr_vehicles:_76mm_UBR-354MP_bootcamp</userString>
       <icon>ap_cr</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	76	</caliber>
@@ -7002,7 +7606,8 @@
       <id>	164	</id>
       <userString>#ussr_vehicles:_76mm_UBR-354KB</userString>
       <icon>ap</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -7046,7 +7651,8 @@
       <id>	191	</id>
       <userString>#ussr_vehicles:_76mm_BP-354</userString>
       <icon>hc</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	76	</caliber>
@@ -7107,7 +7713,8 @@
       <id>	205	</id>
       <userString>#ussr_vehicles:_76mm_HVAP_M93</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -7150,7 +7757,8 @@
       <id>	37	</id>
       <userString>#ussr_vehicles:_85mm_UBR-365P</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	85	</caliber>
       <isTracer>	true	</isTracer>
@@ -7193,7 +7801,8 @@
       <id>	40	</id>
       <userString>#ussr_vehicles:_85mm_UBR-365PBM</userString>
       <icon>ap_cr</icon>
-      <price>	8	<gold></gold></price>
+      <price>	3200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	85	</caliber>
       <isTracer>	true	</isTracer>
@@ -7236,7 +7845,8 @@
       <id>	127	</id>
       <userString>#ussr_vehicles:_85mm_UBR-365PBM100</userString>
       <icon>ap_cr</icon>
-      <price>	8	<gold></gold></price>
+      <price>	3200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	85	</caliber>
       <isTracer>	true	</isTracer>
@@ -7279,7 +7889,8 @@
       <id>	123	</id>
       <userString>#ussr_vehicles:_85mm_UBR-367P</userString>
       <icon>ap_cr</icon>
-      <price>	8	<gold></gold></price>
+      <price>	3200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	85	</caliber>
       <isTracer>	true	</isTracer>
@@ -7322,7 +7933,8 @@
       <id>	43	</id>
       <userString>#ussr_vehicles:_100mm_UBR-412P</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -7452,7 +8064,8 @@
       <id>	99	</id>
       <userString>#ussr_vehicles:_100mm_3UBK4</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -7467,7 +8080,8 @@
       <id>	101	</id>
       <userString>#ussr_vehicles:_100mm_3UBK4M</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -7482,7 +8096,8 @@
       <id>	140	</id>
       <userString>#ussr_vehicles:_100mm_3UBK4M_fallout</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -7525,7 +8140,8 @@
       <id>	166	</id>
       <userString>#ussr_vehicles:_100mm_3VBB</userString>
       <icon>ap</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -7555,6 +8171,7 @@
       <userString>#ussr_vehicles:_100mm_UBR-412BM</userString>
       <icon>ap</icon>
       <price>	370	</price>
+      <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -7568,7 +8185,9 @@
       <id>	171	</id>
       <userString>#ussr_vehicles:_100mm_UBR-412PBM</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <notInShop>	true	</notInShop>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -7583,6 +8202,7 @@
       <userString>#ussr_vehicles:_100mm_UOF-412BM</userString>
       <icon>he</icon>
       <price>	245	</price>
+      <notInShop>	true	</notInShop>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	100	</caliber>
       <explosionRadius>1.76</explosionRadius>
@@ -7593,6 +8213,51 @@
         <devices>	150	</devices>
       </damage>
     </_100mm_UOF-412BM>
+    <_100mm_UBR_LM>
+      <id>	227	</id>
+      <userString>#ussr_vehicles:_100mm_UBR_LM</userString>
+      <icon>ap_cr</icon>
+      <price>	1150	</price>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	100	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>	mainAPCR	</effects>
+      <damage>
+        <armor>	320	</armor>
+        <devices>	135	</devices>
+      </damage>
+    </_100mm_UBR_LM>
+    <_100mm_3UBK_LM>
+      <id>	228	</id>
+      <userString>#ussr_vehicles:_100mm_3UBK_LM</userString>
+      <icon>hc</icon>
+      <price>	4800	</price>
+      <improved>	true	</improved>
+      <kind>HOLLOW_CHARGE</kind>
+      <caliber>	100	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeHollowCharge</effects>
+      <damage>
+        <armor>	320	</armor>
+        <devices>	135	</devices>
+      </damage>
+      <piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
+    </_100mm_3UBK_LM>
+    <_100mm_3UOF_LM>
+      <id>	229	</id>
+      <userString>#ussr_vehicles:_100mm_3UOF_LM</userString>
+      <icon>he</icon>
+      <price>	1170	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	100	</caliber>
+      <explosionRadius>1.76</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>mainHighExplosive</effects>
+      <damage>
+        <armor>	420	</armor>
+        <devices>	135	</devices>
+      </damage>
+    </_100mm_3UOF_LM>
     <_107mm_UBR-420>
       <id>	45	</id>
       <userString>#ussr_vehicles:_107mm_UBR-420</userString>
@@ -7611,7 +8276,8 @@
       <id>	46	</id>
       <userString>#ussr_vehicles:_107mm_UBR-420P</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	107	</caliber>
       <isTracer>	true	</isTracer>
@@ -7654,7 +8320,8 @@
       <id>	92	</id>
       <userString>#ussr_vehicles:_107mm_UBR-420PM</userString>
       <icon>ap_cr</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	107	</caliber>
       <isTracer>	true	</isTracer>
@@ -7683,7 +8350,8 @@
       <id>	49	</id>
       <userString>#ussr_vehicles:_122mm_BP450S</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	122	</caliber>
       <isTracer>	true	</isTracer>
@@ -7741,7 +8409,8 @@
       <id>	52	</id>
       <userString>#ussr_vehicles:_122mm_UBR-471P</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	122	</caliber>
       <isTracer>	true	</isTracer>
@@ -7755,7 +8424,8 @@
       <id>	198	</id>
       <userString>#ussr_vehicles:_122mm_BR_471PM</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	122	</caliber>
       <isTracer>	true	</isTracer>
@@ -7811,7 +8481,8 @@
       <id>	169	</id>
       <userString>#ussr_vehicles:_122mm_UBR-471PBMM</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	122	</caliber>
       <isTracer>	true	</isTracer>
@@ -7825,7 +8496,8 @@
       <id>	138	</id>
       <userString>#ussr_vehicles:_122mm_3VBK6</userString>
       <icon>hc</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	122	</caliber>
       <isTracer>	true	</isTracer>
@@ -7840,7 +8512,8 @@
       <id>	130	</id>
       <userString>#ussr_vehicles:_122mm_UBP-471BM</userString>
       <icon>hc</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	122	</caliber>
       <isTracer>	true	</isTracer>
@@ -7945,7 +8618,8 @@
       <id>	56	</id>
       <userString>#ussr_vehicles:_122mm_BP450SO</userString>
       <icon>hc</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	122	</caliber>
@@ -7975,7 +8649,8 @@
       <id>	86	</id>
       <userString>#ussr_vehicles:_122mm_BM11</userString>
       <icon>hc</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	122	</caliber>
       <isTracer>	true	</isTracer>
@@ -8020,7 +8695,8 @@
       <id>	121	</id>
       <userString>#ussr_vehicles:_122mm_BP-463</userString>
       <icon>hc</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	122	</caliber>
@@ -8032,6 +8708,51 @@
       </damage>
       <piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
     </_122mm_BP-463>
+    <_122mm_BR_472U>
+      <id>	214	</id>
+      <userString>#ussr_vehicles:_122mm_BR_472U</userString>
+      <icon>ap</icon>
+      <price>	1080	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	122	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeArmorPiercing</effects>
+      <damage>
+        <armor>	440	</armor>
+        <devices>	165	</devices>
+      </damage>
+    </_122mm_BR_472U>
+    <_122mm_BK_9U>
+      <id>	215	</id>
+      <userString>#ussr_vehicles:_122mm_BK_9U</userString>
+      <icon>hc</icon>
+      <price>	5200	</price>
+      <improved>	true	</improved>
+      <kind>HOLLOW_CHARGE</kind>
+      <caliber>	122	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeHollowCharge</effects>
+      <damage>
+        <armor>	440	</armor>
+        <devices>	165	</devices>
+      </damage>
+      <piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
+    </_122mm_BK_9U>
+    <_122mm_UOF_472U>
+      <id>	216	</id>
+      <userString>#ussr_vehicles:_122mm_UOF_472U</userString>
+      <icon>he</icon>
+      <price>	870	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	122	</caliber>
+      <explosionRadius>2.49</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>largeHighExplosive</effects>
+      <damage>
+        <armor>	530	</armor>
+        <devices>	165	</devices>
+      </damage>
+    </_122mm_UOF_472U>
     <_130mm_UBR-482>
       <id>	57	</id>
       <userString>#ussr_vehicles:_130mm_UBR-482</userString>
@@ -8050,7 +8771,8 @@
       <id>	58	</id>
       <userString>#ussr_vehicles:_130mm_UBR-482P</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	130	</caliber>
       <isTracer>	true	</isTracer>
@@ -8108,7 +8830,8 @@
       <id>	143	</id>
       <userString>#ussr_vehicles:_130mm_UBR-482P_fallout</userString>
       <icon>ap_cr</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	130	</caliber>
@@ -8123,7 +8846,8 @@
       <id>	156	</id>
       <userString>#ussr_vehicles:_130mm_UBR-482P_fallout</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	130	</caliber>
       <isTracer>	true	</isTracer>
@@ -8182,7 +8906,8 @@
       <id>	115	</id>
       <userString>#ussr_vehicles:_130mm_PB-46A</userString>
       <icon>ap</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	130	</caliber>
       <isTracer>	true	</isTracer>
@@ -8210,7 +8935,8 @@
       <id>	183	</id>
       <userString>#ussr_vehicles:_130mm_PB-46TA</userString>
       <icon>ap</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	130	</caliber>
       <isTracer>	true	</isTracer>
@@ -8253,7 +8979,8 @@
       <id>	132	</id>
       <userString>#ussr_vehicles:_130mm_2-01743</userString>
       <icon>ap</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	130	</caliber>
       <isTracer>	true	</isTracer>
@@ -8296,7 +9023,8 @@
       <id>	106	</id>
       <userString>#ussr_vehicles:_130mm_UBR-482PM</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	130	</caliber>
       <isTracer>	true	</isTracer>
@@ -8321,6 +9049,51 @@
         <devices>	180	</devices>
       </damage>
     </_130mm_UOF-482M>
+    <_130mm_53_VBR_482>
+      <id>	161	</id>
+      <userString>#ussr_vehicles:_130mm_53_VBR_482</userString>
+      <icon>ap</icon>
+      <price>	1250	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	130	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeArmorPiercing</effects>
+      <damage>
+        <armor>	490	</armor>
+        <devices>	180	</devices>
+      </damage>
+    </_130mm_53_VBR_482>
+    <_130mm_3VBK>
+      <id>	162	</id>
+      <userString>#ussr_vehicles:_130mm_3VBK</userString>
+      <icon>hc</icon>
+      <price>	5200	</price>
+      <improved>	true	</improved>
+      <kind>HOLLOW_CHARGE</kind>
+      <caliber>	130	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeHollowCharge</effects>
+      <damage>
+        <armor>	490	</armor>
+        <devices>	180	</devices>
+      </damage>
+      <piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
+    </_130mm_3VBK>
+    <_130mm_53_VOF_482V>
+      <id>	163	</id>
+      <userString>#ussr_vehicles:_130mm_53_VOF_482V</userString>
+      <icon>he</icon>
+      <price>	990	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	130	</caliber>
+      <explosionRadius>2.78</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>largeHighExplosive</effects>
+      <damage>
+        <armor>	640	</armor>
+        <devices>	180	</devices>
+      </damage>
+    </_130mm_53_VOF_482V>
     <_152mm_53OF500>
       <id>	60	</id>
       <userString>#ussr_vehicles:_152mm_53OF500</userString>
@@ -8358,7 +9131,8 @@
       <id>	118	</id>
       <userString>#ussr_vehicles:_152mm_MPB_1915</userString>
       <icon>ap</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	152	</caliber>
       <isTracer>	true	</isTracer>
@@ -8372,7 +9146,8 @@
       <id>	63	</id>
       <userString>#ussr_vehicles:_152mm_53BP540</userString>
       <icon>hc</icon>
-      <price>	15	<gold></gold></price>
+      <price>	6000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	152	</caliber>
       <isTracer>	true	</isTracer>
@@ -8455,7 +9230,8 @@
       <id>	66	</id>
       <userString>#ussr_vehicles:_152mm_53-OF-551BM</userString>
       <icon>he_premium</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	152	</caliber>
       <explosionRadius>	9	</explosionRadius>
@@ -8474,7 +9250,8 @@
       <id>	67	</id>
       <userString>#ussr_vehicles:_152mm_53-G-551</userString>
       <icon>ap</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	152	</caliber>
@@ -8517,7 +9294,8 @@
       <id>	103	</id>
       <userString>#ussr_vehicles:_152mm_UBK551M</userString>
       <icon>hc</icon>
-      <price>	17	<gold></gold></price>
+      <price>	6800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	152	</caliber>
       <isTracer>	true	</isTracer>
@@ -8543,6 +9321,51 @@
         <devices>	203	</devices>
       </damage>
     </_152mm_53-OF-551M>
+    <_152mm_UBR551M_BB>
+      <id>	221	</id>
+      <userString>#ussr_vehicles:_152mm_UBR551M_BB</userString>
+      <icon>ap</icon>
+      <price>	1650	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	152	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeArmorPiercing</effects>
+      <damage>
+        <armor>	650	</armor>
+        <devices>	203	</devices>
+      </damage>
+    </_152mm_UBR551M_BB>
+    <_152mm_UBK551M_K>
+      <id>	222	</id>
+      <userString>#ussr_vehicles:_152mm_UBK551M_K</userString>
+      <icon>hc</icon>
+      <price>	6800	</price>
+      <improved>	true	</improved>
+      <kind>HOLLOW_CHARGE</kind>
+      <caliber>	152	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeHollowCharge</effects>
+      <damage>
+        <armor>	650	</armor>
+        <devices>	203	</devices>
+      </damage>
+      <piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
+    </_152mm_UBK551M_K>
+    <_152mm_53-OF-551M_OF>
+      <id>	223	</id>
+      <userString>#ussr_vehicles:_152mm_53-OF-551M_OF</userString>
+      <icon>he</icon>
+      <price>	1120	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	152	</caliber>
+      <explosionRadius>3.66</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>largeHighExplosive</effects>
+      <damage>
+        <armor>	840	</armor>
+        <devices>	203	</devices>
+      </damage>
+    </_152mm_53-OF-551M_OF>
     <_152mm_UBR551M_fallout>
       <id>	148	</id>
       <userString>#ussr_vehicles:_152mm_UBR551M_fallout</userString>
@@ -8562,7 +9385,8 @@
       <id>	149	</id>
       <userString>#ussr_vehicles:_152mm_UBK551M_fallout</userString>
       <icon>hc</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	152	</caliber>
@@ -8594,7 +9418,8 @@
       <id>	69	</id>
       <userString>#ussr_vehicles:_152mm_UBR551P</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	152	</caliber>
       <isTracer>	true	</isTracer>
@@ -8604,6 +9429,51 @@
         <devices>	203	</devices>
       </damage>
     </_152mm_UBR551P>
+    <_152mm_UBR551O>
+      <id>	217	</id>
+      <userString>#ussr_vehicles:_152mm_UBR551O</userString>
+      <icon>ap</icon>
+      <price>	1610	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	152	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeArmorPiercing</effects>
+      <damage>
+        <armor>	650	</armor>
+        <devices>	203	</devices>
+      </damage>
+    </_152mm_UBR551O>
+    <_152mm_UBK551O>
+      <id>	218	</id>
+      <userString>#ussr_vehicles:_152mm_UBK551O</userString>
+      <icon>hc</icon>
+      <price>	6000	</price>
+      <improved>	true	</improved>
+      <kind>HOLLOW_CHARGE</kind>
+      <caliber>	152	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeHollowCharge</effects>
+      <damage>
+        <armor>	650	</armor>
+        <devices>	203	</devices>
+      </damage>
+      <piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
+    </_152mm_UBK551O>
+    <_152mm_53_OF_551O>
+      <id>	219	</id>
+      <userString>#ussr_vehicles:_152mm_53_OF_551O</userString>
+      <icon>he</icon>
+      <price>	1190	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	152	</caliber>
+      <explosionRadius>3.66</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>largeHighExplosive</effects>
+      <damage>
+        <armor>	840	</armor>
+        <devices>	203	</devices>
+      </damage>
+    </_152mm_53_OF_551O>
     <_180mm_F-600D>
       <id>	79	</id>
       <userString>#ussr_vehicles:_180mm_F-600D</userString>
@@ -8627,7 +9497,8 @@
       <id>	80	</id>
       <userString>#ussr_vehicles:_180mm_F-600BM</userString>
       <icon>he_premium</icon>
-      <price>	18	<gold></gold></price>
+      <price>	7200	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	180	</caliber>
       <explosionRadius>	11	</explosionRadius>
@@ -8695,7 +9566,8 @@
       <id>	72	</id>
       <userString>#ussr_vehicles:_203mm_F-625DBM</userString>
       <icon>he_premium</icon>
-      <price>	20	<gold></gold></price>
+      <price>	8000	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	203	</caliber>
       <explosionRadius>	13	</explosionRadius>
@@ -8710,6 +9582,22 @@
         <devices>	135	</devices>
       </damage>
     </_203mm_F-625DBM>
+    <_115mm_3UOF10_sport>
+      <id>	500	</id>
+      <userString>#football2018:T62A_sport_shell_name</userString>
+      <icon>he</icon>
+      <price>	0	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	115	</caliber>
+      <explosionRadius>1.76</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>FootballMainHighExplosive_blue</effects>
+      <damage>
+        <armor>	420	</armor>
+        <devices>	135	</devices>
+      </damage>
+    </_115mm_3UOF10_sport>
   </ussr>
   <france>
     <_47mm_Pzgr39t>
@@ -9210,7 +10098,8 @@
       <id>	16	</id>
       <userString>#france_vehicles:_13.2mm_Balle_T.P.</userString>
       <icon>ap_cr</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>13.2</caliber>
       <isTracer>	true	</isTracer>
@@ -9238,7 +10127,8 @@
       <id>	11	</id>
       <userString>#france_vehicles:_25mm_Balle_T.P._mle._1934P</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	25	</caliber>
       <isTracer>	true	</isTracer>
@@ -9266,7 +10156,8 @@
       <id>	61	</id>
       <userString>#france_vehicles:_25mm_Balle_T.P._mle._1939P</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	25	</caliber>
       <isTracer>	true	</isTracer>
@@ -9323,7 +10214,8 @@
       <id>	13	</id>
       <userString>#france_vehicles:_37mm_FrtPrf1935</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -9352,7 +10244,8 @@
       <id>	20	</id>
       <userString>#france_vehicles:_37mm_Odr_mle._1939</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -9410,7 +10303,8 @@
       <id>	7	</id>
       <userString>#france_vehicles:_47mm_Odr_mle._1935</userString>
       <icon>ap_cr</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	47	</caliber>
       <isTracer>	true	</isTracer>
@@ -9467,7 +10361,8 @@
       <id>	119	</id>
       <userString>#france_vehicles:_47mm_Odr_mle_1935_b</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	47	</caliber>
@@ -9482,7 +10377,8 @@
       <id>	65	</id>
       <userString>#france_vehicles:_47mm_Odr_mle_1935_b</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	47	</caliber>
       <isTracer>	true	</isTracer>
@@ -9541,7 +10437,8 @@
       <id>	56	</id>
       <userString>#france_vehicles:_6pdr_APCR_MK_1T</userString>
       <icon>ap_cr</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -9569,7 +10466,8 @@
       <id>	85	</id>
       <userString>#france_vehicles:_57mm_L100_APCR</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -9597,7 +10495,8 @@
       <id>	29	</id>
       <userString>#france_vehicles:_75mm_Pzgr.40</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -9625,7 +10524,8 @@
       <id>	1	</id>
       <userString>#france_vehicles:_75mm_FrtPrf1940</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -9668,7 +10568,8 @@
       <id>	4	</id>
       <userString>#france_vehicles:_75mm_FrtPrf1944</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -9711,7 +10612,8 @@
       <id>	115	</id>
       <userString>#france_vehicles:_75mm_FrtPrf1944A</userString>
       <icon>ap_cr</icon>
-      <price>	8	<gold></gold></price>
+      <price>	3200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -9769,7 +10671,8 @@
       <id>	41	</id>
       <userString>#france_vehicles:_75mm_OCO_mle._1926</userString>
       <icon>hc</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -9799,7 +10702,8 @@
       <id>	18	</id>
       <userString>#france_vehicles:_76mm_OCO_mle._1941</userString>
       <icon>hc</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	75	</caliber>
@@ -9829,7 +10733,8 @@
       <id>	32	</id>
       <userString>#france_vehicles:_76mm_HVAP_M93</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -9872,7 +10777,8 @@
       <id>	63	</id>
       <userString>#france_vehicles:_76.2_mm_APCBC_Mk.8T</userString>
       <icon>ap_cr</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>76.2</caliber>
       <isTracer>	true	</isTracer>
@@ -9929,7 +10835,8 @@
       <id>	35	</id>
       <userString>#france_vehicles:_90mm_FrtPrf1944</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -9972,7 +10879,8 @@
       <id>	107	</id>
       <userString>#france_vehicles:_90mm_HEAT_americaine</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -10016,7 +10924,8 @@
       <id>	122	</id>
       <userString>#france_vehicles:_90mm_OFL_90_D_919</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -10045,7 +10954,8 @@
       <id>	43	</id>
       <userString>#france_vehicles:_100mm_FrtPrf1945</userString>
       <icon>ap_cr</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -10117,7 +11027,8 @@
       <id>	38	</id>
       <userString>#france_vehicles:_105mm_FrtPrf1943</userString>
       <icon>ap_cr</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -10161,7 +11072,8 @@
       <id>	26	</id>
       <userString>#france_vehicles:_105mmGr39H1A</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -10205,7 +11117,8 @@
       <id>	46	</id>
       <userString>#france_vehicles:_105mm_OCO_mle._1936</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -10234,7 +11147,8 @@
       <id>	82	</id>
       <userString>#france_vehicles:_105mm_HEAT_OCC_F1</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -10278,7 +11192,8 @@
       <id>	89	</id>
       <userString>#france_vehicles:_105mm_OCC_105_F1</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -10322,7 +11237,8 @@
       <id>	96	</id>
       <userString>#france_vehicles:_105mm_OCC_105_D1504_L51</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -10366,7 +11282,8 @@
       <id>	112	</id>
       <userString>#france_vehicles:_105mm_OCC_105_D1504</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -10424,7 +11341,8 @@
       <id>	48	</id>
       <userString>#france_vehicles:_120mm_FrtPrf1945</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	120	</caliber>
       <isTracer>	true	</isTracer>
@@ -10438,7 +11356,8 @@
       <id>	93	</id>
       <userString>#france_vehicles:_120mm_FrtPrf1945_fallout</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	120	</caliber>
       <isTracer>	true	</isTracer>
@@ -10496,7 +11415,8 @@
       <id>	131	</id>
       <userString>#france_vehicles:_120mm_FrtPrf1951</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	120	</caliber>
       <isTracer>	true	</isTracer>
@@ -10539,7 +11459,8 @@
       <id>	125	</id>
       <userString>#france_vehicles:_127mm_Capped_Common</userString>
       <icon>ap</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	127	</caliber>
       <isTracer>	true	</isTracer>
@@ -10582,7 +11503,8 @@
       <id>	128	</id>
       <userString>#france_vehicles:_130mm_Capped_Common</userString>
       <icon>ap</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	130	</caliber>
       <isTracer>	true	</isTracer>
@@ -10630,7 +11552,8 @@
       <id>	54	</id>
       <userString>#france_vehicles:_155mm_OCO_mle_1944</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	155	</caliber>
@@ -10665,7 +11588,8 @@
       <id>	68	</id>
       <userString>#france_vehicles:_155mm_OE_M101M6</userString>
       <icon>he_premium</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	155	</caliber>
       <explosionRadius>	9	</explosionRadius>
@@ -10717,7 +11641,8 @@
       <id>	79	</id>
       <userString>#france_vehicles:_155mm_HEAT_T267</userString>
       <icon>hc</icon>
-      <price>	17	<gold></gold></price>
+      <price>	6800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	155	</caliber>
       <isTracer>	true	</isTracer>
@@ -10747,7 +11672,8 @@
       <id>	77	</id>
       <userString>#france_vehicles:_M_107</userString>
       <icon>he_premium</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	155	</caliber>
       <explosionRadius>	9	</explosionRadius>
@@ -10762,6 +11688,22 @@
         <devices>	105	</devices>
       </damage>
     </_M_107>
+    <_105mm_OE_105_Mle_60_D1504_sport>
+      <id>	500	</id>
+      <userString>#football2018:F88_AMX_13_105_sport_shell_name</userString>
+      <icon>he</icon>
+      <price>	0	</price>
+      <notInShop>	true	</notInShop>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	100	</caliber>
+      <explosionRadius>1.91</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>FootballSmallHighExplosive_blue</effects>
+      <damage>
+        <armor>	480	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </_105mm_OE_105_Mle_60_D1504_sport>
   </france>
   <uk>
     <_76mm_HVAP_M93>
@@ -10841,7 +11783,8 @@
       <id>	19	</id>
       <userString>#gb_vehicles:_37mm_APC_M51</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -10884,7 +11827,8 @@
       <id>	79	</id>
       <userString>#gb_vehicles:_40mm_APHV</userString>
       <icon>ap_cr</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	40	</caliber>
       <isTracer>	true	</isTracer>
@@ -10927,7 +11871,8 @@
       <id>	52	</id>
       <userString>#gb_vehicles:_40mm_APCR</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	40	</caliber>
       <isTracer>	true	</isTracer>
@@ -10970,7 +11915,8 @@
       <id>	22	</id>
       <userString>#gb_vehicles:_47mm_3pdrAPCR</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	47	</caliber>
       <isTracer>	true	</isTracer>
@@ -11071,7 +12017,8 @@
       <id>	5	</id>
       <userString>#gb_vehicles:_2pdr_APCNR_Mk.1</userString>
       <icon>ap_cr</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	40	</caliber>
       <isTracer>	true	</isTracer>
@@ -11085,7 +12032,8 @@
       <id>	75	</id>
       <userString>#gb_vehicles:_2pdr_APCNR_Mk.2</userString>
       <icon>ap_cr</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	40	</caliber>
       <isTracer>	true	</isTracer>
@@ -11128,7 +12076,8 @@
       <id>	77	</id>
       <userString>#gb_vehicles:_2pdr_APSV_Mk.2</userString>
       <icon>ap_cr</icon>
-      <price>	4	<gold></gold></price>
+      <price>	1600	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	40	</caliber>
       <isTracer>	true	</isTracer>
@@ -11156,7 +12105,8 @@
       <id>	8	</id>
       <userString>#gb_vehicles:_6pdr_APCR_MK_1T</userString>
       <icon>ap_cr</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -11184,7 +12134,8 @@
       <id>	66	</id>
       <userString>#gb_vehicles:_6pdr_AP_Steel_NF</userString>
       <icon>ap</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -11242,7 +12193,8 @@
       <id>	72	</id>
       <userString>#gb_vehicles:_75mm_APCR_HV_Mk3</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -11285,7 +12237,8 @@
       <id>	32	</id>
       <userString>#gb_vehicles:_75mm_APCR_Mk3</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -11328,7 +12281,8 @@
       <id>	105	</id>
       <userString>#gb_vehicles:_76mm_M79</userString>
       <icon>ap</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -11371,7 +12325,8 @@
       <id>	36	</id>
       <userString>#gb_vehicles:_76mm_AP_M79</userString>
       <icon>ap</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -11414,7 +12369,8 @@
       <id>	27	</id>
       <userString>#gb_vehicles:_75mm_M72</userString>
       <icon>ap</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -11458,7 +12414,8 @@
       <id>	25	</id>
       <userString>#gb_vehicles:_76mm_HEAT_MkI</userString>
       <icon>hc</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	76	</caliber>
       <isTracer>	true	</isTracer>
@@ -11502,7 +12459,8 @@
       <id>	49	</id>
       <userString>#gb_vehicles:_77mm_APDS_Mk1T</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>76.2</caliber>
       <isTracer>	true	</isTracer>
@@ -11573,7 +12531,8 @@
       <id>	108	</id>
       <userString>#gb_vehicles:_17pdr_APCBC_Mk8T</userString>
       <icon>ap</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>76.2</caliber>
       <isTracer>	true	</isTracer>
@@ -11587,7 +12546,8 @@
       <id>	41	</id>
       <userString>#gb_vehicles:_17pdr_APC_Mk4T</userString>
       <icon>ap_cr</icon>
-      <price>	8	<gold></gold></price>
+      <price>	3200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>76.2</caliber>
       <isTracer>	true	</isTracer>
@@ -11645,7 +12605,8 @@
       <id>	86	</id>
       <userString>#gb_vehicles:_3inch_APCR</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>76.2</caliber>
       <isTracer>	true	</isTracer>
@@ -11688,7 +12649,8 @@
       <id>	46	</id>
       <userString>#gb_vehicles:_20pdr_APC_Mk2</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>83.4</caliber>
       <isTracer>	true	</isTracer>
@@ -11776,7 +12738,8 @@
       <id>	84	</id>
       <userString>#gb_vehicles:_25pdr_AP_Mk_1T_SC</userString>
       <icon>ap</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>87.6</caliber>
       <isTracer>	true	</isTracer>
@@ -11804,7 +12767,8 @@
       <id>	120	</id>
       <userString>#gb_vehicles:_90mm_APFSDS_T320</userString>
       <icon>ap_cr</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -11847,7 +12811,8 @@
       <id>	89	</id>
       <userString>#gb_vehicles:_3.7inch_APCR</userString>
       <icon>ap_cr</icon>
-      <price>	9	<gold></gold></price>
+      <price>	3600	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	94	</caliber>
       <isTracer>	true	</isTracer>
@@ -11904,7 +12869,8 @@
       <id>	2	</id>
       <userString>#gb_vehicles:_32pdr_APCR_MkII</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	94	</caliber>
       <isTracer>	true	</isTracer>
@@ -11918,7 +12884,8 @@
       <id>	124	</id>
       <userString>#gb_vehicles:_32pdr_APDS_Mk_3</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	94	</caliber>
       <isTracer>	true	</isTracer>
@@ -11977,7 +12944,8 @@
       <id>	30	</id>
       <userString>#gb_vehicles:_3.7inch_HEAT_Mk1</userString>
       <icon>hc</icon>
-      <price>	14	<gold></gold></price>
+      <price>	5600	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	94	</caliber>
       <isTracer>	true	</isTracer>
@@ -12007,7 +12975,8 @@
       <id>	35	</id>
       <userString>#gb_vehicles:_105mm_HEAT_M67</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -12036,7 +13005,8 @@
       <id>	115	</id>
       <userString>#gb_vehicles:_105mm_HEAT_L7</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -12066,7 +13036,8 @@
       <id>	69	</id>
       <userString>#gb_vehicles:_105mm_HESH_L7</userString>
       <icon>he</icon>
-      <price>	13	<gold></gold></price>
+      <price>	5200	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>	105	</caliber>
       <explosionRadius>1.91</explosionRadius>
@@ -12110,7 +13081,8 @@
       <id>	70	</id>
       <userString>#gb_vehicles:_120mm_APDS_L1A1</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	120	</caliber>
       <isTracer>	true	</isTracer>
@@ -12153,7 +13125,8 @@
       <id>	117	</id>
       <userString>#gb_vehicles:_120mm_APDS_L15A4_DU</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>119.38</caliber>
       <isTracer>	true	</isTracer>
@@ -12196,7 +13169,8 @@
       <id>	130	</id>
       <userString>#gb_vehicles:_123mm_APDS_Mk_2</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	123	</caliber>
       <isTracer>	true	</isTracer>
@@ -12239,7 +13213,8 @@
       <id>	127	</id>
       <userString>#gb_vehicles:_5_5inch_HESH_Mk_1</userString>
       <icon>he_premium</icon>
-      <price>	18	<gold></gold></price>
+      <price>	7200	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>139.7</caliber>
       <explosionRadius>3.17</explosionRadius>
@@ -12288,7 +13263,8 @@
       <id>	100	</id>
       <userString>#gb_vehicles:_5.5inch_HE_Mk_5</userString>
       <icon>he_premium</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>139.7</caliber>
       <explosionRadius>8.1</explosionRadius>
@@ -12341,7 +13317,8 @@
       <id>	101	</id>
       <userString>#gb_vehicles:_6inch_HE_Mk_6</userString>
       <icon>he_premium</icon>
-      <price>	15	<gold></gold></price>
+      <price>	6000	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>152.4</caliber>
       <explosionRadius>	9	</explosionRadius>
@@ -12379,7 +13356,8 @@
       <id>	102	</id>
       <userString>#gb_vehicles:_7.2inch_HE_Mk_2</userString>
       <icon>he_premium</icon>
-      <price>	18	<gold></gold></price>
+      <price>	7200	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>182.9</caliber>
       <explosionRadius>	11	</explosionRadius>
@@ -12412,7 +13390,8 @@
       <id>	82	</id>
       <userString>#gb_vehicles:_183mm_HESH</userString>
       <icon>he</icon>
-      <price>	20	<gold></gold></price>
+      <price>	8000	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>182.9</caliber>
       <explosionRadius>5.05</explosionRadius>
@@ -12461,7 +13440,8 @@
       <id>	103	</id>
       <userString>#gb_vehicles:_9.2inch_HE_Mk_19</userString>
       <icon>he_premium</icon>
-      <price>	20	<gold></gold></price>
+      <price>	8000	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>233.7</caliber>
       <explosionRadius>14.2</explosionRadius>
@@ -12496,7 +13476,8 @@
       <id>	45	</id>
       <userString>#japan_vehicles:_13.2mm_Balle_T.P.</userString>
       <icon>ap_cr</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>13.2</caliber>
       <isTracer>	true	</isTracer>
@@ -12525,7 +13506,8 @@
       <id>	7	</id>
       <userString>#japan_vehicles:_20mm_APCR</userString>
       <icon>ap_cr</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	20	</caliber>
@@ -12570,7 +13552,8 @@
       <id>	9	</id>
       <userString>#japan_vehicles:_37mm_FrtPrf1935</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
@@ -12601,7 +13584,8 @@
       <id>	17	</id>
       <userString>#japan_vehicles:_37mm_APHE_Ichi_Go</userString>
       <icon>ap</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -12644,7 +13628,8 @@
       <id>	15	</id>
       <userString>#japan_vehicles:_37mm_APHE_Type1</userString>
       <icon>ap</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -12688,7 +13673,8 @@
       <id>	84	</id>
       <userString>#japan_vehicles:_37mm_APHE_Type1</userString>
       <icon>ap</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	37	</caliber>
@@ -12733,7 +13719,8 @@
       <id>	23	</id>
       <userString>#japan_vehicles:_37mm_AP_Type4</userString>
       <icon>ap</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -12776,7 +13763,8 @@
       <id>	20	</id>
       <userString>#japan_vehicles:_47mm_APHE_Type1_TK</userString>
       <icon>ap</icon>
-      <price>	4	<gold></gold></price>
+      <price>	1600	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	47	</caliber>
       <isTracer>	true	</isTracer>
@@ -12819,7 +13807,8 @@
       <id>	12	</id>
       <userString>#japan_vehicles:_57mm_HEAT_Type97</userString>
       <icon>hc</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -12863,7 +13852,8 @@
       <id>	29	</id>
       <userString>#japan_vehicles:_57mm_APHE_Type1_TK</userString>
       <icon>ap</icon>
-      <price>	5	<gold></gold></price>
+      <price>	2000	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -12906,7 +13896,8 @@
       <id>	54	</id>
       <userString>#japan_vehicles:_70mm_HEAT_Type3</userString>
       <icon>hc</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	70	</caliber>
       <isTracer>	true	</isTracer>
@@ -12951,7 +13942,8 @@
       <id>	87	</id>
       <userString>#japan_vehicles:_70mm_HEAT_Type3</userString>
       <icon>hc</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <notInShop>	true	</notInShop>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	70	</caliber>
@@ -12997,7 +13989,8 @@
       <id>	26	</id>
       <userString>#japan_vehicles:_75mm_HEAT_Type2_185</userString>
       <icon>hc</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -13041,7 +14034,8 @@
       <id>	32	</id>
       <userString>#japan_vehicles:_75mm_AP_Type_1_TK_424</userString>
       <icon>ap</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -13084,7 +14078,8 @@
       <id>	2	</id>
       <userString>#japan_vehicles:_75mm_AP_Type_1_SK_604</userString>
       <icon>ap</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -13127,7 +14122,8 @@
       <id>	35	</id>
       <userString>#japan_vehicles:_75mm_AP_Type_1_TO_604</userString>
       <icon>ap</icon>
-      <price>	8	<gold></gold></price>
+      <price>	3200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -13170,7 +14166,8 @@
       <id>	47	</id>
       <userString>#japan_vehicles:_88mm_Pzgr.40</userString>
       <icon>ap_cr</icon>
-      <price>	8	<gold></gold></price>
+      <price>	3200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	88	</caliber>
       <isTracer>	true	</isTracer>
@@ -13213,7 +14210,8 @@
       <id>	81	</id>
       <userString>#japan_vehicles:_88mm_Edelweiss_APCR</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	88	</caliber>
       <isTracer>	true	</isTracer>
@@ -13256,7 +14254,8 @@
       <id>	78	</id>
       <userString>#japan_vehicles:_88mm_Nameless_APCR</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	88	</caliber>
       <isTracer>	true	</isTracer>
@@ -13299,7 +14298,8 @@
       <id>	38	</id>
       <userString>#japan_vehicles:_90mm_HVAP_M304</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -13342,7 +14342,8 @@
       <id>	41	</id>
       <userString>#japan_vehicles:_90mm_HEAT_Type70</userString>
       <icon>hc</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -13371,7 +14372,8 @@
       <id>	64	</id>
       <userString>#japan_vehicles:_105mm_APHE_Type95_TK</userString>
       <icon>ap</icon>
-      <price>	9	<gold></gold></price>
+      <price>	3600	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -13430,7 +14432,8 @@
       <id>	68	</id>
       <userString>#japan_vehicles:_105mm_AP_Experimental_Type2_TK</userString>
       <icon>ap</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -13458,7 +14461,8 @@
       <id>	89	</id>
       <userString>#japan_vehicles:_105mm_AP_Experimental_Type2_TS</userString>
       <icon>ap</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -13501,7 +14505,8 @@
       <id>	43	</id>
       <userString>#japan_vehicles:_105mm_HEAT-T_T384E4</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -13545,7 +14550,8 @@
       <id>	56	</id>
       <userString>#japan_vehicles:_120mm_HEAT_Type_88</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	120	</caliber>
       <isTracer>	true	</isTracer>
@@ -13589,7 +14595,8 @@
       <id>	73	</id>
       <userString>#japan_vehicles:_127mm_Capped_Common</userString>
       <icon>ap</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	127	</caliber>
       <isTracer>	true	</isTracer>
@@ -13632,7 +14639,8 @@
       <id>	74	</id>
       <userString>#japan_vehicles:_140mm_Capped_Common_Semi_AP_Kai</userString>
       <icon>ap</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>139.7</caliber>
       <isTracer>	true	</isTracer>
@@ -13675,7 +14683,8 @@
       <id>	67	</id>
       <userString>#japan_vehicles:_150mm_HEAT_Type3</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>149.1</caliber>
       <isTracer>	true	</isTracer>
@@ -13720,7 +14729,8 @@
       <id>	76	</id>
       <userString>#japan_vehicles:_150mm_Common_Type_0_HE_Kai</userString>
       <icon>he</icon>
-      <price>	16	<gold></gold></price>
+      <price>	6400	</price>
+      <improved>	true	</improved>
       <kind>HIGH_EXPLOSIVE</kind>
       <caliber>152.4</caliber>
       <explosionRadius>3.66</explosionRadius>
@@ -13751,7 +14761,8 @@
       <id>	5	</id>
       <userString>#czech_vehicles:_37mm_Prurazny_vz_28</userString>
       <icon>ap</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -13822,7 +14833,8 @@
       <id>	8	</id>
       <userString>#czech_vehicles:_37mm_Prurazny_vz_40_s_oc_jadrem</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -13836,7 +14848,8 @@
       <id>	10	</id>
       <userString>#czech_vehicles:_37mm_Prurazny_vz_40_s_wolf_jadrem</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -13850,7 +14863,8 @@
       <id>	15	</id>
       <userString>#czech_vehicles:_37mm_Prurazny_vz_47_s_wolf_jadrem</userString>
       <icon>ap_cr</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -13908,7 +14922,8 @@
       <id>	12	</id>
       <userString>#czech_vehicles:_47mm_Prurazny_s_oc_jadrem</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	47	</caliber>
       <isTracer>	true	</isTracer>
@@ -13951,7 +14966,8 @@
       <id>	19	</id>
       <userString>#czech_vehicles:_47mm_Prurazny_vz_40_s_wolf_jadrem</userString>
       <icon>ap_cr</icon>
-      <price>	4	<gold></gold></price>
+      <price>	1600	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	47	</caliber>
       <isTracer>	true	</isTracer>
@@ -13994,7 +15010,8 @@
       <id>	22	</id>
       <userString>#czech_vehicles:_75mm_Prurazny_vz_42_s_wolf_jadrem</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -14037,7 +15054,8 @@
       <id>	25	</id>
       <userString>#czech_vehicles:_85mm_vz_44_Protipancerovy_jadrovy</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	85	</caliber>
       <isTracer>	true	</isTracer>
@@ -14080,7 +15098,8 @@
       <id>	2	</id>
       <userString>#czech_vehicles:_88mm_HEAT_Vz_46_prupalny</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	88	</caliber>
       <isTracer>	true	</isTracer>
@@ -14124,7 +15143,8 @@
       <id>	31	</id>
       <userString>#czech_vehicles:_88mm_vz_42N_OPG</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	88	</caliber>
       <isTracer>	true	</isTracer>
@@ -14167,7 +15187,8 @@
       <id>	28	</id>
       <userString>#czech_vehicles:_100mm_JPrSv</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -14211,7 +15232,8 @@
       <id>	37	</id>
       <userString>#czech_vehicles:_100mm_Prurazny_vz_49_s_oc_jadrem</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -14254,7 +15276,8 @@
       <id>	40	</id>
       <userString>#czech_vehicles:_100mm_Prupalny_vz_50</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	100	</caliber>
       <isTracer>	true	</isTracer>
@@ -14298,7 +15321,8 @@
       <id>	34	</id>
       <userString>#czech_vehicles:_105mm_vz_42N_OPG</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -14343,7 +15367,8 @@
       <id>	4	</id>
       <userString>#sweden_vehicles:_20mm_slpprj_m_40_M</userString>
       <icon>ap</icon>
-      <price>	1	<gold></gold></price>
+      <price>	400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	20	</caliber>
       <isTracer>	true	</isTracer>
@@ -14386,7 +15411,8 @@
       <id>	7	</id>
       <userString>#sweden_vehicles:_20mm_slpprj_m_49</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	20	</caliber>
       <isTracer>	true	</isTracer>
@@ -14429,7 +15455,8 @@
       <id>	18	</id>
       <userString>#sweden_vehicles:_37mm_slpgr_m_Skoda</userString>
       <icon>ap</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -14472,7 +15499,8 @@
       <id>	10	</id>
       <userString>#sweden_vehicles:_37mm_uprj_fm_47</userString>
       <icon>ap_cr</icon>
-      <price>	2	<gold></gold></price>
+      <price>	800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -14500,7 +15528,8 @@
       <id>	16	</id>
       <userString>#sweden_vehicles:_37mm_slpprj_m_49</userString>
       <icon>ap_cr</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	37	</caliber>
       <isTracer>	true	</isTracer>
@@ -14543,7 +15572,8 @@
       <id>	21	</id>
       <userString>#sweden_vehicles:_47mm_slpprj_m_39</userString>
       <icon>ap</icon>
-      <price>	3	<gold></gold></price>
+      <price>	1200	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	47	</caliber>
       <isTracer>	true	</isTracer>
@@ -14586,7 +15616,8 @@
       <id>	24	</id>
       <userString>#sweden_vehicles:_57mm_slpprj_m_49</userString>
       <icon>ap_cr</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	57	</caliber>
       <isTracer>	true	</isTracer>
@@ -14643,7 +15674,8 @@
       <id>	27	</id>
       <userString>#sweden_vehicles:_75mm_slpsgr_fm_45</userString>
       <icon>hc</icon>
-      <price>	6	<gold></gold></price>
+      <price>	2400	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -14702,7 +15734,8 @@
       <id>	64	</id>
       <userString>#sweden_vehicles:_75mm_slpprj_m_40_N</userString>
       <icon>ap</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -14730,7 +15763,8 @@
       <id>	31	</id>
       <userString>#sweden_vehicles:_75mm_slpgr_fm_43</userString>
       <icon>ap</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -14758,7 +15792,8 @@
       <id>	1	</id>
       <userString>#sweden_vehicles:_75mm_slpprj_m_49</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -14801,7 +15836,8 @@
       <id>	72	</id>
       <userString>#sweden_vehicles:_84mm_slpprj_m_54</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>83.4</caliber>
       <isTracer>	true	</isTracer>
@@ -14844,7 +15880,8 @@
       <id>	36	</id>
       <userString>#sweden_vehicles:_90mm_slpsgr_typ_I</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -14902,7 +15939,8 @@
       <id>	68	</id>
       <userString>#sweden_vehicles:_90mm_slpsgr_m_F</userString>
       <icon>hc</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	90	</caliber>
       <isTracer>	true	</isTracer>
@@ -14961,7 +15999,8 @@
       <id>	44	</id>
       <userString>#sweden_vehicles:_105mm_psgr_m_49</userString>
       <icon>hc</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -14990,7 +16029,8 @@
       <id>	46	</id>
       <userString>#sweden_vehicles:_105mm_slpsgr_m_49</userString>
       <icon>hc</icon>
-      <price>	10	<gold></gold></price>
+      <price>	4000	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -15020,7 +16060,8 @@
       <id>	48	</id>
       <userString>#sweden_vehicles:_105mm_slpsgr_m_65</userString>
       <icon>hc</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -15049,7 +16090,8 @@
       <id>	49	</id>
       <userString>#sweden_vehicles:_105mm_slpprj_fm_49</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -15077,7 +16119,8 @@
       <id>	51	</id>
       <userString>#sweden_vehicles:_105mm_slpprj_m_49</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -15120,7 +16163,8 @@
       <id>	55	</id>
       <userString>#sweden_vehicles:_105mm_slpprj_m_52_B</userString>
       <icon>ap_cr</icon>
-      <price>	11	<gold></gold></price>
+      <price>	4400	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -15178,7 +16222,8 @@
       <id>	57	</id>
       <userString>#sweden_vehicles:_105mm_slpprj_m_ny</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -15192,7 +16237,8 @@
       <id>	13	</id>
       <userString>#sweden_vehicles:_105mm_slpprj_m_66</userString>
       <icon>ap_cr</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	105	</caliber>
       <isTracer>	true	</isTracer>
@@ -15235,7 +16281,8 @@
       <id>	59	</id>
       <userString>#sweden_vehicles:_120mm_psgr_m_51</userString>
       <icon>hc</icon>
-      <price>	12	<gold></gold></price>
+      <price>	4800	</price>
+      <improved>	true	</improved>
       <kind>HOLLOW_CHARGE</kind>
       <caliber>	120	</caliber>
       <isTracer>	true	</isTracer>
@@ -15281,7 +16328,8 @@
       <id>	25	</id>
       <userString>#poland_vehicles:_75mm_Pzgr.40L</userString>
       <icon>ap_cr</icon>
-      <price>	7	<gold></gold></price>
+      <price>	2800	</price>
+      <improved>	true	</improved>
       <kind>ARMOR_PIERCING_CR</kind>
       <caliber>	75	</caliber>
       <isTracer>	true	</isTracer>
@@ -15306,5 +16354,568 @@
         <devices>	100	</devices>
       </damage>
     </_75mm_Sprg.18L>
+    <_122mm_BR-471_B>
+      <id>	27	</id>
+      <userString>#poland_vehicles:_122mm_BR-471_B</userString>
+      <icon>ap</icon>
+      <price>	880	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	122	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeArmorPiercing</effects>
+      <damage>
+        <armor>	440	</armor>
+        <devices>	165	</devices>
+      </damage>
+    </_122mm_BR-471_B>
+    <_122mm_BR-471_D>
+      <id>	28	</id>
+      <userString>#poland_vehicles:_122mm_BR-471_D</userString>
+      <icon>ap_cr</icon>
+      <price>	4800	</price>
+      <improved>	true	</improved>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	122	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>largeAPCR</effects>
+      <damage>
+        <armor>	440	</armor>
+        <devices>	165	</devices>
+      </damage>
+    </_122mm_BR-471_D>
+    <_122mm_OF-471>
+      <id>	29	</id>
+      <userString>#poland_vehicles:_122mm_OF-471</userString>
+      <icon>he</icon>
+      <price>	720	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	122	</caliber>
+      <explosionRadius>2.49</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>largeHighExplosive</effects>
+      <damage>
+        <armor>	560	</armor>
+        <devices>	165	</devices>
+      </damage>
+    </_122mm_OF-471>
   </poland>
+  <italy>
+    <_20mm_c_p_20_mod_35>
+      <id>	6	</id>
+      <userString>#italy_vehicles:_20mm_c_p_20_mod_35</userString>
+      <icon>ap</icon>
+      <price>	3	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	20	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>autoArmorPiercing</effects>
+      <damage>
+        <armor>	11	</armor>
+        <devices>	27	</devices>
+      </damage>
+    </_20mm_c_p_20_mod_35>
+    <_20mm_c_p_20_138_B>
+      <id>	7	</id>
+      <userString>#italy_vehicles:_20mm_c_p_20_138_B</userString>
+      <icon>ap</icon>
+      <price>	400	</price>
+      <improved>	true	</improved>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	20	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>autoArmorPiercing</effects>
+      <damage>
+        <armor>	11	</armor>
+        <devices>	27	</devices>
+      </damage>
+    </_20mm_c_p_20_138_B>
+    <_37mm_c_p_K_ogival>
+      <id>	22	</id>
+      <userString>#italy_vehicles:_37mm_c_p_K_ogival</userString>
+      <icon>ap</icon>
+      <price>	0	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	37	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mediumArmorPiercing</effects>
+      <damage>
+        <armor>	30	</armor>
+        <devices>	50	</devices>
+      </damage>
+    </_37mm_c_p_K_ogival>
+    <_37mm_c_p_AZ_BT>
+      <id>	23	</id>
+      <userString>#italy_vehicles:_37mm_c_p_AZ_BT</userString>
+      <icon>ap_cr</icon>
+      <price>	800	</price>
+      <improved>	true	</improved>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	37	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mediumAPCR</effects>
+      <damage>
+        <armor>	30	</armor>
+        <devices>	50	</devices>
+      </damage>
+    </_37mm_c_p_AZ_BT>
+    <_37mm_c_g_scoppiante>
+      <id>	24	</id>
+      <userString>#italy_vehicles:_37mm_c_g_scoppiante</userString>
+      <icon>he</icon>
+      <price>	6	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	37	</caliber>
+      <explosionRadius>0.31</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>mediumHighExplosive</effects>
+      <damage>
+        <armor>	36	</armor>
+        <devices>	50	</devices>
+      </damage>
+    </_37mm_c_g_scoppiante>
+    <_37mm_c_p_37_40>
+      <id>	3	</id>
+      <userString>#italy_vehicles:_37mm_c_p_37_40</userString>
+      <icon>ap</icon>
+      <price>	7	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	37	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mediumArmorPiercing</effects>
+      <damage>
+        <armor>	40	</armor>
+        <devices>	50	</devices>
+      </damage>
+    </_37mm_c_p_37_40>
+    <_37mm_c_g_p_37_40>
+      <id>	4	</id>
+      <userString>#italy_vehicles:_37mm_c_g_p_37_40</userString>
+      <icon>ap</icon>
+      <price>	800	</price>
+      <improved>	true	</improved>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	37	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>smallArmorPiercing</effects>
+      <damage>
+        <armor>	40	</armor>
+        <devices>	50	</devices>
+      </damage>
+    </_37mm_c_g_p_37_40>
+    <_37mm_c_mitraglia_37_40>
+      <id>	5	</id>
+      <userString>#italy_vehicles:_37mm_c_mitraglia_37_40</userString>
+      <icon>he</icon>
+      <price>	9	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	37	</caliber>
+      <explosionRadius>0.31</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>smallHighExplosive</effects>
+      <damage>
+        <armor>	45	</armor>
+        <devices>	50	</devices>
+      </damage>
+    </_37mm_c_mitraglia_37_40>
+    <_47mm_c_p_47_32_mod_39>
+      <id>	8	</id>
+      <userString>#italy_vehicles:_47mm_c_p_47_32_mod_39</userString>
+      <icon>ap</icon>
+      <price>	20	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	47	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>smallArmorPiercing</effects>
+      <damage>
+        <armor>	50	</armor>
+        <devices>	64	</devices>
+      </damage>
+    </_47mm_c_p_47_32_mod_39>
+    <_47mm_c_g_47_32_EPS>
+      <id>	9	</id>
+      <userString>#italy_vehicles:_47mm_c_g_47_32_EPS</userString>
+      <icon>hc</icon>
+      <price>	1600	</price>
+      <improved>	true	</improved>
+      <kind>HOLLOW_CHARGE</kind>
+      <caliber>	47	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>smallHollowCharge</effects>
+      <damage>
+        <armor>	50	</armor>
+        <devices>	64	</devices>
+      </damage>
+      <piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
+    </_47mm_c_g_47_32_EPS>
+    <_47mm_c_g_47_32_mod_35>
+      <id>	10	</id>
+      <userString>#italy_vehicles:_47mm_c_g_47_32_mod_35</userString>
+      <icon>he</icon>
+      <price>	16	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	47	</caliber>
+      <explosionRadius>0.47</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>smallHighExplosive</effects>
+      <damage>
+        <armor>	70	</armor>
+        <devices>	64	</devices>
+      </damage>
+    </_47mm_c_g_47_32_mod_35>
+    <_47mm_c_g_47_32_EP>
+      <id>	25	</id>
+      <userString>#italy_vehicles:_47mm_c_g_47_32_EP</userString>
+      <icon>he</icon>
+      <price>	30	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	47	</caliber>
+      <explosionRadius>0.47</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>smallHighExplosive</effects>
+      <damage>
+        <armor>	70	</armor>
+        <devices>	64	</devices>
+      </damage>
+    </_47mm_c_g_47_32_EP>
+    <_75mm_c_p_75_32>
+      <id>	11	</id>
+      <userString>#italy_vehicles:_75mm_c_p_75_32</userString>
+      <icon>ap</icon>
+      <price>	66	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	75	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mediumArmorPiercing</effects>
+      <damage>
+        <armor>	110	</armor>
+        <devices>	100	</devices>
+      </damage>
+    </_75mm_c_p_75_32>
+    <_75mm_c_g_75_EPS_mod_42>
+      <id>	12	</id>
+      <userString>#italy_vehicles:_75mm_c_g_75_EPS_mod_42</userString>
+      <icon>hc</icon>
+      <price>	3200	</price>
+      <improved>	true	</improved>
+      <kind>HOLLOW_CHARGE</kind>
+      <caliber>	75	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mediumHollowCharge</effects>
+      <damage>
+        <armor>	110	</armor>
+        <devices>	100	</devices>
+      </damage>
+      <piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
+    </_75mm_c_g_75_EPS_mod_42>
+    <_75mm_c_g_75_27_EP_mod_32>
+      <id>	13	</id>
+      <userString>#italy_vehicles:_75mm_c_g_75_27_EP_mod_32</userString>
+      <icon>he</icon>
+      <price>	114	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	75	</caliber>
+      <explosionRadius>1.06</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>mediumHighExplosive</effects>
+      <damage>
+        <armor>	175	</armor>
+        <devices>	100	</devices>
+      </damage>
+    </_75mm_c_g_75_27_EP_mod_32>
+    <_75mm_c_g_75_27_EP_mod_42>
+      <id>	14	</id>
+      <userString>#italy_vehicles:_75mm_c_g_75_27_EP_mod_42</userString>
+      <icon>he</icon>
+      <price>	147	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	75	</caliber>
+      <explosionRadius>1.06</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>mediumHighExplosive</effects>
+      <damage>
+        <armor>	175	</armor>
+        <devices>	100	</devices>
+      </damage>
+    </_75mm_c_g_75_27_EP_mod_42>
+    <_75mm_c_p_75_46>
+      <id>	15	</id>
+      <userString>#italy_vehicles:_75mm_c_p_75_46</userString>
+      <icon>ap</icon>
+      <price>	80	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	75	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mediumArmorPiercing</effects>
+      <damage>
+        <armor>	110	</armor>
+        <devices>	100	</devices>
+      </damage>
+    </_75mm_c_p_75_46>
+    <_75mm_c_p_75_50_Skoda>
+      <id>	16	</id>
+      <userString>#italy_vehicles:_75mm_c_p_75_50_Skoda</userString>
+      <icon>ap</icon>
+      <price>	88	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	75	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mediumArmorPiercing</effects>
+      <damage>
+        <armor>	110	</armor>
+        <devices>	100	</devices>
+      </damage>
+    </_75mm_c_p_75_50_Skoda>
+    <_75mm_c_p_75_50>
+      <id>	17	</id>
+      <userString>#italy_vehicles:_75mm_c_p_75_50</userString>
+      <icon>ap_cr</icon>
+      <price>	2800	</price>
+      <improved>	true	</improved>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	75	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mediumAPCR</effects>
+      <damage>
+        <armor>	110	</armor>
+        <devices>	100	</devices>
+      </damage>
+    </_75mm_c_p_75_50>
+    <_75mm_c_g_75_50_mod_37_Skoda>
+      <id>	18	</id>
+      <userString>#italy_vehicles:_75mm_c_g_75_50_mod_37_Skoda</userString>
+      <icon>he</icon>
+      <price>	80	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	75	</caliber>
+      <explosionRadius>1.06</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>mediumHighExplosive</effects>
+      <damage>
+        <armor>	175	</armor>
+        <devices>	100	</devices>
+      </damage>
+    </_75mm_c_g_75_50_mod_37_Skoda>
+    <_90mm_c_p_90_53_mod_09>
+      <id>	19	</id>
+      <userString>#italy_vehicles:_90mm_c_p_90_53_mod_09</userString>
+      <icon>ap</icon>
+      <price>	435	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	90	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mainArmorPiercing</effects>
+      <damage>
+        <armor>	240	</armor>
+        <devices>	122	</devices>
+      </damage>
+    </_90mm_c_p_90_53_mod_09>
+    <_90mm_c_p_90_42_mod_43>
+      <id>	20	</id>
+      <userString>#italy_vehicles:_90mm_c_p_90_42_mod_43</userString>
+      <icon>ap_cr</icon>
+      <price>	4400	</price>
+      <improved>	true	</improved>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	90	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>	mainAPCR	</effects>
+      <damage>
+        <armor>	240	</armor>
+        <devices>	122	</devices>
+      </damage>
+    </_90mm_c_p_90_42_mod_43>
+    <_90mm_c_g_90_42_53>
+      <id>	21	</id>
+      <userString>#italy_vehicles:_90mm_c_g_90_42_53</userString>
+      <icon>he</icon>
+      <price>	305	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	90	</caliber>
+      <explosionRadius>1.46</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>mainHighExplosive</effects>
+      <damage>
+        <armor>	320	</armor>
+        <devices>	122	</devices>
+      </damage>
+    </_90mm_c_g_90_42_53>
+    <_90mm_c_p_90_50_AP_T_T33E4>
+      <id>	0	</id>
+      <userString>#italy_vehicles:_90mm_c_p_90_50_AP_T_T33E4</userString>
+      <icon>ap</icon>
+      <price>	430	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	90	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mainArmorPiercing</effects>
+      <damage>
+        <armor>	240	</armor>
+        <devices>	122	</devices>
+      </damage>
+    </_90mm_c_p_90_50_AP_T_T33E4>
+    <_90mm_c_p_90_50_HVAP_T_M332_T67>
+      <id>	1	</id>
+      <userString>#italy_vehicles:_90mm_c_p_90_50_HVAP_T_M332_T67</userString>
+      <icon>ap_cr</icon>
+      <price>	4400	</price>
+      <improved>	true	</improved>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	90	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>	mainAPCR	</effects>
+      <damage>
+        <armor>	240	</armor>
+        <devices>	122	</devices>
+      </damage>
+    </_90mm_c_p_90_50_HVAP_T_M332_T67>
+    <_90mm_c_g_90_50_HE_T_COMP_B_T91>
+      <id>	2	</id>
+      <userString>#italy_vehicles:_90mm_c_g_90_50_HE_T_COMP_B_T91</userString>
+      <icon>he</icon>
+      <price>	300	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	90	</caliber>
+      <explosionRadius>1.46</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>mainHighExplosive</effects>
+      <damage>
+        <armor>	320	</armor>
+        <devices>	122	</devices>
+      </damage>
+    </_90mm_c_g_90_50_HE_T_COMP_B_T91>
+    <_90mm_c_p_90_AP_Rh>
+      <id>	26	</id>
+      <userString>#italy_vehicles:_90mm_c_p_90_AP_Rh</userString>
+      <icon>ap</icon>
+      <price>	460	</price>
+      <kind>ARMOR_PIERCING</kind>
+      <caliber>	90	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>mainArmorPiercing</effects>
+      <damage>
+        <armor>	240	</armor>
+        <devices>	122	</devices>
+      </damage>
+    </_90mm_c_p_90_AP_Rh>
+    <_90mm_c_p_90_APDS_Rh>
+      <id>	27	</id>
+      <userString>#italy_vehicles:_90mm_c_p_90_APDS_Rh</userString>
+      <icon>ap_cr</icon>
+      <price>	4400	</price>
+      <improved>	true	</improved>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	90	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>	mainAPCR	</effects>
+      <damage>
+        <armor>	240	</armor>
+        <devices>	122	</devices>
+      </damage>
+    </_90mm_c_p_90_APDS_Rh>
+    <_90mm_c_g_90_HE_Rh>
+      <id>	28	</id>
+      <userString>#italy_vehicles:_90mm_c_g_90_HE_Rh</userString>
+      <icon>he</icon>
+      <price>	325	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	90	</caliber>
+      <explosionRadius>1.46</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>mainHighExplosive</effects>
+      <damage>
+        <armor>	320	</armor>
+        <devices>	122	</devices>
+      </damage>
+    </_90mm_c_g_90_HE_Rh>
+    <_105mm_c_p_105_APDS_Rh_V1>
+      <id>	29	</id>
+      <userString>#italy_vehicles:_105mm_c_p_105_APDS_Rh_V1</userString>
+      <icon>ap_cr</icon>
+      <price>	920	</price>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	105	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>	mainAPCR	</effects>
+      <damage>
+        <armor>	360	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </_105mm_c_p_105_APDS_Rh_V1>
+    <_105mm_c_g_105_c_c_HEAT_Rh_V1>
+      <id>	30	</id>
+      <userString>#italy_vehicles:_105mm_c_g_105_c_c_HEAT_Rh_V1</userString>
+      <icon>hc</icon>
+      <price>	4800	</price>
+      <improved>	true	</improved>
+      <kind>HOLLOW_CHARGE</kind>
+      <caliber>	105	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>	mainHollowCharge	</effects>
+      <damage>
+        <armor>	360	</armor>
+        <devices>	150	</devices>
+      </damage>
+      <piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
+    </_105mm_c_g_105_c_c_HEAT_Rh_V1>
+    <_105mm_c_g_105_HESH_Rh_V1>
+      <id>	31	</id>
+      <userString>#italy_vehicles:_105mm_c_g_105_HESH_Rh_V1</userString>
+      <icon>he</icon>
+      <price>	1100	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	105	</caliber>
+      <explosionRadius>1.91</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>mainHighExplosive</effects>
+      <damage>
+        <armor>	440	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </_105mm_c_g_105_HESH_Rh_V1>
+    <_105mm_c_p_105_51_APDS_M352>
+      <id>	32	</id>
+      <userString>#italy_vehicles:_105mm_c_p_105_51_APDS_M352</userString>
+      <icon>ap_cr</icon>
+      <price>	930	</price>
+      <kind>ARMOR_PIERCING_CR</kind>
+      <caliber>	105	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>	mainAPCR	</effects>
+      <damage>
+        <armor>	360	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </_105mm_c_p_105_51_APDS_M352>
+    <_105mm_c_g_105_51_HEAT_M456>
+      <id>	33	</id>
+      <userString>#italy_vehicles:_105mm_c_g_105_51_HEAT_M456</userString>
+      <icon>hc</icon>
+      <price>	4800	</price>
+      <improved>	true	</improved>
+      <kind>HOLLOW_CHARGE</kind>
+      <caliber>	105	</caliber>
+      <isTracer>	true	</isTracer>
+      <effects>	mainHollowCharge	</effects>
+      <damage>
+        <armor>	360	</armor>
+        <devices>	150	</devices>
+      </damage>
+      <piercingPowerLossFactorByDistance>0.05</piercingPowerLossFactorByDistance>
+    </_105mm_c_g_105_51_HEAT_M456>
+    <_105mm_c_g_105_51_HESH_M353>
+      <id>	34	</id>
+      <userString>#italy_vehicles:_105mm_c_g_105_51_HESH_M353</userString>
+      <icon>he</icon>
+      <price>	1120	</price>
+      <kind>HIGH_EXPLOSIVE</kind>
+      <caliber>	105	</caliber>
+      <explosionRadius>1.91</explosionRadius>
+      <isTracer>	true	</isTracer>
+      <effects>mainHighExplosive</effects>
+      <damage>
+        <armor>	440	</armor>
+        <devices>	150	</devices>
+      </damage>
+    </_105mm_c_g_105_51_HESH_M353>
+  </italy>
 </shells>

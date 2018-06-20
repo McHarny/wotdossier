@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDossier", "WotDossier\WotDossier.csproj", "{A4EF480B-49B6-42C4-8ACE-6127B15699F8}"
 EndProject
@@ -714,8 +714,9 @@ Global
 		BuildVersion_DetectChanges = False
 		BuildVersion_UpdateAssemblyVersion = False
 		BuildVersion_StartDate = 2000/1/1
-		BuildVersion_BuildVersioningStyle = None.None.None.None
+		BuildVersion_BuildVersioningStyle = None.YearStamp.MonthAndDayStamp.Increment
 		SolutionGuid = {6B36B677-423E-48BA-8D46-CBC86898B099}
-		BuildVersion_IncrementBeforeBuild = False
+		BuildVersion_IncrementBeforeBuild = True
+		BuildVersion_UseGlobalSettings = True
 	EndGlobalSection
 EndGlobal

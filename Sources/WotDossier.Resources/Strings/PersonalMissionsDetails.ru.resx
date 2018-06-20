@@ -1053,7 +1053,7 @@
     <value>• Победить в бою.</value>
   </data>
   <data name="quest_1_5_6_condition_description_assistStun" xml:space="preserve">
-    <value>Помочь союзникам нанести урон, оглушив или обездвижив 2 машины</value>
+    <value>Помочь союзникам нанести урон, оглушив или обездвижив 2 разные машины</value>
   </data>
   <data name="quest_1_5_6_condition_main" xml:space="preserve">
     <value>• Помочь союзникам нанести урон по 2 и более оглушённым или обездвиженным вами машинам противника.</value>
@@ -1080,7 +1080,7 @@
     <value>• Выжить в бою.</value>
   </data>
   <data name="quest_1_5_9_condition_description_crit" xml:space="preserve">
-    <value>Вывести из строя суммарно 3 внутренних модуля или членов экипажа</value>
+    <value>Вывести из строя суммарно 3 любых модуля или члена экипажа</value>
   </data>
   <data name="quest_1_5_9_condition_main" xml:space="preserve">
     <value>• Вывести из строя не менее 3 любых модулей или ранить членов экипажа техники противника.
@@ -2094,7 +2094,7 @@
     <value>• Победить в бою.</value>
   </data>
   <data name="quest_2_5_6_condition_description_assistStun" xml:space="preserve">
-    <value>Помочь союзникам нанести урон, оглушив или обездвижив 3 машины</value>
+    <value>Помочь союзникам нанести урон, оглушив или обездвижив 3 разные машины</value>
   </data>
   <data name="quest_2_5_6_condition_main" xml:space="preserve">
     <value>• Помочь союзникам нанести урон по 3 и более оглушённым или обездвиженным вами машинам противника.</value>
@@ -2122,7 +2122,7 @@
 • Победить в бою.</value>
   </data>
   <data name="quest_2_5_9_condition_description_crit" xml:space="preserve">
-    <value>Вывести из строя суммарно 5 внутренних модулей или членов экипажа</value>
+    <value>Вывести из строя суммарно 5 любых модулей или членов экипажа</value>
   </data>
   <data name="quest_2_5_9_condition_main" xml:space="preserve">
     <value>• Вывести из строя не менее 5 любых модулей или ранить членов экипажа техники противника.
@@ -3163,7 +3163,7 @@
 • Выжить в бою.</value>
   </data>
   <data name="quest_3_5_6_condition_description_assistStun" xml:space="preserve">
-    <value>Помочь союзникам нанести урон, оглушив или обездвижив 5 машин</value>
+    <value>Помочь союзникам нанести урон, оглушив или обездвижив 5 разных машин</value>
   </data>
   <data name="quest_3_5_6_condition_main" xml:space="preserve">
     <value>• Помочь союзникам нанести урон по 5 и более оглушённым или обездвиженным вами машинам противника.</value>
@@ -3193,7 +3193,7 @@
 • Остаться необнаруженным до завершения боя.</value>
   </data>
   <data name="quest_3_5_9_condition_description_crit" xml:space="preserve">
-    <value>Вывести из строя суммарно 8 внутренних модулей или членов экипажа</value>
+    <value>Вывести из строя суммарно 8 любых модулей или членов экипажа</value>
   </data>
   <data name="quest_3_5_9_condition_main" xml:space="preserve">
     <value>• Вывести из строя не менее 8 любых модулей или ранить членов экипажа техники противника.
@@ -4231,7 +4231,7 @@
 • Выжить в бою.</value>
   </data>
   <data name="quest_4_5_6_condition_description_assistStun" xml:space="preserve">
-    <value>Помочь союзникам нанести урон, оглушив или обездвижив 6 машин</value>
+    <value>Помочь союзникам нанести урон, оглушив или обездвижив 6 разных машин</value>
   </data>
   <data name="quest_4_5_6_condition_main" xml:space="preserve">
     <value>• Помочь союзникам нанести урон по 6 и более оглушённым или обездвиженным вами машинам противника.</value>
@@ -4261,7 +4261,7 @@
 • Остаться необнаруженным до завершения боя.</value>
   </data>
   <data name="quest_4_5_9_condition_description_crit" xml:space="preserve">
-    <value>Вывести из строя суммарно 10 внутренних модулей или членов экипажа</value>
+    <value>Вывести из строя суммарно 10 любых модулей или членов экипажа</value>
   </data>
   <data name="quest_4_5_9_condition_main" xml:space="preserve">
     <value>• Вывести из строя не менее 10 любых модулей или ранить членов экипажа техники противника.

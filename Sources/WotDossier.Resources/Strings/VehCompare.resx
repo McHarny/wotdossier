@@ -554,7 +554,7 @@ AVAILABLE</value>
     <value>Perks and skills can be selected for a crew trained to 100%.</value>
   </data>
   <data name="vehConf/tooltips/attentionIconCrew/body" xml:space="preserve">
-    <value>Some perks and skills were added to the comparison</value>
+    <value>Some perks and skills were added to the comparison.</value>
   </data>
   <data name="vehConf/tooltips/attentionIconCrew/header" xml:space="preserve">
     <value>?empty?</value>
@@ -663,5 +663,9 @@ AVAILABLE</value>
   </data>
   <data name="header/backBtn/descrLabel/personalAwards" xml:space="preserve">
     <value>TO REWARDS</value>
+  </data>
+  <data name="vehConf/tooltips/defCamoInfo" xml:space="preserve">
+    <value>3 camouflage types are mounted 
+that cannot be removed: winter, summer, desert.</value>
   </data>
 </root>

@@ -148,7 +148,7 @@
     <value>Показать альтернативный маркер</value>
   </data>
   <data name="battleControls/switchAutorotation" xml:space="preserve">
-    <value>Смена режима с походного на осадный</value>
+    <value>Фиксация корпуса / смена режима стрельбы</value>
   </data>
   <data name="battleControls/title" xml:space="preserve">
     <value>В режиме боя</value>

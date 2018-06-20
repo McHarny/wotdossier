@@ -11,6 +11,7 @@ using Ionic.Zlib;
 using Newtonsoft.Json;
 using WotDossier.Common;
 using WotDossier.Common.Extensions;
+using WotDossier.Common.Json;
 using WotDossier.Domain;
 using WotDossier.Domain.Replay;
 
@@ -40,31 +41,6 @@ namespace WotDossier.Applications.Parser
             public ulong SubTypePayloadLength { get; set; }
             public List<byte> Payload { get; set; }
         }
-
-        class MyConverter : JsonConverter
-        {
-            public override bool CanConvert(Type objectType)
-            {
-                return objectType == typeof(string[]) || objectType == typeof(List<byte>) || objectType == typeof(byte[]);
-            }
-
-            public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
-            {
-                throw new NotImplementedException();
-            }
-
-            public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
-            {
-                if (value != null && value is byte[])
-                {
-                    writer.WriteRawValue(JsonConvert.SerializeObject(((byte[])value).ToList(), Formatting.None));
-                }
-                else
-                    writer.WriteRawValue(JsonConvert.SerializeObject(value, Formatting.None));
-            }
-        }
-
-
 
         protected static readonly ILog _log = LogManager.GetLogger<BaseParser>();
         private bool _abort = false;
@@ -131,8 +107,8 @@ namespace WotDossier.Applications.Parser
                 {
                     Formatting = Formatting.Indented,
                 };
-                settings.Converters.Add(new MyConverter());
-                File.WriteAllText($"Logs\\{ProcessedVersion}.Packets.json", JsonConvert.SerializeObject(pcList, settings));
+                settings.Converters.Add(new WotDossierConverter());
+                File.WriteAllText(Path.Combine(Folder.DossierLocalAppDataFolder, "Logs", $"{ProcessedVersion}.Packets.json"), JsonConvert.SerializeObject(pcList, settings));
             }
         }
 
@@ -380,7 +356,7 @@ namespace WotDossier.Applications.Parser
 	            {
 		            var x = 0;
 	            }
-
+                
                 if (packet.StreamSubType == UpdateEvent_Arena) //onArenaUpdate events
                 {
                     ProcessPacketStateArenaUpdate(packet, stream);

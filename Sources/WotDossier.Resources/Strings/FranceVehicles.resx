@@ -133,7 +133,7 @@
     <value>AMX 38</value>
   </data>
   <data name="AMX38_descr" xml:space="preserve">
-    <value>Developed in 1937–1938 under the "20-ton vehicle" project and was intended to replace the D2. The project included two turret variants: with a 37-mm or a 47-mm gun. By 1938, two vehicles were built for trials. Never saw mass production.</value>
+    <value>Developed in 1937–1938 under the "20-ton vehicle" project and was intended to replace the D2 tank. The project included two turret variants: with a 37-mm or a 47-mm gun. By 1938, two vehicles were built for trials. Never saw mass production.</value>
   </data>
   <data name="AMX38_short" xml:space="preserve">
     <value>AMX 38</value>
@@ -142,7 +142,7 @@
     <value>AMX 40</value>
   </data>
   <data name="AMX40_descr" xml:space="preserve">
-    <value>Development was started in March 1940. Initially, the vehicle was to have a wheeled caterpillar propulsion system. The blueprint of the vehicle was created but in July 1940 work was discontinued.</value>
+    <value>Development started in March 1940. Almost all armor plates had a complex and curvilinear shape, and the hull featured few, if any, right angles. The AMX 40 was supposed to replace the Somua S35 and S40 in 1941–1942, but the project was discontinued in July 1940. Existed only in blueprints.</value>
   </data>
   <data name="AMX40_short" xml:space="preserve">
     <value>AMX 40</value>
@@ -925,7 +925,7 @@
     <value>S35 CA</value>
   </data>
   <data name="S_35CA_descr" xml:space="preserve">
-    <value>The design called for the conversion of tanks into tank destroyers by mounting a 17-pounder gun into an open-topped, lightly armored cabin.</value>
+    <value>Developed on the basis of the obsolete R35 and S35 vehicles. The simple design allowed the open cabin with a British 17-pounder gun to be mounted on the chassis. However, the project was discontinued during the design phase due to a shortage and obsolescence of pre-war chassis, as well as an ineffective and unconventional gun.</value>
   </data>
   <data name="S_35CA_short" xml:space="preserve">
     <value>S35 CA</value>
@@ -934,16 +934,16 @@
     <value>Somua LM</value>
   </data>
   <data name="Somua_S-40" xml:space="preserve">
-    <value>Somua S-40</value>
+    <value>Somua S40</value>
   </data>
   <data name="Somua_S-40Bis" xml:space="preserve">
-    <value>Somua S-40 Bis</value>
+    <value>Somua S40 Bis</value>
   </data>
   <data name="Somua_Sau_40" xml:space="preserve">
     <value>Somua SAu 40</value>
   </data>
   <data name="Somua_Sau_40_descr" xml:space="preserve">
-    <value>A proposed tank destroyer on the basis of the Somua S35. Existed only in blueprints.</value>
+    <value>A project for an SPG to support light mechanized units. Designed from 1935 through 1937 on the basis of the S35 and S40 vehicles. The design featured a modified upper part of the armored hull with the 75-mm casemate Mle 1929 gun. The top of the cabin featured a single-seated turret with the 7,5-mm Mle 1931 machinegun. The mass production of the SAu 40 was requested in October 1939. A prototype (and, according to some historical sources, four more pilot SAu 40) were sent to the frontline and used in action in June 1940.</value>
   </data>
   <data name="Somua_Sau_40_short" xml:space="preserve">
     <value>SAu 40</value>
@@ -2486,7 +2486,7 @@ mle. 1934</value>
     <value>AMX 13 105</value>
   </data>
   <data name="F88_AMX_13_105_descr" xml:space="preserve">
-    <value>A variant of the AMX 13 developed in the late 1950s. The FL 12 turret adjusted for a 105-mm gun was mounted on the vehicle. The new variant of the AMX 13 did not see service in the French army, but was exported to other countries; the vehicle was produced in Argentina under a license. Despite the firepower was improved, the new design had several disadvantages. For example, a greater recoil saw turrets crack sometimes.</value>
+    <value>A variant of the AMX 13 developed in the late 1950s. The FL 12 turret adjusted for a 105-mm gun was mounted on the vehicle. The new variant of the AMX 13 did not see service in the French army, but was exported to other countries; the vehicle was produced in Argentina under a license. Despite the firepower was improved, the new design had several disadvantages. For example, a greater recoil saw turrets crack sometimes.</value>
   </data>
   <data name="F88_AMX_13_105_short" xml:space="preserve">
     <value>AMX 13 105</value>
@@ -2700,5 +2700,140 @@ mle. 1934</value>
   </data>
   <data name="_90mm_canon_DCA_45_HE2017" xml:space="preserve">
     <value>Spectral 90 mm DCA 45</value>
+  </data>
+  <data name="AN_VRC_7" xml:space="preserve">
+    <value>AN/VRC-7</value>
+  </data>
+  <data name="Chassis_F81_Char_de_65t" xml:space="preserve">
+    <value>AMX 65 t</value>
+  </data>
+  <data name="Chassis_F81_Char_de_65t_2" xml:space="preserve">
+    <value>AMX 65 t bis</value>
+  </data>
+  <data name="Chassis_F82_AMX_M4_Mle1949_Ter" xml:space="preserve">
+    <value>AMX M4 mle. 54</value>
+  </data>
+  <data name="Chassis_F83_AMX_M4_Mle1949_Bis" xml:space="preserve">
+    <value>AMX M4 mle. 51</value>
+  </data>
+  <data name="Chassis_F83_AMX_M4_Mle1949_Bis_2" xml:space="preserve">
+    <value>AMX M4 mle. 52</value>
+  </data>
+  <data name="Chassis_F97_ELC_EVEN_90" xml:space="preserve">
+    <value>ELC EVEN 90</value>
+  </data>
+  <data name="F81_Char_de_65t" xml:space="preserve">
+    <value>AMX 65 t</value>
+  </data>
+  <data name="F81_Char_de_65t_descr" xml:space="preserve">
+    <value>A heavy tank design was proposed by the AMX company in 1950. The vehicle was developed alongside the AMX 50 100. It was supposed to feature reinforced armor with a "pike nose" and sloped armor plates. The other components and hull configuration resembled the Royal Tiger. Existed only in blueprints.</value>
+  </data>
+  <data name="F81_Char_de_65t_short" xml:space="preserve">
+    <value>AMX 65 t</value>
+  </data>
+  <data name="F82_AMX_M4_Mle1949_Ter" xml:space="preserve">
+    <value>AMX M4 mle. 54</value>
+  </data>
+  <data name="F82_AMX_M4_Mle1949_Ter_descr" xml:space="preserve">
+    <value>A variant of the AMX M4 heavy tank based on the Project 141 with reinforced front armor. It was planned to enhance the front armor by mounting a 280-mm armor plate. Existed only in blueprints.</value>
+  </data>
+  <data name="F82_AMX_M4_Mle1949_Ter_short" xml:space="preserve">
+    <value>AMX M4 54</value>
+  </data>
+  <data name="F83_AMX_M4_Mle1949_Bis" xml:space="preserve">
+    <value>AMX M4 mle. 51</value>
+  </data>
+  <data name="F83_AMX_M4_Mle1949_Bis_descr" xml:space="preserve">
+    <value>The Project 141 was a variant of the AMX M4 heavy tank with reinforced front armor. Development started in November 1949, but the vehicle was never built. The project also included many calculations for different hulls on a similar chassis.</value>
+  </data>
+  <data name="F83_AMX_M4_Mle1949_Bis_short" xml:space="preserve">
+    <value>AMX M4 51</value>
+  </data>
+  <data name="F97_ELC_EVEN_90" xml:space="preserve">
+    <value>ELC EVEN 90</value>
+  </data>
+  <data name="F97_ELC_EVEN_90_descr" xml:space="preserve">
+    <value>A series of vehicles developed by BRUNON-VALETTE under the ELC program in the late 1950s. The goal was to create a light aeromobile tank for fire support purposes. The vehicle had small dimensions and high maneuverability. A total of 10 pilot vehicles with different types of armament were produced. They underwent trials, but the vehicle never entered mass production.</value>
+  </data>
+  <data name="F97_ELC_EVEN_90_short" xml:space="preserve">
+    <value>ELC EVEN 90</value>
+  </data>
+  <data name="Maybach_HL_295_a_injection_d_essence" xml:space="preserve">
+    <value>Maybach HL 295 à injection d'essence</value>
+  </data>
+  <data name="SOFAM_G_s_c_4" xml:space="preserve">
+    <value>SOFAM G s c 4</value>
+  </data>
+  <data name="Turret_1_F81_Char_de_65t" xml:space="preserve">
+    <value>AMX M4 mle. 49 Modifié</value>
+  </data>
+  <data name="Turret_1_F82_AMX_M4_Mle1949_Ter" xml:space="preserve">
+    <value>AMX M4 mle. 54 TCB 120</value>
+  </data>
+  <data name="Turret_1_F83_AMX_M4_Mle1949_Bis" xml:space="preserve">
+    <value>AMX M4 mle. 51 TCA 120</value>
+  </data>
+  <data name="Turret_1_F97_ELC_EVEN_90" xml:space="preserve">
+    <value>ELC EVEN tourelle de 90</value>
+  </data>
+  <data name="Turret_2_F81_Char_de_65t" xml:space="preserve">
+    <value>AMX 65 t tourelle classique de 120</value>
+  </data>
+  <data name="Turret_2_F83_AMX_M4_Mle1949_Bis" xml:space="preserve">
+    <value>AMX M4 mle. 52 TCB 120</value>
+  </data>
+  <data name="_120mm_D_1203" xml:space="preserve">
+    <value>120 mm D. 1203</value>
+  </data>
+  <data name="_120mm_D_1203_A" xml:space="preserve">
+    <value>120 mm D. 1203 A</value>
+  </data>
+  <data name="_120mm_D_1203_B" xml:space="preserve">
+    <value>120 mm D. 1203 B</value>
+  </data>
+  <data name="_120mm_FrtPrf1951" xml:space="preserve">
+    <value>Frt.Prf. mle. 1951</value>
+  </data>
+  <data name="_120mm_OE_mle_1951" xml:space="preserve">
+    <value>OE mle. 1951</value>
+  </data>
+  <data name="_120mm_Prf1951" xml:space="preserve">
+    <value>Prf. mle. 1951</value>
+  </data>
+  <data name="_127mm_54_Model_1948" xml:space="preserve">
+    <value>127 mm/54 Model 1948</value>
+  </data>
+  <data name="_127mm_Capped_Common" xml:space="preserve">
+    <value>Capped Common</value>
+  </data>
+  <data name="_127mm_Capped_Common_Semi_AP" xml:space="preserve">
+    <value>Capped Common Semi-AP</value>
+  </data>
+  <data name="_127mm_Common_HE" xml:space="preserve">
+    <value>Common HE</value>
+  </data>
+  <data name="_130mm_45_Model_1935" xml:space="preserve">
+    <value>130 mm/45 Model 1935</value>
+  </data>
+  <data name="_130mm_Capped_Common" xml:space="preserve">
+    <value>Capped Common</value>
+  </data>
+  <data name="_130mm_Capped_Common_Semi_AP" xml:space="preserve">
+    <value>Capped Common Semi-AP</value>
+  </data>
+  <data name="_130mm_Common_HE" xml:space="preserve">
+    <value>Common HE</value>
+  </data>
+  <data name="_90mm_D_919" xml:space="preserve">
+    <value>90 mm D. 919</value>
+  </data>
+  <data name="_90mm_OE_90_D_919" xml:space="preserve">
+    <value>OE-90 D. 919</value>
+  </data>
+  <data name="_90mm_OFL_90_D_919" xml:space="preserve">
+    <value>OFL-90 D. 919</value>
+  </data>
+  <data name="_90mm_POT_90_D_919" xml:space="preserve">
+    <value>POT-90 D. 919</value>
   </data>
 </root>

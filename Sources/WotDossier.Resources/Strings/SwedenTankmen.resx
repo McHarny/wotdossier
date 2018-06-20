@@ -1215,4 +1215,10 @@
   <data name="names/swn4005" xml:space="preserve">
     <value>Chris</value>
   </data>
+  <data name="names/Buffon" xml:space="preserve">
+    <value>Buffon</value>
+  </data>
+  <data name="names/Gianluigi" xml:space="preserve">
+    <value>Gianluigi</value>
+  </data>
 </root>

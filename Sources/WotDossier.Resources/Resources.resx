@@ -1127,24 +1127,6 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   <data name="TankType_SPG" xml:space="preserve">
     <value>SPG</value>
   </data>
-  <data name="Country_Ussr" xml:space="preserve">
-    <value>USSR</value>
-  </data>
-  <data name="Country_Germany" xml:space="preserve">
-    <value>Germany</value>
-  </data>
-  <data name="Country_Usa" xml:space="preserve">
-    <value>USA</value>
-  </data>
-  <data name="Country_China" xml:space="preserve">
-    <value>China</value>
-  </data>
-  <data name="Country_France" xml:space="preserve">
-    <value>France</value>
-  </data>
-  <data name="Country_Uk" xml:space="preserve">
-    <value>UK</value>
-  </data>
   <data name="Settings_ReplaysFolder" xml:space="preserve">
     <value>Replays folder</value>
   </data>
@@ -1558,9 +1540,6 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   </data>
   <data name="ReplaysFilter_ByColumns" xml:space="preserve">
     <value>By column</value>
-  </data>
-  <data name="Country_Japan" xml:space="preserve">
-    <value>Japan</value>
   </data>
   <data name="Common_BattlesPerDay" xml:space="preserve">
     <value>Battles per day</value>
@@ -3542,9 +3521,6 @@ Date: {Date:dd.MM.yyyy}</value>
   <data name="Total_ForSelected" xml:space="preserve">
     <value>For selected</value>
   </data>
-  <data name="Country_Czech" xml:space="preserve">
-    <value>Czech</value>
-  </data>
   <data name="Column_Header_Attacker" xml:space="preserve">
     <value>Attacker</value>
   </data>
@@ -3562,12 +3538,6 @@ Date: {Date:dd.MM.yyyy}</value>
   </data>
   <data name="Map_101_dday" xml:space="preserve">
     <value>Overlord</value>
-  </data>
-  <data name="Country_Sweden" xml:space="preserve">
-    <value>Sweden</value>
-  </data>
-  <data name="Country_Poland" xml:space="preserve">
-    <value>Poland</value>
   </data>
   <data name="BattleType_leviathan" xml:space="preserve">
     <value>Leviathan's Onslaught</value>

@@ -1199,4 +1199,164 @@ including damage from Combat Reserves.</value>
   <data name="team/stats/labels_secondaryTurretHits" xml:space="preserve">
     <value>	secondary direct hits/penetrations</value>
   </data>
+  <data name="details/calculations/bonus_christmas" xml:space="preserve">
+    <value>Bonus for Modern Christmas</value>
+  </data>
+  <data name="details/calculations/bonus_eastern_new_year" xml:space="preserve">
+    <value>Bonus for Chinese New Year</value>
+  </data>
+  <data name="details/calculations/bonus_new_year" xml:space="preserve">
+    <value>Bonus for Soviet New Year</value>
+  </data>
+  <data name="details/calculations/bonus_old_christmas" xml:space="preserve">
+    <value>Bonus for Traditional Christmas</value>
+  </data>
+  <data name="garage/uniqueDamage" xml:space="preserve">
+    <value>Only unique critical hits are counted.</value>
+  </data>
+  <data name="common/credits/notAccrued" xml:space="preserve">
+    <value>Not awarded</value>
+  </data>
+  <data name="details/calculations/playerRankXP" xml:space="preserve">
+    <value>Rank bonus</value>
+  </data>
+  <data name="details/calculations/wgmOfflineEmergency" xml:space="preserve">
+    <value>Credits, bonds, and Free Experience earned in battles will be compensated after service operability is restored.</value>
+  </data>
+  <data name="details/time/lbl_basesCaptured" xml:space="preserve">
+    <value>Zones captured</value>
+  </data>
+  <data name="details/time/lbl_objectivesDestroyed" xml:space="preserve">
+    <value>Objectives destroyed</value>
+  </data>
+  <data name="details/time/lbl_objectivesReached" xml:space="preserve">
+    <value>Objectives reached</value>
+  </data>
+  <data name="details/time/val_no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="details/time/val_yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="details/time_epic" xml:space="preserve">
+    <value>Battle</value>
+  </data>
+  <data name="finish/reason/10lose" xml:space="preserve">
+    <value>Objectives have survived</value>
+  </data>
+  <data name="finish/reason/10win" xml:space="preserve">
+    <value>Objectives destroyed</value>
+  </data>
+  <data name="team/epicRankHeader/body" xml:space="preserve">
+    <value>Sort by achieved ranks in the battle.</value>
+  </data>
+  <data name="team/epicRankHeader/header" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="team/epicRespawnHeader/body" xml:space="preserve">
+    <value>Sort by times deployed in the battle.</value>
+  </data>
+  <data name="team/epicRespawnHeader/header" xml:space="preserve">
+    <value>Times Deployed</value>
+  </data>
+  <data name="team/stats/labels_atkObjectives" xml:space="preserve">
+    <value>Zones captured / objectives destroyed</value>
+  </data>
+  <data name="team/stats/labels_defObjectives" xml:space="preserve">
+    <value>Times defended</value>
+  </data>
+  <data name="team/stats/labels_destroyRecoveryRatio" xml:space="preserve">
+    <value>Number of own vehicles destroyed / recovered</value>
+  </data>
+  <data name="team/stats/labels_destructiblesDamageDealt" xml:space="preserve">
+    <value>	to objectives</value>
+  </data>
+  <data name="team/stats/labels_equipmentDamageAssisted" xml:space="preserve">
+    <value>	due to combat reserve effects</value>
+  </data>
+  <data name="team/stats/labels_equipmentDamageDealt" xml:space="preserve">
+    <value>	with combat reserves</value>
+  </data>
+  <data name="team/stats/labels_timesDestroyed" xml:space="preserve">
+    <value>Number of own vehicles destroyed</value>
+  </data>
+  <data name="common/details/footballScore" xml:space="preserve">
+    <value>%d:%d</value>
+  </data>
+  <data name="finish/reason/1football_1_lose" xml:space="preserve">
+    <value>Red Team Defeat</value>
+  </data>
+  <data name="finish/reason/1football_1_win" xml:space="preserve">
+    <value>Red Team Victory</value>
+  </data>
+  <data name="finish/reason/1football_2_lose" xml:space="preserve">
+    <value>Blue Team Defeat</value>
+  </data>
+  <data name="finish/reason/1football_2_win" xml:space="preserve">
+    <value>Blue Team Victory</value>
+  </data>
+  <data name="finish/reason/1football_tie" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="team/footballAssists/body" xml:space="preserve">
+    <value>Total assists</value>
+  </data>
+  <data name="team/footballAssists/header" xml:space="preserve">
+    <value>Assists</value>
+  </data>
+  <data name="team/footballGoals/body" xml:space="preserve">
+    <value>Total scored goals</value>
+  </data>
+  <data name="team/footballGoals/header" xml:space="preserve">
+    <value>Goals</value>
+  </data>
+  <data name="team/stats/infotip_xpForAssist/body" xml:space="preserve">
+    <value>Counted as assistance:
+• Damage caused by allies upon your spotting, destroying tracks, or causing stun to enemy vehicles
+• Capturing/defending bases
+• First spotting of enemy vehicles.</value>
+  </data>
+  <data name="team/stats/infotip_xpForAssist/header" xml:space="preserve">
+    <value>For Assistance</value>
+  </data>
+  <data name="team/stats/infotip_xpForAttack/body" xml:space="preserve">
+    <value>Counted as contribution:
+• Damage caused by you
+• Vehicles destroyed by you
+• Damaged modules
+• Bonus for damage caused by your team.</value>
+  </data>
+  <data name="team/stats/infotip_xpForAttack/header" xml:space="preserve">
+    <value>For Damage Caused and Vehicles Destroyed</value>
+  </data>
+  <data name="team/stats/infotip_xpOther/body" xml:space="preserve">
+    <value>Additional bonuses for effective engagement, not specified in the previous sections.</value>
+  </data>
+  <data name="team/stats/infotip_xpOther/header" xml:space="preserve">
+    <value>For Active Combat Engagement</value>
+  </data>
+  <data name="team/stats/labels_assists" xml:space="preserve">
+    <value>Assists</value>
+  </data>
+  <data name="team/stats/labels_goals" xml:space="preserve">
+    <value>Goals scored</value>
+  </data>
+  <data name="team/stats/labels_productivityPoints" xml:space="preserve">
+    <value>Productivity Points</value>
+  </data>
+  <data name="team/stats/labels_selfGoals" xml:space="preserve">
+    <value>Own goals</value>
+  </data>
+  <data name="team/stats/labels_xp" xml:space="preserve">
+    <value>Total Experience Earned</value>
+  </data>
+  <data name="team/stats/labels_xpForAssist" xml:space="preserve">
+    <value>	for assistance</value>
+  </data>
+  <data name="team/stats/labels_xpForAttack" xml:space="preserve">
+    <value>	for causing damage</value>
+  </data>
+  <data name="team/stats/labels_xpOther" xml:space="preserve">
+    <value>	other</value>
+  </data>
 </root>

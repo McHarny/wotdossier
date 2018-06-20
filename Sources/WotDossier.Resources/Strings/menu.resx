@@ -385,7 +385,7 @@
     <value>Uncheck Primary label</value>
   </data>
   <data name="copy" xml:space="preserve">
-    <value>© 2009–2017 Wargaming.net. All rights reserved.</value>
+    <value>© 2009–2018 Wargaming.net. All rights reserved.</value>
   </data>
   <data name="currentVehicleStatus/ammoNotFull" xml:space="preserve">
     <value>Ammunition incomplete</value>
@@ -3098,7 +3098,7 @@ The server may be unavailable, or your network connection settings may be wrong.
     <value>Time for Complete Loading </value>
   </data>
   <data name="moduleInfo/params/shellReloadingTime" xml:space="preserve">
-    <value>Time for Loading One Shell </value>
+    <value>Time for Loading Between Shots </value>
   </data>
   <data name="moduleInfo/params/shellsCount" xml:space="preserve">
     <value>Shells in the Magazine </value>
@@ -3456,7 +3456,7 @@ purchase a vehicle</value>
     <value>Historical Battle</value>
   </data>
   <data name="bonusType/9" xml:space="preserve">
-    <value>Halloween Mayhem (PvP)</value>
+    <value>Football Match</value>
   </data>
   <data name="contextMenu/blackmail" xml:space="preserve">
     <value>Out of Game Threat</value>
@@ -3540,13 +3540,13 @@ purchase a vehicle</value>
     <value>Click to exit mode.</value>
   </data>
   <data name="loading/battleTypes/7" xml:space="preserve">
-    <value>Battle of the Fallen (PvP)</value>
+    <value>Special game mode</value>
   </data>
   <data name="loading/battleTypes/8" xml:space="preserve">
     <value>Skirmishes</value>
   </data>
   <data name="loading/battleTypes/desc/7" xml:space="preserve">
-    <value>Defeat the other team and escape the Fallen Plane</value>
+    <value>?empty?</value>
   </data>
   <data name="loading/battleTypes/desc/8" xml:space="preserve">
     <value> </value>
@@ -4304,7 +4304,7 @@ for Completion</value>
     <value>Edit note</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad" xml:space="preserve">
-    <value>Squad of the Fallen</value>
+    <value>Football Platoon</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad/descr" xml:space="preserve">
     <value>5 players</value>
@@ -5116,21 +5116,21 @@ for Completion</value>
     <value>Display in Garage</value>
   </data>
   <data name="awardWindow/telecomAward/description" xml:space="preserve">
-    <value>Поздравляем! В рамках тарифного плана «Игровой» вам стали доступны:
+    <value>Поздравляем! В рамках тарифного плана «%(tariff)s» вам стали доступны:
 %(vehicles)s
 • Экипаж, обученный на 100%%;
 • %(prem)s на время действия тарифа;
 • Дополнительный слот в Ангаре.</value>
   </data>
   <data name="awardWindow/telecomAward/description/withBrotherhood" xml:space="preserve">
-    <value>Поздравляем! В рамках тарифного плана «Игровой» вам стали доступны:
+    <value>Поздравляем! В рамках тарифного плана «%(tariff)s» вам стали доступны:
 %(vehicles)s
 • Экипаж, обученный на 100%% (включая полностью изученный навык «Боевое братство»);
 • %(prem)s на время действия тарифа;
 • Дополнительный слот в Ангаре.</value>
   </data>
   <data name="awardWindow/telecomAward/description/withoutCrew" xml:space="preserve">
-    <value>Поздравляем! В рамках тарифного плана «Игровой» вам стали доступны:
+    <value>Поздравляем! В рамках тарифного плана «%(tariff)s» вам стали доступны:
 %(vehicles)s
 • %(prem)s на время действия тарифа;
 • Дополнительный слот в Ангаре.</value>
@@ -5220,7 +5220,7 @@ for Completion</value>
     <value>Purchase (%(count)s)</value>
   </data>
   <data name="contextMenu/createEventSquad" xml:space="preserve">
-    <value>Create Squad of the Fallen</value>
+    <value>Create Football Platoon</value>
   </data>
   <data name="contextMenu/showVehiclePreview" xml:space="preserve">
     <value>Preview vehicle</value>
@@ -5238,7 +5238,7 @@ for Completion</value>
     <value>Platoon</value>
   </data>
   <data name="headerButtons/battle/types/squad/event" xml:space="preserve">
-    <value>: Squad of the Fallen</value>
+    <value>: Tank football 2018</value>
   </data>
   <data name="headerButtons/battle/types/squad/randomBattle" xml:space="preserve">
     <value>: Random Battle</value>
@@ -5678,7 +5678,7 @@ Please check the enabled search filters.</value>
     <value>Purchase or trade in</value>
   </data>
   <data name="disconnect/codes/1013" xml:space="preserve">
-    <value>desynchronization of components related to "Customization" (1013)</value>
+    <value>desynchronization of components related to "Exterior" (1013)</value>
   </data>
   <data name="disconnect/codes/1014" xml:space="preserve">
     <value>desynchronization of components related to "Inscriptions" (1014)</value>
@@ -5937,7 +5937,7 @@ allows the vehicle to switch between Siege and Travel mode</value>
     <value>Ranked Battle</value>
   </data>
   <data name="fittingSelectPopover/descText" xml:space="preserve">
-    <value>This equipment is available for purchase with %(currencyName)s, which can be earned in Tier X vehicles in the %(battleType)s mode. You can purchase it in the Improved tab.</value>
+    <value>This equipment is available for purchase with %(currencyName)s. You can purchase it in the Improved tab.</value>
   </data>
   <data name="fittingSelectPopover/descText/crystal" xml:space="preserve">
     <value>bonds</value>
@@ -5976,7 +5976,7 @@ allows the vehicle to switch between Siege and Travel mode</value>
     <value>%(min)s min</value>
   </data>
   <data name="headerButtons/battle/types/ranked/availability/season" xml:space="preserve">
-    <value>Season %(season)s, Stage %(cycle)s</value>
+    <value>Season %(season)s</value>
   </data>
   <data name="headerButtons/battle/types/ranked/availability/until" xml:space="preserve">
     <value>From %(time)s.</value>
@@ -6187,10 +6187,10 @@ No longer content with being a mere steward of the Armored Afterlife, Leviathan 
     <value>You can only join the battle in researchable or Premium vehicles of Tier %(levels)s.</value>
   </data>
   <data name="loading/battleTypes/21" xml:space="preserve">
-    <value>Leviathan's Onslaught (PvE)</value>
+    <value>Frontline</value>
   </data>
   <data name="loading/battleTypes/desc/21" xml:space="preserve">
-    <value>Destroy Leviathan before it reaches the Gate</value>
+    <value> </value>
   </data>
   <data name="pveHalloween/queue/message" xml:space="preserve">
     <value>Assembling teams...</value>
@@ -6266,5 +6266,172 @@ No longer content with being a mere steward of the Armored Afterlife, Leviathan 
   </data>
   <data name="tank_params/turretYawLimits_Secondary" xml:space="preserve">
     <value>Turret Traverse Angles </value>
+  </data>
+  <data name="contextMenu/giveEquipmentCommander" xml:space="preserve">
+    <value>Designate as a Forward Observer</value>
+  </data>
+  <data name="contextMenu/takeEquipmentCommander" xml:space="preserve">
+    <value>Revoke a designation</value>
+  </data>
+  <data name="cst_item_ctx_menu/buy" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="cst_item_ctx_menu/removeFromTank" xml:space="preserve">
+    <value>Remove From Current Vehicle</value>
+  </data>
+  <data name="cst_item_ctx_menu/sell" xml:space="preserve">
+    <value>Sell</value>
+  </data>
+  <data name="header/account/popover/tutorial/newBadge" xml:space="preserve">
+    <value>BADGE AVAILABLE</value>
+  </data>
+  <data name="header/customization/season/desert" xml:space="preserve">
+    <value>DESERT</value>
+  </data>
+  <data name="header/customization/season/summer" xml:space="preserve">
+    <value>SUMMER</value>
+  </data>
+  <data name="header/customization/season/winter" xml:space="preserve">
+    <value>WINTER</value>
+  </data>
+  <data name="techtree/Announcement" xml:space="preserve">
+    <value>Coming soon</value>
+  </data>
+  <data name="moduleInfo/autoReloadGunLabel" xml:space="preserve">
+    <value>Autoreloader gun</value>
+  </data>
+  <data name="moduleInfo/params/autoReloadTime" xml:space="preserve">
+    <value>Time for Autoreloading One Shell </value>
+  </data>
+  <data name="nation_tree/title/italy" xml:space="preserve">
+    <value>Italy</value>
+  </data>
+  <data name="nations/italy" xml:space="preserve">
+    <value>Italy</value>
+  </data>
+  <data name="premium/bonus" xml:space="preserve">
+    <value>Credits and experience
+per battle</value>
+  </data>
+  <data name="tank_params/switchTime" xml:space="preserve">
+    <value>Switching to Siege / Travel mode</value>
+  </data>
+  <data name="vehicleInfo/params/switchTime" xml:space="preserve">
+    <value>Switching to Siege / Travel mode (s)</value>
+  </data>
+  <data name="viewHeader/backBtn/label" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="viewHeader/closeBtn/label" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="battleAbility/title" xml:space="preserve">
+    <value>Combat Reserves</value>
+  </data>
+  <data name="contextMenu/unequip" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="finalStatistic/tabs/epicStats" xml:space="preserve">
+    <value>Personal Score</value>
+  </data>
+  <data name="fittingPopover/manageAbilities" xml:space="preserve">
+    <value>Manage Reserves</value>
+  </data>
+  <data name="headerButtons/battle/menu/attention/lowPerformance" xml:space="preserve">
+    <value>Low Performance</value>
+  </data>
+  <data name="headerButtons/battle/menu/attention/reducedPerformance" xml:space="preserve">
+    <value>Reduced Performance</value>
+  </data>
+  <data name="headerButtons/battle/menu/epicBattle" xml:space="preserve">
+    <value>Frontline</value>
+  </data>
+  <data name="headerButtons/battle/types/epic" xml:space="preserve">
+    <value>Frontline</value>
+  </data>
+  <data name="headerButtons/battle/types/epic/descr" xml:space="preserve">
+    <value>Mode with automatic matching of allies and enemies.</value>
+  </data>
+  <data name="headerButtons/battle/types/epicBattle" xml:space="preserve">
+    <value>Frontline Lobby</value>
+  </data>
+  <data name="headerButtons/battle/types/epicBattle/descr" xml:space="preserve">
+    <value>Frontline—Enter with Lobby</value>
+  </data>
+  <data name="headerButtons/battle/types/squad/epic" xml:space="preserve">
+    <value>: Frontline</value>
+  </data>
+  <data name="internet_provider/Beltelecom/name" xml:space="preserve">
+    <value>Белтелеком</value>
+  </data>
+  <data name="internet_provider/Beltelecom/tariff" xml:space="preserve">
+    <value>Игровой</value>
+  </data>
+  <data name="internet_provider/Rostelecom/name" xml:space="preserve">
+    <value>Ростелеком</value>
+  </data>
+  <data name="internet_provider/Rostelecom/tariff" xml:space="preserve">
+    <value>Игровой</value>
+  </data>
+  <data name="loading/battleTypes/22" xml:space="preserve">
+    <value>Frontline</value>
+  </data>
+  <data name="loading/battleTypes/desc/22" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="prebattle/startingTankLabel" xml:space="preserve">
+    <value>Your starting vehicle: </value>
+  </data>
+  <data name="tank_params/autoReloadTime" xml:space="preserve">
+    <value>Time for Autoreloading One Shell </value>
+  </data>
+  <data name="vehicleInfo/params/autoReloadTime" xml:space="preserve">
+    <value>Time for Autoreloading One Shell (s)</value>
+  </data>
+  <data name="descriptions/vehicleGun/autoReload" xml:space="preserve">
+    <value>Reload %(autoReloadTime)s s; Average Damage: %(avgDamageList)s
+Average Penetration: %(avgPiercingPower)s mm</value>
+  </data>
+  <data name="finalStatistic/commonStats/resultlabel/football_1_lose" xml:space="preserve">
+    <value>Defeat</value>
+  </data>
+  <data name="finalStatistic/commonStats/resultlabel/football_1_win" xml:space="preserve">
+    <value>Victory!</value>
+  </data>
+  <data name="finalStatistic/commonStats/resultlabel/football_2_lose" xml:space="preserve">
+    <value>Defeat</value>
+  </data>
+  <data name="finalStatistic/commonStats/resultlabel/football_2_win" xml:space="preserve">
+    <value>Victory!</value>
+  </data>
+  <data name="finalStatistic/commonStats/resultlabel/football_tie" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="header/vehicleType/role_defender" xml:space="preserve">
+    <value>Defender</value>
+  </data>
+  <data name="header/vehicleType/role_midfielder" xml:space="preserve">
+    <value>Midfielder</value>
+  </data>
+  <data name="header/vehicleType/role_striker" xml:space="preserve">
+    <value>Striker</value>
+  </data>
+  <data name="headerButtons/wiki" xml:space="preserve">
+    <value>Training Center</value>
+  </data>
+  <data name="login/social/status/WGC_ERROR" xml:space="preserve">
+    <value>Authorization error. Please enter your email and password.</value>
+  </data>
+  <data name="login/status/WGC_LOGOUT" xml:space="preserve">
+    <value>You have logged out of the account %(userName)s. To log in, enter your email and password.</value>
+  </data>
+  <data name="tankmen/role_defender" xml:space="preserve">
+    <value>defender</value>
+  </data>
+  <data name="tankmen/role_midfielder" xml:space="preserve">
+    <value>midfielder</value>
+  </data>
+  <data name="tankmen/role_striker" xml:space="preserve">
+    <value>striker</value>
   </data>
 </root>

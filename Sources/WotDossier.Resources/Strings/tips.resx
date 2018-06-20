@@ -1348,7 +1348,7 @@
     <value>Damage to the ammo rack may result in reduced loading speed, or, in some cases, immediate detonation.</value>
   </data>
   <data name="tip56/payAttention/economics/100_infinity/except_7/all/all/all" xml:space="preserve">
-    <value>In addition to experience and credits, Premium Account also gets you a nice clean Garage.</value>
+    <value>Premium Account provides 50% more experience and credits after each battle.</value>
   </data>
   <data name="tip57/payAttention/economics/500_infinity/all/all/all/all" xml:space="preserve">
     <value>You can use Free Experience to research any vehicle or module.</value>
@@ -1399,7 +1399,7 @@
     <value>Effective ramming is determined by the ratio between weight, speed, and armor thickness of the vehicles.</value>
   </data>
   <data name="tip81/payAttention/crew/0_500/all/all/all/all" xml:space="preserve">
-    <value>The speed with which the sight snaps to the target is determined by the gun type and the Gunner's skills.</value>
+    <value>The speed with which the sight snaps to the target is determined by the Gunner's skills, certain mounted equipment and consumables.</value>
   </data>
   <data name="tip83/payAttention/tactics/100_infinity/all/all/all/all" xml:space="preserve">
     <value>Auto-Aim turns off if the tracked target is destroyed or lost.</value>
@@ -1453,10 +1453,10 @@
     <value>You start in the green base with three options for beginning your attack. Choose the appropriate tactics to win the battle.</value>
   </data>
   <data name="eventMessage" xml:space="preserve">
-    <value>Halloween Modes: Fight in the Fallen Tanks</value>
+    <value>++++ eventMessage ++++</value>
   </data>
   <data name="eventTitle" xml:space="preserve">
-    <value>Leviathan's Invasion</value>
+    <value>++++ eventTitle ++++</value>
   </data>
   <data name="sandbox0" xml:space="preserve">
     <value>You spawn in area 1 (for tanks and tank destroyers) or 2 (for SPGs). Apply everything you have learned during battle training and claim victory.</value>
@@ -1486,13 +1486,13 @@
     <value>Attention</value>
   </data>
   <data name="ranked/0/body" xml:space="preserve">
-    <value>Ranks I and V are permanent, while Ranks II, III, and IV can be lost. Vehicle ranks are permanent.</value>
+    <value>Ranks 1 and 15 are permanent, and some ranks are shielded. The latter means that if you suffer defeats without reaching the top 5 on your team, the shield loses hit points. When you receive a chevron, the shield will be fully restored.</value>
   </data>
   <data name="ranked/0/title" xml:space="preserve">
     <value>Ranks</value>
   </data>
   <data name="ranked/1/body" xml:space="preserve">
-    <value>Do not be disheartened if you lose a rank: at the end of a stage, you will receive a reward for your best rank achieved, not your current one.</value>
+    <value>Do not be disheartened if you lose a rank: at the end of a season, you will receive a reward for your best rank achieved, not your current one.</value>
   </data>
   <data name="ranked/1/title" xml:space="preserve">
     <value>Justice for All</value>
@@ -1504,19 +1504,19 @@
     <value>Bonds</value>
   </data>
   <data name="ranked/11/body" xml:space="preserve">
-    <value>You receive rewards for achieving each rank for the first time within a stage, as well as for completing a stage.</value>
+    <value>You receive rewards for achieving each rank for the first time within a season.</value>
   </data>
   <data name="ranked/11/title" xml:space="preserve">
     <value>Awards</value>
   </data>
   <data name="ranked/12/body" xml:space="preserve">
-    <value>Vehicle ranks are not accrued for the account; they are earned for each vehicle separately. The total number of ranks is aggregated on the Leaderboard.</value>
+    <value>Rank points are not accrued for the account; they are earned for each vehicle separately. The total number of earned rank points is aggregated on the Leaderboard.</value>
   </data>
   <data name="ranked/12/title" xml:space="preserve">
     <value>Vehicle Ranks</value>
   </data>
   <data name="ranked/2/body" xml:space="preserve">
-    <value>Vehicle ranks are unlimited. The more vehicle ranks you earn within a season, the higher the position on the Leaderboard you achieve.</value>
+    <value>The number of rank points is unlimited. The more rank points you earn within a season, the higher the position on the Leaderboard you achieve.</value>
   </data>
   <data name="ranked/2/title" xml:space="preserve">
     <value>Up and Onward</value>
@@ -1528,16 +1528,16 @@
     <value>Prime Time</value>
   </data>
   <data name="ranked/4/body" xml:space="preserve">
-    <value>Note that the duration of each stage is limited. Keep an eye on the calendar and earn as many points as you can during a stage.</value>
+    <value>Some ranks are shielded. If you suffer defeats without reaching the top 5 on your team, the shield loses hit points. When you receive a chevron, the shield will be fully restored.</value>
   </data>
   <data name="ranked/4/title" xml:space="preserve">
-    <value>Time is Money</value>
+    <value>Mode Rules</value>
   </data>
   <data name="ranked/5/body" xml:space="preserve">
-    <value>Stage duration is limited! Battle hard if you want to receive worthy rewards.</value>
+    <value>Never give up! A chevron will be awarded not only to the top 10 players on the winning team, but also to the best player on the losing team.</value>
   </data>
   <data name="ranked/5/title" xml:space="preserve">
-    <value>Timeline</value>
+    <value>Mode Rules</value>
   </data>
   <data name="ranked/6/body" xml:space="preserve">
     <value>When a season is over, follow the news on the game portal so you do not miss the date the next season begins.</value>
@@ -1688,5 +1688,101 @@
   </data>
   <data name="halloweenPVP/9/title" xml:space="preserve">
     <value>Push-to-Talk</value>
+  </data>
+  <data name="epicTip1/story/0_15" xml:space="preserve">
+    <value>When a base is captured, the antiaircraft vehicles are abandoned, and the zone is targeted for bombardment.</value>
+  </data>
+  <data name="epicTip10/modeExplanation/4_infinity" xml:space="preserve">
+    <value>In addition to fame and glory, ranks also give you useful bonuses after each battle.</value>
+  </data>
+  <data name="epicTip11/modeExplanation/4_infinity" xml:space="preserve">
+    <value>Frontline includes a lot of new ways to earn XP and credits.</value>
+  </data>
+  <data name="epicTip12/modeExplanation/4_infinity" xml:space="preserve">
+    <value>The frontline can be moved by pushing the other team back. This way you can respawn closer to your objectives.</value>
+  </data>
+  <data name="epicTip13/modeExplanation/4_infinity" xml:space="preserve">
+    <value>When a vehicle inside a capture circle takes damage, the capture progress for that vehicle is blocked for some time.</value>
+  </data>
+  <data name="epicTip14/modeExplanation/4_infinity" xml:space="preserve">
+    <value>You can acquire and equip combat reserves in the Garage when Frontline is selected. Use them to unleash destruction on the battlefield.</value>
+  </data>
+  <data name="epicTip15/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>You can always change fronts in the Respawn Screen if the strategic situation requires it.</value>
+  </data>
+  <data name="epicTip16/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>Do not enter protected zones. Enemy artillery installations will start shooting at you.</value>
+  </data>
+  <data name="epicTip17/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>Are you stuck in the map somewhere? Use the abandon functionality (J by default) to leave your vehicle and start afresh.</value>
+  </data>
+  <data name="epicTip18/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>Open a big version of the minimap (M by default) for a better overview of the battlefield.</value>
+  </data>
+  <data name="epicTip19/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>You will only receive communication messages from allies that are visible on your minimap.</value>
+  </data>
+  <data name="epicTip2/story/0_15" xml:space="preserve">
+    <value>Frontline offers a lot of great rewards if you want to earn a little extra.</value>
+  </data>
+  <data name="epicTip20/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>You can adjust the visible area of your minimap with the mouse wheel while hovering it with your cursor.</value>
+  </data>
+  <data name="epicTip21/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>You can highlight bases or objectives for teammates by clicking on them on the minimap.</value>
+  </data>
+  <data name="epicTip22/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>When you run out of tanks be sure to try the Free Camera mode. This way you can plan your strategy until you are able to return to the battle.</value>
+  </data>
+  <data name="epicTip23/hiddenFeatures/15_infinity" xml:space="preserve">
+    <value>When a base is being captured and the battle time runs out, the match enters overtime. The battle will continue until all bases are cleared.</value>
+  </data>
+  <data name="epicTip3/story/0_15" xml:space="preserve">
+    <value>In Frontline mode, the battlefield is 9 km², which is nine times the size of a random battle map.</value>
+  </data>
+  <data name="epicTip4/modeExplanation/4_infinity" xml:space="preserve">
+    <value>Battle time is increased each time a zone is captured. The last zone awards additional time.</value>
+  </data>
+  <data name="epicTip5/modeExplanation/4_infinity" xml:space="preserve">
+    <value>If your vehicle was destroyed in battle, it needs some time to be repaired. Choose another vehicle and rejoin the fight.</value>
+  </data>
+  <data name="epicTip6/modeExplanation/4_infinity" xml:space="preserve">
+    <value>One additional vehicle is delivered to your reserve every five minutes.</value>
+  </data>
+  <data name="epicTip7/modeExplanation/4_infinity" xml:space="preserve">
+    <value>Attackers can only enter a zone in the second line when a zone in the first line in the same front is captured.</value>
+  </data>
+  <data name="epicTip8/modeExplanation/4_infinity" xml:space="preserve">
+    <value>When all zones in the first line are captured, all zones in the second line are weakened.</value>
+  </data>
+  <data name="epicTip9/modeExplanation/4_infinity" xml:space="preserve">
+    <value>It is possible to win a battle by eliminating the opposing team. It is just VERY unlikely.</value>
+  </data>
+  <data name="hiddenFeatures" xml:space="preserve">
+    <value>Master Frontline</value>
+  </data>
+  <data name="modeExplanation" xml:space="preserve">
+    <value>Learn Frontline</value>
+  </data>
+  <data name="story" xml:space="preserve">
+    <value>New to Frontline</value>
+  </data>
+  <data name="event/0/body" xml:space="preserve">
+    <value>Go to the game portal to register your team.</value>
+  </data>
+  <data name="event/0/title" xml:space="preserve">
+    <value>Fight in the Tournament to Win Special Prizes!</value>
+  </data>
+  <data name="event/1/body" xml:space="preserve">
+    <value>Complete missions and collect all 30 football cards to add the world famous goalkeeper Gianluigi “Gigi” Buffon to your crew.</value>
+  </data>
+  <data name="event/1/title" xml:space="preserve">
+    <value>Add Buffon to Your Crew</value>
+  </data>
+  <data name="event/2/body" xml:space="preserve">
+    <value>Defenders, Midfielders and Strikers perform a particular role on the field. Make use of their unique abilities in the best suitable moment.</value>
+  </data>
+  <data name="event/2/title" xml:space="preserve">
+    <value>Unique Abilities</value>
   </data>
 </root>

@@ -1034,7 +1034,7 @@ The pattern was used during World War II.</value>
     <value>Flag of Kazakhstan</value>
   </data>
   <data name="emblem/group4/signs_41" xml:space="preserve">
-    <value>Flag of U.K.</value>
+    <value>Flag of the U.K.</value>
   </data>
   <data name="emblem/group4/signs_42" xml:space="preserve">
     <value>Flag of Poland</value>
@@ -1043,7 +1043,7 @@ The pattern was used during World War II.</value>
     <value>Flag of Belarus</value>
   </data>
   <data name="emblem/group4/signs_44" xml:space="preserve">
-    <value>Flag of U.S.A.</value>
+    <value>Flag of the U.S.A.</value>
   </data>
   <data name="emblem/group4/signs_45" xml:space="preserve">
     <value>Flag of Germany</value>
@@ -1163,7 +1163,7 @@ The pattern was used during World War II.</value>
     <value>Flag of Mexico</value>
   </data>
   <data name="emblem/group4/signs_81" xml:space="preserve">
-    <value>Flag of Republic of South Africa</value>
+    <value>Flag of the Republic of South Africa</value>
   </data>
   <data name="emblem/group4/signs_82" xml:space="preserve">
     <value>Flag of Thailand</value>
@@ -1187,7 +1187,7 @@ The pattern was used during World War II.</value>
     <value>Be the best!</value>
   </data>
   <data name="inscription/china/blood" xml:space="preserve">
-    <value>Hills at sunset have a color of blood</value>
+    <value>Hills at sunset have the color of blood</value>
   </data>
   <data name="inscription/china/destiny" xml:space="preserve">
     <value>The most thrilling experience is a fight with destiny</value>
@@ -1940,10 +1940,10 @@ The pattern was used during World War II.</value>
     <value>For Moscow!</value>
   </data>
   <data name="inscription/ussr/motherland_1" xml:space="preserve">
-    <value>For Motherland!</value>
+    <value>For the Motherland!</value>
   </data>
   <data name="inscription/ussr/motherland_2" xml:space="preserve">
-    <value>For Motherland!</value>
+    <value>For the Motherland!</value>
   </data>
   <data name="inscription/ussr/motherland_3" xml:space="preserve">
     <value>For our Soviet Motherland!</value>
@@ -2024,7 +2024,7 @@ The pattern was used during World War II.</value>
     <value>Victorious</value>
   </data>
   <data name="inscription/ussr/victory_1" xml:space="preserve">
-    <value>To the Victory!</value>
+    <value>To Victory!</value>
   </data>
   <data name="inscription/ussr/victory_2" xml:space="preserve">
     <value>We will prevail!</value>
@@ -2066,7 +2066,7 @@ The pattern was used during World War II.</value>
     <value>France</value>
   </data>
   <data name="inscription/france/june" xml:space="preserve">
-    <value>June 18th, 1940</value>
+    <value>18 June 1940</value>
   </data>
   <data name="inscription/france/nostradamus" xml:space="preserve">
     <value>Nostradamus</value>
@@ -2487,7 +2487,7 @@ Used by the Republic of Korea Marine Corps.</value>
 Adopted after the introduction of new color pattern standards in Germany. Used by German land forces operating in the North African theater. Uneven sand-colored and gray spots applied over a yellow-brown basic layer.</value>
   </data>
   <data name="camouflage" xml:space="preserve">
-    <value>Map Types:</value>
+    <value>Camouflage</value>
   </data>
   <data name="camouflage/Clan_camouflage_01/description" xml:space="preserve">
     <value>One of the variants of the U.S. Army tricolor postwar camouflage.</value>
@@ -2511,7 +2511,7 @@ Chinese variant of a digital pattern used by the PLA.</value>
   </data>
   <data name="camouflage/IGR_Ch_Winter/description" xml:space="preserve">
     <value>(from 2008)
-Used by the PLA mainly in mountainous area.</value>
+Used by the PLA mainly in mountainous areas.</value>
   </data>
   <data name="camouflage/IGR_Ch_Winter/label" xml:space="preserve">
     <value>Winter variant of the Type 07 camouflage</value>
@@ -2699,7 +2699,7 @@ Used until the invasion of France.</value>
   </data>
   <data name="camouflage/france/bicolor/franch_5/description" xml:space="preserve">
     <value>(fall 1925)
-The French did not have original winter patterns. However, in South Africa they used light grey stripes on the basic background.</value>
+The French did not have original winter patterns. However, in South Africa they used light gray stripes on the basic background.</value>
   </data>
   <data name="camouflage/france/bicolor/franch_5/label" xml:space="preserve">
     <value>Winter camouflage</value>
@@ -2714,7 +2714,7 @@ Used by the 8th Tank Battalion.</value>
   </data>
   <data name="camouflage/france/tricolor/Geometric_Shapes/description" xml:space="preserve">
     <value>(1919)
-An early camouflage of the French armored forces.</value>
+An early camouflage pattern of the French armored forces.</value>
   </data>
   <data name="camouflage/france/tricolor/Geometric_Shapes/label" xml:space="preserve">
     <value>Two-tone "splinter pattern" camouflage</value>
@@ -2799,15 +2799,15 @@ Used by armored units during the Normandy Campaign.</value>
   </data>
   <data name="camouflage/germany/bicolor/Feldgrau/description" xml:space="preserve">
     <value>(1935 through 1940)
-Brown stripes on the basic dark grey background.
-However, from 1940 only the dark grey pattern was used.</value>
+Brown stripes on the basic dark gray background.
+However, from 1940 only the dark gray pattern was used.</value>
   </data>
   <data name="camouflage/germany/bicolor/Feldgrau/label" xml:space="preserve">
     <value>Pre-war camouflage</value>
   </data>
   <data name="camouflage/germany/bicolor/GrayZigzag/description" xml:space="preserve">
     <value>(1941 through 1942)
-Light yellow-brown paint on a dark grey background.
+Light yellow-brown paint on a dark gray background.
 The background bled through the paint in the form of spots or stripes.</value>
   </data>
   <data name="camouflage/germany/bicolor/GrayZigzag/label" xml:space="preserve">
@@ -2830,7 +2830,7 @@ Used on all fronts.</value>
   </data>
   <data name="camouflage/germany/bicolor/WhiteDiagonal/description" xml:space="preserve">
     <value>(winter 1941 through 1943)
-White paint on a dark grey background.
+White paint on a dark gray background.
 Used on the Eastern Front.</value>
   </data>
   <data name="camouflage/germany/bicolor/WhiteDiagonal/label" xml:space="preserve">
@@ -2838,7 +2838,7 @@ Used on the Eastern Front.</value>
   </data>
   <data name="camouflage/germany/bicolor/Winter/description" xml:space="preserve">
     <value>As white dry paint was not produced in Germany, all kinds of white dyes were used instead.
-There were no rules or regulations how to apply winter camouflage.</value>
+There were no rules or regulations on how to apply winter camouflage.</value>
   </data>
   <data name="camouflage/germany/bicolor/Winter/label" xml:space="preserve">
     <value>Winter white camouflage</value>
@@ -2861,7 +2861,7 @@ The scheme was widely used by German divisions towards the end of World War II.<
   </data>
   <data name="camouflage/germany/tricolor/Honeycomb/description" xml:space="preserve">
     <value>(1944)
-Brown spots with grey trim on the basic background.
+Brown spots with gray trim on the basic background.
 At the end of the war, due to the shortage of gasoline, dry pigments were mixed with water instead of gasoline, making the background more pale and transparent.</value>
   </data>
   <data name="camouflage/germany/tricolor/Honeycomb/label" xml:space="preserve">
@@ -2898,7 +2898,7 @@ Small green and brown spots on the basic background.</value>
   </data>
   <data name="camouflage/japan/desert_blue-brown/description" xml:space="preserve">
     <value>(from 1930s)
-Grey-blue aquamarine dye was applied on amphibious vehicles of the Imperial Navy.
+Gray-blue aquamarine dye was applied on amphibious vehicles of the Imperial Navy.
 To improve camouflage, irregularly shaped spots and stripes were applied,
 in colors depending on the area of operations — in this case, ochre.</value>
   </data>
@@ -3237,10 +3237,10 @@ on the basic background.</value>
     <value>Four-tone early camouflage</value>
   </data>
   <data name="emblem" xml:space="preserve">
-    <value>Emblem Type:</value>
+    <value>Emblem</value>
   </data>
   <data name="emblem/auto" xml:space="preserve">
-    <value>National Emblems</value>
+    <value>National</value>
   </data>
   <data name="emblem/auto/alpha_tester" xml:space="preserve">
     <value>Alpha test</value>
@@ -3300,7 +3300,7 @@ on the basic background.</value>
     <value>Emblem 5</value>
   </data>
   <data name="inscription" xml:space="preserve">
-    <value>Inscription Type:</value>
+    <value>Inscription</value>
   </data>
   <data name="inscription/clan_content" xml:space="preserve">
     <value>Clan</value>
@@ -3368,7 +3368,7 @@ Used in Russia.</value>
 The so-called “pixel” camouflage used in the early 2010s.</value>
   </data>
   <data name="camouflage/Clan_camouflage_04/label" xml:space="preserve">
-    <value>Clan digital camouflage</value>
+    <value>Clan digital camouflage (summer)</value>
   </data>
   <data name="customization/stored" xml:space="preserve">
     <value>%(quantity)s item(s) available</value>
@@ -3380,7 +3380,7 @@ The so-called “pixel” camouflage used in the early 2010s.</value>
     <value>Kiwi</value>
   </data>
   <data name="emblem/group10/special_21" xml:space="preserve">
-    <value>Best Replays of the Week Emblem</value>
+    <value>BRW Winner</value>
   </data>
   <data name="emblem/group7/clan_content_11" xml:space="preserve">
     <value>Conqueror Order I</value>
@@ -3540,7 +3540,7 @@ Awarded to players who achieved impressive results during battles on the Global 
     <value>Winter forest camouflage</value>
   </data>
   <data name="camouflage/Desert_camou/description" xml:space="preserve">
-    <value>A camouflage pattern used in rocky areas with thick layers of sand. Significantly disrupts the vehicle’s silhouette at medium and long range, by imitating the misshapen shadows from uneven terrain on the hull. Applied using yellowish-grey and greenish-brown paints.</value>
+    <value>A camouflage pattern used in rocky areas with thick layers of sand. Significantly disrupts the vehicle’s silhouette at medium and long range, by imitating the misshapen shadows from uneven terrain on the hull. Applied using yellowish-gray and greenish-brown paints.</value>
   </data>
   <data name="camouflage/Desert_camou/label" xml:space="preserve">
     <value>Rocky desert</value>
@@ -3548,7 +3548,7 @@ Awarded to players who achieved impressive results during battles on the Global 
   <data name="camouflage/czech/Cz_dust/description" xml:space="preserve">
     <value>Used in the summer of 1942.
 A desert camouflage did not exist in the Czechoslovakian army until 1939.
-Yellow spots were applied over the primary grey color of Czechoslovakian vehicles in the 22nd Panzer Division.</value>
+Yellow spots were applied over the primary gray color of Czechoslovakian vehicles in the 22nd Panzer Division.</value>
   </data>
   <data name="camouflage/czech/Cz_dust/label" xml:space="preserve">
     <value>German camouflage from 1942</value>
@@ -3567,7 +3567,7 @@ Each vehicle had a unique pattern.</value>
 A winter camouflage did not exist in the Czechoslovakian army until 1939.
 Czechoslovakian vehicles
 in the 8th Panzer Division of the Wehrmacht
-were dabbed with white dye over the primary grey color.</value>
+were dabbed with white dye over the primary gray color.</value>
   </data>
   <data name="camouflage/czech/Cz_winter/label" xml:space="preserve">
     <value>German camouflage from 1941</value>
@@ -4277,7 +4277,7 @@ Brown, foliage green, and fallow spots separated by a fine geometric or wavy out
   </data>
   <data name="camouflage/Sw_summer_02/description" xml:space="preserve">
     <value>(before the 1950s)
-Nonuniformly shaped spots of black, yellow, green, brown, and various hues of these colors against the grey base layer. Applied with a spray gun to all parts except the sides and suspension, occupying at least 25% of the total vehicle's surface.
+Nonuniformly shaped spots of black, yellow, green, brown, and various hues of these colors against the gray base layer. Applied with a spray gun to all parts except the sides and suspension, occupying at least 25% of the total vehicle's surface.
 Used on Swedish armored vehicles.</value>
   </data>
   <data name="camouflage/Sw_summer_02/label" xml:space="preserve">
@@ -4457,7 +4457,7 @@ of the customization elements filter to default.</value>
     <value>Set by Default</value>
   </data>
   <data name="customization/headerCloseBtn/body" xml:space="preserve">
-    <value>Customization elements that were not purchased will not be saved.</value>
+    <value>Customization elements that were not purchased or applied will not be saved.</value>
   </data>
   <data name="customization/headerCloseBtn/header" xml:space="preserve">
     <value>Back to Garage</value>
@@ -4643,13 +4643,13 @@ will be %(delete)s upon their replacement. Continue?</value>
     <value>Bonus Types</value>
   </data>
   <data name="filter/popover/getDefaultSettings" xml:space="preserve">
-    <value>Reset Filter</value>
+    <value>Reset filter</value>
   </data>
   <data name="filter/popover/groups/all" xml:space="preserve">
     <value>All groups</value>
   </data>
   <data name="filter/popover/groups/title" xml:space="preserve">
-    <value>Groups:</value>
+    <value>Groups</value>
   </data>
   <data name="filter/popover/title" xml:space="preserve">
     <value>Filter</value>
@@ -4730,7 +4730,7 @@ will be %(delete)s upon their replacement. Continue?</value>
     <value>V-Gurra</value>
   </data>
   <data name="qualifier/condition/alive_allies_count_less_6" xml:space="preserve">
-    <value>Active when no more than 6 of allies survive in the battle. Your vehicle is also counted.</value>
+    <value>Active when no more than 6 allies survive the battle. Your vehicle is also counted.</value>
   </data>
   <data name="qualifier/condition/alive_squad_members_count_greater_or_equal_2" xml:space="preserve">
     <value>Active as long as at least 2 of your Platoon members survive in the battle. Your vehicle is also counted.</value>
@@ -4811,13 +4811,13 @@ will be %(delete)s upon their replacement. Continue?</value>
     <value>+%(bnsValue)s</value>
   </data>
   <data name="window/purchase/btnBuy" xml:space="preserve">
-    <value>Purchase</value>
+    <value>Purchase and Exit</value>
   </data>
   <data name="window/purchase/btnCancel" xml:space="preserve">
     <value>Cancel</value>
   </data>
   <data name="window/purchase/header" xml:space="preserve">
-    <value>Confirm Purchase</value>
+    <value>Confirm Changes</value>
   </data>
   <data name="window/purchase/tableHeader/bonus" xml:space="preserve">
     <value>Bonus</value>
@@ -4913,7 +4913,7 @@ will be %(delete)s upon their replacement. Continue?</value>
     <value>Officers only teach you to mindlessly follow orders</value>
   </data>
   <data name="inscription/usa/inscription_14" xml:space="preserve">
-    <value>Always remember the motherland—take our lands back</value>
+    <value>Always remember the Motherland—take our lands back</value>
   </data>
   <data name="inscription/usa/inscription_15" xml:space="preserve">
     <value>Join the National Army and achieve success</value>
@@ -4958,10 +4958,10 @@ In the post-war period, combinations of various shades of similar colors, along 
     <value>Artillery Magnet</value>
   </data>
   <data name="emblem/group27/special_203" xml:space="preserve">
-    <value>Tank</value>
+    <value>Fortress</value>
   </data>
   <data name="emblem/group27/special_204" xml:space="preserve">
-    <value>Rammer</value>
+    <value>Dummy</value>
   </data>
   <data name="emblem/group27/special_205" xml:space="preserve">
     <value>Camper</value>
@@ -4973,7 +4973,7 @@ In the post-war period, combinations of various shades of similar colors, along 
     <value>Artillery</value>
   </data>
   <data name="emblem/group27/special_208" xml:space="preserve">
-    <value>Unstoppable</value>
+    <value>Drogue Chute</value>
   </data>
   <data name="emblem/group27/special_209" xml:space="preserve">
     <value>Wolf Pack</value>
@@ -5012,7 +5012,7 @@ In the post-war period, combinations of various shades of similar colors, along 
     <value>Grand Finals 2017, Moscow</value>
   </data>
   <data name="camouflage/Desert_Tiger_217/description" xml:space="preserve">
-    <value>This camouflage is typical for vehicles with zimmerit applied due to the presence of ochre in its composition. Zimmerit was actively used by Germany as antimagnetic substance on the Eastern Front from the beginning of 1943 through the fall of 1944.</value>
+    <value>This camouflage is typical for vehicles with zimmerit applied due to the presence of ochre in its composition. Zimmerit was actively used by Germany as an antimagnetic substance on the Eastern Front from the beginning of 1943 through the fall of 1944.</value>
   </data>
   <data name="camouflage/Desert_Tiger_217/label" xml:space="preserve">
     <value>Basic dark yellow camouflage</value>
@@ -5207,7 +5207,7 @@ In the post-war period, combinations of various shades of similar colors, along 
     <value>The Amoeba camouflage pattern consists of brown, white, and black irregularly-shaped spots. Designed in the second half of the 1920s and widely used by the Red Army.</value>
   </data>
   <data name="camouflage/PM_desert_ob260/label" xml:space="preserve">
-    <value>Amoeba: desert</value>
+    <value>Amoeba: desert camouflage</value>
   </data>
   <data name="camouflage/PM_desert_stugiv/description" xml:space="preserve">
     <value>A desert variation of the "ambush" camouflage pattern introduced in the late summer–early fall of 1944.
@@ -5215,7 +5215,7 @@ In the post-war period, combinations of various shades of similar colors, along 
 Small free-form patches of brownish shades are applied over the light yellow base color.</value>
   </data>
   <data name="camouflage/PM_desert_stugiv/label" xml:space="preserve">
-    <value>Ambush desert</value>
+    <value>Ambush desert camouflage</value>
   </data>
   <data name="camouflage/PM_desert_t28htc/description" xml:space="preserve">
     <value>A desert variation combining two camouflage patterns: Coffee Stain and Chocolate Chip.
@@ -5224,21 +5224,21 @@ The Coffee Stain uniforms were used by the U.S. Armed Forces from 1992 to the ea
 The Chocolate Chip uniforms were used by the U.S. Armed Forces from the early 1980s to the mid-1990s.</value>
   </data>
   <data name="camouflage/PM_desert_t28htc/label" xml:space="preserve">
-    <value>Conceptual desert</value>
+    <value>Conceptual desert camouflage</value>
   </data>
   <data name="camouflage/PM_desert_t55a/description" xml:space="preserve">
-    <value>A desert variation of camouflage pattern for wheeled and tracked armored fighting vehicles of GDR Armed Forces, introduced in 1988.
+    <value>A desert variation of a camouflage pattern for wheeled and tracked armored fighting vehicles of GDR Armed Forces, introduced in 1988.
 
 This pattern entailed changing the summer pattern colors to varying colors and shades characteristic of arid environments: light brown, sand, gray sand, etc.</value>
   </data>
   <data name="camouflage/PM_desert_t55a/label" xml:space="preserve">
-    <value>Modern spotted desert</value>
+    <value>Modern spotted desert camouflage</value>
   </data>
   <data name="camouflage/PM_summer_ob260/description" xml:space="preserve">
     <value>The Amoeba camouflage pattern consists of irregularly-shaped spots of varying shades of green. Designed in the second half of the 1920s and widely used by the Red Army.</value>
   </data>
   <data name="camouflage/PM_summer_ob260/label" xml:space="preserve">
-    <value>Amoeba: summer</value>
+    <value>Amoeba: summer camouflage</value>
   </data>
   <data name="camouflage/PM_summer_stugiv/description" xml:space="preserve">
     <value>A scheme of the "ambush" camouflage pattern introduced in the late summer–early fall of 1944.
@@ -5246,7 +5246,7 @@ This pattern entailed changing the summer pattern colors to varying colors and s
 Disc-shaped green and brown patches are applied over the dark yellow base color along with additional brown dots between them.</value>
   </data>
   <data name="camouflage/PM_summer_stugiv/label" xml:space="preserve">
-    <value>Ambush summer</value>
+    <value>Ambush summer camouflage</value>
   </data>
   <data name="camouflage/PM_summer_t28htc/description" xml:space="preserve">
     <value>A summer variation combining two camouflage patterns: Coffee Stain and Chocolate Chip.
@@ -5255,7 +5255,7 @@ The Coffee Stain uniforms were used by the U.S. Armed Forces from 1992 to the ea
 The Chocolate Chip uniforms were used by the U.S. Armed Forces from the early 1980s to the mid-1990s.</value>
   </data>
   <data name="camouflage/PM_summer_t28htc/label" xml:space="preserve">
-    <value>Conceptual summer</value>
+    <value>Conceptual summer camouflage</value>
   </data>
   <data name="camouflage/PM_summer_t55a/description" xml:space="preserve">
     <value>A summer camouflage pattern for wheeled and tracked armored combat vehicles of GDR Armed Forces, introduced in 1988.
@@ -5263,13 +5263,13 @@ The Chocolate Chip uniforms were used by the U.S. Armed Forces from the early 19
 Large brown and dark green spots-stripes were applied over the base green color.</value>
   </data>
   <data name="camouflage/PM_summer_t55a/label" xml:space="preserve">
-    <value>Modern spotted summer</value>
+    <value>Modern spotted summer camouflage</value>
   </data>
   <data name="camouflage/PM_winter_ob260/description" xml:space="preserve">
     <value>The Amoeba camouflage pattern consists of gray, white, and black irregularly-shaped spots. Designed in the second half of the 1920s and widely used by the Red Army.</value>
   </data>
   <data name="camouflage/PM_winter_ob260/label" xml:space="preserve">
-    <value>Amoeba: winter</value>
+    <value>Amoeba: winter camouflage</value>
   </data>
   <data name="camouflage/PM_winter_stugiv/description" xml:space="preserve">
     <value>A winter variation of the "ambush" camouflage pattern introduced in the late summer–early fall of 1944.
@@ -5277,7 +5277,7 @@ Large brown and dark green spots-stripes were applied over the base green color.
 Small free-form patches of white and black are applied over the base color. Ideally suited for conducting ambushes in urban warfare.</value>
   </data>
   <data name="camouflage/PM_winter_stugiv/label" xml:space="preserve">
-    <value>Ambush winter</value>
+    <value>Ambush winter camouflage</value>
   </data>
   <data name="camouflage/PM_winter_t28htc/description" xml:space="preserve">
     <value>A winter variation combining two camouflage patterns: Coffee Stain and Chocolate Chip.
@@ -5286,7 +5286,7 @@ The Coffee Stain uniforms were used by the U.S. Armed Forces from 1992 to the ea
 The Chocolate Chip uniforms were used by the U.S. Armed Forces from the early 1980s to the mid-1990s.</value>
   </data>
   <data name="camouflage/PM_winter_t28htc/label" xml:space="preserve">
-    <value>Conceptual winter</value>
+    <value>Conceptual winter camouflage</value>
   </data>
   <data name="camouflage/PM_winter_t55a/description" xml:space="preserve">
     <value>A winter variation of a camouflage pattern for wheeled and tracked armored fighting vehicles of GDR Armed Forces, introduced in 1988.
@@ -5294,7 +5294,7 @@ The Chocolate Chip uniforms were used by the U.S. Armed Forces from the early 19
 In this variation, light gray and black spots were painted over with white.</value>
   </data>
   <data name="camouflage/PM_winter_t55a/label" xml:space="preserve">
-    <value>Modern spotted winter</value>
+    <value>Modern spotted winter camouflage</value>
   </data>
   <data name="customization/tooltip/oneTaskDescription" xml:space="preserve">
     <value>Complete mission: %(name)s</value>
@@ -5318,6 +5318,1940 @@ In this variation, light gray and black spots were painted over with white.</val
     <value>Halloween 2017</value>
   </data>
   <data name="inscription/special/special_81" xml:space="preserve">
-    <value>For Motherland!</value>
+    <value>For the Motherland!</value>
+  </data>
+  <data name="bonus/condition/season" xml:space="preserve">
+    <value>Bonus to concealment when applying the camouflage to a vehicle's hull</value>
+  </data>
+  <data name="bonus/name/camouflage" xml:space="preserve">
+    <value>Reduces vehicle visibility by:</value>
+  </data>
+  <data name="bonus/name/extended/camouflage" xml:space="preserve">
+    <value>Bonus to vehicle concealment</value>
+  </data>
+  <data name="buyWindow/allFailed" xml:space="preserve">
+    <value>Unable to purchase all items.</value>
+  </data>
+  <data name="buyWindow/someFailures" xml:space="preserve">
+    <value>Unable to purchase some items. Please check your inventory for details.</value>
+  </data>
+  <data name="buyWindow/title/activeStyle" xml:space="preserve">
+    <value>Permanent Style</value>
+  </data>
+  <data name="buyWindow/title/desert" xml:space="preserve">
+    <value>Desert Map</value>
+  </data>
+  <data name="buyWindow/title/event" xml:space="preserve">
+    <value>Event:</value>
+  </data>
+  <data name="buyWindow/title/summer" xml:space="preserve">
+    <value>Summer Map</value>
+  </data>
+  <data name="buyWindow/title/winter" xml:space="preserve">
+    <value>Winter Map</value>
+  </data>
+  <data name="camouflage/Clan_camouflage_04_desert/description" xml:space="preserve">
+    <value>Chinese desert four-tone camouflage
+The so-called “pixel” camouflage used in the early 2010s.</value>
+  </data>
+  <data name="camouflage/Clan_camouflage_04_desert/label" xml:space="preserve">
+    <value>Clan digital camouflage (desert)</value>
+  </data>
+  <data name="camouflage/Clan_camouflage_04_winter/description" xml:space="preserve">
+    <value>Chinese winter four-tone camouflage
+The so-called “pixel” camouflage used in the early 2010s.</value>
+  </data>
+  <data name="camouflage/Clan_camouflage_04_winter/label" xml:space="preserve">
+    <value>Clan digital camouflage (winter)</value>
+  </data>
+  <data name="camouflage/Mutant_shell_desert/description" xml:space="preserve">
+    <value>A unique pattern that can only be applied to the M6A2E1 Mutant tank.</value>
+  </data>
+  <data name="camouflage/Mutant_shell_desert/label" xml:space="preserve">
+    <value>"Goose Bumps": desert camouflage</value>
+  </data>
+  <data name="camouflage/Mutant_shell_summer/description" xml:space="preserve">
+    <value>A unique pattern that can only be applied to the M6A2E1 Mutant tank.</value>
+  </data>
+  <data name="camouflage/Mutant_shell_summer/label" xml:space="preserve">
+    <value>"Goose Bumps": summer camouflage</value>
+  </data>
+  <data name="camouflage/Mutant_shell_winter/description" xml:space="preserve">
+    <value>A unique pattern that can only be applied to the M6A2E1 Mutant tank.</value>
+  </data>
+  <data name="camouflage/Mutant_shell_winter/label" xml:space="preserve">
+    <value>"Goose Bumps": winter camouflage</value>
+  </data>
+  <data name="camouflage/amx40ducks/description" xml:space="preserve">
+    <value>Developed in the McQuack construction bureau in 1991. The camouflage is intended to fill enemies with the terror that flaps in the night.</value>
+  </data>
+  <data name="camouflage/amx40ducks/label" xml:space="preserve">
+    <value>All-season webbed camouflage</value>
+  </data>
+  <data name="camouflage/christmas_GB/description" xml:space="preserve">
+    <value>An all-season camouflage for the Modern Christmas style.</value>
+  </data>
+  <data name="camouflage/christmas_GB/label" xml:space="preserve">
+    <value>Modern Christmas Camouflage</value>
+  </data>
+  <data name="camouflage/christmas_chinese/description" xml:space="preserve">
+    <value>An all-season camouflage for the Chinese New Year style.</value>
+  </data>
+  <data name="camouflage/christmas_chinese/label" xml:space="preserve">
+    <value>Chinese New Year Camouflage</value>
+  </data>
+  <data name="camouflage/christmas_german/description" xml:space="preserve">
+    <value>An all-season camouflage for the Traditional Christmas style.</value>
+  </data>
+  <data name="camouflage/christmas_german/label" xml:space="preserve">
+    <value>Traditional Christmas Camouflage</value>
+  </data>
+  <data name="camouflage/christmas_ussr/description" xml:space="preserve">
+    <value>An all-season camouflage for the Soviet New Year style.</value>
+  </data>
+  <data name="camouflage/christmas_ussr/label" xml:space="preserve">
+    <value>Soviet New Year Camouflage</value>
+  </data>
+  <data name="camouflage/gift_camouflage_desert/description" xml:space="preserve">
+    <value>The camouflage pattern consists of irregularly-shaped multicolor spots that disrupt the vehicle's silhouette in desert conditions. This pattern was widely used by many countries in the late 1950s.</value>
+  </data>
+  <data name="camouflage/gift_camouflage_desert/label" xml:space="preserve">
+    <value>"Large spots desert" gift camouflage</value>
+  </data>
+  <data name="camouflage/gift_camouflage_summer/description" xml:space="preserve">
+    <value>The camouflage pattern consists of irregularly-shaped multicolor spots that disrupt the vehicle's silhouette in various areas. This pattern was widely used by many countries in the late 1950s.</value>
+  </data>
+  <data name="camouflage/gift_camouflage_summer/label" xml:space="preserve">
+    <value>"Large spots summer" gift camouflage</value>
+  </data>
+  <data name="camouflage/gift_camouflage_winter/description" xml:space="preserve">
+    <value>The camouflage pattern consists of irregularly-shaped multicolor spots that disrupt the vehicle's silhouette in winter conditions. This pattern was widely used by many countries in the late 1950s.</value>
+  </data>
+  <data name="camouflage/gift_camouflage_winter/label" xml:space="preserve">
+    <value>"Large spots winter" gift camouflage</value>
+  </data>
+  <data name="camouflage/opaque" xml:space="preserve">
+    <value>Opaque</value>
+  </data>
+  <data name="camouflage/prem_camouflage_desert/description" xml:space="preserve">
+    <value>Desert camouflage of a permanent style.</value>
+  </data>
+  <data name="camouflage/prem_camouflage_desert/label" xml:space="preserve">
+    <value>Camouflage for the Black Widow style</value>
+  </data>
+  <data name="camouflage/prem_camouflage_summer/description" xml:space="preserve">
+    <value>Summer camouflage of a permanent style.</value>
+  </data>
+  <data name="camouflage/prem_camouflage_summer/label" xml:space="preserve">
+    <value>Camouflage for the Black Widow style</value>
+  </data>
+  <data name="camouflage/prem_camouflage_winter/description" xml:space="preserve">
+    <value>Winter camouflage of a permanent style.</value>
+  </data>
+  <data name="camouflage/prem_camouflage_winter/label" xml:space="preserve">
+    <value>Camouflage for the Black Widow style</value>
+  </data>
+  <data name="camouflage/rostelekom2018/description" xml:space="preserve">
+    <value>Представляет собой крупные асимметричные пятна холодных тонов, которые наносятся на светло-серый базовый цвет. Изготовлен специально для танка Т-44-100 (Р).</value>
+  </data>
+  <data name="camouflage/rostelekom2018/label" xml:space="preserve">
+    <value>Всесезонный камуфляж «Сеть»</value>
+  </data>
+  <data name="camouflage/transparent" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="camouflage/wg_fest_camo/description" xml:space="preserve">
+    <value>All-season camouflage for the WG Fest style</value>
+  </data>
+  <data name="camouflage/wg_fest_camo/label" xml:space="preserve">
+    <value>Camouflage for WG Fest Style</value>
+  </data>
+  <data name="carousel/filter/body" xml:space="preserve">
+    <value>Extended filtration of customization elements.</value>
+  </data>
+  <data name="carousel/filter/equippedBtn/body" xml:space="preserve">
+    <value>Show/hide customization elements on vehicles.</value>
+  </data>
+  <data name="carousel/filter/equippedBtn/header" xml:space="preserve">
+    <value>Applied</value>
+  </data>
+  <data name="carousel/filter/header" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="carousel/filter/mainBtn/body" xml:space="preserve">
+    <value>Extended filtration of customization elements.</value>
+  </data>
+  <data name="carousel/filter/mainBtn/header" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="carousel/filter/nonHistoricalBtn/body" xml:space="preserve">
+    <value>Show/hide non-historical customization elements.</value>
+  </data>
+  <data name="carousel/filter/nonHistoricalBtn/header" xml:space="preserve">
+    <value>Non-historical</value>
+  </data>
+  <data name="carousel/filter/storageBtn/body" xml:space="preserve">
+    <value>Show/hide customization elements in the Depot.</value>
+  </data>
+  <data name="carousel/filter/storageBtn/header" xml:space="preserve">
+    <value>In Depot</value>
+  </data>
+  <data name="carousel/swatch/style/permanent" xml:space="preserve">
+    <value>Permanent style</value>
+  </data>
+  <data name="carousel/swatch/style/rent" xml:space="preserve">
+    <value>Rental style</value>
+  </data>
+  <data name="commit/apply" xml:space="preserve">
+    <value>Apply and Exit</value>
+  </data>
+  <data name="commit/buy" xml:space="preserve">
+    <value>Go to Purchase</value>
+  </data>
+  <data name="customization/Popover/Camo/color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="customization/Popover/Camo/scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="customization/Popover/Camo/scale/large" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="customization/Popover/Camo/scale/normal" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="customization/Popover/Camo/scale/small" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="customization/Popover/Style" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="customization/Popover/Style/custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="customization/Popover/Style/items" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="customization/Popover/emptySlot" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="customization/Popover/emptySlot/hint" xml:space="preserve">
+    <value>Select the desired customization element on the bottom panel.</value>
+  </data>
+  <data name="customization/Popover/emptyStyle/hint" xml:space="preserve">
+    <value>Select the desired preset style on the bottom panel.</value>
+  </data>
+  <data name="customization/Popover/emptyText" xml:space="preserve">
+    <value>%(elementType)s: unavailable</value>
+  </data>
+  <data name="customization/Popover/itemType/camo" xml:space="preserve">
+    <value>Camouflage</value>
+  </data>
+  <data name="customization/Popover/itemType/decal" xml:space="preserve">
+    <value>Decals</value>
+  </data>
+  <data name="customization/Popover/itemType/effect" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="customization/Popover/itemType/paint" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="customization/Popover/itemType/style" xml:space="preserve">
+    <value>Style set</value>
+  </data>
+  <data name="customization/Popover/mapType" xml:space="preserve">
+    <value>Map: </value>
+  </data>
+  <data name="customization/decalPopover/remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="customization/filter/allGroups" xml:space="preserve">
+    <value>All groups</value>
+  </data>
+  <data name="customization/infotype/description/map" xml:space="preserve">
+    <value>Map: %(mapType)s</value>
+  </data>
+  <data name="customization/infotype/description/type" xml:space="preserve">
+    <value>   /   Group: %(elementType)s</value>
+  </data>
+  <data name="customization/infotype/locked/summer" xml:space="preserve">
+    <value>Can only be applied to Summer Style.</value>
+  </data>
+  <data name="customization/infotype/locked/title" xml:space="preserve">
+    <value>LOCKED</value>
+  </data>
+  <data name="customization/infotype/map" xml:space="preserve">
+    <value>Map: </value>
+  </data>
+  <data name="customization/infotype/map/desert" xml:space="preserve">
+    <value>Desert</value>
+  </data>
+  <data name="customization/infotype/map/event" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="customization/infotype/map/spring" xml:space="preserve">
+    <value>Summer</value>
+  </data>
+  <data name="customization/infotype/map/winter" xml:space="preserve">
+    <value>Winter</value>
+  </data>
+  <data name="customization/infotype/type/style" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="customization/infotype/type/style/custom" xml:space="preserve">
+    <value>Primary</value>
+  </data>
+  <data name="customization/infotype/type/style/rental" xml:space="preserve">
+    <value>Rental</value>
+  </data>
+  <data name="customization/infotype/type/style/special" xml:space="preserve">
+    <value>Special</value>
+  </data>
+  <data name="customization/mapType/all" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="customization/mapType/desert" xml:space="preserve">
+    <value>Desert</value>
+  </data>
+  <data name="customization/mapType/summer" xml:space="preserve">
+    <value>Summer</value>
+  </data>
+  <data name="customization/mapType/winter" xml:space="preserve">
+    <value>Winter</value>
+  </data>
+  <data name="customization/nonHistoric/buttonText/removeFromAll" xml:space="preserve">
+    <value>Remove All</value>
+  </data>
+  <data name="customization/nonHistoric/indicatorText" xml:space="preserve">
+    <value>Non-historical</value>
+  </data>
+  <data name="customization/nonHistoric/tableHeader/applied" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="customization/nonHistoric/tableHeader/item" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="customization/nonHistoric/tableHeader/remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="customization/nonHistoric/title/items" xml:space="preserve">
+    <value>Non-Historical Elements</value>
+  </data>
+  <data name="customization/popover/style/any" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="customization/popover/style/autoProlongationLabel" xml:space="preserve">
+    <value>Extend Automatically</value>
+  </data>
+  <data name="customization/popover/style/desert" xml:space="preserve">
+    <value>Desert</value>
+  </data>
+  <data name="customization/popover/style/summer" xml:space="preserve">
+    <value>Summer</value>
+  </data>
+  <data name="customization/popover/style/winter" xml:space="preserve">
+    <value>Winter</value>
+  </data>
+  <data name="customization/propSheet/effects/tankEffects" xml:space="preserve">
+    <value>Vehicle Effects</value>
+  </data>
+  <data name="customization/propSheet/popover/addItem" xml:space="preserve">
+    <value>Add for</value>
+  </data>
+  <data name="customization/propSheet/popover/applyItem" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="customization/propSheet/popover/empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="customization/propSheet/popover/locked" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="customization/propSheet/popover/remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="customization/tooltip/description/historic/false" xml:space="preserve">
+    <value>Non-historical</value>
+  </data>
+  <data name="customization/tooltip/description/historic/false/description" xml:space="preserve">
+    <value>If your vehicle has at least one non-historical element, no customization elements of this vehicle will be displayed to other players who enabled this setting.</value>
+  </data>
+  <data name="customization/tooltip/description/historic/true" xml:space="preserve">
+    <value>Historical</value>
+  </data>
+  <data name="customization/tooltip/inventory/available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="customization/tooltip/inventory/cost/purchase" xml:space="preserve">
+    <value>Purchase price</value>
+  </data>
+  <data name="customization/tooltip/inventory/cost/rent" xml:space="preserve">
+    <value>Cost for %(battlesNum)s battles</value>
+  </data>
+  <data name="customization/tooltip/inventory/rent/battlesLeft" xml:space="preserve">
+    <value>Battles left</value>
+  </data>
+  <data name="customization/tooltip/inventory/sellprice" xml:space="preserve">
+    <value>Selling price (all items)</value>
+  </data>
+  <data name="customization/tooltip/inventory/title" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="customization/tooltip/suitable/tier" xml:space="preserve">
+    <value>Tier:&amp;nbsp;</value>
+  </data>
+  <data name="customization/tooltip/suitable/title" xml:space="preserve">
+    <value>Suitable for Vehicles</value>
+  </data>
+  <data name="customization/tooltip/warning/reason/forward" xml:space="preserve">
+    <value>Low graphical settings may impede the quality of the effect.</value>
+  </data>
+  <data name="customization/tooltip/warning/title" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="defaultStyle/label" xml:space="preserve">
+    <value>Styles are effective on all types of maps</value>
+  </data>
+  <data name="emblem/group40/special_330" xml:space="preserve">
+    <value>Fury</value>
+  </data>
+  <data name="emblem/group41/special_340" xml:space="preserve">
+    <value>Ded Moroz</value>
+  </data>
+  <data name="emblem/group41/special_341" xml:space="preserve">
+    <value>Snowman</value>
+  </data>
+  <data name="emblem/group41/special_342" xml:space="preserve">
+    <value>Fireworks</value>
+  </data>
+  <data name="emblem/group42/special_343" xml:space="preserve">
+    <value>Christmas Stocking</value>
+  </data>
+  <data name="emblem/group42/special_344" xml:space="preserve">
+    <value>Santa's Hat</value>
+  </data>
+  <data name="emblem/group42/special_345" xml:space="preserve">
+    <value>Winking Elf</value>
+  </data>
+  <data name="emblem/group43/special_346" xml:space="preserve">
+    <value>Jingle Bell</value>
+  </data>
+  <data name="emblem/group43/special_347" xml:space="preserve">
+    <value>Green Wreath</value>
+  </data>
+  <data name="emblem/group43/special_348" xml:space="preserve">
+    <value>Mistletoe</value>
+  </data>
+  <data name="emblem/group44/special_349" xml:space="preserve">
+    <value>Yellow Dog</value>
+  </data>
+  <data name="emblem/group44/special_350" xml:space="preserve">
+    <value>Red Rooster</value>
+  </data>
+  <data name="emblem/group44/special_351" xml:space="preserve">
+    <value>Red Dragon</value>
+  </data>
+  <data name="emblem/group45/special_360" xml:space="preserve">
+    <value>No Ducks Allowed</value>
+  </data>
+  <data name="emblem/group45/special_361" xml:space="preserve">
+    <value>Drake 1</value>
+  </data>
+  <data name="emblem/group45/special_362" xml:space="preserve">
+    <value>Rubber Duck</value>
+  </data>
+  <data name="emblem/group45/special_363" xml:space="preserve">
+    <value>Nasty Drake 1</value>
+  </data>
+  <data name="emblem/group45/special_364" xml:space="preserve">
+    <value>Nasty Drake 2</value>
+  </data>
+  <data name="emblem/group45/special_365" xml:space="preserve">
+    <value>Nasty Drake 3</value>
+  </data>
+  <data name="emblem/group45/special_366" xml:space="preserve">
+    <value>Nasty Drake 4</value>
+  </data>
+  <data name="emblem/group45/special_367" xml:space="preserve">
+    <value>Drake 2</value>
+  </data>
+  <data name="filter/or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="filter/popover/showonlyfilters/acquired" xml:space="preserve">
+    <value>Purchased items</value>
+  </data>
+  <data name="filter/popover/showonlyfilters/historic" xml:space="preserve">
+    <value>Historical items</value>
+  </data>
+  <data name="filter/popover/showonlyfilters/title" xml:space="preserve">
+    <value>Primary</value>
+  </data>
+  <data name="gold_style/gold_style_01" xml:space="preserve">
+    <value>Black Widow</value>
+  </data>
+  <data name="historicIndicator/styleName/custsomStyle" xml:space="preserve">
+    <value>Custom Style</value>
+  </data>
+  <data name="inscription/special/special_130" xml:space="preserve">
+    <value>Bring the heat!</value>
+  </data>
+  <data name="inscription/special/special_131" xml:space="preserve">
+    <value>Give them hell!</value>
+  </data>
+  <data name="inscription/special/special_140" xml:space="preserve">
+    <value>Mutant</value>
+  </data>
+  <data name="inscription/special/special_150" xml:space="preserve">
+    <value>May NY Bring New Victories!</value>
+  </data>
+  <data name="inscription/special/special_151" xml:space="preserve">
+    <value>Happy New Year!</value>
+  </data>
+  <data name="inscription/special/special_152" xml:space="preserve">
+    <value>Enjoy New Victories!</value>
+  </data>
+  <data name="inscription/special/special_153" xml:space="preserve">
+    <value>Happy New Year!</value>
+  </data>
+  <data name="inscription/special/special_154" xml:space="preserve">
+    <value>Gott nytt år!</value>
+  </data>
+  <data name="inscription/special/special_155" xml:space="preserve">
+    <value>Merry Christmas!</value>
+  </data>
+  <data name="inscription/special/special_156" xml:space="preserve">
+    <value>God Jul!</value>
+  </data>
+  <data name="inscription/special/special_157" xml:space="preserve">
+    <value>Happy Holidays!</value>
+  </data>
+  <data name="inscription/special/special_158" xml:space="preserve">
+    <value>Glad helg</value>
+  </data>
+  <data name="inscription/special/special_159" xml:space="preserve">
+    <value>Frohe Weihnachten</value>
+  </data>
+  <data name="inscription/special/special_160" xml:space="preserve">
+    <value>Bonne Annee!</value>
+  </data>
+  <data name="inscription/special/special_161" xml:space="preserve">
+    <value>Stastny Novy Rok!</value>
+  </data>
+  <data name="inscription/special/special_162" xml:space="preserve">
+    <value>Szczęśliwego Nowego Roku</value>
+  </data>
+  <data name="inscription/special/special_163" xml:space="preserve">
+    <value>Frohes neues Jahr</value>
+  </data>
+  <data name="inscription/special/special_164" xml:space="preserve">
+    <value>Joyeux Noel!</value>
+  </data>
+  <data name="inscription/special/special_165" xml:space="preserve">
+    <value>Veselé Vánoce</value>
+  </data>
+  <data name="inscription/special/special_166" xml:space="preserve">
+    <value>Wesołych Świąt</value>
+  </data>
+  <data name="inscription/special/special_167" xml:space="preserve">
+    <value>Frohes Fest</value>
+  </data>
+  <data name="inscription/special/special_168" xml:space="preserve">
+    <value>Joyeuses Fetes</value>
+  </data>
+  <data name="inscription/special/special_169" xml:space="preserve">
+    <value>Šťasné svátkyt</value>
+  </data>
+  <data name="inscription/special/special_170" xml:space="preserve">
+    <value>Szczęśliwe święta</value>
+  </data>
+  <data name="inscription/special/special_171" xml:space="preserve">
+    <value>Happy New Year!</value>
+  </data>
+  <data name="inscription/special/special_172" xml:space="preserve">
+    <value>Merry Christmas!</value>
+  </data>
+  <data name="inscription/special/special_173" xml:space="preserve">
+    <value>Good Luck in the Year of the Dog!</value>
+  </data>
+  <data name="inscription/special/special_174" xml:space="preserve">
+    <value>Merry Christmas!</value>
+  </data>
+  <data name="inscription/special/special_175" xml:space="preserve">
+    <value>Merry Christmas!</value>
+  </data>
+  <data name="inscription/special/special_176" xml:space="preserve">
+    <value>Happy Holidays!</value>
+  </data>
+  <data name="inscription/special/special_190" xml:space="preserve">
+    <value>Say "Quack"!</value>
+  </data>
+  <data name="modifications/age_effect_01" xml:space="preserve">
+    <value>Worn paint 01</value>
+  </data>
+  <data name="modifications/age_effect_01/description" xml:space="preserve">
+    <value>Weathered paint and camouflage colors, no bright colors.</value>
+  </data>
+  <data name="modifications/age_effect_02" xml:space="preserve">
+    <value>Worn paint 02</value>
+  </data>
+  <data name="modifications/age_effect_02/description" xml:space="preserve">
+    <value>Evident paint weathering, faded colors.</value>
+  </data>
+  <data name="modifications/age_effect_03" xml:space="preserve">
+    <value>Paint weathering 03</value>
+  </data>
+  <data name="modifications/age_effect_03/description" xml:space="preserve">
+    <value>Slight paint weathering, faded colors.</value>
+  </data>
+  <data name="ny_style/asian_ny_style_01" xml:space="preserve">
+    <value>Chinese New Year</value>
+  </data>
+  <data name="ny_style/modernWestern_ny_style_01" xml:space="preserve">
+    <value>Modern Christmas</value>
+  </data>
+  <data name="ny_style/soviet_ny_style_01" xml:space="preserve">
+    <value>Soviet New Year</value>
+  </data>
+  <data name="ny_style/traditionalWestern_ny_style_01" xml:space="preserve">
+    <value>Traditional Christmas</value>
+  </data>
+  <data name="popover/style/remove" xml:space="preserve">
+    <value>Remove style</value>
+  </data>
+  <data name="rented_style/china" xml:space="preserve">
+    <value>China</value>
+  </data>
+  <data name="rented_style/czech" xml:space="preserve">
+    <value>Czechoslovakia</value>
+  </data>
+  <data name="rented_style/france" xml:space="preserve">
+    <value>France</value>
+  </data>
+  <data name="rented_style/germany" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+  <data name="rented_style/japan" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+  <data name="rented_style/sweden" xml:space="preserve">
+    <value>Sweden</value>
+  </data>
+  <data name="rented_style/uk" xml:space="preserve">
+    <value>U.K.</value>
+  </data>
+  <data name="rented_style/usa" xml:space="preserve">
+    <value>U.S.A.</value>
+  </data>
+  <data name="rented_style/ussr" xml:space="preserve">
+    <value>U.S.S.R.</value>
+  </data>
+  <data name="repaint/china_base_color" xml:space="preserve">
+    <value>China base color</value>
+  </data>
+  <data name="repaint/china_color_01" xml:space="preserve">
+    <value>Olive Green</value>
+  </data>
+  <data name="repaint/china_color_02" xml:space="preserve">
+    <value>Light Green</value>
+  </data>
+  <data name="repaint/china_color_03" xml:space="preserve">
+    <value>Dark Green</value>
+  </data>
+  <data name="repaint/china_color_04" xml:space="preserve">
+    <value>Light Beige</value>
+  </data>
+  <data name="repaint/china_color_05" xml:space="preserve">
+    <value>Sand Yellow</value>
+  </data>
+  <data name="repaint/china_color_06" xml:space="preserve">
+    <value>Beige</value>
+  </data>
+  <data name="repaint/china_color_07" xml:space="preserve">
+    <value>Green Leaves</value>
+  </data>
+  <data name="repaint/color_group_01" xml:space="preserve">
+    <value>China color</value>
+  </data>
+  <data name="repaint/color_group_02" xml:space="preserve">
+    <value>National paints</value>
+  </data>
+  <data name="repaint/color_group_03" xml:space="preserve">
+    <value>Base paints and primers</value>
+  </data>
+  <data name="repaint/color_group_05" xml:space="preserve">
+    <value>Non-historical paints</value>
+  </data>
+  <data name="repaint/custom_color_01" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="repaint/custom_color_02" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="repaint/custom_color_03" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="repaint/custom_color_04" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="repaint/custom_color_05" xml:space="preserve">
+    <value>Cyan</value>
+  </data>
+  <data name="repaint/custom_color_06" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="repaint/custom_color_07" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="repaint/custom_color_08" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="repaint/custom_color_09" xml:space="preserve">
+    <value>Sky blue</value>
+  </data>
+  <data name="repaint/custom_color_10" xml:space="preserve">
+    <value>Paint for the Black Widow style</value>
+  </data>
+  <data name="repaint/custom_color_11" xml:space="preserve">
+    <value>Paint for the Black Widow style</value>
+  </data>
+  <data name="repaint/custom_color_12" xml:space="preserve">
+    <value>Paint for the Black Widow style</value>
+  </data>
+  <data name="repaint/custom_color_13" xml:space="preserve">
+    <value>Paint for the Black Widow style</value>
+  </data>
+  <data name="repaint/custom_color_14" xml:space="preserve">
+    <value>Paint for the Black Widow style</value>
+  </data>
+  <data name="repaint/custom_color_15" xml:space="preserve">
+    <value>Paint for the Black Widow style</value>
+  </data>
+  <data name="repaint/custom_color_16" xml:space="preserve">
+    <value>Chinese New Year paint</value>
+  </data>
+  <data name="repaint/custom_color_17" xml:space="preserve">
+    <value>Traditional Christmas paint</value>
+  </data>
+  <data name="repaint/custom_color_18" xml:space="preserve">
+    <value>Modern Christmas paint</value>
+  </data>
+  <data name="repaint/custom_color_19" xml:space="preserve">
+    <value>Soviet New Year paint</value>
+  </data>
+  <data name="repaint/custom_color_20" xml:space="preserve">
+    <value>Paint for the WG Fest style</value>
+  </data>
+  <data name="repaint/custom_color_21" xml:space="preserve">
+    <value>Краска для стиля «Сеть»</value>
+  </data>
+  <data name="repaint/czech_base_color" xml:space="preserve">
+    <value>Czechoslovakia base color</value>
+  </data>
+  <data name="repaint/czech_color_01" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="repaint/czech_color_02" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="repaint/czech_color_03" xml:space="preserve">
+    <value>Light Stone</value>
+  </data>
+  <data name="repaint/czech_color_04" xml:space="preserve">
+    <value>Dark Gray</value>
+  </data>
+  <data name="repaint/czech_color_05" xml:space="preserve">
+    <value>Red-Brown</value>
+  </data>
+  <data name="repaint/czech_color_06" xml:space="preserve">
+    <value>Dark Green</value>
+  </data>
+  <data name="repaint/czech_color_07" xml:space="preserve">
+    <value>Červený oxid</value>
+  </data>
+  <data name="repaint/france_base_color" xml:space="preserve">
+    <value>France base color</value>
+  </data>
+  <data name="repaint/france_color_01" xml:space="preserve">
+    <value>Vert Olive</value>
+  </data>
+  <data name="repaint/france_color_02" xml:space="preserve">
+    <value>Gris Bleu Clair</value>
+  </data>
+  <data name="repaint/france_color_03" xml:space="preserve">
+    <value>Grisatre Vert</value>
+  </data>
+  <data name="repaint/france_color_04" xml:space="preserve">
+    <value>Jaune d’ocre</value>
+  </data>
+  <data name="repaint/france_color_05" xml:space="preserve">
+    <value>Terre d’ombre</value>
+  </data>
+  <data name="repaint/france_color_06" xml:space="preserve">
+    <value>Vert Foncé</value>
+  </data>
+  <data name="repaint/france_color_07" xml:space="preserve">
+    <value>Gris Vert</value>
+  </data>
+  <data name="repaint/germany_base_color" xml:space="preserve">
+    <value>Germany base color</value>
+  </data>
+  <data name="repaint/germany_color_01" xml:space="preserve">
+    <value>Erdgelb Nr.17</value>
+  </data>
+  <data name="repaint/germany_color_02" xml:space="preserve">
+    <value>Elfenbein</value>
+  </data>
+  <data name="repaint/germany_color_03" xml:space="preserve">
+    <value>Feldgrau Nr.3</value>
+  </data>
+  <data name="repaint/germany_color_04" xml:space="preserve">
+    <value>Dunkelgrau Nr.46</value>
+  </data>
+  <data name="repaint/germany_color_05" xml:space="preserve">
+    <value>Grün Nr.27</value>
+  </data>
+  <data name="repaint/germany_color_06" xml:space="preserve">
+    <value>Grün Nr.28</value>
+  </data>
+  <data name="repaint/germany_color_07" xml:space="preserve">
+    <value>Erdgelb Nr.22</value>
+  </data>
+  <data name="repaint/japan_base_color" xml:space="preserve">
+    <value>Japan base color</value>
+  </data>
+  <data name="repaint/japan_color_01" xml:space="preserve">
+    <value>Khaki-iro</value>
+  </data>
+  <data name="repaint/japan_color_02" xml:space="preserve">
+    <value>Cha-iro</value>
+  </data>
+  <data name="repaint/japan_color_03" xml:space="preserve">
+    <value>Midori-iro</value>
+  </data>
+  <data name="repaint/japan_color_04" xml:space="preserve">
+    <value>Karekusa-iro</value>
+  </data>
+  <data name="repaint/japan_color_05" xml:space="preserve">
+    <value>Tochi-iro</value>
+  </data>
+  <data name="repaint/japan_color_06" xml:space="preserve">
+    <value>Kusa-iro</value>
+  </data>
+  <data name="repaint/japan_color_07" xml:space="preserve">
+    <value>Bluish Gray</value>
+  </data>
+  <data name="repaint/primer_marmot" xml:space="preserve">
+    <value>Rufous Primer</value>
+  </data>
+  <data name="repaint/sweden_base_color" xml:space="preserve">
+    <value>Sweden base color</value>
+  </data>
+  <data name="repaint/sweden_color_01" xml:space="preserve">
+    <value>Ljusgrön 322 M</value>
+  </data>
+  <data name="repaint/sweden_color_02" xml:space="preserve">
+    <value>Blue-Gray</value>
+  </data>
+  <data name="repaint/sweden_color_03" xml:space="preserve">
+    <value>Svart 093 M</value>
+  </data>
+  <data name="repaint/sweden_color_04" xml:space="preserve">
+    <value>Tan</value>
+  </data>
+  <data name="repaint/sweden_color_05" xml:space="preserve">
+    <value>Red-Brown</value>
+  </data>
+  <data name="repaint/sweden_color_06" xml:space="preserve">
+    <value>Brun 507 M</value>
+  </data>
+  <data name="repaint/sweden_color_07" xml:space="preserve">
+    <value>Deep Blue</value>
+  </data>
+  <data name="repaint/uk_base_color" xml:space="preserve">
+    <value>U.K. base color</value>
+  </data>
+  <data name="repaint/uk_color_01" xml:space="preserve">
+    <value>Colour N1A</value>
+  </data>
+  <data name="repaint/uk_color_02" xml:space="preserve">
+    <value>Colour N2</value>
+  </data>
+  <data name="repaint/uk_color_03" xml:space="preserve">
+    <value>Colour N4</value>
+  </data>
+  <data name="repaint/uk_color_04" xml:space="preserve">
+    <value>Colour N5</value>
+  </data>
+  <data name="repaint/uk_color_05" xml:space="preserve">
+    <value>Colour N7</value>
+  </data>
+  <data name="repaint/uk_color_06" xml:space="preserve">
+    <value>Colour N12</value>
+  </data>
+  <data name="repaint/uk_color_07" xml:space="preserve">
+    <value>Azure Blue</value>
+  </data>
+  <data name="repaint/usa_base_color" xml:space="preserve">
+    <value>U.S.A. base color</value>
+  </data>
+  <data name="repaint/usa_color_01" xml:space="preserve">
+    <value>Olive Drab</value>
+  </data>
+  <data name="repaint/usa_color_02" xml:space="preserve">
+    <value>Light Gray</value>
+  </data>
+  <data name="repaint/usa_color_03" xml:space="preserve">
+    <value>Light Green</value>
+  </data>
+  <data name="repaint/usa_color_04" xml:space="preserve">
+    <value>Green 383</value>
+  </data>
+  <data name="repaint/usa_color_05" xml:space="preserve">
+    <value>Tan 686</value>
+  </data>
+  <data name="repaint/usa_color_06" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="repaint/usa_color_07" xml:space="preserve">
+    <value>Blue 85285</value>
+  </data>
+  <data name="repaint/ussr_base_color" xml:space="preserve">
+    <value>U.S.S.R. base color</value>
+  </data>
+  <data name="repaint/ussr_color_01" xml:space="preserve">
+    <value>4BO Defensive</value>
+  </data>
+  <data name="repaint/ussr_color_02" xml:space="preserve">
+    <value>23 Pn</value>
+  </data>
+  <data name="repaint/ussr_color_03" xml:space="preserve">
+    <value>7K Yellowish Red</value>
+  </data>
+  <data name="repaint/ussr_color_04" xml:space="preserve">
+    <value>K Defensive</value>
+  </data>
+  <data name="repaint/ussr_color_05" xml:space="preserve">
+    <value>6K Dark Brown</value>
+  </data>
+  <data name="repaint/ussr_color_06" xml:space="preserve">
+    <value>22lg</value>
+  </data>
+  <data name="repaint/ussr_color_07" xml:space="preserve">
+    <value>Emerald Green</value>
+  </data>
+  <data name="season/selection/desert" xml:space="preserve">
+    <value>DESERT</value>
+  </data>
+  <data name="season/selection/header" xml:space="preserve">
+    <value>Season assignment</value>
+  </data>
+  <data name="season/selection/summer" xml:space="preserve">
+    <value>SUMMER</value>
+  </data>
+  <data name="season/selection/winter" xml:space="preserve">
+    <value>WINTER</value>
+  </data>
+  <data name="special_style/rostelekom2018_style_01" xml:space="preserve">
+    <value>«Сеть»</value>
+  </data>
+  <data name="special_style/wgfest_style_01" xml:space="preserve">
+    <value>WG Fest</value>
+  </data>
+  <data name="switcher/name/custsomStyle" xml:space="preserve">
+    <value>CUSTOM STYLE</value>
+  </data>
+  <data name="switcher/name/defaultStyle" xml:space="preserve">
+    <value>PRESET STYLES</value>
+  </data>
+  <data name="window/purchase/btnApply" xml:space="preserve">
+    <value>Apply and Exit</value>
+  </data>
+  <data name="window/purchase/styleHeader" xml:space="preserve">
+    <value>Add Items to Cart</value>
+  </data>
+  <data name="window/purchase/tableHeader/ammount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="camouflage/23feb_desert/description" xml:space="preserve">
+    <value>Consists of sand, light brown, black, and pink sand spots. This pattern was widely used in the second half of the 20th century.</value>
+  </data>
+  <data name="camouflage/23feb_desert/label" xml:space="preserve">
+    <value>Desert combined camouflage</value>
+  </data>
+  <data name="camouflage/23feb_summer/description" xml:space="preserve">
+    <value>Consists of olive, light brown, black, and sand spots. This pattern was widely used in the second half of the 20th century.</value>
+  </data>
+  <data name="camouflage/23feb_summer/label" xml:space="preserve">
+    <value>Summer combined camouflage</value>
+  </data>
+  <data name="camouflage/23feb_winter/description" xml:space="preserve">
+    <value>Consists of blue, brown, and light gray spots applied over a white base color. This pattern was widely used in the second half of the 20th century.</value>
+  </data>
+  <data name="camouflage/23feb_winter/label" xml:space="preserve">
+    <value>Winter combined camouflage</value>
+  </data>
+  <data name="camouflage/ranked_1/description" xml:space="preserve">
+    <value>Awarded to players who took prize places in Ranked Battles, Season 1, League I.</value>
+  </data>
+  <data name="camouflage/ranked_1/label" xml:space="preserve">
+    <value>An all-season camouflage for Ranked Battles, League I</value>
+  </data>
+  <data name="camouflage/ranked_2/description" xml:space="preserve">
+    <value>Awarded to players who took prize places in Ranked Battles, Season 1, League II.</value>
+  </data>
+  <data name="camouflage/ranked_2/label" xml:space="preserve">
+    <value>An all-season camouflage for Ranked Battles, League II</value>
+  </data>
+  <data name="camouflage/ranked_3/description" xml:space="preserve">
+    <value>Awarded to players who took prize places in Ranked Battles, Season 1, League III.</value>
+  </data>
+  <data name="camouflage/ranked_3/label" xml:space="preserve">
+    <value>An all-season camouflage for Ranked Battles, League III</value>
+  </data>
+  <data name="inscription/special/special_191" xml:space="preserve">
+    <value>Ranked Battles, League I</value>
+  </data>
+  <data name="inscription/special/special_192" xml:space="preserve">
+    <value>Ranked Battles, League II</value>
+  </data>
+  <data name="inscription/special/special_193" xml:space="preserve">
+    <value>Ranked Battles, League III</value>
+  </data>
+  <data name="inscription/special/special_194" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="repaint/color_group_04" xml:space="preserve">
+    <value>Special</value>
+  </data>
+  <data name="repaint/custom_color_22" xml:space="preserve">
+    <value>Paint for Ranked Battles styles</value>
+  </data>
+  <data name="special_style/23feb" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="special_style/ranked_1" xml:space="preserve">
+    <value>League I</value>
+  </data>
+  <data name="special_style/ranked_2" xml:space="preserve">
+    <value>League II</value>
+  </data>
+  <data name="special_style/ranked_3" xml:space="preserve">
+    <value>League III</value>
+  </data>
+  <data name="camouflage/1_0_event/description" xml:space="preserve">
+    <value>Consists of large greenish-yellow and medium green spots with washed out edges applied over a primed background. Widely used in Southern Europe from 1930 through 1990.</value>
+  </data>
+  <data name="camouflage/1_0_event/label" xml:space="preserve">
+    <value>Award All-Season</value>
+  </data>
+  <data name="camouflage/italy/african_bicolor/description" xml:space="preserve">
+    <value>Foliage green stripes are applied over the base sand color. Used in the Middle East Theater of Operations.</value>
+  </data>
+  <data name="camouflage/italy/african_bicolor/label" xml:space="preserve">
+    <value>Two-tone striped camouflage</value>
+  </data>
+  <data name="camouflage/italy/ariete_summer/description" xml:space="preserve">
+    <value>Small brown spots with washed out edges are applied over the base foliage green color. Used by the 1st Battalion of the 32nd Armored Regiment of the 132nd Ariete Armored Division, in Italy in 1940.</value>
+  </data>
+  <data name="camouflage/italy/ariete_summer/label" xml:space="preserve">
+    <value>Two-tone "small spots" camouflage</value>
+  </data>
+  <data name="camouflage/italy/desert_bicolor/description" xml:space="preserve">
+    <value>Large geometric foliage green spots with sharp edges are applied over the base sand color. Used in North Africa in 1942.</value>
+  </data>
+  <data name="camouflage/italy/desert_bicolor/label" xml:space="preserve">
+    <value>Two-tone geometric camouflage</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_black/description" xml:space="preserve">
+    <value>Use Black Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_black/label" xml:space="preserve">
+    <value>Black Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_gold/description" xml:space="preserve">
+    <value>Use Gold Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_gold/label" xml:space="preserve">
+    <value>Gold Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_red/description" xml:space="preserve">
+    <value>Use Red Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_red/label" xml:space="preserve">
+    <value>Red Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_silver/description" xml:space="preserve">
+    <value>Use Silver Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/italy/italian_victim_silver/label" xml:space="preserve">
+    <value>Silver Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/italy/italian_winter/description" xml:space="preserve">
+    <value>White lime camouflage is applied over the base sand color. Used by the 67th Bersaglieri Battalion.</value>
+  </data>
+  <data name="camouflage/italy/italian_winter/label" xml:space="preserve">
+    <value>White lime camouflage</value>
+  </data>
+  <data name="camouflage/italy/italian_winter_2/description" xml:space="preserve">
+    <value>Widely used in the European Theater of Operations. White paint of different shades is applied over a base layer or other camouflage.</value>
+  </data>
+  <data name="camouflage/italy/italian_winter_2/label" xml:space="preserve">
+    <value>White "frayed" camouflage</value>
+  </data>
+  <data name="camouflage/italy/summer_tricolor/description" xml:space="preserve">
+    <value>Foliage green and brown spots are applied over the base sand color. Used on vehicles and SPGs at the Italian factories in the summer of 1943.</value>
+  </data>
+  <data name="camouflage/italy/summer_tricolor/label" xml:space="preserve">
+    <value>Three-tone disruptive camouflage</value>
+  </data>
+  <data name="camouflage/nation/italy" xml:space="preserve">
+    <value>Can be applied to Italian vehicles</value>
+  </data>
+  <data name="camouflage/victim/china_black/description" xml:space="preserve">
+    <value>Use Black Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/china_black/label" xml:space="preserve">
+    <value>Black Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/china_gold/description" xml:space="preserve">
+    <value>Use Gold Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/china_gold/label" xml:space="preserve">
+    <value>Gold Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/china_red/description" xml:space="preserve">
+    <value>Use Red Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/china_red/label" xml:space="preserve">
+    <value>Red Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/china_silver/description" xml:space="preserve">
+    <value>Use Silver Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/china_silver/label" xml:space="preserve">
+    <value>Silver Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/czech_black/description" xml:space="preserve">
+    <value>Use Black Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/czech_black/label" xml:space="preserve">
+    <value>Black Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/czech_gold/description" xml:space="preserve">
+    <value>Use Gold Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/czech_gold/label" xml:space="preserve">
+    <value>Gold Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/czech_red/description" xml:space="preserve">
+    <value>Use Red Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/czech_red/label" xml:space="preserve">
+    <value>Red Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/czech_silver/description" xml:space="preserve">
+    <value>Use Silver Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/czech_silver/label" xml:space="preserve">
+    <value>Silver Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/france_black/description" xml:space="preserve">
+    <value>Use Black Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/france_black/label" xml:space="preserve">
+    <value>Black Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/france_gold/description" xml:space="preserve">
+    <value>Use Gold Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/france_gold/label" xml:space="preserve">
+    <value>Gold Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/france_red/description" xml:space="preserve">
+    <value>Use Red Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/france_red/label" xml:space="preserve">
+    <value>Red Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/france_silver/description" xml:space="preserve">
+    <value>Use Silver Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/france_silver/label" xml:space="preserve">
+    <value>Silver Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/germany_black/description" xml:space="preserve">
+    <value>Use Black Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/germany_black/label" xml:space="preserve">
+    <value>Black Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/germany_gold/description" xml:space="preserve">
+    <value>Use Gold Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/germany_gold/label" xml:space="preserve">
+    <value>Gold Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/germany_red/description" xml:space="preserve">
+    <value>Use Red Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/germany_red/label" xml:space="preserve">
+    <value>Red Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/germany_silver/description" xml:space="preserve">
+    <value>Use Silver Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/germany_silver/label" xml:space="preserve">
+    <value>Silver Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/japan_black/description" xml:space="preserve">
+    <value>Use Black Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/japan_black/label" xml:space="preserve">
+    <value>Black Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/japan_gold/description" xml:space="preserve">
+    <value>Use Gold Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/japan_gold/label" xml:space="preserve">
+    <value>Gold Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/japan_red/description" xml:space="preserve">
+    <value>Use Red Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/japan_red/label" xml:space="preserve">
+    <value>Red Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/japan_silver/description" xml:space="preserve">
+    <value>Use Silver Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/japan_silver/label" xml:space="preserve">
+    <value>Silver Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/sweden_black/description" xml:space="preserve">
+    <value>Use Black Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/sweden_black/label" xml:space="preserve">
+    <value>Black Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/sweden_gold/description" xml:space="preserve">
+    <value>Use Gold Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/sweden_gold/label" xml:space="preserve">
+    <value>Gold Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/sweden_red/description" xml:space="preserve">
+    <value>Use Red Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/sweden_red/label" xml:space="preserve">
+    <value>Red Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/sweden_silver/description" xml:space="preserve">
+    <value>Use Silver Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/sweden_silver/label" xml:space="preserve">
+    <value>Silver Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/uk_black/description" xml:space="preserve">
+    <value>Use Black Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/uk_black/label" xml:space="preserve">
+    <value>Black Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/uk_gold/description" xml:space="preserve">
+    <value>Use Gold Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/uk_gold/label" xml:space="preserve">
+    <value>Gold Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/uk_red/description" xml:space="preserve">
+    <value>Use Red Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/uk_red/label" xml:space="preserve">
+    <value>Red Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/uk_silver/description" xml:space="preserve">
+    <value>Use Silver Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/uk_silver/label" xml:space="preserve">
+    <value>Silver Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/usa_black/description" xml:space="preserve">
+    <value>Use Black Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/usa_black/label" xml:space="preserve">
+    <value>Black Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/usa_gold/description" xml:space="preserve">
+    <value>Use Gold Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/usa_gold/label" xml:space="preserve">
+    <value>Gold Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/usa_red/description" xml:space="preserve">
+    <value>Use Red Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/usa_red/label" xml:space="preserve">
+    <value>Red Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/usa_silver/description" xml:space="preserve">
+    <value>Use Silver Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/usa_silver/label" xml:space="preserve">
+    <value>Silver Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/ussr_black/description" xml:space="preserve">
+    <value>Use Black Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/ussr_black/label" xml:space="preserve">
+    <value>Black Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/ussr_gold/description" xml:space="preserve">
+    <value>Use Gold Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/ussr_gold/label" xml:space="preserve">
+    <value>Gold Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/ussr_red/description" xml:space="preserve">
+    <value>Use Red Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/ussr_red/label" xml:space="preserve">
+    <value>Red Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/ussr_silver/description" xml:space="preserve">
+    <value>Use Silver Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/ussr_silver/label" xml:space="preserve">
+    <value>Silver Camouflage for "Hunt"</value>
+  </data>
+  <data name="emblem/auto/italian_flag" xml:space="preserve">
+    <value>Emblem of Italy</value>
+  </data>
+  <data name="emblem/battle/sticker_80" xml:space="preserve">
+    <value>1st Tank Battalion</value>
+  </data>
+  <data name="emblem/battle/sticker_81" xml:space="preserve">
+    <value>8th Bersaglieri Battalion</value>
+  </data>
+  <data name="emblem/battle/sticker_82" xml:space="preserve">
+    <value>131st Centauro Armored Division</value>
+  </data>
+  <data name="emblem/battle/sticker_83" xml:space="preserve">
+    <value>132nd Ariete Armored Division</value>
+  </data>
+  <data name="emblem/battle/sticker_84" xml:space="preserve">
+    <value>3rd Cavalry Division "Principe Amedeo Duca D'Aosta"</value>
+  </data>
+  <data name="emblem/battle/sticker_85" xml:space="preserve">
+    <value>5th Cavalry Regiment</value>
+  </data>
+  <data name="emblem/battle/sticker_86" xml:space="preserve">
+    <value>Driver Emblem</value>
+  </data>
+  <data name="emblem/battle/sticker_87" xml:space="preserve">
+    <value>Bersaglieri Battalion</value>
+  </data>
+  <data name="emblem/battle/sticker_88" xml:space="preserve">
+    <value>Tank Units Emblem</value>
+  </data>
+  <data name="inscription/italy/inscription_01" xml:space="preserve">
+    <value>Adwa</value>
+  </data>
+  <data name="inscription/italy/inscription_02" xml:space="preserve">
+    <value>Amba Alagi</value>
+  </data>
+  <data name="inscription/italy/inscription_03" xml:space="preserve">
+    <value>Victory at all costs</value>
+  </data>
+  <data name="inscription/italy/inscription_04" xml:space="preserve">
+    <value>Chiesa</value>
+  </data>
+  <data name="inscription/italy/inscription_05" xml:space="preserve">
+    <value>Custoza</value>
+  </data>
+  <data name="inscription/italy/inscription_07" xml:space="preserve">
+    <value>Steel Arrow</value>
+  </data>
+  <data name="inscription/italy/inscription_08" xml:space="preserve">
+    <value>Goito</value>
+  </data>
+  <data name="inscription/italy/inscription_09" xml:space="preserve">
+    <value>Governolo</value>
+  </data>
+  <data name="inscription/italy/inscription_10" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="inscription/italy/inscription_11" xml:space="preserve">
+    <value>Montebello</value>
+  </data>
+  <data name="inscription/italy/inscription_12" xml:space="preserve">
+    <value>Palestro</value>
+  </data>
+  <data name="inscription/italy/inscription_13" xml:space="preserve">
+    <value>Pastrengo</value>
+  </data>
+  <data name="inscription/italy/inscription_14" xml:space="preserve">
+    <value>Queen</value>
+  </data>
+  <data name="inscription/italy/inscription_15" xml:space="preserve">
+    <value>Saint Mark</value>
+  </data>
+  <data name="inscription/italy/inscription_16" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="inscription/italy/inscription_17" xml:space="preserve">
+    <value>Santa Lucia</value>
+  </data>
+  <data name="inscription/italy/inscription_18" xml:space="preserve">
+    <value>Solferino</value>
+  </data>
+  <data name="inscription/italy/inscription_19" xml:space="preserve">
+    <value>Varese</value>
+  </data>
+  <data name="inscription/italy/inscription_20" xml:space="preserve">
+    <value>Long live Italy!</value>
+  </data>
+  <data name="inscription/italy/inscription_21" xml:space="preserve">
+    <value>Zenson</value>
+  </data>
+  <data name="rented_style/italy" xml:space="preserve">
+    <value>Italy</value>
+  </data>
+  <data name="repaint/italy_base_color" xml:space="preserve">
+    <value>Italy base color</value>
+  </data>
+  <data name="repaint/italy_color_01" xml:space="preserve">
+    <value>Gray Green</value>
+  </data>
+  <data name="repaint/italy_color_02" xml:space="preserve">
+    <value>Rusty Red</value>
+  </data>
+  <data name="repaint/italy_color_03" xml:space="preserve">
+    <value>Defensive Gray</value>
+  </data>
+  <data name="repaint/italy_color_04" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="repaint/italy_color_05" xml:space="preserve">
+    <value>Ivory</value>
+  </data>
+  <data name="repaint/italy_color_06" xml:space="preserve">
+    <value>Sage Green</value>
+  </data>
+  <data name="repaint/italy_color_07" xml:space="preserve">
+    <value>Defensive Red</value>
+  </data>
+  <data name="victim_style/default" xml:space="preserve">
+    <value>"Hunt"</value>
+  </data>
+  <data name="camouflage/anniversary_NA_EU_desert/description" xml:space="preserve">
+    <value>Desert variant of four-tone camouflage, designed by the Engineering Research and Development Laboratory of the US Army in 1948. The pattern was intended for mountainous areas of the south-east Asia.</value>
+  </data>
+  <data name="camouflage/anniversary_NA_EU_desert/label" xml:space="preserve">
+    <value>"7th Anniversary: desert" camouflage</value>
+  </data>
+  <data name="camouflage/anniversary_NA_EU_summer/description" xml:space="preserve">
+    <value>Summer variant of four-tone camouflage, designed by the Engineering Research and Development Laboratory of the US Army in 1948. Different color variations were widely used in the second half of the 20th century.</value>
+  </data>
+  <data name="camouflage/anniversary_NA_EU_summer/label" xml:space="preserve">
+    <value>"7th Anniversary: summer" camouflage</value>
+  </data>
+  <data name="camouflage/anniversary_NA_EU_winter/description" xml:space="preserve">
+    <value>Winter variant of four-tone camouflage, designed by the Engineering Research and Development Laboratory of the US Army.</value>
+  </data>
+  <data name="camouflage/anniversary_NA_EU_winter/label" xml:space="preserve">
+    <value>"7th Anniversary: winter" camouflage</value>
+  </data>
+  <data name="camouflage/global_map_camo/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/global_map_camo/label" xml:space="preserve">
+    <value>Thundery sky</value>
+  </data>
+  <data name="camouflage/italian_marathon_camo/description" xml:space="preserve">
+    <value>The four-tone pattern consists of reddish-brown, brown, olive green and sand green irregularly-shaped spots. Different color variations are widely used by the Italian Army in all climatic zones.</value>
+  </data>
+  <data name="camouflage/italian_marathon_camo/label" xml:space="preserve">
+    <value>"Floral" camouflage</value>
+  </data>
+  <data name="emblem/special/sticker_368" xml:space="preserve">
+    <value>Italian Challenge</value>
+  </data>
+  <data name="emblem/special/sticker_369" xml:space="preserve">
+    <value>7th Anniversary</value>
+  </data>
+  <data name="emblem/special/sticker_370" xml:space="preserve">
+    <value>Global Map</value>
+  </data>
+  <data name="repaint/custom_color_23" xml:space="preserve">
+    <value>Paint for the Lighting style</value>
+  </data>
+  <data name="special_style/global_map" xml:space="preserve">
+    <value>Lightning</value>
+  </data>
+  <data name="special_style/italian_marathion_01" xml:space="preserve">
+    <value>Italian Challenge</value>
+  </data>
+  <data name="camouflage/BRW_winner_camo/description" xml:space="preserve">
+    <value>All-season camouflage, awarded for victory in the Best Replays of the Week contest.</value>
+  </data>
+  <data name="camouflage/BRW_winner_camo/label" xml:space="preserve">
+    <value>BRW Winner</value>
+  </data>
+  <data name="camouflage/blank_camouflage/description" xml:space="preserve">
+    <value>Transparent secondary camouflage.</value>
+  </data>
+  <data name="camouflage/blank_camouflage/label" xml:space="preserve">
+    <value>Transparent secondary camouflage.</value>
+  </data>
+  <data name="camouflage/china_veteran/description" xml:space="preserve">
+    <value>This camouflage outlines the heroic past of the long-serving vehicle and features numerous markings from battles: powder spots, chipped paint, and dirt. It uses a basic color palette and is only applied to vehicles awarded for Global Map events.</value>
+  </data>
+  <data name="camouflage/china_veteran/label" xml:space="preserve">
+    <value>Veteran camouflage</value>
+  </data>
+  <data name="camouflage/frontline_alliance_camo/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/frontline_alliance_camo/label" xml:space="preserve">
+    <value>Camouflage for the Western Front style</value>
+  </data>
+  <data name="camouflage/frontline_captured_camo/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/frontline_captured_camo/label" xml:space="preserve">
+    <value>Camouflage for the Spoils of War style</value>
+  </data>
+  <data name="camouflage/frontline_ussr_camo/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/frontline_ussr_camo/label" xml:space="preserve">
+    <value>Camouflage for the Eastern Front style</value>
+  </data>
+  <data name="emblem/special/sticker_381" xml:space="preserve">
+    <value>Gold Dragon</value>
+  </data>
+  <data name="emblem/special/sticker_382" xml:space="preserve">
+    <value>Emblem for the Spoils of War style</value>
+  </data>
+  <data name="inscription/special/special_195" xml:space="preserve">
+    <value>Hero Tank</value>
+  </data>
+  <data name="inscription/special/special_196" xml:space="preserve">
+    <value>BRW Winner</value>
+  </data>
+  <data name="inscription/special/special_197" xml:space="preserve">
+    <value>BRW Winner</value>
+  </data>
+  <data name="inscription/special/special_198" xml:space="preserve">
+    <value>1945</value>
+  </data>
+  <data name="inscription/special/special_199" xml:space="preserve">
+    <value>1945 ceremonial</value>
+  </data>
+  <data name="special_style/brw_winner" xml:space="preserve">
+    <value>BRW Winner</value>
+  </data>
+  <data name="special_style/frontline_alliance" xml:space="preserve">
+    <value>Western Front</value>
+  </data>
+  <data name="special_style/frontline_alliance_desc" xml:space="preserve">
+    <value>Camouflage pattern applied to Western Allies' vehicles for the Victory Day Parade</value>
+  </data>
+  <data name="special_style/frontline_captured" xml:space="preserve">
+    <value>Spoils of War</value>
+  </data>
+  <data name="special_style/frontline_captured_desc" xml:space="preserve">
+    <value>Camouflage pattern applied to captured vehicles for the Victory Day Parade</value>
+  </data>
+  <data name="special_style/frontline_ussr" xml:space="preserve">
+    <value>Eastern Front</value>
+  </data>
+  <data name="special_style/frontline_ussr_desc" xml:space="preserve">
+    <value>Camouflage pattern applied to U.S.S.R. and Allies' vehicles for the Victory Day Parade</value>
+  </data>
+  <data name="special_style/bdr_g1b_w" xml:space="preserve">
+    <value>Mordian</value>
+  </data>
+  <data name="special_style/bdr_g1b_w_description" xml:space="preserve">
+    <value>A combat pattern for heavy tanks, inspired by the Mordian Iron Guard.</value>
+  </data>
+  <data name="special_style/kv2_w" xml:space="preserve">
+    <value>Valhallan Ragnarok</value>
+  </data>
+  <data name="special_style/kv2_w_description" xml:space="preserve">
+    <value>A combat pattern, inspired by the Valhallan regiment of the Astra Militarum. Applied in battles against the Chaos scum, on any terrain, for the glory of Emperor!</value>
+  </data>
+  <data name="camouflage/bdr_g1b_w/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/bdr_g1b_w/label" xml:space="preserve">
+    <value>Mordian</value>
+  </data>
+  <data name="camouflage/kv2_w/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/kv2_w/label" xml:space="preserve">
+    <value>Valhallan Ragnarok</value>
+  </data>
+  <data name="buypopover/btn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="buypopover/fromStorage" xml:space="preserve">
+    <value>From the Depot</value>
+  </data>
+  <data name="buypopover/price" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="buypopover/result" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+  <data name="camouflage/football_4sale1/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_4sale1/label" xml:space="preserve">
+    <value>Goalkeeper-2018</value>
+  </data>
+  <data name="camouflage/football_4sale2/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_4sale2/label" xml:space="preserve">
+    <value>Forward-2018</value>
+  </data>
+  <data name="camouflage/football_aces/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_aces/label" xml:space="preserve">
+    <value>Winner-2018</value>
+  </data>
+  <data name="camouflage/football_free/description" xml:space="preserve">
+    <value>The all-season camouflage, provided for the duration of the football event.</value>
+  </data>
+  <data name="camouflage/football_free_01/label" xml:space="preserve">
+    <value>Football: type 1</value>
+  </data>
+  <data name="camouflage/football_free_02/label" xml:space="preserve">
+    <value>Football: type 2</value>
+  </data>
+  <data name="camouflage/football_free_03/label" xml:space="preserve">
+    <value>Football: type 3</value>
+  </data>
+  <data name="camouflage/football_gift/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_gift/label" xml:space="preserve">
+    <value>Fan-2018</value>
+  </data>
+  <data name="camouflage/football_meta/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_meta/label" xml:space="preserve">
+    <value>Football player-2018</value>
+  </data>
+  <data name="camouflage/football_otms/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_otms/label" xml:space="preserve">
+    <value>Champion-2018</value>
+  </data>
+  <data name="camouflage/football_tms/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/football_tms/label" xml:space="preserve">
+    <value>Striker-2018</value>
+  </data>
+  <data name="carousel/rentalBattles" xml:space="preserve">
+    <value>%(battlesNum)d battles for</value>
+  </data>
+  <data name="carousel/swatch/style/main" xml:space="preserve">
+    <value>Primary style</value>
+  </data>
+  <data name="carousel/swatch/style/rented" xml:space="preserve">
+    <value>Rental style</value>
+  </data>
+  <data name="carousel/swatch/style/special" xml:space="preserve">
+    <value>Special style</value>
+  </data>
+  <data name="customization/buyWindow/title" xml:space="preserve">
+    <value>Elements for Purchase</value>
+  </data>
+  <data name="customization/infotype/mapType/desert" xml:space="preserve">
+    <value>desert</value>
+  </data>
+  <data name="customization/infotype/mapType/summer" xml:space="preserve">
+    <value>summer</value>
+  </data>
+  <data name="customization/infotype/mapType/winter" xml:space="preserve">
+    <value>winter</value>
+  </data>
+  <data name="customization/itemsPopover/btn" xml:space="preserve">
+    <value>Customization elements on the vehicle</value>
+  </data>
+  <data name="customization/itemsPopover/clear/massage" xml:space="preserve">
+    <value>No customization elements applied to the vehicle.</value>
+  </data>
+  <data name="customization/itemsPopover/clear/nonHistoricMassage" xml:space="preserve">
+    <value>No non-historical elements are applied to the vehicle.</value>
+  </data>
+  <data name="customization/itemsPopover/historicCheckBox/items" xml:space="preserve">
+    <value>Non-historical elements on the vehicle</value>
+  </data>
+  <data name="customization/itemsPopover/title/items" xml:space="preserve">
+    <value>Exterior on %(mapType)s Map</value>
+  </data>
+  <data name="customization/nonHistoric/buttonClearText" xml:space="preserve">
+    <value>Display all</value>
+  </data>
+  <data name="customization/nonHistoric/tableHeaders/new" xml:space="preserve">
+    <value>New:</value>
+  </data>
+  <data name="customization/nonHistoric/tableHeaders/purchase" xml:space="preserve">
+    <value>Purchased:</value>
+  </data>
+  <data name="customizationHeader/back" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="emblem/group46/special_383" xml:space="preserve">
+    <value>Quick Learner</value>
+  </data>
+  <data name="emblem/special/sticker_380" xml:space="preserve">
+    <value>To victory!</value>
+  </data>
+  <data name="emblem/special/sticker_384" xml:space="preserve">
+    <value>Champion-2018</value>
+  </data>
+  <data name="emblem/special/sticker_385" xml:space="preserve">
+    <value>Striker-2018</value>
+  </data>
+  <data name="emblem/special/sticker_386" xml:space="preserve">
+    <value>Winner-2018</value>
+  </data>
+  <data name="emblem/special/sticker_387" xml:space="preserve">
+    <value>Forward-2018</value>
+  </data>
+  <data name="emblem/special/sticker_388" xml:space="preserve">
+    <value>Goalkeeper-2018</value>
+  </data>
+  <data name="emblem/special/sticker_389" xml:space="preserve">
+    <value>Football player-2018</value>
+  </data>
+  <data name="emblem/special/sticker_390" xml:space="preserve">
+    <value>Fan-2018</value>
+  </data>
+  <data name="emblem/special/sticker_391" xml:space="preserve">
+    <value>Fan-2018</value>
+  </data>
+  <data name="emblem/special/sticker_392" xml:space="preserve">
+    <value>Defender-2018</value>
+  </data>
+  <data name="emblem/special/sticker_393" xml:space="preserve">
+    <value>Midfield-2018</value>
+  </data>
+  <data name="emblem/special/sticker_394" xml:space="preserve">
+    <value>Striker-2018</value>
+  </data>
+  <data name="inscription/special/special_200" xml:space="preserve">
+    <value>Football-2018</value>
+  </data>
+  <data name="inscription/special/special_201" xml:space="preserve">
+    <value>Football-2018</value>
+  </data>
+  <data name="inscription/special/special_202" xml:space="preserve">
+    <value>Football-2018</value>
+  </data>
+  <data name="propertySheet/actionBtn/applyToAllMaps" xml:space="preserve">
+    <value>Apply for All Types of Maps</value>
+  </data>
+  <data name="propertySheet/actionBtn/applyToWholeTank" xml:space="preserve">
+    <value>Paint the Whole Vehicle</value>
+  </data>
+  <data name="propertySheet/actionBtn/cancel" xml:space="preserve">
+    <value>Remove From Vehicle</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/chassis" xml:space="preserve">
+    <value>Remove From Chassis</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/emblem" xml:space="preserve">
+    <value>Remove Emblem</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/gun" xml:space="preserve">
+    <value>Remove From Gun</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/hull" xml:space="preserve">
+    <value>Remove From Hull</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/inscription" xml:space="preserve">
+    <value>Remove Inscription</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/mask" xml:space="preserve">
+    <value>Remove From Mantlet</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/seasons" xml:space="preserve">
+    <value>Remove For All Maps</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/tank" xml:space="preserve">
+    <value>Remove From Vehicle</value>
+  </data>
+  <data name="propertySheet/actionBtn/remove/turret" xml:space="preserve">
+    <value>Remove From Turret</value>
+  </data>
+  <data name="propertySheet/actionBtn/removeStyle" xml:space="preserve">
+    <value>Remove Style</value>
+  </data>
+  <data name="propertySheet/choose/camouflage" xml:space="preserve">
+    <value>Select Camouflage</value>
+  </data>
+  <data name="propertySheet/choose/emblem" xml:space="preserve">
+    <value>Select Emblem</value>
+  </data>
+  <data name="propertySheet/choose/inscription" xml:space="preserve">
+    <value>Select Inscription</value>
+  </data>
+  <data name="propertySheet/choose/modification" xml:space="preserve">
+    <value>Select Effect</value>
+  </data>
+  <data name="propertySheet/choose/paint" xml:space="preserve">
+    <value>Select Paint</value>
+  </data>
+  <data name="propertySheet/choose/style" xml:space="preserve">
+    <value>Select Style</value>
+  </data>
+  <data name="propertySheet/description" xml:space="preserve">
+    <value>%(itemType)s %(itemName)s</value>
+  </data>
+  <data name="propertySheet/elementType/all" xml:space="preserve">
+    <value>All Vehicle</value>
+  </data>
+  <data name="propertySheet/elementType/chassis" xml:space="preserve">
+    <value>Suspension</value>
+  </data>
+  <data name="propertySheet/elementType/emblem" xml:space="preserve">
+    <value>Emblem Slot</value>
+  </data>
+  <data name="propertySheet/elementType/gun" xml:space="preserve">
+    <value>Gun</value>
+  </data>
+  <data name="propertySheet/elementType/hull" xml:space="preserve">
+    <value>Hull</value>
+  </data>
+  <data name="propertySheet/elementType/inscription" xml:space="preserve">
+    <value>Inscription Slot</value>
+  </data>
+  <data name="propertySheet/elementType/mask" xml:space="preserve">
+    <value>Mantlet</value>
+  </data>
+  <data name="propertySheet/elementType/turret" xml:space="preserve">
+    <value>Turret</value>
+  </data>
+  <data name="propertySheet/map/desert" xml:space="preserve">
+    <value>Desert Map</value>
+  </data>
+  <data name="propertySheet/map/summer" xml:space="preserve">
+    <value>Summer Map</value>
+  </data>
+  <data name="propertySheet/map/winter" xml:space="preserve">
+    <value>Winter Map</value>
+  </data>
+  <data name="propertySheet/title/allMaps" xml:space="preserve">
+    <value>Applied for All Maps</value>
+  </data>
+  <data name="propertySheet/title/allTankPainted" xml:space="preserve">
+    <value>All Vehicle Painted</value>
+  </data>
+  <data name="propertySheet/title/appliedTo" xml:space="preserve">
+    <value>Applied to: %(elementType)s</value>
+  </data>
+  <data name="propertySheet/title/appliedToMap" xml:space="preserve">
+    <value>Applied for: %(mapType)s</value>
+  </data>
+  <data name="propertySheet/title/color" xml:space="preserve">
+    <value>Color Pattern</value>
+  </data>
+  <data name="propertySheet/title/remove/camouflage" xml:space="preserve">
+    <value>Remove Camouflage</value>
+  </data>
+  <data name="propertySheet/title/remove/emblem" xml:space="preserve">
+    <value>Remove Emblem</value>
+  </data>
+  <data name="propertySheet/title/remove/inscription" xml:space="preserve">
+    <value>Remove Inscription</value>
+  </data>
+  <data name="propertySheet/title/remove/modification" xml:space="preserve">
+    <value>Remove Effect</value>
+  </data>
+  <data name="propertySheet/title/remove/paint" xml:space="preserve">
+    <value>Remove Paint</value>
+  </data>
+  <data name="propertySheet/title/scale" xml:space="preserve">
+    <value>Pattern Scaling</value>
+  </data>
+  <data name="season/selection/mapName/desert" xml:space="preserve">
+    <value>desert maps</value>
+  </data>
+  <data name="season/selection/mapName/summer" xml:space="preserve">
+    <value>summer maps</value>
+  </data>
+  <data name="season/selection/mapName/winter" xml:space="preserve">
+    <value>winter maps</value>
+  </data>
+  <data name="season/selection/selected/desert" xml:space="preserve">
+    <value>DESERT MAP</value>
+  </data>
+  <data name="season/selection/selected/summer" xml:space="preserve">
+    <value>SUMMER MAP</value>
+  </data>
+  <data name="season/selection/selected/winter" xml:space="preserve">
+    <value>WINTER MAP</value>
+  </data>
+  <data name="season/selection/tooltip" xml:space="preserve">
+    <value>The list includes all customization elements applied to the vehicle for %(mapName)s</value>
+  </data>
+  <data name="special_style/football_4sale1" xml:space="preserve">
+    <value>Goalkeeper-2018</value>
+  </data>
+  <data name="special_style/football_4sale2" xml:space="preserve">
+    <value>Forward-2018</value>
+  </data>
+  <data name="special_style/football_aces1" xml:space="preserve">
+    <value>Winner: type 1</value>
+  </data>
+  <data name="special_style/football_aces2" xml:space="preserve">
+    <value>Winner: type 2</value>
+  </data>
+  <data name="special_style/football_aces3" xml:space="preserve">
+    <value>Winner: type 3</value>
+  </data>
+  <data name="special_style/football_aces4" xml:space="preserve">
+    <value>Winner: type 4</value>
+  </data>
+  <data name="special_style/football_gift" xml:space="preserve">
+    <value>Fan-2018</value>
+  </data>
+  <data name="special_style/football_meta" xml:space="preserve">
+    <value>Football player-2018</value>
+  </data>
+  <data name="special_style/football_otms" xml:space="preserve">
+    <value>Champion-2018</value>
+  </data>
+  <data name="special_style/football_tms1" xml:space="preserve">
+    <value>Striker: type 1</value>
+  </data>
+  <data name="special_style/football_tms2" xml:space="preserve">
+    <value>Striker: type 2</value>
+  </data>
+  <data name="special_style/football_tms3" xml:space="preserve">
+    <value>Striker: type 3</value>
+  </data>
+  <data name="special_style/football_tms4" xml:space="preserve">
+    <value>Striker: type 4</value>
+  </data>
+  <data name="styles/main_styles" xml:space="preserve">
+    <value>Primary</value>
+  </data>
+  <data name="styles/rented_styles" xml:space="preserve">
+    <value>Rental</value>
+  </data>
+  <data name="styles/special_styles" xml:space="preserve">
+    <value>Special</value>
   </data>
 </root>

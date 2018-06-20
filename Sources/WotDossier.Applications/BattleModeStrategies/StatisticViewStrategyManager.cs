@@ -57,6 +57,11 @@ namespace WotDossier.Applications.BattleModeStrategies
             {
                 return new GrandBattleStatisticViewStrategy(dossierRepository);
             }
+
+            if (randomCompany == BattleMode.EpicBattle)
+            {
+                return new EpicBattleStatisticViewStrategy(dossierRepository);
+            }
             return null;
         }
     }

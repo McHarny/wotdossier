@@ -33,10 +33,6 @@
             <TabItem TabIndex="0" Header="{x:Static resources:Resources.Replay_Tab_Header_BattleSimulator}">
                 <replay:Viewer HorizontalAlignment="Stretch"></replay:Viewer>
             </TabItem>
-            <!--Replay rawData-->
-            <TabItem TabIndex="0" Header="Raw">
-                <replay:RawData HorizontalAlignment="Stretch"></replay:RawData>
-            </TabItem>
         </TabControl>
         
         <Button HorizontalAlignment="Right" VerticalAlignment="Top" Margin="2"

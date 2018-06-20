@@ -1057,7 +1057,7 @@
     <value>Škoda T-15</value>
   </data>
   <data name="Somua_S-40" xml:space="preserve">
-    <value>Somua S-40</value>
+    <value>Somua S40</value>
   </data>
   <data name="Somuaturm" xml:space="preserve">
     <value>Pz.Kpfw. S35 739 (f)</value>
@@ -2527,7 +2527,7 @@ Ausf. K</value>
     <value>Aufklärungspanzer Panther</value>
   </data>
   <data name="Auf_Panther_descr" xml:space="preserve">
-    <value>Planned heavy reconnaissance vehicle. The plans called for using the Panther hull in order to facilitate rapid mass production. The vehicle was to feature the Leopard turret with a gun not longer than the tank's hull, which was to ensure maneuverability in forested terrain. No prototypes were built.</value>
+    <value>A project for a heavy reconnaissance vehicle based on the Panther tank. The use of the hull and chassis of the existing tank would have significantly facilitated the mass production of the new vehicles; a smaller turret would have decreased the weight and improved the maneuverability of the vehicle. However, the project was discontinued at a development stage.</value>
   </data>
   <data name="Auf_Panther_short" xml:space="preserve">
     <value>Aufkl.Panther</value>
@@ -3219,7 +3219,7 @@ TD 103 P</value>
     <value>Spähpanzer Ru 251</value>
   </data>
   <data name="G103_RU_251_descr" xml:space="preserve">
-    <value>The vehicle was developed on the basis of the Kanonenjagdpanzer 4-5 tank destroyer by the Henschel company in 1964. The tank was planned to replace the obsolete M41 Walker Bulldog vehicles used by the reconnaissance battalions of the armored divisions in the German Army. The tank never saw mass production, but some technical innovations were applied later in the development of other vehicles. The total number of prototypes built is unknown.</value>
+    <value>The vehicle was based on the Kanonenjagdpanzer 4-5 tank destroyer by the Henschel company in 1964. The tank was planned to replace the obsolete M41 Walker Bulldog vehicles used by the reconnaissance battalions of the armored divisions in the German Army. The tank never saw mass production, but some technical innovations were applied later in the development of other vehicles. The total number of prototypes built is unknown.</value>
   </data>
   <data name="G103_RU_251_short" xml:space="preserve">
     <value>Ru 251</value>
@@ -4292,7 +4292,7 @@ TRM P45</value>
     <value>VK 168.01 (P)</value>
   </data>
   <data name="G138_VK168_02_descr" xml:space="preserve">
-    <value>In the summer of 1942, Porsche received an order for a breakthrough vehicle with the most powerful armament and thickest armor possible for such a class. The Typ 205 (Oktober) was a further development of the Typ 205 Mäuschen project. The main difference was in the frontal placement of the turret. Existed only in blueprints.</value>
+    <value>In the summer of 1942, Porsche received an order for a breakthrough vehicle with the most powerful armament and thickest armor possible for such a class. VK 168.01 was a further development of the Mäuschen project. The main difference was in the frontal placement of the turret. Existed only in blueprints.</value>
   </data>
   <data name="G138_VK168_02_short" xml:space="preserve">
     <value>VK 168.01 P</value>
@@ -4365,5 +4365,51 @@ TRM P45</value>
   </data>
   <data name="Leviathan_Mk1_Engine_short" xml:space="preserve">
     <value>Engine</value>
+  </data>
+  <data name="APCNR1945" xml:space="preserve">
+    <value>Pzgr. 43/44</value>
+  </data>
+  <data name="APCNRHE1945" xml:space="preserve">
+    <value>Sgrgr. 43/44</value>
+  </data>
+  <data name="Chassis_G138_VK168_02_Mauerbrecher" xml:space="preserve">
+    <value>VK 168.01 (M)</value>
+  </data>
+  <data name="Chassis_G85_Aufklarungspanzer_V" xml:space="preserve">
+    <value>Aufklärungspanzer V</value>
+  </data>
+  <data name="G138_VK168_02_Mauerbrecher" xml:space="preserve">
+    <value>VK 168.01 Mauerbrecher</value>
+  </data>
+  <data name="G138_VK168_02_Mauerbrecher_descr" xml:space="preserve">
+    <value>In the summer of 1942, Porsche received an order for a breakthrough vehicle with the most powerful armament and thickest armor possible for such a class. VK 168.01 was a further development of the Mäuschen project. The main difference was in the frontal placement of the turret. Existed only in blueprints.</value>
+  </data>
+  <data name="G138_VK168_02_Mauerbrecher_short" xml:space="preserve">
+    <value>Mauerbrecher</value>
+  </data>
+  <data name="G85_Aufklarungspanzer_V" xml:space="preserve">
+    <value>Aufklärungspanzer V</value>
+  </data>
+  <data name="G85_Aufklarungspanzer_V_descr" xml:space="preserve">
+    <value>A project for a heavy reconnaissance vehicle based on the Panther tank. The use of the hull and chassis of the existing tank would have significantly facilitated the mass production of the new vehicles; a smaller turret would have decreased the weight and improved the maneuverability of the vehicle. However, the project was discontinued at a development stage.</value>
+  </data>
+  <data name="G85_Aufklarungspanzer_V_short" xml:space="preserve">
+    <value>Aufkl.Pz. V</value>
+  </data>
+  <data name="Maybach_HL_234_TRM_P45_Leicht" xml:space="preserve">
+    <value>Maybach HL 295 Ausf. A</value>
+  </data>
+  <data name="Turret_1_G138_VK168_02_Mauerbrecher" xml:space="preserve">
+    <value>VK 168.01 (M)</value>
+  </data>
+  <data name="Turret_1_G85_Aufklarungspanzer_V" xml:space="preserve">
+    <value>Aufklärungspanzer V</value>
+  </data>
+  <data name="_75mm_Waffe0725_1944" xml:space="preserve">
+    <value>7,5/5,5 cm Kw.K. 44 L/53</value>
+  </data>
+  <data name="Maybach_HL_234_TRM_P45_Leicht_short" xml:space="preserve">
+    <value>Maybach HL 295
+Ausf. A</value>
   </data>
 </root>
