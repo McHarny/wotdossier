@@ -209,7 +209,7 @@
   <data name="enhancedSuspension/descr" xml:space="preserve">
     <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
 {colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
+{colorTagOpen}-50%{colorTagClose} к урону, передаваемому корпусу через ходовую при падении</value>
   </data>
   <data name="enhancedSuspension_Christie/name" xml:space="preserve">
     <value>Усиленная подвеска Кристи</value>
@@ -512,7 +512,7 @@
     <value>?empty?</value>
   </data>
   <data name="gasoline100/restriction" xml:space="preserve">
-    <value>Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Польши, Италии.</value>
+    <value>Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Италии, Польши.</value>
   </data>
   <data name="gasoline105/always" xml:space="preserve">
     <value>+10% к мощности двигателя и скорости вращения башни. Расходуется за один бой.</value>
@@ -521,7 +521,7 @@
     <value>?empty?</value>
   </data>
   <data name="gasoline105/restriction" xml:space="preserve">
-    <value>Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Польши, Италии.</value>
+    <value>Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Италии, Польши.</value>
   </data>
   <data name="handExtinguishers/always" xml:space="preserve">
     <value>?empty?</value>
@@ -618,7 +618,7 @@
     <value>?empty?</value>
   </data>
   <data name="smallMedkit/onUse" xml:space="preserve">
-    <value>Лечение раненого члена экипажа. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+    <value>Лечение раненого члена экипажа и снятие эффекта оглушения. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
   </data>
   <data name="smallMedkit/restriction" xml:space="preserve">
     <value>?empty?</value>
@@ -705,7 +705,7 @@
     <value>Лечение раненого члена экипажа и снятие эффекта оглушения. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
   </data>
   <data name="smallMedkit/stunDisabled/descr" xml:space="preserve">
-    <value>Лечение раненого члена экипажа.</value>
+    <value>Лечение раненого члена экипажа и снятие эффекта оглушения.</value>
   </data>
   <data name="aimingStabilizerBattleBooster/descr" xml:space="preserve">
     <value>%s от разброса при движении и повороте башни при установленном оборудовании «Стабилизатор вертикальной наводки» (Mk1 и Mk2) или «Комплекс стабилизационного оборудования».</value>
@@ -1013,5 +1013,347 @@
   </data>
   <data name="lastchance/name" xml:space="preserve">
     <value>Тузы в рукавах</value>
+  </data>
+  <data name="aimingStabilizer/long_special" xml:space="preserve">
+    <value>Уменьшение разброса — важный фактор, ведь чем меньше будет изначальный разброс орудия, тем с меньшего по диаметру круга начнётся сведение, а значит, оно пройдёт быстрее. Кроме того, неподготовленный выстрел (выстрел без сведения или с ходу) также будет точнее.</value>
+  </data>
+  <data name="aimingStabilizer/short_special" xml:space="preserve">
+    <value>{colorTagOpen}-20%{colorTagClose} от разброса при движении и повороте башни</value>
+  </data>
+  <data name="aimingStabilizerBattleBooster/long_special" xml:space="preserve">
+    <value>Расходуется за один бой. Усиливает эффект оборудования «Стабилизатор вертикальной наводки» (Mk1 и Мk2) или «Комплекс стабилизационного оборудования». Для установки инструкции данное оборудование должно быть на технике.</value>
+  </data>
+  <data name="aimingStabilizerBattleBooster/short_special" xml:space="preserve">
+    <value>Усиливает эффект от стабилизатора</value>
+  </data>
+  <data name="antifragmentationLining/long_special" xml:space="preserve">
+    <value>Абсорбция — поглощение; проще говоря, подбой уменьшает урон от столкновений с другой техникой и от попаданий по машине осколочно-фугасных снарядов. Подбой пригодится на тяжёлых танках ближнего боя с крепкой бронёй и мощным таранным потенциалом.</value>
+  </data>
+  <data name="antifragmentationLining/short_special" xml:space="preserve">
+    <value>Защищает от ОФ-снарядов и ранений экипажа</value>
+  </data>
+  <data name="autoExtinguishers/long_special" xml:space="preserve">
+    <value>Автоматически тушит возгорание. Также пассивно снижает шанс возгорания. Не требует ручной активации. Подходит для всех типов техники любой нации.</value>
+  </data>
+  <data name="autoExtinguishers/short_special" xml:space="preserve">
+    <value>Автоматически тушит пожар</value>
+  </data>
+  <data name="camouflageBattleBooster/long_special" xml:space="preserve">
+    <value>Умение «Маскировка» увеличивает незаметность как подвижной, так и неподвижной машины. Расходуется за один бой. Если умение изучено, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего умения — полностью его заменяет.</value>
+  </data>
+  <data name="camouflageBattleBooster/short_special" xml:space="preserve">
+    <value>Даёт умение «Маскировка» или усиливает его</value>
+  </data>
+  <data name="camouflageNet/long_special" xml:space="preserve">
+    <value>Сеть полезна для малозаметных машин: небольших лёгких танков, САУ и ПТ-САУ с низким силуэтом. Она усиливает действие «Маскировки», поэтому лучше применять их в связке. Активируется на неподвижной машине.</value>
+  </data>
+  <data name="camouflageNet/short_special" xml:space="preserve">
+    <value>Увеличивает незаметность машины</value>
+  </data>
+  <data name="carbonDioxide/long_special" xml:space="preserve">
+    <value>Данный вид оборудования может быть полезен на технике, которая из-за особенностей конструкции склонна к возгораниям. Эта проблема наиболее актуальна для машин серии КВ, советских средних танков Х уровня, а также некоторых других.</value>
+  </data>
+  <data name="carbonDioxide/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+50%{colorTagClose} к прочности баков</value>
+  </data>
+  <data name="chocolate/long_special" xml:space="preserve">
+    <value>Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для немецкой техники.</value>
+  </data>
+  <data name="chocolate/short_special" xml:space="preserve">
+    <value>Повышает эффективность немецких экипажей</value>
+  </data>
+  <data name="coatedOptics/long_special" xml:space="preserve">
+    <value>В отличие от стереотрубы, просветлённая оптика даёт меньшую прибавку, но зато работает постоянно, а не только после остановки машины. В связи с этим оптика нужна машинам, которые активно действуют на поле боя, в первую очередь — лёгким и средним танкам.</value>
+  </data>
+  <data name="coatedOptics/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к радиусу обзора</value>
+  </data>
+  <data name="coatedOpticsBattleBooster/long_special" xml:space="preserve">
+    <value>Расходуется за один бой. Усиливает эффект оборудования «Просветлённая оптика» или «Юстированная оптика». Для установки инструкции данное оборудование должно быть на технике.</value>
+  </data>
+  <data name="coatedOpticsBattleBooster/short_special" xml:space="preserve">
+    <value>Усиливает эффект от оптики</value>
+  </data>
+  <data name="cocacola/long_special" xml:space="preserve">
+    <value>Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для американской техники.</value>
+  </data>
+  <data name="cocacola/short_special" xml:space="preserve">
+    <value>Повышает эффективность американских экипажей</value>
+  </data>
+  <data name="deluxAimingStabilizer/long_special" xml:space="preserve">
+    <value>Усовершенствованная версия стабилизатора вертикальной наводки ({colorTagOpen}-20%{colorTagClose} от разброса при движении и повороте башни), имеет больший эффект: {colorTagOpen}-25%{colorTagClose} от разброса при движении и повороте башни. Подходит ко всем нациям и типам техники, может быть демонтирован только за боны.</value>
+  </data>
+  <data name="deluxAimingStabilizer/short_special" xml:space="preserve">
+    <value>{colorTagOpen}-25%{colorTagClose} от разброса при движении и повороте башни</value>
+  </data>
+  <data name="deluxCoatedOptics/long_special" xml:space="preserve">
+    <value>Усовершенствованная версия просветлённой оптики ({colorTagOpen}+10%{colorTagClose} к радиусу обзора), имеет больший эффект: {colorTagOpen}+12,5%{colorTagClose} к радиусу обзора. Подходит ко всем нациям и типам техники, может быть демонтирована только за боны.</value>
+  </data>
+  <data name="deluxCoatedOptics/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+12,5%{colorTagClose} к радиусу обзора</value>
+  </data>
+  <data name="deluxEnhancedAimDrives/long_special" xml:space="preserve">
+    <value>Усовершенствованная версия усиленных приводов наводки ({colorTagOpen}+10%{colorTagClose} к скорости сведения), имеет больший эффект: {colorTagOpen}+12,5%{colorTagClose} к скорости сведения. Подходят ко всем нациям и типам техники, могут быть демонтированы только за боны.</value>
+  </data>
+  <data name="deluxEnhancedAimDrives/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+12,5%{colorTagClose} к скорости сведения</value>
+  </data>
+  <data name="deluxImprovedVentilation/long_special" xml:space="preserve">
+    <value>Усовершенствованная версия вентиляции ({colorTagOpen}+5%{colorTagClose} ко всем умениям экипажа), имеет больший эффект: {colorTagOpen}+7,5%{colorTagClose} ко всем умениям экипажа. Подходит ко всем нациям и типам техники, может быть демонтирована только за боны.</value>
+  </data>
+  <data name="deluxImprovedVentilation/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+7,5%{colorTagClose} ко всем умениям экипажа</value>
+  </data>
+  <data name="deluxRammer/long_special" xml:space="preserve">
+    <value>Усовершенствованная версия досылателя ({colorTagOpen}-10%{colorTagClose} от времени заряжания), имеет больший эффект: {colorTagOpen}-12,5%{colorTagClose} от времени заряжания. Подходит ко всем нациям и типам техники, может быть демонтирована только за боны.</value>
+  </data>
+  <data name="deluxRammer/short_special" xml:space="preserve">
+    <value>{colorTagOpen}-12,5%{colorTagClose} от времени заряжания</value>
+  </data>
+  <data name="deluxToolbox/long_special" xml:space="preserve">
+    <value>Аналог ящика с инструментами ({colorTagOpen}+25%{colorTagClose} к скорости ремонта), имеет больший эффект: {colorTagOpen}+40%{colorTagClose} к скорости ремонта. Подходит ко всем нациям и типам техники, может быть демонтирован только за боны.</value>
+  </data>
+  <data name="deluxToolbox/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+40%{colorTagClose} к скорости ремонта</value>
+  </data>
+  <data name="enhancedAimDrives/long_special" xml:space="preserve">
+    <value>Ускорение сведения уменьшает время, затрачиваемое на прицеливание, а значит машина, оборудованная усиленными приводами наводки, стреляет точнее (и чаще, ведь перезарядка иногда проходит быстрее, чем сведение).</value>
+  </data>
+  <data name="enhancedAimDrives/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к скорости сведения</value>
+  </data>
+  <data name="enhancedAimDrivesBattleBooster/long_special" xml:space="preserve">
+    <value>Расходуется за один бой. Усиливает эффект оборудования «Усиленные приводы наводки» или «Износостойкие приводы наводки». Для установки инструкции данное оборудование должно быть на технике.</value>
+  </data>
+  <data name="enhancedAimDrivesBattleBooster/short_special" xml:space="preserve">
+    <value>Усиливает эффект от приводов наводки</value>
+  </data>
+  <data name="enhancedSuspension/long_special" xml:space="preserve">
+    <value>Этот вид оборудования может называться по-разному: «Усиленные торсионы», «Усиленные рессоры» и так далее. Увеличение грузоподъёмности полезно для машин в базовой комплектации, у которых ещё не исследована ходовая, но исследованы другие приоритетные для установки модули.</value>
+  </data>
+  <data name="enhancedSuspension/short_special" xml:space="preserve">
+    <value>Увеличивает грузоподъёмность</value>
+  </data>
+  <data name="filterCyclone/long_special" xml:space="preserve">
+    <value>Фильтр доступен только для техники СССР. Предполагается для использования на машинах, которым часто повреждают двигатель. Однако помните, что лучшая защита двигателя — не подставлять корму (а двигатель чаще всего именно в корме) под выстрелы противника.</value>
+  </data>
+  <data name="filterCyclone/short_special" xml:space="preserve">
+    <value>Увеличивает защищённость двигателя</value>
+  </data>
+  <data name="fireFightingBattleBooster/long_special" xml:space="preserve">
+    <value>Умение «Пожаротушение» ускоряет тушение пожара в собственной машине. Расходуется за один бой. Если умение изучено, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего умения — полностью его заменяет.</value>
+  </data>
+  <data name="fireFightingBattleBooster/short_special" xml:space="preserve">
+    <value>Даёт умение «Пожаротушение» или усиливает его</value>
+  </data>
+  <data name="gasoline100/long_special" xml:space="preserve">
+    <value>Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя и к скорости поворота башни на один бой. Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для немецких, американских, французских и британских машин с бензиновыми двигателями.</value>
+  </data>
+  <data name="gasoline100/short_special" xml:space="preserve">
+    <value>Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя</value>
+  </data>
+  <data name="gasoline105/long_special" xml:space="preserve">
+    <value>Добавляет {colorTagOpen}10%{colorTagClose} к мощности двигателя и к скорости поворота башни на один бой. Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для немецких, американских, французских и британских машин.</value>
+  </data>
+  <data name="gasoline105/short_special" xml:space="preserve">
+    <value>Добавляет {colorTagOpen}10%{colorTagClose} к мощности двигателя</value>
+  </data>
+  <data name="grousers/long_special" xml:space="preserve">
+    <value>Специализированный вид оборудования; доступен лишь для некоторых, не самых распространённых немецких и советских машин. В связке с умением «Король бездорожья», изученным у мехвода, даёт ощутимую прибавку к подвижности по болотам, песку, снегу.</value>
+  </data>
+  <data name="grousers/short_special" xml:space="preserve">
+    <value>Улучшает проходимость по вязким грунтам</value>
+  </data>
+  <data name="handExtinguishers/long_special" xml:space="preserve">
+    <value>Позволяет потушить возгорание в собственной машине. Требует ручной активации. Подходит для всех типов техники любой нации. Списывается по окончании боя, если был применён.</value>
+  </data>
+  <data name="handExtinguishers/short_special" xml:space="preserve">
+    <value>Тушит пожар</value>
+  </data>
+  <data name="hotCoffee/long_special" xml:space="preserve">
+    <value>Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для французской техники.</value>
+  </data>
+  <data name="hotCoffee/short_special" xml:space="preserve">
+    <value>Повышает эффективность французских экипажей</value>
+  </data>
+  <data name="improvedVentilation/long_special" xml:space="preserve">
+    <value>Улучшает многие показатели машины: обзор, скорострельность, время сведения, динамические характеристики и так далее. Однако сама прибавка очень мала и будет заметна лишь в связке с навыком «Боевое братство», который изучен у экипажа.</value>
+  </data>
+  <data name="improvedVentilation/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+5%{colorTagClose} ко всем умениям экипажа</value>
+  </data>
+  <data name="improvedVentilationBattleBooster/long_special" xml:space="preserve">
+    <value>Расходуется за один бой. Усиливает эффект оборудования «Улучшенная вентиляция» (любого класса) или «Система отвода пороховых газов». Для установки инструкции данное оборудование должно быть на технике.</value>
+  </data>
+  <data name="improvedVentilationBattleBooster/short_special" xml:space="preserve">
+    <value>Усиливает эффект от вентиляции</value>
+  </data>
+  <data name="largeMedkit/long_special" xml:space="preserve">
+    <value>Позволяет вернуть в строй всех раненых членов экипажа за раз. Также пассивно улучшает защиту экипажа от ранений. Требует ручной активации. Подходит для всех типов техники любой нации.</value>
+  </data>
+  <data name="largeMedkit/short_special" xml:space="preserve">
+    <value>Лечит всех членов экипажа</value>
+  </data>
+  <data name="largeRepairkit/long_special" xml:space="preserve">
+    <value>Позволяет восстановить все повреждённые модули за раз. Также пассивно увеличивает скорость ремонта. Требует ручной активации. Подходит для всех типов техники любой нации.</value>
+  </data>
+  <data name="largeRepairkit/short_special" xml:space="preserve">
+    <value>Чинит все модули</value>
+  </data>
+  <data name="lastEffortBattleBooster/long_special" xml:space="preserve">
+    <value>Навык «Из последних сил» позволяет передавать разведданные в течение дополнительных 2 секунд после уничтожения машины. Расходуется за один бой. Если навык изучен, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего навыка — полностью его заменяет.</value>
+  </data>
+  <data name="lastEffortBattleBooster/short_special" xml:space="preserve">
+    <value>Даёт навык «Из последних сил» или усиливает его</value>
+  </data>
+  <data name="lendLeaseOil/long_special" xml:space="preserve">
+    <value>Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя и к скорости поворота башни на один бой. Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для советской техники.</value>
+  </data>
+  <data name="lendLeaseOil/short_special" xml:space="preserve">
+    <value>Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя</value>
+  </data>
+  <data name="pedantBattleBooster/long_special" xml:space="preserve">
+    <value>Навык «Бесконтактная боеукладка» добавляет прочности штатной боеукладке. Расходуется за один бой. Если навык изучен, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего навыка — полностью его заменяет.</value>
+  </data>
+  <data name="pedantBattleBooster/short_special" xml:space="preserve">
+    <value>Даёт навык «Бесконтактная боеукладка» или усиливает его</value>
+  </data>
+  <data name="qualityOil/long_special" xml:space="preserve">
+    <value>Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя и к скорости поворота башни на один бой. Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для китайской техники.</value>
+  </data>
+  <data name="qualityOil/short_special" xml:space="preserve">
+    <value>Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя</value>
+  </data>
+  <data name="rammer/long_special" xml:space="preserve">
+    <value>Скорострельность является важнейшей боевой характеристикой. Этот вид оборудования является одним из самых полезных в игре и рекомендован к установке на любую технику. На большую часть машин с магазинной системой заряжания досылатель установить нельзя.</value>
+  </data>
+  <data name="rammer/short_special" xml:space="preserve">
+    <value>{colorTagOpen}-10%{colorTagClose} от времени заряжания</value>
+  </data>
+  <data name="rammerBattleBooster/long_special" xml:space="preserve">
+    <value>Расходуется за один бой. Усиливает эффект оборудования «Досылатель» (любого типа орудия и калибра) или «Экспериментальная cистема заряжания». Для установки инструкции данное оборудование должно быть на технике.</value>
+  </data>
+  <data name="rammerBattleBooster/short_special" xml:space="preserve">
+    <value>Усиливает эффект от досылателя</value>
+  </data>
+  <data name="rancorousBattleBooster/long_special" xml:space="preserve">
+    <value>Навык «Злопамятный» позволяет наблюдать машину противника дополнительные 2 секунды после её исчезновения с радаров. Расходуется за один бой. Если навык изучен, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего навыка — полностью его заменяет.</value>
+  </data>
+  <data name="rancorousBattleBooster/short_special" xml:space="preserve">
+    <value>Даёт навык «Злопамятный» или усиливает его</value>
+  </data>
+  <data name="ration/long_special" xml:space="preserve">
+    <value>Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для советской техники.</value>
+  </data>
+  <data name="ration/short_special" xml:space="preserve">
+    <value>Повышает эффективность советских экипажей</value>
+  </data>
+  <data name="ration_china/long_special" xml:space="preserve">
+    <value>Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для китайской техники.</value>
+  </data>
+  <data name="ration_china/short_special" xml:space="preserve">
+    <value>Повышает эффективность китайских экипажей</value>
+  </data>
+  <data name="ration_czech/long_special" xml:space="preserve">
+    <value>Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для чехословацкой техники.</value>
+  </data>
+  <data name="ration_czech/short_special" xml:space="preserve">
+    <value>Повышает эффективность чехословацких экипажей</value>
+  </data>
+  <data name="ration_italy/long_special" xml:space="preserve">
+    <value>Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для итальянской техники.</value>
+  </data>
+  <data name="ration_italy/short_special" xml:space="preserve">
+    <value>Повышает эффективность итальянских экипажей</value>
+  </data>
+  <data name="ration_japan/long_special" xml:space="preserve">
+    <value>Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для японской техники.</value>
+  </data>
+  <data name="ration_japan/short_special" xml:space="preserve">
+    <value>Повышает эффективность японских экипажей</value>
+  </data>
+  <data name="ration_poland/long_special" xml:space="preserve">
+    <value>Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для польской техники.</value>
+  </data>
+  <data name="ration_poland/short_special" xml:space="preserve">
+    <value>Повышает эффективность польских экипажей</value>
+  </data>
+  <data name="ration_sweden/long_special" xml:space="preserve">
+    <value>Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для шведской техники.</value>
+  </data>
+  <data name="ration_sweden/short_special" xml:space="preserve">
+    <value>Повышает эффективность шведских экипажей</value>
+  </data>
+  <data name="ration_uk/long_special" xml:space="preserve">
+    <value>Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для британской техники.</value>
+  </data>
+  <data name="ration_uk/short_special" xml:space="preserve">
+    <value>Повышает эффективность британских экипажей</value>
+  </data>
+  <data name="removedRpmLimiter/long_special" xml:space="preserve">
+    <value>Повышает мощность двигателя на {colorTagOpen}10%{colorTagClose}, но при постоянном использовании повреждает его. Можно включать и отключать многократно в течение боя. Не расходуется. Подходит только для советской и китайской техники.</value>
+  </data>
+  <data name="removedRpmLimiter/short_special" xml:space="preserve">
+    <value>Добавляет {colorTagOpen}10%{colorTagClose} к мощности двигателя, но повреждает его</value>
+  </data>
+  <data name="sixthSenseBattleBooster/long_special" xml:space="preserve">
+    <value>Навык «Шестое чувство» позволяет определить, обнаружена ли ваша машина противником. Расходуется за один бой. Если навык изучен, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего навыка — полностью его заменяет.</value>
+  </data>
+  <data name="sixthSenseBattleBooster/short_special" xml:space="preserve">
+    <value>Даёт навык «Шестое чувство» или усиливает его</value>
+  </data>
+  <data name="smallMedkit/long_special" xml:space="preserve">
+    <value>Позволяет вернуть в строй одного раненого члена экипажа и снять эффект оглушения. Требует ручной активации. Подходит для всех типов техники любой нации. Списывается по окончании боя, если была применена.</value>
+  </data>
+  <data name="smallMedkit/short_special" xml:space="preserve">
+    <value>Лечит одного члена экипажа и снимает оглушение</value>
+  </data>
+  <data name="smallRepairkit/long_special" xml:space="preserve">
+    <value>Позволяет отремонтировать один повреждённый модуль (например, орудие или двигатель) или две гусеницы. Требует ручной активации. Подходит для всех типов техники любой нации. Списывается по окончании боя, если был применён.</value>
+  </data>
+  <data name="smallRepairkit/short_special" xml:space="preserve">
+    <value>Ремонтирует один модуль</value>
+  </data>
+  <data name="smoothDrivingBattleBooster/long_special" xml:space="preserve">
+    <value>Умение «Плавный ход» уменьшает разброс орудия при стрельбе на ходу. Расходуется за один бой. Если умение изучено, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего умения — полностью его заменяет.</value>
+  </data>
+  <data name="smoothDrivingBattleBooster/short_special" xml:space="preserve">
+    <value>Даёт умение «Плавный ход» или усиливает его</value>
+  </data>
+  <data name="smoothTurretBattleBooster/long_special" xml:space="preserve">
+    <value>Умение «Плавный поворот башни» уменьшает разброс орудия при повороте башни. Расходуется за один бой. Если умение изучено, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего умения — полностью его заменяет.</value>
+  </data>
+  <data name="smoothTurretBattleBooster/short_special" xml:space="preserve">
+    <value>Даёт умение «Плавный поворот башни» или усиливает его</value>
+  </data>
+  <data name="stereoscope/long_special" xml:space="preserve">
+    <value>Хороший обзор — важное преимущество в игре. Этот вид оборудования полезен на всех видах техники, кроме САУ и машин ближнего боя. Наибольшую пользу от стереотрубы получат «засадные бойцы»: техника с низким силуэтом и точными орудиями. Активируется на неподвижной машине.</value>
+  </data>
+  <data name="stereoscope/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+25%{colorTagClose} к обзору из неподвижной машины</value>
+  </data>
+  <data name="toolbox/long_special" xml:space="preserve">
+    <value>Высокая скорость ремонта критически важна для выживания любой машины. Обездвиженный танк или ПТ-САУ является лёгкой мишенью для противника. Ящик с инструментами — хороший выбор для ТТ, СТ и ПТ-САУ, экипажи которых изучают ремонт.</value>
+  </data>
+  <data name="toolbox/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+25%{colorTagClose} к скорости ремонта</value>
+  </data>
+  <data name="toolboxBattleBooster/long_special" xml:space="preserve">
+    <value>Расходуется за один бой. Усиливает эффект оборудования «Ящик с инструментами» или «Расширенный набор ЗИП». Для установки инструкции данное оборудование должно быть на технике.</value>
+  </data>
+  <data name="toolboxBattleBooster/short_special" xml:space="preserve">
+    <value>Усиливает эффект от ящика с инструментами</value>
+  </data>
+  <data name="virtuosoBattleBooster/long_special" xml:space="preserve">
+    <value>Умение «Виртуоз» ускоряет поворот машины как на месте, так и в движении. Расходуется за один бой. Если умение изучено, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего умения — полностью его заменяет.</value>
+  </data>
+  <data name="virtuosoBattleBooster/short_special" xml:space="preserve">
+    <value>Даёт умение «Виртуоз» или усиливает его</value>
+  </data>
+  <data name="wetCombatPack/long_special" xml:space="preserve">
+    <value>Данный вид оборудования пригодится на машинах, боеукладка которых имеет невысокую прочность и поэтому склонна к детонации. Например, к ним относятся ИС-3, Type 59, Т-44, реже — T110E5 и ИС-7. На остальной технике боеукладка взрывается в единичных случаях.</value>
+  </data>
+  <data name="wetCombatPack/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+50%{colorTagClose} к прочности боеукладки</value>
   </data>
 </root>

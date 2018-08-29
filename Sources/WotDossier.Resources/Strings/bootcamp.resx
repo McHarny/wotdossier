@@ -1460,7 +1460,7 @@ Get back!</value>
     <value>Minimap</value>
   </data>
   <data name="prebattle/hint/modules" xml:space="preserve">
-    <value>Module Types</value>
+    <value>Modules</value>
   </data>
   <data name="prebattle/hint/penetration/chance" xml:space="preserve">
     <value>Chance of Penetration</value>

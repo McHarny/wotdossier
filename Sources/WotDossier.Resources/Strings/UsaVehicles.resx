@@ -592,7 +592,7 @@
     <value>M6D2</value>
   </data>
   <data name="M6_descr" xml:space="preserve">
-    <value>A variant of the heavy tank developed in the U.S. from May 1940. The vehicle featured a cast hull and hydromechanical suspension with a two-disc hydraulic converter. The vehicle was standardized on May 26, 1942. A total of 9 vehicles were manufactured (8 serial and 1 experimental). Never saw action.</value>
+    <value>A variant of the heavy tank developed in the U.S. from May 1940. This vehicle featured a cast hull and hydromechanical suspension with a two-disc hydraulic converter. The vehicle was standardized on May 26, 1942. A total of 9 vehicles were manufactured (8 serial and 1 experimental). Never saw action.</value>
   </data>
   <data name="M7D1" xml:space="preserve">
     <value>M7D1</value>
@@ -3341,5 +3341,53 @@ AV-1790-3 FL</value>
   </data>
   <data name="_90mm_Gun_M3E" xml:space="preserve">
     <value>90 mm Gun M3E</value>
+  </data>
+  <data name="A101_M56_long_special" xml:space="preserve">
+    <value>A great ambush tank destroyer featuring good concealment. Its great gun and arc of fire will come in handy against any opponent. However, stay away from close combat, this tank destroyer has literally no armoring.</value>
+  </data>
+  <data name="A101_M56_short_special" xml:space="preserve">
+    <value>Great gun, good concealment</value>
+  </data>
+  <data name="A63_M46_Patton_KR_long_special" xml:space="preserve">
+    <value>A medium tank that has a good, well-stabilized gun that will come in handy in any battle situation. This vehicle also features a significant HP pool, good view range, and decent gun depression angle.</value>
+  </data>
+  <data name="A63_M46_Patton_KR_short_special" xml:space="preserve">
+    <value>Decent gun depression angle and good view range</value>
+  </data>
+  <data name="M22_Locust_long_special" xml:space="preserve">
+    <value>An exceptionally dynamic and stealthy scout tank with a fine gun. This vehicle has practically no shortcomings, except for low ammo rack capacity.</value>
+  </data>
+  <data name="M22_Locust_short_special" xml:space="preserve">
+    <value>Great top speed and dynamics, good concealment</value>
+  </data>
+  <data name="M4A2E4_long_special" xml:space="preserve">
+    <value>This vehicle's top speed is higher than that of other Shermans, however its dynamics are a little poorer. At the same time, the frontal armor plate is capable of repelling a shell or two, and the wide tracks allow for crossing any soft terrain without losing much speed.</value>
+  </data>
+  <data name="M4A2E4_short_special" xml:space="preserve">
+    <value>Good frontal armoring and view range</value>
+  </data>
+  <data name="M6A2E1_long_special" xml:space="preserve">
+    <value>This heavy U.S. tank features reliable frontal armor. The high gun placement together with good elevation/depression angles allow for effective fire at weak spots on the hulls or turrets of enemy vehicles, while staying safe from return fire.</value>
+  </data>
+  <data name="M6A2E1_short_special" xml:space="preserve">
+    <value>Decent frontal armor, good depression/elevation angles</value>
+  </data>
+  <data name="T26_E4_SuperPershing_long_special" xml:space="preserve">
+    <value>This vehicle features great frontal armoring (and screens!) that repels many shots, and punches back using a gun that is great for its tier. This vehicle features mediocre mobility, so select an attack direction wisely.</value>
+  </data>
+  <data name="T26_E4_SuperPershing_short_special" xml:space="preserve">
+    <value>Accurate gun, great frontal armoring</value>
+  </data>
+  <data name="T2_lt_long_special" xml:space="preserve">
+    <value>A highly dynamic vehicle featuring an autoloader gun that will become a solid argument in many encounters. This vehicle is small, has great concealment, and will be a valuable addition to any team composition.</value>
+  </data>
+  <data name="T2_lt_short_special" xml:space="preserve">
+    <value>High rate of fire and good concealment</value>
+  </data>
+  <data name="T34_hvy_long_special" xml:space="preserve">
+    <value>A heavy tank with a well-armored turret and powerful gun that is capable of knocking down almost any opponent in your way. This vehicle will be most effective in positional close-range combat, if you find cover for the less-armored hull.</value>
+  </data>
+  <data name="T34_hvy_short_special" xml:space="preserve">
+    <value>High damage per shot and well-armored turret</value>
   </data>
 </root>

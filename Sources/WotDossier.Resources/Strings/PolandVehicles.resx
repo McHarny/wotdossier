@@ -189,4 +189,511 @@
   <data name="_122mm_OF-471" xml:space="preserve">
     <value>OF-471</value>
   </data>
+  <data name="Chassis_Pl01_TKS_20mm" xml:space="preserve">
+    <value>TKS z n.k.m. 20 mm wz. 38 FK-A</value>
+  </data>
+  <data name="Chassis_Pl05_50TP_Tyszkiewicza" xml:space="preserve">
+    <value>50TP Tyszkiewicza I</value>
+  </data>
+  <data name="Chassis_Pl05_50TP_Tyszkiewicza_2" xml:space="preserve">
+    <value>50TP Tyszkiewicza II</value>
+  </data>
+  <data name="Chassis_Pl06_10TP" xml:space="preserve">
+    <value>C.L.P.</value>
+  </data>
+  <data name="Chassis_Pl06_10TP_2" xml:space="preserve">
+    <value>10TP</value>
+  </data>
+  <data name="Chassis_Pl07_14TP" xml:space="preserve">
+    <value>C.L.P.</value>
+  </data>
+  <data name="Chassis_Pl07_14TP_2" xml:space="preserve">
+    <value>14TP</value>
+  </data>
+  <data name="Chassis_Pl08_50TP_prototyp" xml:space="preserve">
+    <value>50TP prototyp</value>
+  </data>
+  <data name="Chassis_Pl09_7TP" xml:space="preserve">
+    <value>7TP</value>
+  </data>
+  <data name="Chassis_Pl09_7TP_2" xml:space="preserve">
+    <value>7TP wz.39</value>
+  </data>
+  <data name="Chassis_Pl10_40TP_Habicha" xml:space="preserve">
+    <value>40TP Habicha I</value>
+  </data>
+  <data name="Chassis_Pl10_40TP_Habicha_2" xml:space="preserve">
+    <value>40TP Habicha II</value>
+  </data>
+  <data name="Chassis_Pl11_45TP_Habicha" xml:space="preserve">
+    <value>45TP Habicha I</value>
+  </data>
+  <data name="Chassis_Pl11_45TP_Habicha_2" xml:space="preserve">
+    <value>45TP Habicha II</value>
+  </data>
+  <data name="Chassis_Pl12_25TP_KSUST_II" xml:space="preserve">
+    <value>25TP KSUST I</value>
+  </data>
+  <data name="Chassis_Pl12_25TP_KSUST_II_2" xml:space="preserve">
+    <value>25TP KSUST II</value>
+  </data>
+  <data name="Chassis_Pl13_53TP_Markowskiego" xml:space="preserve">
+    <value>53TP Markowskiego I</value>
+  </data>
+  <data name="Chassis_Pl13_53TP_Markowskiego_2" xml:space="preserve">
+    <value>53TP Markowskiego II</value>
+  </data>
+  <data name="Chassis_Pl14_4TP" xml:space="preserve">
+    <value>4TP</value>
+  </data>
+  <data name="Chassis_Pl15_60TP_Lewandowskiego" xml:space="preserve">
+    <value>60TP Lewandowskiego</value>
+  </data>
+  <data name="J_V12" xml:space="preserve">
+    <value>American la France “J” V-12</value>
+  </data>
+  <data name="J_V12_M" xml:space="preserve">
+    <value>American la France “J” V-12M</value>
+  </data>
+  <data name="MT_50_T" xml:space="preserve">
+    <value>MT-50T</value>
+  </data>
+  <data name="MT_50_TM" xml:space="preserve">
+    <value>MT-50TM</value>
+  </data>
+  <data name="Maybach_HL_108" xml:space="preserve">
+    <value>Maybach HL 108</value>
+  </data>
+  <data name="Maybach_HL_108x2" xml:space="preserve">
+    <value>Maybach HL 108x2</value>
+  </data>
+  <data name="Maybach_HL_120" xml:space="preserve">
+    <value>Maybach HL 120</value>
+  </data>
+  <data name="Maybach_HL_120_TR" xml:space="preserve">
+    <value>Maybach HL 120 TR</value>
+  </data>
+  <data name="Maybach_HL_157" xml:space="preserve">
+    <value>Maybach HL 157</value>
+  </data>
+  <data name="Maybach_HL_157_P" xml:space="preserve">
+    <value>Maybach HL 157 P</value>
+  </data>
+  <data name="N2" xml:space="preserve">
+    <value>N2</value>
+  </data>
+  <data name="N2_C" xml:space="preserve">
+    <value>N2 C</value>
+  </data>
+  <data name="N2_L" xml:space="preserve">
+    <value>N2 L</value>
+  </data>
+  <data name="N2_M" xml:space="preserve">
+    <value>N2 M</value>
+  </data>
+  <data name="N2_S" xml:space="preserve">
+    <value>N2 S</value>
+  </data>
+  <data name="PLInz155" xml:space="preserve">
+    <value>PZInż. 155</value>
+  </data>
+  <data name="PLInz235" xml:space="preserve">
+    <value>PZInż. 235</value>
+  </data>
+  <data name="PLInz425" xml:space="preserve">
+    <value>PZInż.425</value>
+  </data>
+  <data name="PLInz_RWA" xml:space="preserve">
+    <value>PZInż R.W.A.</value>
+  </data>
+  <data name="Pl01_TKS_20mm" xml:space="preserve">
+    <value>TKS z n.k.m. 20 mm</value>
+  </data>
+  <data name="Pl01_TKS_20mm_descr" xml:space="preserve">
+    <value>Developed in 1933 as an upgraded version of the TK-3 tankette. In 1939, to increase fire power, 24 vehicles were re-equipped with the 20-mm automatic wz. 38 FK-A gun. These tankettes were used in action in autumn 1939.</value>
+  </data>
+  <data name="Pl01_TKS_20mm_short" xml:space="preserve">
+    <value>TKS 20</value>
+  </data>
+  <data name="Pl03_PzV_Poland_long_special" xml:space="preserve">
+    <value>A trophy that features all the advantages of the original German vehicle: accurate gun, high penetration value, decent gun depression angle and damage per minute, high HP pool, and good view range; however, poor armoring makes this vehicle a fighter for the second line.</value>
+  </data>
+  <data name="Pl03_PzV_Poland_short_special" xml:space="preserve">
+    <value>High penetration value, significant ammo rack capacity, effective ramming</value>
+  </data>
+  <data name="Pl05_50TP_Tyszkiewicza" xml:space="preserve">
+    <value>50TP Tyszkiewicza</value>
+  </data>
+  <data name="Pl05_50TP_Tyszkiewicza_descr" xml:space="preserve">
+    <value>A project for a heavy tank proposed by cadet Tadeusz Tyszkiewicz at the Military Technical Academy of Warsaw in the early 1950s. The new vehicle was supposed to weigh up to 50 tons. Existed only in blueprints.</value>
+  </data>
+  <data name="Pl05_50TP_Tyszkiewicza_short" xml:space="preserve">
+    <value>50TP</value>
+  </data>
+  <data name="Pl06_10TP" xml:space="preserve">
+    <value>10TP</value>
+  </data>
+  <data name="Pl06_10TP_descr" xml:space="preserve">
+    <value>A project for a wheeled caterpillar cruiser tank developed in the late 1930s. The project was based on the Christie tank. The tank prototype passed trials in 1938–1939, but its development was discontinued once World War II started. The prototype was destroyed.</value>
+  </data>
+  <data name="Pl06_10TP_short" xml:space="preserve">
+    <value>10TP</value>
+  </data>
+  <data name="Pl07_14TP" xml:space="preserve">
+    <value>14TP</value>
+  </data>
+  <data name="Pl07_14TP_descr" xml:space="preserve">
+    <value>This vehicle was to be a further development of the 10TP cruiser tank. The 14TP was also supposed to feature the Christie suspension. However, the project involved the caterpillar propulsion system only. Development of the 14TP started in 1938. The first prototype was to be produced by March 1939, but development was significantly delayed, because there was no appropriate engine. A prototype was never built, as Germany invaded Poland in September 1939.</value>
+  </data>
+  <data name="Pl07_14TP_short" xml:space="preserve">
+    <value>14TP</value>
+  </data>
+  <data name="Pl08_50TP_prototyp" xml:space="preserve">
+    <value>50TP prototyp</value>
+  </data>
+  <data name="Pl08_50TP_prototyp_descr" xml:space="preserve">
+    <value>A draft of a heavy tank developed by cadet Tadeusz Tyszkiewicz at the Military Technical Academy of Warsaw in the early 1950s. The new vehicle was supposed to weigh up to 50 tons. Existed only in blueprints.</value>
+  </data>
+  <data name="Pl08_50TP_prototyp_short" xml:space="preserve">
+    <value>50TP pr.</value>
+  </data>
+  <data name="Pl09_7TP" xml:space="preserve">
+    <value>7TP</value>
+  </data>
+  <data name="Pl09_7TP_descr" xml:space="preserve">
+    <value>The 7TP was a modification of the Vickers Mk.E British tank produced in Poland under a license. Unlike the original, this vehicle featured a more powerful engine PZInż. 235 (Saurer VBLDb), an improved turret, and better armament. The first tanks manufactured had two turrets. In 1935, the Swedish Bofors company signed an agreement for producing a turret and gun that were intended for a single-turret model of the tank. The first prototype of the single-turret 7TP tank underwent trials in February 1937 and mass production started. A total of 110 vehicles were built through September 1939.</value>
+  </data>
+  <data name="Pl09_7TP_short" xml:space="preserve">
+    <value>7TP</value>
+  </data>
+  <data name="Pl10_40TP_Habicha" xml:space="preserve">
+    <value>40TP Habicha</value>
+  </data>
+  <data name="Pl10_40TP_Habicha_descr" xml:space="preserve">
+    <value>In the middle of 1939, Edward Habich designed several projects of vehicles considering the experience of German and Soviet engineers. One of these projects involved the Horstmann suspension, 60 mm sloped armor, a small German turret, and a gun that featured high penetration and low recoil. Thus, Habich developed a vehicle that combined the features of the Pz.Kpfw.IV German medium tank and T-34 U.S.S.R. medium tank. Development was discontinued, as Poland was invaded in 1939.</value>
+  </data>
+  <data name="Pl10_40TP_Habicha_short" xml:space="preserve">
+    <value>40TP</value>
+  </data>
+  <data name="Pl11_45TP_Habicha" xml:space="preserve">
+    <value>45TP Habicha</value>
+  </data>
+  <data name="Pl11_45TP_Habicha_descr" xml:space="preserve">
+    <value>Proposed project for a heavy tank. This vehicle was supposed to be a further development of the Habicha medium tank. The hull was to feature thicker sloped armor plates. The project involved equipping a more powerful gun. However, a prototype was never built.</value>
+  </data>
+  <data name="Pl11_45TP_Habicha_short" xml:space="preserve">
+    <value>45TP</value>
+  </data>
+  <data name="Pl12_25TP_KSUST_II" xml:space="preserve">
+    <value>25TP KSUST II</value>
+  </data>
+  <data name="Pl12_25TP_KSUST_II_descr" xml:space="preserve">
+    <value>Development of a medium tank (working designation 20/25TP) started in Poland in January 1937. The Armament and Equipment Committee of the Polish Ministry of Military Affairs (KSUS, as abbreviated in Polish) suggested two versions of the vehicle. The second version featured 50 mm armor and an improved power unit. Existed only in blueprints.</value>
+  </data>
+  <data name="Pl12_25TP_KSUST_II_short" xml:space="preserve">
+    <value>25TP</value>
+  </data>
+  <data name="Pl13_53TP_Markowskiego" xml:space="preserve">
+    <value>53TP Markowskiego</value>
+  </data>
+  <data name="Pl13_53TP_Markowskiego_descr" xml:space="preserve">
+    <value>Proposed plan for a heavy tank that was to be developed in 1940. Due to the beginning of World War II, development was discontinued at the blueprints stage.</value>
+  </data>
+  <data name="Pl13_53TP_Markowskiego_short" xml:space="preserve">
+    <value>53TP</value>
+  </data>
+  <data name="Pl14_4TP" xml:space="preserve">
+    <value>4TP</value>
+  </data>
+  <data name="Pl14_4TP_descr" xml:space="preserve">
+    <value>Development of a new light tank for the needs of the Polish army started in 1935 at the Państwowe Zakłady Inżynieryjne (PZInż) works under the supervision of engineer Edward Habich. Foreign developments had a great impact on the design of the new light tank. It was based on the 4-ton British Vickers Carden Loyd Commercial Light Tank. The technical design was developed in December 1936, and the first prototype of the PZInż.140 tank was built. The vehicle underwent trials from the fall of 1937 through the spring of 1939, but eventually did not see mass production.</value>
+  </data>
+  <data name="Pl14_4TP_short" xml:space="preserve">
+    <value>4TP</value>
+  </data>
+  <data name="Pl15_60TP_Lewandowskiego" xml:space="preserve">
+    <value>60TP Lewandowskiego</value>
+  </data>
+  <data name="Pl15_60TP_Lewandowskiego_descr" xml:space="preserve">
+    <value>A project for a heavy tank developed in 1956 by Richard Lewandowski who was a cadet at the Military Technical Academy of Warsaw. The tank was supposed to weigh 60 tons and feature 200 mm armor. Development was discontinued at the drafting stage.</value>
+  </data>
+  <data name="Pl15_60TP_Lewandowskiego_short" xml:space="preserve">
+    <value>60TP</value>
+  </data>
+  <data name="Polski_FIAT_122BC" xml:space="preserve">
+    <value>Polski FIAT 122BC</value>
+  </data>
+  <data name="RKB_C" xml:space="preserve">
+    <value>RKB C</value>
+  </data>
+  <data name="RKB_c_1" xml:space="preserve">
+    <value>RKB/c</value>
+  </data>
+  <data name="RKD" xml:space="preserve">
+    <value>RKD</value>
+  </data>
+  <data name="RTU_Jesion_M" xml:space="preserve">
+    <value>RTU "Jesion-M"</value>
+  </data>
+  <data name="R_113" xml:space="preserve">
+    <value>R-113</value>
+  </data>
+  <data name="R_113_P" xml:space="preserve">
+    <value>R-113P</value>
+  </data>
+  <data name="Rytla_Wernera" xml:space="preserve">
+    <value>Rytla Wernera</value>
+  </data>
+  <data name="Rytla_Wernera_x2" xml:space="preserve">
+    <value>2x PZInż. Rytla-Wernera</value>
+  </data>
+  <data name="Turret_1_Pl01_TKS_20mm" xml:space="preserve">
+    <value>TKS z n.k.m. 20 mm wz. 38 FK-A</value>
+  </data>
+  <data name="Turret_1_Pl05_50TP_Tyszkiewicza" xml:space="preserve">
+    <value>50TP Tyszkiewicza I</value>
+  </data>
+  <data name="Turret_1_Pl06_10TP" xml:space="preserve">
+    <value>Bofors 2-osobowa</value>
+  </data>
+  <data name="Turret_1_Pl07_14TP" xml:space="preserve">
+    <value>Bofors 2-osobowa</value>
+  </data>
+  <data name="Turret_1_Pl08_50TP_prototyp" xml:space="preserve">
+    <value>50TP prototyp</value>
+  </data>
+  <data name="Turret_1_Pl09_7TP" xml:space="preserve">
+    <value>Bofors 2-osobowa</value>
+  </data>
+  <data name="Turret_1_Pl10_40TP_Habicha" xml:space="preserve">
+    <value>40TP Habicha I</value>
+  </data>
+  <data name="Turret_1_Pl11_45TP_Habicha" xml:space="preserve">
+    <value>45TP Habicha I</value>
+  </data>
+  <data name="Turret_1_Pl12_25TP_KSUST_II" xml:space="preserve">
+    <value>25TP KSUST I</value>
+  </data>
+  <data name="Turret_1_Pl13_53TP_Markowskiego" xml:space="preserve">
+    <value>53TP Markowskiego I</value>
+  </data>
+  <data name="Turret_1_Pl14_4TP" xml:space="preserve">
+    <value>4TP</value>
+  </data>
+  <data name="Turret_1_Pl15_60TP_Lewandowskiego" xml:space="preserve">
+    <value>60TP Lewandowskiego</value>
+  </data>
+  <data name="Turret_2_Pl05_50TP_Tyszkiewicza" xml:space="preserve">
+    <value>50TP Tyszkiewicza II</value>
+  </data>
+  <data name="Turret_2_Pl07_14TP" xml:space="preserve">
+    <value>Wieża 14TP</value>
+  </data>
+  <data name="Turret_2_Pl09_7TP" xml:space="preserve">
+    <value>PZInż.220A</value>
+  </data>
+  <data name="Turret_2_Pl10_40TP_Habicha" xml:space="preserve">
+    <value>40TP Habicha II</value>
+  </data>
+  <data name="Turret_2_Pl11_45TP_Habicha" xml:space="preserve">
+    <value>45TP Habicha II</value>
+  </data>
+  <data name="Turret_2_Pl12_25TP_KSUST_II" xml:space="preserve">
+    <value>25TP KSUST II</value>
+  </data>
+  <data name="Turret_2_Pl13_53TP_Markowskiego" xml:space="preserve">
+    <value>53TP Markowskiego II</value>
+  </data>
+  <data name="W_12_5_B" xml:space="preserve">
+    <value>W12-5B</value>
+  </data>
+  <data name="W_12_5_P" xml:space="preserve">
+    <value>W12-5P</value>
+  </data>
+  <data name="_105mm_Bofors_wz_34" xml:space="preserve">
+    <value>105mm Bofors wz. 34</value>
+  </data>
+  <data name="_105mm_slpgr_m_43_1" xml:space="preserve">
+    <value>slpgr m/43(1)</value>
+  </data>
+  <data name="_105mm_slpprj_fm_49" xml:space="preserve">
+    <value>slpprj fm/49</value>
+  </data>
+  <data name="_105mm_tung_sgr_m_34" xml:space="preserve">
+    <value>tung sgr m/34</value>
+  </data>
+  <data name="_122mm_D_25T_P" xml:space="preserve">
+    <value>122mm D-25T</value>
+  </data>
+  <data name="_122mm_UBR-471P_P" xml:space="preserve">
+    <value>WBR-471B</value>
+  </data>
+  <data name="_122mm_UBR-471P_PB" xml:space="preserve">
+    <value>WBR-471BP</value>
+  </data>
+  <data name="_122mm_UBR-471_PB" xml:space="preserve">
+    <value>BR-471PB</value>
+  </data>
+  <data name="_122mm_UOF-471P_P" xml:space="preserve">
+    <value>WOF-471P</value>
+  </data>
+  <data name="_122mm_UOF-471_P" xml:space="preserve">
+    <value>OF-471P</value>
+  </data>
+  <data name="_122mm_wz_53" xml:space="preserve">
+    <value>122mm wz.53</value>
+  </data>
+  <data name="_130mm_AZ_OF_46" xml:space="preserve">
+    <value>AZ-OF-46</value>
+  </data>
+  <data name="_130mm_AZ_PB_46" xml:space="preserve">
+    <value>AZ-PB-46</value>
+  </data>
+  <data name="_130mm_AZ_PB_46_A" xml:space="preserve">
+    <value>AZ-PB-46A</value>
+  </data>
+  <data name="_130mm_R_14_wz_56" xml:space="preserve">
+    <value>130 mm R 14 wz.56</value>
+  </data>
+  <data name="_152mm_J_2" xml:space="preserve">
+    <value>152 mm J 2</value>
+  </data>
+  <data name="_152mm_pocisk_kumulacyjny" xml:space="preserve">
+    <value>Pocisk kumulacyjny</value>
+  </data>
+  <data name="_152mm_pocisk_przeciwpancerny" xml:space="preserve">
+    <value>Pocisk przeciwpancerny</value>
+  </data>
+  <data name="_152mm_pocisk_wybuchowy" xml:space="preserve">
+    <value>Pocisk wybuchowy</value>
+  </data>
+  <data name="_20mm_n_k_m_20_A" xml:space="preserve">
+    <value>n.k.m. 20 mm wz. 38 FK-A</value>
+  </data>
+  <data name="_20mm_wz_38_FKA" xml:space="preserve">
+    <value>20 mm wz.38 FK-A</value>
+  </data>
+  <data name="_20mm_z_pociskiem_wybuchowo" xml:space="preserve">
+    <value>Z pociskiem wybuchowo</value>
+  </data>
+  <data name="_20mm_z_pociskiem_wybuchowo_B" xml:space="preserve">
+    <value>Z pociskiem wybuchowo B</value>
+  </data>
+  <data name="_20mm_z_pociskiem_wybuchowo_ulepszony" xml:space="preserve">
+    <value>Z pociskiem wybuchowo ulepszony</value>
+  </data>
+  <data name="_20mm_z_pociskiem_wybuchowo_ulepszony_B" xml:space="preserve">
+    <value>Z pociskiem wybuchowo ulepszony B</value>
+  </data>
+  <data name="_37mm_APCR_Bofors" xml:space="preserve">
+    <value>37 mm APCR Bofors</value>
+  </data>
+  <data name="_37mm_AP_Bofors" xml:space="preserve">
+    <value>37 mm AP Bofors</value>
+  </data>
+  <data name="_37mm_Bofors_wz_37" xml:space="preserve">
+    <value>37 mm Bofors wz. 37</value>
+  </data>
+  <data name="_37mm_HE_Bofors" xml:space="preserve">
+    <value>37 mm HE Bofors</value>
+  </data>
+  <data name="_40mm_AP" xml:space="preserve">
+    <value>40 mm AP</value>
+  </data>
+  <data name="_40mm_APCR" xml:space="preserve">
+    <value>40 mm APCR</value>
+  </data>
+  <data name="_40mm_DL55" xml:space="preserve">
+    <value>40mm Działko czołgowe Dł.55</value>
+  </data>
+  <data name="_40mm_HE" xml:space="preserve">
+    <value>40 mm HE</value>
+  </data>
+  <data name="_40mm_auto_Boforsa" xml:space="preserve">
+    <value>40mm auto. Boforsa</value>
+  </data>
+  <data name="_40mm_pocisk_podkalibrowy" xml:space="preserve">
+    <value>Pocisk podkalibrowy</value>
+  </data>
+  <data name="_40mm_pocisk_przeciwpancerny_wz_36" xml:space="preserve">
+    <value>Pocisk przeciwpancerny wz. 36</value>
+  </data>
+  <data name="_40mm_pocisk_wybuchowy_wz_36" xml:space="preserve">
+    <value>Pocisk wybuchowy wz. 36</value>
+  </data>
+  <data name="_47mm_AP" xml:space="preserve">
+    <value>AP QFSA</value>
+  </data>
+  <data name="_47mm_APCR" xml:space="preserve">
+    <value>APCR QFSA</value>
+  </data>
+  <data name="_47mm_HE" xml:space="preserve">
+    <value>HE QFSA</value>
+  </data>
+  <data name="_47mm_QFSA" xml:space="preserve">
+    <value>47 mm QFSA</value>
+  </data>
+  <data name="_47mm_armata_wz_39" xml:space="preserve">
+    <value>47mm armata wz. 39</value>
+  </data>
+  <data name="_47mm_kan_m_38_strv" xml:space="preserve">
+    <value>47 mm kan m/38 strv</value>
+  </data>
+  <data name="_47mm_sgr_m_38" xml:space="preserve">
+    <value>sgr m/38</value>
+  </data>
+  <data name="_47mm_slpprj_m_38" xml:space="preserve">
+    <value>slpprj m/38</value>
+  </data>
+  <data name="_47mm_slpprj_m_39" xml:space="preserve">
+    <value>slpprj m/39</value>
+  </data>
+  <data name="_75mm_APCBC_K" xml:space="preserve">
+    <value>7,5 cm Kw.K.</value>
+  </data>
+  <data name="_75mm_Pzgr.40L_K" xml:space="preserve">
+    <value>Pzgr 40 LM</value>
+  </data>
+  <data name="_75mm_Pzgr.40_K" xml:space="preserve">
+    <value>Pzgr 40 L</value>
+  </data>
+  <data name="_75mm_Pzgr39L_K" xml:space="preserve">
+    <value>Pzgr 39 LM</value>
+  </data>
+  <data name="_75mm_Pzgr39_K" xml:space="preserve">
+    <value>Pzgr 39 L</value>
+  </data>
+  <data name="_75mm_Sprg.18L_K" xml:space="preserve">
+    <value>Sprg 18 LC</value>
+  </data>
+  <data name="_75mm_Sprg.18_K" xml:space="preserve">
+    <value>Sprgr 18 L</value>
+  </data>
+  <data name="_75mm_Sprg.18_K2" xml:space="preserve">
+    <value>Sprgr 18 LM</value>
+  </data>
+  <data name="_75mm_wz_1897" xml:space="preserve">
+    <value>75mm wz. 1897</value>
+  </data>
+  <data name="_75mm_wz_22_24" xml:space="preserve">
+    <value>75mm wz 22/24</value>
+  </data>
+  <data name="_75mm_wz_36_37" xml:space="preserve">
+    <value>75mm wz.36/37</value>
+  </data>
+  <data name="_90mm_AP" xml:space="preserve">
+    <value>AP wz.39/90</value>
+  </data>
+  <data name="_90mm_APCR" xml:space="preserve">
+    <value>APCR wz.39/90</value>
+  </data>
+  <data name="_90mm_HE" xml:space="preserve">
+    <value>HE wz.39/90</value>
+  </data>
+  <data name="_90mm_wz_39_40" xml:space="preserve">
+    <value>90 mm wz.39/90</value>
+  </data>
+  <data name="_Gr_38_HL_A_K" xml:space="preserve">
+    <value>Pzgr 38 L</value>
+  </data>
 </root>

@@ -1526,7 +1526,7 @@ will be available again.</value>
     <value>Set on Fire</value>
   </data>
   <data name="efficiencyRibbons/ram" xml:space="preserve">
-    <value>Ram</value>
+    <value>Ramming</value>
   </data>
   <data name="player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY" xml:space="preserve">
     <value>Ally %(attacker)s overturned ally %(target)s</value>
@@ -1796,10 +1796,10 @@ Maximum stun duration %(stunMaxDuration)s (s)</value>
     <value>(Press Ctrl + Tab to switch between the modes)</value>
   </data>
   <data name="personalMissions/tip/additionalHeader" xml:space="preserve">
-    <value>Secondary Conditions:</value>
+    <value>Secondary Condition:</value>
   </data>
   <data name="personalMissions/tip/mainHeader" xml:space="preserve">
-    <value>Primary conditions:</value>
+    <value>Primary condition:</value>
   </data>
   <data name="personalMissions/tip/noQuests/battleType" xml:space="preserve">
     <value>No active missions for this battle mode.</value>
@@ -2111,5 +2111,65 @@ The Mortal Realm is doomed!</value>
   <data name="respawnView/classNotAvailable" xml:space="preserve">
     <value>Front limit
 reached</value>
+  </data>
+  <data name="battleProgress/hint/description" xml:space="preserve">
+    <value>to view personal missions</value>
+  </data>
+  <data name="battleProgress/hint/noBindingKey" xml:space="preserve">
+    <value>The key for toggling the display of mission progress is not assigned</value>
+  </data>
+  <data name="battleProgress/hint/press" xml:space="preserve">
+    <value>Press</value>
+  </data>
+  <data name="rewardWindow/base/btnLabel" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="rewardWindow/base/descText" xml:space="preserve">
+    <value>Rewards received</value>
+  </data>
+  <data name="rewardWindow/base/headerText" xml:space="preserve">
+    <value>Congratulations</value>
+  </data>
+  <data name="rewardWindow/base/subHeaderText" xml:space="preserve">
+    <value>Rewards received</value>
+  </data>
+  <data name="rewardWindow/winHeaderText" xml:space="preserve">
+    <value>Congratulations!</value>
+  </data>
+  <data name="statistics/tab/line_up/header" xml:space="preserve">
+    <value>Composition</value>
+  </data>
+  <data name="statistics/tab/line_up/title" xml:space="preserve">
+    <value>Team composition</value>
+  </data>
+  <data name="statistics/tab/progressTracing/notAvailable" xml:space="preserve">
+    <value>Monitoring your progress in the Long-Awaited Backup campaign personal missions is currently unavailable</value>
+  </data>
+  <data name="statistics/tab/quests/header" xml:space="preserve">
+    <value>Missions</value>
+  </data>
+  <data name="statistics/tab/quests/notAvailable/title" xml:space="preserve">
+    <value>Personal missions are unavailable in this battle mode</value>
+  </data>
+  <data name="statistics/tab/quests/nothingToPerform/descr" xml:space="preserve">
+    <value>Go to the Campaign tab in the Garage to select a mission</value>
+  </data>
+  <data name="statistics/tab/quests/nothingToPerform/title" xml:space="preserve">
+    <value>You have no active missions for this vehicle</value>
+  </data>
+  <data name="statistics/tab/quests/status/done" xml:space="preserve">
+    <value>Primary Condition Fulfilled</value>
+  </data>
+  <data name="statistics/tab/quests/status/fullDone" xml:space="preserve">
+    <value>All missions completed</value>
+  </data>
+  <data name="statistics/tab/quests/status/inProgress" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="statistics/tab/quests/status/increaseResult" xml:space="preserve">
+    <value>Result Improvement</value>
+  </data>
+  <data name="statistics/tab/quests/switchOff/title" xml:space="preserve">
+    <value>The display of progress towards missions is unavailable</value>
   </data>
 </root>

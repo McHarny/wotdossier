@@ -217,7 +217,7 @@
     <value>• Cause damage at least 4 times to enemy vehicles that are of the same tier as your vehicle or higher.</value>
   </data>
   <data name="quest_1_1_11_condition_title_damage" xml:space="preserve">
-    <value>Cause 1,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_1_12_condition_add" xml:space="preserve">
     <value>• Use the Camouflage Net equipment, and have a Camouflage that corresponds to the map.</value>
@@ -244,7 +244,7 @@
 • Can be completed either on your own or as part of a Platoon consisting of your light tank and any other vehicles.</value>
   </data>
   <data name="quest_1_1_13_condition_title_damage" xml:space="preserve">
-    <value>Cause 1,000 HP of damage (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_1_1_14_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -285,7 +285,7 @@
     <value>• Personally spot at least 2 enemy vehicles.</value>
   </data>
   <data name="quest_1_1_2_condition_title_spotted" xml:space="preserve">
-    <value>Spot 2 vehicles</value>
+    <value>Spot</value>
   </data>
   <data name="quest_1_1_3_condition_add" xml:space="preserve">
     <value>• Destroy an enemy vehicle by shooting or ramming it.</value>
@@ -294,10 +294,10 @@
     <value>• Cause damage to enemy vehicles at least 2 times by shooting them.</value>
   </data>
   <data name="quest_1_1_3_condition_title_damage_eventCount" xml:space="preserve">
-    <value>Cause damage 2 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_1_3_condition_title_kills" xml:space="preserve">
-    <value>Destroy an enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_1_4_condition_add" xml:space="preserve">
     <value>• Your allies must cause damage to the vehicle immobilized by you.</value>
@@ -309,7 +309,7 @@
     <value>• Destroy the track of an enemy vehicle.</value>
   </data>
   <data name="quest_1_1_4_condition_title_crit_track" xml:space="preserve">
-    <value>Destroy 1 track</value>
+    <value>Destroy a Track</value>
   </data>
   <data name="quest_1_1_5_condition_add" xml:space="preserve">
     <value>• Spot enemy vehicles and enable your allies to cause damage to at least 2 vehicles spotted by you.</value>
@@ -342,7 +342,7 @@
     <value>• Spot an enemy SPG, cause damage or any critical hit to it.</value>
   </data>
   <data name="quest_1_1_7_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage to an SPG</value>
+    <value>Damage to SPGs</value>
   </data>
   <data name="quest_1_1_8_condition_add" xml:space="preserve">
     <value>• Destroy an enemy vehicle by shooting or ramming it.</value>
@@ -355,7 +355,7 @@
 • Win the battle.</value>
   </data>
   <data name="quest_1_1_8_condition_title_kills" xml:space="preserve">
-    <value>Destroy an enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_1_9_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -395,10 +395,10 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_1_2_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_2_11_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_2_12_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -412,7 +412,7 @@
 • Cause at least 1,000 HP of damage.</value>
   </data>
   <data name="quest_1_2_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 500 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_2_13_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -453,10 +453,10 @@
     <value>• Destroy an enemy vehicle.</value>
   </data>
   <data name="quest_1_2_1_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_2_1_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy an enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_2_2_condition_add" xml:space="preserve">
     <value>• Cause at least 1,000 HP of damage to enemy vehicles.</value>
@@ -468,7 +468,7 @@
     <value>• Destroy an enemy vehicle from a distance of 100 m or less.</value>
   </data>
   <data name="quest_1_2_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_2_3_condition_add" xml:space="preserve">
     <value>• Cause at least 1,000 HP of damage to enemy vehicles.</value>
@@ -481,7 +481,7 @@
 • Destroyed vehicles must be of 2 different types.</value>
   </data>
   <data name="quest_1_2_3_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_2_4_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -503,7 +503,7 @@
     <value>• Cause at least 1,000 HP of damage to enemy vehicles at close range (up to the view range of your vehicle).</value>
   </data>
   <data name="quest_1_2_5_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_2_6_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -512,7 +512,7 @@
     <value>• Destroy at least 2 enemy heavy or medium tanks.</value>
   </data>
   <data name="quest_1_2_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 heavy or medium tanks</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_2_7_condition_add" xml:space="preserve">
     <value>• Destroy an enemy vehicle.</value>
@@ -523,10 +523,10 @@
 • Cause at least 1,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_1_2_7_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 500 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_2_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy an enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_2_8_condition_add" xml:space="preserve">
     <value>• Destroy at least 2 enemy vehicles.</value>
@@ -535,10 +535,10 @@
     <value>• Cause at least 1,000 HP of damage to enemy heavy tanks.</value>
   </data>
   <data name="quest_1_2_8_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 500 HP of Damage to Heavy Tanks</value>
+    <value>Damage to Heavy Tanks</value>
   </data>
   <data name="quest_1_2_8_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_2_9_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -568,10 +568,10 @@
     <value>• Cause damage to enemy vehicles at least 2 times by shooting them.</value>
   </data>
   <data name="quest_1_3_10_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 2 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_3_10_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy an enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_3_11_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -580,7 +580,7 @@
     <value>• Cause damage to an enemy vehicle by ramming it.</value>
   </data>
   <data name="quest_1_3_11_condition_title_ram" xml:space="preserve">
-    <value>Cause damage by ramming</value>
+    <value>Ramming</value>
   </data>
   <data name="quest_1_3_12_condition_add" xml:space="preserve">
     <value>• Be among the top 5 players on your team by experience earned.</value>
@@ -592,7 +592,7 @@
     <value>• Set an enemy vehicle on fire.</value>
   </data>
   <data name="quest_1_3_12_condition_title_fire" xml:space="preserve">
-    <value>Set an enemy vehicle on fire</value>
+    <value>Set on Fire</value>
   </data>
   <data name="quest_1_3_13_condition_add" xml:space="preserve">
     <value>• Personally be among the top 5 players on your team by experience earned.</value>
@@ -605,7 +605,7 @@
 • Can be completed either on your own or as part of a Platoon consisting of your medium tank and any other vehicles.</value>
   </data>
   <data name="quest_1_3_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 2,000 HP of damage (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_1_3_14_condition_add" xml:space="preserve">
     <value>• Cause at least 1,500 HP of damage. Damage caused by Platoon mates counts toward this total.</value>
@@ -615,10 +615,10 @@
 • Can be completed either on your own or as part of a Platoon consisting of your medium tank and any other vehicles.</value>
   </data>
   <data name="quest_1_3_14_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 1,500 HP of damage (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_1_3_14_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 vehicles (Personal/Platoon)</value>
+    <value>Destroy Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_1_3_15_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -627,10 +627,10 @@
     <value>• Destroy at least 2 enemy tank destroyers.</value>
   </data>
   <data name="quest_1_3_15_condition_title_damaged" xml:space="preserve">
-    <value>Cause damage to 5 vehicles</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_3_15_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 tank destroyers</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_3_1_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -650,10 +650,10 @@
     <value>• Fire at least 6 shots that cause damage to enemy vehicles.</value>
   </data>
   <data name="quest_1_3_2_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 6 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_3_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy an enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_3_3_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -671,13 +671,13 @@
     <value>• Destroy a track of an enemy vehicle, and cause damage to the immobilized vehicle before its track is repaired.</value>
   </data>
   <data name="quest_1_3_4_condition_title_crit" xml:space="preserve">
-    <value>Destroy 1 track</value>
+    <value>Destroy a Track</value>
   </data>
   <data name="quest_1_3_4_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage to the immobilized vehicle</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_3_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy an immobilized enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_3_5_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -686,7 +686,7 @@
     <value>• Cause damage to an enemy light tank by shooting or ramming it.</value>
   </data>
   <data name="quest_1_3_5_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage to a light tank</value>
+    <value>Damage to Light Tanks</value>
   </data>
   <data name="quest_1_3_6_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -704,7 +704,7 @@
     <value>• Cause damage to at least 1 enemy SPG.</value>
   </data>
   <data name="quest_1_3_7_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage to an SPG</value>
+    <value>Damage to SPGs</value>
   </data>
   <data name="quest_1_3_8_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -714,10 +714,10 @@
 • The total damage caused to enemy medium tanks must be at least 500 HP.</value>
   </data>
   <data name="quest_1_3_8_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 300 HP of damage to medium tanks</value>
+    <value>Damage to Medium Tanks</value>
   </data>
   <data name="quest_1_3_8_condition_title_vehicleDamage_count" xml:space="preserve">
-    <value>Cause damage to medium tanks 3 times</value>
+    <value>Damage to Medium Tanks</value>
   </data>
   <data name="quest_1_3_9_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -727,10 +727,10 @@
 • Destroy at least 1 enemy heavy tank.</value>
   </data>
   <data name="quest_1_3_9_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Caused 300 HP of damage to heavy tanks</value>
+    <value>Damage to Heavy Tanks</value>
   </data>
   <data name="quest_1_3_9_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy a heavy tank</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_3_advise" xml:space="preserve">
     <value>Always try to flank the enemy and hit them from the rear, where the armor is weakest. Do not linger in one spot. If you change positions frequently, the enemy will have a hard time hitting your vehicle. Remember that light tanks have the same chance of being detected while on the move as when they are stationary.</value>
@@ -761,7 +761,7 @@
 • Cause at least 1,000 HP of damage.</value>
   </data>
   <data name="quest_1_4_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_4_12_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -771,10 +771,10 @@
 • Cause at least 1,000 HP of damage.</value>
   </data>
   <data name="quest_1_4_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_4_12_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy a heavy tank</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_4_13_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -784,7 +784,7 @@
 • Can be completed either on your own or as part of a Platoon consisting of your tank destroyer and any other vehicles.</value>
   </data>
   <data name="quest_1_4_13_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 vehicles (Personal/Platoon)</value>
+    <value>Destroy Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_1_4_14_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -804,10 +804,10 @@
     <value>• Cause at least 3,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_1_4_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_4_15_condition_title_kills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_4_1_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -836,7 +836,7 @@
 • Win the battle.</value>
   </data>
   <data name="quest_1_4_3_condition_title_damaged" xml:space="preserve">
-    <value>Cause damage to 2 vehicles</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_4_4_condition_add" xml:space="preserve">
     <value>• Use the Camouflage Net equipment.</value>
@@ -848,7 +848,7 @@
     <value>• Destroy an enemy vehicle. Remain unspotted by it at the moment of its destruction.</value>
   </data>
   <data name="quest_1_4_4_condition_title_installed_camouflageNet" xml:space="preserve">
-    <value>Enter a battle with the Camouflage Net</value>
+    <value>Concealment</value>
   </data>
   <data name="quest_1_4_5_condition_add" xml:space="preserve">
     <value>• Cause at least 1,000 HP of damage to enemy vehicles.</value>
@@ -860,7 +860,7 @@
     <value>• Cause damage to an enemy vehicle from a distance of 300 m or more.</value>
   </data>
   <data name="quest_1_4_5_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_4_6_condition_add" xml:space="preserve">
     <value>• Destroy at least 1 enemy vehicle.</value>
@@ -872,7 +872,7 @@
     <value>• Cause damage to an enemy vehicle from a distance of 250 m or more.</value>
   </data>
   <data name="quest_1_4_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy an enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_4_7_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -901,10 +901,10 @@
 • Armor-penetrating hits to one or several enemy vehicles are counted.</value>
   </data>
   <data name="quest_1_4_9_condition_title_inBattleMaxPiercingSeries" xml:space="preserve">
-    <value>Score 3 armor-penetrating hits in a row</value>
+    <value>Score an Armor-Penetrating Hit</value>
   </data>
   <data name="quest_1_4_9_condition_title_kills" xml:space="preserve">
-    <value>Destroy an enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_4_advise" xml:space="preserve">
     <value>To destroy a track effectively, target the drive wheel at the front or rear of the suspension. Remember that even if your gun is incapable of penetrating the armor of an enemy vehicle, it can always destroy the track. HE shells are best suited for this purpose. You will receive more experience if your allies cause damage to enemy vehicles immobilized by you.</value>
@@ -937,10 +937,10 @@
     <value>• Stun at least 2 enemy vehicles with a single shot.</value>
   </data>
   <data name="quest_1_5_11_condition_title_multiStunEvent" xml:space="preserve">
-    <value>Stun 2 vehicles with a single shot</value>
+    <value>Stun</value>
   </data>
   <data name="quest_1_5_11_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun enemy vehicles for 50 seconds in total</value>
+    <value>Stun</value>
   </data>
   <data name="quest_1_5_12_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -953,7 +953,7 @@
 • Allies must destroy at least 1 enemy vehicle stunned or immobilized by you.</value>
   </data>
   <data name="quest_1_5_12_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun enemy vehicles for 50 seconds in total</value>
+    <value>Stun</value>
   </data>
   <data name="quest_1_5_13_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -962,10 +962,10 @@
     <value>• Cause damage to enemy vehicles at least 4 times or stun them at least 6 times. Any damage or stun caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_1_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Stun vehicles 6 times (personal/Platoon)</value>
+    <value>Stun Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_1_5_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 4 times (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_1_5_14_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -977,7 +977,7 @@
     <value>• Stun enemy vehicles for at least 70 seconds in total or enable your allies to cause at least 400 HP of damage to enemy vehicles by immobilizing them. Stun or immobilization caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_1_5_14_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun for 70 seconds (personal/Platoon)</value>
+    <value>Stun Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_1_5_15_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -993,7 +993,7 @@
 • Enable your allies to cause at least 1,000 HP of damage to enemy vehicles by stunning or immobilizing them.</value>
   </data>
   <data name="quest_1_5_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_5_1_condition_add" xml:space="preserve">
     <value>• Cause damage to enemy vehicles at least 3 times by shooting or ramming them.</value>
@@ -1005,7 +1005,7 @@
     <value>Stun 3 times</value>
   </data>
   <data name="quest_1_5_1_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 3 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_5_2_condition_add" xml:space="preserve">
     <value>• Destroy at least 1 enemy vehicle.</value>
@@ -1017,7 +1017,7 @@
     <value>Stun enemy vehicles for 50 seconds in total</value>
   </data>
   <data name="quest_1_5_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy an enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_1_5_3_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -1047,7 +1047,7 @@
     <value>• Enable your allies to cause at least 600 HP of damage to enemy vehicles by stunning or immobilizing them.</value>
   </data>
   <data name="quest_1_5_5_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 3 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_1_5_6_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -1065,7 +1065,7 @@
     <value>• Stun at least 2 enemy vehicles.</value>
   </data>
   <data name="quest_1_5_7_condition_title_stunned" xml:space="preserve">
-    <value>Stun 2 vehicles</value>
+    <value>Stun</value>
   </data>
   <data name="quest_1_5_8_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -1080,7 +1080,7 @@
     <value>• Survive the battle.</value>
   </data>
   <data name="quest_1_5_9_condition_description_crit" xml:space="preserve">
-    <value>Destroy modules or injure crew members, totaling at least 3 modules or crew members</value>
+    <value>Destroy internal modules or injure crew members, totaling at least 3 modules or crew members</value>
   </data>
   <data name="quest_1_5_9_condition_main" xml:space="preserve">
     <value>• Destroy any modules of enemy vehicles or injure members of their crew, totaling at least 3 modules and crew members.
@@ -1237,7 +1237,7 @@
     <value>• Cause damage at least 6 times to enemy vehicles that are of the same tier as your vehicle or higher.</value>
   </data>
   <data name="quest_2_1_11_condition_title_damage" xml:space="preserve">
-    <value>Cause 1,500 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_1_12_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -1261,7 +1261,7 @@
 • Can be completed either on your own or as part of a Platoon consisting of your light tank and any other vehicles.</value>
   </data>
   <data name="quest_2_1_13_condition_title_damage" xml:space="preserve">
-    <value>Cause 1,500 HP of damage (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_2_1_14_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -1303,7 +1303,7 @@
     <value>• Personally spot at least 4 enemy vehicles.</value>
   </data>
   <data name="quest_2_1_2_condition_title_spotted" xml:space="preserve">
-    <value>Spot 4 vehicles</value>
+    <value>Spot</value>
   </data>
   <data name="quest_2_1_3_condition_add" xml:space="preserve">
     <value>• Destroy at least 2 enemy vehicles by shooting or ramming them.</value>
@@ -1312,10 +1312,10 @@
     <value>• Cause damage to enemy vehicles at least 3 times by shooting them.</value>
   </data>
   <data name="quest_2_1_3_condition_title_damage_eventCount" xml:space="preserve">
-    <value>Cause damage 3 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_1_3_condition_title_kills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_1_4_condition_add" xml:space="preserve">
     <value>• Your allies must destroy at least 1 vehicle immobilized by you.</value>
@@ -1334,7 +1334,7 @@
 • Allies must cause at least 250 HP of damage to the immobilized enemy vehicle before its tracks are repaired.</value>
   </data>
   <data name="quest_2_1_4_condition_title_crit_track" xml:space="preserve">
-    <value>Destroy 1 track</value>
+    <value>Destroy a Track</value>
   </data>
   <data name="quest_2_1_5_condition_add" xml:space="preserve">
     <value>• Spot enemy vehicles and enable your allies to cause damage to at least 4 vehicles spotted by you.</value>
@@ -1367,20 +1367,20 @@
     <value>• Spot at least 2 enemy SPGs and cause damage or critical hits to them.</value>
   </data>
   <data name="quest_2_1_7_condition_title_spottedAndDamagedSPG" xml:space="preserve">
-    <value>Spot and cause damage to 1 SPG</value>
+    <value>Spot</value>
   </data>
   <data name="quest_2_1_8_condition_add" xml:space="preserve">
     <value>• Destroy an enemy vehicle by shooting or ramming it.</value>
   </data>
   <data name="quest_2_1_8_condition_description_base" xml:space="preserve">
-    <value>Participate in a successful capture of a base or reset enemy capture points of your/neutral base, earning 20 base points</value>
+    <value>Participate in a successful capture of a base or reset the enemy capture points of your/neutral base, earning 20 base points</value>
   </data>
   <data name="quest_2_1_8_condition_main" xml:space="preserve">
     <value>• Participate in a successful capture of a base while earning at least 20 base capture points, or reset enemy capture points of your/neutral base while earning at least 20 base defense points.
 • Win the battle.</value>
   </data>
   <data name="quest_2_1_8_condition_title_kills" xml:space="preserve">
-    <value>Destroy an enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_1_9_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -1420,10 +1420,10 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_2_2_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_2_11_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_2_12_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -1437,7 +1437,7 @@
 • Cause at least 1,500 HP of damage.</value>
   </data>
   <data name="quest_2_2_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_2_13_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -1478,10 +1478,10 @@
     <value>• Destroy at least 2 enemy vehicles.</value>
   </data>
   <data name="quest_2_2_1_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_2_1_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_2_2_condition_add" xml:space="preserve">
     <value>• Cause at least 2,000 HP of damage to enemy vehicles.</value>
@@ -1493,7 +1493,7 @@
     <value>• Destroy at least 2 enemy vehicles from a distance of 100 meters or less.</value>
   </data>
   <data name="quest_2_2_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_2_3_condition_add" xml:space="preserve">
     <value>• Cause at least 2,000 HP of damage to enemy vehicles.</value>
@@ -1505,7 +1505,7 @@
     <value>• Destroy at least 3 enemy vehicles of 2 different types.</value>
   </data>
   <data name="quest_2_2_3_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_2_4_condition_add" xml:space="preserve">
     <value>• Destroy an enemy vehicle.</value>
@@ -1518,7 +1518,7 @@
 • The numbers of damaged/destroyed modules and injured crew members across all enemy vehicles you have damaged in the battle are added together.</value>
   </data>
   <data name="quest_2_2_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy an enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_2_5_condition_add" xml:space="preserve">
     <value>• Destroy at least 3 enemy vehicles.</value>
@@ -1530,7 +1530,7 @@
     <value>• Cause at least 2,000 HP of damage to enemy vehicles at close range (up to the view range of your vehicle).</value>
   </data>
   <data name="quest_2_2_5_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_2_6_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -1551,10 +1551,10 @@
 • Cause at least 2,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_2_2_7_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_2_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_2_8_condition_add" xml:space="preserve">
     <value>• Destroy at least 3 enemy vehicles.</value>
@@ -1563,10 +1563,10 @@
     <value>• Cause at least 2,000 HP of damage to enemy heavy tanks.</value>
   </data>
   <data name="quest_2_2_8_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,000 HP of damage to heavy tanks</value>
+    <value>Damage to Heavy Tanks</value>
   </data>
   <data name="quest_2_2_8_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_2_9_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -1597,10 +1597,10 @@
     <value>• Cause damage to enemy vehicles at least 4 times by shooting them.</value>
   </data>
   <data name="quest_2_3_10_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 4 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_3_10_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_3_11_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -1609,7 +1609,7 @@
     <value>• Destroy an enemy vehicle by ramming it.</value>
   </data>
   <data name="quest_2_3_11_condition_title_ram" xml:space="preserve">
-    <value>Destroy an enemy vehicle by ramming it</value>
+    <value>Ramming</value>
   </data>
   <data name="quest_2_3_12_condition_add" xml:space="preserve">
     <value>• Be among the top 3 players on your team by experience earned.</value>
@@ -1622,10 +1622,10 @@
 • Cause at least 2,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_2_3_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,500 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_3_12_condition_title_fire" xml:space="preserve">
-    <value>Set an enemy vehicle on fire</value>
+    <value>Set on Fire</value>
   </data>
   <data name="quest_2_3_13_condition_add" xml:space="preserve">
     <value>• Personally be among the top 5 players on your team by experience earned.</value>
@@ -1638,7 +1638,7 @@
 • Can be completed either on your own or as part of a Platoon consisting of your medium tank and any other vehicles.</value>
   </data>
   <data name="quest_2_3_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 4,000 HP of damage (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_2_3_14_condition_add" xml:space="preserve">
     <value>• Cause at least 2,000 HP of damage. Damage caused by Platoon mates counts toward this total.</value>
@@ -1648,10 +1648,10 @@
 • Can be completed either on your own or as part of a Platoon consisting of your medium tank and any other vehicles.</value>
   </data>
   <data name="quest_2_3_14_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 2,000 HP of damage (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_2_3_14_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 4 vehicles (personal/Platoon)</value>
+    <value>Destroy Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_2_3_15_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -1661,13 +1661,13 @@
     <value>• Cause at least 2,000 HP of damage to enemy tank destroyers.</value>
   </data>
   <data name="quest_2_3_15_condition_title_damaged" xml:space="preserve">
-    <value>Cause damage to 6 vehicles</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_3_15_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 1,000 HP of damage to tank destroyers</value>
+    <value>Damage to Tank Destroyers</value>
   </data>
   <data name="quest_2_3_15_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 tank destroyers</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_3_1_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -1687,10 +1687,10 @@
     <value>• Fire at least 9 shots that cause damage to enemy vehicles.</value>
   </data>
   <data name="quest_2_3_2_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 9 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_3_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_3_3_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -1708,13 +1708,13 @@
     <value>• Destroy the tracks of at least 2 different enemy vehicles and cause damage to immobilized vehicles at least 2 times.</value>
   </data>
   <data name="quest_2_3_4_condition_title_crit" xml:space="preserve">
-    <value>Destroy 2 tracks</value>
+    <value>Destroy a Track</value>
   </data>
   <data name="quest_2_3_4_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage to an immobilized vehicle 2 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_3_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy an immobilized enemy vehicle</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_3_5_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -1723,7 +1723,7 @@
     <value>• Destroy an enemy light tank by shooting or ramming it.</value>
   </data>
   <data name="quest_2_3_5_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy a light tank</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_3_6_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -1742,7 +1742,7 @@
     <value>• Destroy at least 1 enemy SPG.</value>
   </data>
   <data name="quest_2_3_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 1 SPG</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_3_8_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -1753,10 +1753,10 @@
 • The total damage caused to enemy medium tanks must be at least 1,000 HP.</value>
   </data>
   <data name="quest_2_3_8_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 750 HP of damage to medium tanks</value>
+    <value>Damage to Medium Tanks</value>
   </data>
   <data name="quest_2_3_8_condition_title_vehicleDamage_count" xml:space="preserve">
-    <value>Cause damage to medium tanks 5 times</value>
+    <value>Damage to Medium Tanks</value>
   </data>
   <data name="quest_2_3_9_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -1767,10 +1767,10 @@
 • Destroy at least 1 enemy heavy tank.</value>
   </data>
   <data name="quest_2_3_9_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 750 HP of damage to heavy tanks</value>
+    <value>Damage to Heavy Tanks</value>
   </data>
   <data name="quest_2_3_9_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy a heavy tank</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_3_advise" xml:space="preserve">
     <value>Every type of vehicle employs its own unique tactics on the battlefield. For example, medium tanks can easily outflank opponents, heavy tanks will most likely meet enemies head-on, and tank destroyers will prefer to position themselves on hills or hide behind bushes.</value>
@@ -1801,7 +1801,7 @@
 • Cause at least 2,000 HP of damage.</value>
   </data>
   <data name="quest_2_4_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_4_12_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -1811,10 +1811,10 @@
 • Cause at least 2,000 HP of damage.</value>
   </data>
   <data name="quest_2_4_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_4_12_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy a heavy tank 1 tier higher</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_4_13_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -1824,7 +1824,7 @@
 • Can be completed either on your own or as part of a Platoon consisting of your tank destroyer and any other vehicles.</value>
   </data>
   <data name="quest_2_4_13_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 4 vehicles (personal/Platoon)</value>
+    <value>Destroy Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_2_4_14_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -1844,10 +1844,10 @@
     <value>• Cause at least 4,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_2_4_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_4_15_condition_title_kills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_4_1_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -1869,7 +1869,7 @@
     <value>• Cause at least 1,000 HP of damage and destroy 1 or more internal modules, or injure a crew member of an enemy vehicle.</value>
   </data>
   <data name="quest_2_4_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_4_3_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -1879,7 +1879,7 @@
 • Win the battle.</value>
   </data>
   <data name="quest_2_4_3_condition_title_damaged" xml:space="preserve">
-    <value>Cause damage to 3 vehicles</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_4_4_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -1900,7 +1900,7 @@
     <value>• Destroy an enemy vehicle from a distance of 300 m or more.</value>
   </data>
   <data name="quest_2_4_5_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_4_6_condition_add" xml:space="preserve">
     <value>• Destroy at least 2 enemy vehicles.</value>
@@ -1912,7 +1912,7 @@
     <value>• Cause at least 1,000 HP of damage to enemy vehicles from a distance of over 250 m.</value>
   </data>
   <data name="quest_2_4_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_4_7_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -1941,10 +1941,10 @@
 • Armor-penetrating hits to one or several enemy vehicles are counted.</value>
   </data>
   <data name="quest_2_4_9_condition_title_inBattleMaxPiercingSeries" xml:space="preserve">
-    <value>Score 4 armor-penetrating hits in a row</value>
+    <value>Score an Armor-Penetrating Hit</value>
   </data>
   <data name="quest_2_4_9_condition_title_kills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_4_advise" xml:space="preserve">
     <value>You can immobilize an enemy vehicle by hitting its engine, while just one precise hit to the ammo rack of a vehicle can give you the upper hand in the most difficult duel. Internal modules are the turret ring, engine, fuel tanks, ammo rack, and radio.</value>
@@ -1977,10 +1977,10 @@
     <value>• Stun at least 2 enemy vehicles with a single shot twice.</value>
   </data>
   <data name="quest_2_5_11_condition_title_multiStunEvent" xml:space="preserve">
-    <value>Stun 2 enemy vehicles with a single shot twice</value>
+    <value>Stun</value>
   </data>
   <data name="quest_2_5_11_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun enemy vehicles for 100 seconds</value>
+    <value>Stun</value>
   </data>
   <data name="quest_2_5_12_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -1993,7 +1993,7 @@
 • Allies must destroy at least 1 enemy vehicle stunned or immobilized by you.</value>
   </data>
   <data name="quest_2_5_12_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun enemy vehicles for 100 seconds</value>
+    <value>Stun</value>
   </data>
   <data name="quest_2_5_13_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -2002,10 +2002,10 @@
     <value>• Cause damage to enemy vehicles at least 6 times or stun them at least 8 times. Damage or stun caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_2_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Stun 8 times (Personal/Platoon)</value>
+    <value>Stun Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_2_5_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 6 times (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_2_5_14_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -2017,7 +2017,7 @@
     <value>• Stun enemy vehicles for a total of at least 100 seconds or enable your allies to cause at least 600 HP of damage to enemy vehicles by immobilizing them. Stun or immobilization caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_2_5_14_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun for 100 seconds (personal/Platoon)</value>
+    <value>Stun Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_2_5_15_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -2033,7 +2033,7 @@
 • Enable your allies to cause at least 1,500 HP of damage to enemy vehicles by stunning or immobilizing them.</value>
   </data>
   <data name="quest_2_5_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,500 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_5_1_condition_add" xml:space="preserve">
     <value>• Cause damage to enemy vehicles at least 5 times by shooting or ramming them.</value>
@@ -2045,7 +2045,7 @@
     <value>Stun 5 times</value>
   </data>
   <data name="quest_2_5_1_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 5 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_5_2_condition_add" xml:space="preserve">
     <value>• Destroy at least 2 enemy vehicles.</value>
@@ -2057,7 +2057,7 @@
     <value>Stun enemy vehicles for 100 seconds</value>
   </data>
   <data name="quest_2_5_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_2_5_3_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -2087,7 +2087,7 @@
     <value>• Enable your allies to cause at least 1,000 HP of damage to enemy vehicles by stunning or immobilizing them.</value>
   </data>
   <data name="quest_2_5_5_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 5 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_2_5_6_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -2105,7 +2105,7 @@
     <value>• Stun at least 3 enemy vehicles.</value>
   </data>
   <data name="quest_2_5_7_condition_title_stunned" xml:space="preserve">
-    <value>Stun 3 vehicles</value>
+    <value>Stun</value>
   </data>
   <data name="quest_2_5_8_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -2121,7 +2121,7 @@
 • Win the battle.</value>
   </data>
   <data name="quest_2_5_9_condition_description_crit" xml:space="preserve">
-    <value>Destroy modules or injure crew members, totaling at least 5 modules or crew members</value>
+    <value>Destroy internal modules or injure crew members, totaling at least 5 modules or crew members</value>
   </data>
   <data name="quest_2_5_9_condition_main" xml:space="preserve">
     <value>• Destroy any modules of enemy vehicles or injure members of their crew, totaling at least 5 modules and crew members.
@@ -2278,7 +2278,7 @@
     <value>• Cause damage at least 10 times to enemy vehicles of the same tier as your vehicle or higher.</value>
   </data>
   <data name="quest_3_1_11_condition_title_damage" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_1_12_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -2302,7 +2302,7 @@
 • Can be completed either on your own or as part of a Platoon consisting of your light tank and any other vehicles.</value>
   </data>
   <data name="quest_3_1_13_condition_title_damage" xml:space="preserve">
-    <value>Cause 2,000 HP of damage (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_3_1_14_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -2344,7 +2344,7 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_3_1_2_condition_title_spotted" xml:space="preserve">
-    <value>Spot 6 vehicles</value>
+    <value>Spot</value>
   </data>
   <data name="quest_3_1_3_condition_add" xml:space="preserve">
     <value>• Destroy at least 3 enemy vehicles by shooting or ramming them.</value>
@@ -2354,13 +2354,13 @@
 • Spot at least 5 enemy vehicles.</value>
   </data>
   <data name="quest_3_1_3_condition_title_damage_eventCount" xml:space="preserve">
-    <value>Cause damage 5 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_1_3_condition_title_kills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_1_3_condition_title_spotted" xml:space="preserve">
-    <value>Spot 4 vehicles</value>
+    <value>Spot</value>
   </data>
   <data name="quest_3_1_4_condition_add" xml:space="preserve">
     <value>• Your allies must destroy at least 2 vehicles immobilized by you.</value>
@@ -2378,7 +2378,7 @@
     <value>• Destroy the tracks of at least 3 enemy vehicles.</value>
   </data>
   <data name="quest_3_1_4_condition_title_crit_track" xml:space="preserve">
-    <value>Destroy 3 tracks</value>
+    <value>Destroy a Track</value>
   </data>
   <data name="quest_3_1_5_condition_add" xml:space="preserve">
     <value>• Enable your allies to cause damage to at least 6 vehicles spotted by you.
@@ -2413,10 +2413,10 @@
     <value>• Spot at least 3 enemy SPGs and cause damage or critical hits to them.</value>
   </data>
   <data name="quest_3_1_7_condition_title_spottedAndDamagedSPG" xml:space="preserve">
-    <value>Spot and cause damage to 1 SPG</value>
+    <value>Spot</value>
   </data>
   <data name="quest_3_1_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 1 SPG</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_1_8_condition_add" xml:space="preserve">
     <value>• Destroy at least 2 enemy vehicles by shooting or ramming them.</value>
@@ -2429,7 +2429,7 @@
 • Win the battle.</value>
   </data>
   <data name="quest_3_1_8_condition_title_kills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_1_9_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -2470,10 +2470,10 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_3_2_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_2_11_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 4 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_2_12_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -2487,7 +2487,7 @@
 • Cause at least 2,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_3_2_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_2_13_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -2528,10 +2528,10 @@
     <value>• Destroy at least 3 enemy vehicles.</value>
   </data>
   <data name="quest_3_2_1_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_2_1_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_2_2_condition_add" xml:space="preserve">
     <value>• Cause at least 3,000 HP of damage to enemy vehicles.</value>
@@ -2543,7 +2543,7 @@
     <value>• Destroy at least 3 enemy vehicles from a distance of 100 m or less.</value>
   </data>
   <data name="quest_3_2_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_2_3_condition_add" xml:space="preserve">
     <value>• Cause at least 3,000 HP of damage to enemy vehicles.</value>
@@ -2555,7 +2555,7 @@
     <value>• Destroy at least 4 enemy vehicles of 3 different types.</value>
   </data>
   <data name="quest_3_2_3_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_2_4_condition_add" xml:space="preserve">
     <value>• Destroy at least 3 enemy vehicles.</value>
@@ -2568,7 +2568,7 @@
 • The numbers of damaged/destroyed modules and injured crew members across all enemy vehicles you have damaged in the battle are added together.</value>
   </data>
   <data name="quest_3_2_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_2_5_condition_add" xml:space="preserve">
     <value>• Destroy at least 4 enemy vehicles.</value>
@@ -2580,19 +2580,19 @@
     <value>• Cause at least 3,000 HP of damage to enemy vehicles at close range (up to the view range of your vehicle).</value>
   </data>
   <data name="quest_3_2_5_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 4 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_2_6_condition_add" xml:space="preserve">
     <value>• Cause at least 2,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_3_2_6_condition_description_vehicleDamage" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
   </data>
   <data name="quest_3_2_6_condition_main" xml:space="preserve">
     <value>• Destroy at least 3 enemy heavy or medium tanks.</value>
   </data>
   <data name="quest_3_2_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 heavy or medium tanks</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_2_7_condition_add" xml:space="preserve">
     <value>• Destroy at least 3 enemy vehicles.</value>
@@ -2603,10 +2603,10 @@
 • Cause at least 3,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_3_2_7_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_2_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_2_8_condition_add" xml:space="preserve">
     <value>• Destroy at least 4 enemy vehicles.</value>
@@ -2615,10 +2615,10 @@
     <value>• Cause at least 3,000 HP of damage to enemy heavy tanks.</value>
   </data>
   <data name="quest_3_2_8_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 2,000 HP of damage to heavy tanks</value>
+    <value>Damage to Heavy Tanks</value>
   </data>
   <data name="quest_3_2_8_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 4 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_2_9_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -2651,10 +2651,10 @@
     <value>• Cause damage to enemy vehicles at least 6 times by shooting them.</value>
   </data>
   <data name="quest_3_3_10_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 6 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_3_10_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_3_11_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -2690,7 +2690,7 @@
 • Can be completed either on your own or as part of a Platoon consisting of your medium tank and any other vehicles.</value>
   </data>
   <data name="quest_3_3_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 6,000 HP of damage (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_3_3_14_condition_add" xml:space="preserve">
     <value>• Cause at least 3,000 HP of damage. Damage caused by Platoon mates counts toward this total.</value>
@@ -2700,10 +2700,10 @@
 • Can be completed either on your own or as part of a Platoon consisting of your medium tank and any other vehicles.</value>
   </data>
   <data name="quest_3_3_14_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 3,000 HP of damage (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_3_3_14_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 6 vehicles (personal/Platoon)</value>
+    <value>Destroy Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_3_3_15_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -2714,10 +2714,10 @@
     <value>• Destroy at least 2 enemy tank destroyers that are 1 tier higher than your vehicle.</value>
   </data>
   <data name="quest_3_3_15_condition_title_damaged" xml:space="preserve">
-    <value>Cause damage to 7 vehicles</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_3_15_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 2,500 HP of damage to tank destroyers</value>
+    <value>Damage to Tank Destroyers</value>
   </data>
   <data name="quest_3_3_1_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -2737,10 +2737,10 @@
     <value>• Fire at least 12 shots that cause damage to enemy vehicles.</value>
   </data>
   <data name="quest_3_3_2_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 12 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_3_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_3_3_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -2760,13 +2760,13 @@
     <value>• Destroy the tracks of 3 different enemy vehicles and cause damage to immobilized vehicles at least 3 times.</value>
   </data>
   <data name="quest_3_3_4_condition_title_crit" xml:space="preserve">
-    <value>Destroy 3 tracks</value>
+    <value>Destroy a Track</value>
   </data>
   <data name="quest_3_3_4_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage to an immobilized vehicle 3 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_3_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 immobilized vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_3_5_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -2796,10 +2796,10 @@
     <value>• Cause damage to enemy SPGs at least 2 times by shooting. Destroy at least 1 enemy SPG.</value>
   </data>
   <data name="quest_3_3_7_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage to SPGs 2 times</value>
+    <value>Damage to SPGs</value>
   </data>
   <data name="quest_3_3_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 1 SPG</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_3_8_condition_add" xml:space="preserve">
     <value>• Cause at least 1,500 HP of damage to enemy vehicles.</value>
@@ -2809,13 +2809,13 @@
 • Destroy an enemy medium tank.</value>
   </data>
   <data name="quest_3_3_8_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 1,500 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_3_8_condition_title_vehicleDamage_count" xml:space="preserve">
-    <value>Cause damage to medium tanks 6 times</value>
+    <value>Damage to Medium Tanks</value>
   </data>
   <data name="quest_3_3_8_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy a medium tank</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_3_9_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -2826,10 +2826,10 @@
 • Destroy at least 2 enemy heavy tanks.</value>
   </data>
   <data name="quest_3_3_9_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 1,500 HP of damage to heavy tanks</value>
+    <value>Damage to Heavy Tanks</value>
   </data>
   <data name="quest_3_3_9_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 heavy tanks</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_3_advise" xml:space="preserve">
     <value>Move aggressively to get behind the enemy lines and make a commotion there, putting the opposing team at a disadvantage.</value>
@@ -2861,7 +2861,7 @@
 • Cause at least 3,000 HP of damage.</value>
   </data>
   <data name="quest_3_4_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_4_12_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -2872,10 +2872,10 @@
 • Cause at least 3,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_3_4_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_4_12_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 heavy tanks</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_4_13_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -2885,7 +2885,7 @@
 • Can be completed either on your own or as part of a Platoon consisting of your tank destroyer and any other vehicles.</value>
   </data>
   <data name="quest_3_4_13_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 5 vehicles (personal/Platoon)</value>
+    <value>Destroy Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_3_4_14_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -2905,10 +2905,10 @@
     <value>• Cause at least 6,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_3_4_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 6000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_4_15_condition_title_kills" xml:space="preserve">
-    <value>Destroy 5 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_4_1_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -2931,7 +2931,7 @@
     <value>• Cause at least 2,000 HP of damage and destroy enemy vehicles’ internal modules or injure members of their crew, totaling at least 2 modules and crew members.</value>
   </data>
   <data name="quest_3_4_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_4_3_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -2941,7 +2941,7 @@
 • Win the battle.</value>
   </data>
   <data name="quest_3_4_3_condition_title_damaged" xml:space="preserve">
-    <value>Cause damage to 5 vehicles</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_4_4_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -2963,7 +2963,7 @@
     <value>• Destroy at least 2 enemy vehicles from a distance of 300 m or more.</value>
   </data>
   <data name="quest_3_4_5_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_4_6_condition_add" xml:space="preserve">
     <value>• Destroy at least 3 enemy vehicles.</value>
@@ -2975,7 +2975,7 @@
     <value>• Cause at least 2,000 HP of damage to enemy vehicles from a distance of over 250 m.</value>
   </data>
   <data name="quest_3_4_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_4_7_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -3005,10 +3005,10 @@
 • Armor-penetrating hits to one or several enemy vehicles are counted.</value>
   </data>
   <data name="quest_3_4_9_condition_title_inBattleMaxPiercingSeries" xml:space="preserve">
-    <value>Score 5 armor-penetrating hits in a row</value>
+    <value>Score an Armor-Penetrating Hit</value>
   </data>
   <data name="quest_3_4_9_condition_title_kills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_4_advise" xml:space="preserve">
     <value>Aim for the drive wheels, the sprocketed wheels at the front or rear of the suspension. Once immobilized, an enemy tank is an easy target. Do not forget to draw the attention of your allies to the target vehicle by selecting "Requesting fire at…" from the Command Menu.</value>
@@ -3042,10 +3042,10 @@
     <value>• Stun at least 3 enemy vehicles with a single shot.</value>
   </data>
   <data name="quest_3_5_11_condition_title_multiStunEvent" xml:space="preserve">
-    <value>Stun 3 vehicles with a single shot</value>
+    <value>Stun</value>
   </data>
   <data name="quest_3_5_11_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun enemy vehicles for 150 seconds</value>
+    <value>Stun</value>
   </data>
   <data name="quest_3_5_12_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -3058,7 +3058,7 @@
 • Allies must destroy at least 2 enemy vehicles stunned or immobilized by you.</value>
   </data>
   <data name="quest_3_5_12_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun enemy vehicles for 150 seconds</value>
+    <value>Stun</value>
   </data>
   <data name="quest_3_5_13_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -3067,10 +3067,10 @@
     <value>• Cause damage to enemy vehicles at least 8 times or stun them at least 10 times. Damage or stun caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_3_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Stun 10 times (personal/Platoon)</value>
+    <value>Stun Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_3_5_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 8 times (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_3_5_14_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -3082,7 +3082,7 @@
     <value>• Stun enemy vehicles for a total of at least 180 seconds or enable your allies to cause at least 800 HP of damage to enemy vehicles by immobilizing them. Stun or immobilization caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_3_5_14_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun for 180 seconds (personal/Platoon)</value>
+    <value>Stun Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_3_5_15_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -3098,7 +3098,7 @@
 • Enable your allies to cause at least 2,500 HP of damage to enemy vehicles by stunning or immobilizing them.</value>
   </data>
   <data name="quest_3_5_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_5_1_condition_add" xml:space="preserve">
     <value>• Cause damage to enemy vehicles at least 6 times by shooting or ramming them.</value>
@@ -3110,7 +3110,7 @@
     <value>Stun 7 times</value>
   </data>
   <data name="quest_3_5_1_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 6 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_5_2_condition_add" xml:space="preserve">
     <value>• Destroy at least 3 enemy vehicles.</value>
@@ -3122,7 +3122,7 @@
     <value>Stun enemy vehicles for 150 seconds</value>
   </data>
   <data name="quest_3_5_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_3_5_3_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -3154,7 +3154,7 @@
     <value>• Enable your allies to cause at least 2,000 HP of damage to enemy vehicles by stunning or immobilizing them.</value>
   </data>
   <data name="quest_3_5_5_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 6 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_3_5_6_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -3174,7 +3174,7 @@
     <value>• Stun at least 5 enemy vehicles.</value>
   </data>
   <data name="quest_3_5_7_condition_title_stunned" xml:space="preserve">
-    <value>Stun 5 vehicles</value>
+    <value>Stun</value>
   </data>
   <data name="quest_3_5_8_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -3191,7 +3191,7 @@
 • Remain unspotted throughout the battle.</value>
   </data>
   <data name="quest_3_5_9_condition_description_crit" xml:space="preserve">
-    <value>Destroy modules or injure crew members, totaling at least 8 modules or crew members</value>
+    <value>Destroy internal modules or injure crew members, totaling at least 8 modules or crew members</value>
   </data>
   <data name="quest_3_5_9_condition_main" xml:space="preserve">
     <value>• Destroy any modules of enemy vehicles or injure members of their crew, totaling at least 8 modules and crew members.
@@ -3349,7 +3349,7 @@
     <value>• Cause damage at least 12 times to enemy vehicles of the same tier as your vehicle or higher.</value>
   </data>
   <data name="quest_4_1_11_condition_title_damage" xml:space="preserve">
-    <value>Cause 2,500 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_1_12_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -3374,7 +3374,7 @@
 • Can be completed either on your own or as part of a Platoon consisting of your light tank and any other vehicles.</value>
   </data>
   <data name="quest_4_1_13_condition_title_damage" xml:space="preserve">
-    <value>Cause 2,500 HP of damage (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_4_1_14_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -3416,7 +3416,7 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_4_1_2_condition_title_spotted" xml:space="preserve">
-    <value>Spot 8 vehicles</value>
+    <value>Spot</value>
   </data>
   <data name="quest_4_1_3_condition_add" xml:space="preserve">
     <value>• Destroy at least 4 enemy vehicles by shooting or ramming them.</value>
@@ -3426,13 +3426,13 @@
 • Spot at least 7 enemy vehicles.</value>
   </data>
   <data name="quest_4_1_3_condition_title_damage_eventCount" xml:space="preserve">
-    <value>Cause damage 6 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_1_3_condition_title_kills" xml:space="preserve">
-    <value>Destroy 4 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_1_3_condition_title_spotted" xml:space="preserve">
-    <value>Spot 6 vehicles</value>
+    <value>Spot</value>
   </data>
   <data name="quest_4_1_4_condition_add" xml:space="preserve">
     <value>• Your allies must destroy at least 2 vehicles immobilized by you.</value>
@@ -3451,7 +3451,7 @@
 • Allies must cause at least 500 HP of damage to the immobilized enemy vehicles before their tracks are repaired.</value>
   </data>
   <data name="quest_4_1_4_condition_title_crit_track" xml:space="preserve">
-    <value>Destroy 3 tracks</value>
+    <value>Destroy a Track</value>
   </data>
   <data name="quest_4_1_5_condition_add" xml:space="preserve">
     <value>• Spot enemy vehicles and enable your allies to cause damage to at least 8 vehicles spotted by you.</value>
@@ -3487,7 +3487,7 @@
 • Destroy at least 1 enemy SPG.</value>
   </data>
   <data name="quest_4_1_7_condition_title_spottedAndDamagedSPG" xml:space="preserve">
-    <value>Spot and cause damage to 2 SPGs</value>
+    <value>Spot</value>
   </data>
   <data name="quest_4_1_8_condition_add" xml:space="preserve">
     <value>• Destroy at least 2 enemy vehicles by shooting or ramming them.</value>
@@ -3500,7 +3500,7 @@
 • Win the battle.</value>
   </data>
   <data name="quest_4_1_8_condition_title_kills" xml:space="preserve">
-    <value>Destroy 2 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_1_9_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -3541,10 +3541,10 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_4_2_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 4,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_2_11_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 5 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_2_12_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -3558,7 +3558,7 @@
 • Cause at least 3,000 HP of damage.</value>
   </data>
   <data name="quest_4_2_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_2_13_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -3599,10 +3599,10 @@
     <value>• Destroy at least 5 enemy vehicles.</value>
   </data>
   <data name="quest_4_2_1_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 4,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_2_1_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 5 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_2_2_condition_add" xml:space="preserve">
     <value>• Cause at least 4,000 HP of damage to enemy vehicles.</value>
@@ -3614,7 +3614,7 @@
     <value>• Destroy at least 4 enemy vehicles from a distance of 100 m or less.</value>
   </data>
   <data name="quest_4_2_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 4,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_2_3_condition_add" xml:space="preserve">
     <value>• Cause at least 4,000 HP of damage to enemy vehicles.</value>
@@ -3626,7 +3626,7 @@
     <value>• Destroy at least 6 enemy vehicles of 3 different types.</value>
   </data>
   <data name="quest_4_2_3_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 4,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_2_4_condition_add" xml:space="preserve">
     <value>• Destroy at least 5 enemy vehicles.</value>
@@ -3639,7 +3639,7 @@
 • The numbers of damaged/destroyed modules and injured crew members across all enemy vehicles you have damaged in the battle are added together.</value>
   </data>
   <data name="quest_4_2_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 5 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_2_5_condition_add" xml:space="preserve">
     <value>• Destroy at least 5 enemy vehicles.</value>
@@ -3651,19 +3651,19 @@
     <value>• Cause at least 4,000 HP of damage to enemy vehicles at close range (up to the view range of your vehicle).</value>
   </data>
   <data name="quest_4_2_5_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 5 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_2_6_condition_add" xml:space="preserve">
     <value>• Cause at least 3,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_4_2_6_condition_description_vehicleDamage" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
   </data>
   <data name="quest_4_2_6_condition_main" xml:space="preserve">
     <value>• Destroy at least 4 enemy heavy or medium tanks.</value>
   </data>
   <data name="quest_4_2_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 4 heavy or medium tanks</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_2_7_condition_add" xml:space="preserve">
     <value>• Destroy at least 4 enemy vehicles.</value>
@@ -3674,10 +3674,10 @@
 • Cause at least 4,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_4_2_7_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 4,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_2_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 4 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_2_8_condition_add" xml:space="preserve">
     <value>• Destroy at least 5 enemy vehicles.</value>
@@ -3686,10 +3686,10 @@
     <value>• Cause at least 4,000 HP of damage to enemy heavy tanks.</value>
   </data>
   <data name="quest_4_2_8_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage to heavy tanks</value>
+    <value>Damage to Heavy Tanks</value>
   </data>
   <data name="quest_4_2_8_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 5 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_2_9_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -3720,10 +3720,10 @@
     <value>• Cause damage to enemy vehicles at least 8 times by shooting them.</value>
   </data>
   <data name="quest_4_3_10_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 8 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_3_10_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 4 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_3_11_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -3749,7 +3749,7 @@
 • Cause at least 3,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_4_3_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 3,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_3_13_condition_add" xml:space="preserve">
     <value>• Personally be among the top 3 players on your team by experience earned.</value>
@@ -3762,7 +3762,7 @@
 • Can be completed either on your own or as part of a Platoon consisting of your medium tank and any other vehicles.</value>
   </data>
   <data name="quest_4_3_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 8,000 HP of damage (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_4_3_14_condition_add" xml:space="preserve">
     <value>• Cause at least 4,000 HP of damage. Damage caused by Platoon mates counts toward this total.</value>
@@ -3772,10 +3772,10 @@
 • Can be completed either on your own or as part of a Platoon consisting of your medium tank and any other vehicles.</value>
   </data>
   <data name="quest_4_3_14_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 4,000 HP of damage (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_4_3_14_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 8 vehicles (personal/Platoon)</value>
+    <value>Destroy Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_4_3_15_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -3785,10 +3785,10 @@
     <value>• Cause at least 4,000 HP of damage to enemy tank destroyers.</value>
   </data>
   <data name="quest_4_3_15_condition_title_damaged" xml:space="preserve">
-    <value>Cause damage to 8 vehicles</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_3_15_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 3,500 HP of damage to tank destroyers</value>
+    <value>Damage to Tank Destroyers</value>
   </data>
   <data name="quest_4_3_1_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -3808,10 +3808,10 @@
     <value>• Fire at least 15 shots that cause damage to enemy vehicles.</value>
   </data>
   <data name="quest_4_3_2_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 15 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_3_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 5 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_3_3_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -3831,13 +3831,13 @@
     <value>• Destroy the tracks of 4 different enemy vehicles and cause damage to immobilized vehicles at least 4 times.</value>
   </data>
   <data name="quest_4_3_4_condition_title_crit" xml:space="preserve">
-    <value>Destroy 4 tracks</value>
+    <value>Destroy a Track</value>
   </data>
   <data name="quest_4_3_4_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage to an immobilized vehicle 4 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_3_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 immobilized vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_3_5_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -3847,7 +3847,7 @@
     <value>• Destroy at least 2 enemy light tanks by shooting or ramming them.</value>
   </data>
   <data name="quest_4_3_5_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 light tanks</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_3_6_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -3867,10 +3867,10 @@
     <value>• Cause damage to enemy SPGs at least 3 times by shooting. Destroy at least 1 enemy SPG.</value>
   </data>
   <data name="quest_4_3_7_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage to SPGs 3 times</value>
+    <value>Damage to SPGs</value>
   </data>
   <data name="quest_4_3_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 1 SPG</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_3_8_condition_add" xml:space="preserve">
     <value>• Cause at least 2,000 HP of damage to enemy vehicles.</value>
@@ -3879,10 +3879,10 @@
     <value>• Destroy at least 3 enemy medium tanks.</value>
   </data>
   <data name="quest_4_3_8_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 2,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_3_8_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 medium tanks</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_3_9_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -3893,10 +3893,10 @@
 • Destroy at least 2 enemy heavy tanks.</value>
   </data>
   <data name="quest_4_3_9_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Caused 2,000 HP of damage to heavy tanks</value>
+    <value>Damage to Heavy Tanks</value>
   </data>
   <data name="quest_4_3_9_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 2 heavy tanks</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_3_advise" xml:space="preserve">
     <value>Many tank destroyers are lightly armored, and most lack turrets. Engaging at long range is usually the safest tactic.</value>
@@ -3928,7 +3928,7 @@
 • Cause at least 4,000 HP of damage.</value>
   </data>
   <data name="quest_4_4_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 4,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_4_12_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -3939,10 +3939,10 @@
 • Cause at least 4,000 HP of damage.</value>
   </data>
   <data name="quest_4_4_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 4,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_4_12_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 3 heavy tanks</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_4_13_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -3952,7 +3952,7 @@
 • Can be completed either on your own or as part of a Platoon consisting of your tank destroyer and any other vehicles.</value>
   </data>
   <data name="quest_4_4_13_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 6 vehicles (personal/Platoon)</value>
+    <value>Destroy Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_4_4_14_condition_add" xml:space="preserve">
     <value>• Personally survive the battle.</value>
@@ -3972,10 +3972,10 @@
     <value>• Cause at least 8,000 HP of damage.</value>
   </data>
   <data name="quest_4_4_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 8,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_4_15_condition_title_kills" xml:space="preserve">
-    <value>Destroy 6 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_4_1_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -3998,7 +3998,7 @@
     <value>• Cause at least 5,000 HP of damage and destroy enemy vehicles’ internal modules or injure members of their crew, totaling at least 3 modules and crew members.</value>
   </data>
   <data name="quest_4_4_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 5,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_4_3_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -4008,7 +4008,7 @@
 • Win the battle.</value>
   </data>
   <data name="quest_4_4_3_condition_title_damaged" xml:space="preserve">
-    <value>Cause damage to 6 vehicles</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_4_4_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -4030,7 +4030,7 @@
     <value>• Destroy at least 3 enemy vehicles from a distance of 300 m or more.</value>
   </data>
   <data name="quest_4_4_5_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 4,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_4_6_condition_add" xml:space="preserve">
     <value>• Destroy at least 4 enemy vehicles.</value>
@@ -4042,7 +4042,7 @@
     <value>• Cause at least 3,000 HP of damage to enemy vehicles from a distance of over 250 m.</value>
   </data>
   <data name="quest_4_4_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 4 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_4_7_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -4072,10 +4072,10 @@
 • Armor-penetrating hits to one or several enemy vehicles are counted.</value>
   </data>
   <data name="quest_4_4_9_condition_title_inBattleMaxPiercingSeries" xml:space="preserve">
-    <value>Score 6 armor-penetrating hits in a row</value>
+    <value>Score an Armor-Penetrating Hit</value>
   </data>
   <data name="quest_4_4_9_condition_title_kills" xml:space="preserve">
-    <value>Destroy 5 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_4_advise" xml:space="preserve">
     <value>Try to find a concealed position for firing. A thick bush or a fallen tree will do. A high camouflage rating will help you remain unspotted; so will engaging from long range.</value>
@@ -4109,10 +4109,10 @@
     <value>• Stun at least 3 enemy vehicles with a single shot twice.</value>
   </data>
   <data name="quest_4_5_11_condition_title_multiStunEvent" xml:space="preserve">
-    <value>Stun 3 enemy vehicles with a single shot twice</value>
+    <value>Stun</value>
   </data>
   <data name="quest_4_5_11_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun enemy vehicles for 200 seconds in total</value>
+    <value>Stun</value>
   </data>
   <data name="quest_4_5_12_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -4125,7 +4125,7 @@
 • Allies must destroy at least 3 enemy vehicles stunned or immobilized by you.</value>
   </data>
   <data name="quest_4_5_12_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun enemy vehicles for 200 seconds in total</value>
+    <value>Stun</value>
   </data>
   <data name="quest_4_5_13_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -4134,10 +4134,10 @@
     <value>• Cause damage to enemy vehicles at least 10 times or stun them at least 12 times. Damage or stun caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_4_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Stun 12 times (personal/Platoon)</value>
+    <value>Stun Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_4_5_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 10 times (personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_4_5_14_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -4149,7 +4149,7 @@
     <value>• Stun enemy vehicles for at least 250 seconds in total or enable your allies to cause at least 1,000 HP of damage to enemy vehicles by immobilizing them. Stun or immobilization caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_4_5_14_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun for 250 seconds in total (personal/Platoon)</value>
+    <value>Stun Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_4_5_15_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -4165,7 +4165,7 @@
 • Enable your allies to cause at least 3,500 HP of damage to enemy vehicles by stunning or immobilizing them.</value>
   </data>
   <data name="quest_4_5_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause 4,000 HP of damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_5_1_condition_add" xml:space="preserve">
     <value>• Cause damage to enemy vehicles at least 8 times by shooting or ramming them.</value>
@@ -4177,7 +4177,7 @@
     <value>Stun 10 times</value>
   </data>
   <data name="quest_4_5_1_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 8 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_5_2_condition_add" xml:space="preserve">
     <value>• Destroy at least 4 enemy vehicles.</value>
@@ -4186,10 +4186,10 @@
     <value>• Stun enemy vehicles for at least 200 seconds in total.</value>
   </data>
   <data name="quest_4_5_2_condition_title_stunDuration" xml:space="preserve">
-    <value>Stun enemy vehicles for 200 seconds in total</value>
+    <value>Stun</value>
   </data>
   <data name="quest_4_5_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy 4 vehicles</value>
+    <value>Destroy</value>
   </data>
   <data name="quest_4_5_3_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -4221,7 +4221,7 @@
     <value>• Enable your allies to cause at least 3,000 HP of damage to enemy vehicles by stunning or immobilizing them.</value>
   </data>
   <data name="quest_4_5_5_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage 8 times</value>
+    <value>Damage</value>
   </data>
   <data name="quest_4_5_6_condition_add" xml:space="preserve">
     <value>• Win the battle.
@@ -4241,7 +4241,7 @@
     <value>• Stun at least 6 enemy vehicles.</value>
   </data>
   <data name="quest_4_5_7_condition_title_stunned" xml:space="preserve">
-    <value>Stun 6 vehicles</value>
+    <value>Stun</value>
   </data>
   <data name="quest_4_5_8_condition_add" xml:space="preserve">
     <value>• Win the battle.</value>
@@ -4258,7 +4258,7 @@
 • Remain unspotted throughout the battle.</value>
   </data>
   <data name="quest_4_5_9_condition_description_crit" xml:space="preserve">
-    <value>Destroy modules or injure crew members, totaling at least 10 modules or crew members</value>
+    <value>Destroy internal modules or injure crew members, totaling at least 10 modules or crew members</value>
   </data>
   <data name="quest_4_5_9_condition_main" xml:space="preserve">
     <value>• Destroy any modules of enemy vehicles or injure members of their crew, totaling at least 10 modules and crew members.
@@ -5012,7 +5012,7 @@
     <value>At the end of the battle, have no injured crew members or damaged/destroyed internal modules</value>
   </data>
   <data name="quest_common_condition_description_isNotSpotted" xml:space="preserve">
-    <value>Remain unspotted throughout the entire battle</value>
+    <value>Survive and remain unspotted throughout the entire battle</value>
   </data>
   <data name="quest_common_condition_description_top_1_damage" xml:space="preserve">
     <value>Finish the battle as the top player on your team by damage caused</value>
@@ -5048,7 +5048,7 @@
     <value>Armor Efficiency</value>
   </data>
   <data name="quest_common_condition_title_damageDealt" xml:space="preserve">
-    <value>Cause Damage</value>
+    <value>Damage</value>
   </data>
   <data name="quest_common_condition_title_damage_eventCount" xml:space="preserve">
     <value>Damage</value>
@@ -5075,7 +5075,7 @@
     <value>Prepare for Battle</value>
   </data>
   <data name="quest_common_condition_title_ram" xml:space="preserve">
-    <value>Ram</value>
+    <value>Ramming</value>
   </data>
   <data name="quest_common_condition_title_spotted" xml:space="preserve">
     <value>Spotting</value>
@@ -5084,10 +5084,10 @@
     <value>Spotting (Personal/Platoon)</value>
   </data>
   <data name="quest_common_condition_title_squad_damage" xml:space="preserve">
-    <value>Damage (Personal/Platoon)</value>
+    <value>Cause Damage (Personal/Platoon)</value>
   </data>
   <data name="quest_common_condition_title_squad_vehicleKills" xml:space="preserve">
-    <value>Destroy (Personal/Platoon)</value>
+    <value>Destroy Vehicles (Personal/Platoon)</value>
   </data>
   <data name="quest_common_condition_title_stunAssist" xml:space="preserve">
     <value>Assistance</value>
@@ -5135,9 +5135,870 @@
     <value>A set of missions for all vehicle types to receive the Soviet Object 260 heavy tank.</value>
   </data>
   <data name="tile_5" xml:space="preserve">
-    <value>T-22 medium</value>
+    <value>Excalibur</value>
   </data>
   <data name="tile_5_descr" xml:space="preserve">
-    <value>A set of missions for all vehicle types to receive the Soviet T-22 medium tank.</value>
+    <value>A set of missions for all vehicle types to receive the U.K. Excalibur tank destroyer.</value>
+  </data>
+  <data name="quest_1_1_11_condition_description_damage" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_1_13_condition_description_damage" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_1_2_condition_description_spotted" xml:space="preserve">
+    <value>Spot 2 enemy vehicles</value>
+  </data>
+  <data name="quest_1_1_3_condition_description_damage_eventCount" xml:space="preserve">
+    <value>Cause damage 2 times to enemy vehicles</value>
+  </data>
+  <data name="quest_1_1_3_condition_description_kills" xml:space="preserve">
+    <value>Destroy an enemy vehicle</value>
+  </data>
+  <data name="quest_1_1_4_condition_description_crit_track" xml:space="preserve">
+    <value>Destroy 1 track</value>
+  </data>
+  <data name="quest_1_1_7_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage to an enemy SPG</value>
+  </data>
+  <data name="quest_1_1_8_condition_description_kills" xml:space="preserve">
+    <value>Destroy an enemy vehicle</value>
+  </data>
+  <data name="quest_1_2_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_2_11_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_1_2_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 500 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_2_1_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_2_1_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an enemy vehicle</value>
+  </data>
+  <data name="quest_1_2_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_2_3_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_2_5_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_1_2_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 heavy or medium tanks</value>
+  </data>
+  <data name="quest_1_2_7_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 500 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_2_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an enemy vehicle</value>
+  </data>
+  <data name="quest_1_2_8_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 500 HP of damage to heavy tanks</value>
+  </data>
+  <data name="quest_1_2_8_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_1_2_9_condition_description_ram" xml:space="preserve">
+    <value>Destroy an enemy vehicle by ramming it</value>
+  </data>
+  <data name="quest_1_3_10_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 2 times to enemy vehicles</value>
+  </data>
+  <data name="quest_1_3_10_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an enemy vehicle</value>
+  </data>
+  <data name="quest_1_3_11_condition_description_ram" xml:space="preserve">
+    <value>Cause damage by ramming</value>
+  </data>
+  <data name="quest_1_3_12_condition_description_fire" xml:space="preserve">
+    <value>Set an enemy vehicle on fire</value>
+  </data>
+  <data name="quest_1_3_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_3_14_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 1,500 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_3_14_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_1_3_15_condition_description_damaged" xml:space="preserve">
+    <value>Cause damage to 5 vehicles</value>
+  </data>
+  <data name="quest_1_3_15_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy tank destroyers</value>
+  </data>
+  <data name="quest_1_3_2_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 6 times to enemy vehicles</value>
+  </data>
+  <data name="quest_1_3_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an enemy vehicle</value>
+  </data>
+  <data name="quest_1_3_4_condition_description_crit" xml:space="preserve">
+    <value>Destroy 1 track</value>
+  </data>
+  <data name="quest_1_3_4_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage to an immobilized vehicle</value>
+  </data>
+  <data name="quest_1_3_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an immobilized enemy vehicle</value>
+  </data>
+  <data name="quest_1_3_5_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage to a light tank</value>
+  </data>
+  <data name="quest_1_3_7_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage to an enemy SPG</value>
+  </data>
+  <data name="quest_1_3_8_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 300 HP of damage to medium tanks</value>
+  </data>
+  <data name="quest_1_3_8_condition_description_vehicleDamage_count" xml:space="preserve">
+    <value>Cause damage to medium tanks 3 times</value>
+  </data>
+  <data name="quest_1_3_9_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 300 HP of damage to heavy tanks</value>
+  </data>
+  <data name="quest_1_3_9_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an enemy heavy tank</value>
+  </data>
+  <data name="quest_1_4_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_4_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_4_12_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an enemy heavy tank</value>
+  </data>
+  <data name="quest_1_4_13_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_1_4_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_4_15_condition_description_kills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_1_4_3_condition_description_damaged" xml:space="preserve">
+    <value>Cause damage to 2 vehicles</value>
+  </data>
+  <data name="quest_1_4_4_condition_description_installed_camouflageNet" xml:space="preserve">
+    <value>Enter a battle with Camouflage Net</value>
+  </data>
+  <data name="quest_1_4_5_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_4_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an enemy vehicle</value>
+  </data>
+  <data name="quest_1_4_9_condition_description_inBattleMaxPiercingSeries" xml:space="preserve">
+    <value>Score 3 armor-penetrating hits in a row</value>
+  </data>
+  <data name="quest_1_4_9_condition_description_kills" xml:space="preserve">
+    <value>Destroy an enemy vehicle</value>
+  </data>
+  <data name="quest_1_5_11_condition_description_multiStunEvent" xml:space="preserve">
+    <value>Stun 2 vehicles with a single shot</value>
+  </data>
+  <data name="quest_1_5_11_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 50 seconds in total</value>
+  </data>
+  <data name="quest_1_5_12_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 50 seconds in total</value>
+  </data>
+  <data name="quest_1_5_13_condition_description_stunNum" xml:space="preserve">
+    <value>Stun enemy vehicles 6 times</value>
+  </data>
+  <data name="quest_1_5_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 4 times to enemy vehicles</value>
+  </data>
+  <data name="quest_1_5_14_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 70 seconds in total</value>
+  </data>
+  <data name="quest_1_5_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_1_5_1_condition_description_stunNum" xml:space="preserve">
+    <value>Stun enemy vehicles 3 times</value>
+  </data>
+  <data name="quest_1_5_1_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 3 times to enemy vehicles</value>
+  </data>
+  <data name="quest_1_5_2_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 50 seconds in total</value>
+  </data>
+  <data name="quest_1_5_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an enemy vehicle</value>
+  </data>
+  <data name="quest_1_5_3_condition_description_vehicleStun" xml:space="preserve">
+    <value>Stun a heavy tank or tank destroyer 2 times</value>
+  </data>
+  <data name="quest_1_5_5_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 3 times to enemy vehicles</value>
+  </data>
+  <data name="quest_1_5_7_condition_description_stunned" xml:space="preserve">
+    <value>Stun 2 enemy vehicles</value>
+  </data>
+  <data name="quest_2_1_11_condition_description_damage" xml:space="preserve">
+    <value>Cause 1,500 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_1_13_condition_description_damage" xml:space="preserve">
+    <value>Cause 1,500 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_1_2_condition_description_spotted" xml:space="preserve">
+    <value>Spot 4 enemy vehicles</value>
+  </data>
+  <data name="quest_2_1_3_condition_description_damage_eventCount" xml:space="preserve">
+    <value>Cause damage 3 times to enemy vehicles</value>
+  </data>
+  <data name="quest_2_1_3_condition_description_kills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_2_1_4_condition_description_crit_track" xml:space="preserve">
+    <value>Destroy 1 track</value>
+  </data>
+  <data name="quest_2_1_7_condition_description_spottedAndDamagedSPG" xml:space="preserve">
+    <value>Spot and cause damage to 1 enemy SPG</value>
+  </data>
+  <data name="quest_2_1_8_condition_description_kills" xml:space="preserve">
+    <value>Destroy an enemy vehicle</value>
+  </data>
+  <data name="quest_2_2_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_2_11_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_2_2_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_2_1_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_2_1_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_2_2_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_2_3_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_2_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an enemy vehicle</value>
+  </data>
+  <data name="quest_2_2_5_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_2_2_7_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_2_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_2_2_8_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,000 HP of Damage to Heavy Tanks</value>
+  </data>
+  <data name="quest_2_2_8_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_2_3_10_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 4 times to enemy vehicles</value>
+  </data>
+  <data name="quest_2_3_10_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_2_3_11_condition_description_ram" xml:space="preserve">
+    <value>Destroy an enemy vehicle by ramming it</value>
+  </data>
+  <data name="quest_2_3_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,500 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_3_12_condition_description_fire" xml:space="preserve">
+    <value>Set an enemy vehicle on fire</value>
+  </data>
+  <data name="quest_2_3_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 4,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_3_14_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_3_14_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 4 enemy vehicles</value>
+  </data>
+  <data name="quest_2_3_15_condition_description_damaged" xml:space="preserve">
+    <value>Cause damage to 6 enemy vehicles</value>
+  </data>
+  <data name="quest_2_3_15_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy tank destroyers</value>
+  </data>
+  <data name="quest_2_3_15_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy tank destroyers</value>
+  </data>
+  <data name="quest_2_3_2_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 9 times to enemy vehicles</value>
+  </data>
+  <data name="quest_2_3_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_2_3_4_condition_description_crit" xml:space="preserve">
+    <value>Destroy 2 tracks</value>
+  </data>
+  <data name="quest_2_3_4_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage to an immobilized enemy vehicle 2 times</value>
+  </data>
+  <data name="quest_2_3_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an immobilized enemy vehicle</value>
+  </data>
+  <data name="quest_2_3_5_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an enemy light tank</value>
+  </data>
+  <data name="quest_2_3_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 1 enemy SPG</value>
+  </data>
+  <data name="quest_2_3_8_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 750 HP of damage to enemy medium tanks</value>
+  </data>
+  <data name="quest_2_3_8_condition_description_vehicleDamage_count" xml:space="preserve">
+    <value>Cause damage to enemy medium tanks 5 times</value>
+  </data>
+  <data name="quest_2_3_9_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Caused 750 HP of damage to enemy heavy tanks</value>
+  </data>
+  <data name="quest_2_3_9_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an enemy heavy tank</value>
+  </data>
+  <data name="quest_2_4_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_4_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_4_12_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy a heavy tank 1 tier higher</value>
+  </data>
+  <data name="quest_2_4_13_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 4 enemy vehicles</value>
+  </data>
+  <data name="quest_2_4_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_4_15_condition_description_kills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_2_4_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_4_3_condition_description_damaged" xml:space="preserve">
+    <value>Cause damage to 3 enemy vehicles</value>
+  </data>
+  <data name="quest_2_4_5_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_4_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_2_4_9_condition_description_inBattleMaxPiercingSeries" xml:space="preserve">
+    <value>Score 4 armor-penetrating hits in a row</value>
+  </data>
+  <data name="quest_2_4_9_condition_description_kills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_2_5_11_condition_description_multiStunEvent" xml:space="preserve">
+    <value>Stun 2 enemy vehicles with a single shot twice</value>
+  </data>
+  <data name="quest_2_5_11_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 100 seconds in total</value>
+  </data>
+  <data name="quest_2_5_12_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 100 seconds in total</value>
+  </data>
+  <data name="quest_2_5_13_condition_description_stunNum" xml:space="preserve">
+    <value>Stun enemy vehicles 8 times</value>
+  </data>
+  <data name="quest_2_5_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 6 times to enemy vehicles</value>
+  </data>
+  <data name="quest_2_5_14_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 100 seconds in total</value>
+  </data>
+  <data name="quest_2_5_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,500 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_2_5_1_condition_description_stunNum" xml:space="preserve">
+    <value>Stun enemy vehicles 5 times</value>
+  </data>
+  <data name="quest_2_5_1_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 5 times to enemy vehicles</value>
+  </data>
+  <data name="quest_2_5_2_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 100 seconds in total</value>
+  </data>
+  <data name="quest_2_5_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_2_5_3_condition_description_vehicleStun" xml:space="preserve">
+    <value>Stun heavy tanks or tank destroyers 4 times</value>
+  </data>
+  <data name="quest_2_5_5_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 5 times to enemy vehicles</value>
+  </data>
+  <data name="quest_2_5_7_condition_description_stunned" xml:space="preserve">
+    <value>Stun 3 enemy vehicles</value>
+  </data>
+  <data name="quest_3_1_11_condition_description_damage" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_1_13_condition_description_damage" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_1_2_condition_description_spotted" xml:space="preserve">
+    <value>Spot 6 enemy vehicles</value>
+  </data>
+  <data name="quest_3_1_3_condition_description_damage_eventCount" xml:space="preserve">
+    <value>Cause damage 5 times to enemy vehicles</value>
+  </data>
+  <data name="quest_3_1_3_condition_description_kills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_3_1_3_condition_description_spotted" xml:space="preserve">
+    <value>Spot 4 enemy vehicles</value>
+  </data>
+  <data name="quest_3_1_4_condition_description_crit_track" xml:space="preserve">
+    <value>Destroy 3 tracks</value>
+  </data>
+  <data name="quest_3_1_7_condition_description_spottedAndDamagedSPG" xml:space="preserve">
+    <value>Spot and cause damage to 1 enemy SPG</value>
+  </data>
+  <data name="quest_3_1_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 1 enemy SPG</value>
+  </data>
+  <data name="quest_3_1_8_condition_description_kills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_3_2_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_2_11_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 4 enemy vehicles</value>
+  </data>
+  <data name="quest_3_2_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_2_1_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_2_1_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_3_2_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_2_3_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_2_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_3_2_5_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 4 enemy vehicles</value>
+  </data>
+  <data name="quest_3_2_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy heavy or medium tanks</value>
+  </data>
+  <data name="quest_3_2_6_condition_title_vehicleDamage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="quest_3_2_7_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_2_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_3_2_8_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy heavy tanks</value>
+  </data>
+  <data name="quest_3_2_8_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 4 enemy vehicles</value>
+  </data>
+  <data name="quest_3_3_10_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 6 times to enemy vehicles</value>
+  </data>
+  <data name="quest_3_3_10_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_3_3_11_condition_title_ram" xml:space="preserve">
+    <value>Ramming</value>
+  </data>
+  <data name="quest_3_3_12_condition_title_fire" xml:space="preserve">
+    <value>Set on Fire</value>
+  </data>
+  <data name="quest_3_3_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 6,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_3_14_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_3_14_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 6 enemy vehicles</value>
+  </data>
+  <data name="quest_3_3_15_condition_description_damaged" xml:space="preserve">
+    <value>Cause damage to 7 enemy vehicles</value>
+  </data>
+  <data name="quest_3_3_15_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 2,500 HP of damage to enemy tank destroyers</value>
+  </data>
+  <data name="quest_3_3_2_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 12 times to enemy vehicles</value>
+  </data>
+  <data name="quest_3_3_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_3_3_4_condition_description_crit" xml:space="preserve">
+    <value>Destroy 3 tracks</value>
+  </data>
+  <data name="quest_3_3_4_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage to an immobilized enemy vehicle 3 times</value>
+  </data>
+  <data name="quest_3_3_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 immobilized enemy vehicles</value>
+  </data>
+  <data name="quest_3_3_5_condition_title_vehicleKills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="quest_3_3_7_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage to enemy SPGs 2 times</value>
+  </data>
+  <data name="quest_3_3_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 1 enemy SPG</value>
+  </data>
+  <data name="quest_3_3_8_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 1,500 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_3_8_condition_description_vehicleDamage_count" xml:space="preserve">
+    <value>Cause damage to enemy medium tanks 6 times</value>
+  </data>
+  <data name="quest_3_3_8_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy an enemy medium tank</value>
+  </data>
+  <data name="quest_3_3_9_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Caused 1,500 HP of damage to enemy heavy tanks</value>
+  </data>
+  <data name="quest_3_3_9_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy heavy tanks</value>
+  </data>
+  <data name="quest_3_4_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_4_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_4_12_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy heavy tanks</value>
+  </data>
+  <data name="quest_3_4_13_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 5 enemy vehicles</value>
+  </data>
+  <data name="quest_3_4_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 6,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_4_15_condition_description_kills" xml:space="preserve">
+    <value>Destroy 5 enemy vehicles</value>
+  </data>
+  <data name="quest_3_4_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_4_3_condition_description_damaged" xml:space="preserve">
+    <value>Cause damage to 5 enemy vehicles</value>
+  </data>
+  <data name="quest_3_4_5_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_4_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_3_4_9_condition_description_inBattleMaxPiercingSeries" xml:space="preserve">
+    <value>Score 5 armor-penetrating hits in a row</value>
+  </data>
+  <data name="quest_3_4_9_condition_description_kills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_3_5_11_condition_description_multiStunEvent" xml:space="preserve">
+    <value>Stun 3 enemy vehicles with a single shot</value>
+  </data>
+  <data name="quest_3_5_11_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 150 seconds in total</value>
+  </data>
+  <data name="quest_3_5_12_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 150 seconds in total</value>
+  </data>
+  <data name="quest_3_5_13_condition_description_stunNum" xml:space="preserve">
+    <value>Stun enemy vehicles 10 times</value>
+  </data>
+  <data name="quest_3_5_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 8 times to enemy vehicles</value>
+  </data>
+  <data name="quest_3_5_14_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 180 seconds in total</value>
+  </data>
+  <data name="quest_3_5_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_3_5_1_condition_description_stunNum" xml:space="preserve">
+    <value>Stun enemy vehicles 7 times</value>
+  </data>
+  <data name="quest_3_5_1_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 6 times to enemy vehicles</value>
+  </data>
+  <data name="quest_3_5_2_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 150 seconds in total</value>
+  </data>
+  <data name="quest_3_5_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy vehicles</value>
+  </data>
+  <data name="quest_3_5_3_condition_description_vehicleStun" xml:space="preserve">
+    <value>Stun heavy tanks or tank destroyers 6 times</value>
+  </data>
+  <data name="quest_3_5_5_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 6 times to enemy vehicles</value>
+  </data>
+  <data name="quest_3_5_7_condition_description_stunned" xml:space="preserve">
+    <value>Stun 5 enemy vehicles</value>
+  </data>
+  <data name="quest_4_1_11_condition_description_damage" xml:space="preserve">
+    <value>Cause 2,500 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_1_13_condition_description_damage" xml:space="preserve">
+    <value>Cause 2,500 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_1_2_condition_description_spotted" xml:space="preserve">
+    <value>Spot 8 enemy vehicles</value>
+  </data>
+  <data name="quest_4_1_3_condition_description_damage_eventCount" xml:space="preserve">
+    <value>Cause damage 6 times to enemy vehicles</value>
+  </data>
+  <data name="quest_4_1_3_condition_description_kills" xml:space="preserve">
+    <value>Destroy 4 enemy vehicles</value>
+  </data>
+  <data name="quest_4_1_3_condition_description_spotted" xml:space="preserve">
+    <value>Spot 6 enemy vehicles</value>
+  </data>
+  <data name="quest_4_1_4_condition_description_crit_track" xml:space="preserve">
+    <value>Destroy 3 tracks</value>
+  </data>
+  <data name="quest_4_1_7_condition_description_spottedAndDamagedSPG" xml:space="preserve">
+    <value>Spot and cause damage to 2 enemy SPGs</value>
+  </data>
+  <data name="quest_4_1_8_condition_description_kills" xml:space="preserve">
+    <value>Destroy 2 enemy vehicles</value>
+  </data>
+  <data name="quest_4_2_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 4,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_2_11_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 5 enemy vehicles</value>
+  </data>
+  <data name="quest_4_2_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_2_1_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 4,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_2_1_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 5 enemy vehicles</value>
+  </data>
+  <data name="quest_4_2_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 4,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_2_3_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 4,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_2_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 5 enemy vehicles</value>
+  </data>
+  <data name="quest_4_2_5_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 5 enemy vehicles</value>
+  </data>
+  <data name="quest_4_2_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 4 enemy heavy or medium tanks</value>
+  </data>
+  <data name="quest_4_2_6_condition_title_vehicleDamage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="quest_4_2_7_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 4,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_2_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 4 enemy vehicles</value>
+  </data>
+  <data name="quest_4_2_8_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy heavy tanks</value>
+  </data>
+  <data name="quest_4_2_8_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 5 enemy vehicles</value>
+  </data>
+  <data name="quest_4_3_10_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 8 times to enemy vehicles</value>
+  </data>
+  <data name="quest_4_3_10_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 4 enemy vehicles</value>
+  </data>
+  <data name="quest_4_3_11_condition_title_ram" xml:space="preserve">
+    <value>Ramming</value>
+  </data>
+  <data name="quest_4_3_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 3,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_3_12_condition_title_fire" xml:space="preserve">
+    <value>Set on Fire</value>
+  </data>
+  <data name="quest_4_3_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 8,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_3_14_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 4,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_3_14_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 8 enemy vehicles</value>
+  </data>
+  <data name="quest_4_3_15_condition_description_damaged" xml:space="preserve">
+    <value>Cause damage to 8 enemy vehicles</value>
+  </data>
+  <data name="quest_4_3_15_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause 3,500 HP of damage to enemy tank destroyers</value>
+  </data>
+  <data name="quest_4_3_2_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 15 times to enemy vehicles</value>
+  </data>
+  <data name="quest_4_3_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 5 enemy vehicles</value>
+  </data>
+  <data name="quest_4_3_4_condition_description_crit" xml:space="preserve">
+    <value>Destroy 4 tracks</value>
+  </data>
+  <data name="quest_4_3_4_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage to an immobilized enemy vehicle 4 times</value>
+  </data>
+  <data name="quest_4_3_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 immobilized enemy vehicles</value>
+  </data>
+  <data name="quest_4_3_5_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy light tanks</value>
+  </data>
+  <data name="quest_4_3_7_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage to enemy SPGs 3 times</value>
+  </data>
+  <data name="quest_4_3_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 1 enemy SPG</value>
+  </data>
+  <data name="quest_4_3_8_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 2,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_3_8_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy medium tanks</value>
+  </data>
+  <data name="quest_4_3_9_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Caused 2,000 HP of damage to enemy heavy tanks</value>
+  </data>
+  <data name="quest_4_3_9_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 2 enemy heavy tanks</value>
+  </data>
+  <data name="quest_4_4_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 4,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_4_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 4,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_4_12_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 3 enemy heavy tanks</value>
+  </data>
+  <data name="quest_4_4_13_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 6 enemy vehicles</value>
+  </data>
+  <data name="quest_4_4_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 8,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_4_15_condition_description_kills" xml:space="preserve">
+    <value>Destroy 6 enemy vehicles</value>
+  </data>
+  <data name="quest_4_4_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 5,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_4_3_condition_description_damaged" xml:space="preserve">
+    <value>Cause damage to 6 enemy vehicles</value>
+  </data>
+  <data name="quest_4_4_5_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 4,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_4_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 4 enemy vehicles</value>
+  </data>
+  <data name="quest_4_4_9_condition_description_inBattleMaxPiercingSeries" xml:space="preserve">
+    <value>Score 6 armor-penetrating hits in a row</value>
+  </data>
+  <data name="quest_4_4_9_condition_description_kills" xml:space="preserve">
+    <value>Destroy 5 enemy vehicles</value>
+  </data>
+  <data name="quest_4_5_11_condition_description_multiStunEvent" xml:space="preserve">
+    <value>Stun 3 enemy vehicles with a single shot twice</value>
+  </data>
+  <data name="quest_4_5_11_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 200 seconds in total</value>
+  </data>
+  <data name="quest_4_5_12_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 200 seconds in total</value>
+  </data>
+  <data name="quest_4_5_13_condition_description_stunNum" xml:space="preserve">
+    <value>Stun enemy vehicles 12 times</value>
+  </data>
+  <data name="quest_4_5_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 10 times to enemy vehicles</value>
+  </data>
+  <data name="quest_4_5_14_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 250 seconds in total</value>
+  </data>
+  <data name="quest_4_5_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause 4,000 HP of damage to enemy vehicles</value>
+  </data>
+  <data name="quest_4_5_1_condition_description_stunNum" xml:space="preserve">
+    <value>Stun enemy vehicles 10 times</value>
+  </data>
+  <data name="quest_4_5_1_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 8 times to enemy vehicles</value>
+  </data>
+  <data name="quest_4_5_2_condition_description_stunDuration" xml:space="preserve">
+    <value>Stun enemy vehicles for 200 seconds in total</value>
+  </data>
+  <data name="quest_4_5_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Destroy 4 enemy vehicles</value>
+  </data>
+  <data name="quest_4_5_3_condition_description_vehicleStun" xml:space="preserve">
+    <value>Stun a heavy tank or tank destroyer 8 times</value>
+  </data>
+  <data name="quest_4_5_5_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Cause damage 8 times to enemy vehicles</value>
+  </data>
+  <data name="quest_4_5_7_condition_description_stunned" xml:space="preserve">
+    <value>Stun 6 enemy vehicles</value>
+  </data>
+  <data name="quest_common_condition_description_damageDealt" xml:space="preserve">
+    <value>Cause damage to an enemy vehicle</value>
+  </data>
+  <data name="tile_6" xml:space="preserve">
+    <value>Chimera</value>
+  </data>
+  <data name="tile_6_descr" xml:space="preserve">
+    <value>A set of missions for all vehicle types to receive the U.K. Chimera medium tank.</value>
+  </data>
+  <data name="tile_7" xml:space="preserve">
+    <value>Obj. 279 (e)</value>
+  </data>
+  <data name="tile_7_descr" xml:space="preserve">
+    <value>A set of missions for all vehicle types to receive the Soviet Object 279 (e) heavy tank.</value>
   </data>
 </root>

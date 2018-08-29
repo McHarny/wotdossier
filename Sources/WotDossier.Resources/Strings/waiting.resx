@@ -145,7 +145,7 @@
     <value>Creating Platoon</value>
   </data>
   <data name="customizationApply" xml:space="preserve">
-    <value>Customizing...</value>
+    <value>Applying...</value>
   </data>
   <data name="customizationDrop" xml:space="preserve">
     <value>Deleting...</value>
@@ -501,7 +501,7 @@ Wait until the client connects to the game automatically.</value>
     <value>Creating...</value>
   </data>
   <data name="fort/order/activate" xml:space="preserve">
-    <value>Using…</value>
+    <value>Applying...</value>
   </data>
   <data name="fort/order/add" xml:space="preserve">
     <value>Creating...</value>
@@ -692,5 +692,8 @@ Please wait until you can connect to "%s" or use the Autosearch option (to find 
   </data>
   <data name="download/epicMetaGame" xml:space="preserve">
     <value>Synchronizing personal data...</value>
+  </data>
+  <data name="sellItems" xml:space="preserve">
+    <value>Selling...</value>
   </data>
 </root>

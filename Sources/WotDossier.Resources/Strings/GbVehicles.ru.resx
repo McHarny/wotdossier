@@ -2351,4 +2351,100 @@ AOI-1195-5</value>
   <data name="Turret_1_GB95_Ekins_Firefly_M4A4" xml:space="preserve">
     <value>Sherman VC</value>
   </data>
+  <data name="Chassis_GB96_Excalibur" xml:space="preserve">
+    <value>Excalibur</value>
+  </data>
+  <data name="Chassis_GB97_Chimera" xml:space="preserve">
+    <value>Chimera</value>
+  </data>
+  <data name="GB35_Sentinel_AC_IV_long_special" xml:space="preserve">
+    <value>Средний танк, вооружённый одним из лучших на уровне орудий с великолепной бронепробиваемостью. Кроме того, у машины неплохая маскировка, что поможет вести эффективный и безнаказанный огонь с дальних дистанций.</value>
+  </data>
+  <data name="GB35_Sentinel_AC_IV_short_special" xml:space="preserve">
+    <value>Отличная бронепробиваемость, хорошая маскировка</value>
+  </data>
+  <data name="GB51_Excelsior_long_special" xml:space="preserve">
+    <value>Этот танк отличается хорошей динамикой и высокой скорострельностью, что позволяет эффективно взаимодействовать с любыми союзными СТ. Вдобавок это очень живучая машина, весьма неплохо защищённая спереди.</value>
+  </data>
+  <data name="GB51_Excelsior_short_special" xml:space="preserve">
+    <value>Высокая скорострельность и живучесть, хорошая динамика</value>
+  </data>
+  <data name="GB52_A45_long_special" xml:space="preserve">
+    <value>Скорострельное и пробивное орудие, расположенное в крепкой башне, позволит наносить стабильный урон практически любому противнику. Кроме того, у танка хороший обзор, а запас прочности весьма впечатляющий, что прощает множество ошибок.</value>
+  </data>
+  <data name="GB52_A45_short_special" xml:space="preserve">
+    <value>Отличный запас прочности, высокий урон в минуту</value>
+  </data>
+  <data name="GB68_Matilda_Black_Prince_long_special" xml:space="preserve">
+    <value>За исключительно скорострельное орудие с высоким уроном в минуту и крепкую броню этот танк расплачивается низкой подвижностью, что делает его скорее тяжёлым, чем средним. Машина отлично годится для поддержки штурмующей группы тяжёлых танков.</value>
+  </data>
+  <data name="GB68_Matilda_Black_Prince_short_special" xml:space="preserve">
+    <value>Высокая скорострельность, хорошая защищённость</value>
+  </data>
+  <data name="GB70_N_FV4202_105_long_special" xml:space="preserve">
+    <value>Этот средний танк хоть и не имеет выдающихся динамических характеристик, но обладает просто прекрасным по всем показателям орудием, расположенным в крепкой башне, способной выдержать немало попаданий.</value>
+  </data>
+  <data name="GB70_N_FV4202_105_short_special" xml:space="preserve">
+    <value>Комфортное и пробивное орудие, хороший обзор, крепкая башня</value>
+  </data>
+  <data name="GB71_AT_15A_long_special" xml:space="preserve">
+    <value>Эта штурмовая ПТ-САУ отличается очень мощным бронированием и точным скорострельным орудием с отличными углами горизонтальной наводки. Однако низкая скорость делает машину уязвимой для артиллерийского огня.</value>
+  </data>
+  <data name="GB71_AT_15A_short_special" xml:space="preserve">
+    <value>Отличное фронтальное бронирование, высокая точность и скорострельность</value>
+  </data>
+  <data name="GB96_Excalibur" xml:space="preserve">
+    <value>Excalibur</value>
+  </data>
+  <data name="GB96_Excalibur_descr" xml:space="preserve">
+    <value>Проект авиатранспортабельной противотанковой самоходной установки-амфибии. Был сделан масштабный макет, но дальнейшая разработка была прекращена.</value>
+  </data>
+  <data name="GB96_Excalibur_short" xml:space="preserve">
+    <value>Excalibur</value>
+  </data>
+  <data name="GB97_Chimera" xml:space="preserve">
+    <value>Chimera</value>
+  </data>
+  <data name="GB97_Chimera_descr" xml:space="preserve">
+    <value>Послевоенный проект тяжёлого британского танка, призванный составить конкуренцию советскому танку ИС-3. Несмотря на оригинальность решений и использование опыта немецкого танкостроения, проект не вызвал интереса и дальнейшего развития не получил.</value>
+  </data>
+  <data name="GB97_Chimera_short" xml:space="preserve">
+    <value>Chimera</value>
+  </data>
+  <data name="L50" xml:space="preserve">
+    <value>L50</value>
+  </data>
+  <data name="Rolls_Royse_Meteor_Mk_XI_supercharged" xml:space="preserve">
+    <value>Rolls-Royce Meteor Mk. XI SC</value>
+  </data>
+  <data name="Turret_1_GB96_Excalibur" xml:space="preserve">
+    <value>Excalibur</value>
+  </data>
+  <data name="Turret_1_GB97_Chimera" xml:space="preserve">
+    <value>Conqueror I</value>
+  </data>
+  <data name="_5inch_APDS_Mk_1" xml:space="preserve">
+    <value>APDS Mk. 1</value>
+  </data>
+  <data name="_5inch_AP_Mk_1" xml:space="preserve">
+    <value>AP Mk. 1</value>
+  </data>
+  <data name="_5inch_HESH_Mk_1" xml:space="preserve">
+    <value>HESH Mk. 1</value>
+  </data>
+  <data name="_5inch_QF_Gun" xml:space="preserve">
+    <value>QF 5-in. Gun</value>
+  </data>
+  <data name="_76mm_APDS_EX1" xml:space="preserve">
+    <value>APDS EX1</value>
+  </data>
+  <data name="_76mm_AP_EX1" xml:space="preserve">
+    <value>AP EX1</value>
+  </data>
+  <data name="_76mm_Excalibur_Gun" xml:space="preserve">
+    <value>76 mm 'Excalibur' Gun</value>
+  </data>
+  <data name="_76mm_HESH_EX1" xml:space="preserve">
+    <value>HESH EX1</value>
+  </data>
 </root>

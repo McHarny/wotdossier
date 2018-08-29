@@ -24,12 +24,14 @@ namespace WotDossier.Domain
         private static readonly object _syncObject = new object();
         
         public static readonly Version VersionAll = new Version("100.0.0.0");
-        public static readonly Version VersionRelease = new Version("1.0.2.0");
-        public static readonly Version VersionTest = new Version("1.0.1.0");
+        public static readonly Version VersionRelease = new Version("1.1.0.0");
+        public static readonly Version VersionTest = new Version("1.2.0.0");
 
         private static readonly List<Version> _versions = new List<Version>
         {
                 VersionRelease,
+                new Version("1.0.2.4"),
+                new Version("1.0.2.0"),
                 new Version("1.0.1.0"),
                 new Version("1.0.0.0"),
                 new Version("0.9.22.0"),

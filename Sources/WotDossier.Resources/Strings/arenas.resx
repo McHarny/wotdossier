@@ -939,4 +939,16 @@
   <data name="type/football/description2" xml:space="preserve">
     <value>Victory conditions: earn more points or score more goals.</value>
   </data>
+  <data name="90_minsk/description" xml:space="preserve">
+    <value>Battles at close and medium range will take place near the Victory Square where heavily armored vehicles with low mobility can find safe cover from SPG fire. The position near the circus building can be supported by allied vehicles or attacked by hitting the opponent's flanks and rear. The wide avenue represents two directions of attack, allowing for long-range fire that can significantly influence the battle's outcome.</value>
+  </data>
+  <data name="90_minsk/name" xml:space="preserve">
+    <value>Minsk</value>
+  </data>
+  <data name="99_poland/description" xml:space="preserve">
+    <value>A Polish village surrounded by fields is located at one flank. A plant with a railway is located at the other flank. It provides cover from enemy fire. At the same time, vehicles in the central area are exposed to enemy fire regardless of their team. However, fast scouts can move across this area to check the battle situation at the opposite side of the map.</value>
+  </data>
+  <data name="99_poland/name" xml:space="preserve">
+    <value>Studzianki</value>
+  </data>
 </root>

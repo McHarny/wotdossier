@@ -392,7 +392,7 @@ the safe zone</value>
 The group should comprise three Tier %(level)s vehicles.</value>
   </data>
   <data name="multiselectionSlot/15/descriptionTitle" xml:space="preserve">
-    <value>Select Vehicles:</value>
+    <value>Select Vehicles</value>
   </data>
   <data name="multiselectionSlot/15/message" xml:space="preserve">
     <value>Select Tier %(level)s vehicles in your Garage.</value>

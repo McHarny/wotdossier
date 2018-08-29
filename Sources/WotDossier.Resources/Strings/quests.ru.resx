@@ -1473,10 +1473,10 @@
     <value>Не попасть на %(high)d-%(low)d место в вашей команде по: %(param)s</value>
   </data>
   <data name="details/conditions/results/single/halfTeam/top" xml:space="preserve">
-    <value>Попасть в топ-%(count)d вашей команды по: %(param)s</value>
+    <value>Попасть в топ-%(count)d своей команды по: %(param)s</value>
   </data>
   <data name="details/conditions/results/single/halfTeam/top/not" xml:space="preserve">
-    <value>Не попасть в топ-%(count)d вашей команды по: %(param)s</value>
+    <value>Не попасть в топ-%(count)d своей команды по: %(param)s</value>
   </data>
   <data name="details/conditions/results/unit/alive/not" xml:space="preserve">
     <value>Все игроки формирования должны быть уничтожены в бою.</value>
@@ -3039,8 +3039,8 @@
     <value>ВЫБЕРИТЕ НАДПИСИ</value>
   </data>
   <data name="action/chain/hint/openPersonalCase" xml:space="preserve">
-    <value>НАЖМИТЕ ПРАВУЮ КЛАВИШУ МЫШИ,
-ЧТОБЫ ОТКРЫТЬ ЛИЧНОЕ ДЕЛО</value>
+    <value>НАЖМИТЕ, ЧТОБЫ ОТКРЫТЬ
+ЛИЧНОЕ ДЕЛО</value>
   </data>
   <data name="action/chain/hint/premDays" xml:space="preserve">
     <value>СКИДКА НА ПРЕМИУМ АККАУНТ</value>
@@ -3535,7 +3535,7 @@
     <value>Скидка на покупку постоянных эмблем до %(discount)s</value>
   </data>
   <data name="action/short/equipment/creditsPriceMultiplier" xml:space="preserve">
-    <value>Скидка до %(discount)s на покупку снаряжения за кредиты</value>
+    <value>Скидка до %(discount)s на покупку снаряжения</value>
   </data>
   <data name="action/short/equipment/goldPriceMultiplier" xml:space="preserve">
     <value>Скидка до %(discount)s на покупку снаряжения за золото</value>
@@ -4293,13 +4293,13 @@
     <value>Для %(vehName)s</value>
   </data>
   <data name="missions/tab/label/marathons" xml:space="preserve">
-    <value>Танковый футбол 2018</value>
+    <value>События</value>
   </data>
   <data name="missions/tab/marathons/body" xml:space="preserve">
-    <value>Нажмите, чтобы перейти к соревнованиям.</value>
+    <value>Комплекс боевых задач, полное выполнение которого обеспечит получение ценной награды.</value>
   </data>
   <data name="missions/tab/marathons/header" xml:space="preserve">
-    <value>Танковый футбол 2018</value>
+    <value>События</value>
   </data>
   <data name="missions/tab/marathons/header/award" xml:space="preserve">
     <value>Награда:</value>
@@ -4512,7 +4512,7 @@
     <value>Бланк приказа</value>
   </data>
   <data name="details/conditions/additional/title" xml:space="preserve">
-    <value>Выполнить основные условия</value>
+    <value>Выполнить основное условие</value>
   </data>
   <data name="details/conditions/crits/critical/ammoBay" xml:space="preserve">
     <value>Повредить боеукладку</value>
@@ -5133,10 +5133,10 @@
     <value>Все награды получены</value>
   </data>
   <data name="personalMission/status/addInProgress" xml:space="preserve">
-    <value>Улучшение результата</value>
+    <value>Улучшение результата: выполните основное и дополнительное условия</value>
   </data>
   <data name="personalMission/status/doneWithPawn" xml:space="preserve">
-    <value>Выполнено за %(count)s</value>
+    <value>Основное условие выполнено за %(count)s</value>
   </data>
   <data name="personalMission/status/fullDone" xml:space="preserve">
     <value>Выполнено с отличием</value>
@@ -5148,16 +5148,16 @@
     <value>Не выполнены предшествующие задачи ветки</value>
   </data>
   <data name="personalMission/status/lockedByPrevOperation" xml:space="preserve">
-    <value>Операция %(prevCampaign)s не выполнена</value>
+    <value>Операция «%(prevCampaign)s» не выполнена</value>
   </data>
   <data name="personalMission/status/lockedByVehicle" xml:space="preserve">
     <value>Нет техники</value>
   </data>
   <data name="personalMission/status/mainDone" xml:space="preserve">
-    <value>Выполнено</value>
+    <value>Завершено</value>
   </data>
   <data name="personalMission/status/sheetRecoveryInProgress" xml:space="preserve">
-    <value>Улучшение результата</value>
+    <value>Возврат бланка приказа: выполните основное и дополнительное условия</value>
   </data>
   <data name="personalMission/vehicleSelector/title" xml:space="preserve">
     <value>Выберите %(vehType)s с %(minLevel)s по %(maxLevel)s уровень</value>
@@ -5307,7 +5307,7 @@
     <value>Каждый день в праздничном календаре новое предложение.</value>
   </data>
   <data name="action/auto/calendar" xml:space="preserve">
-    <value>Каждый день в праздничном календаре новое предложение.</value>
+    <value>Каждые два дня — новое предложение, так что внимательно следите за Календарём распродажи, чтобы точно ничего не упустить!</value>
   </data>
   <data name="action/auto/mul_PriceGroupPrice" xml:space="preserve">
     <value>Скидка на покупку элементов внешнего вида</value>
@@ -5325,7 +5325,7 @@
     <value>Перейти к покупке</value>
   </data>
   <data name="action/button/calendar" xml:space="preserve">
-    <value>Перейти к календарю</value>
+    <value>К календарю</value>
   </data>
   <data name="action/button/mul_PriceGroupPrice" xml:space="preserve">
     <value>К внешнему виду</value>
@@ -5343,13 +5343,13 @@
     <value>Зима — время сюрпризов! Порадуйте себя и своих друзей необычным подарком, купив одну или несколько праздничных коробок. В каждой коробке содержатся украшения для Ангара, а также различная награда от кредитов до премиум техники.</value>
   </data>
   <data name="action/full/calendar" xml:space="preserve">
-    <value>Следуя традициям, на всём протяжении новогоднего события Праздничный календарь ежедневно предлагает специальные товары из премиум магазина. Заходите каждый день, чтобы увидеть новое предложение, а также получить боевую задачу дня!</value>
+    <value>С 20 июля объявляется распродажа, где вас ожидают солидные скидки на премиум технику и другое игровое имущество. Каждые два дня — новое предложение, так что внимательно следите за Календарём распродажи, чтобы точно ничего не упустить!</value>
   </data>
   <data name="action/hero/full/boxbuying" xml:space="preserve">
     <value>Зима — время сюрпризов! Порадуйте себя и своих друзей необычным подарком, купив одну или несколько праздничных коробок. В каждой коробке содержатся украшения для Ангара, а также различная награда от кредитов до премиум техники.</value>
   </data>
   <data name="action/hero/full/calendar" xml:space="preserve">
-    <value>Следуя традициям, на всём протяжении новогоднего события Праздничный календарь ежедневно предлагает специальные товары из премиум магазина. Заходите каждый день, чтобы увидеть новое предложение, а также получить боевую задачу дня!</value>
+    <value>С 20 июля объявляется распродажа, где вас ожидают солидные скидки на премиум технику и другое игровое имущество. Каждые два дня — новое предложение, так что внимательно следите за Календарём распродажи, чтобы точно ничего не упустить!</value>
   </data>
   <data name="action/more/type/customizations" xml:space="preserve">
     <value>элементов внешнего вида</value>
@@ -5358,7 +5358,7 @@
     <value>Новогоднее наступление</value>
   </data>
   <data name="action/short/calendar" xml:space="preserve">
-    <value>Праздничный календарь</value>
+    <value>КАЛЕНДАРЬ РАСПРОДАЖИ</value>
   </data>
   <data name="action/short/mul_PriceGroupPrice" xml:space="preserve">
     <value>Скидка до %(discount)s на покупку элементов внешнего вида</value>
@@ -5566,5 +5566,260 @@
   </data>
   <data name="token/default/card" xml:space="preserve">
     <value>Рубашка</value>
+  </data>
+  <data name="action/chain/hint/shellsPrice" xml:space="preserve">
+    <value>ПЕРЕЙТИ К СНАРЯДАМ</value>
+  </data>
+  <data name="action/subheader/calendar" xml:space="preserve">
+    <value>ЖАРКИЕ ПРЕДЛОЖЕНИЯ!</value>
+  </data>
+  <data name="missions/tab/kursk/body" xml:space="preserve">
+    <value>Ежедневные боевые задачи, приуроченные к годовщине Курcкой битвы.</value>
+  </data>
+  <data name="missions/tab/kursk/header" xml:space="preserve">
+    <value>Курская битва</value>
+  </data>
+  <data name="missions/tab/label/kursk" xml:space="preserve">
+    <value>Курская битва</value>
+  </data>
+  <data name="action/auto/vehicleBuyPrice" xml:space="preserve">
+    <value>Скидка на покупку техники</value>
+  </data>
+  <data name="action/auto/vehicleRentPrice" xml:space="preserve">
+    <value>Скидка на аренду премиум техники</value>
+  </data>
+  <data name="action/button/vehicleBuyPrice" xml:space="preserve">
+    <value>Перейти к технике</value>
+  </data>
+  <data name="action/button/vehicleRentPrice" xml:space="preserve">
+    <value>Арендовать технику</value>
+  </data>
+  <data name="action/full/vehicleBuyPrice" xml:space="preserve">
+    <value>Скидка на покупку техники</value>
+  </data>
+  <data name="action/full/vehicleRentPrice" xml:space="preserve">
+    <value>Арендуйте премиум технику со скидкой. Теперь протестировать желаемую премиум машину перед тем, как покупать, стало ещё выгоднее.</value>
+  </data>
+  <data name="action/short/vehicleBuyPrice/more" xml:space="preserve">
+    <value>Скидка до %(discount)s на покупку %(vehicles)s и др. технику</value>
+  </data>
+  <data name="action/short/vehicleBuyPrice/one" xml:space="preserve">
+    <value>%(vehicles)s по выгодной цене в %(discount)s</value>
+  </data>
+  <data name="action/short/vehicleBuyPrice/two" xml:space="preserve">
+    <value>Скидка до %(discount)s на покупку %(vehicles)s</value>
+  </data>
+  <data name="action/short/vehicleRentPrice/more" xml:space="preserve">
+    <value>Скидка до %(discount)s на аренду %(vehicles)s и др. технику</value>
+  </data>
+  <data name="action/short/vehicleRentPrice/one" xml:space="preserve">
+    <value>Аренда %(vehicles)s по выгодной цене %(discount)s</value>
+  </data>
+  <data name="action/short/vehicleRentPrice/two" xml:space="preserve">
+    <value>Скидка до %(discount)s на аренду %(vehicles)s</value>
+  </data>
+  <data name="battleCondition/state/completed" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="battleCondition/state/completed_perfectly" xml:space="preserve">
+    <value>Выполнено с отличием</value>
+  </data>
+  <data name="battleCondition/state/failed" xml:space="preserve">
+    <value>Провалено</value>
+  </data>
+  <data name="battleCondition/state/in_progress" xml:space="preserve">
+    <value>Выполняется</value>
+  </data>
+  <data name="battleCondition/task/status/done" xml:space="preserve">
+    <value>Выполнено!</value>
+  </data>
+  <data name="battleCondition/task/status/failed" xml:space="preserve">
+    <value>Провалено!</value>
+  </data>
+  <data name="battleProgress/afterBattleResult" xml:space="preserve">
+    <value>будет известен по окончанию боя</value>
+  </data>
+  <data name="battleProgress/alertLabel/repairModules" xml:space="preserve">
+    <value>Отремонтируйте повреждённые модули</value>
+  </data>
+  <data name="battleProgress/alertLabel/title" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="battleProgress/damageLeft" xml:space="preserve">
+    <value>%(formattedProgress)s Осталось повредить: %(left)s</value>
+  </data>
+  <data name="battleProgress/killsLeft" xml:space="preserve">
+    <value>%(formattedProgress)s Осталось уничтожить: %(left)s</value>
+  </data>
+  <data name="battleProgress/limitedByTime" xml:space="preserve">
+    <value>%(formattedProgress)s Осталось: %(left)s Время: %(timeLeft)s</value>
+  </data>
+  <data name="battleProgress/position/advantage" xml:space="preserve">
+    <value>%(formattedProgress)s Отрыв: %(advantage)s Место: %(position)s</value>
+  </data>
+  <data name="battleProgress/position/left" xml:space="preserve">
+    <value>%(formattedProgress)s Осталось: %(left)s Место: %(position)s</value>
+  </data>
+  <data name="battleProgress/position/short" xml:space="preserve">
+    <value>%(formattedProgress)s Место: %(position)s</value>
+  </data>
+  <data name="bonusName/completionTokens_5_1" xml:space="preserve">
+    <value>Чертежи двигателя L50</value>
+  </data>
+  <data name="bonusName/completionTokens_5_2" xml:space="preserve">
+    <value>Чертежи торсионной ходовой</value>
+  </data>
+  <data name="bonusName/completionTokens_5_3" xml:space="preserve">
+    <value>Чертежи корпуса с бронерубкой</value>
+  </data>
+  <data name="bonusName/completionTokens_5_4" xml:space="preserve">
+    <value>Чертежи 76-мм орудия</value>
+  </data>
+  <data name="bonusName/completionTokens_6_1" xml:space="preserve">
+    <value>Чертежи двигателя MK. XI SC</value>
+  </data>
+  <data name="bonusName/completionTokens_6_2" xml:space="preserve">
+    <value>Чертежи торсионной ходовой</value>
+  </data>
+  <data name="bonusName/completionTokens_6_3" xml:space="preserve">
+    <value>Чертежи корпуса и башни</value>
+  </data>
+  <data name="bonusName/completionTokens_6_4" xml:space="preserve">
+    <value>Чертежи орудия QF 5-in.</value>
+  </data>
+  <data name="bonusName/completionTokens_7_1" xml:space="preserve">
+    <value>Чертежи двигателя В-11-НЦ</value>
+  </data>
+  <data name="bonusName/completionTokens_7_2" xml:space="preserve">
+    <value>Чертежи четырёхгусеничной ходовой</value>
+  </data>
+  <data name="bonusName/completionTokens_7_3" xml:space="preserve">
+    <value>Чертежи корпуса и башни</value>
+  </data>
+  <data name="bonusName/completionTokens_7_4" xml:space="preserve">
+    <value>Чертежи 122-мм орудия М62-Т2А</value>
+  </data>
+  <data name="details/conditions/alive/description" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя</value>
+  </data>
+  <data name="details/conditions/win/description" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме)</value>
+  </data>
+  <data name="metrics/state/done" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="metrics/state/failed" xml:space="preserve">
+    <value>Провалено</value>
+  </data>
+  <data name="metrics/state/inProgress" xml:space="preserve">
+    <value>Выполняется</value>
+  </data>
+  <data name="metrics/title/left" xml:space="preserve">
+    <value>Осталось:</value>
+  </data>
+  <data name="metrics/title/position" xml:space="preserve">
+    <value>Место:</value>
+  </data>
+  <data name="metrics/title/progress" xml:space="preserve">
+    <value>Прогресс:</value>
+  </data>
+  <data name="metrics/title/targets" xml:space="preserve">
+    <value>Цели:</value>
+  </data>
+  <data name="metrics/title/triesLeft" xml:space="preserve">
+    <value>Осталось попыток:</value>
+  </data>
+  <data name="missionDetails/status/disabled" xml:space="preserve">
+    <value>Задача отключена</value>
+  </data>
+  <data name="missions/tab/bloggers/body" xml:space="preserve">
+    <value>Уникальное игровое событие, в рамках которого известные блогеры собирают свои команды и соревнуются за звание сильнейшего.</value>
+  </data>
+  <data name="missions/tab/bloggers/disabled" xml:space="preserve">
+    <value>«Битва блогеров»</value>
+  </data>
+  <data name="missions/tab/bloggers/disabled/body" xml:space="preserve">
+    <value>Событие недоступно по техническим причинам.</value>
+  </data>
+  <data name="missions/tab/bloggers/disabled/header" xml:space="preserve">
+    <value>Событие недоступно</value>
+  </data>
+  <data name="missions/tab/bloggers/header" xml:space="preserve">
+    <value>«Битва блогеров»</value>
+  </data>
+  <data name="missions/tab/label/bloggers" xml:space="preserve">
+    <value>«Битва блогеров»</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/AT-SPG" xml:space="preserve">
+    <value>ПТ-САУ</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/Alliance-France" xml:space="preserve">
+    <value>Коалиции (%(nations)s)</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/Alliance-Germany" xml:space="preserve">
+    <value>Блока (%(nations)s)</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/Alliance-USA" xml:space="preserve">
+    <value>Альянса (%(nations)s)</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/Alliance-USSR" xml:space="preserve">
+    <value>Союза (%(nations)s)</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/SPG" xml:space="preserve">
+    <value>САУ</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/heavyTank" xml:space="preserve">
+    <value>ТТ</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/lightTank" xml:space="preserve">
+    <value>ЛТ</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/mediumTank" xml:space="preserve">
+    <value>СТ</value>
+  </data>
+  <data name="personalMission/status/addBottomInfo/pm2" xml:space="preserve">
+    <value>Выполняется на технике %(vehType)s %(minLevel)s-%(maxLevel)s уровней</value>
+  </data>
+  <data name="personalMission/status/addBottomInfo/regular" xml:space="preserve">
+    <value>Выполняется на %(vehType)s %(minLevel)s-%(maxLevel)s уровней</value>
+  </data>
+  <data name="personalMission/status/addBottomLocked/pm2" xml:space="preserve">
+    <value>Нет подходящей техники %(vehType)s %(minLevel)s-%(maxLevel)s уровней</value>
+  </data>
+  <data name="personalMission/status/addBottomLocked/regular" xml:space="preserve">
+    <value>Нет подходящих %(vehType)s %(minLevel)s-%(maxLevel)s уровней</value>
+  </data>
+  <data name="personalMission/status/lastDoneWithPawn" xml:space="preserve">
+    <value>Завершающая ветку задача выполнена!</value>
+  </data>
+  <data name="personalMission/status/notDone" xml:space="preserve">
+    <value>Не выполнено</value>
+  </data>
+  <data name="personalMission/status/onlyAddDone" xml:space="preserve">
+    <value>Выполнено дополнительное условие</value>
+  </data>
+  <data name="personalMission/status/onlyMainDone" xml:space="preserve">
+    <value>Выполнено основное условие</value>
+  </data>
+  <data name="quest/flag/status/completed" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="quest/flag/status/completed_perfectly" xml:space="preserve">
+    <value>Выполнено с отличием</value>
+  </data>
+  <data name="quest/flag/status/failed" xml:space="preserve">
+    <value>Провалено</value>
+  </data>
+  <data name="quest/flag/status/in_progress" xml:space="preserve">
+    <value>Выполняется</value>
+  </data>
+  <data name="quest/flag/status/locked" xml:space="preserve">
+    <value>Выполнение недоступно</value>
+  </data>
+  <data name="quest/flag/status/not_started" xml:space="preserve">
+    <value>Вы не приступили к выполнению</value>
+  </data>
+  <data name="token/default/poland" xml:space="preserve">
+    <value>«Польша»</value>
   </data>
 </root>

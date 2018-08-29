@@ -654,4 +654,10 @@
   <data name="invites/text/EPIC" xml:space="preserve">
     <value>%(titleStartTag)sПриглашение во взвод «Линии фронта»%(titleEndTag)s</value>
   </data>
+  <data name="invites/note/change_and_leave/RANKED" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете режим «Ранговый бой» и будете перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/leave/RANKED" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете режим «Ранговый бой».</value>
+  </data>
 </root>

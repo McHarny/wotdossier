@@ -250,7 +250,7 @@
     <value>Concealment</value>
   </data>
   <data name="tankman/skills/camouflage_descr" xml:space="preserve">
-    <value>&lt;shortDesc&gt;Reduces vehicle visibility.&lt;/shortDesc&gt; This skill is cumulative with the effects of Camouflage (for the corresponding types of maps) and a Camouflage Net, as well as Natural Cover.</value>
+    <value>&lt;shortDesc&gt;Reduces vehicle visibility.&lt;/shortDesc&gt; This skill is cumulative with the effects of camouflage (for the corresponding types of maps) and Camouflage Net, as well as Natural Cover.</value>
   </data>
   <data name="tankman/skills/fire_fighting" xml:space="preserve">
     <value>Firefighting</value>

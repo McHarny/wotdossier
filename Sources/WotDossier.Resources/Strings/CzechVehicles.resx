@@ -615,4 +615,10 @@
   <data name="_88mm_vz_42N_OPG" xml:space="preserve">
     <value>Vz. 42N OPG</value>
   </data>
+  <data name="Cz01_Skoda_T40_long_special" xml:space="preserve">
+    <value>This is a typical medium tank that has a rather good gun (though it features mediocre stabilization). It inflicts a significant amount of damage per shot, making any opponent think twice before engaging.</value>
+  </data>
+  <data name="Cz01_Skoda_T40_short_special" xml:space="preserve">
+    <value>Good dynamics, high damage per shot</value>
+  </data>
 </root>

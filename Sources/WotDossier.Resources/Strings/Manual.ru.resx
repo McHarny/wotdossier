@@ -481,7 +481,7 @@
     <value>Прекрасный разовый урон.</value>
   </data>
   <data name="chapter-4/lesson-4/hint-3/text" xml:space="preserve">
-    <value>Хорошая маскировка в стоячем положении.</value>
+    <value>Хорошая маскировка в неподвижном положении.</value>
   </data>
   <data name="chapter-4/lesson-4/title" xml:space="preserve">
     <value>ПТ-САУ</value>
@@ -556,7 +556,7 @@
     <value>Таран</value>
   </data>
   <data name="chapter-5/lesson-2/description" xml:space="preserve">
-    <value>Точность стрельбы в стоячем положении заметно лучше, чем на ходу. Старайтесь не стрелять на ходу по дальним целям: шанс попасть невелик, кроме того, выстрел вас демаскирует.</value>
+    <value>Точность стрельбы в неподвижном положении заметно лучше, чем на ходу. Старайтесь не стрелять на ходу по дальним целям: шанс попасть невелик, кроме того, выстрел вас демаскирует.</value>
   </data>
   <data name="chapter-5/lesson-2/title" xml:space="preserve">
     <value>Разброс орудия в движении</value>

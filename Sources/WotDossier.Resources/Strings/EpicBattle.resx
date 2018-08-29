@@ -633,7 +633,7 @@ TO FRONTLINE</value>
     <value>Blocked</value>
   </data>
   <data name="progress_timers/captured" xml:space="preserve">
-    <value>Base captured</value>
+    <value>Completed</value>
   </data>
   <data name="progress_timers/fully_equipped" xml:space="preserve">
     <value>Fully equipped</value>

@@ -148,28 +148,28 @@
     <value> !</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item0/descr" xml:space="preserve">
-    <value>           .       .</value>
+    <value>   ,     ,    ,  .</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item0/header" xml:space="preserve">
-    <value>    </value>
+    <value>1. </value>
   </data>
   <data name="PersonalMissionFirstEntryView/item1/descr" xml:space="preserve">
-    <value>  (   )  .       :    .</value>
+    <value>       .        .</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item1/header" xml:space="preserve">
-    <value>    !</value>
+    <value>2. </value>
   </data>
   <data name="PersonalMissionFirstEntryView/item2/descr" xml:space="preserve">
-    <value>  ,  ,        .</value>
+    <value>         .</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item2/header" xml:space="preserve">
-    <value>   5 </value>
+    <value>3. </value>
   </data>
   <data name="PersonalMissionFirstEntryView/subTitle" xml:space="preserve">
     <value>   9.20.1</value>
   </data>
   <data name="PersonalMissionFirstEntryView/title" xml:space="preserve">
-    <value>     ?</value>
+    <value>  </value>
   </data>
   <data name="PersonalMissionFirstEntryView/videoBtnLabel" xml:space="preserve">
     <value> </value>
@@ -223,10 +223,10 @@
     <value>  %(count)d %(icon)s</value>
   </data>
   <data name="detailedView/conditionsFullylabel" xml:space="preserve">
-    <value> :</value>
+    <value>   </value>
   </data>
   <data name="detailedView/conditionslabel" xml:space="preserve">
-    <value> :</value>
+    <value> </value>
   </data>
   <data name="detailedView/declineBtnLabel" xml:space="preserve">
     <value />
@@ -247,7 +247,7 @@
     <value> </value>
   </data>
   <data name="detailedView/retryBtnLabel" xml:space="preserve">
-    <value> </value>
+    <value>  </value>
   </data>
   <data name="detailedView/startBtnLabel" xml:space="preserve">
     <value />
@@ -256,7 +256,7 @@
     <value />
   </data>
   <data name="detailedView/status/completed" xml:space="preserve">
-    <value />
+    <value>  </value>
   </data>
   <data name="detailedView/status/fullyCompleted" xml:space="preserve">
     <value>  </value>
@@ -310,19 +310,19 @@
     <value>,    ,     .</value>
   </data>
   <data name="detailedView/tooltips/retryBtn/header" xml:space="preserve">
-    <value> </value>
+    <value>  </value>
   </data>
   <data name="detailedView/tooltips/returnAwardListBtn/body" xml:space="preserve">
-    <value>,     ,          .</value>
+    <value>,     ,     ,      .</value>
   </data>
   <data name="detailedView/tooltips/returnAwardListBtn/header" xml:space="preserve">
-    <value> </value>
+    <value>  </value>
   </data>
   <data name="detailedView/tooltips/startBtn/body" xml:space="preserve">
     <value>,     .        .</value>
   </data>
   <data name="detailedView/tooltips/startBtn/header" xml:space="preserve">
-    <value>  </value>
+    <value />
   </data>
   <data name="fourFreeSheetsObtainedPopup/button" xml:space="preserve">
     <value />
@@ -381,7 +381,7 @@
     <value />
   </data>
   <data name="operationInfo/awardsButton/label" xml:space="preserve">
-    <value> </value>
+    <value>  </value>
   </data>
   <data name="operationInfo/label" xml:space="preserve">
     <value />
@@ -411,7 +411,7 @@
     <value>   </value>
   </data>
   <data name="operationTitle/title" xml:space="preserve">
-    <value>: %(title)s</value>
+    <value> %(title)s</value>
   </data>
   <data name="operationUnlockedWindow/awardText" xml:space="preserve">
     <value>!        %(title)s.</value>
@@ -520,7 +520,7 @@
     <value>( %(count)d %(icon)s)</value>
   </data>
   <data name="statusPanel/status/selectTask" xml:space="preserve">
-    <value>     </value>
+    <value> ,    </value>
   </data>
   <data name="tankmoduleTooltipData/help/body" xml:space="preserve">
     <value>          %(vehType)s.</value>
@@ -568,10 +568,10 @@
     <value> </value>
   </data>
   <data name="taskDetailsView/btnLabel/returnAwardSheet" xml:space="preserve">
-    <value> </value>
+    <value>  </value>
   </data>
   <data name="taskDetailsView/btnLabel/returnAwardSheets" xml:space="preserve">
-    <value> </value>
+    <value>  </value>
   </data>
   <data name="taskDetailsView/mainConditions" xml:space="preserve">
     <value> </value>
@@ -620,5 +620,365 @@
   </data>
   <data name="PersonalMissionsPlanRegion/mainAward/hullAndTurret" xml:space="preserve">
     <value>  </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/detailedDescription/btnBack" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/blocks/0/descr" xml:space="preserve">
+    <value>,       .
+
+        .
+         .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/blocks/0/title" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/blocks/1/descr" xml:space="preserve">
+    <value>     .
+
+       ,    ,     .
+      ,     .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/blocks/1/title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/blocks/2/descr" xml:space="preserve">
+    <value>,       .      ,   ,     .
+
+  ,    ,  ,      .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/blocks/2/title" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/innerDescr" xml:space="preserve">
+    <value>         .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/warning" xml:space="preserve">
+    <value>  /   ,        ,     .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/blocks/0/descr" xml:space="preserve">
+    <value>         .
+
+ ,         .         ,     ,       .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/blocks/0/title" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/blocks/1/descr" xml:space="preserve">
+    <value>     ,      ,  :
+
+      (  ).
+    :  , ,   ,  ,        0      .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/blocks/1/title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/blocks/2/descr" xml:space="preserve">
+    <value>         ,   ,    Tab.
+
+ ,       ,    -  .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/blocks/2/title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/innerDescr" xml:space="preserve">
+    <value>       .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/0/descr" xml:space="preserve">
+    <value>       (     ).</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/0/title" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/1/descr" xml:space="preserve">
+    <value>         ,     .   4 ,    :
+
+ : , .
+ : , .
+ : , , .
+ : , , , .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/1/title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/2/descr" xml:space="preserve">
+    <value>        ,     :
+
+ StuG IV:   IV-X .
+ T28 HTC:   V-X .
+ Excalibur:   VI-X .
+ T 55A:   VI-X .
+  260:   VI-X .
+ Chimera:   VII-X .
+  279 ():   VIII-X .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/2/title" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/3/descr" xml:space="preserve">
+    <value>              .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/3/title" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/innerDescr" xml:space="preserve">
+    <value>     ,   ,       .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/warning" xml:space="preserve">
+    <value>   ,    .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/0/descr" xml:space="preserve">
+    <value>    ,     .     :
+
+  : Stug IV, T28 HTC, T 55A,  260.
+  : Excalibur, Chimera,  279 ().</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/0/title" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/1/descr" xml:space="preserve">
+    <value>     ,    ,    :
+
+         .
+         .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/1/title" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/2/descr" xml:space="preserve">
+    <value>  .     ,         (  ).
+
+     ,   ,        100%.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/2/title" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/3/descr" xml:space="preserve">
+    <value> ,          .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/3/title" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/descr" xml:space="preserve">
+    <value>      ,  ,        .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/header" xml:space="preserve">
+    <value>4. </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/innerDescr" xml:space="preserve">
+    <value> ,      .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/items/more" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/blueprintChassis" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/blueprintEngine" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/blueprintGun" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/blueprintHull" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/blueprintHullAndTurret" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="alliance/0/details" xml:space="preserve">
+    <value>      .</value>
+  </data>
+  <data name="alliance/0/name" xml:space="preserve">
+    <value />
+  </data>
+  <data name="alliance/1/details" xml:space="preserve">
+    <value>      .</value>
+  </data>
+  <data name="alliance/1/name" xml:space="preserve">
+    <value />
+  </data>
+  <data name="alliance/2/details" xml:space="preserve">
+    <value>      .</value>
+  </data>
+  <data name="alliance/2/name" xml:space="preserve">
+    <value />
+  </data>
+  <data name="alliance/3/details" xml:space="preserve">
+    <value>      .</value>
+  </data>
+  <data name="alliance/3/name" xml:space="preserve">
+    <value />
+  </data>
+  <data name="awardsScreen/acceptBtn/label" xml:space="preserve">
+    <value> !</value>
+  </data>
+  <data name="awardsScreen/closeBtn/label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="awardsScreen/header" xml:space="preserve">
+    <value> %(missionName)s </value>
+  </data>
+  <data name="awardsScreen/header/fullyCompleted" xml:space="preserve">
+    <value> %(missionName)s   </value>
+  </data>
+  <data name="awardsScreen/headerExtra" xml:space="preserve">
+    <value> !</value>
+  </data>
+  <data name="awardsView/description" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="chainTooltipData/description/text/alliance0" xml:space="preserve">
+    <value>       .</value>
+  </data>
+  <data name="chainTooltipData/description/text/alliance1" xml:space="preserve">
+    <value>       .</value>
+  </data>
+  <data name="chainTooltipData/description/text/alliance2" xml:space="preserve">
+    <value>       .</value>
+  </data>
+  <data name="chainTooltipData/description/text/alliance3" xml:space="preserve">
+    <value>       .</value>
+  </data>
+  <data name="chainTooltipData/description/title" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="conditions/battlesLeft/bottomLabel" xml:space="preserve">
+    <value> : %(count)s</value>
+  </data>
+  <data name="conditions/biathlon/label/add" xml:space="preserve">
+    <value>    %(goal)s   %(limit)s</value>
+  </data>
+  <data name="conditions/biathlon/label/main" xml:space="preserve">
+    <value>    %(goal)s   %(limit)s</value>
+  </data>
+  <data name="conditions/completed/bottomLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="conditions/counter/label/add" xml:space="preserve">
+    <value>  , : %(count)s</value>
+  </data>
+  <data name="conditions/counter/label/main" xml:space="preserve">
+    <value>  , : %(count)s</value>
+  </data>
+  <data name="conditions/currentProgress/bottomLabel" xml:space="preserve">
+    <value>: %(currentProgress)s</value>
+  </data>
+  <data name="conditions/failed/bottomLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="conditions/limited/label/add" xml:space="preserve">
+    <value>    - : %(count)s</value>
+  </data>
+  <data name="conditions/limited/label/main" xml:space="preserve">
+    <value>    - : %(count)s</value>
+  </data>
+  <data name="conditions/limiter/label" xml:space="preserve">
+    <value>!</value>
+  </data>
+  <data name="conditions/multiplier" xml:space="preserve">
+    <value> %(value)s:</value>
+  </data>
+  <data name="conditions/multiplier/description" xml:space="preserve">
+    <value> :   ,    x%(value)s       .</value>
+  </data>
+  <data name="conditions/orGroup" xml:space="preserve">
+    <value />
+  </data>
+  <data name="conditions/series/label/add" xml:space="preserve">
+    <value>   %(count)s  </value>
+  </data>
+  <data name="conditions/series/label/main" xml:space="preserve">
+    <value>   %(count)s  </value>
+  </data>
+  <data name="conditions/unlimited/label/add" xml:space="preserve">
+    <value>      </value>
+  </data>
+  <data name="conditions/unlimited/label/main" xml:space="preserve">
+    <value>      </value>
+  </data>
+  <data name="header/backBtn/descrLabel/operation" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="operationInfo/chainVehReq" xml:space="preserve">
+    <value>%(vehs)s %(minLevel)s-%(maxLevel)s </value>
+  </data>
+  <data name="operationInfo/operationBtn/postponed/days" xml:space="preserve">
+    <value>%(days)s.</value>
+  </data>
+  <data name="operationInfo/operationBtn/postponed/lessThanDay" xml:space="preserve">
+    <value> 1 </value>
+  </data>
+  <data name="operationTitle/label/inProgress/pm2" xml:space="preserve">
+    <value>   %(vehData)s</value>
+  </data>
+  <data name="operationTitle/label/inProgress/regular" xml:space="preserve">
+    <value>    %(vehData)s</value>
+  </data>
+  <data name="operationTitle/label/noVehicle/pm2" xml:space="preserve">
+    <value>:    %(vehData)s</value>
+  </data>
+  <data name="operationTitle/label/noVehicle/regular" xml:space="preserve">
+    <value>:     %(vehData)s</value>
+  </data>
+  <data name="operationTitle/label/unlocked/pm2" xml:space="preserve">
+    <value>      %(vehData)s</value>
+  </data>
+  <data name="operationTitle/label/unlocked/regular" xml:space="preserve">
+    <value>       %(vehData)s</value>
+  </data>
+  <data name="operations/title5" xml:space="preserve">
+    <value>Excalibur</value>
+  </data>
+  <data name="operations/title6" xml:space="preserve">
+    <value>Chimera</value>
+  </data>
+  <data name="operations/title7" xml:space="preserve">
+    <value> 279 ()</value>
+  </data>
+  <data name="questAwardScreen/continueBtn/label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="questAwardScreen/nextQuest/title/questAccept" xml:space="preserve">
+    <value>    :</value>
+  </data>
+  <data name="questAwardScreen/nextQuest/title/questImprove" xml:space="preserve">
+    <value> ,     :</value>
+  </data>
+  <data name="questAwardScreen/nextQuestBtn/label" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="questAwardScreen/okBtn/label" xml:space="preserve">
+    <value> !</value>
+  </data>
+  <data name="questAwardScreen/operation" xml:space="preserve">
+    <value> %(operation)s</value>
+  </data>
+  <data name="questAwardScreen/quest" xml:space="preserve">
+    <value> %(quest)s !</value>
+  </data>
+  <data name="questAwardScreen/recruitBtn/label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="questProgressTracking/trackingStatus" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="tankmoduleTooltipData/alliance/help/body" xml:space="preserve">
+    <value>          %(vehType)s.</value>
+  </data>
+  <data name="tankmoduleTooltipData/alliance/info" xml:space="preserve">
+    <value>    %(vehName)s</value>
+  </data>
+  <data name="tankmoduleTooltipData/status/alliance/notObtained" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="tankmoduleTooltipData/status/alliance/obtained" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="useAwardSheetWindow/pm2/noVehicle" xml:space="preserve">
+    <value>     %(vehicleClass)s.</value>
+  </data>
+  <data name="useAwardSheetWindow/regular/noVehicle" xml:space="preserve">
+    <value>      %(vehicleClass)s.</value>
   </data>
 </root>

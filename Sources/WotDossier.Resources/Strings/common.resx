@@ -129,4 +129,10 @@
   <data name="common/slash" xml:space="preserve">
     <value>/</value>
   </data>
+  <data name="common/close_quotes" xml:space="preserve">
+    <value>"</value>
+  </data>
+  <data name="common/open_quotes" xml:space="preserve">
+    <value>"</value>
+  </data>
 </root>

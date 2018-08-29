@@ -1,0 +1,3821 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pm2_5_1_1" xml:space="preserve">
+    <value>Union-1. Full Cooperation</value>
+  </data>
+  <data name="pm2_5_1_10" xml:space="preserve">
+    <value>Union-10. Raise the Flag!</value>
+  </data>
+  <data name="pm2_5_1_10_description_baseCapture" xml:space="preserve">
+    <value>Participate in the successful capture of the base.</value>
+  </data>
+  <data name="pm2_5_1_10_description_topByExp" xml:space="preserve">
+    <value>Be among the top 5 players on your team by experience earned.</value>
+  </data>
+  <data name="pm2_5_1_10_short" xml:space="preserve">
+    <value>Union-10</value>
+  </data>
+  <data name="pm2_5_1_10_title_baseCapture" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="pm2_5_1_10_title_topByExp" xml:space="preserve">
+    <value>Top 5</value>
+  </data>
+  <data name="pm2_5_1_11" xml:space="preserve">
+    <value>Union-11. Like a Rolling Stone</value>
+  </data>
+  <data name="pm2_5_1_11_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_1_11_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_1_11_short" xml:space="preserve">
+    <value>Union-11</value>
+  </data>
+  <data name="pm2_5_1_11_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_1_11_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_1_12" xml:space="preserve">
+    <value>Union-12. Untouchable</value>
+  </data>
+  <data name="pm2_5_1_12_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_1_12_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Block %(vehicleHealthFactor)s times more damage than the hit points of your vehicle.</value>
+  </data>
+  <data name="pm2_5_1_12_short" xml:space="preserve">
+    <value>Union-12</value>
+  </data>
+  <data name="pm2_5_1_12_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_1_12_title_blockedDamageInBattle" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_5_1_13" xml:space="preserve">
+    <value>Union-13. Ramming Is the Weapon of Heroes!</value>
+  </data>
+  <data name="pm2_5_1_13_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_1_13_description_hitsInBattle" xml:space="preserve">
+    <value>Cause damage to an enemy vehicle by ramming.</value>
+  </data>
+  <data name="pm2_5_1_13_short" xml:space="preserve">
+    <value>Union-13</value>
+  </data>
+  <data name="pm2_5_1_13_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_1_13_title_hitsInBattle" xml:space="preserve">
+    <value>Ramming</value>
+  </data>
+  <data name="pm2_5_1_14" xml:space="preserve">
+    <value>Union-14. A Heavy Blow</value>
+  </data>
+  <data name="pm2_5_1_14_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_1_14_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles that lost over 50%% of their hit points as the result of your damage caused.</value>
+  </data>
+  <data name="pm2_5_1_14_short" xml:space="preserve">
+    <value>Union-14</value>
+  </data>
+  <data name="pm2_5_1_14_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_1_14_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_1_15" xml:space="preserve">
+    <value>Union-15. For the Glory of Union!</value>
+  </data>
+  <data name="pm2_5_1_15_description_markOfMasteryI" xml:space="preserve">
+    <value>Receive the Mastery Badge I Class or higher.</value>
+  </data>
+  <data name="pm2_5_1_15_description_markOfMasteryMaster" xml:space="preserve">
+    <value>Receive the Ace Tanker Mastery Badge.</value>
+  </data>
+  <data name="pm2_5_1_15_short" xml:space="preserve">
+    <value>Union-15</value>
+  </data>
+  <data name="pm2_5_1_15_title_markOfMasteryI" xml:space="preserve">
+    <value>Mastery Badge</value>
+  </data>
+  <data name="pm2_5_1_15_title_markOfMasteryMaster" xml:space="preserve">
+    <value>Mastery Badge</value>
+  </data>
+  <data name="pm2_5_1_1_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_1_1_description_assist" xml:space="preserve">
+    <value>Enable your allies to cause %(goal)s HP of damage to enemy vehicles that do not belong to Union by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_5_1_1_short" xml:space="preserve">
+    <value>Union-1</value>
+  </data>
+  <data name="pm2_5_1_1_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_1_1_title_assist" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_5_1_2" xml:space="preserve">
+    <value>Union-2. Turn Off the Lights</value>
+  </data>
+  <data name="pm2_5_1_2_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy light tanks.</value>
+  </data>
+  <data name="pm2_5_1_2_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_1_2_short" xml:space="preserve">
+    <value>Union-2</value>
+  </data>
+  <data name="pm2_5_1_2_title_damage" xml:space="preserve">
+    <value>Damage to Light Tanks</value>
+  </data>
+  <data name="pm2_5_1_2_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_1_3" xml:space="preserve">
+    <value>Union-3. V Is for Vengeance</value>
+  </data>
+  <data name="pm2_5_1_3_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_1_3_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles that caused damage or hit your vehicle with no damage.</value>
+  </data>
+  <data name="pm2_5_1_3_short" xml:space="preserve">
+    <value>Union-3</value>
+  </data>
+  <data name="pm2_5_1_3_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_1_3_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_1_4" xml:space="preserve">
+    <value>Union-4. Like a Stone Wall</value>
+  </data>
+  <data name="pm2_5_1_4_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_1_4_description_blockedHits" xml:space="preserve">
+    <value>Block %(goal)s hits with your vehicles.</value>
+  </data>
+  <data name="pm2_5_1_4_short" xml:space="preserve">
+    <value>Union-4</value>
+  </data>
+  <data name="pm2_5_1_4_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_1_4_title_blockedHits" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_5_1_5" xml:space="preserve">
+    <value>Union-5. I Follow SPG</value>
+  </data>
+  <data name="pm2_5_1_5_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy SPGs.</value>
+  </data>
+  <data name="pm2_5_1_5_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_1_5_short" xml:space="preserve">
+    <value>Union-5</value>
+  </data>
+  <data name="pm2_5_1_5_title_damage" xml:space="preserve">
+    <value>Damage to SPGs</value>
+  </data>
+  <data name="pm2_5_1_5_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_1_6" xml:space="preserve">
+    <value>Union-6: Focal Point</value>
+  </data>
+  <data name="pm2_5_1_6_description_assistedKills" xml:space="preserve">
+    <value>Enable your allies to destroy a total of %(goal)s enemy light tanks, medium tanks, or tank destroyers by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_5_1_6_description_killsInBattle" xml:space="preserve">
+    <value>Destroy an immobilized enemy vehicle.</value>
+  </data>
+  <data name="pm2_5_1_6_short" xml:space="preserve">
+    <value>Union-6</value>
+  </data>
+  <data name="pm2_5_1_6_title_assistedKills" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_5_1_6_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_1_7" xml:space="preserve">
+    <value>Union-7. A Heavy Blow to Medium Tanks</value>
+  </data>
+  <data name="pm2_5_1_7_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_1_7_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy medium tanks.</value>
+  </data>
+  <data name="pm2_5_1_7_short" xml:space="preserve">
+    <value>Union-7</value>
+  </data>
+  <data name="pm2_5_1_7_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_1_7_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_1_8" xml:space="preserve">
+    <value>Union-8. Call All the Shots</value>
+  </data>
+  <data name="pm2_5_1_8_description_assist" xml:space="preserve">
+    <value>Enable your allies to cause %(goal)s HP of damage to enemy vehicles by spotting them, stunning them, or destroying their tracks.</value>
+  </data>
+  <data name="pm2_5_1_8_description_stunTimeInBattle" xml:space="preserve">
+    <value>Stun enemy vehicles for a total of %(goal)s seconds.</value>
+  </data>
+  <data name="pm2_5_1_8_short" xml:space="preserve">
+    <value>Union-8</value>
+  </data>
+  <data name="pm2_5_1_8_title_assist" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_5_1_8_title_stunTimeInBattle" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_5_1_9" xml:space="preserve">
+    <value>Union-9. Double or Nothing</value>
+  </data>
+  <data name="pm2_5_1_9_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(vehicleHealthFactor)s times more damage than the hit points of your vehicle.</value>
+  </data>
+  <data name="pm2_5_1_9_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_1_9_short" xml:space="preserve">
+    <value>Union-9</value>
+  </data>
+  <data name="pm2_5_1_9_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_1_9_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_2_1" xml:space="preserve">
+    <value>Bloc-1. Bad Seed</value>
+  </data>
+  <data name="pm2_5_2_10" xml:space="preserve">
+    <value>Bloc-10. Selective Approach</value>
+  </data>
+  <data name="pm2_5_2_10_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles that belong to Bloc.</value>
+  </data>
+  <data name="pm2_5_2_10_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_2_10_short" xml:space="preserve">
+    <value>Bloc-10</value>
+  </data>
+  <data name="pm2_5_2_10_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_2_10_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_2_11" xml:space="preserve">
+    <value>Bloc-11. Strike With All Your Might</value>
+  </data>
+  <data name="pm2_5_2_11_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_2_11_description_stunNumberInBattle" xml:space="preserve">
+    <value>Stun %(goal)s different enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_2_11_short" xml:space="preserve">
+    <value>Bloc-11</value>
+  </data>
+  <data name="pm2_5_2_11_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_2_11_title_stunNumberInBattle" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_5_2_12" xml:space="preserve">
+    <value>Bloc-12. Easy Cooking</value>
+  </data>
+  <data name="pm2_5_2_12_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles during the first %(timeLimit)s minutes of the battle.</value>
+  </data>
+  <data name="pm2_5_2_12_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_5_2_12_short" xml:space="preserve">
+    <value>Bloc-12</value>
+  </data>
+  <data name="pm2_5_2_12_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_2_12_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_5_2_13" xml:space="preserve">
+    <value>Bloc-13. For the Common Good</value>
+  </data>
+  <data name="pm2_5_2_13_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_2_13_description_topByDamage" xml:space="preserve">
+    <value>Be among the top 3 players in the battle by damage caused.</value>
+  </data>
+  <data name="pm2_5_2_13_short" xml:space="preserve">
+    <value>Bloc-13</value>
+  </data>
+  <data name="pm2_5_2_13_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_2_13_title_topByDamage" xml:space="preserve">
+    <value>Top 3</value>
+  </data>
+  <data name="pm2_5_2_14" xml:space="preserve">
+    <value>Bloc-14. A Hard Nut to Crack</value>
+  </data>
+  <data name="pm2_5_2_14_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Block %(vehicleHealthFactor)s times more damage than the hit points of your vehicle.</value>
+  </data>
+  <data name="pm2_5_2_14_description_topByBlockedDamage" xml:space="preserve">
+    <value>Finish the battle as the top player on your team by damage blocked.</value>
+  </data>
+  <data name="pm2_5_2_14_short" xml:space="preserve">
+    <value>Bloc-14</value>
+  </data>
+  <data name="pm2_5_2_14_title_blockedDamageInBattle" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_5_2_14_title_topByBlockedDamage" xml:space="preserve">
+    <value>Top Player</value>
+  </data>
+  <data name="pm2_5_2_15" xml:space="preserve">
+    <value>Bloc-15. Mouthful of Diamonds</value>
+  </data>
+  <data name="pm2_5_2_15_description_battleHeroMedals" xml:space="preserve">
+    <value>Earn a total of %(goal)s rewards of the Battle Hero category and/or epic medals in a battle.</value>
+  </data>
+  <data name="pm2_5_2_15_description_battleHeroMedalsInBattle" xml:space="preserve">
+    <value>Earn a total of %(goal)s rewards of the Battle Hero category and/or epic medals in a battle.</value>
+  </data>
+  <data name="pm2_5_2_15_short" xml:space="preserve">
+    <value>Bloc-15</value>
+  </data>
+  <data name="pm2_5_2_15_title_battleHeroMedals" xml:space="preserve">
+    <value>Complex Condition</value>
+  </data>
+  <data name="pm2_5_2_15_title_battleHeroMedalsInBattle" xml:space="preserve">
+    <value>Complex Condition</value>
+  </data>
+  <data name="pm2_5_2_1_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy medium tanks.</value>
+  </data>
+  <data name="pm2_5_2_1_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_2_1_short" xml:space="preserve">
+    <value>Bloc-1</value>
+  </data>
+  <data name="pm2_5_2_1_title_damage" xml:space="preserve">
+    <value>Damage to Medium Tanks</value>
+  </data>
+  <data name="pm2_5_2_1_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_2_2" xml:space="preserve">
+    <value>Bloc-2. One More Time, Please</value>
+  </data>
+  <data name="pm2_5_2_2_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_2_2_description_blockedHitsInBattle" xml:space="preserve">
+    <value>Block damage from %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_2_2_short" xml:space="preserve">
+    <value>Bloc-2</value>
+  </data>
+  <data name="pm2_5_2_2_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_2_2_title_blockedHitsInBattle" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_5_2_3" xml:space="preserve">
+    <value>Bloc-3. Tanker Tailor Soldier Spotter</value>
+  </data>
+  <data name="pm2_5_2_3_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_2_3_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy light tanks.</value>
+  </data>
+  <data name="pm2_5_2_3_short" xml:space="preserve">
+    <value>Bloc-3</value>
+  </data>
+  <data name="pm2_5_2_3_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_2_3_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_2_4" xml:space="preserve">
+    <value>Bloc-4. Take No Prisoners</value>
+  </data>
+  <data name="pm2_5_2_4_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_2_4_description_assist" xml:space="preserve">
+    <value>Enable your allies to cause a total of %(goal)s HP of damage to enemy light tanks, medium tanks, or tank destroyers by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_5_2_4_short" xml:space="preserve">
+    <value>Bloc-4</value>
+  </data>
+  <data name="pm2_5_2_4_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_2_4_title_assist" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_5_2_5" xml:space="preserve">
+    <value>Bloc-5 Like a Hot Knife Through Lard</value>
+  </data>
+  <data name="pm2_5_2_5_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_2_5_description_piercings" xml:space="preserve">
+    <value>Score an armor-penetrating hit on an enemy vehicle the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_5_2_5_short" xml:space="preserve">
+    <value>Bloc-5</value>
+  </data>
+  <data name="pm2_5_2_5_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_2_5_title_piercings" xml:space="preserve">
+    <value>Score an Armor-Penetrating Hit</value>
+  </data>
+  <data name="pm2_5_2_6" xml:space="preserve">
+    <value>Bloc-6. Gradual Disarmament</value>
+  </data>
+  <data name="pm2_5_2_6_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_2_6_description_stunNumberInBattle" xml:space="preserve">
+    <value>Stun an enemy vehicle the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_5_2_6_short" xml:space="preserve">
+    <value>Bloc-6</value>
+  </data>
+  <data name="pm2_5_2_6_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_2_6_title_stunNumberInBattle" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_5_2_7" xml:space="preserve">
+    <value>Bloc 7. The Lighting Rod</value>
+  </data>
+  <data name="pm2_5_2_7_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Block %(goal)s HP of damage.</value>
+  </data>
+  <data name="pm2_5_2_7_description_topByBlockedDamage" xml:space="preserve">
+    <value>Be the top player on your team by total damage blocked by armor.</value>
+  </data>
+  <data name="pm2_5_2_7_description_topByDamage" xml:space="preserve">
+    <value>Be the top player on your team by damage caused.</value>
+  </data>
+  <data name="pm2_5_2_7_short" xml:space="preserve">
+    <value>Bloc-7</value>
+  </data>
+  <data name="pm2_5_2_7_title_blockedDamageInBattle" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_5_2_7_title_topByBlockedDamage" xml:space="preserve">
+    <value>Top Player</value>
+  </data>
+  <data name="pm2_5_2_7_title_topByDamage" xml:space="preserve">
+    <value>Top Player</value>
+  </data>
+  <data name="pm2_5_2_8" xml:space="preserve">
+    <value>Bloc-8. Everyone is Equal</value>
+  </data>
+  <data name="pm2_5_2_8_description_killsDiversity" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles of %(uniqueGoal)s different types.</value>
+  </data>
+  <data name="pm2_5_2_8_description_topByDamage" xml:space="preserve">
+    <value>Be the top player on your team by damage caused.</value>
+  </data>
+  <data name="pm2_5_2_8_short" xml:space="preserve">
+    <value>Bloc-8</value>
+  </data>
+  <data name="pm2_5_2_8_title_killsDiversity" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_2_8_title_topByDamage" xml:space="preserve">
+    <value>Top Player</value>
+  </data>
+  <data name="pm2_5_2_9" xml:space="preserve">
+    <value>Bloc-9. The Sword of Damocles is Hanging</value>
+  </data>
+  <data name="pm2_5_2_9_description_assistedKills" xml:space="preserve">
+    <value>Enable your allies to destroy a total of %(goal)s enemy heavy or medium tanks by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_5_2_9_description_killsInBattle" xml:space="preserve">
+    <value>Destroy an immobilized enemy vehicle.</value>
+  </data>
+  <data name="pm2_5_2_9_short" xml:space="preserve">
+    <value>Bloc-9</value>
+  </data>
+  <data name="pm2_5_2_9_title_assistedKills" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_5_2_9_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_3_1" xml:space="preserve">
+    <value>Alliance-1. Hard and Demanding Labor</value>
+  </data>
+  <data name="pm2_5_3_10" xml:space="preserve">
+    <value>Alliance-10. Valuable Assistance</value>
+  </data>
+  <data name="pm2_5_3_10_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_3_10_description_assist" xml:space="preserve">
+    <value>Enable your allies to cause a total of %(goal)s HP of damage to enemy heavy or medium tanks by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_5_3_10_short" xml:space="preserve">
+    <value>Alliance-10</value>
+  </data>
+  <data name="pm2_5_3_10_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_3_10_title_assist" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_5_3_11" xml:space="preserve">
+    <value>Alliance-11. Strike While the Iron Is Hot</value>
+  </data>
+  <data name="pm2_5_3_11_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage during the first %(timeLimit)s minutes of the battle.</value>
+  </data>
+  <data name="pm2_5_3_11_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_5_3_11_short" xml:space="preserve">
+    <value>Alliance-11</value>
+  </data>
+  <data name="pm2_5_3_11_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_3_11_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_5_3_12" xml:space="preserve">
+    <value>Alliance-12. Concrete Defense</value>
+  </data>
+  <data name="pm2_5_3_12_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_3_12_description_blockedHitsInBattle" xml:space="preserve">
+    <value>Block %(goal)s enemy hits.</value>
+  </data>
+  <data name="pm2_5_3_12_short" xml:space="preserve">
+    <value>Alliance-12</value>
+  </data>
+  <data name="pm2_5_3_12_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_3_12_title_blockedHitsInBattle" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_5_3_13" xml:space="preserve">
+    <value>Alliance-13. Counter-Offensive</value>
+  </data>
+  <data name="pm2_5_3_13_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_3_13_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles during the first %(timeLimit)s minutes of the battle.</value>
+  </data>
+  <data name="pm2_5_3_13_short" xml:space="preserve">
+    <value>Alliance-13</value>
+  </data>
+  <data name="pm2_5_3_13_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_3_13_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_3_14" xml:space="preserve">
+    <value>Alliance-14. A Crashing Blow</value>
+  </data>
+  <data name="pm2_5_3_14_description_assistedKills" xml:space="preserve">
+    <value>Allies must destroy %(goal)s enemy vehicles stunned by you.</value>
+  </data>
+  <data name="pm2_5_3_14_description_stunNumberInBattle" xml:space="preserve">
+    <value>Stun %(stunSeveralTargets)s enemy vehicles with one shot.</value>
+  </data>
+  <data name="pm2_5_3_14_short" xml:space="preserve">
+    <value>Alliance-14</value>
+  </data>
+  <data name="pm2_5_3_14_title_assistedKills" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_5_3_14_title_stunNumberInBattle" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_5_3_15" xml:space="preserve">
+    <value>Alliance-15. Alliance Hero</value>
+  </data>
+  <data name="pm2_5_3_15_description_markOfMasteryI" xml:space="preserve">
+    <value>Receive the Mastery Badge I Class or higher.</value>
+  </data>
+  <data name="pm2_5_3_15_description_markOfMasteryMaster" xml:space="preserve">
+    <value>Receive the Ace Tanker Mastery Badge.</value>
+  </data>
+  <data name="pm2_5_3_15_short" xml:space="preserve">
+    <value>Alliance-15</value>
+  </data>
+  <data name="pm2_5_3_15_title_markOfMasteryI" xml:space="preserve">
+    <value>Mastery Badge</value>
+  </data>
+  <data name="pm2_5_3_15_title_markOfMasteryMaster" xml:space="preserve">
+    <value>Mastery Badge</value>
+  </data>
+  <data name="pm2_5_3_1_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_3_1_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_3_1_short" xml:space="preserve">
+    <value>Alliance-1</value>
+  </data>
+  <data name="pm2_5_3_1_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_3_1_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_3_2" xml:space="preserve">
+    <value>Alliance-2. A Strike Out of the Blue</value>
+  </data>
+  <data name="pm2_5_3_2_description_stunNumber" xml:space="preserve">
+    <value>Stun %(goal)s different enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_3_2_description_topByExp" xml:space="preserve">
+    <value>Be among the top 3 players on your team by experience earned.</value>
+  </data>
+  <data name="pm2_5_3_2_short" xml:space="preserve">
+    <value>Alliance-2</value>
+  </data>
+  <data name="pm2_5_3_2_title_stunNumber" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_5_3_2_title_topByExp" xml:space="preserve">
+    <value>Top 3</value>
+  </data>
+  <data name="pm2_5_3_3" xml:space="preserve">
+    <value>Alliance-3. No More Traps</value>
+  </data>
+  <data name="pm2_5_3_3_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy tank destroyers.</value>
+  </data>
+  <data name="pm2_5_3_3_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_3_3_short" xml:space="preserve">
+    <value>Alliance-3</value>
+  </data>
+  <data name="pm2_5_3_3_title_damage" xml:space="preserve">
+    <value>Damage to Tank Destroyers</value>
+  </data>
+  <data name="pm2_5_3_3_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_3_4" xml:space="preserve">
+    <value>Alliance-4. The All-Seeing Eye</value>
+  </data>
+  <data name="pm2_5_3_4_description_spotNumber" xml:space="preserve">
+    <value>Spot %(goal)s enemy vehicles while remaining unspotted.</value>
+  </data>
+  <data name="pm2_5_3_4_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_5_3_4_short" xml:space="preserve">
+    <value>Alliance-4</value>
+  </data>
+  <data name="pm2_5_3_4_title_spotNumber" xml:space="preserve">
+    <value>Spotting</value>
+  </data>
+  <data name="pm2_5_3_4_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_5_3_5" xml:space="preserve">
+    <value>Alliance-5. Cut Off the Edge of Attack</value>
+  </data>
+  <data name="pm2_5_3_5_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_3_5_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy heavy tanks.</value>
+  </data>
+  <data name="pm2_5_3_5_short" xml:space="preserve">
+    <value>Alliance-5</value>
+  </data>
+  <data name="pm2_5_3_5_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_3_5_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_3_6" xml:space="preserve">
+    <value>Alliance-6. You Might as Well Talk to a Brick Wall</value>
+  </data>
+  <data name="pm2_5_3_6_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_3_6_description_blockedDamage" xml:space="preserve">
+    <value>Block %(goal)s HP of damage.</value>
+  </data>
+  <data name="pm2_5_3_6_short" xml:space="preserve">
+    <value>Alliance-6</value>
+  </data>
+  <data name="pm2_5_3_6_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_3_6_title_blockedDamage" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_5_3_7" xml:space="preserve">
+    <value>Alliance-7. Fire Till the Last Shell</value>
+  </data>
+  <data name="pm2_5_3_7_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_3_7_description_topByExp" xml:space="preserve">
+    <value>Finish the battle as the top player on your team by experience earned.</value>
+  </data>
+  <data name="pm2_5_3_7_short" xml:space="preserve">
+    <value>Alliance-7</value>
+  </data>
+  <data name="pm2_5_3_7_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_3_7_title_topByExp" xml:space="preserve">
+    <value>Top Player</value>
+  </data>
+  <data name="pm2_5_3_8" xml:space="preserve">
+    <value>Alliance-8. There Is No Escape</value>
+  </data>
+  <data name="pm2_5_3_8_description_stunNumber" xml:space="preserve">
+    <value>Stun %(stunSeveralTargets)s enemy vehicles with one shot the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_5_3_8_description_stunTimeInBattle" xml:space="preserve">
+    <value>Stun enemy vehicles for a total of %(goal)s seconds.</value>
+  </data>
+  <data name="pm2_5_3_8_short" xml:space="preserve">
+    <value>Alliance-8</value>
+  </data>
+  <data name="pm2_5_3_8_title_stunNumber" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_5_3_8_title_stunTimeInBattle" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_5_3_9" xml:space="preserve">
+    <value>Alliance-9. Survival of the Fittest</value>
+  </data>
+  <data name="pm2_5_3_9_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_3_9_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles that belong to Alliance.</value>
+  </data>
+  <data name="pm2_5_3_9_short" xml:space="preserve">
+    <value>Alliance-9</value>
+  </data>
+  <data name="pm2_5_3_9_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_3_9_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_4_1" xml:space="preserve">
+    <value>Coalition-1. The Key Target</value>
+  </data>
+  <data name="pm2_5_4_10" xml:space="preserve">
+    <value>Coalition-10. The Exemplary Performance</value>
+  </data>
+  <data name="pm2_5_4_10_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_4_10_description_topByExp" xml:space="preserve">
+    <value>Finish the battle as the top player on your team by experience earned.</value>
+  </data>
+  <data name="pm2_5_4_10_short" xml:space="preserve">
+    <value>Coalition-10</value>
+  </data>
+  <data name="pm2_5_4_10_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_4_10_title_topByExp" xml:space="preserve">
+    <value>Top Player</value>
+  </data>
+  <data name="pm2_5_4_11" xml:space="preserve">
+    <value>Coalition-11. Hunted Hunters</value>
+  </data>
+  <data name="pm2_5_4_11_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_4_11_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy tank destroyers.</value>
+  </data>
+  <data name="pm2_5_4_11_short" xml:space="preserve">
+    <value>Coalition-11</value>
+  </data>
+  <data name="pm2_5_4_11_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_4_11_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_4_12" xml:space="preserve">
+    <value>Coalition-12. Irreparable Damage</value>
+  </data>
+  <data name="pm2_5_4_12_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_4_12_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_4_12_short" xml:space="preserve">
+    <value>Coalition-12</value>
+  </data>
+  <data name="pm2_5_4_12_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_4_12_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_4_13" xml:space="preserve">
+    <value>Coalition-13. My Warmest Regards</value>
+  </data>
+  <data name="pm2_5_4_13_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_4_13_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy SPGs.</value>
+  </data>
+  <data name="pm2_5_4_13_short" xml:space="preserve">
+    <value>Coalition-13</value>
+  </data>
+  <data name="pm2_5_4_13_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_4_13_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_4_14" xml:space="preserve">
+    <value>Coalition-14. The Battle Is Calling</value>
+  </data>
+  <data name="pm2_5_4_14_description_hitsInBattle" xml:space="preserve">
+    <value>Cause %(goal)s armor-penetrating shots during the first %(timeLimit)s minutes of the battle.</value>
+  </data>
+  <data name="pm2_5_4_14_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_4_14_short" xml:space="preserve">
+    <value>Coalition-14</value>
+  </data>
+  <data name="pm2_5_4_14_title_hitsInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_4_14_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_4_15" xml:space="preserve">
+    <value>Coalition-15. This Is Gonna Be Legen-dary</value>
+  </data>
+  <data name="pm2_5_4_15_description_battleHeroMedals" xml:space="preserve">
+    <value>Earn a total of %(goal)s rewards of the Battle Hero category and/or epic medals in a battle.</value>
+  </data>
+  <data name="pm2_5_4_15_description_battleHeroMedalsInBattle" xml:space="preserve">
+    <value>Earn a total of %(goal)s rewards of the Battle Hero category and/or epic medals in a battle.</value>
+  </data>
+  <data name="pm2_5_4_15_short" xml:space="preserve">
+    <value>Coalition-15</value>
+  </data>
+  <data name="pm2_5_4_15_title_battleHeroMedals" xml:space="preserve">
+    <value>Complex Condition</value>
+  </data>
+  <data name="pm2_5_4_15_title_battleHeroMedalsInBattle" xml:space="preserve">
+    <value>Complex Condition</value>
+  </data>
+  <data name="pm2_5_4_1_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy heavy tanks.</value>
+  </data>
+  <data name="pm2_5_4_1_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_4_1_short" xml:space="preserve">
+    <value>Coalition-1</value>
+  </data>
+  <data name="pm2_5_4_1_title_damage" xml:space="preserve">
+    <value>Damage to Heavy Tanks</value>
+  </data>
+  <data name="pm2_5_4_1_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_4_2" xml:space="preserve">
+    <value>Coalition-2. Knock Their Stuffing Out</value>
+  </data>
+  <data name="pm2_5_4_2_description_crits" xml:space="preserve">
+    <value>Destroy enemy internal modules or injure crew members, totaling at least %(goal)s modules or crew members.</value>
+  </data>
+  <data name="pm2_5_4_2_description_stunNumberInBattle" xml:space="preserve">
+    <value>Stun %(stunSeveralTargets)s enemy vehicles with one shot.</value>
+  </data>
+  <data name="pm2_5_4_2_short" xml:space="preserve">
+    <value>Coalition-2</value>
+  </data>
+  <data name="pm2_5_4_2_title_crits" xml:space="preserve">
+    <value>Critical Hits</value>
+  </data>
+  <data name="pm2_5_4_2_title_stunNumberInBattle" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_5_4_3" xml:space="preserve">
+    <value>Coalition-3. Viva la Coalition</value>
+  </data>
+  <data name="pm2_5_4_3_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_4_3_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles that do not belong to Coalition.</value>
+  </data>
+  <data name="pm2_5_4_3_short" xml:space="preserve">
+    <value>Coalition-3</value>
+  </data>
+  <data name="pm2_5_4_3_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_4_3_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_4_4" xml:space="preserve">
+    <value>Coalition-4. Target Finder</value>
+  </data>
+  <data name="pm2_5_4_4_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_4_4_description_assist" xml:space="preserve">
+    <value>Enable your allies to cause %(goal)s HP of damage to enemy vehicles by spotting or destroying their tracks.</value>
+  </data>
+  <data name="pm2_5_4_4_short" xml:space="preserve">
+    <value>Coalition-4</value>
+  </data>
+  <data name="pm2_5_4_4_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_4_4_title_assist" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_5_4_5" xml:space="preserve">
+    <value>Coalition-5. Breaking Point</value>
+  </data>
+  <data name="pm2_5_4_5_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles that do not belong to Coalition.</value>
+  </data>
+  <data name="pm2_5_4_5_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_4_5_short" xml:space="preserve">
+    <value>Coalition-5</value>
+  </data>
+  <data name="pm2_5_4_5_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_4_5_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_4_6" xml:space="preserve">
+    <value>Coalition-6. At the Peak of Olympus</value>
+  </data>
+  <data name="pm2_5_4_6_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_5_4_6_description_topByDamage" xml:space="preserve">
+    <value>Be the top player on your team by damage caused.</value>
+  </data>
+  <data name="pm2_5_4_6_short" xml:space="preserve">
+    <value>Coalition-6</value>
+  </data>
+  <data name="pm2_5_4_6_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_5_4_6_title_topByDamage" xml:space="preserve">
+    <value>Top Player</value>
+  </data>
+  <data name="pm2_5_4_7" xml:space="preserve">
+    <value>Coalition-7. First Among Equals</value>
+  </data>
+  <data name="pm2_5_4_7_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_5_4_7_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles of the same tier as your vehicle or higher.</value>
+  </data>
+  <data name="pm2_5_4_7_short" xml:space="preserve">
+    <value>Coalition-7</value>
+  </data>
+  <data name="pm2_5_4_7_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_4_7_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_4_8" xml:space="preserve">
+    <value>Coalition-8. Got Your Help</value>
+  </data>
+  <data name="pm2_5_4_8_description_assistedKills" xml:space="preserve">
+    <value>Enable your allies to destroy %(goal)s enemy vehicles by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_5_4_8_description_killsInBattle" xml:space="preserve">
+    <value>Destroy an immobilized enemy vehicle.</value>
+  </data>
+  <data name="pm2_5_4_8_short" xml:space="preserve">
+    <value>Coalition-8</value>
+  </data>
+  <data name="pm2_5_4_8_title_assistedKills" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_5_4_8_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_5_4_9" xml:space="preserve">
+    <value>Coalition-9. Face to Face</value>
+  </data>
+  <data name="pm2_5_4_9_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage during the first %(timeLimit)s minutes of the battle.</value>
+  </data>
+  <data name="pm2_5_4_9_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_5_4_9_short" xml:space="preserve">
+    <value>Coalition-9</value>
+  </data>
+  <data name="pm2_5_4_9_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_5_4_9_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_1_1" xml:space="preserve">
+    <value>Union-1. Make It to the Podium</value>
+  </data>
+  <data name="pm2_6_1_10" xml:space="preserve">
+    <value>Union-10. Not a Step Forward!</value>
+  </data>
+  <data name="pm2_6_1_10_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_1_10_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles from a distance of %(distanceGreatOrEqual)s m or more.</value>
+  </data>
+  <data name="pm2_6_1_10_short" xml:space="preserve">
+    <value>Union-10</value>
+  </data>
+  <data name="pm2_6_1_10_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_1_10_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_1_11" xml:space="preserve">
+    <value>Union-11. You Won't Get Rid of Me That Easily</value>
+  </data>
+  <data name="pm2_6_1_11_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_1_11_description_spotNumber" xml:space="preserve">
+    <value>Spot %(goal)s enemy vehicles while remaining unspotted.</value>
+  </data>
+  <data name="pm2_6_1_11_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_1_11_short" xml:space="preserve">
+    <value>Union-11</value>
+  </data>
+  <data name="pm2_6_1_11_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_1_11_title_spotNumber" xml:space="preserve">
+    <value>Spotting</value>
+  </data>
+  <data name="pm2_6_1_11_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_1_12" xml:space="preserve">
+    <value>Union-12. Are Your Ears Ringing?</value>
+  </data>
+  <data name="pm2_6_1_12_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_1_12_description_stunTime" xml:space="preserve">
+    <value>Stun enemy vehicles for a total of %(goal)s seconds.</value>
+  </data>
+  <data name="pm2_6_1_12_short" xml:space="preserve">
+    <value>Union-12</value>
+  </data>
+  <data name="pm2_6_1_12_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_1_12_title_stunTime" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_6_1_13" xml:space="preserve">
+    <value>Union-13. Family Combo, Please!</value>
+  </data>
+  <data name="pm2_6_1_13_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_1_13_description_killsDiversity" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles of %(uniqueGoal)s different types.</value>
+  </data>
+  <data name="pm2_6_1_13_short" xml:space="preserve">
+    <value>Union-13</value>
+  </data>
+  <data name="pm2_6_1_13_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_1_13_title_killsDiversity" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_1_14" xml:space="preserve">
+    <value>Union-14. Not Even a Scratch</value>
+  </data>
+  <data name="pm2_6_1_14_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_1_14_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles, having received no prior damage to your vehicle.</value>
+  </data>
+  <data name="pm2_6_1_14_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_1_14_short" xml:space="preserve">
+    <value>Union-14</value>
+  </data>
+  <data name="pm2_6_1_14_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_1_14_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_1_14_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_1_15" xml:space="preserve">
+    <value>Union-15. Armor of God</value>
+  </data>
+  <data name="pm2_6_1_15_description_damageDealtReceivedAndBlocked" xml:space="preserve">
+    <value>Cause, receive, and block a total of %(goal)s HP of damage</value>
+  </data>
+  <data name="pm2_6_1_15_description_totalDamagePercent" xml:space="preserve">
+    <value>Cause 25%% of the total amount of damage caused by your team.</value>
+  </data>
+  <data name="pm2_6_1_15_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_1_15_short" xml:space="preserve">
+    <value>Union-15</value>
+  </data>
+  <data name="pm2_6_1_15_title_damageDealtReceivedAndBlocked" xml:space="preserve">
+    <value>Complex Condition</value>
+  </data>
+  <data name="pm2_6_1_15_title_totalDamagePercent" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_1_15_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_1_1_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_1_1_description_topByExp" xml:space="preserve">
+    <value>Be among the top 3 players on your team by experience earned.</value>
+  </data>
+  <data name="pm2_6_1_1_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_1_1_short" xml:space="preserve">
+    <value>Union-1</value>
+  </data>
+  <data name="pm2_6_1_1_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_1_1_title_topByExp" xml:space="preserve">
+    <value>Top 3</value>
+  </data>
+  <data name="pm2_6_1_1_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_1_2" xml:space="preserve">
+    <value>Union-2. At the Forefront</value>
+  </data>
+  <data name="pm2_6_1_2_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_1_2_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles during the first %(timeLimit)s minutes of the battle.</value>
+  </data>
+  <data name="pm2_6_1_2_short" xml:space="preserve">
+    <value>Union-2</value>
+  </data>
+  <data name="pm2_6_1_2_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_1_2_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_1_3" xml:space="preserve">
+    <value>Union-3. For the Good of the Team</value>
+  </data>
+  <data name="pm2_6_1_3_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_1_3_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_1_3_description_topByExp" xml:space="preserve">
+    <value>Be among the top 3 players on your team by experience earned.</value>
+  </data>
+  <data name="pm2_6_1_3_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_1_3_short" xml:space="preserve">
+    <value>Union-3</value>
+  </data>
+  <data name="pm2_6_1_3_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_1_3_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_1_3_title_topByExp" xml:space="preserve">
+    <value>Top 3</value>
+  </data>
+  <data name="pm2_6_1_3_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_1_4" xml:space="preserve">
+    <value>Union-4. None Shall Pass</value>
+  </data>
+  <data name="pm2_6_1_4_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_1_4_description_killsDiversity" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles of %(uniqueGoal)s different types.</value>
+  </data>
+  <data name="pm2_6_1_4_short" xml:space="preserve">
+    <value>Union-4</value>
+  </data>
+  <data name="pm2_6_1_4_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_1_4_title_killsDiversity" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_1_5" xml:space="preserve">
+    <value>Union-5. Enough Shells for Everyone</value>
+  </data>
+  <data name="pm2_6_1_5_description_hits" xml:space="preserve">
+    <value>Cause %(goal)s armor-penetrating shots to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_1_5_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_1_5_short" xml:space="preserve">
+    <value>Union-5</value>
+  </data>
+  <data name="pm2_6_1_5_title_hits" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_1_5_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_1_6" xml:space="preserve">
+    <value>Union-6. Rain on Their Parade</value>
+  </data>
+  <data name="pm2_6_1_6_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_1_6_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles during the first %(timeLimit)s minutes of the battle.</value>
+  </data>
+  <data name="pm2_6_1_6_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_1_6_short" xml:space="preserve">
+    <value>Union-6</value>
+  </data>
+  <data name="pm2_6_1_6_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_1_6_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_1_6_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_1_7" xml:space="preserve">
+    <value>Union-7. SPG Wanted!</value>
+  </data>
+  <data name="pm2_6_1_7_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_1_7_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy SPGs.</value>
+  </data>
+  <data name="pm2_6_1_7_description_spotAndDamage" xml:space="preserve">
+    <value>Spot and cause damage to %(goal)s enemy SPGs.</value>
+  </data>
+  <data name="pm2_6_1_7_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_1_7_short" xml:space="preserve">
+    <value>Union-7</value>
+  </data>
+  <data name="pm2_6_1_7_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_1_7_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_1_7_title_spotAndDamage" xml:space="preserve">
+    <value>Spotting/Causing Damage</value>
+  </data>
+  <data name="pm2_6_1_7_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_1_8" xml:space="preserve">
+    <value>Union-8. It's Tiptop. I'm Just Not Sure About the Color.</value>
+  </data>
+  <data name="pm2_6_1_8_description_crits" xml:space="preserve">
+    <value>Destroy enemy internal modules or injure crew members, totaling at least %(goal)s modules or crew members.</value>
+  </data>
+  <data name="pm2_6_1_8_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_1_8_short" xml:space="preserve">
+    <value>Union-8</value>
+  </data>
+  <data name="pm2_6_1_8_title_crits" xml:space="preserve">
+    <value>Critical Hits</value>
+  </data>
+  <data name="pm2_6_1_8_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_1_9" xml:space="preserve">
+    <value>Union-9. Hunt for Heavies</value>
+  </data>
+  <data name="pm2_6_1_9_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_1_9_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy heavy tanks.</value>
+  </data>
+  <data name="pm2_6_1_9_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy heavy tanks.</value>
+  </data>
+  <data name="pm2_6_1_9_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_1_9_short" xml:space="preserve">
+    <value>Union-9</value>
+  </data>
+  <data name="pm2_6_1_9_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_1_9_title_damage" xml:space="preserve">
+    <value>Damage to Heavy Tanks</value>
+  </data>
+  <data name="pm2_6_1_9_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_1_9_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_2_1" xml:space="preserve">
+    <value>Bloc-1. Just Routine</value>
+  </data>
+  <data name="pm2_6_2_10" xml:space="preserve">
+    <value>Bloc-10. Like a Boss</value>
+  </data>
+  <data name="pm2_6_2_10_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_10_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_10_description_noCrits" xml:space="preserve">
+    <value>At the end of the battle, have no injured crew members or damaged/destroyed internal modules.</value>
+  </data>
+  <data name="pm2_6_2_10_short" xml:space="preserve">
+    <value>Bloc-10</value>
+  </data>
+  <data name="pm2_6_2_10_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_2_10_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_2_10_title_noCrits" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_2_11" xml:space="preserve">
+    <value>Bloc-11. The Thrill of the Hunt</value>
+  </data>
+  <data name="pm2_6_2_11_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_11_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_11_short" xml:space="preserve">
+    <value>Bloc-11</value>
+  </data>
+  <data name="pm2_6_2_11_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_2_11_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_2_12" xml:space="preserve">
+    <value>Bloc-12. The Dominator</value>
+  </data>
+  <data name="pm2_6_2_12_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_2_12_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_12_description_topByDamage" xml:space="preserve">
+    <value>Be the top player in the battle by damage caused.</value>
+  </data>
+  <data name="pm2_6_2_12_short" xml:space="preserve">
+    <value>Bloc-12</value>
+  </data>
+  <data name="pm2_6_2_12_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_2_12_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_2_12_title_topByDamage" xml:space="preserve">
+    <value>Top Player</value>
+  </data>
+  <data name="pm2_6_2_13" xml:space="preserve">
+    <value>Bloc-13. The Collector</value>
+  </data>
+  <data name="pm2_6_2_13_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_2_13_description_killsDiversity" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles of %(uniqueGoal)s different types.</value>
+  </data>
+  <data name="pm2_6_2_13_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_2_13_short" xml:space="preserve">
+    <value>Bloc-13</value>
+  </data>
+  <data name="pm2_6_2_13_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_2_13_title_killsDiversity" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_2_13_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_2_14" xml:space="preserve">
+    <value>Bloc-14. Heavy Case</value>
+  </data>
+  <data name="pm2_6_2_14_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy heavy tanks.</value>
+  </data>
+  <data name="pm2_6_2_14_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_14_short" xml:space="preserve">
+    <value>Bloc-14</value>
+  </data>
+  <data name="pm2_6_2_14_title_damage" xml:space="preserve">
+    <value>Damage to Heavy Tanks</value>
+  </data>
+  <data name="pm2_6_2_14_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_2_15" xml:space="preserve">
+    <value>Bloc-15. Night of the Hunter</value>
+  </data>
+  <data name="pm2_6_2_15_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy tank destroyers.</value>
+  </data>
+  <data name="pm2_6_2_15_description_hits" xml:space="preserve">
+    <value>Cause damage to %(goal)s different enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_15_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_2_15_short" xml:space="preserve">
+    <value>Bloc-15</value>
+  </data>
+  <data name="pm2_6_2_15_title_damage" xml:space="preserve">
+    <value>Damage to Tank Destroyers</value>
+  </data>
+  <data name="pm2_6_2_15_title_hits" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_2_15_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_2_1_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_1_description_topByExp" xml:space="preserve">
+    <value>Be among the top 3 players on your team by experience earned.</value>
+  </data>
+  <data name="pm2_6_2_1_short" xml:space="preserve">
+    <value>Bloc-1</value>
+  </data>
+  <data name="pm2_6_2_1_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_2_1_title_topByExp" xml:space="preserve">
+    <value>Top 3</value>
+  </data>
+  <data name="pm2_6_2_2" xml:space="preserve">
+    <value>Bloc-2. Hit It to the Bone</value>
+  </data>
+  <data name="pm2_6_2_2_description_crits" xml:space="preserve">
+    <value>Destroy enemy internal modules or injure crew members, totaling at least %(goal)s modules or crew members.</value>
+  </data>
+  <data name="pm2_6_2_2_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_2_description_noCrits" xml:space="preserve">
+    <value>At the end of the battle, have no injured crew members or damaged/destroyed internal modules.</value>
+  </data>
+  <data name="pm2_6_2_2_short" xml:space="preserve">
+    <value>Bloc-2</value>
+  </data>
+  <data name="pm2_6_2_2_title_crits" xml:space="preserve">
+    <value>Critical Hits</value>
+  </data>
+  <data name="pm2_6_2_2_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_2_2_title_noCrits" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_2_3" xml:space="preserve">
+    <value>Bloc-3. At Point-Blank Range</value>
+  </data>
+  <data name="pm2_6_2_3_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles that are within your current view range (it may exceed 445 meters).</value>
+  </data>
+  <data name="pm2_6_2_3_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_3_short" xml:space="preserve">
+    <value>Bloc-3</value>
+  </data>
+  <data name="pm2_6_2_3_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_2_3_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_2_4" xml:space="preserve">
+    <value>Bloc-4. I Can See Everything</value>
+  </data>
+  <data name="pm2_6_2_4_description_assistedHits" xml:space="preserve">
+    <value>Enable your allies to cause %(goal)s HP of damage to enemy vehicles spotted by you.</value>
+  </data>
+  <data name="pm2_6_2_4_description_assistedKills" xml:space="preserve">
+    <value>Enable your allies to destroy %(goal)s enemy vehicles spotted by you.</value>
+  </data>
+  <data name="pm2_6_2_4_short" xml:space="preserve">
+    <value>Bloc-4</value>
+  </data>
+  <data name="pm2_6_2_4_title_assistedHits" xml:space="preserve">
+    <value>Intelligence Data</value>
+  </data>
+  <data name="pm2_6_2_4_title_assistedKills" xml:space="preserve">
+    <value>Intelligence Data</value>
+  </data>
+  <data name="pm2_6_2_5" xml:space="preserve">
+    <value>Bloc-5. I Just Met You, and This Is Crazy...</value>
+  </data>
+  <data name="pm2_6_2_5_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_2_5_description_hits" xml:space="preserve">
+    <value>Cause %(goal)s armor-penetrating shots to enemy SPGs.</value>
+  </data>
+  <data name="pm2_6_2_5_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy SPGs.</value>
+  </data>
+  <data name="pm2_6_2_5_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_2_5_short" xml:space="preserve">
+    <value>Bloc-5</value>
+  </data>
+  <data name="pm2_6_2_5_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_2_5_title_hits" xml:space="preserve">
+    <value>Damage to SPGs</value>
+  </data>
+  <data name="pm2_6_2_5_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_2_5_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_2_6" xml:space="preserve">
+    <value>Bloc-6. Offensive Reconnaissance</value>
+  </data>
+  <data name="pm2_6_2_6_description_hits" xml:space="preserve">
+    <value>Cause %(goal)s armor-penetrating shots to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_6_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_6_description_spotNumber" xml:space="preserve">
+    <value>Spot %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_6_short" xml:space="preserve">
+    <value>Bloc-6</value>
+  </data>
+  <data name="pm2_6_2_6_title_hits" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_2_6_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_2_6_title_spotNumber" xml:space="preserve">
+    <value>Spotting</value>
+  </data>
+  <data name="pm2_6_2_7" xml:space="preserve">
+    <value>Bloc-7. Getting Away With Murder</value>
+  </data>
+  <data name="pm2_6_2_7_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_2_7_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles, remaining unspotted at the moment of their destruction.</value>
+  </data>
+  <data name="pm2_6_2_7_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_2_7_short" xml:space="preserve">
+    <value>Bloc-7</value>
+  </data>
+  <data name="pm2_6_2_7_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_2_7_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_2_7_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_2_8" xml:space="preserve">
+    <value>Bloc-8. Catching Fire</value>
+  </data>
+  <data name="pm2_6_2_8_description_hits" xml:space="preserve">
+    <value>Set an enemy vehicle of the same tier or higher on fire.</value>
+  </data>
+  <data name="pm2_6_2_8_description_topByExp" xml:space="preserve">
+    <value>Be among the top 3 players on your team by experience earned.</value>
+  </data>
+  <data name="pm2_6_2_8_short" xml:space="preserve">
+    <value>Bloc-8</value>
+  </data>
+  <data name="pm2_6_2_8_title_hits" xml:space="preserve">
+    <value>Set on Fire</value>
+  </data>
+  <data name="pm2_6_2_8_title_topByExp" xml:space="preserve">
+    <value>Top 3</value>
+  </data>
+  <data name="pm2_6_2_9" xml:space="preserve">
+    <value>Bloc-9. Falcon Rising</value>
+  </data>
+  <data name="pm2_6_2_9_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_2_9_description_assist" xml:space="preserve">
+    <value>Enable your allies to cause %(goal)s HP of damage.</value>
+  </data>
+  <data name="pm2_6_2_9_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_2_9_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_2_9_short" xml:space="preserve">
+    <value>Bloc-9</value>
+  </data>
+  <data name="pm2_6_2_9_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_2_9_title_assist" xml:space="preserve">
+    <value>Intelligence Data</value>
+  </data>
+  <data name="pm2_6_2_9_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_2_9_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_3_1" xml:space="preserve">
+    <value>Alliance-1. Invisible Contribution</value>
+  </data>
+  <data name="pm2_6_3_10" xml:space="preserve">
+    <value>Alliance-10. Everyone Gets a Present</value>
+  </data>
+  <data name="pm2_6_3_10_description_assistedHits" xml:space="preserve">
+    <value>Enable your allies to cause %(goal)s HP of damage to enemy vehicles by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_6_3_10_description_assistedKills" xml:space="preserve">
+    <value>Enable your allies to destroy %(goal)s enemy vehicles by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_6_3_10_short" xml:space="preserve">
+    <value>Alliance-10</value>
+  </data>
+  <data name="pm2_6_3_10_title_assistedHits" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_6_3_10_title_assistedKills" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_6_3_11" xml:space="preserve">
+    <value>Alliance-11. Hunt for Mediums</value>
+  </data>
+  <data name="pm2_6_3_11_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_3_11_description_hits" xml:space="preserve">
+    <value>Cause armor-penetrating shots to enemy medium tanks the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_6_3_11_description_kills" xml:space="preserve">
+    <value>Destroy an enemy medium tank.</value>
+  </data>
+  <data name="pm2_6_3_11_short" xml:space="preserve">
+    <value>Alliance-11</value>
+  </data>
+  <data name="pm2_6_3_11_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_3_11_title_hits" xml:space="preserve">
+    <value>Damage to Medium Tanks</value>
+  </data>
+  <data name="pm2_6_3_11_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_3_12" xml:space="preserve">
+    <value>Alliance-12. Catch Me If You Can</value>
+  </data>
+  <data name="pm2_6_3_12_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_3_12_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_3_12_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy heavy tanks.</value>
+  </data>
+  <data name="pm2_6_3_12_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_3_12_short" xml:space="preserve">
+    <value>Alliance-12</value>
+  </data>
+  <data name="pm2_6_3_12_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_3_12_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_3_12_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_3_12_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_3_13" xml:space="preserve">
+    <value>Alliance-13. Close-Range Fire</value>
+  </data>
+  <data name="pm2_6_3_13_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_3_13_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles from a distance of no more than 100 meters.</value>
+  </data>
+  <data name="pm2_6_3_13_short" xml:space="preserve">
+    <value>Alliance-13</value>
+  </data>
+  <data name="pm2_6_3_13_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_3_13_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_3_14" xml:space="preserve">
+    <value>Alliance-14. Knock-Knock</value>
+  </data>
+  <data name="pm2_6_3_14_description_assist" xml:space="preserve">
+    <value>Destroy a track of an enemy vehicle. Your allies must cause %(goal)s HP of damage to the vehicle immobilized by you.</value>
+  </data>
+  <data name="pm2_6_3_14_description_stunTime" xml:space="preserve">
+    <value>Stun enemy vehicles for a total of %(goal)s seconds.</value>
+  </data>
+  <data name="pm2_6_3_14_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_3_14_short" xml:space="preserve">
+    <value>Alliance-14</value>
+  </data>
+  <data name="pm2_6_3_14_title_assist" xml:space="preserve">
+    <value>Immobilize</value>
+  </data>
+  <data name="pm2_6_3_14_title_stunTime" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_6_3_14_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_3_15" xml:space="preserve">
+    <value>Alliance-15. Commando</value>
+  </data>
+  <data name="pm2_6_3_15_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_3_15_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_3_15_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_3_15_short" xml:space="preserve">
+    <value>Alliance-15</value>
+  </data>
+  <data name="pm2_6_3_15_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_3_15_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_3_15_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_3_1_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_3_1_description_totalDamagePercent" xml:space="preserve">
+    <value>Cause 30%% of the total amount of damage caused by your team.</value>
+  </data>
+  <data name="pm2_6_3_1_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_3_1_short" xml:space="preserve">
+    <value>Alliance-1</value>
+  </data>
+  <data name="pm2_6_3_1_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_3_1_title_totalDamagePercent" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_3_1_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_3_2" xml:space="preserve">
+    <value>Alliance-2. Whale Beach</value>
+  </data>
+  <data name="pm2_6_3_2_description_assist" xml:space="preserve">
+    <value>Destroy a track of an enemy vehicle. Your allies must cause %(goal)s HP of damage to the vehicle immobilized by you.</value>
+  </data>
+  <data name="pm2_6_3_2_description_assistedKills" xml:space="preserve">
+    <value>Destroy the tracks of %(goal)s enemy vehicles. Your allies must destroy the vehicles while they are immobilized.</value>
+  </data>
+  <data name="pm2_6_3_2_description_crits" xml:space="preserve">
+    <value>Destroy the tracks of %(goal)s different enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_3_2_short" xml:space="preserve">
+    <value>Alliance-2</value>
+  </data>
+  <data name="pm2_6_3_2_title_assist" xml:space="preserve">
+    <value>Immobilize</value>
+  </data>
+  <data name="pm2_6_3_2_title_assistedKills" xml:space="preserve">
+    <value>Immobilize</value>
+  </data>
+  <data name="pm2_6_3_2_title_crits" xml:space="preserve">
+    <value>Destroy a Track</value>
+  </data>
+  <data name="pm2_6_3_3" xml:space="preserve">
+    <value>Alliance-3. Cloudy with a Chance of Shells</value>
+  </data>
+  <data name="pm2_6_3_3_description_hitsInBattle" xml:space="preserve">
+    <value>Cause %(goal)s armor-penetrating shots to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_3_3_description_stunNumber" xml:space="preserve">
+    <value>Stun an enemy vehicle the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_6_3_3_short" xml:space="preserve">
+    <value>Alliance-3</value>
+  </data>
+  <data name="pm2_6_3_3_title_hitsInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_3_3_title_stunNumber" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_6_3_4" xml:space="preserve">
+    <value>Alliance-4. There's Something in Those Trees</value>
+  </data>
+  <data name="pm2_6_3_4_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_3_4_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage, remain unspotted at the moment when the damage is caused.</value>
+  </data>
+  <data name="pm2_6_3_4_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_3_4_short" xml:space="preserve">
+    <value>Alliance-4</value>
+  </data>
+  <data name="pm2_6_3_4_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_3_4_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_3_4_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_3_5" xml:space="preserve">
+    <value>Alliance-5. The Grim Grond</value>
+  </data>
+  <data name="pm2_6_3_5_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_3_5_description_kills" xml:space="preserve">
+    <value>Destroy an enemy vehicle by ramming. Survive the ramming attack on the enemy.</value>
+  </data>
+  <data name="pm2_6_3_5_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_3_5_short" xml:space="preserve">
+    <value>Alliance-5</value>
+  </data>
+  <data name="pm2_6_3_5_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_3_5_title_kills" xml:space="preserve">
+    <value>Ramming</value>
+  </data>
+  <data name="pm2_6_3_5_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_3_6" xml:space="preserve">
+    <value>Alliance-6. Vertigo</value>
+  </data>
+  <data name="pm2_6_3_6_description_assistedKills" xml:space="preserve">
+    <value>Allies must destroy %(goal)s enemy vehicles stunned or immobilized by you.</value>
+  </data>
+  <data name="pm2_6_3_6_description_stunTime" xml:space="preserve">
+    <value>Stun enemy vehicles for a total of %(goal)s seconds.</value>
+  </data>
+  <data name="pm2_6_3_6_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_3_6_short" xml:space="preserve">
+    <value>Alliance-6</value>
+  </data>
+  <data name="pm2_6_3_6_title_assistedKills" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_6_3_6_title_stunTime" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_6_3_6_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_3_7" xml:space="preserve">
+    <value>Alliance-7. Ahead of the Game</value>
+  </data>
+  <data name="pm2_6_3_7_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_3_7_description_topByDamage" xml:space="preserve">
+    <value>Be the top player on your team by damage caused.</value>
+  </data>
+  <data name="pm2_6_3_7_short" xml:space="preserve">
+    <value>Alliance-7</value>
+  </data>
+  <data name="pm2_6_3_7_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_3_7_title_topByDamage" xml:space="preserve">
+    <value>Top Player</value>
+  </data>
+  <data name="pm2_6_3_8" xml:space="preserve">
+    <value>Alliance-8. A Four-Leaf Clover</value>
+  </data>
+  <data name="pm2_6_3_8_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_3_8_description_damage" xml:space="preserve">
+    <value>Cause %(vehicleHealthFactor)s times more damage than the hit points of your vehicle.</value>
+  </data>
+  <data name="pm2_6_3_8_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_3_8_short" xml:space="preserve">
+    <value>Alliance-8</value>
+  </data>
+  <data name="pm2_6_3_8_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_3_8_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_3_8_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_3_9" xml:space="preserve">
+    <value>Alliance-9. Now I See You</value>
+  </data>
+  <data name="pm2_6_3_9_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_3_9_description_assist" xml:space="preserve">
+    <value>Enable your allies to cause %(goal)s HP of damage.</value>
+  </data>
+  <data name="pm2_6_3_9_short" xml:space="preserve">
+    <value>Alliance-9</value>
+  </data>
+  <data name="pm2_6_3_9_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_3_9_title_assist" xml:space="preserve">
+    <value>Intelligence Data</value>
+  </data>
+  <data name="pm2_6_4_1" xml:space="preserve">
+    <value>Coalition-1. Break the Line</value>
+  </data>
+  <data name="pm2_6_4_10" xml:space="preserve">
+    <value>Coalition-10. Five Stars Out of Five</value>
+  </data>
+  <data name="pm2_6_4_10_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_10_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_10_short" xml:space="preserve">
+    <value>Coalition-10</value>
+  </data>
+  <data name="pm2_6_4_10_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_4_10_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_4_11" xml:space="preserve">
+    <value>Coalition-11. No Time to Bleed</value>
+  </data>
+  <data name="pm2_6_4_11_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_4_11_description_blockedDamage" xml:space="preserve">
+    <value>Block %(vehicleHealthFactor)s times more damage than the hit points of your vehicle.</value>
+  </data>
+  <data name="pm2_6_4_11_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_11_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_4_11_short" xml:space="preserve">
+    <value>Coalition-11</value>
+  </data>
+  <data name="pm2_6_4_11_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_4_11_title_blockedDamage" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_6_4_11_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_4_11_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_4_12" xml:space="preserve">
+    <value>Coalition-12. Fire Everything You Have</value>
+  </data>
+  <data name="pm2_6_4_12_description_hits" xml:space="preserve">
+    <value>Cause %(goal)s armor-penetrating shots to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_12_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_12_short" xml:space="preserve">
+    <value>Coalition-12</value>
+  </data>
+  <data name="pm2_6_4_12_title_hits" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_4_12_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_4_13" xml:space="preserve">
+    <value>Coalition-13. Enemy at the Gates</value>
+  </data>
+  <data name="pm2_6_4_13_description_baseCaptureOrDropCapture" xml:space="preserve">
+    <value>Participate in a successful capture of a base or reset the enemy capture points of your/neutral base.</value>
+  </data>
+  <data name="pm2_6_4_13_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_13_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_13_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_4_13_short" xml:space="preserve">
+    <value>Coalition-13</value>
+  </data>
+  <data name="pm2_6_4_13_title_baseCaptureOrDropCapture" xml:space="preserve">
+    <value>Capture/Defense</value>
+  </data>
+  <data name="pm2_6_4_13_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_4_13_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_4_13_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_4_14" xml:space="preserve">
+    <value>Coalition-14. Steel Reaper</value>
+  </data>
+  <data name="pm2_6_4_14_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_4_14_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_14_short" xml:space="preserve">
+    <value>Coalition-14.</value>
+  </data>
+  <data name="pm2_6_4_14_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_4_14_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_4_15" xml:space="preserve">
+    <value>Coalition-15. One Man Army</value>
+  </data>
+  <data name="pm2_6_4_15_description_assistedKills" xml:space="preserve">
+    <value>Enable your allies to destroy %(goal)s enemy vehicles by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_6_4_15_description_damageAndAssist" xml:space="preserve">
+    <value>Damage caused and damage caused with your assistance must total %(goal)s HP.</value>
+  </data>
+  <data name="pm2_6_4_15_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_4_15_short" xml:space="preserve">
+    <value>Coalition-15</value>
+  </data>
+  <data name="pm2_6_4_15_title_assistedKills" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_6_4_15_title_damageAndAssist" xml:space="preserve">
+    <value>Complex Condition</value>
+  </data>
+  <data name="pm2_6_4_15_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_4_1_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_1_description_kills" xml:space="preserve">
+    <value>Destroy a total of %(goal)s enemy heavy/medium tanks.</value>
+  </data>
+  <data name="pm2_6_4_1_short" xml:space="preserve">
+    <value>Coalition-1</value>
+  </data>
+  <data name="pm2_6_4_1_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_4_1_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_4_2" xml:space="preserve">
+    <value>Coalition-2. Credible Deterrent</value>
+  </data>
+  <data name="pm2_6_4_2_description_crits" xml:space="preserve">
+    <value>Destroy the tracks of %(goal)s different enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_2_description_hits" xml:space="preserve">
+    <value>Cause %(goal)s armor-penetrating shots to immobilized enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_2_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s immobilized enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_2_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_4_2_short" xml:space="preserve">
+    <value>Coalition-2</value>
+  </data>
+  <data name="pm2_6_4_2_title_crits" xml:space="preserve">
+    <value>Destroy a Track</value>
+  </data>
+  <data name="pm2_6_4_2_title_hits" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_4_2_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_4_2_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_4_3" xml:space="preserve">
+    <value>Coalition-3. On Top</value>
+  </data>
+  <data name="pm2_6_4_3_description_topByExp" xml:space="preserve">
+    <value>Be the top player in the battle by experience earned.</value>
+  </data>
+  <data name="pm2_6_4_3_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_4_3_short" xml:space="preserve">
+    <value>Coalition-3</value>
+  </data>
+  <data name="pm2_6_4_3_title_topByExp" xml:space="preserve">
+    <value>Top Player</value>
+  </data>
+  <data name="pm2_6_4_3_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_4_4" xml:space="preserve">
+    <value>Coalition-4. Shell After Shell</value>
+  </data>
+  <data name="pm2_6_4_4_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_4_4_description_hits" xml:space="preserve">
+    <value>Cause damage to %(goal)s different enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_4_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_4_4_short" xml:space="preserve">
+    <value>Coalition-4</value>
+  </data>
+  <data name="pm2_6_4_4_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_4_4_title_hits" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_4_4_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_4_5" xml:space="preserve">
+    <value>Coalition-5. Lucky to Be Alive</value>
+  </data>
+  <data name="pm2_6_4_5_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_4_5_description_kills" xml:space="preserve">
+    <value>Destroy an enemy vehicle by ramming, causing more damage to the enemy than your vehicle receives. Survive the ramming.</value>
+  </data>
+  <data name="pm2_6_4_5_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_4_5_short" xml:space="preserve">
+    <value>Coalition-5</value>
+  </data>
+  <data name="pm2_6_4_5_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_4_5_title_kills" xml:space="preserve">
+    <value>Ramming</value>
+  </data>
+  <data name="pm2_6_4_5_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_4_6" xml:space="preserve">
+    <value>Coalition-6. More Than a Match</value>
+  </data>
+  <data name="pm2_6_4_6_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_6_description_hits" xml:space="preserve">
+    <value>Cause %(goal)s armor-penetrating shots to enemy vehicles that are of the same tier as your vehicle or higher.</value>
+  </data>
+  <data name="pm2_6_4_6_short" xml:space="preserve">
+    <value>Coalition-6</value>
+  </data>
+  <data name="pm2_6_4_6_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_4_6_title_hits" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_4_7" xml:space="preserve">
+    <value>Coalition-7. Better Luck Next Time</value>
+  </data>
+  <data name="pm2_6_4_7_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_4_7_description_kills" xml:space="preserve">
+    <value>Destroy an enemy light tank during the first %(timeLimit)s minutes of the battle.</value>
+  </data>
+  <data name="pm2_6_4_7_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_4_7_short" xml:space="preserve">
+    <value>Coalition-7</value>
+  </data>
+  <data name="pm2_6_4_7_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_4_7_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_6_4_7_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_4_8" xml:space="preserve">
+    <value>Coalition-8. The One and Only</value>
+  </data>
+  <data name="pm2_6_4_8_description_alive" xml:space="preserve">
+    <value>Survive the battle.</value>
+  </data>
+  <data name="pm2_6_4_8_description_topByExp" xml:space="preserve">
+    <value>Finish the battle as the top player on your team by experience earned.</value>
+  </data>
+  <data name="pm2_6_4_8_description_win" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode).</value>
+  </data>
+  <data name="pm2_6_4_8_short" xml:space="preserve">
+    <value>Coalition-8</value>
+  </data>
+  <data name="pm2_6_4_8_title_alive" xml:space="preserve">
+    <value>Survive</value>
+  </data>
+  <data name="pm2_6_4_8_title_topByExp" xml:space="preserve">
+    <value>Top Player</value>
+  </data>
+  <data name="pm2_6_4_8_title_win" xml:space="preserve">
+    <value>Win a Battle</value>
+  </data>
+  <data name="pm2_6_4_9" xml:space="preserve">
+    <value>Coalition-9. Keep Your Distance</value>
+  </data>
+  <data name="pm2_6_4_9_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage from a distance of 250 m or more.</value>
+  </data>
+  <data name="pm2_6_4_9_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_6_4_9_short" xml:space="preserve">
+    <value>Coalition-9</value>
+  </data>
+  <data name="pm2_6_4_9_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_6_4_9_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_7_1_1" xml:space="preserve">
+    <value>Union-1. Invaluable Assistance</value>
+  </data>
+  <data name="pm2_7_1_10" xml:space="preserve">
+    <value>Union-10. I Am a Rock</value>
+  </data>
+  <data name="pm2_7_1_10_description_blockedDamage" xml:space="preserve">
+    <value>Block %(goal)s HP of damage.</value>
+  </data>
+  <data name="pm2_7_1_10_description_blockedDamageAdv" xml:space="preserve">
+    <value>Block %(goal)s HP of damage.</value>
+  </data>
+  <data name="pm2_7_1_10_short" xml:space="preserve">
+    <value>Union-10</value>
+  </data>
+  <data name="pm2_7_1_10_title_blockedDamage" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_7_1_10_title_blockedDamageAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_11" xml:space="preserve">
+    <value>Union-11. Shoot 'em to Pieces!</value>
+  </data>
+  <data name="pm2_7_1_11_description_piercings" xml:space="preserve">
+    <value>Cause an average of %(goal)s armor-penetrating hits.</value>
+  </data>
+  <data name="pm2_7_1_11_description_piercingsAdv" xml:space="preserve">
+    <value>Cause an average of %(goal)s armor-penetrating hits.</value>
+  </data>
+  <data name="pm2_7_1_11_description_piercingsInBattle" xml:space="preserve">
+    <value>Score an armor-penetrating hit on an enemy vehicle the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_11_description_piercingsInBattleAdv" xml:space="preserve">
+    <value>Score an armor-penetrating hit on an enemy vehicle the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_11_short" xml:space="preserve">
+    <value>Union-11</value>
+  </data>
+  <data name="pm2_7_1_11_title_piercings" xml:space="preserve">
+    <value>Score an Armor-Penetrating Hit</value>
+  </data>
+  <data name="pm2_7_1_11_title_piercingsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_12" xml:space="preserve">
+    <value>Union-12. Every Possible Assistance</value>
+  </data>
+  <data name="pm2_7_1_12_description_assist" xml:space="preserve">
+    <value>Enable your allies to destroy %(goal)s enemy vehicles by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_1_12_description_assistAdv" xml:space="preserve">
+    <value>Enable your allies to destroy %(goal)s enemy vehicles by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_1_12_short" xml:space="preserve">
+    <value>Union-12</value>
+  </data>
+  <data name="pm2_7_1_12_title_assist" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_7_1_12_title_assistAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_13" xml:space="preserve">
+    <value>Union-13. The Moment of Glory</value>
+  </data>
+  <data name="pm2_7_1_13_description_medal" xml:space="preserve">
+    <value>Earn the Top Gun award.</value>
+  </data>
+  <data name="pm2_7_1_13_description_medalAdv" xml:space="preserve">
+    <value>Earn the Top Gun award.</value>
+  </data>
+  <data name="pm2_7_1_13_short" xml:space="preserve">
+    <value>Union-13</value>
+  </data>
+  <data name="pm2_7_1_13_title_medal" xml:space="preserve">
+    <value>Battle Heroes</value>
+  </data>
+  <data name="pm2_7_1_13_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_14" xml:space="preserve">
+    <value>Union-14. Heavy Rain</value>
+  </data>
+  <data name="pm2_7_1_14_description_stun" xml:space="preserve">
+    <value>Stun enemy vehicles the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_14_description_stunAdv" xml:space="preserve">
+    <value>Stun enemy vehicles the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_14_short" xml:space="preserve">
+    <value>Union-14</value>
+  </data>
+  <data name="pm2_7_1_14_title_stun" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_7_1_14_title_stunAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_15" xml:space="preserve">
+    <value>Union-15. The Pride of the Union</value>
+  </data>
+  <data name="pm2_7_1_15_description_medal" xml:space="preserve">
+    <value>Receive the Mastery Badge I Class or higher.</value>
+  </data>
+  <data name="pm2_7_1_15_description_medalAdv" xml:space="preserve">
+    <value>Receive the Ace Tanker Mastery Badge.</value>
+  </data>
+  <data name="pm2_7_1_15_short" xml:space="preserve">
+    <value>Union-15</value>
+  </data>
+  <data name="pm2_7_1_15_title_medal" xml:space="preserve">
+    <value>Mastery Badge</value>
+  </data>
+  <data name="pm2_7_1_15_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_1_description_assist" xml:space="preserve">
+    <value>Enable your allies to cause an average of %(goal)s HP of damage to enemy vehicles in a battle by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_1_1_description_assistAdv" xml:space="preserve">
+    <value>Enable your allies to cause an average of %(goal)s HP of damage to enemy vehicles in a battle by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_1_1_description_assistInBattle" xml:space="preserve">
+    <value>Enable your allies to cause %(goal)s HP of damage to enemy vehicles in a battle by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_1_1_description_assistInBattleAdv" xml:space="preserve">
+    <value>Enable your allies to cause %(goal)s HP of damage to enemy vehicles in a battle by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_1_1_short" xml:space="preserve">
+    <value>Union-1</value>
+  </data>
+  <data name="pm2_7_1_1_title_assist" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_7_1_1_title_assistAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_2" xml:space="preserve">
+    <value>Union-2. Effective Fire</value>
+  </data>
+  <data name="pm2_7_1_2_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(vehicleHealthFactor)s times more damage than the hit points of your vehicle.</value>
+  </data>
+  <data name="pm2_7_1_2_description_damageInBattleAdv" xml:space="preserve">
+    <value>Cause %(vehicleHealthFactor)s times more damage than the hit points of your vehicle.</value>
+  </data>
+  <data name="pm2_7_1_2_short" xml:space="preserve">
+    <value>Union-2</value>
+  </data>
+  <data name="pm2_7_1_2_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_7_1_2_title_damageInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_3" xml:space="preserve">
+    <value>Union-3. Not a Step Back</value>
+  </data>
+  <data name="pm2_7_1_3_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_1_3_description_killsAdv" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_1_3_short" xml:space="preserve">
+    <value>Union-3</value>
+  </data>
+  <data name="pm2_7_1_3_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_7_1_3_title_killsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_4" xml:space="preserve">
+    <value>Union-4. Your Shell Not Passed!</value>
+  </data>
+  <data name="pm2_7_1_4_description_blockedHits" xml:space="preserve">
+    <value>Block an average of %(goal)s enemy hits</value>
+  </data>
+  <data name="pm2_7_1_4_description_blockedHitsAdv" xml:space="preserve">
+    <value>Block an average of %(goal)s enemy hits</value>
+  </data>
+  <data name="pm2_7_1_4_description_blockedHitsInBattle" xml:space="preserve">
+    <value>Block %(goal)s enemy hits.</value>
+  </data>
+  <data name="pm2_7_1_4_description_blockedHitsInBattleAdv" xml:space="preserve">
+    <value>Block %(goal)s enemy hits.</value>
+  </data>
+  <data name="pm2_7_1_4_short" xml:space="preserve">
+    <value>Union-4</value>
+  </data>
+  <data name="pm2_7_1_4_title_blockedHits" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_7_1_4_title_blockedHitsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_5" xml:space="preserve">
+    <value>Union-5. Heroic Triple</value>
+  </data>
+  <data name="pm2_7_1_5_description_topByDamage" xml:space="preserve">
+    <value>Be among the top 3 players in the battle by damage caused.</value>
+  </data>
+  <data name="pm2_7_1_5_description_topByDamageAdv" xml:space="preserve">
+    <value>Be the top player in the battle by damage caused.</value>
+  </data>
+  <data name="pm2_7_1_5_short" xml:space="preserve">
+    <value>Union-5</value>
+  </data>
+  <data name="pm2_7_1_5_title_topByDamage" xml:space="preserve">
+    <value>Top 3</value>
+  </data>
+  <data name="pm2_7_1_5_title_topByDamageAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_6" xml:space="preserve">
+    <value>Union-6. Don't Stop Me Now</value>
+  </data>
+  <data name="pm2_7_1_6_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_1_6_description_killsInBattleAdv" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_1_6_description_topByKills" xml:space="preserve">
+    <value>Be the top player on your team by number of vehicles destroyed in a battle.</value>
+  </data>
+  <data name="pm2_7_1_6_description_topByKillsAdv" xml:space="preserve">
+    <value>Be the top player on your team by number of vehicles destroyed in a battle.</value>
+  </data>
+  <data name="pm2_7_1_6_short" xml:space="preserve">
+    <value>Union-6</value>
+  </data>
+  <data name="pm2_7_1_6_title_topByKills" xml:space="preserve">
+    <value>Top Result</value>
+  </data>
+  <data name="pm2_7_1_6_title_topByKillsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_7" xml:space="preserve">
+    <value>Union-7. Is There Anyone There?</value>
+  </data>
+  <data name="pm2_7_1_7_description_crits" xml:space="preserve">
+    <value>Destroy enemy internal modules or injure crew members, totaling at least %(goal)s modules or crew members.</value>
+  </data>
+  <data name="pm2_7_1_7_description_critsAdv" xml:space="preserve">
+    <value>Destroy enemy internal modules or injure crew members, totaling at least %(goal)s modules or crew members.</value>
+  </data>
+  <data name="pm2_7_1_7_short" xml:space="preserve">
+    <value>Union-7</value>
+  </data>
+  <data name="pm2_7_1_7_title_crits" xml:space="preserve">
+    <value>Critical Hits</value>
+  </data>
+  <data name="pm2_7_1_7_title_critsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_8" xml:space="preserve">
+    <value>Union-8. Lone Wolf</value>
+  </data>
+  <data name="pm2_7_1_8_description_medal" xml:space="preserve">
+    <value>Earn the Fire for Effect award the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_8_description_medalAdv" xml:space="preserve">
+    <value>Earn the Fire for Effect award the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_8_short" xml:space="preserve">
+    <value>Union-8</value>
+  </data>
+  <data name="pm2_7_1_8_title_medal" xml:space="preserve">
+    <value>Honorary Ranks</value>
+  </data>
+  <data name="pm2_7_1_8_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_1_9" xml:space="preserve">
+    <value>Union-9. Open Season</value>
+  </data>
+  <data name="pm2_7_1_9_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_1_9_description_killsInBattleAdv" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_1_9_short" xml:space="preserve">
+    <value>Union-9</value>
+  </data>
+  <data name="pm2_7_1_9_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_7_1_9_title_killsInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_1" xml:space="preserve">
+    <value>Bloc-1. Smoking Barrel</value>
+  </data>
+  <data name="pm2_7_2_10" xml:space="preserve">
+    <value>Bloc-10. The Good Samaritan</value>
+  </data>
+  <data name="pm2_7_2_10_description_medal" xml:space="preserve">
+    <value>Earn the High Caliber award the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_10_description_medalAdv" xml:space="preserve">
+    <value>Earn the High Caliber award the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_10_short" xml:space="preserve">
+    <value>Bloc-10</value>
+  </data>
+  <data name="pm2_7_2_10_title_medal" xml:space="preserve">
+    <value>Battle Heroes</value>
+  </data>
+  <data name="pm2_7_2_10_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_11" xml:space="preserve">
+    <value>Bloc-11. Safari</value>
+  </data>
+  <data name="pm2_7_2_11_description_hitsInBattle" xml:space="preserve">
+    <value>Cause damage to %(goal)s different enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_2_11_description_hitsInBattleAdv" xml:space="preserve">
+    <value>Cause damage to %(goal)s different enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_2_11_short" xml:space="preserve">
+    <value>Bloc-11</value>
+  </data>
+  <data name="pm2_7_2_11_title_hitsInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_7_2_11_title_hitsInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_12" xml:space="preserve">
+    <value>Bloc-12. A Knight in Shining Armor</value>
+  </data>
+  <data name="pm2_7_2_12_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Block %(goal)s HP of damage.</value>
+  </data>
+  <data name="pm2_7_2_12_description_blockedDamageInBattleAdv" xml:space="preserve">
+    <value>Block %(goal)s HP of damage.</value>
+  </data>
+  <data name="pm2_7_2_12_description_topByBlockedDamage" xml:space="preserve">
+    <value>Be the top player on your team by total damage blocked by armor.</value>
+  </data>
+  <data name="pm2_7_2_12_description_topByBlockedDamageAdv" xml:space="preserve">
+    <value>Be the top player on your team by total damage blocked by armor.</value>
+  </data>
+  <data name="pm2_7_2_12_short" xml:space="preserve">
+    <value>Bloc-12</value>
+  </data>
+  <data name="pm2_7_2_12_title_topByBlockedDamage" xml:space="preserve">
+    <value>Top Result</value>
+  </data>
+  <data name="pm2_7_2_12_title_topByBlockedDamageAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_13" xml:space="preserve">
+    <value>Bloc-13. Hand of the Master</value>
+  </data>
+  <data name="pm2_7_2_13_description_kills" xml:space="preserve">
+    <value>Destroy an average of %(goal)s enemy vehicles in a battle.</value>
+  </data>
+  <data name="pm2_7_2_13_description_killsAdv" xml:space="preserve">
+    <value>Destroy an average of %(goal)s enemy vehicles in a battle.</value>
+  </data>
+  <data name="pm2_7_2_13_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles in a battle.</value>
+  </data>
+  <data name="pm2_7_2_13_description_killsInBattleAdv" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles in a battle.</value>
+  </data>
+  <data name="pm2_7_2_13_short" xml:space="preserve">
+    <value>Bloc-13</value>
+  </data>
+  <data name="pm2_7_2_13_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_7_2_13_title_killsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_14" xml:space="preserve">
+    <value>Bloc-14. The Sky Is the Limit</value>
+  </data>
+  <data name="pm2_7_2_14_description_topByDamage" xml:space="preserve">
+    <value>Be the top player on your team by damage caused.</value>
+  </data>
+  <data name="pm2_7_2_14_description_topByDamageAdv" xml:space="preserve">
+    <value>Be the top player on your team by damage caused.</value>
+  </data>
+  <data name="pm2_7_2_14_short" xml:space="preserve">
+    <value>Bloc-14</value>
+  </data>
+  <data name="pm2_7_2_14_title_topByDamage" xml:space="preserve">
+    <value>Top Result</value>
+  </data>
+  <data name="pm2_7_2_14_title_topByDamageAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_15" xml:space="preserve">
+    <value>Bloc-15. As Easy as ABC</value>
+  </data>
+  <data name="pm2_7_2_15_description_medal" xml:space="preserve">
+    <value>Receive the Mastery Badge I Class or higher.</value>
+  </data>
+  <data name="pm2_7_2_15_description_medalAdv" xml:space="preserve">
+    <value>Receive the Ace Tanker Mastery Badge.</value>
+  </data>
+  <data name="pm2_7_2_15_short" xml:space="preserve">
+    <value>Bloc-15</value>
+  </data>
+  <data name="pm2_7_2_15_title_medal" xml:space="preserve">
+    <value>Mastery Badge</value>
+  </data>
+  <data name="pm2_7_2_15_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_1_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_2_1_description_damageInBattleAdv" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_2_1_short" xml:space="preserve">
+    <value>Bloc-1</value>
+  </data>
+  <data name="pm2_7_2_1_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_7_2_1_title_damageInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_2" xml:space="preserve">
+    <value>Bloc-2. The Diamond Armor</value>
+  </data>
+  <data name="pm2_7_2_2_description_medal" xml:space="preserve">
+    <value>Earn the Shellproof award the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_2_description_medalAdv" xml:space="preserve">
+    <value>Earn the Shellproof award the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_2_short" xml:space="preserve">
+    <value>Bloc-2</value>
+  </data>
+  <data name="pm2_7_2_2_title_medal" xml:space="preserve">
+    <value>Honorary Ranks</value>
+  </data>
+  <data name="pm2_7_2_2_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_3" xml:space="preserve">
+    <value>Bloc-3. The Punisher</value>
+  </data>
+  <data name="pm2_7_2_3_description_killsInBattle" xml:space="preserve">
+    <value>Destroy the indicated number of enemy vehicles in a battle: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_3_description_killsInBattleAdv" xml:space="preserve">
+    <value>Destroy the indicated number of enemy vehicles in a battle: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_3_short" xml:space="preserve">
+    <value>Bloc-3</value>
+  </data>
+  <data name="pm2_7_2_3_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_7_2_3_title_killsInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_4" xml:space="preserve">
+    <value>Bloc-4. The Willing Heart</value>
+  </data>
+  <data name="pm2_7_2_4_description_assistedKillsInBattle" xml:space="preserve">
+    <value>Enable your allies to destroy %(goal)s enemy vehicles by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_2_4_description_assistedKillsInBattleAdv" xml:space="preserve">
+    <value>Enable your allies to destroy %(goal)s enemy vehicles by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_2_4_short" xml:space="preserve">
+    <value>Bloc-4</value>
+  </data>
+  <data name="pm2_7_2_4_title_assistedKillsInBattle" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_7_2_4_title_assistedKillsInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_5" xml:space="preserve">
+    <value>Bloc-5. Flying High</value>
+  </data>
+  <data name="pm2_7_2_5_description_damage" xml:space="preserve">
+    <value>Cause at least %(goal)s HP of average damage.</value>
+  </data>
+  <data name="pm2_7_2_5_description_damageAdv" xml:space="preserve">
+    <value>Cause at least %(goal)s HP of average damage.</value>
+  </data>
+  <data name="pm2_7_2_5_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_2_5_description_damageInBattleAdv" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_2_5_short" xml:space="preserve">
+    <value>Bloc-5</value>
+  </data>
+  <data name="pm2_7_2_5_title_damage" xml:space="preserve">
+    <value>Average Damage</value>
+  </data>
+  <data name="pm2_7_2_5_title_damageAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_6" xml:space="preserve">
+    <value>Bloc-6. Again and Again</value>
+  </data>
+  <data name="pm2_7_2_6_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles of %(uniqueGoal)s different types.</value>
+  </data>
+  <data name="pm2_7_2_6_description_killsInBattleAdv" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles of %(uniqueGoal)s different types.</value>
+  </data>
+  <data name="pm2_7_2_6_short" xml:space="preserve">
+    <value>Bloc-6</value>
+  </data>
+  <data name="pm2_7_2_6_title_killsInBattle" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_7_2_6_title_killsInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_7" xml:space="preserve">
+    <value>Bloc-7. Termination</value>
+  </data>
+  <data name="pm2_7_2_7_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles in a battle.</value>
+  </data>
+  <data name="pm2_7_2_7_description_killsInBattleAdv" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles in a battle.</value>
+  </data>
+  <data name="pm2_7_2_7_description_topByKills" xml:space="preserve">
+    <value>Be the top player in the battle by number of vehicles destroyed.</value>
+  </data>
+  <data name="pm2_7_2_7_description_topByKillsAdv" xml:space="preserve">
+    <value>Be the top player in the battle by number of vehicles destroyed.</value>
+  </data>
+  <data name="pm2_7_2_7_short" xml:space="preserve">
+    <value>Bloc-7</value>
+  </data>
+  <data name="pm2_7_2_7_title_topByKills" xml:space="preserve">
+    <value>Top Result</value>
+  </data>
+  <data name="pm2_7_2_7_title_topByKillsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_8" xml:space="preserve">
+    <value>Bloc-8. The Hole Punch</value>
+  </data>
+  <data name="pm2_7_2_8_description_piercingsInBattle" xml:space="preserve">
+    <value>Score an armor-penetrating hit on an enemy vehicle the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_8_description_piercingsInBattleAdv" xml:space="preserve">
+    <value>Score an armor-penetrating hit on an enemy vehicle the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_8_short" xml:space="preserve">
+    <value>Bloc-8</value>
+  </data>
+  <data name="pm2_7_2_8_title_piercingsInBattle" xml:space="preserve">
+    <value>Score an Armor-Penetrating Hit</value>
+  </data>
+  <data name="pm2_7_2_8_title_piercingsInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_2_9" xml:space="preserve">
+    <value>Bloc-9. The Guiding Star</value>
+  </data>
+  <data name="pm2_7_2_9_description_assist" xml:space="preserve">
+    <value>Enable your allies to cause a total of %(goal)s damage to enemy vehicles by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_2_9_description_assistAdv" xml:space="preserve">
+    <value>Enable your allies to cause a total of %(goal)s damage to enemy vehicles by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_2_9_short" xml:space="preserve">
+    <value>Bloc-9</value>
+  </data>
+  <data name="pm2_7_2_9_title_assist" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_7_2_9_title_assistAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_1" xml:space="preserve">
+    <value>Alliance-1. A Sure Shooter</value>
+  </data>
+  <data name="pm2_7_3_10" xml:space="preserve">
+    <value>Alliance-10. Unlocking Potential</value>
+  </data>
+  <data name="pm2_7_3_10_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(vehicleHealthFactor)s times more damage than the hit points of your vehicle.</value>
+  </data>
+  <data name="pm2_7_3_10_description_damageInBattleAdv" xml:space="preserve">
+    <value>Cause %(vehicleHealthFactor)s times more damage than the hit points of your vehicle.</value>
+  </data>
+  <data name="pm2_7_3_10_short" xml:space="preserve">
+    <value>Alliance-10</value>
+  </data>
+  <data name="pm2_7_3_10_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_7_3_10_title_damageInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_11" xml:space="preserve">
+    <value>Alliance-11. The Right Place at the Right Time</value>
+  </data>
+  <data name="pm2_7_3_11_description_assistInBattle" xml:space="preserve">
+    <value>Enable your allies to cause a total of %(goal)s HP of damage to enemy vehicles stunned by you.</value>
+  </data>
+  <data name="pm2_7_3_11_description_assistInBattleAdv" xml:space="preserve">
+    <value>Enable your allies to cause a total of %(goal)s HP of damage to enemy vehicles stunned by you.</value>
+  </data>
+  <data name="pm2_7_3_11_short" xml:space="preserve">
+    <value>Alliance-11</value>
+  </data>
+  <data name="pm2_7_3_11_title_assistInBattle" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_7_3_11_title_assistInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_12" xml:space="preserve">
+    <value>Alliance-12. Rock-Solid</value>
+  </data>
+  <data name="pm2_7_3_12_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Block %(goal)s HP of damage in a battle.</value>
+  </data>
+  <data name="pm2_7_3_12_description_blockedDamageInBattleAdv" xml:space="preserve">
+    <value>Block %(goal)s HP of damage in a battle.</value>
+  </data>
+  <data name="pm2_7_3_12_description_topByBlockedDamage" xml:space="preserve">
+    <value>Be the top player in the battle by damage blocked.</value>
+  </data>
+  <data name="pm2_7_3_12_description_topByBlockedDamageAdv" xml:space="preserve">
+    <value>Be the top player in the battle by damage blocked.</value>
+  </data>
+  <data name="pm2_7_3_12_short" xml:space="preserve">
+    <value>Alliance-12</value>
+  </data>
+  <data name="pm2_7_3_12_title_topByBlockedDamage" xml:space="preserve">
+    <value>Top Result</value>
+  </data>
+  <data name="pm2_7_3_12_title_topByBlockedDamageAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_13" xml:space="preserve">
+    <value>Alliance-13. Big Shark</value>
+  </data>
+  <data name="pm2_7_3_13_description_topByExp" xml:space="preserve">
+    <value>Be among the top 3 players in the battle by experience earned.</value>
+  </data>
+  <data name="pm2_7_3_13_description_topByExpAdv" xml:space="preserve">
+    <value>Be the top player in the battle by experience earned.</value>
+  </data>
+  <data name="pm2_7_3_13_short" xml:space="preserve">
+    <value>Alliance-13</value>
+  </data>
+  <data name="pm2_7_3_13_title_topByExp" xml:space="preserve">
+    <value>Top 3</value>
+  </data>
+  <data name="pm2_7_3_13_title_topByExpAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_14" xml:space="preserve">
+    <value>Alliance-14. Welcome to My Collection</value>
+  </data>
+  <data name="pm2_7_3_14_description_hits" xml:space="preserve">
+    <value>Cause damage to %(goal)s different enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_3_14_description_hitsAdv" xml:space="preserve">
+    <value>Cause damage to %(goal)s different enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_3_14_short" xml:space="preserve">
+    <value>Alliance-14</value>
+  </data>
+  <data name="pm2_7_3_14_title_hits" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_7_3_14_title_hitsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_15" xml:space="preserve">
+    <value>Alliance-15. For the Alliance!</value>
+  </data>
+  <data name="pm2_7_3_15_description_medal" xml:space="preserve">
+    <value>Receive the Mastery Badge I Class or higher.</value>
+  </data>
+  <data name="pm2_7_3_15_description_medalAdv" xml:space="preserve">
+    <value>Receive the Ace Tanker Mastery Badge.</value>
+  </data>
+  <data name="pm2_7_3_15_short" xml:space="preserve">
+    <value>Alliance-15</value>
+  </data>
+  <data name="pm2_7_3_15_title_medal" xml:space="preserve">
+    <value>Mastery Badge</value>
+  </data>
+  <data name="pm2_7_3_15_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_1_description_medal" xml:space="preserve">
+    <value>Earn the Fire for Effect award.</value>
+  </data>
+  <data name="pm2_7_3_1_description_medalAdv" xml:space="preserve">
+    <value>Earn the Fire for Effect award.</value>
+  </data>
+  <data name="pm2_7_3_1_short" xml:space="preserve">
+    <value>Alliance-1</value>
+  </data>
+  <data name="pm2_7_3_1_title_medal" xml:space="preserve">
+    <value>Honorary Ranks</value>
+  </data>
+  <data name="pm2_7_3_1_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_2" xml:space="preserve">
+    <value>Alliance-2. Among the Best</value>
+  </data>
+  <data name="pm2_7_3_2_description_topByDamage" xml:space="preserve">
+    <value>Be among the top 3 players on your team by damage caused.</value>
+  </data>
+  <data name="pm2_7_3_2_description_topByDamageAdv" xml:space="preserve">
+    <value>Be the top player on your team by damage caused.</value>
+  </data>
+  <data name="pm2_7_3_2_short" xml:space="preserve">
+    <value>Alliance-2</value>
+  </data>
+  <data name="pm2_7_3_2_title_topByDamage" xml:space="preserve">
+    <value>Top 3</value>
+  </data>
+  <data name="pm2_7_3_2_title_topByDamageAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_3" xml:space="preserve">
+    <value>Alliance-3. Always on Duty</value>
+  </data>
+  <data name="pm2_7_3_3_description_assistedKills" xml:space="preserve">
+    <value>Enable your allies to destroy an average of %(goal)s enemy vehicles in a battle by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_3_3_description_assistedKillsAdv" xml:space="preserve">
+    <value>Enable your allies to destroy an average of %(goal)s enemy vehicles in a battle by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_3_3_description_assistedKillsInBattle" xml:space="preserve">
+    <value>Enable your allies to destroy %(goal)s enemy vehicles by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_3_3_description_assistedKillsInBattleAdv" xml:space="preserve">
+    <value>Enable your allies to destroy %(goal)s enemy vehicles by spotting them or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_3_3_short" xml:space="preserve">
+    <value>Alliance-3</value>
+  </data>
+  <data name="pm2_7_3_3_title_assistedKills" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_7_3_3_title_assistedKillsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_4" xml:space="preserve">
+    <value>Alliance-4. Just Warming Up</value>
+  </data>
+  <data name="pm2_7_3_4_description_damage" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_3_4_description_damageAdv" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_3_4_short" xml:space="preserve">
+    <value>Alliance-4</value>
+  </data>
+  <data name="pm2_7_3_4_title_damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_7_3_4_title_damageAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_5" xml:space="preserve">
+    <value>Alliance-5. Stunning Performance</value>
+  </data>
+  <data name="pm2_7_3_5_description_stunNumber" xml:space="preserve">
+    <value>Stun a total of %(goal)s different enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_3_5_description_stunNumberAdv" xml:space="preserve">
+    <value>Stun a total of %(goal)s different enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_3_5_short" xml:space="preserve">
+    <value>Alliance-5</value>
+  </data>
+  <data name="pm2_7_3_5_title_stunNumber" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_7_3_5_title_stunNumberAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_6" xml:space="preserve">
+    <value>Alliance-6. Reliable Ally</value>
+  </data>
+  <data name="pm2_7_3_6_description_medal" xml:space="preserve">
+    <value>Earn the Confederate award.</value>
+  </data>
+  <data name="pm2_7_3_6_description_medalAdv" xml:space="preserve">
+    <value>Earn the Confederate award.</value>
+  </data>
+  <data name="pm2_7_3_6_short" xml:space="preserve">
+    <value>Alliance-6</value>
+  </data>
+  <data name="pm2_7_3_6_title_medal" xml:space="preserve">
+    <value>Battle Heroes</value>
+  </data>
+  <data name="pm2_7_3_6_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_7" xml:space="preserve">
+    <value>Alliance-7. In Armor We Trust</value>
+  </data>
+  <data name="pm2_7_3_7_description_blockedDamage" xml:space="preserve">
+    <value>Average damage blocked should be %(goal)s</value>
+  </data>
+  <data name="pm2_7_3_7_description_blockedDamageAdv" xml:space="preserve">
+    <value>Average damage blocked should be %(goal)s</value>
+  </data>
+  <data name="pm2_7_3_7_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Block at least %(goal)s HP of damage in a battle.</value>
+  </data>
+  <data name="pm2_7_3_7_description_blockedDamageInBattleAdv" xml:space="preserve">
+    <value>Block at least %(goal)s HP of damage in a battle.</value>
+  </data>
+  <data name="pm2_7_3_7_short" xml:space="preserve">
+    <value>Alliance-7</value>
+  </data>
+  <data name="pm2_7_3_7_title_blockedDamage" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_7_3_7_title_blockedDamageAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_8" xml:space="preserve">
+    <value>Alliance-8. Simple Geometry</value>
+  </data>
+  <data name="pm2_7_3_8_description_crits" xml:space="preserve">
+    <value>Destroy enemy internal modules or injure crew members, totaling at least %(goal)s modules or crew members.</value>
+  </data>
+  <data name="pm2_7_3_8_description_critsAdv" xml:space="preserve">
+    <value>Destroy enemy internal modules or injure crew members, totaling at least %(goal)s modules or crew members.</value>
+  </data>
+  <data name="pm2_7_3_8_short" xml:space="preserve">
+    <value>Alliance-8</value>
+  </data>
+  <data name="pm2_7_3_8_title_crits" xml:space="preserve">
+    <value>Critical Hits</value>
+  </data>
+  <data name="pm2_7_3_8_title_critsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_3_9" xml:space="preserve">
+    <value>Alliance-9. Seeing Stars</value>
+  </data>
+  <data name="pm2_7_3_9_description_stunTime" xml:space="preserve">
+    <value>Stun enemy vehicles for a total of %(goal)s seconds.</value>
+  </data>
+  <data name="pm2_7_3_9_description_stunTimeAdv" xml:space="preserve">
+    <value>Stun enemy vehicles for a total of %(goal)s seconds.</value>
+  </data>
+  <data name="pm2_7_3_9_short" xml:space="preserve">
+    <value>Alliance-9</value>
+  </data>
+  <data name="pm2_7_3_9_title_stunTime" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="pm2_7_3_9_title_stunTimeAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_1" xml:space="preserve">
+    <value>Coalition-1. Furious Fighter</value>
+  </data>
+  <data name="pm2_7_4_10" xml:space="preserve">
+    <value>Coalition-10. You Cannot Hide</value>
+  </data>
+  <data name="pm2_7_4_10_description_assistInBattle" xml:space="preserve">
+    <value>Enable your allies to cause %(goal)s HP of damage to enemy vehicles by spotting or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_4_10_description_assistInBattleAdv" xml:space="preserve">
+    <value>Enable your allies to cause %(goal)s HP of damage to enemy vehicles by spotting or destroying their tracks.</value>
+  </data>
+  <data name="pm2_7_4_10_short" xml:space="preserve">
+    <value>Coalition-10</value>
+  </data>
+  <data name="pm2_7_4_10_title_assistInBattle" xml:space="preserve">
+    <value>Assistance</value>
+  </data>
+  <data name="pm2_7_4_10_title_assistInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_11" xml:space="preserve">
+    <value>Coalition-11. Lord of Destruction</value>
+  </data>
+  <data name="pm2_7_4_11_description_killsInBattle" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_4_11_description_killsInBattleAdv" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_4_11_description_topByKills" xml:space="preserve">
+    <value>Be the top player in the battle by number of vehicles destroyed.</value>
+  </data>
+  <data name="pm2_7_4_11_description_topByKillsAdv" xml:space="preserve">
+    <value>Be the top player in the battle by number of vehicles destroyed.</value>
+  </data>
+  <data name="pm2_7_4_11_short" xml:space="preserve">
+    <value>Coalition</value>
+  </data>
+  <data name="pm2_7_4_11_title_topByKills" xml:space="preserve">
+    <value>Top Result</value>
+  </data>
+  <data name="pm2_7_4_11_title_topByKillsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_12" xml:space="preserve">
+    <value>Coalition-12. Honorable Service</value>
+  </data>
+  <data name="pm2_7_4_12_description_medal" xml:space="preserve">
+    <value>Earn a total of %(goal)s rewards of the Battle Hero category and/or epic medals in a battle.</value>
+  </data>
+  <data name="pm2_7_4_12_description_medalAdv" xml:space="preserve">
+    <value>Earn a total of %(goal)s rewards of the Battle Hero category and/or epic medals in a battle.</value>
+  </data>
+  <data name="pm2_7_4_12_short" xml:space="preserve">
+    <value>Coalition-12</value>
+  </data>
+  <data name="pm2_7_4_12_title_medal" xml:space="preserve">
+    <value>Complex Condition</value>
+  </data>
+  <data name="pm2_7_4_12_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_13" xml:space="preserve">
+    <value>Coalition-13. Dangerous and Moving</value>
+  </data>
+  <data name="pm2_7_4_13_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Block %(vehicleHealthFactor)s times more damage than the hit points of your vehicle.</value>
+  </data>
+  <data name="pm2_7_4_13_description_blockedDamageInBattleAdv" xml:space="preserve">
+    <value>Block %(vehicleHealthFactor)s times more damage than the hit points of your vehicle.</value>
+  </data>
+  <data name="pm2_7_4_13_short" xml:space="preserve">
+    <value>Coalition-13</value>
+  </data>
+  <data name="pm2_7_4_13_title_blockedDamageInBattle" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_7_4_13_title_blockedDamageInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_14" xml:space="preserve">
+    <value>Coalition-14. King of the Hill</value>
+  </data>
+  <data name="pm2_7_4_14_description_topByDamage" xml:space="preserve">
+    <value>In %(goal)s battles, be the top player by damage caused.</value>
+  </data>
+  <data name="pm2_7_4_14_description_topByDamageAdv" xml:space="preserve">
+    <value>In %(goal)s battles, be the top player by damage caused.</value>
+  </data>
+  <data name="pm2_7_4_14_short" xml:space="preserve">
+    <value>Coalition-14</value>
+  </data>
+  <data name="pm2_7_4_14_title_topByDamage" xml:space="preserve">
+    <value>Top Result</value>
+  </data>
+  <data name="pm2_7_4_14_title_topByDamageAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_15" xml:space="preserve">
+    <value>Coalition-15. Way to Go!</value>
+  </data>
+  <data name="pm2_7_4_15_description_medal" xml:space="preserve">
+    <value>Receive the Mastery Badge I Class or higher.</value>
+  </data>
+  <data name="pm2_7_4_15_description_medalAdv" xml:space="preserve">
+    <value>Receive the Ace Tanker Mastery Badge.</value>
+  </data>
+  <data name="pm2_7_4_15_short" xml:space="preserve">
+    <value>Coalition-15</value>
+  </data>
+  <data name="pm2_7_4_15_title_medal" xml:space="preserve">
+    <value>Mastery Badge</value>
+  </data>
+  <data name="pm2_7_4_15_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_1_description_medal" xml:space="preserve">
+    <value>Earn the Fighter award.</value>
+  </data>
+  <data name="pm2_7_4_1_description_medalAdv" xml:space="preserve">
+    <value>Earn the Fighter award.</value>
+  </data>
+  <data name="pm2_7_4_1_short" xml:space="preserve">
+    <value>Coalition-1</value>
+  </data>
+  <data name="pm2_7_4_1_title_medal" xml:space="preserve">
+    <value>Honorary Ranks</value>
+  </data>
+  <data name="pm2_7_4_1_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_2" xml:space="preserve">
+    <value>Coalition-2. The Top Gun</value>
+  </data>
+  <data name="pm2_7_4_2_description_damageInBattle" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_4_2_description_damageInBattleAdv" xml:space="preserve">
+    <value>Cause %(goal)s HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="pm2_7_4_2_short" xml:space="preserve">
+    <value>Coalition-2</value>
+  </data>
+  <data name="pm2_7_4_2_title_damageInBattle" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_7_4_2_title_damageInBattleAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_3" xml:space="preserve">
+    <value>Coalition-3. The War Horse</value>
+  </data>
+  <data name="pm2_7_4_3_description_medal" xml:space="preserve">
+    <value>Earn a total of %(goal)s rewards of the Battle Hero category and/or epic medals in a battle.</value>
+  </data>
+  <data name="pm2_7_4_3_description_medalAdv" xml:space="preserve">
+    <value>Earn a total of %(goal)s rewards of the Battle Hero category and/or epic medals in a battle.</value>
+  </data>
+  <data name="pm2_7_4_3_short" xml:space="preserve">
+    <value>Coalition-3</value>
+  </data>
+  <data name="pm2_7_4_3_title_medal" xml:space="preserve">
+    <value>Complex Condition</value>
+  </data>
+  <data name="pm2_7_4_3_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_4" xml:space="preserve">
+    <value>Coalition-4. A Crushing Blow</value>
+  </data>
+  <data name="pm2_7_4_4_description_crits" xml:space="preserve">
+    <value>Destroy enemy internal modules or injure crew members, totaling at least %(goal)s modules or crew members.</value>
+  </data>
+  <data name="pm2_7_4_4_description_critsAdv" xml:space="preserve">
+    <value>Destroy enemy internal modules or injure crew members, totaling at least %(goal)s modules or crew members.</value>
+  </data>
+  <data name="pm2_7_4_4_short" xml:space="preserve">
+    <value>Coalition-4</value>
+  </data>
+  <data name="pm2_7_4_4_title_crits" xml:space="preserve">
+    <value>Critical Hits</value>
+  </data>
+  <data name="pm2_7_4_4_title_critsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_5" xml:space="preserve">
+    <value>Coalition-5. I Will Be Your Shield</value>
+  </data>
+  <data name="pm2_7_4_5_description_blockedHits" xml:space="preserve">
+    <value>Block %(goal)s enemy hits.</value>
+  </data>
+  <data name="pm2_7_4_5_description_blockedHitsAdv" xml:space="preserve">
+    <value>Block %(goal)s enemy hits.</value>
+  </data>
+  <data name="pm2_7_4_5_short" xml:space="preserve">
+    <value>Coalition-5</value>
+  </data>
+  <data name="pm2_7_4_5_title_blockedHits" xml:space="preserve">
+    <value>Armor Efficiency</value>
+  </data>
+  <data name="pm2_7_4_5_title_blockedHitsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_6" xml:space="preserve">
+    <value>Coalition-6. Stiletto</value>
+  </data>
+  <data name="pm2_7_4_6_description_piercings" xml:space="preserve">
+    <value>Score an armor-penetrating hit on an enemy vehicle the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_4_6_description_piercingsAdv" xml:space="preserve">
+    <value>Score an armor-penetrating hit on an enemy vehicle the indicated number of times: %(goal)s</value>
+  </data>
+  <data name="pm2_7_4_6_short" xml:space="preserve">
+    <value>Coalition-6</value>
+  </data>
+  <data name="pm2_7_4_6_title_piercings" xml:space="preserve">
+    <value>Score an Armor-Penetrating Hit</value>
+  </data>
+  <data name="pm2_7_4_6_title_piercingsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_7" xml:space="preserve">
+    <value>Coalition-7. Nothing Personal, It's Just Business</value>
+  </data>
+  <data name="pm2_7_4_7_description_kills" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles of %(uniqueGoal)s different types.</value>
+  </data>
+  <data name="pm2_7_4_7_description_killsAdv" xml:space="preserve">
+    <value>Destroy %(goal)s enemy vehicles of %(uniqueGoal)s different types.</value>
+  </data>
+  <data name="pm2_7_4_7_short" xml:space="preserve">
+    <value>Coalition-7</value>
+  </data>
+  <data name="pm2_7_4_7_title_kills" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="pm2_7_4_7_title_killsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_8" xml:space="preserve">
+    <value>Coalition-8. My Duty Never Ends</value>
+  </data>
+  <data name="pm2_7_4_8_description_medal" xml:space="preserve">
+    <value>Earn the Patrol Duty award.</value>
+  </data>
+  <data name="pm2_7_4_8_description_medalAdv" xml:space="preserve">
+    <value>Earn the Patrol Duty award.</value>
+  </data>
+  <data name="pm2_7_4_8_short" xml:space="preserve">
+    <value>Coalition-8</value>
+  </data>
+  <data name="pm2_7_4_8_title_medal" xml:space="preserve">
+    <value>Battle Heroes</value>
+  </data>
+  <data name="pm2_7_4_8_title_medalAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="pm2_7_4_9" xml:space="preserve">
+    <value>Coalition-9. Let Their Fate Be a Lesson to You</value>
+  </data>
+  <data name="pm2_7_4_9_description_hits" xml:space="preserve">
+    <value>Cause damage to %(goal)s different vehicles in a battle.</value>
+  </data>
+  <data name="pm2_7_4_9_description_hitsAdv" xml:space="preserve">
+    <value>Cause damage to %(goal)s different vehicles in a battle.</value>
+  </data>
+  <data name="pm2_7_4_9_description_hitsInBattle" xml:space="preserve">
+    <value>Cause damage to %(goal)s different vehicles in a battle.</value>
+  </data>
+  <data name="pm2_7_4_9_description_hitsInBattleAdv" xml:space="preserve">
+    <value>Cause damage to %(goal)s different vehicles in a battle.</value>
+  </data>
+  <data name="pm2_7_4_9_short" xml:space="preserve">
+    <value>Coalition-9</value>
+  </data>
+  <data name="pm2_7_4_9_title_hits" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="pm2_7_4_9_title_hitsAdv" xml:space="preserve">
+    <value>Improve Result</value>
+  </data>
+  <data name="quest_biathlon_descr" xml:space="preserve">
+    <value>Each mission of this type has a limitation on the number of attempts to complete the specified conditions.
+
+Primary condition: complete the mission conditions in the specified number of battles. If the number of remaining battles is fewer than the number of required completions, the current progress will be reset and the mission will be started all over again. 
+
+The secondary condition is similar to the primary one, and has its own completion progress. This condition is more complex and requires the same number of battles for completion. You can fail the secondary condition, but still complete the primary condition. In this case, the secondary condition will remain unavailable for completion until you start a new series of attempts.
+
+IMPORTANT: when cancelling a mission, all progress will be lost.</value>
+  </data>
+  <data name="quest_biathlon_with_limit_descr" xml:space="preserve">
+    <value>Each mission of this type has a limitation on the number of attempts to complete the specified conditions.
+
+Primary condition: complete the mission conditions in the specified number of battles. If the number of remaining battles is fewer than the number of required completions, the current progress will be reset and the mission will be started all over again. 
+
+The secondary condition is similar to the primary one, and has its own completion progress. This condition is more complex and requires the same number of battles for completion. You can fail the secondary condition, but still complete the primary condition. In this case, the secondary condition will remain unavailable for completion until you start a new series of attempts.
+
+Restrictions. By value: the mission has a particular minimum value for a battle. If this value is not reached, the result of this battle will not be counted. By time: only a result achieved within the specified time period is counted.
+
+IMPORTANT: when cancelling a mission, all progress will be lost.</value>
+  </data>
+  <data name="quest_every_descr" xml:space="preserve">
+    <value>Each mission of this type has a limitation on the number of attempts to complete the specified conditions.
+
+The primary condition should be completed in each battle of a series. Failing in one battle breaks the series and the progress will be started all over again. 
+
+The secondary condition is similar to the primary one, and has its own completion progress. This condition is more complex and requires the same number of battles for completion. You can fail the secondary condition, but still complete the primary condition. In this case, the secondary condition will remain unavailable for completion until you start a new series of attempts.
+
+IMPORTANT: when cancelling a mission, all progress will be lost.</value>
+  </data>
+  <data name="quest_every_with_limit_descr" xml:space="preserve">
+    <value>Each mission of this type has a limitation on the number of attempts to complete the specified conditions.
+
+The primary condition should be completed in each battle of a series. Failing in one battle breaks the series and the progress will be started all over again. 
+
+The secondary condition is similar to the primary one, and has its own completion progress. This condition is more complex and requires the same number of battles for completion. You can fail the secondary condition, but still complete the primary condition. In this case, the secondary condition will remain unavailable for completion until you start a new series of attempts.
+
+Restrictions. By value: the mission has a particular minimum value for a battle. If this value is not reached, the result of this battle will not be counted. By time: only a result achieved within the specified time period is counted.
+
+IMPORTANT: when cancelling a mission, all earned progress will be lost.</value>
+  </data>
+  <data name="quest_result_descr" xml:space="preserve">
+    <value>These missions are accumulative: you will have to complete the conditions over a number of battles.
+
+Primary condition: over an unlimited number of battles, the results of each battle are added together until the required result is reached.
+
+The secondary condition is completed within one battle (its progress is not added). To receive rewards, you must complete this condition the required number of times, as well as complete the primary mission condition.
+
+Multiplier: completion of the secondary condition in a battle provides you with a special multiplier that multiplies all achieved progress in the primary condition by the specified value.
+
+IMPORTANT: when cancelling a mission, all progress will be lost.</value>
+  </data>
+  <data name="quest_result_with_limit_descr" xml:space="preserve">
+    <value>These missions are accumulative: you will have to complete the conditions over a number of battles.
+
+Primary condition: over an unlimited number of battles, the results of each battle are added together until the required result is reached.
+
+The secondary condition is completed within one battle (its progress is not added). To receive rewards, you must complete this condition the required number of times, as well as complete the primary mission condition.
+
+Multiplier: completion of the secondary condition in a battle provides you with a special multiplier that multiplies all achieved progress in the primary condition by the specified value.
+
+Restrictions. By value: the mission has a particular minimum value for a battle. If this value is not reached, the result of this battle will not be counted. By time: only a result achieved within the specified time period is counted.
+
+IMPORTANT: when cancelling a mission, all progress will be lost.</value>
+  </data>
+  <data name="quest_standart_descr" xml:space="preserve">
+    <value>These missions must be completed in one battle.
+
+To receive rewards for the secondary condition (together with the primary condition or to improve the result), a player must complete the primary condition. Otherwise, the mission will not be considered completed and no rewards will be provided for the completion of the secondary condition.</value>
+  </data>
+  <data name="quest_success_descr" xml:space="preserve">
+    <value>These missions are accumulative: you will have to complete the conditions within a number of battles (in a random order).
+
+The primary condition must be completed within the required number of battles, in a random order. Only successful battles will be counted; the number of attempts is unlimited.
+
+The secondary condition is completed within one battle (the progress is not added), over an unlimited number of battles. To receive rewards, you must complete this condition the required number of times, as well as complete the primary condition of the mission.
+
+Multiplier: completion of the primary and secondary conditions in a battle adds the results of 2 or 3 battles depending on the multiplier.
+
+IMPORTANT: when cancelling a mission, all progress will be lost.</value>
+  </data>
+  <data name="quest_success_with_limit_descr" xml:space="preserve">
+    <value>These missions are accumulative: you will have to complete the conditions within a number of battles (in a random order).
+
+The primary condition must be completed within the required number of battles, in a random order. Only successful battles will be counted; the number of attempts is unlimited.
+
+The secondary condition is completed within one battle (the progress is not added). To receive rewards, you must complete this condition the required number of times, as well as complete the primary condition of the mission.
+
+Multiplier: completion of the primary and secondary conditions in a battle adds the results of 2 or 3 battles depending on the multiplier.
+
+Restrictions. By value: the mission has a particular minimum value for a battle. If this value is not reached, the result of this battle will not be counted. By time: only a result achieved within the specified time period is counted.
+
+IMPORTANT: when cancelling a mission, all earned progress will be lost.</value>
+  </data>
+  <data name="quest_sum_descr" xml:space="preserve">
+    <value>Each mission of this type has a limited number of attempts to complete the specified condition.
+
+Primary condition: the results of each battle are added together. If the required value is not reached and there are no attempts left, the mission is considered failed and the mission progress is reset. The mission will be started all over again.
+
+The secondary condition is similar to the primary one and has its own completion progress. This condition is more complex and requires the same number of battles for completion.
+
+IMPORTANT: when cancelling a mission, all progress will be lost.</value>
+  </data>
+  <data name="quest_sum_with_limit_descr" xml:space="preserve">
+    <value>Each mission of this type has a limited number of attempts to complete the specified condition.
+
+Primary condition: the results of each battle are added together. If the required value is not reached and there are no attempts left, the mission is considered failed and the mission progress is reset. The mission will be started all over again.
+
+The secondary condition is similar to the primary one and has its own completion progress. This condition is more complex and requires the same number of battles for completion.
+
+Restrictions. By value: the mission has a particular minimum value for a battle. If this value is not reached, the result of this battle will not be counted. By time: only a result achieved within the specified time period is counted.
+
+IMPORTANT: when cancelling a mission, all progress will be lost.</value>
+  </data>
+</root>

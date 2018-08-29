@@ -459,4 +459,37 @@
   <data name="wulf/unboundInjectionWindow/title" xml:space="preserve">
     <value>Unbound component test</value>
   </data>
+  <data name="wulf/wTypesDemo/contextMenu/openConfirmDialog" xml:space="preserve">
+    <value>Open confirmation dialog</value>
+  </data>
+  <data name="wulf/wTypesDemo/contextMenu/openInfoDialog" xml:space="preserve">
+    <value>Open info dialog</value>
+  </data>
+  <data name="wulf/wTypesDemo/contextMenu/openOverlay" xml:space="preserve">
+    <value>Open overlay</value>
+  </data>
+  <data name="wulf/wTypesDemo/contextMenu/openServiceWindow" xml:space="preserve">
+    <value>Open service window</value>
+  </data>
+  <data name="wulf/wTypesDemo/contextMenu/openStandardWindow" xml:space="preserve">
+    <value>Open standard window</value>
+  </data>
+  <data name="wulf/wTypesDemo/tooltip/body" xml:space="preserve">
+    <value>Body and header are defined in po file.</value>
+  </data>
+  <data name="wulf/wTypesDemo/tooltip/header" xml:space="preserve">
+    <value>Demo Header</value>
+  </data>
+  <data name="wulf/demoWindow/title" xml:space="preserve">
+    <value>Demo Window</value>
+  </data>
+  <data name="wulf/serviceWindowDemo/title" xml:space="preserve">
+    <value>Service Window Demo</value>
+  </data>
+  <data name="wulf/standartWindowDemo/title" xml:space="preserve">
+    <value>Standard Window Demo</value>
+  </data>
+  <data name="wulf/windowTypesDemo/title" xml:space="preserve">
+    <value>Window Types Demo</value>
+  </data>
 </root>

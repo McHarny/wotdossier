@@ -273,7 +273,7 @@ Vehicles are limited to Tiers VI–VIII. The total Tier of vehicles on a team mu
     <value>Tier</value>
   </data>
   <data name="window/rosterSlotSettings/vehicleTab/vehicleType" xml:space="preserve">
-    <value>Type</value>
+    <value>Vehicle Type</value>
   </data>
   <data name="window/title" xml:space="preserve">
     <value>Team Battle</value>
@@ -412,7 +412,7 @@ to view the detailed description.</value>
     <value>Team</value>
   </data>
   <data name="window/unitListView/team" xml:space="preserve">
-    <value>Slots</value>
+    <value>Composition</value>
   </data>
   <data name="window/unitListView/teamDescription" xml:space="preserve">
     <value>Team description</value>
@@ -493,7 +493,7 @@ Vehicles are limited to Tiers VI–VIII. The total Tier of vehicles on a team mu
     <value>Stronger</value>
   </data>
   <data name="window/unit/unitListView/players" xml:space="preserve">
-    <value>Members</value>
+    <value>Composition</value>
   </data>
   <data name="window/unit/unitListView/rating" xml:space="preserve">
     <value>Rating</value>
@@ -1432,5 +1432,11 @@ to view the detailed description.</value>
   </data>
   <data name="window/unit/message/vehicleInNotReady/rotationGroupLocked" xml:space="preserve">
     <value>The vehicle is not ready: group %(groupNum)s is locked.</value>
+  </data>
+  <data name="window/unit/message/in_players_matching" xml:space="preserve">
+    <value>The detachment is ready: auto-assembling legionnaires...</value>
+  </data>
+  <data name="window/unit/message/takeSlotInRoster" xml:space="preserve">
+    <value>Join the detachment</value>
   </data>
 </root>

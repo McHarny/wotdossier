@@ -1970,7 +1970,7 @@ to free space for another equipment item.</value>
     <value>In battle</value>
   </data>
   <data name="tankCarousel/vehicleStates/buySlot" xml:space="preserve">
-    <value>Purchase a slot</value>
+    <value>Purchase Slot</value>
   </data>
   <data name="tankCarousel/vehicleStates/buyTank" xml:space="preserve">
     <value>Purchase a vehicle</value>
@@ -3263,7 +3263,7 @@ The server may be unavailable, or your network connection settings may be wrong.
     <value>In battle</value>
   </data>
   <data name="store/vehicleStates/buySlot" xml:space="preserve">
-    <value>Purchase a slot</value>
+    <value>Purchase Slot</value>
   </data>
   <data name="store/vehicleStates/buyTank" xml:space="preserve">
     <value>Purchase a vehicle</value>
@@ -3456,7 +3456,7 @@ purchase a vehicle</value>
     <value>Historical Battle</value>
   </data>
   <data name="bonusType/9" xml:space="preserve">
-    <value>Football Match</value>
+    <value>Special game mode</value>
   </data>
   <data name="contextMenu/blackmail" xml:space="preserve">
     <value>Out of Game Threat</value>
@@ -4249,7 +4249,7 @@ Query example: "[WG-A]"</value>
     <value>Reward for fulfilling secondary conditions: %(award)s</value>
   </data>
   <data name="awardWindow/quests/taskComplete/additionalNotComplete" xml:space="preserve">
-    <value>Secondary conditions not fulfilled.</value>
+    <value>Secondary condition not fulfilled.</value>
   </data>
   <data name="awardWindow/quests/taskComplete/awardForComlete" xml:space="preserve">
     <value>Reward
@@ -4262,7 +4262,7 @@ for Completion</value>
     <value>For completion of the mission, the high command expresses their gratitude and gives you valuable rewards.</value>
   </data>
   <data name="awardWindow/quests/taskComplete/header" xml:space="preserve">
-    <value>Mission "%(taskName)s" completed!</value>
+    <value>%(taskName)s mission completed!</value>
   </data>
   <data name="awardWindow/quests/tokens/description" xml:space="preserve">
     <value>The high command expresses their gratitude for completion of the last mission in the set for one vehicle type and commends you for your brave deeds.</value>
@@ -4304,7 +4304,7 @@ for Completion</value>
     <value>Edit note</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad" xml:space="preserve">
-    <value>Football Platoon</value>
+    <value>+++event platoon+++</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad/descr" xml:space="preserve">
     <value>5 players</value>
@@ -5029,7 +5029,7 @@ for Completion</value>
     <value>Battles available: %(battles)s</value>
   </data>
   <data name="awardWindow/specialAchievement/pveBattle/description" xml:space="preserve">
-    <value>You finished %(battlesCount)d battles in the Proving Ground mode. It is time you experienced combat against a real enemy in the Random Battle mode. Note: from now on you will not earn credits or experience in the Proving Ground mode.</value>
+    <value>You finished %(battlesCount)d battles in the Proving Ground mode. It is time you experienced combat against a real enemy in the Random Battle mode.</value>
   </data>
   <data name="awardWindow/title/info" xml:space="preserve">
     <value>Bulletin</value>
@@ -5220,7 +5220,7 @@ for Completion</value>
     <value>Purchase (%(count)s)</value>
   </data>
   <data name="contextMenu/createEventSquad" xml:space="preserve">
-    <value>Create Football Platoon</value>
+    <value>Create ++event++ Squad</value>
   </data>
   <data name="contextMenu/showVehiclePreview" xml:space="preserve">
     <value>Preview vehicle</value>
@@ -5238,7 +5238,7 @@ for Completion</value>
     <value>Platoon</value>
   </data>
   <data name="headerButtons/battle/types/squad/event" xml:space="preserve">
-    <value>: Tank football 2018</value>
+    <value>+++: event+++</value>
   </data>
   <data name="headerButtons/battle/types/squad/randomBattle" xml:space="preserve">
     <value>: Random Battle</value>
@@ -5541,7 +5541,7 @@ with honors!</value>
     <value>?empty?</value>
   </data>
   <data name="hangar_header/personal_quests_label/active" xml:space="preserve">
-    <value>%(current)s</value>
+    <value>#%(current)s</value>
   </data>
   <data name="hangar_header/personal_quests_label/empty" xml:space="preserve">
     <value>- -</value>
@@ -6137,7 +6137,7 @@ allows the vehicle to switch between Siege and Travel mode</value>
     <value>Not for sale</value>
   </data>
   <data name="headerButtons/personalMissions" xml:space="preserve">
-    <value>Campaign</value>
+    <value>Campaigns</value>
   </data>
   <data name="awardWindow/halloweenMission/awardsGranted" xml:space="preserve">
     <value>Halloween Rewards Earned!</value>
@@ -6433,5 +6433,158 @@ Average Penetration: %(avgPiercingPower)s mm</value>
   </data>
   <data name="tankmen/role_striker" xml:space="preserve">
     <value>striker</value>
+  </data>
+  <data name="barracks/btnRecruitNotRecruited" xml:space="preserve">
+    <value>Recruit</value>
+  </data>
+  <data name="barracks/menu/locationFilter/notRecruited" xml:space="preserve">
+    <value>Recruits</value>
+  </data>
+  <data name="barracks/noNotRecruitedTankmen/message" xml:space="preserve">
+    <value>All available recruits received during special events will be displayed here. They can be recruited for free.</value>
+  </data>
+  <data name="barracks/noNotRecruitedTankmen/title" xml:space="preserve">
+    <value>No Available Recruits</value>
+  </data>
+  <data name="barracks/notRecruitedActivateBefore" xml:space="preserve">
+    <value>Through %(date)s</value>
+  </data>
+  <data name="barracks/notRecruitedCount" xml:space="preserve">
+    <value>Recruits: %(total)s</value>
+  </data>
+  <data name="booster/bonus/booster_credits" xml:space="preserve">
+    <value>%(effectValue)s bonus for %(effectHours)s to credits earned in battle</value>
+  </data>
+  <data name="booster/bonus/booster_crew_xp" xml:space="preserve">
+    <value>%(effectValue)s bonus for %(effectHours)s to crew experience earned in battle</value>
+  </data>
+  <data name="booster/bonus/booster_free_xp" xml:space="preserve">
+    <value>%(effectValue)s bonus for %(effectHours)s to Free Experience earned in battle</value>
+  </data>
+  <data name="booster/bonus/booster_xp" xml:space="preserve">
+    <value>%(effectValue)s bonus for %(effectHours)s to experience earned in battle</value>
+  </data>
+  <data name="classes/short/Alliance-France" xml:space="preserve">
+    <value>Coalition (France, Sweden, Czechoslovakia, Italy)</value>
+  </data>
+  <data name="classes/short/Alliance-Germany" xml:space="preserve">
+    <value>Bloc (Germany, Japan)</value>
+  </data>
+  <data name="classes/short/Alliance-USA" xml:space="preserve">
+    <value>Alliance (U.S.A., Poland, U.K.)</value>
+  </data>
+  <data name="classes/short/Alliance-USSR" xml:space="preserve">
+    <value>Union (U.S.S.R., China)</value>
+  </data>
+  <data name="crystals/promoWindow/openShopBtnLabel" xml:space="preserve">
+    <value>Purchase in the Store</value>
+  </data>
+  <data name="cst_item_ctx_menu/allowSale" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="cst_item_ctx_menu/information" xml:space="preserve">
+    <value>Vehicle details</value>
+  </data>
+  <data name="cst_item_ctx_menu/prohibitSale" xml:space="preserve">
+    <value>Cancel Selection</value>
+  </data>
+  <data name="dateTime/months/1" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="dateTime/months/10" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="dateTime/months/11" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="dateTime/months/12" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="dateTime/months/2" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="dateTime/months/3" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="dateTime/months/4" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="dateTime/months/5" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="dateTime/months/6" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="dateTime/months/7" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="dateTime/months/8" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="dateTime/months/9" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="header/vehicleType/Alliance-France" xml:space="preserve">
+    <value>France, Sweden, Czechoslovakia, Italy</value>
+  </data>
+  <data name="header/vehicleType/Alliance-Germany" xml:space="preserve">
+    <value>Germany, Japan</value>
+  </data>
+  <data name="header/vehicleType/Alliance-USA" xml:space="preserve">
+    <value>U.S.A., Poland, U.K.</value>
+  </data>
+  <data name="header/vehicleType/Alliance-USSR" xml:space="preserve">
+    <value>U.S.S.R., China</value>
+  </data>
+  <data name="headerButtons/clans" xml:space="preserve">
+    <value>Clans</value>
+  </data>
+  <data name="headerButtons/storage" xml:space="preserve">
+    <value>Depot</value>
+  </data>
+  <data name="lobby_menu/buttons/post" xml:space="preserve">
+    <value>Field Post Office</value>
+  </data>
+  <data name="premium/packet/longDescriptionSpecial" xml:space="preserve">
+    <value>Premium Account allows for faster progression in the game, providing 50% more credits and experience in battles. Premium Account is shared across World of Tanks, World of Warships, and World of Warplanes, by purchasing it for one of the games, you automatically have it for the rest.</value>
+  </data>
+  <data name="premium/packet/shortDescriptionSpecial" xml:space="preserve">
+    <value>+50% to experience, credits, and Crew Experience in battles</value>
+  </data>
+  <data name="promo/teaser/title" xml:space="preserve">
+    <value>Field Post Office</value>
+  </data>
+  <data name="promo/teaserTimeFormat/days" xml:space="preserve">
+    <value>%(day)sd:%(hour)s:%(min)s:%(sec)s</value>
+  </data>
+  <data name="promo/teaserTimeFormat/hours" xml:space="preserve">
+    <value>%(hour)s:%(min)s:%(sec)s</value>
+  </data>
+  <data name="promo/teaserTimeFormat/lessMin" xml:space="preserve">
+    <value>%(hour)s:%(min)s:%(sec)s</value>
+  </data>
+  <data name="promo/teaserTimeFormat/min" xml:space="preserve">
+    <value>%(hour)s:%(min)s:%(sec)s</value>
+  </data>
+  <data name="vehiclePreview/endTime" xml:space="preserve">
+    <value>Offer expired</value>
+  </data>
+  <data name="vehiclePreview/timeLeft/hours" xml:space="preserve">
+    <value>%(hour)s h %(min)s min</value>
+  </data>
+  <data name="vehiclePreview/timeLeft/lessMin" xml:space="preserve">
+    <value>1 min</value>
+  </data>
+  <data name="vehiclePreview/timeLeft/min" xml:space="preserve">
+    <value>%(min)s min</value>
+  </data>
+  <data name="vehiclePreview/timeLeftShort/hours" xml:space="preserve">
+    <value>%(hour)s h</value>
+  </data>
+  <data name="vehiclePreview/timeLeftShort/lessMin" xml:space="preserve">
+    <value>01 min</value>
+  </data>
+  <data name="vehiclePreview/timeLeftShort/min" xml:space="preserve">
+    <value>%(min)s min</value>
   </data>
 </root>

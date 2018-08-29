@@ -2784,4 +2784,188 @@
   <data name="FE18Universal_descr" xml:space="preserve">
     <value>Победить в трёх матчах за каждую из ролей на поле: нападающий, полузащитник и защитник.</value>
   </data>
+  <data name="medalKursk" xml:space="preserve">
+    <value>Герой Курской битвы</value>
+  </data>
+  <data name="medalKursk_condition" xml:space="preserve">
+    <value>• Выдаётся всем игрокам, выполнившим необходимое условие в течение специального игрового события.</value>
+  </data>
+  <data name="medalKursk_descr" xml:space="preserve">
+    <value>Выполнить 5 боевых задач в рамках события «Курская битва».</value>
+  </data>
+  <data name="newMeritPM2" xml:space="preserve">
+    <value>«Снова в строю»</value>
+  </data>
+  <data name="newMeritPM2_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="newMeritPM2_descr" xml:space="preserve">
+    <value>Выполнить 5 любых личных боевых задач кампании «Второй фронт».</value>
+  </data>
+  <data name="newMeritPM2_notification" xml:space="preserve">
+    <value>За успешное выполнение личных боевых задач кампании «Второй фронт» вы представлены к награде: медаль «Снова в строю».</value>
+  </data>
+  <data name="readyForBattleAllianceFrance" xml:space="preserve">
+    <value>«Образцовое выполнение: Коалиция»</value>
+  </data>
+  <data name="readyForBattleAllianceFrance_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleAllianceFrance_descr" xml:space="preserve">
+    <value>За выполнение с отличием личных боевых задач Коалиции в рамках кампании «Второй фронт».</value>
+  </data>
+  <data name="readyForBattleAllianceFrance_notification1" xml:space="preserve">
+    <value>Выполнить с отличием 45 личных боевых задач Коалиции. Награда: медаль «Образцовое выполнение: Коалиция» I степени.</value>
+  </data>
+  <data name="readyForBattleAllianceFrance_notification2" xml:space="preserve">
+    <value>Выполнить с отличием 30 личных боевых задач Коалиции. Награда: медаль «Образцовое выполнение: Коалиция» II степени.</value>
+  </data>
+  <data name="readyForBattleAllianceFrance_notification3" xml:space="preserve">
+    <value>Выполнить с отличием 15 личных боевых задач Коалиции. Награда: медаль «Образцовое выполнение: Коалиция» III степени.</value>
+  </data>
+  <data name="readyForBattleAllianceGermany" xml:space="preserve">
+    <value>«Образцовое выполнение: Блок»</value>
+  </data>
+  <data name="readyForBattleAllianceGermany_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleAllianceGermany_descr" xml:space="preserve">
+    <value>За выполнение с отличием личных боевых задач Блока в рамках кампании «Второй фронт».</value>
+  </data>
+  <data name="readyForBattleAllianceGermany_notification1" xml:space="preserve">
+    <value>Выполнить с отличием 45 личных боевых задач Блока. Награда: медаль «Образцовое выполнение: Блок» I степени.</value>
+  </data>
+  <data name="readyForBattleAllianceGermany_notification2" xml:space="preserve">
+    <value>Выполнить с отличием 30 личных боевых задач Блока. Награда: медаль «Образцовое выполнение: Блок» II степени.</value>
+  </data>
+  <data name="readyForBattleAllianceGermany_notification3" xml:space="preserve">
+    <value>Выполнить с отличием 15 личных боевых задач Блока. Награда: медаль «Образцовое выполнение: Блок» III степени.</value>
+  </data>
+  <data name="readyForBattleAllianceUSA" xml:space="preserve">
+    <value>«Образцовое выполнение: Альянс»</value>
+  </data>
+  <data name="readyForBattleAllianceUSA_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleAllianceUSA_descr" xml:space="preserve">
+    <value>За выполнение с отличием личных боевых задач Альянса в рамках кампании «Второй фронт».</value>
+  </data>
+  <data name="readyForBattleAllianceUSA_notification1" xml:space="preserve">
+    <value>Выполнить с отличием 45 личных боевых задач Альянса. Награда: медаль «Образцовое выполнение: Альянс» I степени.</value>
+  </data>
+  <data name="readyForBattleAllianceUSA_notification2" xml:space="preserve">
+    <value>Выполнить с отличием 30 личных боевых задач Альянса. Награда: медаль «Образцовое выполнение: Альянс» II степени.</value>
+  </data>
+  <data name="readyForBattleAllianceUSA_notification3" xml:space="preserve">
+    <value>Выполнить с отличием 15 личных боевых задач Альянса. Награда: медаль «Образцовое выполнение: Альянс» III степени.</value>
+  </data>
+  <data name="readyForBattleAllianceUSSR" xml:space="preserve">
+    <value>«Образцовое выполнение: Союз»</value>
+  </data>
+  <data name="readyForBattleAllianceUSSR_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleAllianceUSSR_descr" xml:space="preserve">
+    <value>За выполнение с отличием личных боевых задач Союза в рамках кампании «Второй фронт».</value>
+  </data>
+  <data name="readyForBattleAllianceUSSR_notification1" xml:space="preserve">
+    <value>Выполнить с отличием 45 личных боевых задач Союза. Награда: медаль «Образцовое выполнение: Союз» I степени.</value>
+  </data>
+  <data name="readyForBattleAllianceUSSR_notification2" xml:space="preserve">
+    <value>Выполнить с отличием 30 личных боевых задач Союза. Награда: медаль «Образцовое выполнение: Союз» II степени.</value>
+  </data>
+  <data name="readyForBattleAllianceUSSR_notification3" xml:space="preserve">
+    <value>Выполнить с отличием 15 личных боевых задач Союза. Награда: медаль «Образцовое выполнение: Союз» III степени.</value>
+  </data>
+  <data name="streamersEventAmway921" xml:space="preserve">
+    <value>За Амвэя и двор</value>
+  </data>
+  <data name="streamersEventAmway921_condition" xml:space="preserve">
+    <value>• Выдаётся игрокам, выполнившим необходимое условие в рамках события «Битва блогеров».</value>
+  </data>
+  <data name="streamersEventAmway921_descr" xml:space="preserve">
+    <value>Вступить в команду блогера Amway921 и заработать 5 очков для его команды.</value>
+  </data>
+  <data name="streamersEventJove" xml:space="preserve">
+    <value>«Нагибатор»</value>
+  </data>
+  <data name="streamersEventJove_condition" xml:space="preserve">
+    <value>• Выдаётся игрокам, выполнившим необходимое условие в рамках события «Битва блогеров».</value>
+  </data>
+  <data name="streamersEventJove_descr" xml:space="preserve">
+    <value>Вступить в команду блогера Jove и заработать 5 очков для его команды.</value>
+  </data>
+  <data name="streamersEventLeBwA" xml:space="preserve">
+    <value>Одной левой</value>
+  </data>
+  <data name="streamersEventLeBwA_condition" xml:space="preserve">
+    <value>• Выдаётся игрокам, выполнившим необходимое условие в рамках события «Битва блогеров».</value>
+  </data>
+  <data name="streamersEventLeBwA_descr" xml:space="preserve">
+    <value>Вступить в команду блогера LeBwa и заработать 5 очков для его команды.</value>
+  </data>
+  <data name="streamersEventUsha" xml:space="preserve">
+    <value>Yushaтали всех!</value>
+  </data>
+  <data name="streamersEventUsha_condition" xml:space="preserve">
+    <value>• Выдаётся игрокам, выполнившим необходимое условие в рамках события «Битва блогеров».</value>
+  </data>
+  <data name="streamersEventUsha_descr" xml:space="preserve">
+    <value>Вступить в команду блогера Yusha и заработать 5 очков для его команды.</value>
+  </data>
+  <data name="superTesterVeteran1" xml:space="preserve">
+    <value>За отличную службу I степени</value>
+  </data>
+  <data name="superTesterVeteran1_condition" xml:space="preserve">
+    <value>• 1 год — IV степень
+• 2 года — III степень
+• 3 года — II степень
+• 4 года и более — I степень</value>
+  </data>
+  <data name="superTesterVeteran1_descr" xml:space="preserve">
+    <value>За 4 года и более, проведённых в рядах супертестеров.</value>
+  </data>
+  <data name="superTesterVeteran2" xml:space="preserve">
+    <value>За отличную службу II степени</value>
+  </data>
+  <data name="superTesterVeteran2_condition" xml:space="preserve">
+    <value>• 1 год — IV степень
+• 2 года — III степень
+• 3 года — II степень
+• 4 года и более — I степень</value>
+  </data>
+  <data name="superTesterVeteran2_descr" xml:space="preserve">
+    <value>За 3 года, проведённых в рядах супертестеров.</value>
+  </data>
+  <data name="superTesterVeteran3" xml:space="preserve">
+    <value>За отличную службу III степени</value>
+  </data>
+  <data name="superTesterVeteran3_condition" xml:space="preserve">
+    <value>• 1 год — IV степень
+• 2 года — III степень
+• 3 года — II степень
+• 4 года и более — I степень</value>
+  </data>
+  <data name="superTesterVeteran3_descr" xml:space="preserve">
+    <value>За 2 года, проведённых в рядах супертестеров.</value>
+  </data>
+  <data name="superTesterVeteran4" xml:space="preserve">
+    <value>За отличную службу IV степени</value>
+  </data>
+  <data name="superTesterVeteran4_condition" xml:space="preserve">
+    <value>• 1 год — IV степень
+• 2 года — III степень
+• 3 года — II степень
+• 4 года и более — I степень</value>
+  </data>
+  <data name="superTesterVeteran4_descr" xml:space="preserve">
+    <value>За год, проведённый в рядах супертестеров.</value>
+  </data>
+  <data name="tankExpert9" xml:space="preserve">
+    <value>«Эксперт: Польша»</value>
+  </data>
+  <data name="tankExpert9_descr" xml:space="preserve">
+    <value>Уничтожить всю технику из Дерева исследований Польши, исключая премиум и наградные машины.
+• Засчитывается техника, уничтоженная в Случайных и Командных боях, в боях при Наступлениях, на Глобальной карте, а также в Учебном бою (первые 10 боёв).</value>
+  </data>
 </root>

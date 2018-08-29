@@ -1312,10 +1312,10 @@
     <value>	за содействие</value>
   </data>
   <data name="team/stats/labels_xpForAttack" xml:space="preserve">
-    <value>	за нанесение урона</value>
+    <value>	за урон и уничтожение</value>
   </data>
   <data name="team/stats/labels_xpOther" xml:space="preserve">
-    <value>	прочее</value>
+    <value>	за активные боевые действия</value>
   </data>
   <data name="common/details/footballScore" xml:space="preserve">
     <value>%d:%d</value>
@@ -1358,5 +1358,11 @@
   </data>
   <data name="team/stats/labels_selfGoals" xml:space="preserve">
     <value>Автоголы</value>
+  </data>
+  <data name="personalQuest/bonus/descr" xml:space="preserve">
+    <value>Ваш прогресс по основному условию, достигнутый в этом бою, увеличен в %(value)s раза.</value>
+  </data>
+  <data name="personalQuest/bonus/multiplier" xml:space="preserve">
+    <value>Множитель х%(value)s:</value>
   </data>
 </root>

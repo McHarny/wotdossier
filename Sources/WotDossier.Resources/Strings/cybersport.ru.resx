@@ -1433,4 +1433,10 @@
   <data name="window/unit/message/vehicleInNotReady/rotationGroupLocked" xml:space="preserve">
     <value>Машина не готова к бою: группа %(groupNum)s заблокирована.</value>
   </data>
+  <data name="window/unit/message/in_players_matching" xml:space="preserve">
+    <value>Отряд готов: автонабор легионеров...</value>
+  </data>
+  <data name="window/unit/message/takeSlotInRoster" xml:space="preserve">
+    <value>Займите место в составе отряда</value>
+  </data>
 </root>

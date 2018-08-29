@@ -1179,4 +1179,22 @@ TRM P45</value>
   <data name="_105mm_AP_Experimental_Type2_TS" xml:space="preserve">
     <value>AP Experimental Type 2 Toku Otsu</value>
   </data>
+  <data name="Chi_Nu_Kai_long_special" xml:space="preserve">
+    <value>This is a standard medium tank that does not have any significant advantages or drawbacks. It is effective in any combat situation and will be appreciated by players who prefer to go with the flow.</value>
+  </data>
+  <data name="Chi_Nu_Kai_short_special" xml:space="preserve">
+    <value>High accuracy, penetration, good armoring of the gun mantlet</value>
+  </data>
+  <data name="J19_Tiger_I_Jpn_long_special" xml:space="preserve">
+    <value>This tank features good survivability, view range, and sufficient durability. It is equipped with a rapid-firing gun. However, its armor is rather vulnerable, since it does not have sloped plates.</value>
+  </data>
+  <data name="J19_Tiger_I_Jpn_short_special" xml:space="preserve">
+    <value>Good survivability, rate of fire, and view range</value>
+  </data>
+  <data name="STA_2_3_long_special" xml:space="preserve">
+    <value>This vehicle has rather a good gun with poor elevation. Generally, the vehicle can be used effectively in all battle situations, as it does not have any significant advantages or drawbacks.</value>
+  </data>
+  <data name="STA_2_3_short_special" xml:space="preserve">
+    <value>Good gun, can be applied in different situations</value>
+  </data>
 </root>

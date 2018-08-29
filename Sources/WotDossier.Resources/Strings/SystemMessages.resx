@@ -4438,7 +4438,7 @@ You cannot leave the Platoon. You are a Platoon member ready for battle.</value>
     <value>Orders received: %(count)s.</value>
   </data>
   <data name="personalMissions/freeAwardListReturn" xml:space="preserve">
-    <value>Orders returned: %(count)s.
+    <value>Orders returned: %(count)s
 They can be used again.</value>
   </data>
   <data name="personalMissions/pawn/server_error" xml:space="preserve">
@@ -4686,5 +4686,16 @@ Bunks added to the Barracks: 1</value>
   </data>
   <data name="tokens/notification/football_card_acquired" xml:space="preserve">
     <value>Football cards received: %(count)s</value>
+  </data>
+  <data name="multipleSelling/success" xml:space="preserve">
+    <value>Acquired %(money)s</value>
+  </data>
+  <data name="notrecruit_window/success" xml:space="preserve">
+    <value>Crew member successfully recruited.
+%(colorTagOpen)s%(rank)s %(fullName)s
+(%(role)s, %(vehicleName)s, %(roleLevel)d%%)%(colorTagClose)s</value>
+  </data>
+  <data name="personalMissions/tankmenGain" xml:space="preserve">
+    <value>Added: female crew member</value>
   </data>
 </root>

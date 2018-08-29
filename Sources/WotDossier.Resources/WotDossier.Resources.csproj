@@ -617,6 +617,8 @@
     <EmbeddedResource Include="Strings\Ny.ru.resx" />
     <EmbeddedResource Include="Strings\PersonalMissions.resx" />
     <EmbeddedResource Include="Strings\PersonalMissions.ru.resx" />
+    <EmbeddedResource Include="Strings\PersonalMissions2Details.resx" />
+    <EmbeddedResource Include="Strings\PersonalMissions2Details.ru.resx" />
     <EmbeddedResource Include="Strings\PersonalMissionsDetails.resx" />
     <EmbeddedResource Include="Strings\PersonalMissionsDetails.ru.resx" />
     <EmbeddedResource Include="Strings\PolandTankmen.resx" />
@@ -649,6 +651,10 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Strings\Settings.ru.resx" />
+    <EmbeddedResource Include="Strings\Storage.resx" />
+    <EmbeddedResource Include="Strings\Storage.ru.resx" />
+    <EmbeddedResource Include="Strings\Store.resx" />
+    <EmbeddedResource Include="Strings\Store.ru.resx" />
     <EmbeddedResource Include="Strings\SwedenTankmen.resx" />
     <EmbeddedResource Include="Strings\SwedenTankmen.ru.resx" />
     <EmbeddedResource Include="Strings\SwedenVehicles.resx" />
@@ -681,6 +687,8 @@
     <EmbeddedResource Include="Strings\VehicleCustomizationCn.ru.resx" />
     <EmbeddedResource Include="Strings\VehiclePreview.resx" />
     <EmbeddedResource Include="Strings\VehiclePreview.ru.resx" />
+    <EmbeddedResource Include="Strings\W2c.resx" />
+    <EmbeddedResource Include="Strings\W2c.ru.resx" />
     <EmbeddedResource Include="Strings\Waiting.resx" />
     <EmbeddedResource Include="Strings\Waiting.ru.resx" />
     <EmbeddedResource Include="Strings\Wgm.resx" />
@@ -2492,10 +2500,90 @@
     <Resource Include="Vehicles\Images\Vehicle\germany-G56_E-100_sport.png" />
     <Resource Include="Vehicles\Images\Vehicle\ussr-R87_T62A_sport.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Achievements\Images\Achievement\medalKursk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl01_TKS_20mm.png" />
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl08_50TP_prototyp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\uk-GB96_Excalibur.png" />
+    <Resource Include="Vehicles\Images\Vehicle\uk-GB97_Chimera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R157_Object_279R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Achievements\Images\Achievement\mechanicEngineer9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Achievements\Images\Achievement\newMeritPM2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Achievements\Images\Achievement\readyForBattleAllianceFrance1.png" />
+    <Resource Include="Achievements\Images\Achievement\readyForBattleAllianceFrance2.png" />
+    <Resource Include="Achievements\Images\Achievement\readyForBattleAllianceFrance3.png" />
+    <Resource Include="Achievements\Images\Achievement\readyForBattleAllianceGermany1.png" />
+    <Resource Include="Achievements\Images\Achievement\readyForBattleAllianceGermany2.png" />
+    <Resource Include="Achievements\Images\Achievement\readyForBattleAllianceGermany3.png" />
+    <Resource Include="Achievements\Images\Achievement\readyForBattleAllianceUSA1.png" />
+    <Resource Include="Achievements\Images\Achievement\readyForBattleAllianceUSA2.png" />
+    <Resource Include="Achievements\Images\Achievement\readyForBattleAllianceUSA3.png" />
+    <Resource Include="Achievements\Images\Achievement\readyForBattleAllianceUSSR1.png" />
+    <Resource Include="Achievements\Images\Achievement\readyForBattleAllianceUSSR2.png" />
+    <Resource Include="Achievements\Images\Achievement\readyForBattleAllianceUSSR3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Achievements\Images\Achievement\streamersEventAmway921.png" />
+    <Resource Include="Achievements\Images\Achievement\streamersEventJove.png" />
+    <Resource Include="Achievements\Images\Achievement\streamersEventLeBwA.png" />
+    <Resource Include="Achievements\Images\Achievement\streamersEventUsha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Achievements\Images\Achievement\superTesterVeteran1.png" />
+    <Resource Include="Achievements\Images\Achievement\superTesterVeteran2.png" />
+    <Resource Include="Achievements\Images\Achievement\superTesterVeteran3.png" />
+    <Resource Include="Achievements\Images\Achievement\superTesterVeteran4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Achievements\Images\Achievement\tankExpert9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Minimap\03_campania_big-1.0.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Minimap\10_hills-1.0.2.png" />
+    <Resource Include="Maps\Images\Minimap\114_czech-1.0.2.png" />
+    <Resource Include="Maps\Images\Minimap\115_sweden-1.0.2.png" />
+    <Resource Include="Maps\Images\Minimap\14_siegfried_line-1.0.2.png" />
+    <Resource Include="Maps\Images\Minimap\19_monastery-1.0.2.png" />
+    <Resource Include="Maps\Images\Minimap\90_minsk.png" />
+    <Resource Include="Maps\Images\Minimap\99_poland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Maps\Images\Stats\90_minsk.png" />
+    <Resource Include="Maps\Images\Stats\99_poland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl05_50TP_Tyszkiewicza.png" />
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl06_10TP.png" />
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl07_14TP.png" />
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl09_7TP.png" />
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl10_40TP_Habicha.png" />
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl11_45TP_Habicha.png" />
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl12_25TP_KSUST_II.png" />
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl13_53TP_Markowskiego.png" />
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl14_4TP.png" />
+    <Resource Include="Vehicles\Images\Vehicle\poland-Pl15_60TP_Lewandowskiego.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R127_T44_100_K.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R127_T44_100_U.png" />
+    <Resource Include="Vehicles\Images\Vehicle\ussr-R156_IS_2M.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_DetectChanges="False" BuildVersion_StartDate="2000/1/1" BuildVersion_UseGlobalSettings="True" />
+      <UserProperties BuildVersion_DetectChanges="True" BuildVersion_StartDate="2000/1/1" BuildVersion_UseGlobalSettings="True" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

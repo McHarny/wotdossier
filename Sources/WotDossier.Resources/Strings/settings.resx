@@ -2265,7 +2265,7 @@ on your vehicle</value>
     <value>Standard</value>
   </data>
   <data name="feedback/tab/damageIndicator/typeLabel" xml:space="preserve">
-    <value>View</value>
+    <value>Type</value>
   </data>
   <data name="feedback/tab/damageLogPanel" xml:space="preserve">
     <value>Log</value>
@@ -3019,5 +3019,32 @@ Reducing the value of this parameter can cause desynchronization of landscape di
   </data>
   <data name="game/loginServerSelection" xml:space="preserve">
     <value>Display server selection upon game launch</value>
+  </data>
+  <data name="feedback/tab/questsProgress" xml:space="preserve">
+    <value>Progress for Personal Missions</value>
+  </data>
+  <data name="feedback/tab/questsProgress/conditionsLabel" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="feedback/tab/questsProgress/standardConditions/showAll" xml:space="preserve">
+    <value>Display all</value>
+  </data>
+  <data name="feedback/tab/questsProgress/standardConditions/showProgress" xml:space="preserve">
+    <value>Display progress only</value>
+  </data>
+  <data name="feedback/tab/questsProgress/type/alternative" xml:space="preserve">
+    <value>Alternative</value>
+  </data>
+  <data name="feedback/tab/questsProgress/type/hidden" xml:space="preserve">
+    <value>Do not display</value>
+  </data>
+  <data name="feedback/tab/questsProgress/type/standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="feedback/tab/questsProgress/typeLabel" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/showQuestProgress" xml:space="preserve">
+    <value>Progress for Personal Missions</value>
   </data>
 </root>

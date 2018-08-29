@@ -1,6 +1,6 @@
 {
   "header": {
-    "version": 20180614.0
+    "version": 20180828.0
   },
   "data": [
     {
@@ -3351,6 +3351,14 @@
       "IDNum": 22017,
       "expFrag": 0.0,
       "expDamage": 2100.0,
+      "expSpot": 0.0,
+      "expDef": 0.0,
+      "expWinRate": 0.0
+    },
+    {
+      "IDNum": 913,
+      "expFrag": 0.0,
+      "expDamage": 1800.0,
       "expSpot": 0.0,
       "expDef": 0.0,
       "expWinRate": 0.0

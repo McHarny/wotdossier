@@ -320,40 +320,40 @@ By the way, the trophy looks awesome!</value>
     <value>Зимняя битва</value>
   </data>
   <data name="burda/desc" xml:space="preserve">
-    <value>Guards Colonel Alexander Burda was a Soviet tank ace and a Hero of the Soviet Union. On October 4th, 1941, Burda organized an ambush that destroyed an enemy armored column, including ten medium and light tanks, two trucks with antitank guns, and five infantry vehicles. He died in battle on January 25, 1944. His actions hindered the advance of 12 enemy vehicles and helped the brigade headquarters successfully evacuate.</value>
+    <value>Александр Фёдорович Бурда — советский танковый ас, Герой Советского Союза, гвардии подполковник. 4 октября 1941 г. организовал засаду, в результате которой была разгромлена колонна противника, в том числе десять средних и лёгких танков, два тягача с ПТ-орудиями, пять автомашин с пехотой. Погиб в бою 25 января 1944 года, своими действиями задержав 12 машин противника и этим обеспечив эвакуацию штаба бригады.</value>
   </data>
   <data name="burda/title" xml:space="preserve">
-    <value>Alexander Burda</value>
+    <value>Александр Бурда</value>
   </data>
   <data name="fadin/desc" xml:space="preserve">
-    <value>A Hero of the Soviet Union, Alexander Fadin was a T-34 commander. Supported by one infantry platoon, Fadin managed to capture the village of Dashukovka (Ukraine) and hold it for five hours with one tank. He destroyed one tank, one SPG, eighteen machinegun nests, and neutralized up to 50 enemy soldiers and officers. His crew also shot down an enemy plane. Fadin ended the war in the Far East, where he participated in destroying the Kwantung Army as a commander of a tank company.</value>
+    <value>Александр Михайлович Фадин — командир Т-34. Одним танком, при поддержке взвода пехоты, захватил и удерживал с. Дашуковка (Украина) в течение пяти часов, уничтожив при этом один танк, одну САУ, 18 пулеметных точек, до 50 солдат и офицеров противника, а также сумел сбить самолет выстрелом из орудия. Закончил войну на Дальнем Востоке, где в должности командира танковой роты участвовал в разгроме Квантунской армии.</value>
   </data>
   <data name="fadin/title" xml:space="preserve">
-    <value>Alexander Fadin</value>
+    <value>Александр Фадин</value>
   </data>
   <data name="kolobanov/desc" xml:space="preserve">
-    <value>Colonel Zinoviy Kolobanov was a Soviet tank ace who destroyed 22 German tanks, two guns, and two armored vehicles with his KV-1 in the battle on August 19, 1941. The tanker fired 98 AP shells from his concealed tank, which received more than 100 hits. On September 15, 1941, Kolobanov was heavily wounded and stayed under treatment until the end of the war.</value>
+    <value>Зиновий Григорьевич Колобанов — советский танкист-ас, подполковник. В бою 19 августа 1941 г., находясь в засаде на танке КВ-1, уничтожил двадцать два немецких танка, два орудия и два бронетранспортёра за 30 минут боя, израсходовав 98 бронебойных снарядов. После боя на КВ-1 Колобанова насчитали более сотни попаданий. 15 сентября 1941 года Колобанов был тяжело ранен и находился на излечении до конца войны.</value>
   </data>
   <data name="kolobanov/title" xml:space="preserve">
-    <value>Zinoviy Kolobanov</value>
+    <value>Зиновий Колобанов</value>
   </data>
   <data name="lavrinenko/desc" xml:space="preserve">
-    <value>Dmitry Lavrinenko, a Hero of the Soviet Union, Guards Lieutenant, tank ace, and a commander of the T-34 was recognized as a top Soviet tanker, who destroyed 52 tanks in 28 battles over the course of two and a half months. He died during a mortar attack on the Goryuny village, Volokolamsk Region, on December 18, 1941.</value>
+    <value>Дмитрий Фёдорович Лавриненко — советский танковый ас, Герой Советского Союза, гвардии старший лейтенант, командир танка Т-34. Признан наиболее результативным советским танкистом — за два с половиной месяца уничтожил 52 танка противника в 28 боях. Погиб 18 декабря 1941 года во время миномётного обстрела деревни Горюны Волоколамского района.</value>
   </data>
   <data name="lavrinenko/title" xml:space="preserve">
-    <value>Dmitry Lavrinenko</value>
+    <value>Дмитрий Лавриненко</value>
   </data>
   <data name="naydeen/desc" xml:space="preserve">
-    <value>Sergeant Grigoriy Naydin was a BT-7 commander. On June 25th, 1941, near the Lithuanian town of Rudishkyay, he destroyed a Wehrmacht armored column that included 15 vehicles and 10 guns of the 19th Mechanized Corps. Naydin managed to hold off the German advance for two days, making it possible to organize the defenses around Vilnius. For this action, Naydin was made a Hero of the Soviet Union. He was wounded twice and continued to serve in the Armed Forces of the USSR after the war.</value>
+    <value>Григорий Николаевич Найдин — сержант, командир танка БТ-7, Герой Советского Союза. 25 июня 1941 года у местечка Рудишкяй (Литва) разгромил колонну бронетехники противника, уничтожив в общей сложности 15 танков и 10 орудий передового отряда 19-й танковой дивизии Вермахта, задержав тем самым наступление немцев на двое суток, что позволило тщательно организовать оборону Вильно. Был дважды ранен, после войны продолжал службу в ВС СССР.</value>
   </data>
   <data name="naydeen/title" xml:space="preserve">
-    <value>Grigoriy Naydin</value>
+    <value>Григорий Найдин</value>
   </data>
   <data name="oskin/desc" xml:space="preserve">
-    <value>Alexander Oskin, a Hero of the Soviet Union, was a tank commander who destroyed three King Tigers with his T-34 during a reconnaissance operation near Oglenduv on August 11, 1944. The following day, his tank was one of the first to rush into the Oglenduv village, which resulted in the capture of another three working King Tigers. One of the captured tanks with hull number 502 is currently exhibited in the Kubinka Tank Museum.</value>
+    <value>Александр Петрович Оськин — командир танка, Герой Советского Союза. 11 августа 1944 г., находясь в разведке у Оглендува (Польша), уничтожил три Tiger II на Т-34. На следующий день его танк одним из первых ворвался в деревню Оглендув, в результате чего были захвачены три танка «Королевский тигр» в исправном состоянии, один из которых с бортовым номером 502 экспонируется в бронетанковом музее в Кубинке.</value>
   </data>
   <data name="oskin/title" xml:space="preserve">
-    <value>Alexander Oskin</value>
+    <value>Александр Оськин</value>
   </data>
   <data name="envIN_007_FalloutMap_01/desc" xml:space="preserve">
     <value>The first representative of Swedish vehicles in game. The "Strv" abbreviation means Stridsvagn, which is translated as a "tank". In the early 1950s, the Swedish army was confronted with a question of modernizing the armored forces. Along with medium vehicles (among which the U.K. Centurion tank was selected), the army needed a mobile and light vehicle. One AMX-13 with a 75-mm gun was purchased in France for trials. The trials were successful, but the vehicle was deemed too expensive. However, engineers came up with an idea to mount its turret on the chassis of the Strv m/42 medium tank, but the project remained only in blueprints, and the army opted for the Strv 74, which met their requirements and was cheaper in terms of manufacturing.</value>
@@ -453,5 +453,17 @@ No longer content with being a mere steward of the Armored Afterlife, Leviathan 
   </data>
   <data name="lootbox/title" xml:space="preserve">
     <value>Crate With Rewards</value>
+  </data>
+  <data name="ItalianTank/desc" xml:space="preserve">
+    <value>Conceptualization of a draft design developed at the request of General Francesco Rossi who believed that only light vehicles weighing up to 35 tons would be effective in a new war. Such an innovative design was not approved; development was discontinued when Italy joined the Standard Tank project.</value>
+  </data>
+  <data name="ItalianTank/title" xml:space="preserve">
+    <value>Progetto M35 mod. 46</value>
+  </data>
+  <data name="PolishTank/desc" xml:space="preserve">
+    <value>A draft of a heavy tank developed by cadet Tadeusz Tyszkiewicz at the Military Technical Academy of Warsaw in the early 1950s. The new vehicle was supposed to weigh up to 50 tons. Existed only in blueprints.</value>
+  </data>
+  <data name="PolishTank/title" xml:space="preserve">
+    <value>Czolg T wz.51</value>
   </data>
 </root>

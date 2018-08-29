@@ -6292,19 +6292,19 @@ The so-called “pixel” camouflage used in the early 2010s.</value>
     <value>Winter combined camouflage</value>
   </data>
   <data name="camouflage/ranked_1/description" xml:space="preserve">
-    <value>Awarded to players who took prize places in Ranked Battles, Season 1, League I.</value>
+    <value>?empty?</value>
   </data>
   <data name="camouflage/ranked_1/label" xml:space="preserve">
     <value>An all-season camouflage for Ranked Battles, League I</value>
   </data>
   <data name="camouflage/ranked_2/description" xml:space="preserve">
-    <value>Awarded to players who took prize places in Ranked Battles, Season 1, League II.</value>
+    <value>?empty?</value>
   </data>
   <data name="camouflage/ranked_2/label" xml:space="preserve">
     <value>An all-season camouflage for Ranked Battles, League II</value>
   </data>
   <data name="camouflage/ranked_3/description" xml:space="preserve">
-    <value>Awarded to players who took prize places in Ranked Battles, Season 1, League III.</value>
+    <value>?empty?</value>
   </data>
   <data name="camouflage/ranked_3/label" xml:space="preserve">
     <value>An all-season camouflage for Ranked Battles, League III</value>
@@ -7045,7 +7045,7 @@ The so-called “pixel” camouflage used in the early 2010s.</value>
     <value>Defender-2018</value>
   </data>
   <data name="emblem/special/sticker_393" xml:space="preserve">
-    <value>Midfield-2018</value>
+    <value>Midfielder-2018</value>
   </data>
   <data name="emblem/special/sticker_394" xml:space="preserve">
     <value>Striker-2018</value>
@@ -7253,5 +7253,221 @@ The so-called “pixel” camouflage used in the early 2010s.</value>
   </data>
   <data name="styles/special_styles" xml:space="preserve">
     <value>Special</value>
+  </data>
+  <data name="bonus/style" xml:space="preserve">
+    <value>Bonus to vehicle concealment on all types of maps</value>
+  </data>
+  <data name="camouflage/Bovington_camo/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/Bovington_camo/label" xml:space="preserve">
+    <value>Tankfest 2018</value>
+  </data>
+  <data name="camouflage/Chimera_lbz_camo_d/description" xml:space="preserve">
+    <value>3. Chimera (or gargoyle) images and statues were widely used in Gothic architecture as decorations for the facade of buildings and as efficient water drains.</value>
+  </data>
+  <data name="camouflage/Chimera_lbz_camo_d/label" xml:space="preserve">
+    <value>Bellerophon: desert</value>
+  </data>
+  <data name="camouflage/Chimera_lbz_camo_s/description" xml:space="preserve">
+    <value>1. According to Greek mythology, the Chimera is the fire-breathing offspring of Typhon and Echidna, a creature with the head of a lion, body of a goat, and a snake's tail. It is first described in the Iliad by Homer, the ancient Greek author.</value>
+  </data>
+  <data name="camouflage/Chimera_lbz_camo_s/label" xml:space="preserve">
+    <value>Bellerophon: summer</value>
+  </data>
+  <data name="camouflage/Chimera_lbz_camo_w/description" xml:space="preserve">
+    <value>2. An interpretation of the myth says that the Chimera was slain by Bellerophon, an ancient Greek hero who fought her with the help of Pegasus, a winged divine stallion. According to a different interpretation, Pegasus was the name of Bellerophon's ship, while the Chimera was a canyon in Lycia (a part of modern Turkey).</value>
+  </data>
+  <data name="camouflage/Chimera_lbz_camo_w/label" xml:space="preserve">
+    <value>Bellerophon: winter</value>
+  </data>
+  <data name="camouflage/Excalibur_lbz_camo_d/description" xml:space="preserve">
+    <value>3. Archaeological evidence of many swords from the so-called Dark Ages found in European waters suggest that it was common practice to throw a sword into water when the sword's owner died.</value>
+  </data>
+  <data name="camouflage/Excalibur_lbz_camo_d/label" xml:space="preserve">
+    <value>Sword in the Stone: desert</value>
+  </data>
+  <data name="camouflage/Excalibur_lbz_camo_s/description" xml:space="preserve">
+    <value>1. Legends say Excalibur is a mythical sword that King Arthur obtained from the Lady of the Lake with the help of Merlin the wizard. The sword is said to have magical properties and often considered to be the very Sword in the Stone.</value>
+  </data>
+  <data name="camouflage/Excalibur_lbz_camo_s/label" xml:space="preserve">
+    <value>Sword in the Stone: summer</value>
+  </data>
+  <data name="camouflage/Excalibur_lbz_camo_w/description" xml:space="preserve">
+    <value>2. At the brink of death after his last battle, King Arthur ordered one of the knights of the Round Table to throw the sword back into the enchanted lake. The king died peacefully once the sword was returned to its owner.</value>
+  </data>
+  <data name="camouflage/Excalibur_lbz_camo_w/label" xml:space="preserve">
+    <value>Sword in the Stone: winter</value>
+  </data>
+  <data name="camouflage/Object279R_lbz_camo_d/description" xml:space="preserve">
+    <value>3. As a result, the vehicle armor could withstand a hit from any gun of that time. However, the vehicle never saw mass production due to suspension issues that the trials demonstrated.</value>
+  </data>
+  <data name="camouflage/Object279R_lbz_camo_d/label" xml:space="preserve">
+    <value>Distorting desert</value>
+  </data>
+  <data name="camouflage/Object279R_lbz_camo_s/description" xml:space="preserve">
+    <value>1. A camouflage pattern designed for the vehicle model developed by L. S. Troyanov after the war. The final version was supposed to replace the T-10. Though this heavy tank was in service, it did not have sufficient armor to oppose the M103 U.S. tank and Conqueror U.K. tank.</value>
+  </data>
+  <data name="camouflage/Object279R_lbz_camo_s/label" xml:space="preserve">
+    <value>Distorting summer</value>
+  </data>
+  <data name="camouflage/Object279R_lbz_camo_w/description" xml:space="preserve">
+    <value>2. Though the tank blueprints suggested a standard design, it provided some pioneering design solutions, such as a four-track engine and non-standard hull featuring effective armor.</value>
+  </data>
+  <data name="camouflage/Object279R_lbz_camo_w/label" xml:space="preserve">
+    <value>Distorting winter</value>
+  </data>
+  <data name="camouflage/kd_camo/description" xml:space="preserve">
+    <value>Awarded to players who completed all missions during the Battle of Kursk event.</value>
+  </data>
+  <data name="camouflage/kd_camo/label" xml:space="preserve">
+    <value>Fire Bulge</value>
+  </data>
+  <data name="camouflage/kd_camo_t34/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/kd_camo_t34/label" xml:space="preserve">
+    <value>Hero of the Battle of Kursk</value>
+  </data>
+  <data name="camouflage/victim/poland_black/description" xml:space="preserve">
+    <value>Use Black Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/poland_black/label" xml:space="preserve">
+    <value>Black Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/poland_gold/description" xml:space="preserve">
+    <value>Use Gold Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/poland_gold/label" xml:space="preserve">
+    <value>Gold Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/poland_red/description" xml:space="preserve">
+    <value>Use Red Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/poland_red/label" xml:space="preserve">
+    <value>Red Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/victim/poland_silver/description" xml:space="preserve">
+    <value>Use Silver Camouflage to complete the "Hunt" mission.</value>
+  </data>
+  <data name="camouflage/victim/poland_silver/label" xml:space="preserve">
+    <value>Silver Camouflage for "Hunt"</value>
+  </data>
+  <data name="camouflage/wg_anniversary/description" xml:space="preserve">
+    <value>A camouflage pattern, developed to commemorate the Wargaming 20th anniversary.</value>
+  </data>
+  <data name="camouflage/wg_anniversary/label" xml:space="preserve">
+    <value>Anniversary "large spots" camouflage</value>
+  </data>
+  <data name="customization/notSelectedItems" xml:space="preserve">
+    <value>Customization element not selected.</value>
+  </data>
+  <data name="emblem/special/sticker_395" xml:space="preserve">
+    <value>Tankfest 2018</value>
+  </data>
+  <data name="emblem/special/sticker_396" xml:space="preserve">
+    <value>Tactical Map</value>
+  </data>
+  <data name="emblem/special/sticker_398" xml:space="preserve">
+    <value>Chimera: blistering finish</value>
+  </data>
+  <data name="emblem/special/sticker_399" xml:space="preserve">
+    <value>Excalibur: blitz finish</value>
+  </data>
+  <data name="emblem/special/sticker_400" xml:space="preserve">
+    <value>Warhelium</value>
+  </data>
+  <data name="emblem/special/sticker_401" xml:space="preserve">
+    <value>Sabaton</value>
+  </data>
+  <data name="inscription/special/special_203" xml:space="preserve">
+    <value>75th Anniversary of the Battle of Kursk</value>
+  </data>
+  <data name="inscription/special/special_204" xml:space="preserve">
+    <value>8th Anniversary</value>
+  </data>
+  <data name="inscription/special/special_205" xml:space="preserve">
+    <value>Sabaton</value>
+  </data>
+  <data name="rented_style/poland" xml:space="preserve">
+    <value>Poland</value>
+  </data>
+  <data name="repaint/custom_color_24" xml:space="preserve">
+    <value>4BO Defensive, the Battle of Kursk</value>
+  </data>
+  <data name="repaint/custom_color_25" xml:space="preserve">
+    <value>Paint for Ranked Battles styles</value>
+  </data>
+  <data name="repaint/poland_base_color" xml:space="preserve">
+    <value>Poland base color</value>
+  </data>
+  <data name="repaint/poland_color_01" xml:space="preserve">
+    <value>Szaro-piaskowa</value>
+  </data>
+  <data name="repaint/poland_color_02" xml:space="preserve">
+    <value>Oliwkowo-zielona</value>
+  </data>
+  <data name="repaint/poland_color_03" xml:space="preserve">
+    <value>Ciemno-brązowa</value>
+  </data>
+  <data name="repaint/poland_color_04" xml:space="preserve">
+    <value>Ciemno-zielona</value>
+  </data>
+  <data name="repaint/poland_color_05" xml:space="preserve">
+    <value>Czarna</value>
+  </data>
+  <data name="repaint/poland_color_06" xml:space="preserve">
+    <value>Brązowa</value>
+  </data>
+  <data name="repaint/poland_color_07" xml:space="preserve">
+    <value>Srebrna</value>
+  </data>
+  <data name="special_style/50TP_prototyp_WingedHussar" xml:space="preserve">
+    <value>Winged Hussar</value>
+  </data>
+  <data name="special_style/KanonenPanter_105" xml:space="preserve">
+    <value>Black Panther</value>
+  </data>
+  <data name="special_style/battle_of_kursk_01" xml:space="preserve">
+    <value>Hero of the Battle of Kursk</value>
+  </data>
+  <data name="special_style/battle_of_kursk_01_desc" xml:space="preserve">
+    <value>Awarded to players who earned the T-34S during the Battle of Kursk event.</value>
+  </data>
+  <data name="special_style/battle_of_kursk_02" xml:space="preserve">
+    <value>Fire Bulge</value>
+  </data>
+  <data name="special_style/battle_of_kursk_02_desc" xml:space="preserve">
+    <value>Awarded to players who completed all missions during the Battle of Kursk event.</value>
+  </data>
+  <data name="special_style/ranked_1_2nd" xml:space="preserve">
+    <value>League I</value>
+  </data>
+  <data name="special_style/ranked_1_2nd_desc" xml:space="preserve">
+    <value>Awarded to players who took prize places in Ranked Battles, Season 2, League I.</value>
+  </data>
+  <data name="special_style/ranked_1_desc" xml:space="preserve">
+    <value>Awarded to players who took prize places in Ranked Battles, Season 1, League I.</value>
+  </data>
+  <data name="special_style/ranked_2_2nd" xml:space="preserve">
+    <value>League II</value>
+  </data>
+  <data name="special_style/ranked_2_2nd_desc" xml:space="preserve">
+    <value>Awarded to players who took prize places in Ranked Battles, Season 2, League II.</value>
+  </data>
+  <data name="special_style/ranked_2_desc" xml:space="preserve">
+    <value>Awarded to players who took prize places in Ranked Battles, Season 1, League II.</value>
+  </data>
+  <data name="special_style/ranked_3_2nd" xml:space="preserve">
+    <value>League III</value>
+  </data>
+  <data name="special_style/ranked_3_2nd_desc" xml:space="preserve">
+    <value>Awarded to players who took prize places in Ranked Battles, Season 2, League III.</value>
+  </data>
+  <data name="special_style/ranked_3_desc" xml:space="preserve">
+    <value>Awarded to players who took prize places in Ranked Battles, Season 1, League III.</value>
+  </data>
+  <data name="special_style/royal_corps" xml:space="preserve">
+    <value>Fearless</value>
   </data>
 </root>

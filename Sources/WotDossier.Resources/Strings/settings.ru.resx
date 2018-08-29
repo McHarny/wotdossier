@@ -3011,4 +3011,31 @@ HD клиент — полная версия игры, включающая т�
   <data name="game/loginServerSelection" xml:space="preserve">
     <value>Показывать выбор сервера при запуске игры</value>
   </data>
+  <data name="feedback/tab/questsProgress" xml:space="preserve">
+    <value>Прогресс ЛБЗ</value>
+  </data>
+  <data name="feedback/tab/questsProgress/conditionsLabel" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="feedback/tab/questsProgress/standardConditions/showAll" xml:space="preserve">
+    <value>Показывать всё</value>
+  </data>
+  <data name="feedback/tab/questsProgress/standardConditions/showProgress" xml:space="preserve">
+    <value>Только прогресс</value>
+  </data>
+  <data name="feedback/tab/questsProgress/type/alternative" xml:space="preserve">
+    <value>Альтернативный</value>
+  </data>
+  <data name="feedback/tab/questsProgress/type/hidden" xml:space="preserve">
+    <value>Не отображать</value>
+  </data>
+  <data name="feedback/tab/questsProgress/type/standard" xml:space="preserve">
+    <value>Стандартный</value>
+  </data>
+  <data name="feedback/tab/questsProgress/typeLabel" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/showQuestProgress" xml:space="preserve">
+    <value>Прогресс ЛБЗ</value>
+  </data>
 </root>

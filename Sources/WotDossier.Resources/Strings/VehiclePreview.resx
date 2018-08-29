@@ -151,7 +151,7 @@
     <value>The characteristics for the crew trained to 100%.</value>
   </data>
   <data name="infoPanel/tab/crewInfo/name" xml:space="preserve">
-    <value>Crew</value>
+    <value>Crew: %(crewCount)s</value>
   </data>
   <data name="infoPanel/tab/factSheet/name" xml:space="preserve">
     <value>Description</value>
@@ -203,5 +203,41 @@
   </data>
   <data name="infoPanel/tab/eliteFactSheet/title" xml:space="preserve">
     <value>Premium Vehicle Benefits</value>
+  </data>
+  <data name="buyingPanel/buyBtn/label/buyItemPack" xml:space="preserve">
+    <value>Purchase bundle</value>
+  </data>
+  <data name="buyingPanel/compensation/body" xml:space="preserve">
+    <value>This bundle contains items that you already have on your account. The cost of such items will be refunded after the purchase.</value>
+  </data>
+  <data name="buyingPanel/uniqueVehicleLabel" xml:space="preserve">
+    <value>Purchase unavailable: this vehicle can only be received as a reward for achievement in the game</value>
+  </data>
+  <data name="infoPanel/level" xml:space="preserve">
+    <value>Tier %(level)s</value>
+  </data>
+  <data name="infoPanel/premium/creditsMultiplier" xml:space="preserve">
+    <value>+50%</value>
+  </data>
+  <data name="infoPanel/premium/creditsText" xml:space="preserve">
+    <value>to credit earnings</value>
+  </data>
+  <data name="infoPanel/premium/crewTransferText" xml:space="preserve">
+    <value>Transferring crew members without penalty</value>
+  </data>
+  <data name="infoPanel/premium/crewTransferTitle" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="infoPanel/premium/freeExpMultiplier" xml:space="preserve">
+    <value>+50%</value>
+  </data>
+  <data name="infoPanel/premium/freeExpText" xml:space="preserve">
+    <value>to Free Experience and Crew Experience</value>
+  </data>
+  <data name="infoPanel/tab/browse/name" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="infoPanel/tab/modules/name" xml:space="preserve">
+    <value>Modules</value>
   </data>
 </root>

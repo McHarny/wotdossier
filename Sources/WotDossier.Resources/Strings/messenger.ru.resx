@@ -952,7 +952,7 @@
     <value>Квитанция</value>
   </data>
   <data name="serviceChannelMessages/invoiceReceived/itemsAccrued" xml:space="preserve">
-    <value>Добавлено снаряжение</value>
+    <value>Добавлено на Склад</value>
   </data>
   <data name="serviceChannelMessages/invoiceReceived/itemsDebited" xml:space="preserve">
     <value>Списано снаряжение</value>
@@ -2747,7 +2747,7 @@ IV уровня и выше, чтобы получать больше опыта
     <value>В режиме «Линия фронта» участвует только техника VIII уровня.</value>
   </data>
   <data name="serviceChannelMessages/battleResults/credits/notAccrued" xml:space="preserve">
-    <value>не начисляется</value>
+    <value>не начисляются</value>
   </data>
   <data name="serviceChannelMessages/autoRentStyleRentIsOver/button" xml:space="preserve">
     <value>Ко внешнему виду</value>
@@ -2772,5 +2772,71 @@ IV уровня и выше, чтобы получать больше опыта
   </data>
   <data name="serviceChannelMessages/invoiceReceived/compensation/style" xml:space="preserve">
     <value>стиль</value>
+  </data>
+  <data name="client_error/shared/TRY_LATER" xml:space="preserve">
+    <value>Произошла ошибка, попробуйте позже.</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/debited/credits" xml:space="preserve">
+    <value>Списано кредитов</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/debited/crystal" xml:space="preserve">
+    <value>Списано бон</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/debited/gold" xml:space="preserve">
+    <value>Списано золота</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/financial_transaction" xml:space="preserve">
+    <value>Финансовая операция</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/received/credits" xml:space="preserve">
+    <value>Получено кредитов</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/received/crystal" xml:space="preserve">
+    <value>Получено бон</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/received/gold" xml:space="preserve">
+    <value>Получено золота</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/itemsInstalled" xml:space="preserve">
+    <value>Установлено на технику</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/multipleSelling" xml:space="preserve">
+    <value>Продажа предметов со Cклада:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/paymentMethodLink" xml:space="preserve">
+    <value>Платёжный способ «%(method)s» был привязан</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/paymentMethodUnlink" xml:space="preserve">
+    <value>Платёжный способ «%(method)s» был отвязан</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/personalMissions/1" xml:space="preserve">
+    <value>Поздравляем!
+За успешное выполнение личных боевых задач кампании «Долгожданное подкрепление» вам присвоены следующие награды</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/personalMissions/2" xml:space="preserve">
+    <value>Поздравляем!
+За успешное выполнение личных боевых задач кампании «Второй фронт» вам присвоены следующие награды</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/personalMissions/both" xml:space="preserve">
+    <value>Поздравляем!
+За успешное выполнение личных боевых задач обеих кампаний вам присвоены следующие награды</value>
+  </data>
+  <data name="serviceChannelMessages/notrecruitedTankman/button" xml:space="preserve">
+    <value>В Казарму</value>
+  </data>
+  <data name="serviceChannelMessages/notrecruitedTankman/removedTankmen" xml:space="preserve">
+    <value>Списано членов экипажа: %(count)s</value>
+  </data>
+  <data name="serviceChannelMessages/recruitGift/header" xml:space="preserve">
+    <value>В вашем полку прибыло!</value>
+  </data>
+  <data name="serviceChannelMessages/recruitGift/text" xml:space="preserve">
+    <value>Вам начислен экипаж за %(event)s.</value>
+  </data>
+  <data name="serviceChannelMessages/recruitReminder/text" xml:space="preserve">
+    <value>У вас остались нерекрутированные члены экипажа: %(count)s. Ближайший срок списания %(date)s!</value>
   </data>
 </root>

@@ -951,7 +951,7 @@ to join a Platoon.</value>
     <value>Receipt</value>
   </data>
   <data name="serviceChannelMessages/invoiceReceived/itemsAccrued" xml:space="preserve">
-    <value>Consumables added</value>
+    <value>Added to Depot</value>
   </data>
   <data name="serviceChannelMessages/invoiceReceived/itemsDebited" xml:space="preserve">
     <value>Consumables removed</value>
@@ -1152,7 +1152,7 @@ to join a Platoon.</value>
     <value>Recruits</value>
   </data>
   <data name="serviceChannelMessages/prebattle/finishedTime" xml:space="preserve">
-    <value>Complete</value>
+    <value>Completed</value>
   </data>
   <data name="battle/hints/changeReceiver" xml:space="preserve">
     <value>...</value>
@@ -2758,5 +2758,71 @@ For successful completion of personal missions you receive the following rewards
   </data>
   <data name="serviceChannelMessages/invoiceReceived/compensation/style" xml:space="preserve">
     <value>style</value>
+  </data>
+  <data name="client_error/shared/TRY_LATER" xml:space="preserve">
+    <value>An error occurred, try again later.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/personalMissions/1" xml:space="preserve">
+    <value>Congratulations!
+For successful completion of the Long-Awaited Backup campaign personal missions you receive the following rewards</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/personalMissions/2" xml:space="preserve">
+    <value>Congratulations!
+For successful completion of the Second Front campaign personal missions you receive the following rewards</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/personalMissions/both" xml:space="preserve">
+    <value>Congratulations!
+For successful completion of the personal missions of both campaigns you receive the following rewards</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/debited/credits" xml:space="preserve">
+    <value>Credits deducted</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/debited/crystal" xml:space="preserve">
+    <value>Bonds removed</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/debited/gold" xml:space="preserve">
+    <value>Gold deducted</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/financial_transaction" xml:space="preserve">
+    <value>Financial Transaction</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/received/credits" xml:space="preserve">
+    <value>Credits earned</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/received/crystal" xml:space="preserve">
+    <value>Bonds received</value>
+  </data>
+  <data name="serviceChannelMessages/currencyUpdate/received/gold" xml:space="preserve">
+    <value>Gold received</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/itemsInstalled" xml:space="preserve">
+    <value>On vehicles</value>
+  </data>
+  <data name="serviceChannelMessages/notrecruitedTankman/button" xml:space="preserve">
+    <value>Go to Barracks</value>
+  </data>
+  <data name="serviceChannelMessages/notrecruitedTankman/removedTankmen" xml:space="preserve">
+    <value>Crew members removed: %(count)s</value>
+  </data>
+  <data name="serviceChannelMessages/recruitGift/header" xml:space="preserve">
+    <value>Reinforcements Have Arrived!</value>
+  </data>
+  <data name="serviceChannelMessages/recruitGift/text" xml:space="preserve">
+    <value>You received %(event)s crew.</value>
+  </data>
+  <data name="serviceChannelMessages/recruitReminder/text" xml:space="preserve">
+    <value>You have non-recruited crew members: %(count)s. They will be removed on %(date)s!</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/multipleSelling" xml:space="preserve">
+    <value>Selling items from the Depot:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/paymentMethodLink" xml:space="preserve">
+    <value>Payment method "%(method)s" was added</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/paymentMethodUnlink" xml:space="preserve">
+    <value>Payment method "%(method)s" was removed</value>
   </data>
 </root>

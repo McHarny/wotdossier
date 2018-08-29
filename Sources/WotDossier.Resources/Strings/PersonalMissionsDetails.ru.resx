@@ -217,7 +217,7 @@
     <value>• Не менее 4 раз нанести урон технике противника вашего уровня или выше.</value>
   </data>
   <data name="quest_1_1_11_condition_title_damage" xml:space="preserve">
-    <value>Нанести 1000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_1_12_condition_add" xml:space="preserve">
     <value>• Использовать оборудование «Маскировочная сеть» и иметь соответствующий игровой карте камуфляж.</value>
@@ -244,7 +244,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего лёгкого танка и любой другой техники.</value>
   </data>
   <data name="quest_1_1_13_condition_title_damage" xml:space="preserve">
-    <value>Нанести 1000 урона (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_1_1_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -285,7 +285,7 @@
     <value>• Лично обнаружить не менее 2 машин противника.</value>
   </data>
   <data name="quest_1_1_2_condition_title_spotted" xml:space="preserve">
-    <value>Обнаружить 2 машины</value>
+    <value>Обнаружить</value>
   </data>
   <data name="quest_1_1_3_condition_add" xml:space="preserve">
     <value>• Выстрелами или тараном уничтожить машину противника.</value>
@@ -294,10 +294,10 @@
     <value>• Выстрелами нанести урон машинам противника не менее 2 раз.</value>
   </data>
   <data name="quest_1_1_3_condition_title_damage_eventCount" xml:space="preserve">
-    <value>Нанести урон 2 раза</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_1_3_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_1_4_condition_add" xml:space="preserve">
     <value>• Обездвиженная вами машина должна получить урон от союзников.</value>
@@ -309,7 +309,7 @@
     <value>• Cбить гусеницу машине противника.</value>
   </data>
   <data name="quest_1_1_4_condition_title_crit_track" xml:space="preserve">
-    <value>Сбить 1 гусеницу</value>
+    <value>Сбить гусеницу</value>
   </data>
   <data name="quest_1_1_5_condition_add" xml:space="preserve">
     <value>• Передать разведданные для нанесения урона по не менее 2 машинам противника.</value>
@@ -342,7 +342,7 @@
     <value>• Обнаружить САУ противника, нанести ей урон или любое критическое повреждение.</value>
   </data>
   <data name="quest_1_1_7_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон САУ</value>
+    <value>Урон по САУ</value>
   </data>
   <data name="quest_1_1_8_condition_add" xml:space="preserve">
     <value>• Выстрелами или тараном уничтожить машину противника.</value>
@@ -355,7 +355,7 @@
 • Победить в бою.</value>
   </data>
   <data name="quest_1_1_8_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_1_9_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -395,10 +395,10 @@
 • Выжить в бою.</value>
   </data>
   <data name="quest_1_2_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_2_11_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_2_12_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -412,7 +412,7 @@
 • Нанести не менее 1000 урона технике противника.</value>
   </data>
   <data name="quest_1_2_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 500 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_2_13_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -453,10 +453,10 @@
     <value>• Уничтожить машину противника.</value>
   </data>
   <data name="quest_1_2_1_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_2_1_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_2_2_condition_add" xml:space="preserve">
     <value>• Нанести не менее 1000 урона технике противника.</value>
@@ -468,7 +468,7 @@
     <value>• Уничтожить машину противника с расстояния не более 100 метров.</value>
   </data>
   <data name="quest_1_2_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_2_3_condition_add" xml:space="preserve">
     <value>• Нанести не менее 1000 урона технике противника.</value>
@@ -481,7 +481,7 @@
 • Уничтоженная техника должна быть 2 разных типов.</value>
   </data>
   <data name="quest_1_2_3_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_2_4_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -503,7 +503,7 @@
     <value>• Нанести не менее 1000 урона технике противника с близкого расстояния (не превышающего радиус вашего круга обзора).</value>
   </data>
   <data name="quest_1_2_5_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_2_6_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -512,7 +512,7 @@
     <value>• Уничтожить суммарно 2 тяжёлых или средних танка.</value>
   </data>
   <data name="quest_1_2_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить суммарно 2 тяжёлых или средних танка</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_2_7_condition_add" xml:space="preserve">
     <value>• Уничтожить машину противника.</value>
@@ -523,10 +523,10 @@
 • Нанести не менее 1000 урона технике противника.</value>
   </data>
   <data name="quest_1_2_7_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 500 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_2_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_2_8_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 2 машин противника.</value>
@@ -535,10 +535,10 @@
     <value>• Нанести не менее 1000 урона тяжёлым танкам противника.</value>
   </data>
   <data name="quest_1_2_8_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 500 урона тяжёлым танкам</value>
+    <value>Урон по ТТ</value>
   </data>
   <data name="quest_1_2_8_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_2_9_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -568,10 +568,10 @@
     <value>• Выстрелами нанести урон машинам противника не менее 2 раз.</value>
   </data>
   <data name="quest_1_3_10_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 2 раза</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_3_10_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_3_11_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -580,7 +580,7 @@
     <value>• Тараном нанести урон машине противника.</value>
   </data>
   <data name="quest_1_3_11_condition_title_ram" xml:space="preserve">
-    <value>Нанести урон тараном</value>
+    <value>Таран</value>
   </data>
   <data name="quest_1_3_12_condition_add" xml:space="preserve">
     <value>• Попасть в топ-5 игроков своей команды по опыту.</value>
@@ -592,7 +592,7 @@
     <value>• Поджечь машину противника.</value>
   </data>
   <data name="quest_1_3_12_condition_title_fire" xml:space="preserve">
-    <value>Поджечь машину противника</value>
+    <value>Поджог</value>
   </data>
   <data name="quest_1_3_13_condition_add" xml:space="preserve">
     <value>• Лично попасть в топ-5 игроков своей команды по опыту.</value>
@@ -605,7 +605,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_1_3_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 2000 урона (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_1_3_14_condition_add" xml:space="preserve">
     <value>• Лично (или суммарно взводом) нанести не менее 1500 урона технике противника.</value>
@@ -615,10 +615,10 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_1_3_14_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 1500 урона (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_1_3_14_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины (лично/взвод)</value>
+    <value>Уничтожить (лично/взвод)</value>
   </data>
   <data name="quest_1_3_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -627,10 +627,10 @@
     <value>• Уничтожить не менее 2 ПТ-САУ противника.</value>
   </data>
   <data name="quest_1_3_15_condition_title_damaged" xml:space="preserve">
-    <value>Нанести урон 5 машинам</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_3_15_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 ПТ-САУ</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_3_1_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -650,10 +650,10 @@
     <value>• Произвести по технике противника не менее 6 выстрелов, нанёсших урон.</value>
   </data>
   <data name="quest_1_3_2_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 6 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_3_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_3_3_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -671,13 +671,13 @@
     <value>• Сбить гусеницу и нанести урон обездвиженной машине противника, пока она не восстановила гусеницы.</value>
   </data>
   <data name="quest_1_3_4_condition_title_crit" xml:space="preserve">
-    <value>Сбить 1 гусеницу</value>
+    <value>Сбить гусеницу</value>
   </data>
   <data name="quest_1_3_4_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон обездвиженной машине</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_3_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить обездвиженную машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_3_5_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -686,7 +686,7 @@
     <value>• Выстрелом или тараном нанести урон лёгкому танку противника.</value>
   </data>
   <data name="quest_1_3_5_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон лёгкому танку</value>
+    <value>Урон по ЛТ</value>
   </data>
   <data name="quest_1_3_6_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -704,7 +704,7 @@
     <value>• Нанести урон как минимум 1 САУ противника.</value>
   </data>
   <data name="quest_1_3_7_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон САУ</value>
+    <value>Урон по САУ</value>
   </data>
   <data name="quest_1_3_8_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -714,10 +714,10 @@
 • Совокупный урон, нанесённый по средним танкам противника, должен составлять не менее 500.</value>
   </data>
   <data name="quest_1_3_8_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести средним танкам 300 урона</value>
+    <value>Урон по СТ</value>
   </data>
   <data name="quest_1_3_8_condition_title_vehicleDamage_count" xml:space="preserve">
-    <value>Нанести урон средним танкам 3 раза</value>
+    <value>Урон по СТ</value>
   </data>
   <data name="quest_1_3_9_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -727,10 +727,10 @@
 • Уничтожить как минимум 1 тяжёлый танк противника.</value>
   </data>
   <data name="quest_1_3_9_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести тяжёлым танкам 300 урона</value>
+    <value>Урон по ТТ</value>
   </data>
   <data name="quest_1_3_9_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить тяжёлый танк</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_3_advise" xml:space="preserve">
     <value>Старайтесь заходить в тыл противнику и атаковать его машины в корму, где броня наиболее уязвима. Старайтесь не стоять на месте — так по вам сложнее прицелиться. Помните: незаметность лёгкого танка в движении такая же, как и у неподвижного.</value>
@@ -761,7 +761,7 @@
 • Нанести не менее 1000 урона технике противника.</value>
   </data>
   <data name="quest_1_4_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_4_12_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -771,10 +771,10 @@
 • Нанести не менее 1000 урона технике противника.</value>
   </data>
   <data name="quest_1_4_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_4_12_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить тяжёлый танк</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_4_13_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -784,7 +784,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашей ПТ-САУ и любой другой техники.</value>
   </data>
   <data name="quest_1_4_13_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины (лично/взвод)</value>
+    <value>Уничтожить (лично/взвод)</value>
   </data>
   <data name="quest_1_4_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -804,10 +804,10 @@
     <value>• Нанести не менее 3000 урона технике противника.</value>
   </data>
   <data name="quest_1_4_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_4_15_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_4_1_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -836,7 +836,7 @@
 • Победить в бою.</value>
   </data>
   <data name="quest_1_4_3_condition_title_damaged" xml:space="preserve">
-    <value>Нанести урон 2 машинам</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_4_4_condition_add" xml:space="preserve">
     <value>• Использовать оборудование «Маскировочная сеть».</value>
@@ -848,7 +848,7 @@
     <value>• Уничтожить машину противника, оставаясь невидимым для него в момент его уничтожения.</value>
   </data>
   <data name="quest_1_4_4_condition_title_installed_camouflageNet" xml:space="preserve">
-    <value>Выйти в бой с маскировочной сетью</value>
+    <value>Маскировка</value>
   </data>
   <data name="quest_1_4_5_condition_add" xml:space="preserve">
     <value>• Нанести не менее 1000 урона технике противника.</value>
@@ -860,7 +860,7 @@
     <value>• Нанести урон машине противника с расстояния не менее 300 метров.</value>
   </data>
   <data name="quest_1_4_5_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_4_6_condition_add" xml:space="preserve">
     <value>• Уничтожить 1 машину противника и более.</value>
@@ -872,7 +872,7 @@
     <value>• Нанести урон противнику с расстояния не менее 250 метров.</value>
   </data>
   <data name="quest_1_4_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_4_7_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -901,10 +901,10 @@
 • Пробития подряд считаются как по одной машине, так и по нескольким.</value>
   </data>
   <data name="quest_1_4_9_condition_title_inBattleMaxPiercingSeries" xml:space="preserve">
-    <value>Пробить броню 3 раза подряд</value>
+    <value>Пробить броню</value>
   </data>
   <data name="quest_1_4_9_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_4_advise" xml:space="preserve">
     <value>Для того, чтобы легко сбить гусеницу, цельтесь в первый или последний катки. Помните, что если ваше орудие не способно пробить броню, оно всегда сможет сбить гусеницы. Осколочно-фугасные снаряды с этой задачей справятся лучше. Вы получите часть опыта за урон, нанесённый союзниками по обездвиженной вами технике.</value>
@@ -937,10 +937,10 @@
     <value>• Оглушить не менее 2 машин противника одним выстрелом.</value>
   </data>
   <data name="quest_1_5_11_condition_title_multiStunEvent" xml:space="preserve">
-    <value>Оглушить 2 машины одним выстрелом</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_1_5_11_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 50 секунд</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_1_5_12_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -953,7 +953,7 @@
 • Союзники должны уничтожить 1 оглушённую или обездвиженную вами машину противника или более.</value>
   </data>
   <data name="quest_1_5_12_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 50 секунд</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_1_5_13_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -962,10 +962,10 @@
     <value>• Лично или суммарно взводом не менее 4 раз нанести урон или не менее 6 раз оглушить технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_1_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Оглушить 6 раз (лично/взвод)</value>
+    <value>Оглушить (лично/взвод)</value>
   </data>
   <data name="quest_1_5_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 4 раза (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_1_5_14_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -977,7 +977,7 @@
     <value>• Лично или суммарно взводом оглушить технику противника в общей сложности на 70 и более секунд или помочь союзникам нанести не менее 400 урона, обездвижив технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_1_5_14_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 70 секунд (лично/взвод)</value>
+    <value>Оглушить (лично/взвод)</value>
   </data>
   <data name="quest_1_5_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -993,7 +993,7 @@
 • Помочь союзникам нанести 1000 урона и более, оглушив или обездвижив технику противника.</value>
   </data>
   <data name="quest_1_5_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_5_1_condition_add" xml:space="preserve">
     <value>• Выстрелом или тараном нанести урон технике противника как минимум 3 раза.</value>
@@ -1005,7 +1005,7 @@
     <value>Оглушить 3 раза</value>
   </data>
   <data name="quest_1_5_1_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 3 раза</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_5_2_condition_add" xml:space="preserve">
     <value>• Уничтожить 1 машину противника и более.</value>
@@ -1017,7 +1017,7 @@
     <value>Оглушить суммарно на 50 секунд</value>
   </data>
   <data name="quest_1_5_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_1_5_3_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -1047,7 +1047,7 @@
     <value>• Помочь союзникам нанести 600 урона и более, оглушив или обездвижив технику противника.</value>
   </data>
   <data name="quest_1_5_5_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 3 раза</value>
+    <value>Урон</value>
   </data>
   <data name="quest_1_5_6_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -1065,7 +1065,7 @@
     <value>• Оглушить не менее 2 разных машин противника.</value>
   </data>
   <data name="quest_1_5_7_condition_title_stunned" xml:space="preserve">
-    <value>Оглушить 2 машины</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_1_5_8_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -1080,7 +1080,7 @@
     <value>• Выжить в бою.</value>
   </data>
   <data name="quest_1_5_9_condition_description_crit" xml:space="preserve">
-    <value>Вывести из строя суммарно 3 любых модуля или члена экипажа</value>
+    <value>Вывести из строя суммарно 3 внутренних модуля или членов экипажа</value>
   </data>
   <data name="quest_1_5_9_condition_main" xml:space="preserve">
     <value>• Вывести из строя не менее 3 любых модулей или ранить членов экипажа техники противника.
@@ -1237,7 +1237,7 @@
     <value>• Не менее 6 раз нанести урон технике противника вашего уровня или выше.</value>
   </data>
   <data name="quest_2_1_11_condition_title_damage" xml:space="preserve">
-    <value>Нанести 1500 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_1_12_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -1261,7 +1261,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего лёгкого танка и любой другой техники.</value>
   </data>
   <data name="quest_2_1_13_condition_title_damage" xml:space="preserve">
-    <value>Нанести 1500 урона (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_2_1_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -1303,7 +1303,7 @@
     <value>• Лично обнаружить не менее 4 машин противника.</value>
   </data>
   <data name="quest_2_1_2_condition_title_spotted" xml:space="preserve">
-    <value>Обнаружить 4 машины</value>
+    <value>Обнаружить</value>
   </data>
   <data name="quest_2_1_3_condition_add" xml:space="preserve">
     <value>• Выстрелами или тараном уничтожить не менее 2 машин противника.</value>
@@ -1312,10 +1312,10 @@
     <value>• Выстрелами нанести урон машинам противника не менее 3 раз.</value>
   </data>
   <data name="quest_2_1_3_condition_title_damage_eventCount" xml:space="preserve">
-    <value>Нанести урон 3 раза</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_1_3_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_1_4_condition_add" xml:space="preserve">
     <value>• Союзниками должно быть уничтожено не менее 1 обездвиженной вами машины.</value>
@@ -1334,7 +1334,7 @@
 • Союзники должны нанести не менее 250 урона по обездвиженной вами машине, пока она не восстановила гусеницы.</value>
   </data>
   <data name="quest_2_1_4_condition_title_crit_track" xml:space="preserve">
-    <value>Сбить 1 гусеницу</value>
+    <value>Сбить гусеницу</value>
   </data>
   <data name="quest_2_1_5_condition_add" xml:space="preserve">
     <value>• Передать разведданные для нанесения урона по не менее 4 машинам противника.</value>
@@ -1367,20 +1367,20 @@
     <value>• Обнаружить не менее 2 САУ противника, нанести им урон или любые критические повреждения.</value>
   </data>
   <data name="quest_2_1_7_condition_title_spottedAndDamagedSPG" xml:space="preserve">
-    <value>Обнаружить и нанести урон 1 САУ</value>
+    <value>Обнаружить</value>
   </data>
   <data name="quest_2_1_8_condition_add" xml:space="preserve">
     <value>• Выстрелами или тараном уничтожить машину противника.</value>
   </data>
   <data name="quest_2_1_8_condition_description_base" xml:space="preserve">
-    <value>Захватить базу или сбить захват, заработав 20 соответствующих очков</value>
+    <value>Принять участие в успешном захвате или сбитии захвата базы, заработав 20 соответствующих очков</value>
   </data>
   <data name="quest_2_1_8_condition_main" xml:space="preserve">
     <value>• Принять участие в успешном захвате базы, получив не менее 20 очков захвата, или сбить захват собственной/нейтральной базы, получив не менее 20 очков защиты.
 • Победить в бою.</value>
   </data>
   <data name="quest_2_1_8_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_1_9_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -1420,10 +1420,10 @@
 • Выжить в бою.</value>
   </data>
   <data name="quest_2_2_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_2_11_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_2_12_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -1437,7 +1437,7 @@
 • Нанести не менее 1500 урона технике противника.</value>
   </data>
   <data name="quest_2_2_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_2_13_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -1478,10 +1478,10 @@
     <value>• Уничтожить не менее 2 машин противника.</value>
   </data>
   <data name="quest_2_2_1_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_2_1_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_2_2_condition_add" xml:space="preserve">
     <value>• Нанести не менее 2000 урона технике противника.</value>
@@ -1493,7 +1493,7 @@
     <value>• Уничтожить не менее 2 машин противника с расстояния не более 100 метров.</value>
   </data>
   <data name="quest_2_2_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_2_3_condition_add" xml:space="preserve">
     <value>• Нанести не менее 2000 урона технике противника.</value>
@@ -1506,7 +1506,7 @@
 • Уничтоженная техника должна быть 2 разных типов.</value>
   </data>
   <data name="quest_2_2_3_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_2_4_condition_add" xml:space="preserve">
     <value>• Уничтожить машину противника.</value>
@@ -1519,7 +1519,7 @@
 • Засчитывается сумма повреждённых или выведенных из строя модулей, а также раненых членов экипажа по всем повреждённым вами в бою машинам противника.</value>
   </data>
   <data name="quest_2_2_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_2_5_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 3 машин противника.</value>
@@ -1531,7 +1531,7 @@
     <value>• Нанести не менее 2000 урона технике противника с близкого расстояния (не превышающего радиус вашего круга обзора).</value>
   </data>
   <data name="quest_2_2_5_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_2_6_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -1552,10 +1552,10 @@
 • Нанести не менее 2000 урона технике противника.</value>
   </data>
   <data name="quest_2_2_7_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_2_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_2_8_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 3 машин противника.</value>
@@ -1564,10 +1564,10 @@
     <value>• Нанести не менее 2000 урона тяжёлым танкам противника.</value>
   </data>
   <data name="quest_2_2_8_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1000 урона тяжёлым танкам</value>
+    <value>Урон по ТТ</value>
   </data>
   <data name="quest_2_2_8_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_2_9_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -1598,10 +1598,10 @@
     <value>• Выстрелами нанести урон машинам противника не менее 4 раз.</value>
   </data>
   <data name="quest_2_3_10_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 4 раза</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_3_10_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_3_11_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -1610,7 +1610,7 @@
     <value>• Тараном уничтожить машину противника.</value>
   </data>
   <data name="quest_2_3_11_condition_title_ram" xml:space="preserve">
-    <value>Уничтожить тараном машину противника</value>
+    <value>Таран</value>
   </data>
   <data name="quest_2_3_12_condition_add" xml:space="preserve">
     <value>• Попасть в топ-3 игроков своей команды по опыту.</value>
@@ -1623,10 +1623,10 @@
 • Нанести не менее 2000 урона технике противника.</value>
   </data>
   <data name="quest_2_3_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1500 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_3_12_condition_title_fire" xml:space="preserve">
-    <value>Поджечь машину противника</value>
+    <value>Поджог</value>
   </data>
   <data name="quest_2_3_13_condition_add" xml:space="preserve">
     <value>• Лично попасть в топ-5 игроков своей команды по опыту.</value>
@@ -1639,7 +1639,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_2_3_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 4000 урона (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_2_3_14_condition_add" xml:space="preserve">
     <value>• Лично (или суммарно взводом) нанести не менее 2000 урона технике противника.</value>
@@ -1649,10 +1649,10 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_2_3_14_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 2000 урона (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_2_3_14_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 4 машины (лично/взвод)</value>
+    <value>Уничтожить (лично/взвод)</value>
   </data>
   <data name="quest_2_3_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -1662,13 +1662,13 @@
     <value>• Нанести не менее 2000 урона ПТ-САУ противника.</value>
   </data>
   <data name="quest_2_3_15_condition_title_damaged" xml:space="preserve">
-    <value>Нанести урон 6 машинам</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_3_15_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 1000 урона ПТ-САУ</value>
+    <value>Урон по ПТ-САУ</value>
   </data>
   <data name="quest_2_3_15_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 ПТ-САУ</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_3_1_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -1688,10 +1688,10 @@
     <value>• Произвести по технике противника не менее 9 выстрелов, нанёсших урон.</value>
   </data>
   <data name="quest_2_3_2_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 9 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_3_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_3_3_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -1709,13 +1709,13 @@
     <value>• Сбить гусеницы не менее 2 разным машинам противника и не менее 2 раз нанести урон обездвиженной технике противника.</value>
   </data>
   <data name="quest_2_3_4_condition_title_crit" xml:space="preserve">
-    <value>Сбить 2 гусеницы</value>
+    <value>Сбить гусеницу</value>
   </data>
   <data name="quest_2_3_4_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон обездвиженной машине 2 раза</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_3_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить обездвиженную машину противника</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_3_5_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -1724,7 +1724,7 @@
     <value>• Выстрелом или тараном уничтожить лёгкий танк противника.</value>
   </data>
   <data name="quest_2_3_5_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить лёгкий танк</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_3_6_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -1743,7 +1743,7 @@
     <value>• Уничтожить как минимум 1 САУ противника.</value>
   </data>
   <data name="quest_2_3_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 1 САУ</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_3_8_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -1754,10 +1754,10 @@
 • Совокупный урон, нанесённый по средним танкам противника, должен составлять не менее 1000.</value>
   </data>
   <data name="quest_2_3_8_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести средним танкам 750 урона</value>
+    <value>Урон по СТ</value>
   </data>
   <data name="quest_2_3_8_condition_title_vehicleDamage_count" xml:space="preserve">
-    <value>Нанести урон средним танкам 5 раз</value>
+    <value>Урон по СТ</value>
   </data>
   <data name="quest_2_3_9_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -1768,10 +1768,10 @@
 • Уничтожить как минимум 1 тяжёлый танк противника.</value>
   </data>
   <data name="quest_2_3_9_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести тяжёлым танкам 750 урона</value>
+    <value>Урон по ТТ</value>
   </data>
   <data name="quest_2_3_9_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить тяжёлый танк</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_3_advise" xml:space="preserve">
     <value>У каждого типа техники своя тактика на поле боя. Например, средние танки могут обойти вас с фланга, тяжёлые пойдут в лобовую, а ПТ-САУ займут удобные позиции на возвышенностях или в кустах.</value>
@@ -1802,7 +1802,7 @@
 • Нанести не менее 2000 урона технике противника.</value>
   </data>
   <data name="quest_2_4_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_4_12_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -1812,10 +1812,10 @@
 • Нанести не менее 2000 урона технике противника.</value>
   </data>
   <data name="quest_2_4_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_4_12_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить тяжёлый танк на уровень выше</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_4_13_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -1825,7 +1825,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашей ПТ-САУ и любой другой техники.</value>
   </data>
   <data name="quest_2_4_13_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 4 машины (лично/взвод)</value>
+    <value>Уничтожить (лично/взвод)</value>
   </data>
   <data name="quest_2_4_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -1845,10 +1845,10 @@
     <value>• Нанести не менее 4000 урона технике противника.</value>
   </data>
   <data name="quest_2_4_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_4_15_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_4_1_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -1870,7 +1870,7 @@
     <value>• Нанести не менее 1000 урона и вывести из строя 1 и более внутренний модуль или ранить члена экипажа противника.</value>
   </data>
   <data name="quest_2_4_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_4_3_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -1880,7 +1880,7 @@
 • Победить в бою.</value>
   </data>
   <data name="quest_2_4_3_condition_title_damaged" xml:space="preserve">
-    <value>Нанести урон 3 машинам</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_4_4_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -1901,7 +1901,7 @@
     <value>• Уничтожить машину противника с расстояния не менее 300 метров.</value>
   </data>
   <data name="quest_2_4_5_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_4_6_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 2 машин противника.</value>
@@ -1913,7 +1913,7 @@
     <value>• Нанести не менее 1000 урона технике противника с расстояния более 250 метров.</value>
   </data>
   <data name="quest_2_4_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_4_7_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -1942,10 +1942,10 @@
 • Пробития подряд считаются как по одной машине, так и по нескольким.</value>
   </data>
   <data name="quest_2_4_9_condition_title_inBattleMaxPiercingSeries" xml:space="preserve">
-    <value>Пробить броню 4 раза подряд</value>
+    <value>Пробить броню</value>
   </data>
   <data name="quest_2_4_9_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_4_advise" xml:space="preserve">
     <value>Точный выстрел в двигатель может обездвижить машину противника, а удачное попадание в его боеукладку решит исход даже самой безнадёжной дуэли. К внутренним модулям относятся: механизм поворота башни, двигатель, баки, боеукладка и радиостанция.</value>
@@ -1978,10 +1978,10 @@
     <value>• Дважды оглушить не менее 2 машин противника одним выстрелом.</value>
   </data>
   <data name="quest_2_5_11_condition_title_multiStunEvent" xml:space="preserve">
-    <value>Дважды оглушить 2 машины одним выстрелом</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_2_5_11_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 100 секунд</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_2_5_12_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -1994,7 +1994,7 @@
 • Союзники должны уничтожить 1 оглушённую или обездвиженную вами машину противника или более.</value>
   </data>
   <data name="quest_2_5_12_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 100 секунд</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_2_5_13_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -2003,10 +2003,10 @@
     <value>• Лично или суммарно взводом не менее 6 раз нанести урон или не менее 8 раз оглушить технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_2_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Оглушить 8 раз (лично/взвод)</value>
+    <value>Оглушить (лично/взвод)</value>
   </data>
   <data name="quest_2_5_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 6 раз (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_2_5_14_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -2018,7 +2018,7 @@
     <value>• Лично или суммарно взводом оглушить технику противника в общей сложности на 100 и более секунд, или помочь союзникам нанести не менее 600 урона, обездвижив технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_2_5_14_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 100 секунд (лично/взвод)</value>
+    <value>Оглушить (лично/взвод)</value>
   </data>
   <data name="quest_2_5_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -2034,7 +2034,7 @@
 • Помочь союзникам нанести 1500 урона и более, оглушив или обездвижив технику противника.</value>
   </data>
   <data name="quest_2_5_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1500 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_5_1_condition_add" xml:space="preserve">
     <value>• Выстрелом или тараном нанести урон технике противника не менее 5 раз.</value>
@@ -2046,7 +2046,7 @@
     <value>Оглушить 5 раз</value>
   </data>
   <data name="quest_2_5_1_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 5 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_5_2_condition_add" xml:space="preserve">
     <value>• Уничтожить 2 машины противника и более.</value>
@@ -2058,7 +2058,7 @@
     <value>Оглушить суммарно на 100 секунд</value>
   </data>
   <data name="quest_2_5_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_2_5_3_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -2088,7 +2088,7 @@
     <value>• Помочь союзникам нанести 1000 урона и более, оглушив или обездвижив технику противника.</value>
   </data>
   <data name="quest_2_5_5_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 5 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_2_5_6_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -2106,7 +2106,7 @@
     <value>• Оглушить не менее 3 разных машин противника.</value>
   </data>
   <data name="quest_2_5_7_condition_title_stunned" xml:space="preserve">
-    <value>Оглушить 3 машины</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_2_5_8_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -2122,7 +2122,7 @@
 • Победить в бою.</value>
   </data>
   <data name="quest_2_5_9_condition_description_crit" xml:space="preserve">
-    <value>Вывести из строя суммарно 5 любых модулей или членов экипажа</value>
+    <value>Вывести из строя суммарно 5 внутренних модулей или членов экипажа</value>
   </data>
   <data name="quest_2_5_9_condition_main" xml:space="preserve">
     <value>• Вывести из строя не менее 5 любых модулей или ранить членов экипажа техники противника.
@@ -2279,7 +2279,7 @@
     <value>• Не менее 10 раз нанести урон технике противника вашего уровня или выше.</value>
   </data>
   <data name="quest_3_1_11_condition_title_damage" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_1_12_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -2303,7 +2303,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего лёгкого танка и любой другой техники.</value>
   </data>
   <data name="quest_3_1_13_condition_title_damage" xml:space="preserve">
-    <value>Нанести 2000 урона (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_3_1_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -2345,7 +2345,7 @@
 • Выжить в бою.</value>
   </data>
   <data name="quest_3_1_2_condition_title_spotted" xml:space="preserve">
-    <value>Обнаружить 6 машин</value>
+    <value>Обнаружить</value>
   </data>
   <data name="quest_3_1_3_condition_add" xml:space="preserve">
     <value>• Выстрелами или тараном уничтожить не менее 3 машин противника.</value>
@@ -2355,13 +2355,13 @@
 • Обнаружить не менее 5 машин противника.</value>
   </data>
   <data name="quest_3_1_3_condition_title_damage_eventCount" xml:space="preserve">
-    <value>Нанести урон 5 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_1_3_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_1_3_condition_title_spotted" xml:space="preserve">
-    <value>Обнаружить 4 машины</value>
+    <value>Обнаружить</value>
   </data>
   <data name="quest_3_1_4_condition_add" xml:space="preserve">
     <value>• Союзниками должно быть уничтожено не менее 2 обездвиженных вами машин.</value>
@@ -2379,7 +2379,7 @@
     <value>• Cбить гусеницу не менее 3 машинам противника.</value>
   </data>
   <data name="quest_3_1_4_condition_title_crit_track" xml:space="preserve">
-    <value>Сбить 3 гусеницы</value>
+    <value>Сбить гусеницу</value>
   </data>
   <data name="quest_3_1_5_condition_add" xml:space="preserve">
     <value>• Передать разведданные для нанесения урона по не менее 6 машинам противника.
@@ -2414,23 +2414,23 @@
     <value>• Обнаружить не менее 3 САУ противника, нанести им урон или любые критические повреждения.</value>
   </data>
   <data name="quest_3_1_7_condition_title_spottedAndDamagedSPG" xml:space="preserve">
-    <value>Обнаружить и нанести урон 1 САУ</value>
+    <value>Обнаружить</value>
   </data>
   <data name="quest_3_1_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 1 САУ</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_1_8_condition_add" xml:space="preserve">
     <value>• Выстрелами или тараном уничтожить не менее 2 машин противника.</value>
   </data>
   <data name="quest_3_1_8_condition_description_base" xml:space="preserve">
-    <value>Захватить базу или сбить захват, заработав 40 соответствующих очков</value>
+    <value>Принять участие в успешном захвате или сбитии захвата базы, заработав 40 соответствующих очков</value>
   </data>
   <data name="quest_3_1_8_condition_main" xml:space="preserve">
     <value>• Принять участие в успешном захвате базы, получив не менее 40 очков захвата, или сбить захват собственной/нейтральной базы, получив не менее 40 очков защиты.
 • Победить в бою.</value>
   </data>
   <data name="quest_3_1_8_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_1_9_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -2471,10 +2471,10 @@
 • Выжить в бою.</value>
   </data>
   <data name="quest_3_2_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_2_11_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 4 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_2_12_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -2488,7 +2488,7 @@
 • Нанести не менее 2000 урона технике противника.</value>
   </data>
   <data name="quest_3_2_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_2_13_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -2529,10 +2529,10 @@
     <value>• Уничтожить не менее 3 машин противника.</value>
   </data>
   <data name="quest_3_2_1_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_2_1_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_2_2_condition_add" xml:space="preserve">
     <value>• Нанести не менее 3000 урона технике противника.</value>
@@ -2544,7 +2544,7 @@
     <value>• Уничтожить не менее 3 машин противника с расстояния не более 100 метров.</value>
   </data>
   <data name="quest_3_2_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_2_3_condition_add" xml:space="preserve">
     <value>• Нанести не менее 3000 урона технике противника.</value>
@@ -2557,7 +2557,7 @@
 • Уничтоженная техника должна быть 3 разных типов.</value>
   </data>
   <data name="quest_3_2_3_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_2_4_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 3 машин противника.</value>
@@ -2570,7 +2570,7 @@
 • Засчитывается сумма повреждённых или выведенных из строя модулей, а также раненых членов экипажа по всем повреждённым вами в бою машинам противника.</value>
   </data>
   <data name="quest_3_2_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_2_5_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 4 машин противника.</value>
@@ -2582,19 +2582,19 @@
     <value>• Нанести не менее 3000 урона технике противника с близкого расстояния (не превышающего радиус вашего круга обзора).</value>
   </data>
   <data name="quest_3_2_5_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 4 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_2_6_condition_add" xml:space="preserve">
     <value>• Нанести не менее 2000 урона технике противника.</value>
   </data>
   <data name="quest_3_2_6_condition_description_vehicleDamage" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Нанести 2000 урона технике противника</value>
   </data>
   <data name="quest_3_2_6_condition_main" xml:space="preserve">
     <value>• Уничтожить суммарно 3 тяжёлых или средних танка.</value>
   </data>
   <data name="quest_3_2_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить суммарно 3 тяжёлых или средних танка</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_2_7_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 3 машин противника.</value>
@@ -2605,10 +2605,10 @@
 • Нанести не менее 3000 урона технике противника.</value>
   </data>
   <data name="quest_3_2_7_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_2_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_2_8_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 4 машин противника.</value>
@@ -2617,10 +2617,10 @@
     <value>• Нанести не менее 3000 урона тяжёлым танкам противника.</value>
   </data>
   <data name="quest_3_2_8_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 2000 урона тяжёлым танкам</value>
+    <value>Урон по ТТ</value>
   </data>
   <data name="quest_3_2_8_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 4 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_2_9_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -2653,10 +2653,10 @@
     <value>• Выстрелами нанести урон машинам противника не менее 6 раз.</value>
   </data>
   <data name="quest_3_3_10_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 6 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_3_10_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_3_11_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -2692,7 +2692,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_3_3_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 6000 урона (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_3_3_14_condition_add" xml:space="preserve">
     <value>• Лично (или суммарно взводом) нанести не менее 3000 урона технике противника.</value>
@@ -2702,10 +2702,10 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_3_3_14_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 3000 урона (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_3_3_14_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 6 машин (лично/взвод)</value>
+    <value>Уничтожить (лично/взвод)</value>
   </data>
   <data name="quest_3_3_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -2716,10 +2716,10 @@
     <value>• Уничтожить не менее 2 ПТ-САУ противника на уровень выше.</value>
   </data>
   <data name="quest_3_3_15_condition_title_damaged" xml:space="preserve">
-    <value>Нанести урон 7 машинам</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_3_15_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 2500 урона ПТ-САУ</value>
+    <value>Урон по ПТ-САУ</value>
   </data>
   <data name="quest_3_3_1_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -2739,10 +2739,10 @@
     <value>• Произвести по технике противника не менее 12 выстрелов, нанёсших урон.</value>
   </data>
   <data name="quest_3_3_2_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 12 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_3_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_3_3_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -2762,13 +2762,13 @@
     <value>• Сбить гусеницы не менее 3 разным машинам противника и не менее 3 раз нанести урон обездвиженной технике противника.</value>
   </data>
   <data name="quest_3_3_4_condition_title_crit" xml:space="preserve">
-    <value>Сбить 3 гусеницы</value>
+    <value>Сбить гусеницу</value>
   </data>
   <data name="quest_3_3_4_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон обездвиженной машине 3 раза</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_3_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 обездвиженные машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_3_5_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -2798,10 +2798,10 @@
     <value>• Выстрелами не менее 2 раз нанести урон САУ противника. Уничтожить как минимум 1 САУ противника.</value>
   </data>
   <data name="quest_3_3_7_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон САУ 2 раза</value>
+    <value>Урон по САУ</value>
   </data>
   <data name="quest_3_3_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 1 САУ</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_3_8_condition_add" xml:space="preserve">
     <value>• Нанести не менее 1500 урона технике противника.</value>
@@ -2811,13 +2811,13 @@
 • Уничтожить средний танк противника.</value>
   </data>
   <data name="quest_3_3_8_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 1500 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_3_8_condition_title_vehicleDamage_count" xml:space="preserve">
-    <value>Нанести урон средним танкам 6 раз</value>
+    <value>Урон по СТ</value>
   </data>
   <data name="quest_3_3_8_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить средний танк</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_3_9_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -2828,10 +2828,10 @@
 • Уничтожить не менее 2 тяжёлых танков противника.</value>
   </data>
   <data name="quest_3_3_9_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести тяжёлым танкам 1500 урона</value>
+    <value>Урон по ТТ</value>
   </data>
   <data name="quest_3_3_9_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 тяжёлых танка</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_3_advise" xml:space="preserve">
     <value>Прорвитесь в тыл вместе с союзниками и устройте там переполох — это отвлечёт внимание противника.</value>
@@ -2863,7 +2863,7 @@
 • Нанести не менее 3000 урона технике противника.</value>
   </data>
   <data name="quest_3_4_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_4_12_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -2874,10 +2874,10 @@
 • Нанести не менее 3000 урона технике противника.</value>
   </data>
   <data name="quest_3_4_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_4_12_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 тяжёлых танка</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_4_13_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -2887,7 +2887,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашей ПТ-САУ и любой другой техники.</value>
   </data>
   <data name="quest_3_4_13_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 5 машин (лично/взвод)</value>
+    <value>Уничтожить (лично/взвод)</value>
   </data>
   <data name="quest_3_4_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -2907,10 +2907,10 @@
     <value>• Нанести не менее 6000 урона технике противника.</value>
   </data>
   <data name="quest_3_4_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 6000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_4_15_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить 5 машин</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_4_1_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -2933,7 +2933,7 @@
     <value>• Нанести не менее 2000 урона и вывести из строя не менее 2 внутренних модулей или ранить членов экипажа противника.</value>
   </data>
   <data name="quest_3_4_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_4_3_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -2943,7 +2943,7 @@
 • Победить в бою.</value>
   </data>
   <data name="quest_3_4_3_condition_title_damaged" xml:space="preserve">
-    <value>Нанести урон 5 машинам</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_4_4_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -2965,7 +2965,7 @@
     <value>• Уничтожить не менее 2 машин противника с расстояния не менее 300 метров.</value>
   </data>
   <data name="quest_3_4_5_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_4_6_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 3 машин противника.</value>
@@ -2977,7 +2977,7 @@
     <value>• Нанести не менее 2000 урона технике противника с расстояния более 250 метров.</value>
   </data>
   <data name="quest_3_4_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_4_7_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -3007,10 +3007,10 @@
 • Пробития подряд считаются как по одной машине, так и по нескольким.</value>
   </data>
   <data name="quest_3_4_9_condition_title_inBattleMaxPiercingSeries" xml:space="preserve">
-    <value>Пробить броню 5 раз подряд</value>
+    <value>Пробить броню</value>
   </data>
   <data name="quest_3_4_9_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_4_advise" xml:space="preserve">
     <value>Сбив гусеницу, вы обездвижите противника на некоторое время, что позволит вам и вашей команде лучше прицеливаться по нему. Чтобы легко сбить гусеницу, цельтесь в передний или задний катки. Не забудьте акцентировать внимание союзников на этом событии, вызвав команду «Поддержите огнём!» из меню приказов.</value>
@@ -3044,10 +3044,10 @@
     <value>• Оглушить не менее 3 машин противника одним выстрелом.</value>
   </data>
   <data name="quest_3_5_11_condition_title_multiStunEvent" xml:space="preserve">
-    <value>Оглушить 3 машины одним выстрелом</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_3_5_11_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 150 секунд</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_3_5_12_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -3060,7 +3060,7 @@
 • Союзники должны уничтожить 2 оглушённые или обездвиженные вами машины противника или более.</value>
   </data>
   <data name="quest_3_5_12_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 150 секунд</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_3_5_13_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -3069,10 +3069,10 @@
     <value>• Лично или суммарно взводом не менее 8 раз нанести урон или не менее 10 раз оглушить технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_3_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Оглушить 10 раз (лично/взвод)</value>
+    <value>Оглушить (лично/взвод)</value>
   </data>
   <data name="quest_3_5_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 8 раз (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_3_5_14_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -3084,7 +3084,7 @@
     <value>• Лично или суммарно взводом оглушить технику противника в общей сложности на 180 и более секунд, или помочь союзникам нанести не менее 800 урона, обездвижив технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_3_5_14_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 180 секунд (лично/взвод)</value>
+    <value>Оглушить (лично/взвод)</value>
   </data>
   <data name="quest_3_5_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -3100,7 +3100,7 @@
 • Помочь союзникам нанести 2500 урона и более, оглушив или обездвижив технику противника.</value>
   </data>
   <data name="quest_3_5_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_5_1_condition_add" xml:space="preserve">
     <value>• Выстрелом или тараном нанести урон технике противника не менее 6 раз.</value>
@@ -3112,7 +3112,7 @@
     <value>Оглушить 7 раз</value>
   </data>
   <data name="quest_3_5_1_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 6 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_5_2_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 3 машин противника.</value>
@@ -3124,7 +3124,7 @@
     <value>Оглушить суммарно на 150 секунд</value>
   </data>
   <data name="quest_3_5_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_3_5_3_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -3156,7 +3156,7 @@
     <value>• Помочь союзникам нанести 2000 урона и более, оглушив или обездвижив технику противника.</value>
   </data>
   <data name="quest_3_5_5_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 6 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_3_5_6_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -3176,7 +3176,7 @@
     <value>• Оглушить не менее 5 разных машин противника.</value>
   </data>
   <data name="quest_3_5_7_condition_title_stunned" xml:space="preserve">
-    <value>Оглушить 5 машин</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_3_5_8_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -3193,7 +3193,7 @@
 • Остаться необнаруженным до завершения боя.</value>
   </data>
   <data name="quest_3_5_9_condition_description_crit" xml:space="preserve">
-    <value>Вывести из строя суммарно 8 любых модулей или членов экипажа</value>
+    <value>Вывести из строя суммарно 8 внутренних модулей или членов экипажа</value>
   </data>
   <data name="quest_3_5_9_condition_main" xml:space="preserve">
     <value>• Вывести из строя не менее 8 любых модулей или ранить членов экипажа техники противника.
@@ -3351,7 +3351,7 @@
     <value>• Не менее 12 раз нанести урон технике противника вашего уровня или выше.</value>
   </data>
   <data name="quest_4_1_11_condition_title_damage" xml:space="preserve">
-    <value>Нанести 2500 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_1_12_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -3376,7 +3376,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего лёгкого танка и любой другой техники.</value>
   </data>
   <data name="quest_4_1_13_condition_title_damage" xml:space="preserve">
-    <value>Нанести 2500 урона (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_4_1_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -3418,7 +3418,7 @@
 • Выжить в бою.</value>
   </data>
   <data name="quest_4_1_2_condition_title_spotted" xml:space="preserve">
-    <value>Обнаружить 8 машин</value>
+    <value>Обнаружить</value>
   </data>
   <data name="quest_4_1_3_condition_add" xml:space="preserve">
     <value>• Выстрелами или тараном уничтожить не менее 4 машин противника.</value>
@@ -3428,13 +3428,13 @@
 • Обнаружить не менее 7 машин противника.</value>
   </data>
   <data name="quest_4_1_3_condition_title_damage_eventCount" xml:space="preserve">
-    <value>Нанести урон 6 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_1_3_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить 4 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_1_3_condition_title_spotted" xml:space="preserve">
-    <value>Обнаружить 6 машин</value>
+    <value>Обнаружить</value>
   </data>
   <data name="quest_4_1_4_condition_add" xml:space="preserve">
     <value>• Союзниками должно быть уничтожено не менее 2 обездвиженных вами машин.</value>
@@ -3453,7 +3453,7 @@
 • Союзники должны нанести не менее 500 урона по обездвиженным вами машинам, пока они не восстановили гусеницы.</value>
   </data>
   <data name="quest_4_1_4_condition_title_crit_track" xml:space="preserve">
-    <value>Сбить 3 гусеницы</value>
+    <value>Сбить гусеницу</value>
   </data>
   <data name="quest_4_1_5_condition_add" xml:space="preserve">
     <value>• Передать разведданные для нанесения урона по не менее 8 машинам противника.</value>
@@ -3489,20 +3489,20 @@
 • Уничтожить как минимум 1 САУ противника.</value>
   </data>
   <data name="quest_4_1_7_condition_title_spottedAndDamagedSPG" xml:space="preserve">
-    <value>Обнаружить и нанести урон 2 САУ</value>
+    <value>Обнаружить</value>
   </data>
   <data name="quest_4_1_8_condition_add" xml:space="preserve">
     <value>• Выстрелами или тараном уничтожить не менее 2 машин противника.</value>
   </data>
   <data name="quest_4_1_8_condition_description_base" xml:space="preserve">
-    <value>Захватить базу или сбить захват, заработав 60 соответствующих очков</value>
+    <value>Принять участие в успешном захвате или сбитии захвата базы, заработав 60 соответствующих очков</value>
   </data>
   <data name="quest_4_1_8_condition_main" xml:space="preserve">
     <value>• Принять участие в успешном захвате базы, получив не менее 60 очков захвата, или сбить захват собственной/нейтральной базы, получив не менее 60 очков защиты.
 • Победить в бою.</value>
   </data>
   <data name="quest_4_1_8_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить 2 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_1_9_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -3543,10 +3543,10 @@
 • Выжить в бою.</value>
   </data>
   <data name="quest_4_2_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 4000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_2_11_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 5 машин</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_2_12_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -3560,7 +3560,7 @@
 • Нанести не менее 3000 урона технике противника.</value>
   </data>
   <data name="quest_4_2_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_2_13_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -3601,10 +3601,10 @@
     <value>• Уничтожить не менее 5 машин противника.</value>
   </data>
   <data name="quest_4_2_1_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 4000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_2_1_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 5 машин</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_2_2_condition_add" xml:space="preserve">
     <value>• Нанести не менее 4000 урона технике противника.</value>
@@ -3616,7 +3616,7 @@
     <value>• Уничтожить не менее 4 машин противника с расстояния не более 100 метров.</value>
   </data>
   <data name="quest_4_2_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 4000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_2_3_condition_add" xml:space="preserve">
     <value>• Нанести не менее 4000 урона технике противника.</value>
@@ -3629,7 +3629,7 @@
 • Уничтоженная техника должна быть 3 разных типов.</value>
   </data>
   <data name="quest_4_2_3_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 4000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_2_4_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 5 машин противника.</value>
@@ -3642,7 +3642,7 @@
 • Засчитывается сумма повреждённых или выведенных из строя модулей, а также раненых членов экипажа по всем повреждённым вами в бою машинам противника.</value>
   </data>
   <data name="quest_4_2_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 5 машин</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_2_5_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 5 машин противника.</value>
@@ -3654,19 +3654,19 @@
     <value>• Нанести не менее 4000 урона технике противника с близкого расстояния (не превышающего радиус вашего круга обзора).</value>
   </data>
   <data name="quest_4_2_5_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 5 машин</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_2_6_condition_add" xml:space="preserve">
     <value>• Нанести не менее 3000 урона технике противника.</value>
   </data>
   <data name="quest_4_2_6_condition_description_vehicleDamage" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Нанести 3000 урона технике противника</value>
   </data>
   <data name="quest_4_2_6_condition_main" xml:space="preserve">
     <value>• Уничтожить суммарно 4 тяжёлых или средних танка.</value>
   </data>
   <data name="quest_4_2_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить суммарно 4 тяжёлых или средних танка</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_2_7_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 4 машин противника.</value>
@@ -3677,10 +3677,10 @@
 • Нанести не менее 4000 урона технике противника.</value>
   </data>
   <data name="quest_4_2_7_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 4000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_2_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 4 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_2_8_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 5 машин противника.</value>
@@ -3689,10 +3689,10 @@
     <value>• Нанести не менее 4000 урона тяжёлым танкам противника.</value>
   </data>
   <data name="quest_4_2_8_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона тяжёлым танкам</value>
+    <value>Урон по ТТ</value>
   </data>
   <data name="quest_4_2_8_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 5 машин</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_2_9_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -3723,10 +3723,10 @@
     <value>• Выстрелами нанести урон машинам противника не менее 8 раз.</value>
   </data>
   <data name="quest_4_3_10_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 8 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_3_10_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 4 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_3_11_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -3752,7 +3752,7 @@
 • Нанести не менее 3000 урона технике противника.</value>
   </data>
   <data name="quest_4_3_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 3000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_3_13_condition_add" xml:space="preserve">
     <value>• Лично попасть в топ-3 игроков своей команды по опыту.</value>
@@ -3765,7 +3765,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_4_3_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 8000 урона (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_4_3_14_condition_add" xml:space="preserve">
     <value>• Лично (или суммарно взводом) нанести не менее 4000 урона технике противника.</value>
@@ -3775,10 +3775,10 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_4_3_14_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 4000 урона (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_4_3_14_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 8 машин (лично/взвод)</value>
+    <value>Уничтожить (лично/взвод)</value>
   </data>
   <data name="quest_4_3_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -3788,10 +3788,10 @@
     <value>• Нанести не менее 4000 урона ПТ-САУ противника.</value>
   </data>
   <data name="quest_4_3_15_condition_title_damaged" xml:space="preserve">
-    <value>Нанести урон 8 машинам</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_3_15_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 3500 урона ПТ-САУ</value>
+    <value>Урон по ПТ-САУ</value>
   </data>
   <data name="quest_4_3_1_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -3811,10 +3811,10 @@
     <value>• Произвести по технике противника не менее 15 выстрелов, нанёсших урон.</value>
   </data>
   <data name="quest_4_3_2_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 15 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_3_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 5 машин</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_3_3_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -3834,13 +3834,13 @@
     <value>• Сбить гусеницы не менее 4 разным машинам противника и не менее 4 раз нанести урон обездвиженной технике противника.</value>
   </data>
   <data name="quest_4_3_4_condition_title_crit" xml:space="preserve">
-    <value>Сбить 4 гусеницы</value>
+    <value>Сбить гусеницу</value>
   </data>
   <data name="quest_4_3_4_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон обездвиженной машине 4 раза</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_3_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 обездвиженные машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_3_5_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -3850,7 +3850,7 @@
     <value>• Выстрелами или тараном уничтожить не менее 2 лёгких танков противника.</value>
   </data>
   <data name="quest_4_3_5_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 лёгких танка</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_3_6_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -3870,10 +3870,10 @@
     <value>• Выстрелами не менее 3 раз нанести урон САУ противника. Уничтожить как минимум 1 САУ противника.</value>
   </data>
   <data name="quest_4_3_7_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон САУ 3 раза</value>
+    <value>Урон по САУ</value>
   </data>
   <data name="quest_4_3_7_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 1 САУ</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_3_8_condition_add" xml:space="preserve">
     <value>• Нанести не менее 2000 урона технике противника.</value>
@@ -3882,10 +3882,10 @@
     <value>• Уничтожить не менее 3 средних танков противника.</value>
   </data>
   <data name="quest_4_3_8_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 2000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_3_8_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 средних танка</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_3_9_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -3896,10 +3896,10 @@
 • Уничтожить не менее 2 тяжёлых танков противника.</value>
   </data>
   <data name="quest_4_3_9_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести тяжёлым танкам 2000 урона</value>
+    <value>Урон по ТТ</value>
   </data>
   <data name="quest_4_3_9_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 2 тяжёлых танка</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_3_advise" xml:space="preserve">
     <value>На безнаказанное сближение с противником может идти только тяжелобронированная ПТ-САУ.</value>
@@ -3931,7 +3931,7 @@
 • Нанести не менее 4000 урона технике противника.</value>
   </data>
   <data name="quest_4_4_11_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 4000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_4_12_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -3942,10 +3942,10 @@
 • Нанести не менее 4000 урона технике противника.</value>
   </data>
   <data name="quest_4_4_12_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 4000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_4_12_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 тяжёлых танка</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_4_13_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -3955,7 +3955,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашей ПТ-САУ и любой другой техники.</value>
   </data>
   <data name="quest_4_4_13_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 6 машин (лично/взвод)</value>
+    <value>Уничтожить (лично/взвод)</value>
   </data>
   <data name="quest_4_4_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -3975,10 +3975,10 @@
     <value>• Нанести не менее 8000 урона технике противника.</value>
   </data>
   <data name="quest_4_4_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 8000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_4_15_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить 6 машин</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_4_1_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -4001,7 +4001,7 @@
     <value>• Нанести не менее 5000 урона и вывести из строя не менее 3 внутренних модулей или ранить членов экипажа противника.</value>
   </data>
   <data name="quest_4_4_2_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 5000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_4_3_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -4011,7 +4011,7 @@
 • Победить в бою.</value>
   </data>
   <data name="quest_4_4_3_condition_title_damaged" xml:space="preserve">
-    <value>Нанести урон 6 машинам</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_4_4_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -4033,7 +4033,7 @@
     <value>• Уничтожить не менее 3 машин противника с расстояния не менее 300 метров.</value>
   </data>
   <data name="quest_4_4_5_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 4000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_4_6_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 4 машин противника.</value>
@@ -4045,7 +4045,7 @@
     <value>• Нанести не менее 3000 урона технике противника с расстояния более 250 метров.</value>
   </data>
   <data name="quest_4_4_6_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 4 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_4_7_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -4075,10 +4075,10 @@
 • Пробития подряд считаются как по одной машине, так и по нескольким.</value>
   </data>
   <data name="quest_4_4_9_condition_title_inBattleMaxPiercingSeries" xml:space="preserve">
-    <value>Пробить броню 6 раз подряд</value>
+    <value>Пробить броню</value>
   </data>
   <data name="quest_4_4_9_condition_title_kills" xml:space="preserve">
-    <value>Уничтожить 5 машин</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_4_advise" xml:space="preserve">
     <value>Старайтесь найти хорошее укрытие для стрельбы: густой куст или поваленное дерево. Стрельба из-за таких укрытий может остаться незамеченной противником.</value>
@@ -4112,10 +4112,10 @@
     <value>• Дважды оглушить не менее 3 машин противника одним выстрелом.</value>
   </data>
   <data name="quest_4_5_11_condition_title_multiStunEvent" xml:space="preserve">
-    <value>Дважды оглушить 3 машины одним выстрелом</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_4_5_11_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 200 секунд</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_4_5_12_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -4128,7 +4128,7 @@
 • Союзники должны уничтожить 3 оглушённые или обездвиженные вами машины противника или более.</value>
   </data>
   <data name="quest_4_5_12_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 200 секунд</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_4_5_13_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -4137,10 +4137,10 @@
     <value>• Лично или суммарно взводом не менее 10 раз нанести урон или не менее 12 раз оглушить технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_4_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Оглушить 12 раз (лично/взвод)</value>
+    <value>Оглушить (лично/взвод)</value>
   </data>
   <data name="quest_4_5_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 10 раз (лично/взвод)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_4_5_14_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -4152,7 +4152,7 @@
     <value>• Лично или суммарно взводом оглушить технику противника в общей сложности на 250 и более секунд, или помочь союзникам нанести не менее 1000 урона, обездвижив технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_4_5_14_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 250 секунд (лично/взвод)</value>
+    <value>Оглушить (лично/взвод)</value>
   </data>
   <data name="quest_4_5_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -4168,7 +4168,7 @@
 • Помочь союзникам нанести 3500 урона и более, оглушив или обездвижив технику противника.</value>
   </data>
   <data name="quest_4_5_15_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести 4000 урона</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_5_1_condition_add" xml:space="preserve">
     <value>• Выстрелом или тараном нанести урон технике противника не менее 8 раз.</value>
@@ -4180,7 +4180,7 @@
     <value>Оглушить 10 раз</value>
   </data>
   <data name="quest_4_5_1_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 8 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_5_2_condition_add" xml:space="preserve">
     <value>• Уничтожить не менее 4 машин противника.</value>
@@ -4189,10 +4189,10 @@
     <value>• Оглушить технику противника суммарно на 200 и более секунд.</value>
   </data>
   <data name="quest_4_5_2_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 200 секунд</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_4_5_2_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 4 машины</value>
+    <value>Уничтожить</value>
   </data>
   <data name="quest_4_5_3_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -4224,7 +4224,7 @@
     <value>• Помочь союзникам нанести 3000 урона и более, оглушив или обездвижив технику противника.</value>
   </data>
   <data name="quest_4_5_5_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 8 раз</value>
+    <value>Урон</value>
   </data>
   <data name="quest_4_5_6_condition_add" xml:space="preserve">
     <value>• Победить в бою.
@@ -4244,7 +4244,7 @@
     <value>• Оглушить не менее 6 разных машин противника.</value>
   </data>
   <data name="quest_4_5_7_condition_title_stunned" xml:space="preserve">
-    <value>Оглушить 6 машин</value>
+    <value>Оглушить</value>
   </data>
   <data name="quest_4_5_8_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -4261,7 +4261,7 @@
 • Остаться необнаруженным до завершения боя.</value>
   </data>
   <data name="quest_4_5_9_condition_description_crit" xml:space="preserve">
-    <value>Вывести из строя суммарно 10 любых модулей или членов экипажа</value>
+    <value>Вывести из строя суммарно 10 внутренних модулей или членов экипажа</value>
   </data>
   <data name="quest_4_5_9_condition_main" xml:space="preserve">
     <value>• Вывести из строя не менее 10 любых модулей или ранить членов экипажа техники противника.
@@ -5016,7 +5016,7 @@
     <value>Не иметь к моменту завершения боя повреждённых или выведенных из строя внутренних модулей или раненых членов экипажа</value>
   </data>
   <data name="quest_common_condition_description_isNotSpotted" xml:space="preserve">
-    <value>Не быть обнаруженным в течение боя</value>
+    <value>Выжить и не быть обнаруженным в течение боя</value>
   </data>
   <data name="quest_common_condition_description_top_1_damage" xml:space="preserve">
     <value>Занять 1 место по урону в своей команде</value>
@@ -5025,7 +5025,7 @@
     <value>Занять 1 место по урону в обеих командах</value>
   </data>
   <data name="quest_common_condition_title_base" xml:space="preserve">
-    <value>Захват/Защита</value>
+    <value>Захват/защита</value>
   </data>
   <data name="quest_common_condition_title_complex" xml:space="preserve">
     <value>Комплексное условие</value>
@@ -5052,7 +5052,7 @@
     <value>Эффективность брони</value>
   </data>
   <data name="quest_common_condition_title_damageDealt" xml:space="preserve">
-    <value>Нанести урон</value>
+    <value>Урон</value>
   </data>
   <data name="quest_common_condition_title_damage_eventCount" xml:space="preserve">
     <value>Урон</value>
@@ -5112,7 +5112,7 @@
     <value>Каждая кампания состоит из нескольких операций, которые содержат многочисленные боевые задачи для всех типов техники. Награда за каждую выполненную операцию — уникальная машина.</value>
   </data>
   <data name="season_2" xml:space="preserve">
-    <value>«Огненный вал»</value>
+    <value>«Второй фронт»</value>
   </data>
   <data name="tile_1" xml:space="preserve">
     <value>«StuG IV»</value>
@@ -5139,9 +5139,870 @@
     <value>Комплекс боевых задач для всех типов техники на получение советского тяжёлого танка Объект 260.</value>
   </data>
   <data name="tile_5" xml:space="preserve">
-    <value>«Т-22 ср.»</value>
+    <value>«Excalibur»</value>
   </data>
   <data name="tile_5_descr" xml:space="preserve">
-    <value>Комплекс боевых задач для всех типов техники на получение советского среднего танка Т-22 ср.</value>
+    <value>Комплекс боевых задач для всех типов техники на получение британской ПТ-САУ Excalibur.</value>
+  </data>
+  <data name="quest_1_1_11_condition_description_damage" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_1_1_13_condition_description_damage" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_1_1_2_condition_description_spotted" xml:space="preserve">
+    <value>Обнаружить 2 машины противника</value>
+  </data>
+  <data name="quest_1_1_3_condition_description_damage_eventCount" xml:space="preserve">
+    <value>2 раза нанести урон технике противника</value>
+  </data>
+  <data name="quest_1_1_3_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить машину противника</value>
+  </data>
+  <data name="quest_1_1_4_condition_description_crit_track" xml:space="preserve">
+    <value>Сбить 1 гусеницу</value>
+  </data>
+  <data name="quest_1_1_7_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести урон САУ</value>
+  </data>
+  <data name="quest_1_1_8_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить машину противника</value>
+  </data>
+  <data name="quest_1_2_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_1_2_11_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_1_2_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 500 урона технике противника</value>
+  </data>
+  <data name="quest_1_2_1_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_1_2_1_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить машину противника</value>
+  </data>
+  <data name="quest_1_2_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_1_2_3_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_1_2_5_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_1_2_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить суммарно 2 тяжёлых или средних танка</value>
+  </data>
+  <data name="quest_1_2_7_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 500 урона технике противника</value>
+  </data>
+  <data name="quest_1_2_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить машину противника</value>
+  </data>
+  <data name="quest_1_2_8_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 500 урона тяжёлым танкам</value>
+  </data>
+  <data name="quest_1_2_8_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_1_2_9_condition_description_ram" xml:space="preserve">
+    <value>Уничтожить тараном машину противника</value>
+  </data>
+  <data name="quest_1_3_10_condition_description_vehicleDamage" xml:space="preserve">
+    <value>2 раза нанести урон технике противника</value>
+  </data>
+  <data name="quest_1_3_10_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить машину противника</value>
+  </data>
+  <data name="quest_1_3_11_condition_description_ram" xml:space="preserve">
+    <value>Нанести урон тараном</value>
+  </data>
+  <data name="quest_1_3_12_condition_description_fire" xml:space="preserve">
+    <value>Поджечь машину противника</value>
+  </data>
+  <data name="quest_1_3_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_1_3_14_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести 1500 урона технике противника</value>
+  </data>
+  <data name="quest_1_3_14_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_1_3_15_condition_description_damaged" xml:space="preserve">
+    <value>Нанести урон 5 машинам</value>
+  </data>
+  <data name="quest_1_3_15_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 ПТ-САУ</value>
+  </data>
+  <data name="quest_1_3_2_condition_description_vehicleDamage" xml:space="preserve">
+    <value>6 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_1_3_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить машину противника</value>
+  </data>
+  <data name="quest_1_3_4_condition_description_crit" xml:space="preserve">
+    <value>Сбить 1 гусеницу</value>
+  </data>
+  <data name="quest_1_3_4_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести урон обездвиженной машине</value>
+  </data>
+  <data name="quest_1_3_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить обездвиженную машину противника</value>
+  </data>
+  <data name="quest_1_3_5_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести урон лёгкому танку</value>
+  </data>
+  <data name="quest_1_3_7_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести урон САУ</value>
+  </data>
+  <data name="quest_1_3_8_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести средним танкам 300 урона</value>
+  </data>
+  <data name="quest_1_3_8_condition_description_vehicleDamage_count" xml:space="preserve">
+    <value>Нанести урон средним танкам 3 раза</value>
+  </data>
+  <data name="quest_1_3_9_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести тяжёлым танкам 300 урона</value>
+  </data>
+  <data name="quest_1_3_9_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить тяжёлый танк</value>
+  </data>
+  <data name="quest_1_4_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_1_4_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_1_4_12_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить тяжёлый танк</value>
+  </data>
+  <data name="quest_1_4_13_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_1_4_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_1_4_15_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_1_4_3_condition_description_damaged" xml:space="preserve">
+    <value>Нанести урон 2 машинам противника</value>
+  </data>
+  <data name="quest_1_4_4_condition_description_installed_camouflageNet" xml:space="preserve">
+    <value>Выйти в бой с маскировочной сетью</value>
+  </data>
+  <data name="quest_1_4_5_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_1_4_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить машину противника</value>
+  </data>
+  <data name="quest_1_4_9_condition_description_inBattleMaxPiercingSeries" xml:space="preserve">
+    <value>Пробить броню 3 раза подряд</value>
+  </data>
+  <data name="quest_1_4_9_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить машину противника</value>
+  </data>
+  <data name="quest_1_5_11_condition_description_multiStunEvent" xml:space="preserve">
+    <value>Оглушить 2 машины противника одним выстрелом</value>
+  </data>
+  <data name="quest_1_5_11_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 50 секунд</value>
+  </data>
+  <data name="quest_1_5_12_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 50 секунд</value>
+  </data>
+  <data name="quest_1_5_13_condition_description_stunNum" xml:space="preserve">
+    <value>Оглушить технику противника 6 раз</value>
+  </data>
+  <data name="quest_1_5_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>4 раза нанести урон технике противника</value>
+  </data>
+  <data name="quest_1_5_14_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 70 секунд</value>
+  </data>
+  <data name="quest_1_5_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_1_5_1_condition_description_stunNum" xml:space="preserve">
+    <value>Оглушить технику противника 3 раза</value>
+  </data>
+  <data name="quest_1_5_1_condition_description_vehicleDamage" xml:space="preserve">
+    <value>3 раза нанести урон технике противника</value>
+  </data>
+  <data name="quest_1_5_2_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 50 секунд</value>
+  </data>
+  <data name="quest_1_5_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить машину противника</value>
+  </data>
+  <data name="quest_1_5_3_condition_description_vehicleStun" xml:space="preserve">
+    <value>Оглушить тяжёлые танки или ПТ-САУ 2 раза</value>
+  </data>
+  <data name="quest_1_5_5_condition_description_vehicleDamage" xml:space="preserve">
+    <value>3 раза нанести урон технике противника</value>
+  </data>
+  <data name="quest_1_5_7_condition_description_stunned" xml:space="preserve">
+    <value>Оглушить 2 машины противника</value>
+  </data>
+  <data name="quest_2_1_11_condition_description_damage" xml:space="preserve">
+    <value>Нанести 1500 урона технике противника</value>
+  </data>
+  <data name="quest_2_1_13_condition_description_damage" xml:space="preserve">
+    <value>Нанести 1500 урона технике противника</value>
+  </data>
+  <data name="quest_2_1_2_condition_description_spotted" xml:space="preserve">
+    <value>Обнаружить 4 машины противника</value>
+  </data>
+  <data name="quest_2_1_3_condition_description_damage_eventCount" xml:space="preserve">
+    <value>3 раза нанести урон технике противника</value>
+  </data>
+  <data name="quest_2_1_3_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_2_1_4_condition_description_crit_track" xml:space="preserve">
+    <value>Сбить 1 гусеницу</value>
+  </data>
+  <data name="quest_2_1_7_condition_description_spottedAndDamagedSPG" xml:space="preserve">
+    <value>Обнаружить и нанести урон 1 САУ</value>
+  </data>
+  <data name="quest_2_1_8_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить машину противника</value>
+  </data>
+  <data name="quest_2_2_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_2_2_11_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_2_2_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_2_2_1_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_2_2_1_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_2_2_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_2_2_3_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_2_2_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить машину противника</value>
+  </data>
+  <data name="quest_2_2_5_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_2_2_7_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_2_2_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_2_2_8_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1000 урона тяжёлым танкам</value>
+  </data>
+  <data name="quest_2_2_8_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_2_3_10_condition_description_vehicleDamage" xml:space="preserve">
+    <value>4 раза нанести урон технике противника</value>
+  </data>
+  <data name="quest_2_3_10_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_2_3_11_condition_description_ram" xml:space="preserve">
+    <value>Уничтожить тараном машину противника</value>
+  </data>
+  <data name="quest_2_3_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1500 урона технике противника</value>
+  </data>
+  <data name="quest_2_3_12_condition_description_fire" xml:space="preserve">
+    <value>Поджечь машину противника</value>
+  </data>
+  <data name="quest_2_3_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести 4000 урона технике противника</value>
+  </data>
+  <data name="quest_2_3_14_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_2_3_14_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 4 машины противника</value>
+  </data>
+  <data name="quest_2_3_15_condition_description_damaged" xml:space="preserve">
+    <value>Нанести урон 6 машинам</value>
+  </data>
+  <data name="quest_2_3_15_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести 1000 урона ПТ-САУ</value>
+  </data>
+  <data name="quest_2_3_15_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 ПТ-САУ</value>
+  </data>
+  <data name="quest_2_3_2_condition_description_vehicleDamage" xml:space="preserve">
+    <value>9 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_2_3_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_2_3_4_condition_description_crit" xml:space="preserve">
+    <value>Сбить 2 гусеницы</value>
+  </data>
+  <data name="quest_2_3_4_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести урон обездвиженной машине 2 раза</value>
+  </data>
+  <data name="quest_2_3_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить обездвиженную машину противника</value>
+  </data>
+  <data name="quest_2_3_5_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить лёгкий танк</value>
+  </data>
+  <data name="quest_2_3_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 1 САУ</value>
+  </data>
+  <data name="quest_2_3_8_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести средним танкам 750 урона</value>
+  </data>
+  <data name="quest_2_3_8_condition_description_vehicleDamage_count" xml:space="preserve">
+    <value>Нанести урон средним танкам 5 раз</value>
+  </data>
+  <data name="quest_2_3_9_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести тяжёлым танкам 750 урона</value>
+  </data>
+  <data name="quest_2_3_9_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить тяжёлый танк</value>
+  </data>
+  <data name="quest_2_4_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_2_4_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_2_4_12_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить тяжёлый танк на уровень выше</value>
+  </data>
+  <data name="quest_2_4_13_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 4 машины противника</value>
+  </data>
+  <data name="quest_2_4_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_2_4_15_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_2_4_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1000 урона технике противника</value>
+  </data>
+  <data name="quest_2_4_3_condition_description_damaged" xml:space="preserve">
+    <value>Нанести урон 3 машинам противника</value>
+  </data>
+  <data name="quest_2_4_5_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_2_4_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_2_4_9_condition_description_inBattleMaxPiercingSeries" xml:space="preserve">
+    <value>Пробить броню 4 раза подряд</value>
+  </data>
+  <data name="quest_2_4_9_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_2_5_11_condition_description_multiStunEvent" xml:space="preserve">
+    <value>Дважды оглушить 2 машины противника одним выстрелом</value>
+  </data>
+  <data name="quest_2_5_11_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 100 секунд</value>
+  </data>
+  <data name="quest_2_5_12_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 100 секунд</value>
+  </data>
+  <data name="quest_2_5_13_condition_description_stunNum" xml:space="preserve">
+    <value>Оглушить технику противника 8 раз</value>
+  </data>
+  <data name="quest_2_5_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>6 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_2_5_14_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 100 секунд</value>
+  </data>
+  <data name="quest_2_5_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1500 урона технике противника</value>
+  </data>
+  <data name="quest_2_5_1_condition_description_stunNum" xml:space="preserve">
+    <value>Оглушить технику противника 5 раз</value>
+  </data>
+  <data name="quest_2_5_1_condition_description_vehicleDamage" xml:space="preserve">
+    <value>5 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_2_5_2_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 100 секунд</value>
+  </data>
+  <data name="quest_2_5_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_2_5_3_condition_description_vehicleStun" xml:space="preserve">
+    <value>Оглушить тяжёлые танки или ПТ-САУ 4 раза</value>
+  </data>
+  <data name="quest_2_5_5_condition_description_vehicleDamage" xml:space="preserve">
+    <value>5 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_2_5_7_condition_description_stunned" xml:space="preserve">
+    <value>Оглушить 3 машины противника</value>
+  </data>
+  <data name="quest_3_1_11_condition_description_damage" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_3_1_13_condition_description_damage" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_3_1_2_condition_description_spotted" xml:space="preserve">
+    <value>Обнаружить 6 машин противника</value>
+  </data>
+  <data name="quest_3_1_3_condition_description_damage_eventCount" xml:space="preserve">
+    <value>5 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_3_1_3_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_3_1_3_condition_description_spotted" xml:space="preserve">
+    <value>Обнаружить 4 машины противника</value>
+  </data>
+  <data name="quest_3_1_4_condition_description_crit_track" xml:space="preserve">
+    <value>Сбить 3 гусеницы</value>
+  </data>
+  <data name="quest_3_1_7_condition_description_spottedAndDamagedSPG" xml:space="preserve">
+    <value>Обнаружить и нанести урон 1 САУ</value>
+  </data>
+  <data name="quest_3_1_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 1 САУ противника</value>
+  </data>
+  <data name="quest_3_1_8_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_3_2_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_3_2_11_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 4 машины противника</value>
+  </data>
+  <data name="quest_3_2_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_3_2_1_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_3_2_1_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_3_2_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_3_2_3_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_3_2_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_3_2_5_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 4 машины противника</value>
+  </data>
+  <data name="quest_3_2_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить суммарно 3 тяжёлых или средних танка</value>
+  </data>
+  <data name="quest_3_2_6_condition_title_vehicleDamage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="quest_3_2_7_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_3_2_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_3_2_8_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 2000 урона тяжёлым танкам</value>
+  </data>
+  <data name="quest_3_2_8_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 4 машины противника</value>
+  </data>
+  <data name="quest_3_3_10_condition_description_vehicleDamage" xml:space="preserve">
+    <value>6 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_3_3_10_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_3_3_11_condition_title_ram" xml:space="preserve">
+    <value>Таран</value>
+  </data>
+  <data name="quest_3_3_12_condition_title_fire" xml:space="preserve">
+    <value>Поджог</value>
+  </data>
+  <data name="quest_3_3_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести 6000 урона технике противника</value>
+  </data>
+  <data name="quest_3_3_14_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_3_3_14_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 6 машин противника</value>
+  </data>
+  <data name="quest_3_3_15_condition_description_damaged" xml:space="preserve">
+    <value>Нанести урон 7 машинам</value>
+  </data>
+  <data name="quest_3_3_15_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести 2500 урона ПТ-САУ</value>
+  </data>
+  <data name="quest_3_3_2_condition_description_vehicleDamage" xml:space="preserve">
+    <value>12 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_3_3_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_3_3_4_condition_description_crit" xml:space="preserve">
+    <value>Сбить 3 гусеницы</value>
+  </data>
+  <data name="quest_3_3_4_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести урон обездвиженной машине 3 раза</value>
+  </data>
+  <data name="quest_3_3_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 обездвиженные машины</value>
+  </data>
+  <data name="quest_3_3_5_condition_title_vehicleKills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="quest_3_3_7_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести урон САУ 2 раза</value>
+  </data>
+  <data name="quest_3_3_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 1 САУ</value>
+  </data>
+  <data name="quest_3_3_8_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 1500 урона технике противника</value>
+  </data>
+  <data name="quest_3_3_8_condition_description_vehicleDamage_count" xml:space="preserve">
+    <value>Нанести урон средним танкам 6 раз</value>
+  </data>
+  <data name="quest_3_3_8_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить средний танк</value>
+  </data>
+  <data name="quest_3_3_9_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести тяжёлым танкам 1500 урона</value>
+  </data>
+  <data name="quest_3_3_9_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 тяжёлых танка</value>
+  </data>
+  <data name="quest_3_4_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_3_4_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_3_4_12_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 тяжёлых танка</value>
+  </data>
+  <data name="quest_3_4_13_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 5 машин противника</value>
+  </data>
+  <data name="quest_3_4_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 6000 урона технике противника</value>
+  </data>
+  <data name="quest_3_4_15_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить 5 машин противника</value>
+  </data>
+  <data name="quest_3_4_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_3_4_3_condition_description_damaged" xml:space="preserve">
+    <value>Нанести урон 5 машинам противника</value>
+  </data>
+  <data name="quest_3_4_5_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_3_4_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_3_4_9_condition_description_inBattleMaxPiercingSeries" xml:space="preserve">
+    <value>Пробить броню 5 раз подряд</value>
+  </data>
+  <data name="quest_3_4_9_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_3_5_11_condition_description_multiStunEvent" xml:space="preserve">
+    <value>Оглушить 3 машины противника одним выстрелом</value>
+  </data>
+  <data name="quest_3_5_11_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 150 секунд</value>
+  </data>
+  <data name="quest_3_5_12_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 150 секунд</value>
+  </data>
+  <data name="quest_3_5_13_condition_description_stunNum" xml:space="preserve">
+    <value>Оглушить технику противника 10 раз</value>
+  </data>
+  <data name="quest_3_5_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>8 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_3_5_14_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 180 секунд</value>
+  </data>
+  <data name="quest_3_5_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_3_5_1_condition_description_stunNum" xml:space="preserve">
+    <value>Оглушить технику противника 7 раз</value>
+  </data>
+  <data name="quest_3_5_1_condition_description_vehicleDamage" xml:space="preserve">
+    <value>6 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_3_5_2_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 150 секунд</value>
+  </data>
+  <data name="quest_3_5_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 машины противника</value>
+  </data>
+  <data name="quest_3_5_3_condition_description_vehicleStun" xml:space="preserve">
+    <value>Оглушить тяжёлые танки или ПТ-САУ 6 раз</value>
+  </data>
+  <data name="quest_3_5_5_condition_description_vehicleDamage" xml:space="preserve">
+    <value>6 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_3_5_7_condition_description_stunned" xml:space="preserve">
+    <value>Оглушить 5 машин противника</value>
+  </data>
+  <data name="quest_4_1_11_condition_description_damage" xml:space="preserve">
+    <value>Нанести 2500 урона технике противника</value>
+  </data>
+  <data name="quest_4_1_13_condition_description_damage" xml:space="preserve">
+    <value>Нанести 2500 урона технике противника</value>
+  </data>
+  <data name="quest_4_1_2_condition_description_spotted" xml:space="preserve">
+    <value>Обнаружить 8 машин противника</value>
+  </data>
+  <data name="quest_4_1_3_condition_description_damage_eventCount" xml:space="preserve">
+    <value>6 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_4_1_3_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить 4 машины противника</value>
+  </data>
+  <data name="quest_4_1_3_condition_description_spotted" xml:space="preserve">
+    <value>Обнаружить 6 машин противника</value>
+  </data>
+  <data name="quest_4_1_4_condition_description_crit_track" xml:space="preserve">
+    <value>Сбить 3 гусеницы</value>
+  </data>
+  <data name="quest_4_1_7_condition_description_spottedAndDamagedSPG" xml:space="preserve">
+    <value>Обнаружить и нанести урон 2 САУ</value>
+  </data>
+  <data name="quest_4_1_8_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить 2 машины противника</value>
+  </data>
+  <data name="quest_4_2_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 4000 урона технике противника</value>
+  </data>
+  <data name="quest_4_2_11_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 5 машин противника</value>
+  </data>
+  <data name="quest_4_2_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_4_2_1_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 4000 урона технике противника</value>
+  </data>
+  <data name="quest_4_2_1_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 5 машин противника</value>
+  </data>
+  <data name="quest_4_2_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 4000 урона технике противника</value>
+  </data>
+  <data name="quest_4_2_3_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 4000 урона технике противника</value>
+  </data>
+  <data name="quest_4_2_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 5 машин противника</value>
+  </data>
+  <data name="quest_4_2_5_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 5 машин противника</value>
+  </data>
+  <data name="quest_4_2_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить суммарно 4 тяжёлых или средних танка</value>
+  </data>
+  <data name="quest_4_2_6_condition_title_vehicleDamage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="quest_4_2_7_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 4000 урона технике противника</value>
+  </data>
+  <data name="quest_4_2_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 4 машины противника</value>
+  </data>
+  <data name="quest_4_2_8_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона тяжёлым танкам</value>
+  </data>
+  <data name="quest_4_2_8_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 5 машин противника</value>
+  </data>
+  <data name="quest_4_3_10_condition_description_vehicleDamage" xml:space="preserve">
+    <value>8 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_4_3_10_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 4 машины противника</value>
+  </data>
+  <data name="quest_4_3_11_condition_title_ram" xml:space="preserve">
+    <value>Таран</value>
+  </data>
+  <data name="quest_4_3_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 3000 урона технике противника</value>
+  </data>
+  <data name="quest_4_3_12_condition_title_fire" xml:space="preserve">
+    <value>Поджог</value>
+  </data>
+  <data name="quest_4_3_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести 8000 урона технике противника</value>
+  </data>
+  <data name="quest_4_3_14_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести 4000 урона технике противника</value>
+  </data>
+  <data name="quest_4_3_14_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 8 машин противника</value>
+  </data>
+  <data name="quest_4_3_15_condition_description_damaged" xml:space="preserve">
+    <value>Нанести урон 8 машинам</value>
+  </data>
+  <data name="quest_4_3_15_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести 3500 урона ПТ-САУ</value>
+  </data>
+  <data name="quest_4_3_2_condition_description_vehicleDamage" xml:space="preserve">
+    <value>15 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_4_3_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 5 машин противника</value>
+  </data>
+  <data name="quest_4_3_4_condition_description_crit" xml:space="preserve">
+    <value>Сбить 4 гусеницы</value>
+  </data>
+  <data name="quest_4_3_4_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести урон обездвиженной машине 4 раза</value>
+  </data>
+  <data name="quest_4_3_4_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 обездвиженные машины</value>
+  </data>
+  <data name="quest_4_3_5_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 лёгких танка</value>
+  </data>
+  <data name="quest_4_3_7_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести урон САУ 3 раза</value>
+  </data>
+  <data name="quest_4_3_7_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 1 САУ</value>
+  </data>
+  <data name="quest_4_3_8_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 2000 урона технике противника</value>
+  </data>
+  <data name="quest_4_3_8_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 средних танка</value>
+  </data>
+  <data name="quest_4_3_9_condition_description_vehicleDamage" xml:space="preserve">
+    <value>Нанести тяжёлым танкам 2000 урона</value>
+  </data>
+  <data name="quest_4_3_9_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 2 тяжёлых танка</value>
+  </data>
+  <data name="quest_4_4_11_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 4000 урона технике противника</value>
+  </data>
+  <data name="quest_4_4_12_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 4000 урона технике противника</value>
+  </data>
+  <data name="quest_4_4_12_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 3 тяжёлых танка</value>
+  </data>
+  <data name="quest_4_4_13_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 6 машин противника</value>
+  </data>
+  <data name="quest_4_4_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 8000 урона технике противника</value>
+  </data>
+  <data name="quest_4_4_15_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить 6 машин противника</value>
+  </data>
+  <data name="quest_4_4_2_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 5000 урона технике противника</value>
+  </data>
+  <data name="quest_4_4_3_condition_description_damaged" xml:space="preserve">
+    <value>Нанести урон 6 машинам противника</value>
+  </data>
+  <data name="quest_4_4_5_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 4000 урона технике противника</value>
+  </data>
+  <data name="quest_4_4_6_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 4 машины противника</value>
+  </data>
+  <data name="quest_4_4_9_condition_description_inBattleMaxPiercingSeries" xml:space="preserve">
+    <value>Пробить броню 6 раз подряд</value>
+  </data>
+  <data name="quest_4_4_9_condition_description_kills" xml:space="preserve">
+    <value>Уничтожить 5 машин противника</value>
+  </data>
+  <data name="quest_4_5_11_condition_description_multiStunEvent" xml:space="preserve">
+    <value>Дважды оглушить 3 машины противника одним выстрелом</value>
+  </data>
+  <data name="quest_4_5_11_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 200 секунд</value>
+  </data>
+  <data name="quest_4_5_12_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 200 секунд</value>
+  </data>
+  <data name="quest_4_5_13_condition_description_stunNum" xml:space="preserve">
+    <value>Оглушить технику противника 12 раз</value>
+  </data>
+  <data name="quest_4_5_13_condition_description_vehicleDamage" xml:space="preserve">
+    <value>10 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_4_5_14_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 250 секунд</value>
+  </data>
+  <data name="quest_4_5_15_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести 4000 урона технике противника</value>
+  </data>
+  <data name="quest_4_5_1_condition_description_stunNum" xml:space="preserve">
+    <value>Оглушить технику противника 10 раз</value>
+  </data>
+  <data name="quest_4_5_1_condition_description_vehicleDamage" xml:space="preserve">
+    <value>8 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_4_5_2_condition_description_stunDuration" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на 200 секунд</value>
+  </data>
+  <data name="quest_4_5_2_condition_description_vehicleKills" xml:space="preserve">
+    <value>Уничтожить 4 машины противника</value>
+  </data>
+  <data name="quest_4_5_3_condition_description_vehicleStun" xml:space="preserve">
+    <value>Оглушить тяжёлые танки или ПТ-САУ 8 раз</value>
+  </data>
+  <data name="quest_4_5_5_condition_description_vehicleDamage" xml:space="preserve">
+    <value>8 раз нанести урон технике противника</value>
+  </data>
+  <data name="quest_4_5_7_condition_description_stunned" xml:space="preserve">
+    <value>Оглушить 6 машин противника</value>
+  </data>
+  <data name="quest_common_condition_description_damageDealt" xml:space="preserve">
+    <value>Нанести урон технике противника</value>
+  </data>
+  <data name="tile_6" xml:space="preserve">
+    <value>«Chimera»</value>
+  </data>
+  <data name="tile_6_descr" xml:space="preserve">
+    <value>Комплекс боевых задач для всех типов техники на получение британского среднего танка Chimera.</value>
+  </data>
+  <data name="tile_7" xml:space="preserve">
+    <value>«Об. 279 (р)»</value>
+  </data>
+  <data name="tile_7_descr" xml:space="preserve">
+    <value>Комплекс боевых задач для всех типов техники на получение советского тяжёлого танка Объект 279 (р).</value>
   </data>
 </root>

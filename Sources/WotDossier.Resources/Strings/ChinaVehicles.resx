@@ -1478,4 +1478,58 @@ W-670-9A</value>
   <data name="_12150L7B" xml:space="preserve">
     <value>12150L7B</value>
   </data>
+  <data name="Ch01_Type59_long_special" xml:space="preserve">
+    <value>This Premium Chinese medium tank is based on the USSR T-54 tank and features similar armor protection and dynamic characteristics, allowing for effective gameplay. However, it is still a Chinese tank, which means it does not have great gun depression/elevation angles.</value>
+  </data>
+  <data name="Ch01_Type59_short_special" xml:space="preserve">
+    <value>Decent frontal armor, preferential matchmaking</value>
+  </data>
+  <data name="Ch02_Type62_long_special" xml:space="preserve">
+    <value>Please welcome this talented scout that will be perfect for training crew members for your top-tier Chinese light tanks. The nice view range and high HP pool together with a good gun will make you a truly indispensable member of your team.</value>
+  </data>
+  <data name="Ch02_Type62_short_special" xml:space="preserve">
+    <value>Good view range, sufficient amount of HP</value>
+  </data>
+  <data name="Ch03_WZ-111_long_special" xml:space="preserve">
+    <value>This is the right vehicle for fighting on the front line. It features reliable frontal armor, sloped armor plates, and an inaccurate but devastating gun that will help survive multiple enemy attacks. If the enemies are contesting the allied base, make the most of the tank's dynamics to return and organize an effective defense.</value>
+  </data>
+  <data name="Ch03_WZ-111_short_special" xml:space="preserve">
+    <value>Reliable turret, preferential matchmaking</value>
+  </data>
+  <data name="Ch14_T34_3_long_special" xml:space="preserve">
+    <value>This tank features a turret with reliable frontal armor. In addition, the T-34-3 has a low silhouette, which provides nice concealment. Though the gun accuracy is not outstanding, it causes a significant amount of damage per shot.</value>
+  </data>
+  <data name="Ch14_T34_3_short_special" xml:space="preserve">
+    <value>High damage per shot, sturdy turret armor</value>
+  </data>
+  <data name="Ch23_112_long_special" xml:space="preserve">
+    <value>Great damage per shot, reliable sloped armor, low silhouette, and good mobility: with this vehicle in your Garage, you will definitely want to hit Battle! again and again. However, its penetration and view range values are mediocre, which makes this tank best suited for close-range encounters.</value>
+  </data>
+  <data name="Ch23_112_short_special" xml:space="preserve">
+    <value>Good frontal armor, high damage per shot</value>
+  </data>
+  <data name="Ch24_Type64_long_special" xml:space="preserve">
+    <value>This light tank features an outstanding view range and top speed for its tier. However, its weak armor allows no mistakes in a battle. Nevertheless, this scout has many more advantages that compensate for its drawbacks.</value>
+  </data>
+  <data name="Ch24_Type64_short_special" xml:space="preserve">
+    <value>Good mobility and view range</value>
+  </data>
+  <data name="Ch25_121_mod_1971B_long_special" xml:space="preserve">
+    <value>High gun accuracy and penetration with HE shells make this tank a great support vehicle. However, its weak armor makes it unsuitable for playing on the first line of attack.</value>
+  </data>
+  <data name="Ch25_121_mod_1971B_short_special" xml:space="preserve">
+    <value>High accuracy, good HE shell penetration</value>
+  </data>
+  <data name="Ch26_59_Patton_long_special" xml:space="preserve">
+    <value>This vehicle features a remarkable view range and good gun characteristics. Besides this, the reliable frontal armor of this medium tank allows for effective gameplay. On the other hand, one should always keep its tall silhouette and mediocre dynamics in mind.</value>
+  </data>
+  <data name="Ch26_59_Patton_short_special" xml:space="preserve">
+    <value>Good gun and reliable armor</value>
+  </data>
+  <data name="Ch39_WZ120_1G_FT_long_special" xml:space="preserve">
+    <value>This tank destroyer has great concealment and reliable sloped armor, which allows it to better survive enemy fire. The vehicle's gun demonstrates good penetration and rate of fire, though mediocre accuracy.</value>
+  </data>
+  <data name="Ch39_WZ120_1G_FT_short_special" xml:space="preserve">
+    <value>High penetration rate, good concealment, suitable for all situations</value>
+  </data>
 </root>

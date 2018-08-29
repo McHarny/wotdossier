@@ -148,28 +148,28 @@
     <value>Acknowledged!</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item0/descr" xml:space="preserve">
-    <value>You receive orders for completion with honors of the last mission of each set. Orders can be used to complete missions automatically.</value>
+    <value>Please welcome a new type of mission that can be completed over a series of battles, instead of just one battle.</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item0/header" xml:space="preserve">
-    <value>Skip Missions for Orders</value>
+    <value>1. Missions</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item1/descr" xml:space="preserve">
-    <value>We simplified many missions (especially in first operations) and added new rewards for completion of operations: camouflage patterns and badges.</value>
+    <value>Now the progress towards personal missions can be monitored in a battle. This option is currently available only for the Second Front campaign.</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item1/header" xml:space="preserve">
-    <value>Easier Missions, Better Rewards!</value>
+    <value>2. Progress</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item2/descr" xml:space="preserve">
-    <value>For completion of each last mission, you receive one of five components for the award vehicle.</value>
+    <value>In the Second Front campaign, the missions are now distributed by formations, not by vehicle type.</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item2/header" xml:space="preserve">
-    <value>Earn 5 Components to Assemble the Vehicle</value>
+    <value>3. Conditions</value>
   </data>
   <data name="PersonalMissionFirstEntryView/subTitle" xml:space="preserve">
     <value>Changes in 9.20.1 Campaign</value>
   </data>
   <data name="PersonalMissionFirstEntryView/title" xml:space="preserve">
-    <value>New Features in Personal Missions</value>
+    <value>FAST FACTS ABOUT CAMPAIGNS</value>
   </data>
   <data name="PersonalMissionFirstEntryView/videoBtnLabel" xml:space="preserve">
     <value>Play Video</value>
@@ -223,10 +223,10 @@
     <value>Complete for %(count)d %(icon)s</value>
   </data>
   <data name="detailedView/conditionsFullylabel" xml:space="preserve">
-    <value>Secondary Conditions:</value>
+    <value>For completion with honors</value>
   </data>
   <data name="detailedView/conditionslabel" xml:space="preserve">
-    <value>Primary conditions:</value>
+    <value>Main part</value>
   </data>
   <data name="detailedView/declineBtnLabel" xml:space="preserve">
     <value>Cancel</value>
@@ -247,7 +247,7 @@
     <value>Claim Reward</value>
   </data>
   <data name="detailedView/retryBtnLabel" xml:space="preserve">
-    <value>Improve Result</value>
+    <value>Complete with Honors</value>
   </data>
   <data name="detailedView/startBtnLabel" xml:space="preserve">
     <value>Start</value>
@@ -256,7 +256,7 @@
     <value>Unavailable</value>
   </data>
   <data name="detailedView/status/completed" xml:space="preserve">
-    <value>Completed</value>
+    <value>Primary condition completed</value>
   </data>
   <data name="detailedView/status/fullyCompleted" xml:space="preserve">
     <value>Completed with honors</value>
@@ -280,7 +280,7 @@
     <value>This is your objective in battle that you must fulfill in order to receive the main reward for completing the mission.</value>
   </data>
   <data name="detailedView/tooltips/commonConditions/header" xml:space="preserve">
-    <value>Primary conditions</value>
+    <value>Primary condition</value>
   </data>
   <data name="detailedView/tooltips/declineBtn/body" xml:space="preserve">
     <value>Click to cancel this mission.</value>
@@ -289,7 +289,7 @@
     <value>Cancel Mission</value>
   </data>
   <data name="detailedView/tooltips/holdAwardSheetBtn/body" xml:space="preserve">
-    <value>Click to commit an order to the mission and complete primary conditions.</value>
+    <value>Click to commit an order to the mission and complete the primary condition.</value>
   </data>
   <data name="detailedView/tooltips/holdAwardSheetBtn/disabled/body" xml:space="preserve">
     <value>To receive orders, complete with honors the last missions in each set within any operation.</value>
@@ -307,22 +307,22 @@
     <value>?empty?</value>
   </data>
   <data name="detailedView/tooltips/retryBtn/body" xml:space="preserve">
-    <value>Click to improve the result by completing the primary and secondary conditions.</value>
+    <value>Click to improve the result by completing the primary and secondary condition.</value>
   </data>
   <data name="detailedView/tooltips/retryBtn/header" xml:space="preserve">
-    <value>Improve Result</value>
+    <value>Complete with Honors</value>
   </data>
   <data name="detailedView/tooltips/returnAwardListBtn/body" xml:space="preserve">
-    <value>Click to complete the primary and secondary conditions. If you complete the mission with honors, you will retrieve your order.</value>
+    <value>Click to complete the primary and secondary condition. If you complete the mission with honors, you will retrieve your order.</value>
   </data>
   <data name="detailedView/tooltips/returnAwardListBtn/header" xml:space="preserve">
-    <value>Improve Result</value>
+    <value>Retrieve Order</value>
   </data>
   <data name="detailedView/tooltips/startBtn/body" xml:space="preserve">
     <value>Click to start the mission. Complete the conditions and claim your reward.</value>
   </data>
   <data name="detailedView/tooltips/startBtn/header" xml:space="preserve">
-    <value>Start Mission</value>
+    <value>Start</value>
   </data>
   <data name="fourFreeSheetsObtainedPopup/button" xml:space="preserve">
     <value>Proceed</value>
@@ -369,10 +369,10 @@ any mission in a set.</value>
     <value>Committed to Mission: %(count)d</value>
   </data>
   <data name="freeSheetPopover/title" xml:space="preserve">
-    <value>Order</value>
+    <value>Orders</value>
   </data>
   <data name="header/backBtn/descrLabel/campaign" xml:space="preserve">
-    <value>TO CAMPAIGN</value>
+    <value>TO MAPS</value>
   </data>
   <data name="header/backBtn/descrLabel/hangar" xml:space="preserve">
     <value>TO GARAGE</value>
@@ -381,13 +381,13 @@ any mission in a set.</value>
     <value>BACK</value>
   </data>
   <data name="operationInfo/awardsButton/label" xml:space="preserve">
-    <value>Campaign Rewards</value>
+    <value>Operation Rewards</value>
   </data>
   <data name="operationInfo/label" xml:space="preserve">
-    <value>Campaign</value>
+    <value>Campaigns</value>
   </data>
   <data name="operationInfo/title" xml:space="preserve">
-    <value>The Long-Awaited Backup</value>
+    <value>Operations Map</value>
   </data>
   <data name="operationTitle/label/done" xml:space="preserve">
     <value>Orders: %(icon)s%(count)s/%(total)s  %(infoIcon)s</value>
@@ -420,7 +420,7 @@ any mission in a set.</value>
     <value>Press %(label)s to select a mission and try to claim a new reward.</value>
   </data>
   <data name="operationUnlockedWindow/header" xml:space="preserve">
-    <value>Operation %(title)s</value>
+    <value>Operation: %(title)s</value>
   </data>
   <data name="operationUnlockedWindow/nextButton" xml:space="preserve">
     <value>Start</value>
@@ -499,13 +499,13 @@ with honors</value>
     <value>Committed to missions: %(count)s</value>
   </data>
   <data name="statusPanel/status/allDone" xml:space="preserve">
-    <value>All missions in the %(vehicleClass)s set have been completed</value>
+    <value>All missions for %(vehicleClass)s have been completed</value>
   </data>
   <data name="statusPanel/status/allExcellentDone" xml:space="preserve">
-    <value>All missions in the %(vehicleClass)s set have been completed with honors</value>
+    <value>All missions for %(vehicleClass)s have been completed with honors</value>
   </data>
   <data name="statusPanel/status/freeSheet" xml:space="preserve">
-    <value>An Order Committed</value>
+    <value>An Order Was Committed</value>
   </data>
   <data name="statusPanel/status/improve" xml:space="preserve">
     <value>(Result improving)</value>
@@ -520,7 +520,7 @@ with honors</value>
     <value>(Retrieving %(count)d %(icon)s)</value>
   </data>
   <data name="statusPanel/status/selectTask" xml:space="preserve">
-    <value>Select a mission on the map</value>
+    <value>Select a mission to complete</value>
   </data>
   <data name="tankmoduleTooltipData/help/body" xml:space="preserve">
     <value>Can be received for fulfilling the primary conditions of the last mission in the %(vehType)s set.</value>
@@ -565,16 +565,16 @@ with honors</value>
     <value>Female Crew Member</value>
   </data>
   <data name="taskDetailsView/additionalConditions" xml:space="preserve">
-    <value>Secondary conditions</value>
+    <value>Secondary condition</value>
   </data>
   <data name="taskDetailsView/btnLabel/returnAwardSheet" xml:space="preserve">
-    <value>Improve Result</value>
+    <value>Retrieve Order</value>
   </data>
   <data name="taskDetailsView/btnLabel/returnAwardSheets" xml:space="preserve">
-    <value>Improve Result</value>
+    <value>Retrieve Order</value>
   </data>
   <data name="taskDetailsView/mainConditions" xml:space="preserve">
-    <value>Primary conditions</value>
+    <value>Primary condition</value>
   </data>
   <data name="useAwardSheetWindow/cancelBtn" xml:space="preserve">
     <value>Cancel</value>
@@ -601,7 +601,7 @@ with honors</value>
     <value>Complete</value>
   </data>
   <data name="useAwardSheetWindow/title" xml:space="preserve">
-    <value>Complete Main Conditions</value>
+    <value>Complete Primary Condition</value>
   </data>
   <data name="PersonalMissionsPlanRegion/mainAward/chassis" xml:space="preserve">
     <value>Suspension</value>
@@ -620,5 +620,365 @@ with honors</value>
   </data>
   <data name="PersonalMissionsPlanRegion/mainAward/radio" xml:space="preserve">
     <value>Radio</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/detailedDescription/btnBack" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/blocks/0/descr" xml:space="preserve">
+    <value>Missions, the conditions of which should be fulfilled during one battle.
+
+ Fulfil the primary condition to complete the mission.
+ You receive additional rewards for fulfilling both the primary and secondary mission conditions.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/blocks/0/title" xml:space="preserve">
+    <value>In One Battle</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/blocks/1/descr" xml:space="preserve">
+    <value>Mission progress in all battles is added together.
+
+ The progress towards the completion of the primary condition will be multiplied by a particular coefficient after completion of the secondary conditions in a battle.
+ Complete secondary conditions the indicated number of times to receive the reward.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/blocks/1/title" xml:space="preserve">
+    <value>Accumulative</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/blocks/2/descr" xml:space="preserve">
+    <value>The missions can be completed over a particular number of battles. If the condition is not fulfilled, the progress will be reset, and you will have to start over again.
+
+ The secondary condition that provides rewards is similar to the primary one, but requires a much higher completion result.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/blocks/2/title" xml:space="preserve">
+    <value>In a Number of Battles</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/innerDescr" xml:space="preserve">
+    <value>All missions have a specific completion condition based on a particular operation.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/warning" xml:space="preserve">
+    <value>When changing/cancelling a mission of a particular type, all its progress will be reset, and you will have to start all over again.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/blocks/0/descr" xml:space="preserve">
+    <value>The progress towards missions of the Second Front campaign is displayed in the battle interface.
+
+Remember that the progress towards particular conditions is calculated after the end of a battle. Some missions can be completed only on particular vehicle types, with no nation restrictions; the other missions require vehicles of particular nations for completion.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/blocks/0/title" xml:space="preserve">
+    <value>Progress Indicator in Battle</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/blocks/1/descr" xml:space="preserve">
+    <value>Particular missions have additional restrictions that should be considered in a battle:
+
+ Certain time for fulfilment of conditions (or their parts).
+ Limitation on the minimal value: for example, causing less than the required damage will result in zero progress towards the main condition, regardless of the actual amount of damage caused.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/blocks/1/title" xml:space="preserve">
+    <value>Restrictions</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/blocks/2/descr" xml:space="preserve">
+    <value>The screen with the detailed description of the currently active mission can always be opened in a battle by pressing the Tab key.
+
+Therefore, you can always check the mission description when in a battle if you forget a particular condition.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/blocks/2/title" xml:space="preserve">
+    <value>Monitoring</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/innerDescr" xml:space="preserve">
+    <value>The progress towards missions can be monitored when in a battle.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/0/descr" xml:space="preserve">
+    <value>Particular missions can be completed only on a specific type of vehicle (the model and nation are not counted).</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/0/title" xml:space="preserve">
+    <value>Vehicle Type</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/1/descr" xml:space="preserve">
+    <value>Some missions require vehicles of specific nations, with no restrictions on types. All missions are distributed into 4 formations:
+
+ Union: U.S.S.R., China.
+ Bloc: Germany, Japan.
+ Alliance: U.S.A., U.K., Poland.
+ Coalition: France, Sweden, Czechoslovakia, Italy.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/1/title" xml:space="preserve">
+    <value>Formations</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/2/descr" xml:space="preserve">
+    <value>Each operation has its own requirements for the minimum vehicle tier used to complete missions:
+
+ StuG IV: Tier IV-X vehicles.
+ T28 HTC: Tier VX vehicles.
+ Excalibur: Tier VI-X vehicles.
+ T 55A: Tier VI-X vehicles.
+ Object 260: Tier VI-X vehicles.
+ Chimera: Tier VII-X vehicles.
+ Object 279 (e): Tier VIII-X vehicles.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/2/title" xml:space="preserve">
+    <value>Vehicle Tier</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/3/descr" xml:space="preserve">
+    <value>All missions can be completed only in the Random Battles mode and its types.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/blocks/3/title" xml:space="preserve">
+    <value>Random Battles Mode</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/innerDescr" xml:space="preserve">
+    <value>The mission campaigns provide both common conditions and limitations that will be applied to a player during the completion of missions.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/warning" xml:space="preserve">
+    <value>Please carefully study the requirements of each mission.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/0/descr" xml:space="preserve">
+    <value>The main rewards are the unique vehicles that are awarded only for the completion of missions. Each campaign has its own rewards:
+
+ Long-Awaited Backup: Stug IV, T28 HTC, T 55A, Object 260.
+ Second Front: Excalibur, Chimera, Object 279 (e).</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/0/title" xml:space="preserve">
+    <value>Unique Vehicles</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/1/descr" xml:space="preserve">
+    <value>Each award vehicle has specific parts. Collect all the parts to receive the vehicle:
+
+ Componentsawarded for the completion of missions in the Long-Awaited Backup campaign.
+ Blueprintsawarded for the completion of missions in the Second Front campaign.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/1/title" xml:space="preserve">
+    <value>Components and Blueprints</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/2/descr" xml:space="preserve">
+    <value>A unique crew member that has the Brothers in Arms perk trained to 100% and provides a female voiceover for game events (when appointed the vehicle Commander).
+
+When recruiting, you can select the nation, qualification, and vehicle for this crew member, who will be trained to 100% for free.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/2/title" xml:space="preserve">
+    <value>Female Crew Member</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/3/descr" xml:space="preserve">
+    <value>In addition to vehicles, you can also receive other valuable rewards for the completion of missions.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/blocks/3/title" xml:space="preserve">
+    <value>Other Rewards</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/descr" xml:space="preserve">
+    <value>In the Second Front campaign, for the completion of each last mission in a set, you receive one of five blueprints for the award vehicle.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/header" xml:space="preserve">
+    <value>4. Rewards</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item3/innerDescr" xml:space="preserve">
+    <value>Complete missions to receive rewards and unique vehicles.</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/items/more" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/blueprintChassis" xml:space="preserve">
+    <value>Suspension Blueprints</value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/blueprintEngine" xml:space="preserve">
+    <value>Engine Blueprints</value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/blueprintGun" xml:space="preserve">
+    <value>Gun Blueprints</value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/blueprintHull" xml:space="preserve">
+    <value>Hull Blueprints</value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward/blueprintHullAndTurret" xml:space="preserve">
+    <value>Hull and Turret Blueprints</value>
+  </data>
+  <data name="alliance/0/details" xml:space="preserve">
+    <value>The staging ground for the landing and advancing of the Union forces.</value>
+  </data>
+  <data name="alliance/0/name" xml:space="preserve">
+    <value>Union</value>
+  </data>
+  <data name="alliance/1/details" xml:space="preserve">
+    <value>The staging ground for the landing and advancing of the Bloc forces.</value>
+  </data>
+  <data name="alliance/1/name" xml:space="preserve">
+    <value>Bloc</value>
+  </data>
+  <data name="alliance/2/details" xml:space="preserve">
+    <value>The staging ground for the landing and advancing of the Alliance forces.</value>
+  </data>
+  <data name="alliance/2/name" xml:space="preserve">
+    <value>Alliance</value>
+  </data>
+  <data name="alliance/3/details" xml:space="preserve">
+    <value>The staging ground for the landing and advancing of the Coalition forces.</value>
+  </data>
+  <data name="alliance/3/name" xml:space="preserve">
+    <value>Coalition</value>
+  </data>
+  <data name="awardsScreen/acceptBtn/label" xml:space="preserve">
+    <value>Acknowledged!</value>
+  </data>
+  <data name="awardsScreen/closeBtn/label" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="awardsScreen/header" xml:space="preserve">
+    <value>Operation %(missionName)s completed</value>
+  </data>
+  <data name="awardsScreen/header/fullyCompleted" xml:space="preserve">
+    <value>Operation %(missionName)s completed with honors</value>
+  </data>
+  <data name="awardsScreen/headerExtra" xml:space="preserve">
+    <value>REWARD EARNED!</value>
+  </data>
+  <data name="awardsView/description" xml:space="preserve">
+    <value>Main reward for the operation</value>
+  </data>
+  <data name="chainTooltipData/description/text/alliance0" xml:space="preserve">
+    <value>Operation missions can be completed only in vehicles of specified nations.</value>
+  </data>
+  <data name="chainTooltipData/description/text/alliance1" xml:space="preserve">
+    <value>Operation missions can be completed only in vehicles of specified nations.</value>
+  </data>
+  <data name="chainTooltipData/description/text/alliance2" xml:space="preserve">
+    <value>Operation missions can be completed only in vehicles of specified nations.</value>
+  </data>
+  <data name="chainTooltipData/description/text/alliance3" xml:space="preserve">
+    <value>Operation missions can be completed only in vehicles of specified nations.</value>
+  </data>
+  <data name="chainTooltipData/description/title" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="conditions/battlesLeft/bottomLabel" xml:space="preserve">
+    <value>Battles left: %(count)s</value>
+  </data>
+  <data name="conditions/biathlon/label/add" xml:space="preserve">
+    <value>Complete the secondary condition in %(goal)s battles out of %(limit)s</value>
+  </data>
+  <data name="conditions/biathlon/label/main" xml:space="preserve">
+    <value>Complete the primary condition in %(goal)s battles out of %(limit)s</value>
+  </data>
+  <data name="conditions/completed/bottomLabel" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="conditions/counter/label/add" xml:space="preserve">
+    <value>Complete the secondary condition the indicated number of times: %(count)s</value>
+  </data>
+  <data name="conditions/counter/label/main" xml:space="preserve">
+    <value>Complete the primary condition the indicated number of times: %(count)s</value>
+  </data>
+  <data name="conditions/currentProgress/bottomLabel" xml:space="preserve">
+    <value>Completed: %(currentProgress)s</value>
+  </data>
+  <data name="conditions/failed/bottomLabel" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="conditions/limited/label/add" xml:space="preserve">
+    <value>Complete the secondary condition in the indicated number of battles: %(count)s</value>
+  </data>
+  <data name="conditions/limited/label/main" xml:space="preserve">
+    <value>Complete the primary condition in the indicated number of battles: %(count)s</value>
+  </data>
+  <data name="conditions/limiter/label" xml:space="preserve">
+    <value>Restriction!</value>
+  </data>
+  <data name="conditions/multiplier" xml:space="preserve">
+    <value>x%(value)s bonus:</value>
+  </data>
+  <data name="conditions/multiplier/description" xml:space="preserve">
+    <value>Progress acceleration: complete the secondary condition to earn a x%(value)s increase in progress for the completion of the primary condition.</value>
+  </data>
+  <data name="conditions/orGroup" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="conditions/series/label/add" xml:space="preserve">
+    <value>Complete conditions in %(count)s battles in a row</value>
+  </data>
+  <data name="conditions/series/label/main" xml:space="preserve">
+    <value>Complete conditions in %(count)s battles in a row</value>
+  </data>
+  <data name="conditions/unlimited/label/add" xml:space="preserve">
+    <value>Complete the secondary condition over any number of battles</value>
+  </data>
+  <data name="conditions/unlimited/label/main" xml:space="preserve">
+    <value>Complete the primary condition over any number of battles</value>
+  </data>
+  <data name="header/backBtn/descrLabel/operation" xml:space="preserve">
+    <value>TO OPERATION</value>
+  </data>
+  <data name="operationInfo/chainVehReq" xml:space="preserve">
+    <value>Tier %(minLevel)s-%(maxLevel)s %(vehs)s</value>
+  </data>
+  <data name="operationInfo/operationBtn/postponed/days" xml:space="preserve">
+    <value>%(days)sd</value>
+  </data>
+  <data name="operationInfo/operationBtn/postponed/lessThanDay" xml:space="preserve">
+    <value>less than 1 Day</value>
+  </data>
+  <data name="operationTitle/label/inProgress/pm2" xml:space="preserve">
+    <value>Can be completed in vehicles: %(vehData)s</value>
+  </data>
+  <data name="operationTitle/label/inProgress/regular" xml:space="preserve">
+    <value>Can be completed in vehicles of the %(vehData)s set</value>
+  </data>
+  <data name="operationTitle/label/noVehicle/pm2" xml:space="preserve">
+    <value>Unavailable: no suitable vehicles %(vehData)s</value>
+  </data>
+  <data name="operationTitle/label/noVehicle/regular" xml:space="preserve">
+    <value>Unavailable: no suitable vehicles of the %(vehData)s set</value>
+  </data>
+  <data name="operationTitle/label/unlocked/pm2" xml:space="preserve">
+    <value>Select a mission to complete in %(vehData)s vehicles</value>
+  </data>
+  <data name="operationTitle/label/unlocked/regular" xml:space="preserve">
+    <value>Select a mission to complete in vehicles of the %(vehData)s set</value>
+  </data>
+  <data name="operations/title5" xml:space="preserve">
+    <value>Excalibur</value>
+  </data>
+  <data name="operations/title6" xml:space="preserve">
+    <value>Chimera</value>
+  </data>
+  <data name="operations/title7" xml:space="preserve">
+    <value>Object 279 (e)</value>
+  </data>
+  <data name="questAwardScreen/continueBtn/label" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="questAwardScreen/nextQuest/title/questAccept" xml:space="preserve">
+    <value>The following mission has been automatically accepted:</value>
+  </data>
+  <data name="questAwardScreen/nextQuest/title/questImprove" xml:space="preserve">
+    <value>By clicking Continue, you will start improving your mission result:</value>
+  </data>
+  <data name="questAwardScreen/nextQuestBtn/label" xml:space="preserve">
+    <value>Next mission</value>
+  </data>
+  <data name="questAwardScreen/okBtn/label" xml:space="preserve">
+    <value>Acknowledged!</value>
+  </data>
+  <data name="questAwardScreen/operation" xml:space="preserve">
+    <value>Operation %(operation)s</value>
+  </data>
+  <data name="questAwardScreen/quest" xml:space="preserve">
+    <value>Mission "%(quest)s" Completed!</value>
+  </data>
+  <data name="questAwardScreen/recruitBtn/label" xml:space="preserve">
+    <value>Recruit</value>
+  </data>
+  <data name="questProgressTracking/trackingStatus" xml:space="preserve">
+    <value>Both missions are being completed at the moment</value>
+  </data>
+  <data name="tankmoduleTooltipData/alliance/help/body" xml:space="preserve">
+    <value>Can be received for fulfilling the primary conditions of the last mission in the %(vehType)s set.</value>
+  </data>
+  <data name="tankmoduleTooltipData/alliance/info" xml:space="preserve">
+    <value>The blueprint is required to receive the %(vehName)s</value>
+  </data>
+  <data name="tankmoduleTooltipData/status/alliance/notObtained" xml:space="preserve">
+    <value>Blueprint not received</value>
+  </data>
+  <data name="tankmoduleTooltipData/status/alliance/obtained" xml:space="preserve">
+    <value>Blueprint received</value>
+  </data>
+  <data name="useAwardSheetWindow/pm2/noVehicle" xml:space="preserve">
+    <value>Vehicles required to retrieve the order: %(vehicleClass)s.</value>
+  </data>
+  <data name="useAwardSheetWindow/regular/noVehicle" xml:space="preserve">
+    <value>Vehicles required to retrieve the order: %(vehicleClass)s.</value>
   </data>
 </root>

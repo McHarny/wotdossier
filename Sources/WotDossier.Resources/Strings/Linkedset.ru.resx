@@ -178,16 +178,16 @@
     <value>Продайте со Склада неиспользуемый модуль.</value>
   </data>
   <data name="missions/quests/desc/2_5" xml:space="preserve">
-    <value>На машине III-X уровня с установленным во все слоты снаряжением проведите указанное количество Случайных боёв: %(total_progress)s</value>
+    <value>Проведите %(total_progress)s Случайных боёв на машине III-X уровня с установленным во все слоты снаряжением.</value>
   </data>
   <data name="missions/quests/desc/2_6" xml:space="preserve">
     <value>Нанесите любой элемент внешнего вида на машину III-X уровня и выйдите в Случайный бой.</value>
   </data>
   <data name="missions/quests/desc/2_7" xml:space="preserve">
-    <value>На машине IV-X уровня с любым установленным оборудованием проведите указанное количество Случайных боёв: %(total_progress)s</value>
+    <value>Проведите %(total_progress)s Случайных боёв на машине IV-X уровня с любым установленным оборудованием.</value>
   </data>
   <data name="missions/quests/desc/2_8" xml:space="preserve">
-    <value>На машине IV-X уровня с любым активированным резервом проведите указанное количество Случайных боёв: %(total_progress)s</value>
+    <value>Проведите %(total_progress)s Случайных боёв на машине IV-X уровня с любым активированным резервом.</value>
   </data>
   <data name="missions/quests/desc/3_1" xml:space="preserve">
     <value>Исследуйте любую машину IV уровня.</value>
@@ -329,7 +329,7 @@
 Награда за выполнение всех задач была получена.</value>
   </data>
   <data name="reward_for_completed_quest" xml:space="preserve">
-    <value>Задача %(quest_name)s» выполнена.
+    <value>Задача «%(quest_name)s» выполнена.
 Награда получена.</value>
   </data>
   <data name="reward_for_uncompleted_mission" xml:space="preserve">

@@ -2836,4 +2836,34 @@ mle. 1934</value>
   <data name="_90mm_POT_90_D_919" xml:space="preserve">
     <value>POT-90 D. 919</value>
   </data>
+  <data name="F68_AMX_Chasseur_de_char_46_long_special" xml:space="preserve">
+    <value>This is one of the fastest vehicles in its tier. Moreover, it is equipped with a perfect gun. Its speed compensates for its weak armor, which makes the vehicle vulnerable to any hit. But this is still a hard target to hit!</value>
+  </data>
+  <data name="F68_AMX_Chasseur_de_char_46_short_special" xml:space="preserve">
+    <value>Reliable gun, prefect speed, good view range</value>
+  </data>
+  <data name="F69_AMX13_57_100_long_special" xml:space="preserve">
+    <value>This French light tank is equipped with a gun that features a magazine reloading system with enormous damage potential. It is best used in close combat—its ten shells cause a huge amount of damage in a short period of time.</value>
+  </data>
+  <data name="F69_AMX13_57_100_short_special" xml:space="preserve">
+    <value>High accuracy and fire rate</value>
+  </data>
+  <data name="F73_M4A1_Revalorise_long_special" xml:space="preserve">
+    <value>This medium tank is equipped with a powerful gun that features high damage per shot, good depression angles, and high shell velocity, which allows the vehicle to turn the tide of the most desperate battle. The good view range allows for spotting an enemy vehicle and securing the first hit. However, keep in mind that the tank's armoring and mobility are rather mediocre.</value>
+  </data>
+  <data name="F73_M4A1_Revalorise_short_special" xml:space="preserve">
+    <value>A good gun that causes high damage per shot</value>
+  </data>
+  <data name="F74_AMX_M4_1949_long_special" xml:space="preserve">
+    <value>This tank features reliable frontal armor that stands out from French vehicles. Make use of it when breaking through enemy lines or fighting in positional close-range combat. Besides this, the tank has thick armor and a good gun with a high penetration rate and solid depression angles.</value>
+  </data>
+  <data name="F74_AMX_M4_1949_short_special" xml:space="preserve">
+    <value>Good frontal armor, high penetration rate</value>
+  </data>
+  <data name="FCM_50t_long_special" xml:space="preserve">
+    <value>This heavy tank generally features the gameplay of a medium one: its rather fast, though large, it has a perfect gun and view range. On the other hand, it does not have much armor, thus it is more of a support vehicle than anything else.</value>
+  </data>
+  <data name="FCM_50t_short_special" xml:space="preserve">
+    <value>Good gun, perfect view range, preferential matchmaking</value>
+  </data>
 </root>

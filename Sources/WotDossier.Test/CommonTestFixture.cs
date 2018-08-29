@@ -100,7 +100,9 @@ namespace WotDossier.Test
             //new ClientInfo{ClientPath= @"s:\WorldOfTanks", PatchVer="0.9.21", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.21"},
 	        //new ClientInfo{ClientPath= @"s:\WorldOfTanks", PatchVer="1.0.0", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 1.0.0"},
 	        //new ClientInfo{ClientPath= @"s:\WorldOfTanks", PatchVer="1.0.1", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 1.0.1"},
-	        new ClientInfo{ClientPath= @"s:\WorldOfTanks", PatchVer="1.0.2", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 1.0.2"},
+	        //new ClientInfo{ClientPath= @"s:\WorldOfTanks", PatchVer="1.0.2", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 1.0.2"},
+            //new ClientInfo{ClientPath= @"s:\WorldOfTanks", PatchVer="1.0.2.4", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 1.0.2"},
+	        new ClientInfo{ClientPath= @"s:\WorldOfTanks", PatchVer="1.1.0.0", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - ST"},
 
 
 
@@ -1073,7 +1075,7 @@ namespace WotDossier.Test
 	        var prevVer = "";
             foreach (var client in clients.Where(c => string.IsNullOrEmpty(processedPatch) || c.PatchVer == processedPatch))
             {
-                CopyScriptsForDecompileCopied(client);
+                //CopyScriptsForDecompileCopied(client);
 
                 EnshureScriptsCopied(client);
                 EnshureGameTextResources(client);

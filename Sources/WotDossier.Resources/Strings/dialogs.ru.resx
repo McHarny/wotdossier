@@ -1260,7 +1260,7 @@
     <value>ОК</value>
   </data>
   <data name="voiceChatInitFailed/message" xml:space="preserve">
-    <value>Ошибка инициализации голосовой связи. Возможно, инициализация была заблокирована вашим фаерволом.</value>
+    <value>Ошибка инициализации голосовой связи: сервис временно недоступен.</value>
   </data>
   <data name="voiceChatInitFailed/title" xml:space="preserve">
     <value>Инициализация голосовой связи</value>
@@ -2810,13 +2810,13 @@
     <value>Отменить</value>
   </data>
   <data name="boostersWindow/activationConfirmation/message" xml:space="preserve">
-    <value>При активации личного резерва %(newBoosterName)s будет отменён и исчезнет действующий %(curBoosterName)s.</value>
+    <value>Активировать резерв %(newBoosterName)s</value>
   </data>
   <data name="boostersWindow/activationConfirmation/submit" xml:space="preserve">
     <value>Подтвердить</value>
   </data>
   <data name="boostersWindow/activationConfirmation/title" xml:space="preserve">
-    <value>Подтверждение активации резерва</value>
+    <value>Подтверждение активации</value>
   </data>
   <data name="common/cancel" xml:space="preserve">
     <value>Отменить</value>
@@ -3921,5 +3921,52 @@
   </data>
   <data name="quitBattleEvent/deserter/title" xml:space="preserve">
     <value>Бегство с футбольного поля</value>
+  </data>
+  <data name="boostersWindow/replaceConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="boostersWindow/replaceConfirmation/message" xml:space="preserve">
+    <value>При активации личного резерва %(newBoosterName)s будет отменён и исчезнет действующий %(curBoosterName)s.</value>
+  </data>
+  <data name="boostersWindow/replaceConfirmation/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="boostersWindow/replaceConfirmation/title" xml:space="preserve">
+    <value>Подтверждение активации</value>
+  </data>
+  <data name="ingameShopDisabled/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="ingameShopDisabled/message" xml:space="preserve">
+    <value>Магазин временно недоступен. Повторите попытку позже.</value>
+  </data>
+  <data name="ingameShopDisabled/title" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="questsConfirmProgressDialog/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="questsConfirmProgressDialog/message" xml:space="preserve">
+    <value>При выборе боевой задачи «%(newQuest)s» прогресс по задаче «%(oldQuest)s» будет сброшен.
+&lt;font color="#D39337"&gt;Внимание! Весь прогресс по текущей боевой задаче будет утерян&lt;/font&gt;</value>
+  </data>
+  <data name="questsConfirmProgressDialog/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="questsConfirmProgressDialog/title" xml:space="preserve">
+    <value>Подтверждение выбора задачи</value>
+  </data>
+  <data name="questsDismissProgressDialog/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="questsDismissProgressDialog/message" xml:space="preserve">
+    <value>Боевая задача «%(quest)s» будет отменена.
+&lt;font color="#D39337"&gt;Внимание! Весь прогресс по текущей боевой задаче будет утерян&lt;/font&gt;</value>
+  </data>
+  <data name="questsDismissProgressDialog/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="questsDismissProgressDialog/title" xml:space="preserve">
+    <value>Подтверждение отказа от задачи</value>
   </data>
 </root>

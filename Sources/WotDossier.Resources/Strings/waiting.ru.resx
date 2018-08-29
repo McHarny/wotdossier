@@ -145,7 +145,7 @@
     <value> ...</value>
   </data>
   <data name="customizationApply" xml:space="preserve">
-    <value>Кастомизация...</value>
+    <value>Применение...</value>
   </data>
   <data name="customizationDrop" xml:space="preserve">
     <value>Удаление...</value>
@@ -695,5 +695,8 @@
   </data>
   <data name="download/epicMetaGame" xml:space="preserve">
     <value>Синхронизация данных игрока...</value>
+  </data>
+  <data name="sellItems" xml:space="preserve">
+    <value>Продажа...</value>
   </data>
 </root>

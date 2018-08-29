@@ -2777,4 +2777,104 @@ Personal rating is updated with increasing number of battles fought.</value>
   <data name="rankedBattlesHeroProgress_descr" xml:space="preserve">
     <value>Achieve the highest rank in Ranked Battles mode.</value>
   </data>
+  <data name="medalKursk" xml:space="preserve">
+    <value>Hero of the Battle of Kursk</value>
+  </data>
+  <data name="medalKursk_condition" xml:space="preserve">
+    <value>• Awarded to all players who fulfilled the respective conditions during the event.</value>
+  </data>
+  <data name="medalKursk_descr" xml:space="preserve">
+    <value>Complete 5 missions during the Battle of Kursk event.</value>
+  </data>
+  <data name="newMeritPM2" xml:space="preserve">
+    <value>Back on Track</value>
+  </data>
+  <data name="newMeritPM2_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="newMeritPM2_descr" xml:space="preserve">
+    <value>Complete any 5 personal missions of the second campaign.</value>
+  </data>
+  <data name="newMeritPM2_notification" xml:space="preserve">
+    <value>For the successful completion of personal missions of the second campaign you receive the award: Back on Track medal.</value>
+  </data>
+  <data name="readyForBattleAllianceFrance" xml:space="preserve">
+    <value>Exemplary Performance: Coalition</value>
+  </data>
+  <data name="readyForBattleAllianceFrance_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleAllianceFrance_descr" xml:space="preserve">
+    <value>For completion with honors of personal missions for Coalition during the Second Front campaign.</value>
+  </data>
+  <data name="readyForBattleAllianceFrance_notification1" xml:space="preserve">
+    <value>Complete with honors 45 personal missions for Coalition. Reward: Exemplary Performance: Coalition medal, Class I.</value>
+  </data>
+  <data name="readyForBattleAllianceFrance_notification2" xml:space="preserve">
+    <value>Complete with honors 30 personal missions for Coalition. Reward: Exemplary Performance: Coalition medal, Class II.</value>
+  </data>
+  <data name="readyForBattleAllianceFrance_notification3" xml:space="preserve">
+    <value>Complete with honors 15 personal missions for Coalition. Reward: Exemplary Performance: Coalition medal, Class III.</value>
+  </data>
+  <data name="readyForBattleAllianceGermany" xml:space="preserve">
+    <value>Exemplary Performance: Bloc</value>
+  </data>
+  <data name="readyForBattleAllianceGermany_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleAllianceGermany_descr" xml:space="preserve">
+    <value>For completion with honors of personal missions for Bloc during the Second Front campaign.</value>
+  </data>
+  <data name="readyForBattleAllianceGermany_notification1" xml:space="preserve">
+    <value>Complete with honors 45 personal missions for Bloc. Reward: Exemplary Performance: Bloc medal, Class I.</value>
+  </data>
+  <data name="readyForBattleAllianceGermany_notification2" xml:space="preserve">
+    <value>Complete with honors 30 personal missions for Bloc. Reward: Exemplary Performance: Bloc medal, Class II.</value>
+  </data>
+  <data name="readyForBattleAllianceGermany_notification3" xml:space="preserve">
+    <value>Complete with honors 15 personal missions for Bloc. Reward: Exemplary Performance: Bloc medal, Class III.</value>
+  </data>
+  <data name="readyForBattleAllianceUSA" xml:space="preserve">
+    <value>Exemplary Performance: Alliance</value>
+  </data>
+  <data name="readyForBattleAllianceUSA_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleAllianceUSA_descr" xml:space="preserve">
+    <value>For completion with honors of personal missions for Alliance during the Second Front campaign.</value>
+  </data>
+  <data name="readyForBattleAllianceUSA_notification1" xml:space="preserve">
+    <value>Complete with honors 45 personal missions for Alliance. Reward: Exemplary Performance: Alliance medal, Class I.</value>
+  </data>
+  <data name="readyForBattleAllianceUSA_notification2" xml:space="preserve">
+    <value>Complete with honors 30 personal missions for Alliance. Reward: Exemplary Performance: Alliance medal, Class II.</value>
+  </data>
+  <data name="readyForBattleAllianceUSA_notification3" xml:space="preserve">
+    <value>Complete with honors 15 personal missions for Alliance. Reward: Exemplary Performance: Alliance medal, Class III.</value>
+  </data>
+  <data name="readyForBattleAllianceUSSR" xml:space="preserve">
+    <value>Exemplary Performance: Union</value>
+  </data>
+  <data name="readyForBattleAllianceUSSR_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleAllianceUSSR_descr" xml:space="preserve">
+    <value>For completion with honors of personal missions for Union during the Second Front campaign.</value>
+  </data>
+  <data name="readyForBattleAllianceUSSR_notification1" xml:space="preserve">
+    <value>Complete with honors 45 personal missions for Union. Reward: Exemplary Performance: Union medal, Class I.</value>
+  </data>
+  <data name="readyForBattleAllianceUSSR_notification2" xml:space="preserve">
+    <value>Complete with honors 30 personal missions for Union. Reward: Exemplary Performance: Union medal, Class II.</value>
+  </data>
+  <data name="readyForBattleAllianceUSSR_notification3" xml:space="preserve">
+    <value>Complete with honors 15 personal missions for Union. Reward: Exemplary Performance: Union medal, Class III.</value>
+  </data>
+  <data name="tankExpert9" xml:space="preserve">
+    <value>Expert: Poland</value>
+  </data>
+  <data name="tankExpert9_descr" xml:space="preserve">
+    <value>Destroy all vehicles from the Polish Tech Tree except Premium and award vehicles.
+• Vehicles destroyed in Random Battles, Team Battles, Tank Company Battles, Advances, battles on the Global Map, and the Proving Ground mode (first 10 battles) are counted.</value>
+  </data>
 </root>

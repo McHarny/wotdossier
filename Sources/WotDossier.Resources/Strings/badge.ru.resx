@@ -283,7 +283,7 @@
     <value>Чемпион I кампании</value>
   </data>
   <data name="badge_18_descr" xml:space="preserve">
-    <value>Выдаётся за выполнение всех личных боевых задач всех операций I кампании с отличием.</value>
+    <value>Выдаётся за выполнение всех личных боевых задач всех операций кампании «Долгожданное подкрепление» с отличием.</value>
   </data>
   <data name="badge_19" xml:space="preserve">
     <value>Танковый ас: VII уровень</value>
@@ -388,6 +388,78 @@
     <value>Герой «Гонки вооружений»</value>
   </data>
   <data name="badge_35_descr" xml:space="preserve">
-    <value>За попадание в число 10% лучших игроков «Гонки вооружений» — игрового события на Глобальной карте.</value>
+    <value>Во время игрового события «Гонка вооружений» провести не менее 10 боёв на Глобальной карте в составе клана, попавшего в число 10% лучших кланов операции.</value>
+  </data>
+  <data name="badge_36" xml:space="preserve">
+    <value>Excalibur: нашивка II степени</value>
+  </data>
+  <data name="badge_36_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение достаточного количества задач для получения ПТ-САУ Excalibur.</value>
+  </data>
+  <data name="badge_37" xml:space="preserve">
+    <value>Excalibur: нашивка I степени</value>
+  </data>
+  <data name="badge_37_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех задач операции «Excalibur» с отличием.</value>
+  </data>
+  <data name="badge_38" xml:space="preserve">
+    <value>Chimera: нашивка II степени</value>
+  </data>
+  <data name="badge_38_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение достаточного количества задач для получения среднего танка Chimera.</value>
+  </data>
+  <data name="badge_39" xml:space="preserve">
+    <value>Chimera: нашивка I степени</value>
+  </data>
+  <data name="badge_39_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех задач операции «Chimera» с отличием.</value>
+  </data>
+  <data name="badge_40" xml:space="preserve">
+    <value>Объект 279 (р): нашивка II степени</value>
+  </data>
+  <data name="badge_40_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение достаточного количества задач для получения тяжёлого танка Объект 279 (р).</value>
+  </data>
+  <data name="badge_41" xml:space="preserve">
+    <value>Объект 279 (р): нашивка I степени</value>
+  </data>
+  <data name="badge_41_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех задач операции «Объект 279 (р)» с отличием.</value>
+  </data>
+  <data name="badge_42" xml:space="preserve">
+    <value>Ветеран Второго фронта</value>
+  </data>
+  <data name="badge_42_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех личных боевых задач всех операций кампании «Второй фронт» с отличием.</value>
+  </data>
+  <data name="badge_43" xml:space="preserve">
+    <value>ВБР</value>
+  </data>
+  <data name="badge_43_descr" xml:space="preserve">
+    <value>Выдаётся за попадание в регулярную передачу на YouTube – «ВБР»</value>
+  </data>
+  <data name="badge_44" xml:space="preserve">
+    <value>Yushaтали всех!</value>
+  </data>
+  <data name="badge_44_descr" xml:space="preserve">
+    <value>Победитель события «Битва блогеров» в составе команды Yusha.</value>
+  </data>
+  <data name="badge_45" xml:space="preserve">
+    <value>«Нагибатор»</value>
+  </data>
+  <data name="badge_45_descr" xml:space="preserve">
+    <value>Победитель события «Битва блогеров» в составе команды Jove.</value>
+  </data>
+  <data name="badge_46" xml:space="preserve">
+    <value>За Амвэя и двор</value>
+  </data>
+  <data name="badge_46_descr" xml:space="preserve">
+    <value>Победитель события «Битва блогеров» в составе команды Amway921.</value>
+  </data>
+  <data name="badge_47" xml:space="preserve">
+    <value>Одной левой</value>
+  </data>
+  <data name="badge_47_descr" xml:space="preserve">
+    <value>Победитель события «Битва блогеров» в составе команды LeBwa.</value>
   </data>
 </root>

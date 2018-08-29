@@ -4412,4 +4412,76 @@ TRM P45</value>
     <value>Maybach HL 295
 Ausf. A</value>
   </data>
+  <data name="DickerMax_long_special" xml:space="preserve">
+    <value>This tank destroyer is not very fast. However, it is equipped with an excellent gun for its tier that has no drawbacks. The open cabin provides a perfect view range, but makes the vehicle more vulnerable—it can easily be penetrated, which makes this tank destroyer best suited for ambush gameplay.</value>
+  </data>
+  <data name="DickerMax_short_special" xml:space="preserve">
+    <value>Perfect view range and gun depression angles, high damage per shot</value>
+  </data>
+  <data name="G106_PzKpfwPanther_AusfF_long_special" xml:space="preserve">
+    <value>The good view range and reliable gun make this tank a perfect support vehicle. Meanwhile, if an enemy gets too close, it can stand up for itself in a close-range encounter due to its weight and efficient ramming capabilities.</value>
+  </data>
+  <data name="G106_PzKpfwPanther_AusfF_short_special" xml:space="preserve">
+    <value>Good gun and view range, efficient ramming capabilities</value>
+  </data>
+  <data name="G109_Steyr_WT_long_special" xml:space="preserve">
+    <value>This is a great ambush tank destroyer featuring good concealment. The good gun and firing arc will come in handy against any enemy vehicle. However, stay away from close combat, this tank destroyer literally has no armoring.</value>
+  </data>
+  <data name="G109_Steyr_WT_short_special" xml:space="preserve">
+    <value>Great gun, good concealment</value>
+  </data>
+  <data name="G114_Skorpian_long_special" xml:space="preserve">
+    <value>This powerful tank destroyer is equipped with a full-rotation turret and effective gun. Thanks to its characteristics, the vehicle is always in the right place at the right time, ready to cause considerable damage from any distance. Do not overestimate its weak armor and stay safe for as long as possible.</value>
+  </data>
+  <data name="G114_Skorpian_short_special" xml:space="preserve">
+    <value>Good accuracy, high damage per shot</value>
+  </data>
+  <data name="G118_VK4503_long_special" xml:space="preserve">
+    <value>The good German gun and view range are the main advantages of this vehicle. It can hit enemies from any distance. Besides this, its armor is rather thin, thus players need to avoid close-range encounters and be cautious.</value>
+  </data>
+  <data name="G118_VK4503_short_special" xml:space="preserve">
+    <value>Good gun and survivability</value>
+  </data>
+  <data name="G119_Pz58_Mutz_long_special" xml:space="preserve">
+    <value>This medium tank is fast and maneuverable, which makes it a good support vehicle. Besides this, it has a good gun that features good penetration and depression angles. It also has sloped armor that may sometimes deflect enemy shells.</value>
+  </data>
+  <data name="G119_Pz58_Mutz_short_special" xml:space="preserve">
+    <value>Good dynamics and view range, reliable gun</value>
+  </data>
+  <data name="JagdTiger_SdKfz_185_long_special" xml:space="preserve">
+    <value>This is a version of the Jagdtiger, equipped with a less powerful but more accurate and rapid-firing 88 mm gun. It features rather reliable frontal armoring, which allows it to play like a heavy tank. However, players should keep in mind that the vehicle is rather slow, does not have a turret, and has vulnerable sides.</value>
+  </data>
+  <data name="JagdTiger_SdKfz_185_short_special" xml:space="preserve">
+    <value>Good rate of fire and accuracy</value>
+  </data>
+  <data name="Lowe_long_special" xml:space="preserve">
+    <value>The tank has a perfect, accurate gun and good armoring. However, it has a low movement speed. It is mainly used as a support heavy tank that can easily defend flanks. A pack of these tanks can dramatically change the situation in a battle.</value>
+  </data>
+  <data name="Lowe_short_special" xml:space="preserve">
+    <value>Good gun featuring perfect penetration, reliable armoring</value>
+  </data>
+  <data name="Panther_M10_long_special" xml:space="preserve">
+    <value>First of all, this tank never fights against Tier IX enemies due to its preferential matchmaking. This vehicle has reasonable durability, which may sometimes compensate for a lack of skill. In addition, it is equipped with an accurate and rapid-firing gun.</value>
+  </data>
+  <data name="Panther_M10_short_special" xml:space="preserve">
+    <value>High accuracy and rate of fire, great amount of HP</value>
+  </data>
+  <data name="S35_captured_long_special" xml:space="preserve">
+    <value>The gun mounted on this tank does not cause much damage per hit, however it aims quickly and fires rapidly. As for the vehicle's frontal armoring, it can withstand fire from almost any automatic gun. The vehicle also features rather good mobility.</value>
+  </data>
+  <data name="S35_captured_short_special" xml:space="preserve">
+    <value>High rate of fire and good armoring</value>
+  </data>
+  <data name="T-15_long_special" xml:space="preserve">
+    <value>This is one of the best scouts in its tier: it features good movement speed, maneuverability, view range, small size, and signal range. However, this tank does not have a powerful gun, so players should focus on reconnaissance.</value>
+  </data>
+  <data name="T-15_short_special" xml:space="preserve">
+    <value>Good view range and signal range, high movement speed and mobility</value>
+  </data>
+  <data name="T-25_long_special" xml:space="preserve">
+    <value>This vehicle features rather good top and reverse speeds, but has mediocre maneuverability. The gun has good depression angles, penetration, and rate of fire. This tank can be used for effectively training crew members for German medium tanks.</value>
+  </data>
+  <data name="T-25_short_special" xml:space="preserve">
+    <value>Good mobility, sufficient amount of HP</value>
+  </data>
 </root>

@@ -651,4 +651,10 @@ from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
   <data name="invites/text/EPIC" xml:space="preserve">
     <value>%(titleStartTag)sInvitation to join Frontline platoon%(titleEndTag)s</value>
   </data>
+  <data name="invites/note/change_and_leave/RANKED" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit the Ranked Battle mode and be transferred to the %(host)s server.</value>
+  </data>
+  <data name="invites/note/leave/RANKED" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit the Ranked Battle mode.</value>
+  </data>
 </root>

@@ -1795,7 +1795,7 @@ Players are added to the team upon the Commander's invitation. Click to display.
     <value>No vehicles complying with the requirements for this slot in the Garage.</value>
   </data>
   <data name="cyberSport/unit/slotLabelUnavailable/header" xml:space="preserve">
-    <value>No suitable vehicles</value>
+    <value>No Suitable Vehicles</value>
   </data>
   <data name="cyberSport/unit/sumLevel/bodyError" xml:space="preserve">
     <value>Total tier of vehicles exceeds the maximum allowable value.</value>
@@ -1891,7 +1891,7 @@ The Commander selects team members from volunteers.</value>
 comply with the requirements:</value>
   </data>
   <data name="suitableVehicle/unsuitable" xml:space="preserve">
-    <value>No suitable vehicles</value>
+    <value>No Suitable Vehicles</value>
   </data>
   <data name="tankCarusel/lock/ROAMING" xml:space="preserve">
     <value>Server limit due to
@@ -2525,10 +2525,10 @@ Players in garrison: %(count)s of %(maxCount)s.</value>
     <value>Invite Players</value>
   </data>
   <data name="fortification/sortie/battleRoom/leaveBtn/body" xml:space="preserve">
-    <value>Click to leave the current detachment and go to the detachment list.</value>
+    <value>Click to leave the current detachment and go to assembly.</value>
   </data>
   <data name="fortification/sortie/battleRoom/leaveBtn/header" xml:space="preserve">
-    <value>Go to Detachment List</value>
+    <value>Go to detachment assembly</value>
   </data>
   <data name="fortification/sortie/battleRoom/status/commander" xml:space="preserve">
     <value>Detachment Commander</value>
@@ -2959,7 +2959,7 @@ view mode details.</value>
     <value>This player is a legionnaire. Legionnaires can be invited to take part in Skirmishes. A maximum of five legionnaires are allowed in a detachment.</value>
   </data>
   <data name="fortification/battleRoomLegionaries/header" xml:space="preserve">
-    <value>Legionnaire</value>
+    <value>Legionnaires</value>
   </data>
   <data name="fortification/battleRoomLegionaries/teamSection/body" xml:space="preserve">
     <value>This player is a legionnaire. Legionnaires can be invited to take part in Skirmishes. A maximum of five legionnaires are allowed in a detachment.</value>
@@ -3888,7 +3888,7 @@ Correct time for your region: %(server)s</value>
     <value>Status</value>
   </data>
   <data name="header/versionInfoHint" xml:space="preserve">
-    <value>The Information window on the current update
+    <value>The Field Post Office
 can be opened via the Game Menu in the Garage.</value>
   </data>
   <data name="lobby/header/buyPremiumAccount/disabled/body" xml:space="preserve">
@@ -5832,9 +5832,7 @@ Earned in battles or purchased with gold.</value>
     <value>Free Experience</value>
   </data>
   <data name="awardItem/gold/body" xml:space="preserve">
-    <value>A valuable in-game currency. You can use it to purchase Premium Account and vehicles,
-permanent camouflage, inscriptions, emblems, etc.
-You can also use gold to convert Free Experience.</value>
+    <value>A valuable in-game currency. You can use it to purchase Premium Account, vehicles, etc.</value>
   </data>
   <data name="awardItem/gold/header" xml:space="preserve">
     <value>Gold</value>
@@ -5977,7 +5975,7 @@ of the customization elements filter to default.</value>
     <value>Customization elements that were not purchased or applied will not be saved.</value>
   </data>
   <data name="customization/headerCloseBtn/header" xml:space="preserve">
-    <value>Return to Garage</value>
+    <value>Back to Garage</value>
   </data>
   <data name="customization/notEnoughResources/body" xml:space="preserve">
     <value>To purchase the selected customization elements, you need %(count)s more.</value>
@@ -6323,7 +6321,7 @@ Suitable for small sound systems, laptop speakers, and low-end headphones. Ensur
     <value>Browser</value>
   </data>
   <data name="header/buttons/forts/body" xml:space="preserve">
-    <value>Go to management of clan Stronghold.</value>
+    <value>Go to clan Stronghold.</value>
   </data>
   <data name="header/buttons/forts/header" xml:space="preserve">
     <value>Stronghold</value>
@@ -7245,7 +7243,7 @@ and press the selected key.</value>
     <value>Brothers in Arms</value>
   </data>
   <data name="skills/camouflage/descr" xml:space="preserve">
-    <value>Reduces vehicle visibility. This skill is cumulative with the effects of Camouflage (for the corresponding types of maps) and a Camouflage Net, as well as Natural Cover.</value>
+    <value>Reduces vehicle visibility. This skill is cumulative with the effects of camouflage (for the corresponding types of maps) and Camouflage Net, as well as Natural Cover.</value>
   </data>
   <data name="skills/camouflage/header" xml:space="preserve">
     <value>Concealment</value>
@@ -7689,7 +7687,7 @@ The number of rewards and their quality depend on the Leaderboard position.</val
     <value>Unavailable</value>
   </data>
   <data name="crew/roleChangeForbid/text" xml:space="preserve">
-    <value>This Commander cannot change his major qualifications.</value>
+    <value>This %(role)s cannot change the major qualifications.</value>
   </data>
   <data name="crystal/body" xml:space="preserve">
     <value>A rare special currency used to purchase unique items that are unavailable through other means.</value>
@@ -7698,7 +7696,7 @@ The number of rewards and their quality depend on the Leaderboard position.</val
     <value>Bonds</value>
   </data>
   <data name="details/conditions/additional" xml:space="preserve">
-    <value>Click to view secondary conditions of this mission.</value>
+    <value>Click to view the secondary condition of this mission.</value>
   </data>
   <data name="hangar/ammo_panel/battleBooster/empty/body" xml:space="preserve">
     <value>Click to view the list of available directives.</value>
@@ -8559,7 +8557,7 @@ You can quit the competition until %(date)s</value>
     <value>Amount of damage caused during the player's best battle of the competition.</value>
   </data>
   <data name="elen/summary/objParam/max/damageAssisted/header" xml:space="preserve">
-    <value>Total Damage Caused With Player's Assistance</value>
+    <value>Total damage caused with the player's assistance</value>
   </data>
   <data name="elen/summary/objParam/max/damageDealt/body" xml:space="preserve">
     <value>Amount of damage caused during the player's best battle of the competition.</value>
@@ -8584,10 +8582,10 @@ Extra experience from Premium Account is counted.</value>
     <value>Experience</value>
   </data>
   <data name="elen/summary/objParam/sumAll/damageAssisted/body" xml:space="preserve">
-    <value>Total damage caused with player's assistance in all battles of the competition.</value>
+    <value>Total damage caused with the player's assistance in all battles of the competition.</value>
   </data>
   <data name="elen/summary/objParam/sumAll/damageAssisted/header" xml:space="preserve">
-    <value>Average damage caused with player's assistance</value>
+    <value>Average damage caused with the player's assistance</value>
   </data>
   <data name="elen/summary/objParam/sumAll/damageDealt/body" xml:space="preserve">
     <value>Total damage caused in all battles of the competition.</value>
@@ -8597,10 +8595,10 @@ Extra experience from Premium Account is counted.</value>
   </data>
   <data name="elen/summary/objParam/sumAll/originalXP/body" xml:space="preserve">
     <value>Total base experience earned in all battles of the competition.
-The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+The amount of experience counted does not include any extra experience from Premium Account, Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/summary/objParam/sumAll/originalXP/header" xml:space="preserve">
-    <value>Total Base Experience</value>
+    <value>Total base experience</value>
   </data>
   <data name="elen/summary/objParam/sumAll/xp/body" xml:space="preserve">
     <value>Total experience earned in all battles of the competition.
@@ -8611,10 +8609,10 @@ Extra experience from Premium Account is counted.</value>
     <value>Total Experience</value>
   </data>
   <data name="elen/summary/objParam/sumN/damageAssisted/body" xml:space="preserve">
-    <value>Total damage caused with player's assistance during the player's best battles of the competition.</value>
+    <value>Total damage caused with the player's assistance during the player's best battles of the competition.</value>
   </data>
   <data name="elen/summary/objParam/sumN/damageAssisted/header" xml:space="preserve">
-    <value>Total Damage Caused With Player's Assistance</value>
+    <value>Total damage caused with the player's assistance</value>
   </data>
   <data name="elen/summary/objParam/sumN/damageDealt/body" xml:space="preserve">
     <value>Total damage caused during the player's best battles of the competition.</value>
@@ -8624,10 +8622,10 @@ Extra experience from Premium Account is counted.</value>
   </data>
   <data name="elen/summary/objParam/sumN/originalXP/body" xml:space="preserve">
     <value>Total base experience earned during the player's best battles of the competition.
-The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+The amount of experience counted does not include any extra experience from Premium Account, Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/summary/objParam/sumN/originalXP/header" xml:space="preserve">
-    <value>Total Base Experience</value>
+    <value>Total base experience</value>
   </data>
   <data name="elen/summary/objParam/sumN/xp/body" xml:space="preserve">
     <value>Total experience earned during the player's best battles of the competition.
@@ -8638,26 +8636,26 @@ Extra experience from Premium Account is counted.</value>
     <value>Total Experience</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/damageAssisted/body" xml:space="preserve">
-    <value>Total damage caused with player's assistance during the player's best series of battles of the competition.</value>
+    <value>Total damage caused with the player's assistance during the player's best series of battles in the competition.</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/damageAssisted/header" xml:space="preserve">
-    <value>Total Damage Caused With Player's Assistance</value>
+    <value>Total damage caused with the player's assistance</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/damageDealt/body" xml:space="preserve">
-    <value>Total damage caused during the player's best series of battles of the competition.</value>
+    <value>Total damage caused during the player's best series of battles in the competition.</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/damageDealt/header" xml:space="preserve">
     <value>Total Damage</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/originalXP/body" xml:space="preserve">
-    <value>Total base experience earned during the player's best series of battles of the competition.
-The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+    <value>Total base experience earned during the player's best series of battles in the competition.
+The amount of experience counted does not include any extra experience from Premium Account, Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/originalXP/header" xml:space="preserve">
-    <value>Total Base Experience</value>
+    <value>Total base experience</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/xp/body" xml:space="preserve">
-    <value>Total experience earned during the player's best series of battles of the competition.
+    <value>Total experience earned during the player's best series of battles in the competition.
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
 Extra experience from Premium Account is counted.</value>
   </data>
@@ -8941,13 +8939,13 @@ You can receive a total of %(total)d crew members in operation "%(name)s".</valu
     <value>Badge</value>
   </data>
   <data name="personalMissions/footer/pawnSheet/body" xml:space="preserve">
-    <value>The mission can be completed using orders. Primary conditions will be fulfilled and a reward will be claimed.</value>
+    <value>This mission can be completed using orders. The primary condition will be fulfilled and a reward will be claimed.</value>
   </data>
   <data name="personalMissions/footer/pawnSheet/header" xml:space="preserve">
     <value>Complete with Order</value>
   </data>
   <data name="personalMissions/footer/pawnedSheet/body" xml:space="preserve">
-    <value>The mission was completed using an order. To retrieve the order, complete the mission with honors (both primary and secondary conditions).</value>
+    <value>This mission was completed using an order. To retrieve the order, complete the mission with honors (both primary and secondary conditions).</value>
   </data>
   <data name="personalMissions/footer/pawnedSheet/header" xml:space="preserve">
     <value>An Order Was Committed</value>
@@ -8959,7 +8957,7 @@ You can receive a total of %(total)d crew members in operation "%(name)s".</valu
     <value>How to receive:</value>
   </data>
   <data name="personalMissions/freeSheet/howToUse/descr" xml:space="preserve">
-    <value>Allows you to automatically fulfill the primary conditions of a selected mission and claim the reward.</value>
+    <value>Allows you to automatically fulfill the primary condition of a selected mission and claim the reward.</value>
   </data>
   <data name="personalMissions/freeSheet/howToUse/title" xml:space="preserve">
     <value>How to use:</value>
@@ -8968,10 +8966,10 @@ You can receive a total of %(total)d crew members in operation "%(name)s".</valu
     <value>To retrieve a committed order, fulfill the primary and secondary conditions of the mission.</value>
   </data>
   <data name="personalMissions/freeSheet/notEnough" xml:space="preserve">
-    <value>You do not have enough orders to fulfill the primary conditions of the mission.</value>
+    <value>You do not have enough orders. To receive orders, complete all missions in the set.</value>
   </data>
   <data name="personalMissions/freeSheet/title" xml:space="preserve">
-    <value>Order</value>
+    <value>%(campaignNum)s company order</value>
   </data>
   <data name="personalMissions/freeSheet/used/Header" xml:space="preserve">
     <value>Committed Order:</value>
@@ -8983,13 +8981,13 @@ You can receive a total of %(total)d crew members in operation "%(name)s".</valu
     <value>All rewards received</value>
   </data>
   <data name="personalMissions/mapRegion/awards/title/done" xml:space="preserve">
-    <value>Reward for primary conditions:</value>
+    <value>Reward for primary condition:</value>
   </data>
   <data name="personalMissions/mapRegion/awards/title/excellentDone" xml:space="preserve">
     <value>Reward for completion with honors:</value>
   </data>
   <data name="personalMissions/mapRegion/conditions/title" xml:space="preserve">
-    <value>Primary conditions:</value>
+    <value>Primary condition:</value>
   </data>
   <data name="personalMissions/mapRegion/conditions/title/excellent" xml:space="preserve">
     <value>Conditions for completion with honors:</value>
@@ -9001,10 +8999,10 @@ You can receive a total of %(total)d crew members in operation "%(name)s".</valu
     <value>Available for completion</value>
   </data>
   <data name="personalMissions/mapRegion/footer/title/done" xml:space="preserve">
-    <value>Primary Conditions Fulfilled</value>
+    <value>Primary Condition Fulfilled</value>
   </data>
   <data name="personalMissions/mapRegion/footer/title/doneFreeSheet" xml:space="preserve">
-    <value>Primary conditions fulfilled for</value>
+    <value>Primary condition fulfilled for</value>
   </data>
   <data name="personalMissions/mapRegion/footer/title/inProgress" xml:space="preserve">
     <value>Active</value>
@@ -9037,7 +9035,7 @@ You can receive a total of %(total)d crew members in operation "%(name)s".</valu
     <value>Orders: </value>
   </data>
   <data name="personalMissions/operation/footer/descr/noVehicle" xml:space="preserve">
-    <value>No suitable vehicles</value>
+    <value>No Suitable Vehicles</value>
   </data>
   <data name="personalMissions/operation/footer/descr/questsFullyDone" xml:space="preserve">
     <value>Completed with honors: </value>
@@ -9098,10 +9096,10 @@ You are awarded with one component for completing each final mission in a set.</
     <value>Result Improvement</value>
   </data>
   <data name="personalMissions/status/doneWithPawn/body" xml:space="preserve">
-    <value>The mission was completed; the reward for fulfilling the primary conditions was received. You can retrieve the order by fulfilling all primary and secondary conditions. To do so, click Retrieve Order at the bottom of the card.</value>
+    <value>The mission was completed; the reward for fulfilling the primary condition was received. You can retrieve the order by fulfilling all primary and secondary conditions. To do so, click Retrieve Order at the bottom of the card.</value>
   </data>
   <data name="personalMissions/status/doneWithPawn/header" xml:space="preserve">
-    <value>Primary Conditions Fulfilled</value>
+    <value>Primary Condition Fulfilled</value>
   </data>
   <data name="personalMissions/status/fullDone/body" xml:space="preserve">
     <value>Congratulations! The mission was completed with honors and the reward for fulfilling the primary and secondary conditions was received.</value>
@@ -9134,13 +9132,13 @@ You are awarded with one component for completing each final mission in a set.</
     <value>No Suitable Vehicles</value>
   </data>
   <data name="personalMissions/status/mainDone/body" xml:space="preserve">
-    <value>The mission was completed; the reward for fulfilling the primary conditions was received. You can improve the result by completing the secondary conditions. To do so, click Improve Result at the bottom of the card.</value>
+    <value>The mission was completed; the reward for fulfilling the primary conditions was received. You can improve the result by completing the primary and secondary conditions. To do so, click Improve Result at the bottom of the card.</value>
   </data>
   <data name="personalMissions/status/mainDone/header" xml:space="preserve">
-    <value>Primary Conditions Fulfilled</value>
+    <value>Primary Condition Fulfilled</value>
   </data>
   <data name="personalMissions/status/sheetRecoveryInProgress/body" xml:space="preserve">
-    <value>An order was committed to fulfill the primary conditions. To retrieve it, fulfill the primary and secondary conditions of this mission.</value>
+    <value>An order was committed to fulfill the primary condition. To retrieve it, fulfill the primary and secondary conditions of this mission.</value>
   </data>
   <data name="personalMissions/status/sheetRecoveryInProgress/header" xml:space="preserve">
     <value>An Order Was Committed</value>
@@ -9359,19 +9357,19 @@ The amount of experience counted does not include any extra experience from Prem
     <value>Experience Earned in the Player's Best Battle</value>
   </data>
   <data name="elen/excel/objParam/sumMSeqN/damageAssisted/body" xml:space="preserve">
-    <value>Total damage caused with player's assistance during the player's best series of battles in the competition.</value>
+    <value>Total damage caused with player's assistance during the player's best series of battles of the competition.</value>
   </data>
   <data name="elen/excel/objParam/sumMSeqN/damageAssisted/header" xml:space="preserve">
     <value>Total Damage Caused With Player's Assistance</value>
   </data>
   <data name="elen/excel/objParam/sumMSeqN/damageDealt/body" xml:space="preserve">
-    <value>Total damage caused during the best series of battles in the competition.</value>
+    <value>Total damage caused during the player's best series of battles of the competition.</value>
   </data>
   <data name="elen/excel/objParam/sumMSeqN/damageDealt/header" xml:space="preserve">
     <value>Total Damage</value>
   </data>
   <data name="elen/excel/objParam/sumMSeqN/originalXP/body" xml:space="preserve">
-    <value>Total base experience earned during the best series of battles in the competition.
+    <value>Total base experience earned during the player's best series of battles of the competition.
 The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/excel/objParam/sumMSeqN/originalXP/header" xml:space="preserve">
@@ -9386,23 +9384,23 @@ Extra experience from Premium Account is counted.</value>
     <value>Total Experience</value>
   </data>
   <data name="elen/summary/objParam/sumMSeqN/damageAssisted/body" xml:space="preserve">
-    <value>Total damage caused with player's assistance during the player's best series of battles in the competition.</value>
+    <value>Total damage caused with the player's assistance during the player's best series of battles in the competition.</value>
   </data>
   <data name="elen/summary/objParam/sumMSeqN/damageAssisted/header" xml:space="preserve">
-    <value>Total Damage Caused With Player's Assistance</value>
+    <value>Total damage caused with the player's assistance</value>
   </data>
   <data name="elen/summary/objParam/sumMSeqN/damageDealt/body" xml:space="preserve">
-    <value>Total damage caused during the best series of battles in the competition.</value>
+    <value>Total damage caused during the player's best series of battles in the competition.</value>
   </data>
   <data name="elen/summary/objParam/sumMSeqN/damageDealt/header" xml:space="preserve">
     <value>Total Damage</value>
   </data>
   <data name="elen/summary/objParam/sumMSeqN/originalXP/body" xml:space="preserve">
-    <value>Total base experience earned during the best series of battles in the competition.
-The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+    <value>Total base experience earned during the player's best series of battles in the competition.
+The amount of experience counted does not include any extra experience from Premium Account, Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/summary/objParam/sumMSeqN/originalXP/header" xml:space="preserve">
-    <value>Total Base Experience</value>
+    <value>Total base experience</value>
   </data>
   <data name="elen/summary/objParam/sumMSeqN/xp/body" xml:space="preserve">
     <value>Total experience earned during the player's best series of battles in the competition.
@@ -9466,7 +9464,7 @@ Battles counted: %(distance)s.</value>
     <value>Free Experience</value>
   </data>
   <data name="header/buttons/gold/clickDesc" xml:space="preserve">
-    <value>Click to go to the Purchase Gold page on the game portal.</value>
+    <value>Click to go to the Purchase Gold page.</value>
   </data>
   <data name="header/buttons/gold/title" xml:space="preserve">
     <value>Gold</value>
@@ -9491,7 +9489,7 @@ Battles counted: %(distance)s.</value>
 
 The function will only work with:
 • Improved Graphics
-• High, Maximum or Ultra Terrain Quality
+• High, Maximum, or Ultra Terrain Quality
 • DirectX 11 installed.</value>
   </data>
   <data name="TERRAIN_TESSELLATION_ENABLED/header" xml:space="preserve">
@@ -9532,10 +9530,10 @@ you can purchase it at a discount.</value>
     <value>Click to select a new major qualification and vehicle to retrain your crew member.</value>
   </data>
   <data name="gamma/attention" xml:space="preserve">
-    <value>Gamma settings are not available: 
-• In fullscreen mode with the set resolution different to the native one
-• In windowed mode with standard graphics quality (the Details option).
-In windowed mode, current operating system settings are used. </value>
+    <value>Gamma settings are not available in windowed mode with
+standard graphics quality (the Details option).
+In windowed mode, current operating system
+settings are used.</value>
   </data>
   <data name="gamma/body" xml:space="preserve">
     <value>Allows for the brightness to be adjusted to the optimal value. This option aims to
@@ -9591,7 +9589,7 @@ to make the game elements visible.</value>
     <value>You have no trained skills or perks.</value>
   </data>
   <data name="personal_case/skills/dropSkillsButton/noSkill/header" xml:space="preserve">
-    <value>Action Unavailable</value>
+    <value>Perks/Skills Unavailable</value>
   </data>
   <data name="settings/sound/deviceAlert/body" xml:space="preserve">
     <value>The selected sound system is different from the one that was automatically detected by the game client. Some sounds may not be available. We recommend that you test the sound difference.</value>
@@ -9677,7 +9675,7 @@ to make the game elements visible.</value>
     <value>Event Unavailable</value>
   </data>
   <data name="marathon/state/complete" xml:space="preserve">
-    <value>Complete</value>
+    <value>Completed</value>
   </data>
   <data name="marathon/state/end" xml:space="preserve">
     <value>Ends in: %(value)s</value>
@@ -10014,5 +10012,442 @@ to make the game elements visible.</value>
   </data>
   <data name="header/buttons/manual/header" xml:space="preserve">
     <value>Training Center</value>
+  </data>
+  <data name="awardItem/completionTokens_5_1/body" xml:space="preserve">
+    <value>Blueprints for transmission, ICE, and supporting systems: fuel supply, air delivery, cooling, etc. for the Excalibur tank destroyer.</value>
+  </data>
+  <data name="awardItem/completionTokens_5_1/header" xml:space="preserve">
+    <value>L50 Engine Blueprints</value>
+  </data>
+  <data name="awardItem/completionTokens_5_2/body" xml:space="preserve">
+    <value>Bundled chassis: tracks, suspension, wheels, etc. for the Excalibur tank destroyer.</value>
+  </data>
+  <data name="awardItem/completionTokens_5_2/header" xml:space="preserve">
+    <value>Torsion-Bar Suspension Blueprints</value>
+  </data>
+  <data name="awardItem/completionTokens_5_3/body" xml:space="preserve">
+    <value>Steel welded hull with a cast cabin of limited traverse for the Excalibur tank destroyer.</value>
+  </data>
+  <data name="awardItem/completionTokens_5_3/header" xml:space="preserve">
+    <value>Hull and Cabin Blueprints</value>
+  </data>
+  <data name="awardItem/completionTokens_5_4/body" xml:space="preserve">
+    <value>Blueprints for the 76 mm howitzer featuring a muzzle brake for the Excalibur tank destroyer.</value>
+  </data>
+  <data name="awardItem/completionTokens_5_4/header" xml:space="preserve">
+    <value>76 mm Gun Blueprints</value>
+  </data>
+  <data name="awardItem/completionTokens_6_1/body" xml:space="preserve">
+    <value>Blueprints for transmission, ICE, and supporting systems: fuel supply, air delivery, cooling, etc. for the Chimera medium tank.</value>
+  </data>
+  <data name="awardItem/completionTokens_6_1/header" xml:space="preserve">
+    <value>MK. XI SC Engine Blueprints</value>
+  </data>
+  <data name="awardItem/completionTokens_6_2/body" xml:space="preserve">
+    <value>Bundled chassis: tracks, suspension, wheels, etc. for the Chimera medium tank.</value>
+  </data>
+  <data name="awardItem/completionTokens_6_2/header" xml:space="preserve">
+    <value>Torsion-Bar Suspension Blueprints</value>
+  </data>
+  <data name="awardItem/completionTokens_6_3/body" xml:space="preserve">
+    <value>Steel welded hull with a full-rotation turret for the Chimera medium tank.</value>
+  </data>
+  <data name="awardItem/completionTokens_6_3/header" xml:space="preserve">
+    <value>Hull and Turret Blueprints</value>
+  </data>
+  <data name="awardItem/completionTokens_6_4/body" xml:space="preserve">
+    <value>Blueprints for a rifled long-barel 5-inch gun for the Chimera medium tank.</value>
+  </data>
+  <data name="awardItem/completionTokens_6_4/header" xml:space="preserve">
+    <value>QF 5-in. Gun Blueprints</value>
+  </data>
+  <data name="awardItem/completionTokens_7_1/body" xml:space="preserve">
+    <value>Blueprints for transmission, ICE, and supporting systems: fuel supply, air delivery, cooling, etc. for the Object 279 (e) heavy tank.</value>
+  </data>
+  <data name="awardItem/completionTokens_7_1/header" xml:space="preserve">
+    <value>V-11-NC Engine Blueprints</value>
+  </data>
+  <data name="awardItem/completionTokens_7_2/body" xml:space="preserve">
+    <value>Bundled chassis: tracks, suspension, wheels, etc. for the Object 279 (e) heavy tank.</value>
+  </data>
+  <data name="awardItem/completionTokens_7_2/header" xml:space="preserve">
+    <value>Four-Track Suspension Blueprints</value>
+  </data>
+  <data name="awardItem/completionTokens_7_3/body" xml:space="preserve">
+    <value>Welded hull assembled from four cast plates featuring an all-cast turret for the Object 279 (e) heavy tank.</value>
+  </data>
+  <data name="awardItem/completionTokens_7_3/header" xml:space="preserve">
+    <value>Hull and Turret Blueprints</value>
+  </data>
+  <data name="awardItem/completionTokens_7_4/body" xml:space="preserve">
+    <value>Blueprints for the 122 mm M62-T2A rifled gun with ejector for the Object 279 (e) heavy tank.</value>
+  </data>
+  <data name="awardItem/completionTokens_7_4/header" xml:space="preserve">
+    <value>122 mm M62-T2A Gun Blueprints</value>
+  </data>
+  <data name="barracks/tankmen/recruit/body" xml:space="preserve">
+    <value>Click to open the Recruit Crew Member window.</value>
+  </data>
+  <data name="barracks/tankmen/recruit/header" xml:space="preserve">
+    <value>Recruit</value>
+  </data>
+  <data name="boostersWindow/booster/longDescriptionSpecial" xml:space="preserve">
+    <value>When activated, Personal Reserves allow you to receive additional bonuses after each battle. Personal Reserves have three sizes and are active for a specified period in Random Battles, Ranked Battles, Team Battles, special tournaments, and in Battles for Stronghold.</value>
+  </data>
+  <data name="boostersWindow/booster/shortDescriptionSpecial" xml:space="preserve">
+    <value>Additional bonuses after each battle</value>
+  </data>
+  <data name="crew/body" xml:space="preserve">
+    <value>Vehicle comes with %(value)s%% crew</value>
+  </data>
+  <data name="crew/header" xml:space="preserve">
+    <value>Full Crew</value>
+  </data>
+  <data name="crew/role/commander" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="crew/role/driver" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="crew/role/gunner" xml:space="preserve">
+    <value>Gunner</value>
+  </data>
+  <data name="crew/role/loader" xml:space="preserve">
+    <value>Loader</value>
+  </data>
+  <data name="crew/role/radioman" xml:space="preserve">
+    <value>Radio Operator</value>
+  </data>
+  <data name="fortification/sortie/configureBtn" xml:space="preserve">
+    <value>Select particular vehicles that will be automatically assembled with legionnaires upon clicking the Battle button.</value>
+  </data>
+  <data name="fortification/sortie/removeFilters" xml:space="preserve">
+    <value>Reset vehicle selection</value>
+  </data>
+  <data name="hangar/header/personalMissions/available/body" xml:space="preserve">
+    <value>Mission not selected. Click to go to the list of missions.</value>
+  </data>
+  <data name="hangar/header/personalMissions/available/header" xml:space="preserve">
+    <value>Mission Not Selected</value>
+  </data>
+  <data name="hangar/header/personalMissions/award/body" xml:space="preserve">
+    <value>Missions in the %(chainName)s set have been completed. Click to go to the list of missions and claim your reward.</value>
+  </data>
+  <data name="hangar/header/personalMissions/award/header" xml:space="preserve">
+    <value>Operation %(tileName)s</value>
+  </data>
+  <data name="hangar/header/personalMissions/branch_disabled/body" xml:space="preserve">
+    <value>The selected campaign is currently unavailable due to technical reasons. We will restore operability soon.</value>
+  </data>
+  <data name="hangar/header/personalMissions/branch_disabled/header" xml:space="preserve">
+    <value>Campaign Unavailable</value>
+  </data>
+  <data name="hangar/header/personalMissions/completed/body" xml:space="preserve">
+    <value>Congratulations! You completed all missions for the selected vehicle!</value>
+  </data>
+  <data name="hangar/header/personalMissions/completed/header" xml:space="preserve">
+    <value>All Missions Completed</value>
+  </data>
+  <data name="hangar/header/personalMissions/completedLockedNext/body" xml:space="preserve">
+    <value>Complete missions for other vehicle types to unlock the next operation.</value>
+  </data>
+  <data name="hangar/header/personalMissions/completedLockedNext/header" xml:space="preserve">
+    <value>Missions for This Vehicle Type Completed</value>
+  </data>
+  <data name="hangar/header/personalMissions/disabledAll/body" xml:space="preserve">
+    <value>You cannot complete the missions of either campaign in Tier I–III vehicles. Please select a vehicle of Tier IV or higher for the Long-Awaited Backup campaign, or a vehicle of Tier VI or higher for both campaigns.</value>
+  </data>
+  <data name="hangar/header/personalMissions/disabledAll/header" xml:space="preserve">
+    <value>Campaigns Unavailable</value>
+  </data>
+  <data name="hangar/header/personalMissions/done/body" xml:space="preserve">
+    <value>Congratulations, all Personal Missions for the selected vehicle were completed with honors.</value>
+  </data>
+  <data name="hangar/header/personalMissions/done/header" xml:space="preserve">
+    <value>All Missions Completed with Honors</value>
+  </data>
+  <data name="hangar/header/personalMissions/doneAll/body" xml:space="preserve">
+    <value>You have completed all Personal Missions across both campaigns.</value>
+  </data>
+  <data name="hangar/header/personalMissions/doneAll/header" xml:space="preserve">
+    <value>Personal Mission Unavailable</value>
+  </data>
+  <data name="hangar/header/personalMissions/doneLockedNext/body" xml:space="preserve">
+    <value>Complete missions for other vehicle types to unlock the next operation.</value>
+  </data>
+  <data name="hangar/header/personalMissions/doneLockedNext/header" xml:space="preserve">
+    <value>Missions for This Vehicle Type Completed</value>
+  </data>
+  <data name="hangar/header/personalMissions/lowLevel/body" xml:space="preserve">
+    <value>Your selected vehicle is not a high enough tier. To unlock the mission, select a vehicle that corresponds to the minimum vehicle tier of this operation.</value>
+  </data>
+  <data name="hangar/header/personalMissions/lowLevel/header" xml:space="preserve">
+    <value>Mission unavailable</value>
+  </data>
+  <data name="hangar/header/personalMissions/mission_disabled/body" xml:space="preserve">
+    <value>The selected mission is currently unavailable due to technical reasons. We will restore operability soon.</value>
+  </data>
+  <data name="hangar/header/personalMissions/mission_disabled/header" xml:space="preserve">
+    <value>Completion unavailable</value>
+  </data>
+  <data name="hangar/header/personalMissions/noVehicle/body" xml:space="preserve">
+    <value>You cannot complete the missions of either campaign in Tier I–III vehicles. Please select a vehicle of Tier IV or higher for the Long-Awaited Backup campaign, or a vehicle of Tier VI or higher for both campaigns.</value>
+  </data>
+  <data name="hangar/header/personalMissions/noVehicle/header" xml:space="preserve">
+    <value>Campaigns Unavailable</value>
+  </data>
+  <data name="hangar/header/personalMissions/operation_disabled/body" xml:space="preserve">
+    <value>The selected operation is currently unavailable due to technical reasons. We will restore operability soon.</value>
+  </data>
+  <data name="hangar/header/personalMissions/operation_disabled/header" xml:space="preserve">
+    <value>Operation Unavailable</value>
+  </data>
+  <data name="hangar/header/personalMissions2/completedLockedNext/body" xml:space="preserve">
+    <value>Complete missions for other vehicle types to unlock the next operation.</value>
+  </data>
+  <data name="hangar/header/personalMissions2/completedLockedNext/header" xml:space="preserve">
+    <value>Missions for This Vehicle Type Completed</value>
+  </data>
+  <data name="hangar/header/personalMissions2/doneLockedNext/body" xml:space="preserve">
+    <value>Complete missions for other vehicle types to unlock the next operation.</value>
+  </data>
+  <data name="hangar/header/personalMissions2/doneLockedNext/header" xml:space="preserve">
+    <value>Missions for This Vehicle Type Completed</value>
+  </data>
+  <data name="hangar/header/personalMissions2/noVehicle/body" xml:space="preserve">
+    <value>You cannot complete the current missions of the campaign in vehicles of Tiers IV–V. Please select a vehicle of Tier VI or higher.</value>
+  </data>
+  <data name="hangar/header/personalMissions2/noVehicle/header" xml:space="preserve">
+    <value>Campaign Unavailable</value>
+  </data>
+  <data name="hangar/header/personalMissions2/unavailableFull/body" xml:space="preserve">
+    <value>Complete the StuG IV operation to unlock the Second Front campaign. Once you earn this vehicle, you can start completing operations of the Second Front campaign.</value>
+  </data>
+  <data name="hangar/header/personalMissions2/unavailableFull/header" xml:space="preserve">
+    <value>Campaign Unavailable</value>
+  </data>
+  <data name="header/buttons/clans/body" xml:space="preserve">
+    <value>Join a clan.</value>
+  </data>
+  <data name="header/buttons/clans/header" xml:space="preserve">
+    <value>Clans</value>
+  </data>
+  <data name="header/buttons/clans/turnedOff/body" xml:space="preserve">
+    <value>Information on clans is currently unavailable due to scheduled maintenance.</value>
+  </data>
+  <data name="header/buttons/clans/turnedOff/header" xml:space="preserve">
+    <value>Clans</value>
+  </data>
+  <data name="header/buttons/shop2/body" xml:space="preserve">
+    <value>Here you can purchase everything that you may need to play: gold, Premium vehicles, items available for bonds, etc.</value>
+  </data>
+  <data name="header/buttons/shop2/header" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="header/buttons/storage/body" xml:space="preserve">
+    <value>Viewing and selling in-game items.</value>
+  </data>
+  <data name="header/buttons/storage/header" xml:space="preserve">
+    <value>Depot</value>
+  </data>
+  <data name="kursk/body" xml:space="preserve">
+    <value>Complete daily missions and receive rewards. The Northern Direction missions can be completed in any Tier IV-X vehicles, the Southern Direction missions—in historical vehicles that took part in the Battle of Kursk. For completing all missions, you will receive special rewards, including a Tier V Premium vehicle and a unique style of the Battle of Kursk.</value>
+  </data>
+  <data name="kursk/error/battle_type" xml:space="preserve">
+    <value>Available only in Random
+and Ranked Battles</value>
+  </data>
+  <data name="kursk/extra_state/steps" xml:space="preserve">
+    <value>Missions completed: %(currentStep)s / %(allStep)s</value>
+  </data>
+  <data name="kursk/header" xml:space="preserve">
+    <value>Battle of Kursk</value>
+  </data>
+  <data name="kursk/progress" xml:space="preserve">
+    <value>Day %(value)s of 50</value>
+  </data>
+  <data name="notrecruitedtankman/base/desc" xml:space="preserve">
+    <value>A unique crew member</value>
+  </data>
+  <data name="notrecruitedtankman/base/label" xml:space="preserve">
+    <value>A unique crew member</value>
+  </data>
+  <data name="notrecruitedtankman/buffon/desc" xml:space="preserve">
+    <value>Was awarded for fulfilling particular conditions during the Tank football 2018 event. Italian legend Gianluigi Buffon is a Commander with a unique voiceover and perks trained to 100%.</value>
+  </data>
+  <data name="notrecruitedtankman/buffon/label" xml:space="preserve">
+    <value>The football event</value>
+  </data>
+  <data name="notrecruitedtankman/expireTitle" xml:space="preserve">
+    <value>Recruitment</value>
+  </data>
+  <data name="notrecruitedtankman/skillsTitle" xml:space="preserve">
+    <value>Trained Skills and Perks</value>
+  </data>
+  <data name="notrecruitedtankman/tankwoman/desc" xml:space="preserve">
+    <value>Was awarded during particular events. Female crew members have the Brothers in Arms perk trained to 100%, as well as one more skill or perk of your choice trained to 100%.</value>
+  </data>
+  <data name="notrecruitedtankman/tankwoman/label" xml:space="preserve">
+    <value>A unique crew member</value>
+  </data>
+  <data name="notrecruitedtankman/useBefore" xml:space="preserve">
+    <value>Available through: %(date)s</value>
+  </data>
+  <data name="personalMissions/awards/camouflage/alliance/body" xml:space="preserve">
+    <value>A set of three camouflage patterns (summer, winter, and desert).
+
+Awarded for free for a reward vehicle when the primary conditions of all 60 missions of an operation are completed.
+
+Can be applied to any vehicle of the nation to which the reward vehicle belongs when all 60 missions of an operation are completed with honors.
+
+You can search for unique camouflage patterns on the Exterior screen.</value>
+  </data>
+  <data name="personalMissions/awards/camouflage/alliance/header" xml:space="preserve">
+    <value>Unique Set of Camouflage</value>
+  </data>
+  <data name="personalMissions/mapRegion/footer/title/disabled" xml:space="preserve">
+    <value>Completion Unavailable</value>
+  </data>
+  <data name="personalMissions/operation/footer/descr/completionTokens/pm2" xml:space="preserve">
+    <value>Vehicle blueprints: </value>
+  </data>
+  <data name="personalMissions/operation/footer/descr/disabled" xml:space="preserve">
+    <value>Operation disabled</value>
+  </data>
+  <data name="personalMissions/operation/footer/descr/postponed" xml:space="preserve">
+    <value>Operation starts in </value>
+  </data>
+  <data name="personalMissions/operation/header/descr/postponed" xml:space="preserve">
+    <value>You can earn a unique emblem if you complete all missions of the previous operation before the next operation starts.</value>
+  </data>
+  <data name="personalMissions/status/lockedByVehicleAlliance/body" xml:space="preserve">
+    <value>To unlock this mission, vehicles of type: %(vehType)s; and Tier: %(minLevel)s–%(maxLevel)s are required.</value>
+  </data>
+  <data name="personalMissions/status/lockedByVehicleType/body" xml:space="preserve">
+    <value>To unlock the mission, vehicles of type: %(vehType)s; Tier: %(minLevel)s–%(maxLevel)s are required.</value>
+  </data>
+  <data name="quests/awards/vehicleRent/bottom" xml:space="preserve">
+    <value>And more: %(count)d</value>
+  </data>
+  <data name="quests/awards/vehicleRent/expire" xml:space="preserve">
+    <value>Period is limited</value>
+  </data>
+  <data name="quests/awards/vehicleRent/header" xml:space="preserve">
+    <value>Rental Vehicles:</value>
+  </data>
+  <data name="quests/awards/vehicleRent/rentLeft/rentBattles" xml:space="preserve">
+    <value>battles within the rental period: %(count)s</value>
+  </data>
+  <data name="quests/awards/vehicleRent/rentLeft/rentDays" xml:space="preserve">
+    <value>days of rental: %(count)s</value>
+  </data>
+  <data name="quests/awards/vehicleRent/rentLeft/rentWins" xml:space="preserve">
+    <value>victories within the rental period: %(count)s</value>
+  </data>
+  <data name="quests/pm/status/additional" xml:space="preserve">
+    <value>Progress for the secondary condition</value>
+  </data>
+  <data name="quests/pm/status/main" xml:space="preserve">
+    <value>Progress for the primary condition</value>
+  </data>
+  <data name="quests/unavailable/disabled/header" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="storage/mainMenu/for_sell/body" xml:space="preserve">
+    <value>Displays modules and shells that are not compatible with your vehicle.</value>
+  </data>
+  <data name="storage/mainMenu/for_sell/header" xml:space="preserve">
+    <value>Modules and shells for sale</value>
+  </data>
+  <data name="storage/mainMenu/in_hangar/body" xml:space="preserve">
+    <value>Displays all vehicles in the Garage.</value>
+  </data>
+  <data name="storage/mainMenu/in_hangar/header" xml:space="preserve">
+    <value>Vehicles in the Garage</value>
+  </data>
+  <data name="storage/mainMenu/personal_reserves/body" xml:space="preserve">
+    <value>Displays Personal Reserves that provide a temporary bonus to experience and credits earned in battle.</value>
+  </data>
+  <data name="storage/mainMenu/personal_reserves/header" xml:space="preserve">
+    <value>Personal Reserves</value>
+  </data>
+  <data name="storage/mainMenu/storage/body" xml:space="preserve">
+    <value>Displays modules, shells, equipment, and consumables that are not mounted on the current vehicle.</value>
+  </data>
+  <data name="storage/mainMenu/storage/header" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="strongholds/timer/legionariesSearch" xml:space="preserve">
+    <value>Assembling legionnaires...</value>
+  </data>
+  <data name="tanks_carousel/buy_vehicle_new/body" xml:space="preserve">
+    <value>Click to go to the Tech Tree.</value>
+  </data>
+  <data name="tanks_carousel/buy_vehicle_new/header" xml:space="preserve">
+    <value>Purchase Vehicle</value>
+  </data>
+  <data name="template/days/value" xml:space="preserve">
+    <value>%(value)s</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/body" xml:space="preserve">
+    <value>Click to view information about this bundle's items.</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/camouflage/header" xml:space="preserve">
+    <value>Camouflage "%(value)s"</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/emblem/header" xml:space="preserve">
+    <value>Emblem "%(value)s"</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/header" xml:space="preserve">
+    <value>Related Items</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/inscription/header" xml:space="preserve">
+    <value>Inscription "%(value)s"</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/modification/header" xml:space="preserve">
+    <value>Effect "%(value)s"</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/paint/header" xml:space="preserve">
+    <value>Paint "%(value)s"</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/shell/header" xml:space="preserve">
+    <value>Shell "%(value)s"</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/style/header" xml:space="preserve">
+    <value>Style "%(value)s"</value>
+  </data>
+  <data name="vehiclePreview/buyButton/endTime/body" xml:space="preserve">
+    <value>Offer expired</value>
+  </data>
+  <data name="vehiclePreview/buyButton/endTime/header" xml:space="preserve">
+    <value>Offer Unavailable</value>
+  </data>
+  <data name="vehiclePreview/shopPack/content" xml:space="preserve">
+    <value>This bundle contains:</value>
+  </data>
+  <data name="vehiclePreview/shopPack/dateTimeTooltip/body" xml:space="preserve">
+    <value>The %(namePack)s bundle will be available
+till %(date)s.</value>
+  </data>
+  <data name="vehiclePreview/shopPack/dateTimeTooltip/header" xml:space="preserve">
+    <value>Limited Offer!</value>
+  </data>
+  <data name="vehiclePreview/shopPack/desc" xml:space="preserve">
+    <value>Items in the bundle: %(count)d</value>
+  </data>
+  <data name="vehiclePreview/shopPack/title" xml:space="preserve">
+    <value>Consumable bundle</value>
+  </data>
+  <data name="vehiclePreview/vehiclePanel/info/header/noCrew" xml:space="preserve">
+    <value>Vehicle is provided without crew</value>
+  </data>
+  <data name="vehiclePreview/vehiclePanel/info/header/withCrew" xml:space="preserve">
+    <value>Vehicle comes with %d%% crew</value>
+  </data>
+  <data name="xpExchangewindow/gold/goldAfterExchange/body" xml:space="preserve">
+    <value>Amount can be determined only after purchasing gold.</value>
+  </data>
+  <data name="xpExchangewindow/gold/goldAfterExchange/header" xml:space="preserve">
+    <value>Amount of gold after exchange</value>
   </data>
 </root>

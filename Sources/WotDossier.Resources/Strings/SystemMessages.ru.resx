@@ -4491,7 +4491,7 @@
     <value>Начислено бланков приказа: %(count)s</value>
   </data>
   <data name="personalMissions/freeAwardListReturn" xml:space="preserve">
-    <value>Возвращено бланков приказа: %(count)s.
+    <value>Возвращено бланков приказа: %(count)s
 Бланки приказа могут использоваться повторно.</value>
   </data>
   <data name="personalMissions/pawn/server_error" xml:space="preserve">
@@ -4730,5 +4730,16 @@
   </data>
   <data name="tokens/notification/football_card_acquired" xml:space="preserve">
     <value>Начислено коллекционных карточек: %(count)s</value>
+  </data>
+  <data name="multipleSelling/success" xml:space="preserve">
+    <value>Получено %(money)s</value>
+  </data>
+  <data name="notrecruit_window/success" xml:space="preserve">
+    <value>Член экипажа успешно рекрутирован.
+%(colorTagOpen)s%(rank)s %(fullName)s
+(%(role)s, %(vehicleName)s, %(roleLevel)d%%)%(colorTagClose)s</value>
+  </data>
+  <data name="personalMissions/tankmenGain" xml:space="preserve">
+    <value>Начислено: девушка-танкист</value>
   </data>
 </root>

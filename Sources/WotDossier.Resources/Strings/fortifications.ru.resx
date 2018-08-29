@@ -1014,7 +1014,7 @@
     <value>Пригласить игроков</value>
   </data>
   <data name="sortie/room/leaveBtn" xml:space="preserve">
-    <value>К СПИСКУ ОТРЯДОВ</value>
+    <value>К ПОДБОРУ ОТРЯДА</value>
   </data>
   <data name="sortie/room/members" xml:space="preserve">
     <value>Состав: %(current)s / %(max)s</value>
@@ -2760,5 +2760,29 @@
   </data>
   <data name="battleQueue/yourTeam" xml:space="preserve">
     <value>Ваш отряд:</value>
+  </data>
+  <data name="fortVehPopover/btnSave" xml:space="preserve">
+    <value>Сохранить выбор (%(count)d)</value>
+  </data>
+  <data name="roster/clanMembersNotEnough" xml:space="preserve">
+    <value>В отряде не хватает соклановцев: %(actualClanMembers)s / %(minClanMembers)s</value>
+  </data>
+  <data name="sortie/member/slot_for_legionary" xml:space="preserve">
+    <value>Легионер</value>
+  </data>
+  <data name="sortie/member/slot_for_legionary_search" xml:space="preserve">
+    <value>Автонабор легионера</value>
+  </data>
+  <data name="strongholdPopover/commanderHeader" xml:space="preserve">
+    <value>Выбор техники для легионера</value>
+  </data>
+  <data name="strongholdPopover/header" xml:space="preserve">
+    <value>Выбор техники</value>
+  </data>
+  <data name="strongholdSlot/selectedVehiclesCount" xml:space="preserve">
+    <value>Выбрано машин:</value>
+  </data>
+  <data name="unit/window/willSearchPlayers" xml:space="preserve">
+    <value>Свободные места займут автоматически подобранные легионеры</value>
   </data>
 </root>

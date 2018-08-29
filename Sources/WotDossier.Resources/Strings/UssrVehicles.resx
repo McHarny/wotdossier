@@ -4260,4 +4260,115 @@ W-670</value>
   <data name="_76mm_UBR_354P" xml:space="preserve">
     <value>UBR-354P</value>
   </data>
+  <data name="Chassis_R156_IS_2M" xml:space="preserve">
+    <value>IS-2M</value>
+  </data>
+  <data name="Chassis_R157_Object_279R" xml:space="preserve">
+    <value>Object 279 early (726)</value>
+  </data>
+  <data name="Churchill_LL_long_special" xml:space="preserve">
+    <value>This vehicle features good armoring for its tier and a rapidly-firing well-stabilised gun mounted in a quickly-turning turret. At the same time, the dynamic characteristics of this vehicle are rather poor, which makes it a defender instead of an attacker.</value>
+  </data>
+  <data name="Churchill_LL_short_special" xml:space="preserve">
+    <value>High rate of fire and good armoring</value>
+  </data>
+  <data name="IS-6_long_special" xml:space="preserve">
+    <value>Great damage per shot, reliable sloped and screened armor, low silhouette, and good mobility: with this vehicle in your Garage, you will definitely want to hit the Battle! button again and again. However, the vehicle penetration and view range are mediocre, which makes this tank best suited for close-range encounters.</value>
+  </data>
+  <data name="IS-6_short_special" xml:space="preserve">
+    <value>High damage per shot, good overall armoring</value>
+  </data>
+  <data name="KV-5_long_special" xml:space="preserve">
+    <value>This powerful heavy tank with reliable armor is perfect as an unstoppable assault vehicle, or as an enduring defender. Its optimal overall armoring helps it survive for as long as possible.</value>
+  </data>
+  <data name="KV-5_short_special" xml:space="preserve">
+    <value>Good overall armoring, high rate of fire</value>
+  </data>
+  <data name="Matilda_II_LL_long_special" xml:space="preserve">
+    <value>The high rate of fire and good armoring of this vehicle will make you appreciate the lend-lease program, within which these vehicles were delivered from Great Britain to the U.S.S.R. during World War II.</value>
+  </data>
+  <data name="Matilda_II_LL_short_special" xml:space="preserve">
+    <value>High rate of fire and good armoring</value>
+  </data>
+  <data name="R108_T34_85M_long_special" xml:space="preserve">
+    <value>An exceptionally good vehicle that basically has no shortcomings. It is capable of causing damage on a regular basis, repelling enemy shells, and fighting in any combat situation on the battlefield.</value>
+  </data>
+  <data name="R108_T34_85M_short_special" xml:space="preserve">
+    <value>Good frontal armor and a reliable gun</value>
+  </data>
+  <data name="R111_ISU130_long_special" xml:space="preserve">
+    <value>This standard tank destroyer features a gun with high damage per shot and a reliable gun mantlet. Take an advantageous position behind your team and cause damage while remaining unspotted.</value>
+  </data>
+  <data name="R111_ISU130_short_special" xml:space="preserve">
+    <value>High damage per shot and a reliable gun mantlet</value>
+  </data>
+  <data name="R112_T54_45_long_special" xml:space="preserve">
+    <value>Well-protected at the front, this vehicle is capable of repelling many enemy shells. It has a low silhouette that enhances concealment; the vehicle also features good mobility. The gun parameters are mediocre, but even this gun can cause significant damage to opponents when used properly.</value>
+  </data>
+  <data name="R112_T54_45_short_special" xml:space="preserve">
+    <value>Multi-purpose, well-protected vehicle</value>
+  </data>
+  <data name="R133_KV_122_long_special" xml:space="preserve">
+    <value>A heavy tank with decent dynamics but unreliable armoring. The main advantage of this vehicle is its devastating gun that is capable of penetrating even the most heavily armored target. High damage per shot is balanced with low accuracy, which keeps this vehicle from long-range sharpshooting.</value>
+  </data>
+  <data name="R133_KV_122_short_special" xml:space="preserve">
+    <value>Great damage per shot, good dynamics</value>
+  </data>
+  <data name="R156_IS_2M" xml:space="preserve">
+    <value>IS-2M</value>
+  </data>
+  <data name="R156_IS_2M_descr" xml:space="preserve">
+    <value>This vehicle is a modification of the IS-2 developed from the early 1950s through the early 1960s. Before the T-10's development, the IS-2 was the main U.S.S.R. heavy tank. It remained in service until the mid 1990s. The tank chassis, power unit, and turret were significantly changed. Some chassis components were adopted from the IS-3, as well as the splash shields and spare parts kit. The rear machinegun was removed from the turret. It was replaced with an additional fan for the fighting compartment. All gun embrasures were sealed. In addition, the standard engine was replaced with the V-54K-IS engine. The ammo capacity was increased to 34–35 shells, while the standard gun (the 122 mm D-25 gun) remained unchanged. However, the gun elevation mechanism was improved. Some vehicles were equipped with the TVN-2 night-vision devices. Besides this, the new R-113 radio was equipped instead of the standard one. In addition, the driver's observation devices were improved.</value>
+  </data>
+  <data name="R156_IS_2M_short" xml:space="preserve">
+    <value>IS-2M</value>
+  </data>
+  <data name="R157_Object_279R" xml:space="preserve">
+    <value>Object 279 early</value>
+  </data>
+  <data name="R157_Object_279R_descr" xml:space="preserve">
+    <value>An early variant of a blueprint project for a high crossing capacity heavy tank with a new configuration scheme. Developed in 1947–1948 by L. S. Troyanov. This vehicle was to feature a low four-track engine, mounted on longitudinal beams that also served as fuel tanks, considerably reducing the chance of fire. These solutions provided high crossing capacity and survivability: the tank could continue moving even with damaged tracks. The placement of the hull above the suspension allowed for a large fighting compartment, and as a result, increased ammunition and an improved autoloader mechanism for a high rate of fire. A functional prototype was manufactured in 1948.</value>
+  </data>
+  <data name="R157_Object_279R_short" xml:space="preserve">
+    <value>Obj. 279 (e)</value>
+  </data>
+  <data name="SU100Y_long_special" xml:space="preserve">
+    <value>This tank destroyer is a self-propelled stand for its own gun that has outstanding parameters for its tier. It is balanced with poor armoring, dynamics, and concealment. However, the gun parameters make you forget the rest.</value>
+  </data>
+  <data name="SU100Y_short_special" xml:space="preserve">
+    <value>Great damage per shot and penetration value, high HP pool</value>
+  </data>
+  <data name="SU122_44_long_special" xml:space="preserve">
+    <value>A dynamic vehicle that is well-protected in the front, has a rapidly-firing gun, and decent damage per shot. The mediocre accuracy and aiming time, sloped front armor glacis, and poor view range put this tank in the role of an assault vehicle.</value>
+  </data>
+  <data name="SU122_44_short_special" xml:space="preserve">
+    <value>High damage per shot, high rate of fire, capable of performing various roles on the battlefield</value>
+  </data>
+  <data name="T-127_long_special" xml:space="preserve">
+    <value>A small, rigid, well-protected tank for its tier. It features a rapidly-firing gun, forgives many mistakes on the battlefield, and is capable of performing almost any role in battle.</value>
+  </data>
+  <data name="T-127_short_special" xml:space="preserve">
+    <value>Capable of performing various roles on the battlefield, well-armored</value>
+  </data>
+  <data name="Turret_1_R156_IS_2M" xml:space="preserve">
+    <value>IS-2M</value>
+  </data>
+  <data name="Turret_1_R157_Object_279R" xml:space="preserve">
+    <value>Object 279 early (726)</value>
+  </data>
+  <data name="V_11_NC" xml:space="preserve">
+    <value>V-11-NC</value>
+  </data>
+  <data name="V_54K_IS" xml:space="preserve">
+    <value>V-54K-IS</value>
+  </data>
+  <data name="Valentine_LL_long_special" xml:space="preserve">
+    <value>Great overall armoring, long view range, and a rapidly-firing gun: these are the three aspects that determine the gameplay of this vehicle. However, the penetration value is relatively low, which makes this vehicle effective mainly in close-range combat.</value>
+  </data>
+  <data name="Valentine_LL_short_special" xml:space="preserve">
+    <value>High rate of fire and good armoring</value>
+  </data>
+  <data name="_122mm_M62_T2_A" xml:space="preserve">
+    <value>122 mm M62-T2A</value>
+  </data>
 </root>

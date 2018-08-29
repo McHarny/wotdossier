@@ -5024,10 +5024,10 @@
     <value>Звезда</value>
   </data>
   <data name="emblem/group30/special_240" xml:space="preserve">
-    <value>Шестая годовщина</value>
+    <value>6-я годовщина</value>
   </data>
   <data name="emblem/group30/special_241" xml:space="preserve">
-    <value>Шестая годовщина</value>
+    <value>6-я годовщина</value>
   </data>
   <data name="inscription/special/special_70" xml:space="preserve">
     <value>Thunderbolt VII</value>
@@ -6394,19 +6394,19 @@
     <value>Наносится на итальянскую технику</value>
   </data>
   <data name="camouflage/ranked_1/description" xml:space="preserve">
-    <value>Выдаётся игрокам, занявшим призовые места в первой лиге первого сезона Ранговых боёв.</value>
+    <value>?empty?</value>
   </data>
   <data name="camouflage/ranked_1/label" xml:space="preserve">
     <value>Всесезонный камуфляж первой лиги Ранговых боёв</value>
   </data>
   <data name="camouflage/ranked_2/description" xml:space="preserve">
-    <value>Выдаётся игрокам, занявшим призовые места во второй лиге первого сезона Ранговых боёв.</value>
+    <value>?empty?</value>
   </data>
   <data name="camouflage/ranked_2/label" xml:space="preserve">
     <value>Всесезонный камуфляж второй лиги Ранговых боёв</value>
   </data>
   <data name="camouflage/ranked_3/description" xml:space="preserve">
-    <value>Выдаётся игрокам, занявшим призовые места в третьей лиге первого сезона Ранговых боёв.</value>
+    <value>?empty?</value>
   </data>
   <data name="camouflage/ranked_3/label" xml:space="preserve">
     <value>Всесезонный камуфляж третьей лиги Ранговых боёв</value>
@@ -7286,5 +7286,308 @@
   </data>
   <data name="special_style/football_tms4" xml:space="preserve">
     <value>«Бомбардир: тип 4»</value>
+  </data>
+  <data name="bonus/style" xml:space="preserve">
+    <value>Бонус к маскировке для всех типов карт</value>
+  </data>
+  <data name="camouflage/Bovington_camo/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/Bovington_camo/label" xml:space="preserve">
+    <value>«Tankfest 2018»</value>
+  </data>
+  <data name="camouflage/kd_camo/description" xml:space="preserve">
+    <value>Выдаётся игрокам, выполнившим все задачи в событии «Курская битва».</value>
+  </data>
+  <data name="camouflage/kd_camo/label" xml:space="preserve">
+    <value>«Огненная дуга»</value>
+  </data>
+  <data name="camouflage/kd_camo_t34/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="camouflage/kd_camo_t34/label" xml:space="preserve">
+    <value>Герой Курской битвы</value>
+  </data>
+  <data name="camouflage/wg_anniversary/description" xml:space="preserve">
+    <value>Маскировочная схема, разработанная в честь празднования двадцатилетия компании Wargaming.</value>
+  </data>
+  <data name="camouflage/wg_anniversary/label" xml:space="preserve">
+    <value>Юбилейный крупнопятнистый</value>
+  </data>
+  <data name="emblem/special/sticker_395" xml:space="preserve">
+    <value>«Tankfest 2018»</value>
+  </data>
+  <data name="emblem/special/sticker_396" xml:space="preserve">
+    <value>Тактическая карта</value>
+  </data>
+  <data name="emblem/special/sticker_400" xml:space="preserve">
+    <value>Warhelium</value>
+  </data>
+  <data name="emblem/special/sticker_401" xml:space="preserve">
+    <value>Sabaton</value>
+  </data>
+  <data name="inscription/special/special_203" xml:space="preserve">
+    <value>«75 лет Курской битвы»</value>
+  </data>
+  <data name="inscription/special/special_204" xml:space="preserve">
+    <value>8-я годовщина</value>
+  </data>
+  <data name="inscription/special/special_205" xml:space="preserve">
+    <value>Sabaton</value>
+  </data>
+  <data name="repaint/custom_color_24" xml:space="preserve">
+    <value>4ВО защитный, Курская битва</value>
+  </data>
+  <data name="repaint/custom_color_25" xml:space="preserve">
+    <value>Краска для стилей Ранговых боёв</value>
+  </data>
+  <data name="special_style/50TP_prototyp_WingedHussar" xml:space="preserve">
+    <value>Winged Hussar</value>
+  </data>
+  <data name="special_style/battle_of_kursk_01" xml:space="preserve">
+    <value>«Герой Курской битвы»</value>
+  </data>
+  <data name="special_style/battle_of_kursk_01_desc" xml:space="preserve">
+    <value>Выдаётся игрокам, получившим в награду танк Т-34Э в событии «Курская битва».</value>
+  </data>
+  <data name="special_style/battle_of_kursk_02" xml:space="preserve">
+    <value>«Огненная дуга»</value>
+  </data>
+  <data name="special_style/battle_of_kursk_02_desc" xml:space="preserve">
+    <value>Выдаётся игрокам, выполнившим все задачи в событии «Курская битва».</value>
+  </data>
+  <data name="special_style/ranked_1_2nd" xml:space="preserve">
+    <value>«Первая лига»</value>
+  </data>
+  <data name="special_style/ranked_1_2nd_desc" xml:space="preserve">
+    <value>Выдаётся игрокам, занявшим призовые места в первой лиге второго сезона Ранговых боёв.</value>
+  </data>
+  <data name="special_style/ranked_1_desc" xml:space="preserve">
+    <value>Выдаётся игрокам, занявшим призовые места в первой лиге первого сезона Ранговых боёв.</value>
+  </data>
+  <data name="special_style/ranked_2_2nd" xml:space="preserve">
+    <value>«Вторая лига»</value>
+  </data>
+  <data name="special_style/ranked_2_2nd_desc" xml:space="preserve">
+    <value>Выдаётся игрокам, занявшим призовые места во второй лиге второго сезона Ранговых боёв.</value>
+  </data>
+  <data name="special_style/ranked_2_desc" xml:space="preserve">
+    <value>Выдаётся игрокам, занявшим призовые места во второй лиге первого сезона Ранговых боёв.</value>
+  </data>
+  <data name="special_style/ranked_3_2nd" xml:space="preserve">
+    <value>«Третья лига»</value>
+  </data>
+  <data name="special_style/ranked_3_2nd_desc" xml:space="preserve">
+    <value>Выдаётся игрокам, занявшим призовые места в третьей лиге второго сезона Ранговых боёв.</value>
+  </data>
+  <data name="special_style/ranked_3_desc" xml:space="preserve">
+    <value>Выдаётся игрокам, занявшим призовые места в третьей лиге первого сезона Ранговых боёв.</value>
+  </data>
+  <data name="camouflage/Chimera_lbz_camo_d/description" xml:space="preserve">
+    <value>3. Изображения и статуи химер (или отождествляемых с ними гаргулий) широко использовались в готической архитектуре для украшения фасадов зданий, а также в качестве эффективных водоотводов.</value>
+  </data>
+  <data name="camouflage/Chimera_lbz_camo_d/label" xml:space="preserve">
+    <value>«Беллерофонт»: пустынный</value>
+  </data>
+  <data name="camouflage/Chimera_lbz_camo_s/description" xml:space="preserve">
+    <value>1. Химера — согласно греческой мифологии огнедышащее порождение Тифона и Ехидны, чудовище с головой льва, телом козы и змеиным хвостом. Впервые упоминается в «Илиаде» древнегреческого сказителя Гомера.</value>
+  </data>
+  <data name="camouflage/Chimera_lbz_camo_s/label" xml:space="preserve">
+    <value>«Беллерофонт»: летний</value>
+  </data>
+  <data name="camouflage/Chimera_lbz_camo_w/description" xml:space="preserve">
+    <value>2. По одному из толкований мифа была убита Беллерофонтом — одним из древнегреческих героев, который сражался с ней на крылатом коне Пегасе. По другой версии, имя «Пегас» носил корабль Беллерофонта, а «Химера» — ущелье в Ликии (современная часть Турции).</value>
+  </data>
+  <data name="camouflage/Chimera_lbz_camo_w/label" xml:space="preserve">
+    <value>«Беллерофонт»: зимний</value>
+  </data>
+  <data name="camouflage/Excalibur_lbz_camo_d/description" xml:space="preserve">
+    <value>3. Археологические находки большого количества мечей периода так называемых «Тёмных веков» в европейских водоёмах позволяют предположить, что бросать меч в воду после гибели владельца было обычной практикой.</value>
+  </data>
+  <data name="camouflage/Excalibur_lbz_camo_d/label" xml:space="preserve">
+    <value>«Меч в камне»: пустынный</value>
+  </data>
+  <data name="camouflage/Excalibur_lbz_camo_s/description" xml:space="preserve">
+    <value>1. Экскалибур — мифический меч, который согласно легендам о короле Артуре был добыт им у Владычицы озера с помощью волшебника Мерлина. Мечу приписывают магические свойства и иногда отождествляют с тем самым «мечом в камне».</value>
+  </data>
+  <data name="camouflage/Excalibur_lbz_camo_s/label" xml:space="preserve">
+    <value>«Меч в камне»: летний</value>
+  </data>
+  <data name="camouflage/Excalibur_lbz_camo_w/description" xml:space="preserve">
+    <value>2. После своей последней битвы смертельно раненный Артур приказал одному из рыцарей Круглого стола вернуть меч обратно в озеро, где ранее меч был добыт. Только после возвращения меча хозяйке король смог спокойно умереть.</value>
+  </data>
+  <data name="camouflage/Excalibur_lbz_camo_w/label" xml:space="preserve">
+    <value>«Меч в камне»: зимний</value>
+  </data>
+  <data name="camouflage/Object279R_lbz_camo_d/description" xml:space="preserve">
+    <value>3. В итоге броня танка действительно была способна выдержать попадание из абсолютно любого танкового орудия, существовавшего в то время, однако в серию машина так и не пошла из-за выявленных на испытаниях проблем с ходовой частью.</value>
+  </data>
+  <data name="camouflage/Object279R_lbz_camo_d/label" xml:space="preserve">
+    <value>«Искажающий» пустынный</value>
+  </data>
+  <data name="camouflage/Object279R_lbz_camo_s/description" xml:space="preserve">
+    <value>1. Камуфляжная схема для одной из версий танка, разработанной Л. С. Трояновым после войны. Финальный вариант должен был заменить танк Т-10, стоявший на вооружении в тот момент, но не имевший достаточного бронирования, чтобы эффективно противостоять своим современникам — американскому M103 и британскому Conqueror.</value>
+  </data>
+  <data name="camouflage/Object279R_lbz_camo_s/label" xml:space="preserve">
+    <value>«Искажающий» летний</value>
+  </data>
+  <data name="camouflage/Object279R_lbz_camo_w/description" xml:space="preserve">
+    <value>2. Танк по проекту хоть и обладал классической компоновкой, но включал в себя весьма смелые конструкторские решения, одними из которых стал четырёхгусеничный движитель и необычной формы корпус, имеющий исключительные показатели приведённой брони.</value>
+  </data>
+  <data name="camouflage/Object279R_lbz_camo_w/label" xml:space="preserve">
+    <value>«Искажающий» зимний</value>
+  </data>
+  <data name="camouflage/battle_of_bloggers_camo/description" xml:space="preserve">
+    <value>Камуфляжная схема, выдаваемая за участие в событии «Битва блогеров» в составе одной из команд.</value>
+  </data>
+  <data name="camouflage/battle_of_bloggers_camo/label" xml:space="preserve">
+    <value>Герой битвы блогеров</value>
+  </data>
+  <data name="camouflage/gamescom_camo/description" xml:space="preserve">
+    <value>Специальная камуфляжная схема, разработанная в честь ежегодной игровой выставки Gamescom, проходящей в Кёльне.</value>
+  </data>
+  <data name="camouflage/gamescom_camo/label" xml:space="preserve">
+    <value>Gamescom 2018</value>
+  </data>
+  <data name="camouflage/supertest_camo/description" xml:space="preserve">
+    <value>Уникальная камуфляжная схема, выдаваемая за выслугу лет участникам Супертеста.</value>
+  </data>
+  <data name="camouflage/supertest_camo/label" xml:space="preserve">
+    <value>Ветеран Супертеста</value>
+  </data>
+  <data name="camouflage/victim/poland_black/description" xml:space="preserve">
+    <value>Чёрный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/poland_black/label" xml:space="preserve">
+    <value>Чёрный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/poland_gold/description" xml:space="preserve">
+    <value>Золотой камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/poland_gold/label" xml:space="preserve">
+    <value>Золотой камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/poland_red/description" xml:space="preserve">
+    <value>Красный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/poland_red/label" xml:space="preserve">
+    <value>Красный камуфляж для «Охоты»</value>
+  </data>
+  <data name="camouflage/victim/poland_silver/description" xml:space="preserve">
+    <value>Серебряный камуфляж используется для выполнения боевой задачи «Охота».</value>
+  </data>
+  <data name="camouflage/victim/poland_silver/label" xml:space="preserve">
+    <value>Серебряный камуфляж для «Охоты»</value>
+  </data>
+  <data name="customization/notSelectedItems" xml:space="preserve">
+    <value>Элемент внешнего вида не выбран.</value>
+  </data>
+  <data name="emblem/special/sticker_398" xml:space="preserve">
+    <value>Chimera: стремительное завершение</value>
+  </data>
+  <data name="emblem/special/sticker_399" xml:space="preserve">
+    <value>Excalibur: молниеносное завершение</value>
+  </data>
+  <data name="emblem/special/sticker_403" xml:space="preserve">
+    <value>Köln 2018</value>
+  </data>
+  <data name="emblem/special/sticker_404" xml:space="preserve">
+    <value>Ветеран Супертеста</value>
+  </data>
+  <data name="emblem/special/sticker_405" xml:space="preserve">
+    <value>Команда Yusha</value>
+  </data>
+  <data name="emblem/special/sticker_406" xml:space="preserve">
+    <value>Команда LeBwa</value>
+  </data>
+  <data name="emblem/special/sticker_407" xml:space="preserve">
+    <value>Команда Jove</value>
+  </data>
+  <data name="emblem/special/sticker_408" xml:space="preserve">
+    <value>Команда Amway921</value>
+  </data>
+  <data name="inscription/special/special_206" xml:space="preserve">
+    <value>Gamescom 2018</value>
+  </data>
+  <data name="inscription/special/special_207" xml:space="preserve">
+    <value>Команда Yusha</value>
+  </data>
+  <data name="inscription/special/special_208" xml:space="preserve">
+    <value>Команда LeBwa</value>
+  </data>
+  <data name="inscription/special/special_209" xml:space="preserve">
+    <value>Команда Jove</value>
+  </data>
+  <data name="inscription/special/special_210" xml:space="preserve">
+    <value>Команда Amway921</value>
+  </data>
+  <data name="rented_style/poland" xml:space="preserve">
+    <value>Польша</value>
+  </data>
+  <data name="repaint/poland_base_color" xml:space="preserve">
+    <value>Польский базовый</value>
+  </data>
+  <data name="repaint/poland_color_01" xml:space="preserve">
+    <value>Szaro-piaskowa</value>
+  </data>
+  <data name="repaint/poland_color_02" xml:space="preserve">
+    <value>Oliwkowo-zielona</value>
+  </data>
+  <data name="repaint/poland_color_03" xml:space="preserve">
+    <value>Ciemno-brązowa</value>
+  </data>
+  <data name="repaint/poland_color_04" xml:space="preserve">
+    <value>Ciemno-zielona</value>
+  </data>
+  <data name="repaint/poland_color_05" xml:space="preserve">
+    <value>Czarna</value>
+  </data>
+  <data name="repaint/poland_color_06" xml:space="preserve">
+    <value>Brązowa</value>
+  </data>
+  <data name="repaint/poland_color_07" xml:space="preserve">
+    <value>Srebrna</value>
+  </data>
+  <data name="special_style/KanonenPanter_105" xml:space="preserve">
+    <value>«Чёрная пантера»</value>
+  </data>
+  <data name="special_style/battle_of_bloggers_01" xml:space="preserve">
+    <value>Битва блогеров: Yusha</value>
+  </data>
+  <data name="special_style/battle_of_bloggers_01_desc" xml:space="preserve">
+    <value>Уникальный всесезонный стиль, выдаваемый за участие в событии «Битва блогеров» в составе команды Yusha. Может быть нанесён на машину любой нации и уровня.</value>
+  </data>
+  <data name="special_style/battle_of_bloggers_02" xml:space="preserve">
+    <value>Битва блогеров: LeBwa</value>
+  </data>
+  <data name="special_style/battle_of_bloggers_02_desc" xml:space="preserve">
+    <value>Уникальный всесезонный стиль, выдаваемый за участие в событии «Битва блогеров» в составе команды LeBwa. Может быть нанесён на машину любой нации и уровня.</value>
+  </data>
+  <data name="special_style/battle_of_bloggers_03" xml:space="preserve">
+    <value>Битва блогеров: Jove</value>
+  </data>
+  <data name="special_style/battle_of_bloggers_03_desc" xml:space="preserve">
+    <value>Уникальный всесезонный стиль, выдаваемый за участие в событии «Битва блогеров» в составе команды Jove. Может быть нанесён на машину любой нации и уровня.</value>
+  </data>
+  <data name="special_style/battle_of_bloggers_04" xml:space="preserve">
+    <value>Битва блогеров: Amway921</value>
+  </data>
+  <data name="special_style/battle_of_bloggers_04_desc" xml:space="preserve">
+    <value>Уникальный всесезонный стиль, выдаваемый за участие в событии «Битва блогеров» в составе команды Amway921. Может быть нанесён на машину любой нации и уровня.</value>
+  </data>
+  <data name="special_style/gamescom" xml:space="preserve">
+    <value>Gamescom 2018</value>
+  </data>
+  <data name="special_style/gamescom_desc" xml:space="preserve">
+    <value>Уникальный всесезонный стиль, разработанный в честь ежегодной игровой выставки Gamescom, проходящей в Кёльне.</value>
+  </data>
+  <data name="special_style/royal_corps" xml:space="preserve">
+    <value>«Бесстрашный»</value>
+  </data>
+  <data name="special_style/supertest_style" xml:space="preserve">
+    <value>Водитель-испытатель</value>
+  </data>
+  <data name="special_style/supertest_style_desc" xml:space="preserve">
+    <value>Уникальный всесезонный стиль, выдаваемый за выслугу лет участникам Супертеста. Может быть нанесён на машину любой нации и уровня.</value>
   </data>
 </root>

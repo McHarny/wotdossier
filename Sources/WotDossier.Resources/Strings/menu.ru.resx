@@ -3331,7 +3331,7 @@
     <value>Исторический бой</value>
   </data>
   <data name="bonusType/9" xml:space="preserve">
-    <value>Футбольный матч</value>
+    <value>Специальный игровой режим</value>
   </data>
   <data name="contextMenu/selectVehicleInHangar" xml:space="preserve">
     <value>Перейти к машине в Ангаре</value>
@@ -4250,7 +4250,7 @@
     <value>Награда за выполнение дополнительных условий: %(award)s</value>
   </data>
   <data name="awardWindow/quests/taskComplete/additionalNotComplete" xml:space="preserve">
-    <value>Дополнительные условия не выполнены.</value>
+    <value>Дополнительное условие не выполнено.</value>
   </data>
   <data name="awardWindow/quests/taskComplete/awardForComlete" xml:space="preserve">
     <value>Награда
@@ -4263,7 +4263,7 @@
     <value>За выполнение боевой задачи командование выражает благодарность и вручает вам ценные награды.</value>
   </data>
   <data name="awardWindow/quests/taskComplete/header" xml:space="preserve">
-    <value>Задача "%(taskName)s" выполнена!</value>
+    <value>Задача «%(taskName)s» выполнена!</value>
   </data>
   <data name="awardWindow/quests/tokens/description" xml:space="preserve">
     <value>За выполнение завершающей задачи ветки одного типа техники командование выражает благодарность и вручает вам наградные листы.</value>
@@ -4305,7 +4305,7 @@
     <value>Редактировать заметку</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad" xml:space="preserve">
-    <value>Футбольный взвод</value>
+    <value>+++Лунный взвод+++</value>
   </data>
   <data name="headerButtons/battle/types/eventSquad/descr" xml:space="preserve">
     <value>5 игроков</value>
@@ -5030,7 +5030,7 @@
     <value>Боёв доступно: %(battles)s</value>
   </data>
   <data name="awardWindow/specialAchievement/pveBattle/description" xml:space="preserve">
-    <value>Вы завершили свой %(battlesCount)d бой. Настало время перейти к активным боевым действиям в режиме «Случайный бой». Теперь боевой опыт, кредиты, награды в режиме «Учебный бой» не будут начисляться.</value>
+    <value>Вы завершили свой %(battlesCount)d бой. Настало время перейти к активным боевым действиям в режиме «Случайный бой».</value>
   </data>
   <data name="awardWindow/title/info" xml:space="preserve">
     <value>Информационный листок</value>
@@ -5173,7 +5173,7 @@
     <value>Тип ресурса:</value>
   </data>
   <data name="contextMenu/createEventSquad" xml:space="preserve">
-    <value>Создать футбольный взвод</value>
+    <value>Создать ++ивентный++ взвод</value>
   </data>
   <data name="hangar/ammunitionPanel/technicalMaitenance/messageText" xml:space="preserve">
     <value>Установка снаряжения
@@ -5252,7 +5252,7 @@
     <value>Не подходит</value>
   </data>
   <data name="headerButtons/battle/types/squad/event" xml:space="preserve">
-    <value>: Танковый футбол 2018</value>
+    <value>+++: событие+++</value>
   </data>
   <data name="headerButtons/battle/types/squad/randomBattle" xml:space="preserve">
     <value>: случайный бой</value>
@@ -5605,7 +5605,7 @@
     <value>?empty?</value>
   </data>
   <data name="hangar_header/personal_quests_label/active" xml:space="preserve">
-    <value>%(current)s</value>
+    <value>#%(current)s</value>
   </data>
   <data name="hangar_header/personal_quests_label/empty" xml:space="preserve">
     <value>- -</value>
@@ -6482,5 +6482,209 @@
   </data>
   <data name="tankmen/role_striker" xml:space="preserve">
     <value>нападающий</value>
+  </data>
+  <data name="booster/bonus/booster_credits" xml:space="preserve">
+    <value>%(effectValue)s на %(effectHours)s к кредитам за бой</value>
+  </data>
+  <data name="booster/bonus/booster_crew_xp" xml:space="preserve">
+    <value>%(effectValue)s на %(effectHours)s к опыту экипажа за бой</value>
+  </data>
+  <data name="booster/bonus/booster_free_xp" xml:space="preserve">
+    <value>%(effectValue)s на %(effectHours)s к свободному опыту за бой</value>
+  </data>
+  <data name="booster/bonus/booster_xp" xml:space="preserve">
+    <value>%(effectValue)s на %(effectHours)s к опыту за бой</value>
+  </data>
+  <data name="crystals/promoWindow/openShopBtnLabel" xml:space="preserve">
+    <value>Купить в Магазине</value>
+  </data>
+  <data name="cst_item_ctx_menu/allowSale" xml:space="preserve">
+    <value>Выделить</value>
+  </data>
+  <data name="cst_item_ctx_menu/information" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="cst_item_ctx_menu/prohibitSale" xml:space="preserve">
+    <value>Снять выделение</value>
+  </data>
+  <data name="dateTime/months/1" xml:space="preserve">
+    <value>января</value>
+  </data>
+  <data name="dateTime/months/10" xml:space="preserve">
+    <value>октября</value>
+  </data>
+  <data name="dateTime/months/11" xml:space="preserve">
+    <value>ноября</value>
+  </data>
+  <data name="dateTime/months/12" xml:space="preserve">
+    <value>декабря</value>
+  </data>
+  <data name="dateTime/months/2" xml:space="preserve">
+    <value>февраля</value>
+  </data>
+  <data name="dateTime/months/3" xml:space="preserve">
+    <value>марта</value>
+  </data>
+  <data name="dateTime/months/4" xml:space="preserve">
+    <value>апреля</value>
+  </data>
+  <data name="dateTime/months/5" xml:space="preserve">
+    <value>мая</value>
+  </data>
+  <data name="dateTime/months/6" xml:space="preserve">
+    <value>июня</value>
+  </data>
+  <data name="dateTime/months/7" xml:space="preserve">
+    <value>июля</value>
+  </data>
+  <data name="dateTime/months/8" xml:space="preserve">
+    <value>августа</value>
+  </data>
+  <data name="dateTime/months/9" xml:space="preserve">
+    <value>сентября</value>
+  </data>
+  <data name="headerButtons/storage" xml:space="preserve">
+    <value>Склад</value>
+  </data>
+  <data name="premium/packet/longDescriptionSpecial" xml:space="preserve">
+    <value>Наличие премиум аккаунта позволяет вам быстрее развиваться в игре, обеспечивая дополнительный заработок кредитов и опыта. Премиум аккаунт един для World of Tanks, World of Warships и World of Warplanes, поэтому, покупая его для одной игры, вы автоматически получаете его в остальных.</value>
+  </data>
+  <data name="premium/packet/shortDescriptionSpecial" xml:space="preserve">
+    <value>+50% к опыту, кредитам и опыту экипажа за бой</value>
+  </data>
+  <data name="vehiclePreview/endTime" xml:space="preserve">
+    <value>Предложение завершено</value>
+  </data>
+  <data name="vehiclePreview/timeLeft/hours" xml:space="preserve">
+    <value>%(hour)s ч. %(min)s мин.</value>
+  </data>
+  <data name="vehiclePreview/timeLeft/lessMin" xml:space="preserve">
+    <value>1 мин.</value>
+  </data>
+  <data name="vehiclePreview/timeLeft/min" xml:space="preserve">
+    <value>%(min)s мин.</value>
+  </data>
+  <data name="vehiclePreview/timeLeftShort/hours" xml:space="preserve">
+    <value>%(hour)s ч.</value>
+  </data>
+  <data name="vehiclePreview/timeLeftShort/lessMin" xml:space="preserve">
+    <value>01 мин.</value>
+  </data>
+  <data name="vehiclePreview/timeLeftShort/min" xml:space="preserve">
+    <value>%(min)s мин.</value>
+  </data>
+  <data name="awardWindow/bloggersAward/description" xml:space="preserve">
+    <value>Вы получили %(awardName)s.</value>
+  </data>
+  <data name="awardWindow/bloggersAward/description/badge" xml:space="preserve">
+    <value>нашивку за победу команды блогера %(blogger)s</value>
+  </data>
+  <data name="awardWindow/bloggersAward/description/emblem" xml:space="preserve">
+    <value>эмблему за участие в команде блогера %(blogger)s</value>
+  </data>
+  <data name="awardWindow/bloggersAward/description/exp" xml:space="preserve">
+    <value>x2 опыта на 15 боёв</value>
+  </data>
+  <data name="awardWindow/bloggersAward/description/inscription" xml:space="preserve">
+    <value>надпись за участие в команде блогера %(blogger)s</value>
+  </data>
+  <data name="awardWindow/bloggersAward/description/medal" xml:space="preserve">
+    <value>медаль за участие в команде блогера %(blogger)s</value>
+  </data>
+  <data name="awardWindow/bloggersAward/description/style" xml:space="preserve">
+    <value>особый стиль за участие в команде блогера %(blogger)s</value>
+  </data>
+  <data name="awardWindow/bloggersAward/header" xml:space="preserve">
+    <value>Получена награда!</value>
+  </data>
+  <data name="awardWindow/bloggersAward/name/amway" xml:space="preserve">
+    <value>Amway921</value>
+  </data>
+  <data name="awardWindow/bloggersAward/name/jove" xml:space="preserve">
+    <value>Jove</value>
+  </data>
+  <data name="awardWindow/bloggersAward/name/lebwa" xml:space="preserve">
+    <value>LeBwa</value>
+  </data>
+  <data name="awardWindow/bloggersAward/name/usha" xml:space="preserve">
+    <value>Yusha</value>
+  </data>
+  <data name="awardWindow/title/bloggersAward" xml:space="preserve">
+    <value>«Битва блогеров»</value>
+  </data>
+  <data name="barracks/btnRecruitNotRecruited" xml:space="preserve">
+    <value>Рекрутировать</value>
+  </data>
+  <data name="barracks/menu/locationFilter/notRecruited" xml:space="preserve">
+    <value>Новобранцы</value>
+  </data>
+  <data name="barracks/noNotRecruitedTankmen/message" xml:space="preserve">
+    <value>Здесь будут находиться потенциальные члены экипажей, полученные в рамках игровых событий и специальных акций. Рекрутирование бесплатное.</value>
+  </data>
+  <data name="barracks/noNotRecruitedTankmen/title" xml:space="preserve">
+    <value>Новобранцы отсутствуют</value>
+  </data>
+  <data name="barracks/notRecruitedActivateBefore" xml:space="preserve">
+    <value>До %(date)s</value>
+  </data>
+  <data name="barracks/notRecruitedCount" xml:space="preserve">
+    <value>Новобранцы: %(total)s</value>
+  </data>
+  <data name="classes/short/Alliance-France" xml:space="preserve">
+    <value>Коалиции (Франция, Швеция, Чехословакия, Италия)</value>
+  </data>
+  <data name="classes/short/Alliance-Germany" xml:space="preserve">
+    <value>Блока (Германия, Япония)</value>
+  </data>
+  <data name="classes/short/Alliance-USA" xml:space="preserve">
+    <value>Альянса (США, Польша, Великобритания)</value>
+  </data>
+  <data name="classes/short/Alliance-USSR" xml:space="preserve">
+    <value>Союза (СССР, Китай)</value>
+  </data>
+  <data name="header/vehicleType/Alliance-France" xml:space="preserve">
+    <value>Франция, Швеция, Чехословакия, Италия</value>
+  </data>
+  <data name="header/vehicleType/Alliance-Germany" xml:space="preserve">
+    <value>Германия, Япония</value>
+  </data>
+  <data name="header/vehicleType/Alliance-USA" xml:space="preserve">
+    <value>США, Польша, Великобритания</value>
+  </data>
+  <data name="header/vehicleType/Alliance-USSR" xml:space="preserve">
+    <value>СССР, Китай</value>
+  </data>
+  <data name="headerButtons/clans" xml:space="preserve">
+    <value>Кланы</value>
+  </data>
+  <data name="internet_provider/Kazakhtelecom/name" xml:space="preserve">
+    <value>Казахтелеком</value>
+  </data>
+  <data name="internet_provider/Kazakhtelecom/tariff" xml:space="preserve">
+    <value>Игровой</value>
+  </data>
+  <data name="internet_provider/Kyivstar/name" xml:space="preserve">
+    <value>Киевстар</value>
+  </data>
+  <data name="internet_provider/Kyivstar/tariff" xml:space="preserve">
+    <value>Игровой</value>
+  </data>
+  <data name="lobby_menu/buttons/post" xml:space="preserve">
+    <value>Полевая почта</value>
+  </data>
+  <data name="promo/teaser/title" xml:space="preserve">
+    <value>Полевая почта</value>
+  </data>
+  <data name="promo/teaserTimeFormat/days" xml:space="preserve">
+    <value>%(day)sд:%(hour)s:%(min)s:%(sec)s</value>
+  </data>
+  <data name="promo/teaserTimeFormat/hours" xml:space="preserve">
+    <value>%(hour)s:%(min)s:%(sec)s</value>
+  </data>
+  <data name="promo/teaserTimeFormat/lessMin" xml:space="preserve">
+    <value>%(hour)s:%(min)s:%(sec)s</value>
+  </data>
+  <data name="promo/teaserTimeFormat/min" xml:space="preserve">
+    <value>%(hour)s:%(min)s:%(sec)s</value>
   </data>
 </root>

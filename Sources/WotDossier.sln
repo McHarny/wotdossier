@@ -710,9 +710,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		BuildVersion_AssemblyInfoFilename = 
+		BuildVersion_AssemblyInfoFilename = WotDossier\Properties\AssemblyInfo.cs
 		BuildVersion_DetectChanges = False
-		BuildVersion_UpdateAssemblyVersion = False
+		BuildVersion_UpdateAssemblyVersion = True
 		BuildVersion_StartDate = 2000/1/1
 		BuildVersion_BuildVersioningStyle = None.YearStamp.MonthAndDayStamp.Increment
 		SolutionGuid = {6B36B677-423E-48BA-8D46-CBC86898B099}

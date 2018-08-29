@@ -1332,7 +1332,7 @@ the full description.</value>
     <value>Available in the Garage</value>
   </data>
   <data name="quests/table/noVehicles" xml:space="preserve">
-    <value>No suitable vehicles</value>
+    <value>No Suitable Vehicles</value>
   </data>
   <data name="quests/table/notInHangar" xml:space="preserve">
     <value>Unavailable in the Garage</value>
@@ -3026,8 +3026,8 @@ TO CREW EXPERIENCE</value>
     <value>CHOOSE INSCRIPTIONS</value>
   </data>
   <data name="action/chain/hint/openPersonalCase" xml:space="preserve">
-    <value>CLICK RMB
-TO OPEN PERSONAL FILE</value>
+    <value>CLICK TO OPEN
+PERSONAL FILE</value>
   </data>
   <data name="action/chain/hint/premDays" xml:space="preserve">
     <value>DISCOUNT ON PREMIUM ACCOUNT</value>
@@ -3997,7 +3997,7 @@ Please note that vehicle characteristics shown in your Garage are relevant if th
     <value>Do not destroy</value>
   </data>
   <data name="details/conditions/win/title" xml:space="preserve">
-    <value>Win</value>
+    <value>Win a battle</value>
   </data>
   <data name="details/dossier/ranked/battlesCount" xml:space="preserve">
     <value>Ranked Battles fought</value>
@@ -4280,13 +4280,13 @@ in the corresponding section of the Missions section.</value>
     <value>For %(vehName)s</value>
   </data>
   <data name="missions/tab/label/marathons" xml:space="preserve">
-    <value>Tank football 2018</value>
+    <value>Events</value>
   </data>
   <data name="missions/tab/marathons/body" xml:space="preserve">
-    <value>Click to go to tournaments.</value>
+    <value>A set of missions that give valuable rewards upon their completion.</value>
   </data>
   <data name="missions/tab/marathons/header" xml:space="preserve">
-    <value>Tank football 2018</value>
+    <value>Events</value>
   </data>
   <data name="missions/tab/marathons/header/award" xml:space="preserve">
     <value>Reward:</value>
@@ -4334,7 +4334,7 @@ in the corresponding section of the Missions section.</value>
     <value>Vehicles</value>
   </data>
   <data name="missions/vehicleSelector/status/notAvailable" xml:space="preserve">
-    <value>No suitable vehicles</value>
+    <value>No Suitable Vehicles</value>
   </data>
   <data name="missions/vehicleSelector/status/select" xml:space="preserve">
     <value>Select a vehicle</value>
@@ -4499,7 +4499,7 @@ in the corresponding section of the Missions section.</value>
     <value>Order</value>
   </data>
   <data name="details/conditions/additional/title" xml:space="preserve">
-    <value>Complete primary conditions</value>
+    <value>Complete Primary Condition</value>
   </data>
   <data name="details/conditions/crits/critical/ammoBay" xml:space="preserve">
     <value>Damage an ammo rack</value>
@@ -4958,7 +4958,7 @@ in the corresponding section of the Missions section.</value>
     <value>Do not cause damage to enemy vehicles by ramming</value>
   </data>
   <data name="details/conditions/ramDamage/title" xml:space="preserve">
-    <value>Ram</value>
+    <value>Ramming</value>
   </data>
   <data name="details/conditions/ramDamage/title/not" xml:space="preserve">
     <value>Do Not Ram</value>
@@ -5120,10 +5120,10 @@ in the corresponding section of the Missions section.</value>
     <value>All rewards received</value>
   </data>
   <data name="personalMission/status/addInProgress" xml:space="preserve">
-    <value>Result Improvement</value>
+    <value>Result improvement: complete the primary and secondary conditions</value>
   </data>
   <data name="personalMission/status/doneWithPawn" xml:space="preserve">
-    <value>Completed with %(count)s</value>
+    <value>Primary conditions fulfilled for %(count)s</value>
   </data>
   <data name="personalMission/status/fullDone" xml:space="preserve">
     <value>Completed with honors</value>
@@ -5144,7 +5144,7 @@ in the corresponding section of the Missions section.</value>
     <value>Completed</value>
   </data>
   <data name="personalMission/status/sheetRecoveryInProgress" xml:space="preserve">
-    <value>Result Improvement</value>
+    <value>Retrieving an order: complete the primary and secondary conditions</value>
   </data>
   <data name="personalMission/vehicleSelector/title" xml:space="preserve">
     <value>Select a Tier %(minLevel)s–%(maxLevel)s %(vehType)s</value>
@@ -5553,5 +5553,239 @@ in the corresponding section of the Missions section.</value>
   </data>
   <data name="token/default/card" xml:space="preserve">
     <value>Back of a card</value>
+  </data>
+  <data name="action/auto/vehicleBuyPrice" xml:space="preserve">
+    <value>Discount on purchasing vehicles</value>
+  </data>
+  <data name="action/auto/vehicleRentPrice" xml:space="preserve">
+    <value>Discount on Premium vehicle rental</value>
+  </data>
+  <data name="action/button/vehicleBuyPrice" xml:space="preserve">
+    <value>Go to Vehicles</value>
+  </data>
+  <data name="action/button/vehicleRentPrice" xml:space="preserve">
+    <value>Rent Vehicles</value>
+  </data>
+  <data name="action/chain/hint/shellsPrice" xml:space="preserve">
+    <value>GO TO SHELLS</value>
+  </data>
+  <data name="action/full/vehicleBuyPrice" xml:space="preserve">
+    <value>Discount on purchasing vehicles</value>
+  </data>
+  <data name="action/full/vehicleRentPrice" xml:space="preserve">
+    <value>Rent Premium vehicles at a discount. Now you can test a desired Premium vehicle at a reduced price before purchasing it.</value>
+  </data>
+  <data name="action/short/vehicleBuyPrice/more" xml:space="preserve">
+    <value>Up to a %(discount)s discount on purchasing %(vehicles)s and other vehicles</value>
+  </data>
+  <data name="action/short/vehicleBuyPrice/one" xml:space="preserve">
+    <value>%(vehicles)s at a beneficial price of %(discount)s</value>
+  </data>
+  <data name="action/short/vehicleBuyPrice/two" xml:space="preserve">
+    <value>Up to a %(discount)s discount on purchasing %(vehicles)s</value>
+  </data>
+  <data name="action/short/vehicleRentPrice/more" xml:space="preserve">
+    <value>Up to a %(discount)s discount on renting %(vehicles)s and other vehicles</value>
+  </data>
+  <data name="action/short/vehicleRentPrice/one" xml:space="preserve">
+    <value>Renting of %(vehicles)s at a beneficial price of %(discount)s</value>
+  </data>
+  <data name="action/short/vehicleRentPrice/two" xml:space="preserve">
+    <value>Up to a %(discount)s discount on renting %(vehicles)s</value>
+  </data>
+  <data name="battleCondition/state/completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="battleCondition/state/completed_perfectly" xml:space="preserve">
+    <value>Completed with honors</value>
+  </data>
+  <data name="battleCondition/state/failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="battleCondition/state/in_progress" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="battleCondition/task/status/done" xml:space="preserve">
+    <value>Complete!</value>
+  </data>
+  <data name="battleCondition/task/status/failed" xml:space="preserve">
+    <value>Failed!</value>
+  </data>
+  <data name="battleProgress/afterBattleResult" xml:space="preserve">
+    <value>will be available after the battle finishes</value>
+  </data>
+  <data name="battleProgress/alertLabel/repairModules" xml:space="preserve">
+    <value>Repair damaged modules</value>
+  </data>
+  <data name="battleProgress/alertLabel/title" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="battleProgress/damageLeft" xml:space="preserve">
+    <value>%(formattedProgress)s Damage: %(left)s</value>
+  </data>
+  <data name="battleProgress/killsLeft" xml:space="preserve">
+    <value>%(formattedProgress)s Destroy: %(left)s</value>
+  </data>
+  <data name="battleProgress/limitedByTime" xml:space="preserve">
+    <value>%(formattedProgress)s Remaining: %(left)s Time: %(timeLeft)s</value>
+  </data>
+  <data name="battleProgress/position/advantage" xml:space="preserve">
+    <value>%(formattedProgress)s Leading:%(advantage)s Position: %(position)s</value>
+  </data>
+  <data name="battleProgress/position/left" xml:space="preserve">
+    <value>%(formattedProgress)s Remaining: %(left)s Position: %(position)s</value>
+  </data>
+  <data name="battleProgress/position/short" xml:space="preserve">
+    <value>%(formattedProgress)s Position: %(position)s</value>
+  </data>
+  <data name="bonusName/completionTokens_5_1" xml:space="preserve">
+    <value>L50 Engine Blueprints</value>
+  </data>
+  <data name="bonusName/completionTokens_5_2" xml:space="preserve">
+    <value>Torsion-Bar Suspension Blueprints</value>
+  </data>
+  <data name="bonusName/completionTokens_5_3" xml:space="preserve">
+    <value>Hull and Armored Cabin Blueprints</value>
+  </data>
+  <data name="bonusName/completionTokens_5_4" xml:space="preserve">
+    <value>76 mm Gun Blueprints</value>
+  </data>
+  <data name="bonusName/completionTokens_6_1" xml:space="preserve">
+    <value>MK. XI SC Engine Blueprints</value>
+  </data>
+  <data name="bonusName/completionTokens_6_2" xml:space="preserve">
+    <value>Torsion-Bar Suspension Blueprints</value>
+  </data>
+  <data name="bonusName/completionTokens_6_3" xml:space="preserve">
+    <value>Hull and Turret Blueprints</value>
+  </data>
+  <data name="bonusName/completionTokens_6_4" xml:space="preserve">
+    <value>QF 5-in. Gun Blueprints</value>
+  </data>
+  <data name="bonusName/completionTokens_7_1" xml:space="preserve">
+    <value>V-11-NC Engine Blueprints</value>
+  </data>
+  <data name="bonusName/completionTokens_7_2" xml:space="preserve">
+    <value>Four-Track Suspension Blueprints</value>
+  </data>
+  <data name="bonusName/completionTokens_7_3" xml:space="preserve">
+    <value>Hull and Turret Blueprints</value>
+  </data>
+  <data name="bonusName/completionTokens_7_4" xml:space="preserve">
+    <value>122 mm M62-T2A Gun Blueprints</value>
+  </data>
+  <data name="details/conditions/alive/description" xml:space="preserve">
+    <value>Survive the battle</value>
+  </data>
+  <data name="details/conditions/win/description" xml:space="preserve">
+    <value>Destroy an enemy vehicle, capture the base, or defend the base (when playing for the defenders in the Assault mode)</value>
+  </data>
+  <data name="metrics/state/done" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="metrics/state/failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="metrics/state/inProgress" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="metrics/title/left" xml:space="preserve">
+    <value>Left:</value>
+  </data>
+  <data name="metrics/title/position" xml:space="preserve">
+    <value>Position:</value>
+  </data>
+  <data name="metrics/title/progress" xml:space="preserve">
+    <value>Progress:</value>
+  </data>
+  <data name="metrics/title/targets" xml:space="preserve">
+    <value>Objectives:</value>
+  </data>
+  <data name="metrics/title/triesLeft" xml:space="preserve">
+    <value>Attempts remaining:</value>
+  </data>
+  <data name="missionDetails/status/disabled" xml:space="preserve">
+    <value>Mission disabled</value>
+  </data>
+  <data name="missions/tab/kursk/body" xml:space="preserve">
+    <value>Daily missions to commemorate the anniversary of the Battle of Kursk.</value>
+  </data>
+  <data name="missions/tab/kursk/header" xml:space="preserve">
+    <value>Battle of Kursk</value>
+  </data>
+  <data name="missions/tab/label/kursk" xml:space="preserve">
+    <value>Battle of Kursk</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/AT-SPG" xml:space="preserve">
+    <value>Tank Destroyers</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/Alliance-France" xml:space="preserve">
+    <value>Coalition (%(nations)s)</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/Alliance-Germany" xml:space="preserve">
+    <value>Bloc (%(nations)s)</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/Alliance-USA" xml:space="preserve">
+    <value>Alliance (%(nations)s)</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/Alliance-USSR" xml:space="preserve">
+    <value>Union (%(nations)s)</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/SPG" xml:space="preserve">
+    <value>SPGs</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/heavyTank" xml:space="preserve">
+    <value>HT</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/lightTank" xml:space="preserve">
+    <value>LT</value>
+  </data>
+  <data name="personalMission/status/addBottom/vehicleType/mediumTank" xml:space="preserve">
+    <value>MT</value>
+  </data>
+  <data name="personalMission/status/addBottomInfo/pm2" xml:space="preserve">
+    <value>Can be completed in vehicles: %(vehType)s of Tiers %(minLevel)s–%(maxLevel)s</value>
+  </data>
+  <data name="personalMission/status/addBottomInfo/regular" xml:space="preserve">
+    <value>Can be completed in %(vehType)s of Tiers %(minLevel)s–%(maxLevel)s</value>
+  </data>
+  <data name="personalMission/status/addBottomLocked/pm2" xml:space="preserve">
+    <value>No suitable vehicles: %(vehType)s of Tiers %(minLevel)s–%(maxLevel)s</value>
+  </data>
+  <data name="personalMission/status/addBottomLocked/regular" xml:space="preserve">
+    <value>No suitable vehicles: %(vehType)s of Tiers %(minLevel)s–%(maxLevel)s</value>
+  </data>
+  <data name="personalMission/status/lastDoneWithPawn" xml:space="preserve">
+    <value>You have completed the final mission in the set!</value>
+  </data>
+  <data name="personalMission/status/notDone" xml:space="preserve">
+    <value>Not completed</value>
+  </data>
+  <data name="personalMission/status/onlyAddDone" xml:space="preserve">
+    <value>Secondary condition completed</value>
+  </data>
+  <data name="personalMission/status/onlyMainDone" xml:space="preserve">
+    <value>Primary condition completed</value>
+  </data>
+  <data name="quest/flag/status/completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="quest/flag/status/completed_perfectly" xml:space="preserve">
+    <value>Completed with honors</value>
+  </data>
+  <data name="quest/flag/status/failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="quest/flag/status/in_progress" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="quest/flag/status/locked" xml:space="preserve">
+    <value>Completion Unavailable</value>
+  </data>
+  <data name="quest/flag/status/not_started" xml:space="preserve">
+    <value>You have not started the mission</value>
+  </data>
+  <data name="token/default/poland" xml:space="preserve">
+    <value>Poland</value>
   </data>
 </root>

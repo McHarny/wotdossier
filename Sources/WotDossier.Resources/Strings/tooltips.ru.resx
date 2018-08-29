@@ -2536,10 +2536,10 @@
     <value>Пригласить игроков</value>
   </data>
   <data name="fortification/sortie/battleRoom/leaveBtn/body" xml:space="preserve">
-    <value>Нажмите, чтобы покинуть этот отряд и перейти к списку отрядов.</value>
+    <value>Нажмите, чтобы покинуть этот отряд и перейти к подбору.</value>
   </data>
   <data name="fortification/sortie/battleRoom/leaveBtn/header" xml:space="preserve">
-    <value>К списку отрядов</value>
+    <value>К подбору отряда</value>
   </data>
   <data name="fortification/sortie/battleRoom/status/commander" xml:space="preserve">
     <value>Командир отряда</value>
@@ -3903,8 +3903,8 @@
     <value>Статус</value>
   </data>
   <data name="header/versionInfoHint" xml:space="preserve">
-    <value>Окно информации о текущем обновлении можно
-вызвать из игрового меню в Ангаре.</value>
+    <value>Вы всегда можете попасть в Полевую почту
+из игрового меню в Ангаре.</value>
   </data>
   <data name="lobby/header/buyPremiumAccount/disabled/body" xml:space="preserve">
     <value>Продлить премиум аккаунт станет возможно, когда до истечения срока его действия останется %(number)s дней.</value>
@@ -5851,9 +5851,7 @@
     <value>Свободный опыт</value>
   </data>
   <data name="awardItem/gold/body" xml:space="preserve">
-    <value>Ценная игровая валюта, с помощью которой можно приобретать премиум аккаунт
-и технику, постоянный камуфляж, эмблемы и надписи, переводить боевой
-опыт в свободный и т.д.</value>
+    <value>Ценная игровая валюта, которую можно потратить на широкий спектр целей: премиум аккаунт, техника и т.д.</value>
   </data>
   <data name="awardItem/gold/header" xml:space="preserve">
     <value>Золото</value>
@@ -6379,7 +6377,7 @@
     <value>Браузер</value>
   </data>
   <data name="header/buttons/forts/body" xml:space="preserve">
-    <value>Перейти к управлению Укрепрайоном клана.</value>
+    <value>Перейти к Укрепрайону клана.</value>
   </data>
   <data name="header/buttons/forts/header" xml:space="preserve">
     <value>Укрепрайон</value>
@@ -7816,7 +7814,7 @@
     <value>Недоступно</value>
   </data>
   <data name="crew/roleChangeForbid/text" xml:space="preserve">
-    <value>Этот командир не может сменить основную специальность.</value>
+    <value>Этот %(role)s не может сменить основную специальность.</value>
   </data>
   <data name="crystal/body" xml:space="preserve">
     <value>Редкая специализированная валюта, за которую покупаются уникальные товары, недоступные за другую валюту.</value>
@@ -7825,7 +7823,7 @@
     <value>Боны</value>
   </data>
   <data name="details/conditions/additional" xml:space="preserve">
-    <value>Нажмите, чтобы посмотреть дополнительные условия данной задачи.</value>
+    <value>Нажмите, чтобы посмотреть дополнительное условие данной задачи.</value>
   </data>
   <data name="hangar/ammo_panel/battleBooster/empty/body" xml:space="preserve">
     <value>Нажмите, чтобы посмотреть список доступных вариантов предбоевых инструкций.</value>
@@ -8733,7 +8731,7 @@
   <data name="elen/summary/objParam/sumAll/xp/body" xml:space="preserve">
     <value>Сумма опыта, заработанного за бои в соревновании.
 Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.
-Надбавка от премиум аккаунта учитывается.</value>
+ Надбавка от премиум аккаунта учитывается.</value>
   </data>
   <data name="elen/summary/objParam/sumAll/xp/header" xml:space="preserve">
     <value>Сумма опыта</value>
@@ -8760,7 +8758,7 @@
   <data name="elen/summary/objParam/sumN/xp/body" xml:space="preserve">
     <value>Сумма опыта, заработанного за лучшие бои в соревновании. 
 Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.
-Надбавка от премиум аккаунта учитывается.</value>
+ Надбавка от премиум аккаунта учитывается.</value>
   </data>
   <data name="elen/summary/objParam/sumN/xp/header" xml:space="preserve">
     <value>Сумма опыта</value>
@@ -8787,7 +8785,7 @@
   <data name="elen/summary/objParam/sumSeqN/xp/body" xml:space="preserve">
     <value>Сумма опыта, заработанного за лучшую серию боёв в соревновании.
 Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.
-Надбавка от премиум аккаунта учитывается.</value>
+ Надбавка от премиум аккаунта учитывается.</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/xp/header" xml:space="preserve">
     <value>Сумма опыта</value>
@@ -9069,13 +9067,13 @@
     <value>Нашивка</value>
   </data>
   <data name="personalMissions/footer/pawnSheet/body" xml:space="preserve">
-    <value>Задачу можно выполнить за бланк приказа. Основные условия будут зачтены, а награда — выдана.</value>
+    <value>Задачу можно выполнить за бланк приказа. Основное условие будет зачтено, а награда — выдана.</value>
   </data>
   <data name="personalMissions/footer/pawnSheet/header" xml:space="preserve">
     <value>Выполнить за бланк приказа</value>
   </data>
   <data name="personalMissions/footer/pawnedSheet/body" xml:space="preserve">
-    <value>Задача выполнена за бланк приказа. Чтобы вернуть бланк приказа выполните задачу с отличием (основные и дополнительные условия).</value>
+    <value>Задача выполнена за бланк приказа. Чтобы вернуть бланк приказа выполните задачу с отличием (основное и дополнительное условия).</value>
   </data>
   <data name="personalMissions/footer/pawnedSheet/header" xml:space="preserve">
     <value>Заложен бланк приказа</value>
@@ -9087,37 +9085,37 @@
     <value>Как получить:</value>
   </data>
   <data name="personalMissions/freeSheet/howToUse/descr" xml:space="preserve">
-    <value>Можно заложить в задачу и получить награду за основные условия.</value>
+    <value>Можно заложить в задачу и получить награду за основное условие.</value>
   </data>
   <data name="personalMissions/freeSheet/howToUse/title" xml:space="preserve">
     <value>Как использовать:</value>
   </data>
   <data name="personalMissions/freeSheet/info" xml:space="preserve">
-    <value>Чтобы вернуть заложенный бланк приказа, выполните основные и дополнительные условия задачи.</value>
+    <value>Чтобы вернуть заложенный бланк приказа, выполните основное и дополнительное условия задачи.</value>
   </data>
   <data name="personalMissions/freeSheet/notEnough" xml:space="preserve">
-    <value>У вас недостаточно бланков приказа для выполнения основных условий задачи.</value>
+    <value>У вас недостаточно бланков приказа. Вы можете получить бланки, выполнив все задачи ветки.</value>
   </data>
   <data name="personalMissions/freeSheet/title" xml:space="preserve">
-    <value>Бланк приказа</value>
+    <value>Бланк приказа кампании %(campaignName)s</value>
   </data>
   <data name="personalMissions/freeSheet/used/Header" xml:space="preserve">
     <value>Заложенный бланк приказа:</value>
   </data>
   <data name="personalMissions/freeSheet/used/text" xml:space="preserve">
-    <value>Выполните основные и дополнительные условия задачи, чтобы вернуть и повторно использовать заложенный бланк приказа.</value>
+    <value>Выполните основное и дополнительное условия задачи, чтобы вернуть и повторно использовать заложенный бланк приказа.</value>
   </data>
   <data name="personalMissions/mapRegion/awards/title/allReceived" xml:space="preserve">
     <value>Все награды получены</value>
   </data>
   <data name="personalMissions/mapRegion/awards/title/done" xml:space="preserve">
-    <value>Награда за основные условия:</value>
+    <value>Награда за основное условие:</value>
   </data>
   <data name="personalMissions/mapRegion/awards/title/excellentDone" xml:space="preserve">
     <value>Награда за выполнение с отличием:</value>
   </data>
   <data name="personalMissions/mapRegion/conditions/title" xml:space="preserve">
-    <value>Основные условия:</value>
+    <value>Основное условие:</value>
   </data>
   <data name="personalMissions/mapRegion/conditions/title/excellent" xml:space="preserve">
     <value>Условия выполнения с отличием:</value>
@@ -9126,13 +9124,13 @@
     <value>Все условия выполнены, основная и дополнительная награды получены.</value>
   </data>
   <data name="personalMissions/mapRegion/footer/title/available" xml:space="preserve">
-    <value>Доступна для выполнения</value>
+    <value>Доступно для выполнения</value>
   </data>
   <data name="personalMissions/mapRegion/footer/title/done" xml:space="preserve">
-    <value>Основные условия выполнены</value>
+    <value>Основное условие выполнено</value>
   </data>
   <data name="personalMissions/mapRegion/footer/title/doneFreeSheet" xml:space="preserve">
-    <value>Основные условия выполнены за</value>
+    <value>Основное условие выполнено за</value>
   </data>
   <data name="personalMissions/mapRegion/footer/title/inProgress" xml:space="preserve">
     <value>Выполняется</value>
@@ -9220,19 +9218,19 @@
     <value>Выдаётся за выполнение операции «%(operationName)s» I кампании личных боевых задач.</value>
   </data>
   <data name="personalMissions/status/addInProgress/body" xml:space="preserve">
-    <value>Выполните основные и дополнительные условия, чтобы задача считалась выполненной с отличием.</value>
+    <value>Выполните основное и дополнительное условия, чтобы задача считалась выполненной с отличием.</value>
   </data>
   <data name="personalMissions/status/addInProgress/header" xml:space="preserve">
     <value>Улучшение результата</value>
   </data>
   <data name="personalMissions/status/doneWithPawn/body" xml:space="preserve">
-    <value>Задача выполнена, получена награда за основные условия. Вы можете вернуть бланк приказа, выполнив основные и дополнительные условия. Для этого нажмите кнопку «Вернуть бланк приказа» внизу карточки.</value>
+    <value>Задача выполнена, получена награда за основное условие. Вы можете вернуть бланк приказа, выполнив основное и дополнительное условия. Для этого нажмите кнопку «Вернуть бланк приказа» в нижней части экрана.</value>
   </data>
   <data name="personalMissions/status/doneWithPawn/header" xml:space="preserve">
-    <value>Основные условия выполнены</value>
+    <value>Основное условие выполнено</value>
   </data>
   <data name="personalMissions/status/fullDone/body" xml:space="preserve">
-    <value>Поздравляем! Задача выполнена с отличием и получена награда за основные и дополнительные условия.</value>
+    <value>Поздравляем! Задача выполнена с отличием, получена награда за основное и дополнительное условия.</value>
   </data>
   <data name="personalMissions/status/fullDone/header" xml:space="preserve">
     <value>Задача выполнена с отличием</value>
@@ -9259,16 +9257,16 @@
     <value>Для доступа к задаче необходима техника типа %(vehType)s с %(minLevel)s по %(maxLevel)s уровень.</value>
   </data>
   <data name="personalMissions/status/lockedByVehicle/header" xml:space="preserve">
-    <value>Нет техники</value>
+    <value>Нет подходящей техники</value>
   </data>
   <data name="personalMissions/status/mainDone/body" xml:space="preserve">
-    <value>Задача выполнена, получена награда за основные условия. Вы можете улучшить результат, выполнив дополнительные условия: для этого нажмите кнопку «Улучшить результат» внизу карточки.</value>
+    <value>Задача выполнена, получена награда за основное условие. Вы можете улучшить результат, выполнив основное и дополнительное условия: для этого нажмите кнопку «Перевыполнить с отличием» в нижней части экрана.</value>
   </data>
   <data name="personalMissions/status/mainDone/header" xml:space="preserve">
-    <value>Основные условия выполнены</value>
+    <value>Основное условие выполнено</value>
   </data>
   <data name="personalMissions/status/sheetRecoveryInProgress/body" xml:space="preserve">
-    <value>Для выполнения основных условий был заложен бланк приказа. Чтобы вернуть его, выполните основные и дополнительные условия данной задачи.</value>
+    <value>Для выполнения основных условий был заложен бланк приказа. Чтобы вернуть его, выполните основное и дополнительное условия данной задачи.</value>
   </data>
   <data name="personalMissions/status/sheetRecoveryInProgress/header" xml:space="preserve">
     <value>Заложен бланк приказа</value>
@@ -9529,7 +9527,7 @@
   <data name="elen/summary/objParam/sumMSeqN/xp/body" xml:space="preserve">
     <value>Сумма опыта, заработанного за лучшую серию боёв в соревновании.
 Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.
-Надбавка от премиум аккаунта учитывается.</value>
+ Надбавка от премиум аккаунта учитывается.</value>
   </data>
   <data name="elen/summary/objParam/sumMSeqN/xp/header" xml:space="preserve">
     <value>Сумма опыта</value>
@@ -9603,7 +9601,7 @@
     <value>Свободный опыт</value>
   </data>
   <data name="header/buttons/gold/clickDesc" xml:space="preserve">
-    <value>Нажмите, чтобы перейти на страницу покупки игрового золота на портале игры.</value>
+    <value>Нажмите, чтобы перейти на страницу покупки игрового золота.</value>
   </data>
   <data name="header/buttons/gold/title" xml:space="preserve">
     <value>Золото</value>
@@ -9636,7 +9634,7 @@
 на покупку действует скидка.</value>
   </data>
   <data name="battleBorderMapModeButtonBar/info/body" xml:space="preserve">
-    <value>Подсветка границы игровой карты станет видима на расстоянии 300 метров от красной линии.</value>
+    <value>Граница игровой карты станет видима на расстоянии 300 метров от красной линии.</value>
   </data>
   <data name="battleBorderMapModeButtonBar/info/header" xml:space="preserve">
     <value>При приближении</value>
@@ -9666,10 +9664,10 @@
     <value>Нажмите, чтобы выбрать члену экипажа новую основную специальность и машину, на которую он будет обучен.</value>
   </data>
   <data name="gamma/attention" xml:space="preserve">
-    <value>Настройка гаммы невозможна: 
-• в полноэкранном режиме на разрешении, отличающемся от родного разрешения экрана;
-• в оконном режиме при стандартном качестве графики (раздел «Расширенные»).
-В оконном режиме используются текущие настройки операционной системы. </value>
+    <value>Настройка гаммы недоступна в оконном режиме
+при стандартном качестве графики (раздел «Расширенные»).
+В оконном режиме используются текущие настройки
+операционной системы.</value>
   </data>
   <data name="gamma/body" xml:space="preserve">
     <value>Позволяет отрегулировать яркость в игре до оптимального
@@ -9717,16 +9715,16 @@
     <value>Ускоренное обучение невозможно</value>
   </data>
   <data name="personal_case/skills/dropSkillsButton/body" xml:space="preserve">
-    <value>Нажмите, чтобы сбросить текущие умения или навыки.</value>
+    <value>Нажмите, чтобы сбросить текущие умения и навыки.</value>
   </data>
   <data name="personal_case/skills/dropSkillsButton/header" xml:space="preserve">
-    <value>Сброс умений или навыков</value>
+    <value>Сбросить умения/навыки</value>
   </data>
   <data name="personal_case/skills/dropSkillsButton/noSkill/body" xml:space="preserve">
     <value>У вас нет изученных умений или навыков.</value>
   </data>
   <data name="personal_case/skills/dropSkillsButton/noSkill/header" xml:space="preserve">
-    <value>Действие невозможно</value>
+    <value>Нет умений/навыков</value>
   </data>
   <data name="settings/sound/deviceAlert/body" xml:space="preserve">
     <value>Выбранный тип акустики отличается от автоматически определённого игрой. Часть звуков может отсутствовать, поэтому рекомендуем протестировать изменения звучания.</value>
@@ -9742,7 +9740,7 @@
   </data>
   <data name="vehiclePreview/eliteBonus/battle/body" xml:space="preserve">
     <value>• Увеличенный заработок боевого опыта в каждом бою.
-• Элитный статус машины даёт возможность переводить боевой опыт в свободный после первого боя и использовать его для исследования любых модулей и техники.</value>
+• Элитный статус машины, даёт возможность переводить боевой опыт в свободный после первого боя и использовать его для исследования любых модулей и техники.</value>
   </data>
   <data name="vehiclePreview/eliteBonus/battle/header" xml:space="preserve">
     <value>Дополнительный боевой опыт</value>
@@ -9806,7 +9804,7 @@
     <value>Итальянское испытание</value>
   </data>
   <data name="marathon/off/body" xml:space="preserve">
-    <value>В данный момент событие недоступно по техническим причинам. Попробуйте позже.</value>
+    <value>Событие недоступно по техническим причинам.</value>
   </data>
   <data name="marathon/off/header" xml:space="preserve">
     <value>Событие недоступно</value>
@@ -10149,5 +10147,454 @@
   </data>
   <data name="header/buttons/manual/header" xml:space="preserve">
     <value>Руководство</value>
+  </data>
+  <data name="boostersWindow/booster/longDescriptionSpecial" xml:space="preserve">
+    <value>При активации позволяют получать дополнительные надбавки по результатам боёв. Имеют три уровня качества, действуют определённое время в Случайных, Командных и Ранговых боях, а также в турнирных играх и сражениях в Укрепрайоне.</value>
+  </data>
+  <data name="boostersWindow/booster/shortDescriptionSpecial" xml:space="preserve">
+    <value>Получение надбавок по результатам боя</value>
+  </data>
+  <data name="crew/body" xml:space="preserve">
+    <value>С машиной идёт %(value)s%% экипаж</value>
+  </data>
+  <data name="crew/header" xml:space="preserve">
+    <value>Укомплектованный экипаж</value>
+  </data>
+  <data name="header/buttons/shop2/body" xml:space="preserve">
+    <value>Здесь вы можете купить всё необходимое для комфортной игры: золото, премиум технику, товары за боны и т.д.</value>
+  </data>
+  <data name="header/buttons/shop2/header" xml:space="preserve">
+    <value>Магазин</value>
+  </data>
+  <data name="header/buttons/storage/body" xml:space="preserve">
+    <value>Обзор и продажа игрового имущества.</value>
+  </data>
+  <data name="header/buttons/storage/header" xml:space="preserve">
+    <value>Склад</value>
+  </data>
+  <data name="kursk/body" xml:space="preserve">
+    <value>Выполняйте ежедневные задачи и получайте награды. Задачи северного направления можно выполнять на любой технике IV–Х уровней, задачи южного направления — на исторической технике, принимавшей участие в сражениях. За выполнение всех задач предусмотрены награды, в том числе премиум машина V уровня и уникальный стиль Курской битвы.</value>
+  </data>
+  <data name="kursk/error/battle_type" xml:space="preserve">
+    <value>Доступно только в Случайных
+и Ранговых боях</value>
+  </data>
+  <data name="kursk/extra_state/steps" xml:space="preserve">
+    <value>Выполнено задач: %(currentStep)s / %(allStep)s</value>
+  </data>
+  <data name="kursk/header" xml:space="preserve">
+    <value>Курская битва</value>
+  </data>
+  <data name="kursk/progress" xml:space="preserve">
+    <value>День %(value)s из 50</value>
+  </data>
+  <data name="storage/mainMenu/for_sell/body" xml:space="preserve">
+    <value>Содержит модули и снаряды, не подходящие к вашей технике.</value>
+  </data>
+  <data name="storage/mainMenu/for_sell/header" xml:space="preserve">
+    <value>Модули и снаряды на продажу</value>
+  </data>
+  <data name="storage/mainMenu/in_hangar/body" xml:space="preserve">
+    <value>Содержит все машины, находящиеся в Ангаре.</value>
+  </data>
+  <data name="storage/mainMenu/in_hangar/header" xml:space="preserve">
+    <value>Техника в Ангаре</value>
+  </data>
+  <data name="storage/mainMenu/personal_reserves/body" xml:space="preserve">
+    <value>Содержит личные резервы, позволяющие на время получить прибавку к заработку опыта или кредитов в боях.</value>
+  </data>
+  <data name="storage/mainMenu/personal_reserves/header" xml:space="preserve">
+    <value>Личные резервы</value>
+  </data>
+  <data name="storage/mainMenu/storage/body" xml:space="preserve">
+    <value>Содержит модули, снаряды, оборудование и снаряжение, не установленные на имеющуюся технику.</value>
+  </data>
+  <data name="storage/mainMenu/storage/header" xml:space="preserve">
+    <value>Запасы</value>
+  </data>
+  <data name="tanks_carousel/buy_vehicle_new/body" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к Дереву исследований.</value>
+  </data>
+  <data name="tanks_carousel/buy_vehicle_new/header" xml:space="preserve">
+    <value>Купить машину</value>
+  </data>
+  <data name="template/days/value" xml:space="preserve">
+    <value>%(value)s</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы посмотреть информацию о товарах, которые входят в состав набора.</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/camouflage/header" xml:space="preserve">
+    <value>Камуфляж «%(value)s»</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/emblem/header" xml:space="preserve">
+    <value>Эмблема «%(value)s»</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/header" xml:space="preserve">
+    <value>Сопутствующие товары</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/inscription/header" xml:space="preserve">
+    <value>Надпись «%(value)s»</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/modification/header" xml:space="preserve">
+    <value>Эффект «%(value)s»</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/paint/header" xml:space="preserve">
+    <value>Краска «%(value)s»</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/shell/header" xml:space="preserve">
+    <value>Снаряд «%(value)s»</value>
+  </data>
+  <data name="vehiclePreview/boxTooltip/style/header" xml:space="preserve">
+    <value>Стиль «%(value)s»</value>
+  </data>
+  <data name="vehiclePreview/buyButton/endTime/body" xml:space="preserve">
+    <value>Закончился срок действия предложения</value>
+  </data>
+  <data name="vehiclePreview/buyButton/endTime/header" xml:space="preserve">
+    <value>Предложение недоступно</value>
+  </data>
+  <data name="vehiclePreview/shopPack/dateTimeTooltip/body" xml:space="preserve">
+    <value>Набор %(namePack)s доступен для покупки
+до %(date)s.</value>
+  </data>
+  <data name="vehiclePreview/shopPack/dateTimeTooltip/header" xml:space="preserve">
+    <value>Ограниченное предложение!</value>
+  </data>
+  <data name="vehiclePreview/shopPack/desc" xml:space="preserve">
+    <value>Единиц в наборе: %(count)d</value>
+  </data>
+  <data name="vehiclePreview/shopPack/title" xml:space="preserve">
+    <value>Набор снаряжения</value>
+  </data>
+  <data name="vehiclePreview/vehiclePanel/info/header/noCrew" xml:space="preserve">
+    <value>Машина поставляется без экипажа</value>
+  </data>
+  <data name="vehiclePreview/vehiclePanel/info/header/withCrew" xml:space="preserve">
+    <value>С машиной идёт %d%% экипаж</value>
+  </data>
+  <data name="xpExchangewindow/gold/goldAfterExchange/body" xml:space="preserve">
+    <value>Актуальное количество золота будет отображаться только после его докупки.</value>
+  </data>
+  <data name="xpExchangewindow/gold/goldAfterExchange/header" xml:space="preserve">
+    <value>Золото после перевода</value>
+  </data>
+  <data name="awardItem/completionTokens_5_1/body" xml:space="preserve">
+    <value>Чертежи трансмиссии, ДВС и обслуживающих систем: топливной, подачи воздуха, охлаждения и т.д. ПТ-САУ Excalibur.</value>
+  </data>
+  <data name="awardItem/completionTokens_5_1/header" xml:space="preserve">
+    <value>Чертежи двигателя L50</value>
+  </data>
+  <data name="awardItem/completionTokens_5_2/body" xml:space="preserve">
+    <value>Комплектная ходовая: гусеницы, подвеска, катки и т.д. ПТ-САУ Excalibur.</value>
+  </data>
+  <data name="awardItem/completionTokens_5_2/header" xml:space="preserve">
+    <value>Чертежи торсионной ходовой</value>
+  </data>
+  <data name="awardItem/completionTokens_5_3/body" xml:space="preserve">
+    <value>Стальной сварной корпус с частично подвижной литой рубкой ПТ-САУ Excalibur.</value>
+  </data>
+  <data name="awardItem/completionTokens_5_3/header" xml:space="preserve">
+    <value>Чертежи корпуса и бронерубки</value>
+  </data>
+  <data name="awardItem/completionTokens_5_4/body" xml:space="preserve">
+    <value>Чертежи 76-миллиметровая гаубица с дульным тормозом ПТ-САУ Excalibur.</value>
+  </data>
+  <data name="awardItem/completionTokens_5_4/header" xml:space="preserve">
+    <value>Чертежи 76-мм орудия</value>
+  </data>
+  <data name="awardItem/completionTokens_6_1/body" xml:space="preserve">
+    <value>Чертежи трансмиссии, ДВС и обслуживающих систем: топливной, подачи воздуха, охлаждения и т.д. среднего танка Chimera.</value>
+  </data>
+  <data name="awardItem/completionTokens_6_1/header" xml:space="preserve">
+    <value>Чертежи двигателя MK. XI SC</value>
+  </data>
+  <data name="awardItem/completionTokens_6_2/body" xml:space="preserve">
+    <value>Комплектная ходовая: гусеницы, подвеска, катки и т.д. среднего танка Chimera.</value>
+  </data>
+  <data name="awardItem/completionTokens_6_2/header" xml:space="preserve">
+    <value>Чертежи торсионной ходовой</value>
+  </data>
+  <data name="awardItem/completionTokens_6_3/body" xml:space="preserve">
+    <value>Стальной сварной корпус с башней полного вращения среднего танка Chimera.</value>
+  </data>
+  <data name="awardItem/completionTokens_6_3/header" xml:space="preserve">
+    <value>Чертежи корпуса и башни</value>
+  </data>
+  <data name="awardItem/completionTokens_6_4/body" xml:space="preserve">
+    <value>Чертежи нарезного длинноствольного орудия, калибром 5 дюймов среднего танка Chimera.</value>
+  </data>
+  <data name="awardItem/completionTokens_6_4/header" xml:space="preserve">
+    <value>Чертежи орудия QF 5-in.</value>
+  </data>
+  <data name="awardItem/completionTokens_7_1/body" xml:space="preserve">
+    <value>Чертежи трансмиссии, ДВС и обслуживающих систем: топливной, подачи воздуха, охлаждения и т.д. тяжёлого танка Объект 279 (р).</value>
+  </data>
+  <data name="awardItem/completionTokens_7_1/header" xml:space="preserve">
+    <value>Чертежи двигателя В-11-НЦ</value>
+  </data>
+  <data name="awardItem/completionTokens_7_2/body" xml:space="preserve">
+    <value>Комплектная ходовая: гусеницы, подвеска, катки и т.д. тяжёлого танка Объект 279 (р).</value>
+  </data>
+  <data name="awardItem/completionTokens_7_2/header" xml:space="preserve">
+    <value>Чертежи четырёхгусеничной ходовой</value>
+  </data>
+  <data name="awardItem/completionTokens_7_3/body" xml:space="preserve">
+    <value>Сварной корпус, собранный из четырёх литых фрагментов с цельнолитой башней тяжёлого танка Объект 279 (р).</value>
+  </data>
+  <data name="awardItem/completionTokens_7_3/header" xml:space="preserve">
+    <value>Чертежи корпуса и башни</value>
+  </data>
+  <data name="awardItem/completionTokens_7_4/body" xml:space="preserve">
+    <value>Чертежи 122-миллиметровой нарезной пушки M62-T2A с эжектором тяжёлого танка Объект 279 (р).</value>
+  </data>
+  <data name="awardItem/completionTokens_7_4/header" xml:space="preserve">
+    <value>Чертежи 122-мм орудия М62-Т2А</value>
+  </data>
+  <data name="barracks/tankmen/recruit/body" xml:space="preserve">
+    <value>Нажмите, чтобы открыть окно рекрутирования члена экипажа.</value>
+  </data>
+  <data name="barracks/tankmen/recruit/header" xml:space="preserve">
+    <value>Рекрутировать члена экипажа</value>
+  </data>
+  <data name="bloggers/body" xml:space="preserve">
+    <value>Выбирайте блогера, вступайте в его команду и зарабатывайте в её составе особые очки, выполняя личные боевые задачи кампании «Второй фронт», а также специальные ежедневные боевые задачи.</value>
+  </data>
+  <data name="bloggers/date" xml:space="preserve">
+    <value>%(day)s %(month)s %(hour)s:%(minutes)s</value>
+  </data>
+  <data name="bloggers/header" xml:space="preserve">
+    <value>«Битва блогеров»</value>
+  </data>
+  <data name="bloggers/subtitle" xml:space="preserve">
+    <value>Событие проводится с %(startDate)s по %(finishDate)s</value>
+  </data>
+  <data name="crew/role/commander" xml:space="preserve">
+    <value>командир</value>
+  </data>
+  <data name="crew/role/driver" xml:space="preserve">
+    <value>механик-водитель</value>
+  </data>
+  <data name="crew/role/gunner" xml:space="preserve">
+    <value>наводчик</value>
+  </data>
+  <data name="crew/role/loader" xml:space="preserve">
+    <value>заряжающий</value>
+  </data>
+  <data name="crew/role/radioman" xml:space="preserve">
+    <value>радист</value>
+  </data>
+  <data name="fortification/sortie/configureBtn" xml:space="preserve">
+    <value>Назначить определённые машины, на одной из которых автоматически подберётся легионер после нажатия кнопки «В бой!».</value>
+  </data>
+  <data name="fortification/sortie/removeFilters" xml:space="preserve">
+    <value>Сбросить выбор техники</value>
+  </data>
+  <data name="hangar/header/personalMissions/available/body" xml:space="preserve">
+    <value>Боевая задача не выбрана. Нажмите, чтобы перейти к списку доступных задач.</value>
+  </data>
+  <data name="hangar/header/personalMissions/available/header" xml:space="preserve">
+    <value>Задача не выбрана</value>
+  </data>
+  <data name="hangar/header/personalMissions/award/body" xml:space="preserve">
+    <value>Задачи ветки %(chainName)s выполнены. Нажмите, чтобы перейти к списку задач и забрать награду.</value>
+  </data>
+  <data name="hangar/header/personalMissions/award/header" xml:space="preserve">
+    <value>Операция %(tileName)s</value>
+  </data>
+  <data name="hangar/header/personalMissions/branch_disabled/body" xml:space="preserve">
+    <value>В настоящий момент выбранная кампания недоступна по техническим причинам. Мы работаем над восстановлением работоспособности.</value>
+  </data>
+  <data name="hangar/header/personalMissions/branch_disabled/header" xml:space="preserve">
+    <value>Кампания недоступна</value>
+  </data>
+  <data name="hangar/header/personalMissions/completed/body" xml:space="preserve">
+    <value>Поздравляем, вы выполнили все личные боевые задачи для выбранной машины.</value>
+  </data>
+  <data name="hangar/header/personalMissions/completed/header" xml:space="preserve">
+    <value>Все задачи выполнены</value>
+  </data>
+  <data name="hangar/header/personalMissions/completedLockedNext/body" xml:space="preserve">
+    <value>Выполните задачи для других типов техники, чтобы открыть следующую операцию.</value>
+  </data>
+  <data name="hangar/header/personalMissions/completedLockedNext/header" xml:space="preserve">
+    <value>Задачи для этого типа техники выполнены</value>
+  </data>
+  <data name="hangar/header/personalMissions/disabledAll/body" xml:space="preserve">
+    <value>Для техники I-III уровней выполнение задач обеих кампаний недоступно. Выберите машину IV уровня и выше, чтобы получить доступ к кампании «Долгожданное подкрепление» или машину VI уровня и выше для доступа к обеим кампаниям.</value>
+  </data>
+  <data name="hangar/header/personalMissions/disabledAll/header" xml:space="preserve">
+    <value>Кампании недоступны</value>
+  </data>
+  <data name="hangar/header/personalMissions/done/body" xml:space="preserve">
+    <value>Поздравляем, вы выполнили с отличием все личные боевые задачи для выбранной машины.</value>
+  </data>
+  <data name="hangar/header/personalMissions/done/header" xml:space="preserve">
+    <value>Все задачи выполнены c отличием</value>
+  </data>
+  <data name="hangar/header/personalMissions/doneAll/body" xml:space="preserve">
+    <value>Вы выполнили все доступные личные боевые задачи обеих компаний.</value>
+  </data>
+  <data name="hangar/header/personalMissions/doneAll/header" xml:space="preserve">
+    <value>Личные боевые задачи недоступны</value>
+  </data>
+  <data name="hangar/header/personalMissions/doneLockedNext/body" xml:space="preserve">
+    <value>Выполните задачи для других типов техники, чтобы открыть следующую операцию.</value>
+  </data>
+  <data name="hangar/header/personalMissions/doneLockedNext/header" xml:space="preserve">
+    <value>Задачи для этого типа техники выполнены</value>
+  </data>
+  <data name="hangar/header/personalMissions/lowLevel/body" xml:space="preserve">
+    <value>Выбрана машина слишком низкого уровня. Для доступа к задаче выберите машину уровня, соответствующего минимальному для данной операции.</value>
+  </data>
+  <data name="hangar/header/personalMissions/lowLevel/header" xml:space="preserve">
+    <value>Выбранная задача недоступна</value>
+  </data>
+  <data name="hangar/header/personalMissions/mission_disabled/body" xml:space="preserve">
+    <value>В настоящий момент выбранная задача недоступна по техническим причинам. Мы работаем над восстановлением работоспособности.</value>
+  </data>
+  <data name="hangar/header/personalMissions/mission_disabled/header" xml:space="preserve">
+    <value>Выполнение недоступно</value>
+  </data>
+  <data name="hangar/header/personalMissions/noVehicle/body" xml:space="preserve">
+    <value>Для техники I-III уровней выполнение задач обеих кампаний недоступно. Выберите машину IV уровня и выше, чтобы получить доступ к кампании «Долгожданное подкрепление» или машину VI уровня и выше для доступа к обеим кампаниям.</value>
+  </data>
+  <data name="hangar/header/personalMissions/noVehicle/header" xml:space="preserve">
+    <value>Кампании недоступны</value>
+  </data>
+  <data name="hangar/header/personalMissions/operation_disabled/body" xml:space="preserve">
+    <value>В настоящий момент выбранная операция недоступна по техническим причинам. Мы работаем над восстановлением работоспособности.</value>
+  </data>
+  <data name="hangar/header/personalMissions/operation_disabled/header" xml:space="preserve">
+    <value>Операция недоступна</value>
+  </data>
+  <data name="hangar/header/personalMissions2/completedLockedNext/body" xml:space="preserve">
+    <value>Выполните задачи для других типов техники, чтобы открыть следующую операцию.</value>
+  </data>
+  <data name="hangar/header/personalMissions2/completedLockedNext/header" xml:space="preserve">
+    <value>Задачи для этого типа техники выполнены</value>
+  </data>
+  <data name="hangar/header/personalMissions2/doneLockedNext/body" xml:space="preserve">
+    <value>Выполните задачи для других типов техники, чтобы открыть следующую операцию.</value>
+  </data>
+  <data name="hangar/header/personalMissions2/doneLockedNext/header" xml:space="preserve">
+    <value>Задачи для этого типа техники выполнены</value>
+  </data>
+  <data name="hangar/header/personalMissions2/noVehicle/body" xml:space="preserve">
+    <value>Для техники IV-V уровней выполнение текущих задач кампании недоступно. Выберите машину VI уровня и выше.</value>
+  </data>
+  <data name="hangar/header/personalMissions2/noVehicle/header" xml:space="preserve">
+    <value>Кампания недоступна</value>
+  </data>
+  <data name="hangar/header/personalMissions2/unavailableFull/body" xml:space="preserve">
+    <value>Для доступа к кампании «Второй фронт» необходимо завершить операцию «StuG IV». После получения данной машины вам откроется доступ к операциям данной кампании.</value>
+  </data>
+  <data name="hangar/header/personalMissions2/unavailableFull/header" xml:space="preserve">
+    <value>Кампания недоступна</value>
+  </data>
+  <data name="header/buttons/clans/body" xml:space="preserve">
+    <value>Вступить в клан.</value>
+  </data>
+  <data name="header/buttons/clans/header" xml:space="preserve">
+    <value>Кланы</value>
+  </data>
+  <data name="header/buttons/clans/turnedOff/body" xml:space="preserve">
+    <value>Информация о кланах временно недоступна. Ведутся профилактические работы.</value>
+  </data>
+  <data name="header/buttons/clans/turnedOff/header" xml:space="preserve">
+    <value>Кланы</value>
+  </data>
+  <data name="notrecruitedtankman/base/desc" xml:space="preserve">
+    <value>Уникальный член экипажа</value>
+  </data>
+  <data name="notrecruitedtankman/base/label" xml:space="preserve">
+    <value>Уникальный член экипажа</value>
+  </data>
+  <data name="notrecruitedtankman/buffon/desc" xml:space="preserve">
+    <value>Выдавался за выполнение определённых условий в футбольном режиме 2018 года. Легендарный итальянский вратарь Джанлуиджи Буффон — командир экипажа с уникальной озвучкой и изученными навыками.</value>
+  </data>
+  <data name="notrecruitedtankman/buffon/label" xml:space="preserve">
+    <value>Футбольный режим</value>
+  </data>
+  <data name="notrecruitedtankman/expireTitle" xml:space="preserve">
+    <value>Рекрутирование</value>
+  </data>
+  <data name="notrecruitedtankman/skillsTitle" xml:space="preserve">
+    <value>Изученные умения и навыки</value>
+  </data>
+  <data name="notrecruitedtankman/tankwoman/desc" xml:space="preserve">
+    <value>Выдавалась в награду за определённые игровые события. Девушка-танкист наделена изученным навыком «Боевое братство», а также дополнительным умением или навыком на выбор.</value>
+  </data>
+  <data name="notrecruitedtankman/tankwoman/label" xml:space="preserve">
+    <value>Уникальный член экипажа</value>
+  </data>
+  <data name="notrecruitedtankman/useBefore" xml:space="preserve">
+    <value>Доступно до: %(date)s</value>
+  </data>
+  <data name="personalMissions/awards/camouflage/alliance/body" xml:space="preserve">
+    <value>Набор из 3 камуфляжных схем (летняя, зимняя и пустынная).
+
+При выполнении основных условий всех 60 задач операции: выдаётся бесплатно для наградной машины.
+
+При выполнении с отличием всех 60 задач операции: право на покупку для всей техники той нации, которой принадлежит наградная машина.
+
+Найти уникальные схемы камуфляжа можно на экране «Внешний вид».</value>
+  </data>
+  <data name="personalMissions/awards/camouflage/alliance/header" xml:space="preserve">
+    <value>Уникальный набор камуфляжных схем</value>
+  </data>
+  <data name="personalMissions/mapRegion/footer/title/disabled" xml:space="preserve">
+    <value>Выполнение недоступно</value>
+  </data>
+  <data name="personalMissions/operation/footer/descr/completionTokens/pm2" xml:space="preserve">
+    <value>Чертежей машины: </value>
+  </data>
+  <data name="personalMissions/operation/footer/descr/disabled" xml:space="preserve">
+    <value>Операция отключена</value>
+  </data>
+  <data name="personalMissions/operation/footer/descr/postponed" xml:space="preserve">
+    <value>Операция начнётся через </value>
+  </data>
+  <data name="personalMissions/operation/header/descr/postponed" xml:space="preserve">
+    <value>У вас есть возможность получить уникальную эмблему, выполнив все задачи из предыдущей операции до того, как начнется эта.</value>
+  </data>
+  <data name="personalMissions/status/lockedByVehicleAlliance/body" xml:space="preserve">
+    <value>Для доступа к задаче необходима техника %(vehType)s с %(minLevel)s по %(maxLevel)s уровень.</value>
+  </data>
+  <data name="personalMissions/status/lockedByVehicleType/body" xml:space="preserve">
+    <value>Для доступа к задаче необходима техника типа %(vehType)s с %(minLevel)s по %(maxLevel)s уровень.</value>
+  </data>
+  <data name="quests/awards/vehicleRent/bottom" xml:space="preserve">
+    <value>И ещё: %(count)d</value>
+  </data>
+  <data name="quests/awards/vehicleRent/expire" xml:space="preserve">
+    <value>Срок ограничен</value>
+  </data>
+  <data name="quests/awards/vehicleRent/header" xml:space="preserve">
+    <value>Арендная техника:</value>
+  </data>
+  <data name="quests/awards/vehicleRent/rentLeft/rentBattles" xml:space="preserve">
+    <value>боёв в аренду: %(count)s</value>
+  </data>
+  <data name="quests/awards/vehicleRent/rentLeft/rentDays" xml:space="preserve">
+    <value>дней аренды: %(count)s</value>
+  </data>
+  <data name="quests/awards/vehicleRent/rentLeft/rentWins" xml:space="preserve">
+    <value>побед в аренду: %(count)s</value>
+  </data>
+  <data name="quests/pm/status/additional" xml:space="preserve">
+    <value>Прогресс выполнения дополнительного условия</value>
+  </data>
+  <data name="quests/pm/status/main" xml:space="preserve">
+    <value>Прогресс выполнения основного условия</value>
+  </data>
+  <data name="quests/unavailable/disabled/header" xml:space="preserve">
+    <value>Недоступно</value>
+  </data>
+  <data name="strongholds/timer/legionariesSearch" xml:space="preserve">
+    <value>Подбор легионеров...</value>
+  </data>
+  <data name="vehiclePreview/shopPack/content" xml:space="preserve">
+    <value>Набор содержит:</value>
   </data>
 </root>

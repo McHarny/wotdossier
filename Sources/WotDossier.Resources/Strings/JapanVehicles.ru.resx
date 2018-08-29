@@ -1186,4 +1186,22 @@ TRM P45</value>
   <data name="_105mm_AP_Experimental_Type2_TS" xml:space="preserve">
     <value>AP Experimental Type 2 Toku Otsu</value>
   </data>
+  <data name="Chi_Nu_Kai_long_special" xml:space="preserve">
+    <value>Классический универсальный средний танк без ярко выраженных достоинств и недостатков. Одинаково пригоден для любых действий на поле боя, подойдёт для всех любителей стабильного игрового процесса без перекосов.</value>
+  </data>
+  <data name="Chi_Nu_Kai_short_special" xml:space="preserve">
+    <value>Высокая точность, бронепробиваемость, бронирование маски орудия</value>
+  </data>
+  <data name="J19_Tiger_I_Jpn_long_special" xml:space="preserve">
+    <value>Живучий танк со скорострельным орудием, хорошим обзором и достойным запасом прочности — со всем этим любому противнику придётся считаться. Однако не стоит забывать про относительно слабую броню, которая не имеет рациональных углов наклона.</value>
+  </data>
+  <data name="J19_Tiger_I_Jpn_short_special" xml:space="preserve">
+    <value>Высокая живучесть, хорошая скорострельность и обзор</value>
+  </data>
+  <data name="STA_2_3_long_special" xml:space="preserve">
+    <value>Танк с очень комфортным орудием, из минусов которого — только угол возвышения. В остальном машина вполне универсальна и не имеет ярко выраженных достоинств и недостатков — машина, которая в любом бою найдёт себе достойное применение.</value>
+  </data>
+  <data name="STA_2_3_short_special" xml:space="preserve">
+    <value>Комфортное орудие, универсальность</value>
+  </data>
 </root>

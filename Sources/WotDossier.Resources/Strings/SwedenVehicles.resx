@@ -991,4 +991,16 @@ of the L-60 light tank. In 1939, Hungary took an interest in the project. By the
   <data name="Turret_1_S23_Strv_81_sabaton" xml:space="preserve">
     <value>Primo Victoria</value>
   </data>
+  <data name="S01_Strv_74_A2_long_special" xml:space="preserve">
+    <value>The tank is equipped with an accurate gun featuring the magazine reloading system for three shells that cause 600 HP of damage in total, which is rather good for its tier. However, the tank does not feature superb gun depression angles. Besides this, the Commander combines several qualifications, though it does not negate the advantages.</value>
+  </data>
+  <data name="S01_Strv_74_A2_short_special" xml:space="preserve">
+    <value>Gun featuring a magazine reloading system, good accuracy</value>
+  </data>
+  <data name="S22_Strv_S1_long_special" xml:space="preserve">
+    <value>This vehicle has a good gun with an exceptional penetration rate, perfect concealment, and frontal armor that may deflect enemy shells (despite being rather thin). All these features make this tank destroyer a perfect ambush vehicle that can effectively hit remote enemies.</value>
+  </data>
+  <data name="S22_Strv_S1_short_special" xml:space="preserve">
+    <value>Perfect penetration rate and concealment</value>
+  </data>
 </root>

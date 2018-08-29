@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="afterburning/descr" xml:space="preserve">
-    <value>Boosts the speed and acceleration of your vehicle for limited time.
+    <value>Boosts the speed and acceleration of your vehicle for a limited time.
 Cooldown: 20 s.</value>
   </data>
   <data name="afterburning/name" xml:space="preserve">
@@ -512,7 +512,7 @@ up to 445 m</value>
     <value>?empty?</value>
   </data>
   <data name="gasoline100/restriction" xml:space="preserve">
-    <value>Restricted: German, U.S., U.K., French, Czechoslovakian, Swedish, Polish, and Italian gasoline engines.</value>
+    <value>Restricted: German, U.S., U.K., French, Czechoslovakian, Swedish, Italian, and Polish gasoline engines.</value>
   </data>
   <data name="gasoline105/always" xml:space="preserve">
     <value>+10% to engine power and turret traverse speed for the course of the battle.</value>
@@ -521,7 +521,7 @@ up to 445 m</value>
     <value>?empty?</value>
   </data>
   <data name="gasoline105/restriction" xml:space="preserve">
-    <value>Restricted: German, U.S., U.K., French, Czechoslovakian, Swedish, Polish, and Italian gasoline engines.</value>
+    <value>Restricted: German, U.S., U.K., French, Czechoslovakian, Swedish, Italian, and Polish gasoline engines.</value>
   </data>
   <data name="handExtinguishers/always" xml:space="preserve">
     <value>?empty?</value>
@@ -618,7 +618,7 @@ up to 445 m</value>
     <value>?empty?</value>
   </data>
   <data name="smallMedkit/onUse" xml:space="preserve">
-    <value>Treatment of an injured crew member. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
+    <value>Treatment of an injured crew member and removal of the stun effect. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
   </data>
   <data name="smallMedkit/restriction" xml:space="preserve">
     <value>?empty?</value>
@@ -705,7 +705,7 @@ up to 445 m</value>
     <value>Treatment of an injured crew member and removing the stun effect. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
   </data>
   <data name="smallMedkit/stunDisabled/descr" xml:space="preserve">
-    <value>Treatment of an injured crew member.</value>
+    <value>Treatment of an injured crew member and removal of the stun effect.</value>
   </data>
   <data name="aimingStabilizerBattleBooster/descr" xml:space="preserve">
     <value>%s to dispersion during movement and turret rotation with Vertical Stabilizer (Mk 1 and Mk 2) or Stabilizing Equipment System mounted.</value>
@@ -1013,5 +1013,347 @@ Cooldown: 40 s.</value>
   </data>
   <data name="lastchance/name" xml:space="preserve">
     <value>Second Chance</value>
+  </data>
+  <data name="aimingStabilizer/long_special" xml:space="preserve">
+    <value>Reducing your gun dispersion is critical: the smaller the initial dispersion, the smaller the aiming circle is and the quicker you can fully aim your gun. In addition, an unprepared shot (that is fired without fully aiming or on the move) will have a better chance of hitting the target.</value>
+  </data>
+  <data name="aimingStabilizer/short_special" xml:space="preserve">
+    <value>{colorTagOpen}-20%{colorTagClose} to dispersion during movement and turret rotation</value>
+  </data>
+  <data name="aimingStabilizerBattleBooster/long_special" xml:space="preserve">
+    <value>Improves the effect of Vertical Stabilizer (Mk 1 and Mk 2) or Stabilizing Equipment System for the course of the battle. These equipment items should be mounted on your vehicle to equip this directive.</value>
+  </data>
+  <data name="aimingStabilizerBattleBooster/short_special" xml:space="preserve">
+    <value>Improves the effect of the stabilizer</value>
+  </data>
+  <data name="antifragmentationLining/long_special" xml:space="preserve">
+    <value>Spall liners absorb damage; this means they reduce the damage from ramming and High-Explosive shells. Spall liners will be beneficial to heavy tanks with reliable armor and huge ramming potential that fight mainly in close combat.</value>
+  </data>
+  <data name="antifragmentationLining/short_special" xml:space="preserve">
+    <value>Protects the vehicle and the crew from HE shells</value>
+  </data>
+  <data name="autoExtinguishers/long_special" xml:space="preserve">
+    <value>Automatically extinguishes fire and reduces the chance of the vehicle catching fire. This consumable is suitable for all vehicle types of any nation.</value>
+  </data>
+  <data name="autoExtinguishers/short_special" xml:space="preserve">
+    <value>Automatic fire extinguishing</value>
+  </data>
+  <data name="camouflageBattleBooster/long_special" xml:space="preserve">
+    <value>The Concealment skill reduces the visibility of both moving and stationary vehicles for the course of the battle. If the skill is trained to 100%, the equipped directive increases its effect; if not, the directive provides your vehicle with the skill trained to 100%.</value>
+  </data>
+  <data name="camouflageBattleBooster/short_special" xml:space="preserve">
+    <value>Provides the Concealment skill trained to 100% or increases its effect</value>
+  </data>
+  <data name="camouflageNet/long_special" xml:space="preserve">
+    <value>The Camouflage Net is mainly beneficial to stealthy vehicles: small light tanks, SPGs, and Tank Destroyers with a low silhouette. It increases the effect of the Concealment skill—their combination will provide a good bonus to your vehicle. The Camouflage Net is activated when the vehicle is stationary.</value>
+  </data>
+  <data name="camouflageNet/short_special" xml:space="preserve">
+    <value>Reduces vehicle visibility</value>
+  </data>
+  <data name="carbonDioxide/long_special" xml:space="preserve">
+    <value>This type of equipment is mostly beneficial to vehicles that are prone to frequent fires due to their design features. This problem is quite common among KV series tanks, Tier X U.S.S.R. medium tanks, and a number of other vehicles.</value>
+  </data>
+  <data name="carbonDioxide/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+50%{colorTagClose} to fuel tank durability</value>
+  </data>
+  <data name="chocolate/long_special" xml:space="preserve">
+    <value>Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for German vehicles.</value>
+  </data>
+  <data name="chocolate/short_special" xml:space="preserve">
+    <value>Improves the performance of German crews</value>
+  </data>
+  <data name="coatedOptics/long_special" xml:space="preserve">
+    <value>Unlike Binocular Telescope, Coated Optics provides a smaller yet permanent bonus that does not disappear with vehicle movement. As a result,  Coated Optics is highly beneficial for vehicles with active gameplay—light and medium tanks.</value>
+  </data>
+  <data name="coatedOptics/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to view range</value>
+  </data>
+  <data name="coatedOpticsBattleBooster/long_special" xml:space="preserve">
+    <value>Improves the effect of the Coated Optics or Experimental Optics equipment for the course of the battle. These equipment items should be mounted on your vehicle to equip this directive.</value>
+  </data>
+  <data name="coatedOpticsBattleBooster/short_special" xml:space="preserve">
+    <value>Improves the effect of the optics</value>
+  </data>
+  <data name="cocacola/long_special" xml:space="preserve">
+    <value>Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for U.S. vehicles.</value>
+  </data>
+  <data name="cocacola/short_special" xml:space="preserve">
+    <value>Improves the performance of U.S. crews</value>
+  </data>
+  <data name="deluxAimingStabilizer/long_special" xml:space="preserve">
+    <value>An improved version of Vertical Stabilizer ({colorTagOpen}-20%{colorTagClose} to dispersion during movement and turret rotation) that provides a stronger effect: {colorTagOpen}-25%{colorTagClose} to dispersion during movement and turret rotation. This equipment is suitable for vehicles of all nations and types; can be demounted using bonds only.</value>
+  </data>
+  <data name="deluxAimingStabilizer/short_special" xml:space="preserve">
+    <value>{colorTagOpen}-25%{colorTagClose} to dispersion during movement and turret rotation</value>
+  </data>
+  <data name="deluxCoatedOptics/long_special" xml:space="preserve">
+    <value>An improved version of Coated Optics ({colorTagOpen}+10%{colorTagClose} to view range) that provides a stronger effect: {colorTagOpen}+12.5%{colorTagClose} to view range. This equipment is suitable for vehicles of all nations and types; can be demounted using bonds only.</value>
+  </data>
+  <data name="deluxCoatedOptics/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+12.5%{colorTagClose} to view range</value>
+  </data>
+  <data name="deluxEnhancedAimDrives/long_special" xml:space="preserve">
+    <value>An improved version of Enhanced Gun Laying Drive ({colorTagOpen}+10%{colorTagClose} to aiming speed) that provides a stronger effect: {colorTagOpen}+12.5%{colorTagClose} to aiming speed. This equipment is suitable for vehicles of all nations and types; can be demounted using bonds only.</value>
+  </data>
+  <data name="deluxEnhancedAimDrives/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+12.5%{colorTagClose} to aiming speed</value>
+  </data>
+  <data name="deluxImprovedVentilation/long_special" xml:space="preserve">
+    <value>An improved version of Ventilation ({colorTagOpen}+5%{colorTagClose}to all crew skills) that provides a stronger effect: {colorTagOpen}+7.5%{colorTagClose} to all crew skills. This equipment is suitable for vehicles of all nations and types; can be demounted using bonds only.</value>
+  </data>
+  <data name="deluxImprovedVentilation/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+7.5%{colorTagClose} to all crew skills</value>
+  </data>
+  <data name="deluxRammer/long_special" xml:space="preserve">
+    <value>An improved version of Rammer ({colorTagOpen}-10%{colorTagClose} to loading time) that provides a stronger effect: {colorTagOpen}-12.5%{colorTagClose} to loading time. This equipment is suitable for vehicles of all nations and types; can be demounted using bonds only.</value>
+  </data>
+  <data name="deluxRammer/short_special" xml:space="preserve">
+    <value>{colorTagOpen}-12.5%{colorTagClose} to loading time</value>
+  </data>
+  <data name="deluxToolbox/long_special" xml:space="preserve">
+    <value>An analogue of Toolbox ({colorTagOpen}+25%{colorTagClose} to repair speed) that provides a stronger effect: {colorTagOpen}+40%{colorTagClose} to repair speed. This equipment is suitable for vehicles of all nations and types; can be demounted using bonds only.</value>
+  </data>
+  <data name="deluxToolbox/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+40%{colorTagClose} to repair speed</value>
+  </data>
+  <data name="enhancedAimDrives/long_special" xml:space="preserve">
+    <value>Improved aiming reduces the aiming time. A vehicle that is equipped with Enhanced Gun Laying Drive fires more accurately (in addition, it improves the fire rate, since reloading is sometimes faster than fully aiming).</value>
+  </data>
+  <data name="enhancedAimDrives/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to aiming speed</value>
+  </data>
+  <data name="enhancedAimDrivesBattleBooster/long_special" xml:space="preserve">
+    <value>Improves the effect of the Enhanced Gun Laying Drive or Wear-Resistant Gun Laying Drive equipment for the course of the battle. These equipment items should be mounted on your vehicle to equip this directive.</value>
+  </data>
+  <data name="enhancedAimDrivesBattleBooster/short_special" xml:space="preserve">
+    <value>Improves the effect of gun laying drives</value>
+  </data>
+  <data name="enhancedSuspension/long_special" xml:space="preserve">
+    <value>There are many types of this equipment: Enhanced Torsion Bars, Enhanced Springs, and more. Increased load capacity is beneficial to vehicles with a standard configuration that require particular researched modules to be mounted, but have not yet researched the improved suspension.</value>
+  </data>
+  <data name="enhancedSuspension/short_special" xml:space="preserve">
+    <value>Increases vehicle's capacity load</value>
+  </data>
+  <data name="filterCyclone/long_special" xml:space="preserve">
+    <value>This filter is only available to U.S.S.R. vehicles. It is designated for vehicles that have relatively low engine durability. But remember, the best way to protect the engine is to hide the vulnerable parts of the hull, firing at which will certainly result in engine damage.</value>
+  </data>
+  <data name="filterCyclone/short_special" xml:space="preserve">
+    <value>Increases vehicle's protection</value>
+  </data>
+  <data name="fireFightingBattleBooster/long_special" xml:space="preserve">
+    <value>The Firefighting skill enhances the firefighting abilities of your vehicle for the course of the battle. If the skill is trained to 100%, the equipped directive increases its effect; if not, the directive provides your vehicle with the skill trained to 100%.</value>
+  </data>
+  <data name="fireFightingBattleBooster/short_special" xml:space="preserve">
+    <value>Provides the Firefighting skill trained to 100% or increases its effect</value>
+  </data>
+  <data name="gasoline100/long_special" xml:space="preserve">
+    <value>Adds {colorTagOpen}5%{colorTagClose} to engine power and turret traverse speed for the course of the battle. Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for German, U.S., French, and U.K. gasoline engines.</value>
+  </data>
+  <data name="gasoline100/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+5%{colorTagClose} to engine power</value>
+  </data>
+  <data name="gasoline105/long_special" xml:space="preserve">
+    <value>Adds {colorTagOpen}10%{colorTagClose} to engine power and turret traverse speed for the course of the battle. Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for German, U.S., French, and U.K. engines.</value>
+  </data>
+  <data name="gasoline105/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to engine power</value>
+  </data>
+  <data name="grousers/long_special" xml:space="preserve">
+    <value>A special type of equipment that is only available for particular German and U.S.S.R. vehicles. In combination with the Off-Road Driving skill trained by the Driver, this equipment provides a solid bonus to performance on swamps, sand, and snow.</value>
+  </data>
+  <data name="grousers/short_special" xml:space="preserve">
+    <value>Improves the vehicle performance on soft terrain</value>
+  </data>
+  <data name="handExtinguishers/long_special" xml:space="preserve">
+    <value>Extinguishes fire in your vehicle upon activation. Suitable for all vehicle types of any nation. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="handExtinguishers/short_special" xml:space="preserve">
+    <value>Extinguishes fire</value>
+  </data>
+  <data name="hotCoffee/long_special" xml:space="preserve">
+    <value>Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for French vehicles.</value>
+  </data>
+  <data name="hotCoffee/short_special" xml:space="preserve">
+    <value>Improves the performance of French crews</value>
+  </data>
+  <data name="improvedVentilation/long_special" xml:space="preserve">
+    <value>Improves a number of characteristics of your vehicle: view range, fire rate, aiming time, dynamic characteristics, and more. However, the provided bonus from this equipment will only be noticeable in combination with the Brothers in Arms perk trained to 100% by your crew.</value>
+  </data>
+  <data name="improvedVentilation/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+5%{colorTagClose} to all crew skills</value>
+  </data>
+  <data name="improvedVentilationBattleBooster/long_special" xml:space="preserve">
+    <value>Improves the effect of Improved Ventilation (any class) or Venting System for the course of the battle. These equipment items should be mounted on your vehicle to equip this directive.</value>
+  </data>
+  <data name="improvedVentilationBattleBooster/short_special" xml:space="preserve">
+    <value>Improves the effect of the ventilation</value>
+  </data>
+  <data name="largeMedkit/long_special" xml:space="preserve">
+    <value>Treats all injured crew members upon activation. The passive effect protects the crew from injuries. This consumable is suitable for all vehicle types of any nation.</value>
+  </data>
+  <data name="largeMedkit/short_special" xml:space="preserve">
+    <value>Treats all injured crew members</value>
+  </data>
+  <data name="largeRepairkit/long_special" xml:space="preserve">
+    <value>Repairs all damaged modules at a time upon activation. The passive effect increases the repair speed. This consumable is suitable for all vehicle types of any nation.</value>
+  </data>
+  <data name="largeRepairkit/short_special" xml:space="preserve">
+    <value>Repairs all damaged modules</value>
+  </data>
+  <data name="lastEffortBattleBooster/long_special" xml:space="preserve">
+    <value>The Call for Vengeance perk gives the chance to report enemy positions for an additional 2 seconds after a vehicle's destruction for the course of the battle. If the perk is trained to 100%, the equipped directive increases its effect; if not, the directive provides your vehicle with the perk trained to 100%.</value>
+  </data>
+  <data name="lastEffortBattleBooster/short_special" xml:space="preserve">
+    <value>Provides the Call for Vengeance perk trained to 100% or increases its effect</value>
+  </data>
+  <data name="lendLeaseOil/long_special" xml:space="preserve">
+    <value>Adds {colorTagOpen}5%{colorTagClose} to engine power and turret traverse speed for the course of the battle. Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for U.S.S.R. vehicles.</value>
+  </data>
+  <data name="lendLeaseOil/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+5%{colorTagClose} to engine power</value>
+  </data>
+  <data name="pedantBattleBooster/long_special" xml:space="preserve">
+    <value>The Safe Stowage perk improves the durability of your ammo rack for the duration of the battle. If the perk is trained to 100%, the equipped directive increases its effect; if not, the directive provides your vehicle with the perk trained to 100%.</value>
+  </data>
+  <data name="pedantBattleBooster/short_special" xml:space="preserve">
+    <value>Provides the Safe Stowage perk trained to 100% or increases its effect</value>
+  </data>
+  <data name="qualityOil/long_special" xml:space="preserve">
+    <value>Adds {colorTagOpen}5%{colorTagClose} to engine power and turret traverse speed for the course of the battle. Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for Chinese vehicles.</value>
+  </data>
+  <data name="qualityOil/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+5%{colorTagClose} to engine power</value>
+  </data>
+  <data name="rammer/long_special" xml:space="preserve">
+    <value>Fire rate is one of the most important characteristics of your vehicle. This equipment is quite beneficial in a battle and should be mounted on your vehicles. However, rammers cannot be mounted on vehicles with a magazine loading system.</value>
+  </data>
+  <data name="rammer/short_special" xml:space="preserve">
+    <value>{colorTagOpen}-10%{colorTagClose} to loading time</value>
+  </data>
+  <data name="rammerBattleBooster/long_special" xml:space="preserve">
+    <value>Improves the effect of Rammer (any gun type and caliber) or Innovative Loading System for the course of the battle. These equipment items should be mounted on your vehicle to equip this directive.</value>
+  </data>
+  <data name="rammerBattleBooster/short_special" xml:space="preserve">
+    <value>Improves the effect of the rammer</value>
+  </data>
+  <data name="rancorousBattleBooster/long_special" xml:space="preserve">
+    <value>The Designated Target perk makes a target visible for an additional 2 seconds for the course of the battle. If the perk is trained to 100%, the equipped directive increases its effect; if not, the directive provides your vehicle with the perk trained to 100%.</value>
+  </data>
+  <data name="rancorousBattleBooster/short_special" xml:space="preserve">
+    <value>Provides the Designated Target perk trained to 100% or increases its effect</value>
+  </data>
+  <data name="ration/long_special" xml:space="preserve">
+    <value>Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for U.S.S.R. vehicles.</value>
+  </data>
+  <data name="ration/short_special" xml:space="preserve">
+    <value>Improves the performance of U.S.S.R. crews</value>
+  </data>
+  <data name="ration_china/long_special" xml:space="preserve">
+    <value>Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for Chinese vehicles.</value>
+  </data>
+  <data name="ration_china/short_special" xml:space="preserve">
+    <value>Improves the performance of Chinese crews</value>
+  </data>
+  <data name="ration_czech/long_special" xml:space="preserve">
+    <value>Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for Czechoslovakian vehicles.</value>
+  </data>
+  <data name="ration_czech/short_special" xml:space="preserve">
+    <value>Improves the performance of Czechoslovakian crews</value>
+  </data>
+  <data name="ration_italy/long_special" xml:space="preserve">
+    <value>Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for Italian vehicles.</value>
+  </data>
+  <data name="ration_italy/short_special" xml:space="preserve">
+    <value>Improves the performance of Italian crews</value>
+  </data>
+  <data name="ration_japan/long_special" xml:space="preserve">
+    <value>Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for Japanese vehicles.</value>
+  </data>
+  <data name="ration_japan/short_special" xml:space="preserve">
+    <value>Improves the performance of Japanese crews</value>
+  </data>
+  <data name="ration_poland/long_special" xml:space="preserve">
+    <value>Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for Polish vehicles.</value>
+  </data>
+  <data name="ration_poland/short_special" xml:space="preserve">
+    <value>Improves the performance of Polish crews</value>
+  </data>
+  <data name="ration_sweden/long_special" xml:space="preserve">
+    <value>Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for Swedish vehicles.</value>
+  </data>
+  <data name="ration_sweden/short_special" xml:space="preserve">
+    <value>Improves the performance of Swedish crews</value>
+  </data>
+  <data name="ration_uk/long_special" xml:space="preserve">
+    <value>Automatically activated at the beginning of the battle and effective for the course of the battle. Only suitable for U.K. vehicles.</value>
+  </data>
+  <data name="ration_uk/short_special" xml:space="preserve">
+    <value>Improves the performance of British crews</value>
+  </data>
+  <data name="removedRpmLimiter/long_special" xml:space="preserve">
+    <value>Increases engine power by {colorTagOpen}10%{colorTagClose} but, while enabled, gradually drains engine hit points. Can be enabled or disabled in a battle multiple times. Only suitable for Chinese and U.S.S.R. vehicles.</value>
+  </data>
+  <data name="removedRpmLimiter/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to engine power but damages the engine</value>
+  </data>
+  <data name="sixthSenseBattleBooster/long_special" xml:space="preserve">
+    <value>The Sixth Sense perk allows you to determine whether your vehicle has been spotted by enemies for the course of the battle. If the perk is trained to 100%, the equipped directive increases its effect; if not, the directive provides your vehicle with the perk trained to 100%.</value>
+  </data>
+  <data name="sixthSenseBattleBooster/short_special" xml:space="preserve">
+    <value>Provides the Sixth Sense perk trained to 100% or increases its effect</value>
+  </data>
+  <data name="smallMedkit/long_special" xml:space="preserve">
+    <value>Treats one injured crew member and removes the stun effect upon activation. Suitable for all vehicle types of any nation. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="smallMedkit/short_special" xml:space="preserve">
+    <value>Treats one injured crew member and removes the stun effect</value>
+  </data>
+  <data name="smallRepairkit/long_special" xml:space="preserve">
+    <value>Repairs one damaged module (for example, gun or engine) or both tracks upon activation. Suitable for all vehicle types of any nation. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="smallRepairkit/short_special" xml:space="preserve">
+    <value>Repairs one damaged module</value>
+  </data>
+  <data name="smoothDrivingBattleBooster/long_special" xml:space="preserve">
+    <value>The Smooth Ride skill improves accuracy when firing on the move for the course of one battle. If the skill is trained to 100%, the equipped directive increases its effect; if not, the directive provides your vehicle with the skill trained to 100%.</value>
+  </data>
+  <data name="smoothDrivingBattleBooster/short_special" xml:space="preserve">
+    <value>Provides the Smooth Ride skill trained to 100% or increases its effect</value>
+  </data>
+  <data name="smoothTurretBattleBooster/long_special" xml:space="preserve">
+    <value>The Snap Shot skill improves accuracy during turret rotation for the course of the battle. If the skill is trained to 100%, the equipped directive increases its effect; if not, the directive provides your vehicle with the skill trained to 100%.</value>
+  </data>
+  <data name="smoothTurretBattleBooster/short_special" xml:space="preserve">
+    <value>Provides the Snap Shot skill trained to 100% or increases its effect</value>
+  </data>
+  <data name="stereoscope/long_special" xml:space="preserve">
+    <value>Good view range provides a solid advantage to vehicles in battle. This type of equipment is beneficial to all vehicle types except SPGs and vehicles that engage in close combat. Binocular telescope provides a solid benefit to ambush vehicles with a low silhouette and accurate gun. The equipment is activated when the vehicle is stationary.</value>
+  </data>
+  <data name="stereoscope/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+25%{colorTagClose} to view range for a stationary vehicle</value>
+  </data>
+  <data name="toolbox/long_special" xml:space="preserve">
+    <value>High repair speed is crucial for the survivability of any vehicle. An immobilized vehicle is an easy target for opponents. Mounting Toolbox is beneficial to heavy tanks, medium tanks, and tank destroyers if their crews are training the Repairs skill.</value>
+  </data>
+  <data name="toolbox/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+25%{colorTagClose} to repair speed</value>
+  </data>
+  <data name="toolboxBattleBooster/long_special" xml:space="preserve">
+    <value>Improves the effect of Toolbox or Extended Spare Parts Kit for the course of one battle. These equipment items should be mounted on your vehicle to equip this directive.</value>
+  </data>
+  <data name="toolboxBattleBooster/short_special" xml:space="preserve">
+    <value>Improves the Toolbox effect</value>
+  </data>
+  <data name="virtuosoBattleBooster/long_special" xml:space="preserve">
+    <value>The Clutch Braking skill increases traverse speed of both stationary and moving vehicle for the course of the battle. If the skill is trained to 100%, the equipped directive increases its effect; if not, the directive provides your vehicle with the skill trained to 100%.</value>
+  </data>
+  <data name="virtuosoBattleBooster/short_special" xml:space="preserve">
+    <value>Provides the Clutch Braking skill trained to 100% or increases its effect</value>
+  </data>
+  <data name="wetCombatPack/long_special" xml:space="preserve">
+    <value>This equipment will be useful for vehicles that often receive critical hits to their ammo racks, which can cause them to explode (for example, the IS-3, Type 59, T-44, and sometimes the T110E5 and IS-7). Other vehicles rarely have their ammo racks explode.</value>
+  </data>
+  <data name="wetCombatPack/short_special" xml:space="preserve">
+    <value>{colorTagOpen}+50%{colorTagClose} to ammo rack durability</value>
   </data>
 </root>

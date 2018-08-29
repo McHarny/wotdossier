@@ -1013,7 +1013,7 @@ to see the detailed description.</value>
     <value>Invite Players</value>
   </data>
   <data name="sortie/room/leaveBtn" xml:space="preserve">
-    <value>GO TO DETACHMENT LIST</value>
+    <value>GO TO DETACHMENT ASSEMBLING</value>
   </data>
   <data name="sortie/room/members" xml:space="preserve">
     <value>Members: %(current)s / %(max)s</value>
@@ -2718,7 +2718,7 @@ including compensation: </value>
     <value>Rating</value>
   </data>
   <data name="strongholdtable/roster" xml:space="preserve">
-    <value>Players</value>
+    <value>Composition</value>
   </data>
   <data name="strongholdtable/tech" xml:space="preserve">
     <value>Vehicles</value>
@@ -2758,5 +2758,29 @@ including compensation: </value>
   </data>
   <data name="battleQueue/yourTeam" xml:space="preserve">
     <value>Your detachment:</value>
+  </data>
+  <data name="fortVehPopover/btnSave" xml:space="preserve">
+    <value>Save the selection (%(count)d)</value>
+  </data>
+  <data name="roster/clanMembersNotEnough" xml:space="preserve">
+    <value>Not enough clan members in the detachment: %(actualClanMembers)s / %(minClanMembers)s</value>
+  </data>
+  <data name="sortie/member/slot_for_legionary" xml:space="preserve">
+    <value>Legionnaires</value>
+  </data>
+  <data name="sortie/member/slot_for_legionary_search" xml:space="preserve">
+    <value>Auto-assembling legionnaires</value>
+  </data>
+  <data name="strongholdPopover/commanderHeader" xml:space="preserve">
+    <value>Select Vehicles for Legionnaires</value>
+  </data>
+  <data name="strongholdPopover/header" xml:space="preserve">
+    <value>Select Vehicles</value>
+  </data>
+  <data name="strongholdSlot/selectedVehiclesCount" xml:space="preserve">
+    <value>Vehicles selected:</value>
+  </data>
+  <data name="unit/window/willSearchPlayers" xml:space="preserve">
+    <value>Legionnaires will be automatically added to the vacant positions</value>
   </data>
 </root>

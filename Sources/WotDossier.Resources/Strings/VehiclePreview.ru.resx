@@ -151,7 +151,7 @@
     <value>ТТХ указаны для 100% экипажа.</value>
   </data>
   <data name="infoPanel/tab/crewInfo/name" xml:space="preserve">
-    <value>Экипаж</value>
+    <value>Экипаж: %(crewCount)s</value>
   </data>
   <data name="infoPanel/tab/factSheet/name" xml:space="preserve">
     <value>Справка</value>
@@ -203,5 +203,41 @@
   </data>
   <data name="infoPanel/tab/eliteFactSheet/title" xml:space="preserve">
     <value>Преимущества премиум техники</value>
+  </data>
+  <data name="buyingPanel/buyBtn/label/buyItemPack" xml:space="preserve">
+    <value>Купить набор</value>
+  </data>
+  <data name="buyingPanel/compensation/body" xml:space="preserve">
+    <value>Набор содержит предметы, уже имеющиеся на вашем аккаунте. Стоимость имеющихся предметов будет компенсирована после покупки набора.</value>
+  </data>
+  <data name="buyingPanel/uniqueVehicleLabel" xml:space="preserve">
+    <value>Покупка недоступна: эта машина — награда за игровые достижения</value>
+  </data>
+  <data name="infoPanel/level" xml:space="preserve">
+    <value>%(level)s уровня</value>
+  </data>
+  <data name="infoPanel/premium/creditsMultiplier" xml:space="preserve">
+    <value>+50%</value>
+  </data>
+  <data name="infoPanel/premium/creditsText" xml:space="preserve">
+    <value>к кредитам за каждый бой</value>
+  </data>
+  <data name="infoPanel/premium/crewTransferText" xml:space="preserve">
+    <value>Пересадка экипажа без штрафов</value>
+  </data>
+  <data name="infoPanel/premium/crewTransferTitle" xml:space="preserve">
+    <value>Бесплатно</value>
+  </data>
+  <data name="infoPanel/premium/freeExpMultiplier" xml:space="preserve">
+    <value>+50%</value>
+  </data>
+  <data name="infoPanel/premium/freeExpText" xml:space="preserve">
+    <value>к свободному опыту и опыту экипажа</value>
+  </data>
+  <data name="infoPanel/tab/browse/name" xml:space="preserve">
+    <value>Общее</value>
+  </data>
+  <data name="infoPanel/tab/modules/name" xml:space="preserve">
+    <value>Модули</value>
   </data>
 </root>

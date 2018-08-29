@@ -1814,10 +1814,10 @@ Home/End — перемотка в начало/конец
     <value>(Нажмите Ctrl+Tab для переключения между режимами)</value>
   </data>
   <data name="personalMissions/tip/additionalHeader" xml:space="preserve">
-    <value>Дополнительные условия:</value>
+    <value>Дополнительное условие:</value>
   </data>
   <data name="personalMissions/tip/mainHeader" xml:space="preserve">
-    <value>Основные условия:</value>
+    <value>Основное условие:</value>
   </data>
   <data name="personalMissions/tip/noQuests/battleType" xml:space="preserve">
     <value>Для данного типа боя нет принятых к исполнению боевых задач.</value>
@@ -2129,5 +2129,65 @@ Home/End — перемотка в начало/конец
   <data name="respawnView/classNotAvailable" xml:space="preserve">
     <value>Достигнут лимит
 направления</value>
+  </data>
+  <data name="battleProgress/hint/description" xml:space="preserve">
+    <value>для просмотра личных боевых задач</value>
+  </data>
+  <data name="battleProgress/hint/noBindingKey" xml:space="preserve">
+    <value>Клавиша смены отображения прогресса не назначена</value>
+  </data>
+  <data name="battleProgress/hint/press" xml:space="preserve">
+    <value>Нажмите клавишу</value>
+  </data>
+  <data name="rewardWindow/base/btnLabel" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="rewardWindow/base/descText" xml:space="preserve">
+    <value>Получены награды</value>
+  </data>
+  <data name="rewardWindow/base/headerText" xml:space="preserve">
+    <value>Поздравляем</value>
+  </data>
+  <data name="rewardWindow/base/subHeaderText" xml:space="preserve">
+    <value>Получены награды</value>
+  </data>
+  <data name="rewardWindow/winHeaderText" xml:space="preserve">
+    <value>Поздравляем!</value>
+  </data>
+  <data name="statistics/tab/line_up/header" xml:space="preserve">
+    <value>Состав</value>
+  </data>
+  <data name="statistics/tab/line_up/title" xml:space="preserve">
+    <value>Состав команд</value>
+  </data>
+  <data name="statistics/tab/progressTracing/notAvailable" xml:space="preserve">
+    <value>Отслеживание прогресса выполнения задач кампании «Долгожданное подкрепление» пока недоступно</value>
+  </data>
+  <data name="statistics/tab/quests/header" xml:space="preserve">
+    <value>Задачи</value>
+  </data>
+  <data name="statistics/tab/quests/notAvailable/title" xml:space="preserve">
+    <value>Личные боевые задачи в этом режиме боя недоступны</value>
+  </data>
+  <data name="statistics/tab/quests/nothingToPerform/descr" xml:space="preserve">
+    <value>Перейдите в Ангаре во вкладку «Кампании», чтобы выбрать задачу</value>
+  </data>
+  <data name="statistics/tab/quests/nothingToPerform/title" xml:space="preserve">
+    <value>У вас нет задач, принятых к исполнению на данной машине</value>
+  </data>
+  <data name="statistics/tab/quests/status/done" xml:space="preserve">
+    <value>Основное условие выполнено</value>
+  </data>
+  <data name="statistics/tab/quests/status/fullDone" xml:space="preserve">
+    <value>Всё выполнено</value>
+  </data>
+  <data name="statistics/tab/quests/status/inProgress" xml:space="preserve">
+    <value>Выполняется</value>
+  </data>
+  <data name="statistics/tab/quests/status/increaseResult" xml:space="preserve">
+    <value>Улучшение результата</value>
+  </data>
+  <data name="statistics/tab/quests/switchOff/title" xml:space="preserve">
+    <value>Отображение прогресса выполнения задач недоступно</value>
   </data>
 </root>

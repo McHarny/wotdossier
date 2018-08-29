@@ -2349,4 +2349,100 @@ AOI-1195-5</value>
   <data name="Turret_1_GB95_Ekins_Firefly_M4A4" xml:space="preserve">
     <value>Sherman VC</value>
   </data>
+  <data name="Chassis_GB96_Excalibur" xml:space="preserve">
+    <value>Excalibur</value>
+  </data>
+  <data name="Chassis_GB97_Chimera" xml:space="preserve">
+    <value>Chimera</value>
+  </data>
+  <data name="GB35_Sentinel_AC_IV_long_special" xml:space="preserve">
+    <value>This medium tank is equipped with a perfect gun that features high penetration for its tier. Besides this, the vehicle has good concealment, which allows for hitting enemy vehicles from long distances without being spotted.</value>
+  </data>
+  <data name="GB35_Sentinel_AC_IV_short_special" xml:space="preserve">
+    <value>Perfect penetration rate and concealment</value>
+  </data>
+  <data name="GB51_Excelsior_long_special" xml:space="preserve">
+    <value>This tank features good dynamics and a high fire rate, which allows it to cooperate effectively with any allied medium tank. Besides this, it is rather durable due to its good frontal armoring.</value>
+  </data>
+  <data name="GB51_Excelsior_short_special" xml:space="preserve">
+    <value>High fire rate and survivability, good dynamics</value>
+  </data>
+  <data name="GB52_A45_long_special" xml:space="preserve">
+    <value>This vehicle features a gun with a high fire rate and decent penetration. Mounted in a reliable turret, it allows for causing regular amounts of damage to almost any enemy vehicle. In addition, the tank has a good view range and a good amount of hit points that help it survive in a heated battle for as long as possible.</value>
+  </data>
+  <data name="GB52_A45_short_special" xml:space="preserve">
+    <value>Great amount of hit points, high damage per minute</value>
+  </data>
+  <data name="GB68_Matilda_Black_Prince_long_special" xml:space="preserve">
+    <value>The low mobility of the vehicle is compensated by its rapid-firing gun and sturdy armor, which makes it more of a heavy tank than a medium one. This vehicle is good at supporting the assaulting heavy tanks.</value>
+  </data>
+  <data name="GB68_Matilda_Black_Prince_short_special" xml:space="preserve">
+    <value>High rate of fire, good armor</value>
+  </data>
+  <data name="GB70_N_FV4202_105_long_special" xml:space="preserve">
+    <value>Though this medium tank does not feature outstanding dynamics, it has a perfect gun mounted in a thick reliable turret that can withstand many hits.</value>
+  </data>
+  <data name="GB70_N_FV4202_105_short_special" xml:space="preserve">
+    <value>Good gun featuring good penetration, sufficient view range, reliable turret armor</value>
+  </data>
+  <data name="GB71_AT_15A_long_special" xml:space="preserve">
+    <value>This tank destroyer features perfect armoring, as well as an accurate gun with a high rate of fire and good traverse limits. However, the vehicle is vulnerable to SPG fire due to its low movement speed.</value>
+  </data>
+  <data name="GB71_AT_15A_short_special" xml:space="preserve">
+    <value>Reliable frontal armor, good gun accuracy and rate of fire</value>
+  </data>
+  <data name="GB96_Excalibur" xml:space="preserve">
+    <value>Excalibur</value>
+  </data>
+  <data name="GB96_Excalibur_descr" xml:space="preserve">
+    <value>A project for an airborne amphibious tank destroyer. A full-size prototype was manufactured, but further development was discontinued.</value>
+  </data>
+  <data name="GB96_Excalibur_short" xml:space="preserve">
+    <value>Excalibur</value>
+  </data>
+  <data name="GB97_Chimera" xml:space="preserve">
+    <value>Chimera</value>
+  </data>
+  <data name="GB97_Chimera_descr" xml:space="preserve">
+    <value>A project for a heavy British tank, designed to counter the Soviet IS-3. Despite non-standard solutions and the application of German tank-building technologies, the project was discontinued and existed only in blueprints.</value>
+  </data>
+  <data name="GB97_Chimera_short" xml:space="preserve">
+    <value>Chimera</value>
+  </data>
+  <data name="L50" xml:space="preserve">
+    <value>L50</value>
+  </data>
+  <data name="Rolls_Royse_Meteor_Mk_XI_supercharged" xml:space="preserve">
+    <value>Rolls-Royce Meteor Mk. XI SC</value>
+  </data>
+  <data name="Turret_1_GB96_Excalibur" xml:space="preserve">
+    <value>Excalibur</value>
+  </data>
+  <data name="Turret_1_GB97_Chimera" xml:space="preserve">
+    <value>Conqueror I</value>
+  </data>
+  <data name="_5inch_APDS_Mk_1" xml:space="preserve">
+    <value>APDS Mk. 1</value>
+  </data>
+  <data name="_5inch_AP_Mk_1" xml:space="preserve">
+    <value>AP Mk. 1</value>
+  </data>
+  <data name="_5inch_HESH_Mk_1" xml:space="preserve">
+    <value>HESH Mk. 1</value>
+  </data>
+  <data name="_5inch_QF_Gun" xml:space="preserve">
+    <value>QF 5-in. Gun</value>
+  </data>
+  <data name="_76mm_APDS_EX1" xml:space="preserve">
+    <value>APDS EX1</value>
+  </data>
+  <data name="_76mm_AP_EX1" xml:space="preserve">
+    <value>AP EX1</value>
+  </data>
+  <data name="_76mm_Excalibur_Gun" xml:space="preserve">
+    <value>76 mm 'Excalibur' Gun</value>
+  </data>
+  <data name="_76mm_HESH_EX1" xml:space="preserve">
+    <value>HESH EX1</value>
+  </data>
 </root>

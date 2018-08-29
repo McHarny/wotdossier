@@ -283,7 +283,7 @@
     <value>Campaign I Champion</value>
   </data>
   <data name="badge_18_descr" xml:space="preserve">
-    <value>Can be received for completing all personal missions in Campaign I with honors.</value>
+    <value>Can be received for completing all personal missions in the Long-Awaited Backup campaign with honors.</value>
   </data>
   <data name="badge_19" xml:space="preserve">
     <value>Tank Ace: Tier VII</value>
@@ -389,5 +389,53 @@
   </data>
   <data name="badge_35_descr" xml:space="preserve">
     <value>Be among the top 10% of players of the Arms Race event on the Global Map.</value>
+  </data>
+  <data name="badge_36" xml:space="preserve">
+    <value>Excalibur Badge Class II</value>
+  </data>
+  <data name="badge_36_descr" xml:space="preserve">
+    <value>Can be received for completing enough missions to earn the Excalibur tank destroyer.</value>
+  </data>
+  <data name="badge_37" xml:space="preserve">
+    <value>Excalibur Badge Class I</value>
+  </data>
+  <data name="badge_37_descr" xml:space="preserve">
+    <value>Can be received for completing all missions in operation Excalibur with honors.</value>
+  </data>
+  <data name="badge_38" xml:space="preserve">
+    <value>Chimera Badge Class II</value>
+  </data>
+  <data name="badge_38_descr" xml:space="preserve">
+    <value>Can be received for completing enough missions to earn the Chimera medium tank.</value>
+  </data>
+  <data name="badge_39" xml:space="preserve">
+    <value>Chimera Badge Class I</value>
+  </data>
+  <data name="badge_39_descr" xml:space="preserve">
+    <value>Can be received for completing all missions in operation Chimera with honors.</value>
+  </data>
+  <data name="badge_40" xml:space="preserve">
+    <value>Object 279 (e) Badge Class II</value>
+  </data>
+  <data name="badge_40_descr" xml:space="preserve">
+    <value>Can be received for completing enough missions to earn the Object 279 (e) heavy tank.</value>
+  </data>
+  <data name="badge_41" xml:space="preserve">
+    <value>Object 279 (e) Badge Class I</value>
+  </data>
+  <data name="badge_41_descr" xml:space="preserve">
+    <value>Can be received for completing all missions in operation Object 279 (e) with honors.</value>
+  </data>
+  <data name="badge_42" xml:space="preserve">
+    <value>Campaign II Champion</value>
+  </data>
+  <data name="badge_42_descr" xml:space="preserve">
+    <value>Can be received for completing all personal missions in the Second Front campaign with honors.</value>
+  </data>
+  <data name="badge_43" xml:space="preserve">
+    <value>BRW</value>
+  </data>
+  <data name="badge_43_descr" xml:space="preserve">
+    <value>Awarded to players that get a replay featured in a WoT Best Replays of the week video</value>
   </data>
 </root>

@@ -1,0 +1,3821 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pm2_5_1_1" xml:space="preserve">
+    <value>Союз-1. Полное содействие</value>
+  </data>
+  <data name="pm2_5_1_10" xml:space="preserve">
+    <value>Союз-10. Поднять флаг!</value>
+  </data>
+  <data name="pm2_5_1_10_description_baseCapture" xml:space="preserve">
+    <value>Принять участие в успешном захвате базы.</value>
+  </data>
+  <data name="pm2_5_1_10_description_topByExp" xml:space="preserve">
+    <value>Попасть в Топ-5 по опыту в своей команде.</value>
+  </data>
+  <data name="pm2_5_1_10_short" xml:space="preserve">
+    <value>Союз-10</value>
+  </data>
+  <data name="pm2_5_1_10_title_baseCapture" xml:space="preserve">
+    <value>Захват</value>
+  </data>
+  <data name="pm2_5_1_10_title_topByExp" xml:space="preserve">
+    <value>Топ-5</value>
+  </data>
+  <data name="pm2_5_1_11" xml:space="preserve">
+    <value>Союз-11. Стабильный результат</value>
+  </data>
+  <data name="pm2_5_1_11_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_1_11_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_1_11_short" xml:space="preserve">
+    <value>Союз-11</value>
+  </data>
+  <data name="pm2_5_1_11_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_1_11_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_1_12" xml:space="preserve">
+    <value>Союз-12. Моя оборона</value>
+  </data>
+  <data name="pm2_5_1_12_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_1_12_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Заблокировать в %(vehicleHealthFactor)s раза больше урона, чем прочность собственной машины.</value>
+  </data>
+  <data name="pm2_5_1_12_short" xml:space="preserve">
+    <value>Союз-12</value>
+  </data>
+  <data name="pm2_5_1_12_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_1_12_title_blockedDamageInBattle" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_5_1_13" xml:space="preserve">
+    <value>Союз-13. Оружие героев</value>
+  </data>
+  <data name="pm2_5_1_13_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_1_13_description_hitsInBattle" xml:space="preserve">
+    <value>Нанести машине противника урон тараном.</value>
+  </data>
+  <data name="pm2_5_1_13_short" xml:space="preserve">
+    <value>Союз-13</value>
+  </data>
+  <data name="pm2_5_1_13_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_1_13_title_hitsInBattle" xml:space="preserve">
+    <value>Таран</value>
+  </data>
+  <data name="pm2_5_1_14" xml:space="preserve">
+    <value>Союз-14. Откусить побольше</value>
+  </data>
+  <data name="pm2_5_1_14_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_1_14_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника, которым вы нанесли урона больше, чем 50%% от их базовой прочности.</value>
+  </data>
+  <data name="pm2_5_1_14_short" xml:space="preserve">
+    <value>Союз-14</value>
+  </data>
+  <data name="pm2_5_1_14_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_1_14_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_1_15" xml:space="preserve">
+    <value>Союз-15. Служу Союзу</value>
+  </data>
+  <data name="pm2_5_1_15_description_markOfMasteryI" xml:space="preserve">
+    <value>Получить знак классности «1 степень» или выше рангом.</value>
+  </data>
+  <data name="pm2_5_1_15_description_markOfMasteryMaster" xml:space="preserve">
+    <value>Получить знак классности «Мастер».</value>
+  </data>
+  <data name="pm2_5_1_15_short" xml:space="preserve">
+    <value>Союз-15</value>
+  </data>
+  <data name="pm2_5_1_15_title_markOfMasteryI" xml:space="preserve">
+    <value>Знак классности</value>
+  </data>
+  <data name="pm2_5_1_15_title_markOfMasteryMaster" xml:space="preserve">
+    <value>Знак классности</value>
+  </data>
+  <data name="pm2_5_1_1_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_1_1_description_assist" xml:space="preserve">
+    <value>Помочь союзникам нанести %(goal)s урона технике противника, не принадлежащей Союзу, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_5_1_1_short" xml:space="preserve">
+    <value>Союз-1</value>
+  </data>
+  <data name="pm2_5_1_1_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_1_1_title_assist" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_5_1_2" xml:space="preserve">
+    <value>Союз-2. Уходя, гасите свет</value>
+  </data>
+  <data name="pm2_5_1_2_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона лёгким танкам противника.</value>
+  </data>
+  <data name="pm2_5_1_2_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_1_2_short" xml:space="preserve">
+    <value>Союз-2</value>
+  </data>
+  <data name="pm2_5_1_2_title_damage" xml:space="preserve">
+    <value>Урон по ЛТ</value>
+  </data>
+  <data name="pm2_5_1_2_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_1_3" xml:space="preserve">
+    <value>Союз-3. Отмщение</value>
+  </data>
+  <data name="pm2_5_1_3_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_1_3_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника, которые нанесли урон вашей машине или попали по ней без урона.</value>
+  </data>
+  <data name="pm2_5_1_3_short" xml:space="preserve">
+    <value>Союз-3</value>
+  </data>
+  <data name="pm2_5_1_3_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_1_3_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_1_4" xml:space="preserve">
+    <value>Союз-4. Стена щитов</value>
+  </data>
+  <data name="pm2_5_1_4_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_1_4_description_blockedHits" xml:space="preserve">
+    <value>Заблокировать %(goal)s попаданий по вашей машине.</value>
+  </data>
+  <data name="pm2_5_1_4_short" xml:space="preserve">
+    <value>Союз-4</value>
+  </data>
+  <data name="pm2_5_1_4_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_1_4_title_blockedHits" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_5_1_5" xml:space="preserve">
+    <value>Союз-5. Рейд по тылам</value>
+  </data>
+  <data name="pm2_5_1_5_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона САУ противника.</value>
+  </data>
+  <data name="pm2_5_1_5_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_1_5_short" xml:space="preserve">
+    <value>Союз-5</value>
+  </data>
+  <data name="pm2_5_1_5_title_damage" xml:space="preserve">
+    <value>Урон по САУ</value>
+  </data>
+  <data name="pm2_5_1_5_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_1_6" xml:space="preserve">
+    <value>Союз-6. Рука помощи</value>
+  </data>
+  <data name="pm2_5_1_6_description_assistedKills" xml:space="preserve">
+    <value>Союзники должны уничтожить суммарно %(goal)s ЛТ, ПТ-САУ или СТ противника по вашим разведданным или после попадания, сбившего гусеницу.</value>
+  </data>
+  <data name="pm2_5_1_6_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить обездвиженную машину противника.</value>
+  </data>
+  <data name="pm2_5_1_6_short" xml:space="preserve">
+    <value>Союз-6</value>
+  </data>
+  <data name="pm2_5_1_6_title_assistedKills" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_5_1_6_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_1_7" xml:space="preserve">
+    <value>Союз-7. Тяжёлый удар по средним танкам</value>
+  </data>
+  <data name="pm2_5_1_7_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_1_7_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. средних танков противника.</value>
+  </data>
+  <data name="pm2_5_1_7_short" xml:space="preserve">
+    <value>Союз-7</value>
+  </data>
+  <data name="pm2_5_1_7_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_1_7_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_1_8" xml:space="preserve">
+    <value>Союз-8. Вспомогательный калибр</value>
+  </data>
+  <data name="pm2_5_1_8_description_assist" xml:space="preserve">
+    <value>Помочь союзникам нанести %(goal)s урона технике противника, передавая разведданные, обездвижив её или оглушив.</value>
+  </data>
+  <data name="pm2_5_1_8_description_stunTimeInBattle" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на %(goal)s секунд.</value>
+  </data>
+  <data name="pm2_5_1_8_short" xml:space="preserve">
+    <value>Союз-8</value>
+  </data>
+  <data name="pm2_5_1_8_title_assist" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_5_1_8_title_stunTimeInBattle" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_5_1_9" xml:space="preserve">
+    <value>Союз-9. Год за два</value>
+  </data>
+  <data name="pm2_5_1_9_description_damageInBattle" xml:space="preserve">
+    <value>Нанести в %(vehicleHealthFactor)s раза больше урона, чем прочность собственной машины.</value>
+  </data>
+  <data name="pm2_5_1_9_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_1_9_short" xml:space="preserve">
+    <value>Союз-9</value>
+  </data>
+  <data name="pm2_5_1_9_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_1_9_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_2_1" xml:space="preserve">
+    <value>Блок-1. Им здесь не место!</value>
+  </data>
+  <data name="pm2_5_2_10" xml:space="preserve">
+    <value>Блок-10. Чистка рядов</value>
+  </data>
+  <data name="pm2_5_2_10_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника, принадлежащей Блоку.</value>
+  </data>
+  <data name="pm2_5_2_10_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_2_10_short" xml:space="preserve">
+    <value>Блок-10</value>
+  </data>
+  <data name="pm2_5_2_10_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_2_10_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_2_11" xml:space="preserve">
+    <value>Блок-11. «Вместо меня заговорят ружья»</value>
+  </data>
+  <data name="pm2_5_2_11_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_2_11_description_stunNumberInBattle" xml:space="preserve">
+    <value>Оглушить %(goal)s разных ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_2_11_short" xml:space="preserve">
+    <value>Блок-11</value>
+  </data>
+  <data name="pm2_5_2_11_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_2_11_title_stunNumberInBattle" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_5_2_12" xml:space="preserve">
+    <value>Блок-12. На передовой</value>
+  </data>
+  <data name="pm2_5_2_12_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники в первые %(timeLimit)s минуты боя.</value>
+  </data>
+  <data name="pm2_5_2_12_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_5_2_12_short" xml:space="preserve">
+    <value>Блок-12</value>
+  </data>
+  <data name="pm2_5_2_12_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_2_12_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_5_2_13" xml:space="preserve">
+    <value>Блок-13. Для общего блага</value>
+  </data>
+  <data name="pm2_5_2_13_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_2_13_description_topByDamage" xml:space="preserve">
+    <value>Попасть в Топ-3 по урону в обеих командах.</value>
+  </data>
+  <data name="pm2_5_2_13_short" xml:space="preserve">
+    <value>Блок-13</value>
+  </data>
+  <data name="pm2_5_2_13_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_2_13_title_topByDamage" xml:space="preserve">
+    <value>Топ-3</value>
+  </data>
+  <data name="pm2_5_2_14" xml:space="preserve">
+    <value>Блок-14. Самоходная крепость</value>
+  </data>
+  <data name="pm2_5_2_14_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Заблокировать в %(vehicleHealthFactor)s раза больше урона, чем прочность собственной машины.</value>
+  </data>
+  <data name="pm2_5_2_14_description_topByBlockedDamage" xml:space="preserve">
+    <value>Занять первое место по заблокированному бронёй урону в своей команде.</value>
+  </data>
+  <data name="pm2_5_2_14_short" xml:space="preserve">
+    <value>Блок-14</value>
+  </data>
+  <data name="pm2_5_2_14_title_blockedDamageInBattle" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_5_2_14_title_topByBlockedDamage" xml:space="preserve">
+    <value>Топ-1</value>
+  </data>
+  <data name="pm2_5_2_15" xml:space="preserve">
+    <value>Блок-15. Грудь в орденах</value>
+  </data>
+  <data name="pm2_5_2_15_description_battleHeroMedals" xml:space="preserve">
+    <value>Заслужить суммарно %(goal)s шт. наград категории «Герои битвы» и/или эпических медалей.</value>
+  </data>
+  <data name="pm2_5_2_15_description_battleHeroMedalsInBattle" xml:space="preserve">
+    <value>Заслужить суммарно %(goal)s шт. наград категории «Герои битвы» и/или эпических медалей за бой.</value>
+  </data>
+  <data name="pm2_5_2_15_short" xml:space="preserve">
+    <value>Блок-15</value>
+  </data>
+  <data name="pm2_5_2_15_title_battleHeroMedals" xml:space="preserve">
+    <value>Комплексное условие</value>
+  </data>
+  <data name="pm2_5_2_15_title_battleHeroMedalsInBattle" xml:space="preserve">
+    <value>Комплексное условие</value>
+  </data>
+  <data name="pm2_5_2_1_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона средним танкам противника.</value>
+  </data>
+  <data name="pm2_5_2_1_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_2_1_short" xml:space="preserve">
+    <value>Блок-1</value>
+  </data>
+  <data name="pm2_5_2_1_title_damage" xml:space="preserve">
+    <value>Урон по СТ</value>
+  </data>
+  <data name="pm2_5_2_1_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_2_2" xml:space="preserve">
+    <value>Блок-2. Честная дуэль</value>
+  </data>
+  <data name="pm2_5_2_2_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_2_2_description_blockedHitsInBattle" xml:space="preserve">
+    <value>Заблокировать попадания от %(goal)s машин противника.</value>
+  </data>
+  <data name="pm2_5_2_2_short" xml:space="preserve">
+    <value>Блок-2</value>
+  </data>
+  <data name="pm2_5_2_2_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_2_2_title_blockedHitsInBattle" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_5_2_3" xml:space="preserve">
+    <value>Блок-3. Шпион не пройдёт</value>
+  </data>
+  <data name="pm2_5_2_3_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_2_3_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. лёгких танков противника.</value>
+  </data>
+  <data name="pm2_5_2_3_short" xml:space="preserve">
+    <value>Блок-3</value>
+  </data>
+  <data name="pm2_5_2_3_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_2_3_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_2_4" xml:space="preserve">
+    <value>Блок-4. Никто не уйдёт</value>
+  </data>
+  <data name="pm2_5_2_4_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_2_4_description_assist" xml:space="preserve">
+    <value>Союзники должны нанести суммарно %(goal)s урона ЛТ, ПТ-САУ или СТ противника по вашим разведданным или после попадания, сбившего гусеницу.</value>
+  </data>
+  <data name="pm2_5_2_4_short" xml:space="preserve">
+    <value>Блок-4</value>
+  </data>
+  <data name="pm2_5_2_4_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_2_4_title_assist" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_5_2_5" xml:space="preserve">
+    <value>Блок-5. Как нож в масло</value>
+  </data>
+  <data name="pm2_5_2_5_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_2_5_description_piercings" xml:space="preserve">
+    <value>Пробить броню противника, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_5_2_5_short" xml:space="preserve">
+    <value>Блок-5</value>
+  </data>
+  <data name="pm2_5_2_5_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_2_5_title_piercings" xml:space="preserve">
+    <value>Пробить броню</value>
+  </data>
+  <data name="pm2_5_2_6" xml:space="preserve">
+    <value>Блок-6. Разоружение</value>
+  </data>
+  <data name="pm2_5_2_6_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_2_6_description_stunNumberInBattle" xml:space="preserve">
+    <value>Оглушить технику противника, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_5_2_6_short" xml:space="preserve">
+    <value>Блок-6</value>
+  </data>
+  <data name="pm2_5_2_6_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_2_6_title_stunNumberInBattle" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_5_2_7" xml:space="preserve">
+    <value>Блок-7. «Иду на вы!»</value>
+  </data>
+  <data name="pm2_5_2_7_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Заблокировать не менее %(goal)s урона.</value>
+  </data>
+  <data name="pm2_5_2_7_description_topByBlockedDamage" xml:space="preserve">
+    <value>Заблокировать урона больше, чем кто-либо из союзников.</value>
+  </data>
+  <data name="pm2_5_2_7_description_topByDamage" xml:space="preserve">
+    <value>Занять первое место по урону в своей команде.</value>
+  </data>
+  <data name="pm2_5_2_7_short" xml:space="preserve">
+    <value>Блок-7</value>
+  </data>
+  <data name="pm2_5_2_7_title_blockedDamageInBattle" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_5_2_7_title_topByBlockedDamage" xml:space="preserve">
+    <value>Топ-1</value>
+  </data>
+  <data name="pm2_5_2_7_title_topByDamage" xml:space="preserve">
+    <value>Топ-1</value>
+  </data>
+  <data name="pm2_5_2_8" xml:space="preserve">
+    <value>Блок-8. Всех без разбору</value>
+  </data>
+  <data name="pm2_5_2_8_description_killsDiversity" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника %(uniqueGoal)s разных типов.</value>
+  </data>
+  <data name="pm2_5_2_8_description_topByDamage" xml:space="preserve">
+    <value>Занять первое место по урону в своей команде.</value>
+  </data>
+  <data name="pm2_5_2_8_short" xml:space="preserve">
+    <value>Блок-8</value>
+  </data>
+  <data name="pm2_5_2_8_title_killsDiversity" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_2_8_title_topByDamage" xml:space="preserve">
+    <value>Топ-1</value>
+  </data>
+  <data name="pm2_5_2_9" xml:space="preserve">
+    <value>Блок-9. Дамоклов меч</value>
+  </data>
+  <data name="pm2_5_2_9_description_assistedKills" xml:space="preserve">
+    <value>Союзники должны уничтожить суммарно %(goal)s ТТ и/или СТ противника по вашим разведданным или после попадания, сбившего гусеницу.</value>
+  </data>
+  <data name="pm2_5_2_9_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить обездвиженную машину противника.</value>
+  </data>
+  <data name="pm2_5_2_9_short" xml:space="preserve">
+    <value>Блок-9</value>
+  </data>
+  <data name="pm2_5_2_9_title_assistedKills" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_5_2_9_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_3_1" xml:space="preserve">
+    <value>Альянс-1. Работа такая</value>
+  </data>
+  <data name="pm2_5_3_10" xml:space="preserve">
+    <value>Альянс-10. Неоценимая помощь</value>
+  </data>
+  <data name="pm2_5_3_10_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_3_10_description_assist" xml:space="preserve">
+    <value>Союзники должны нанести суммарно %(goal)s урона ТТ или СТ противника по вашим разведданным или после попадания, сбившего гусеницу.</value>
+  </data>
+  <data name="pm2_5_3_10_short" xml:space="preserve">
+    <value>Альянс-10</value>
+  </data>
+  <data name="pm2_5_3_10_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_3_10_title_assist" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_5_3_11" xml:space="preserve">
+    <value>Альянс-11. Перехват инициативы</value>
+  </data>
+  <data name="pm2_5_3_11_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона в первые %(timeLimit)s минуты боя.</value>
+  </data>
+  <data name="pm2_5_3_11_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_5_3_11_short" xml:space="preserve">
+    <value>Альянс-11</value>
+  </data>
+  <data name="pm2_5_3_11_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_3_11_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_5_3_12" xml:space="preserve">
+    <value>Альянс-12. Глухая оборона</value>
+  </data>
+  <data name="pm2_5_3_12_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_3_12_description_blockedHitsInBattle" xml:space="preserve">
+    <value>Заблокировать %(goal)s попаданий.</value>
+  </data>
+  <data name="pm2_5_3_12_short" xml:space="preserve">
+    <value>Альянс-12</value>
+  </data>
+  <data name="pm2_5_3_12_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_3_12_title_blockedHitsInBattle" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_5_3_13" xml:space="preserve">
+    <value>Альянс-13. Контрнаступление</value>
+  </data>
+  <data name="pm2_5_3_13_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_3_13_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника в первые %(timeLimit)s минуты боя.</value>
+  </data>
+  <data name="pm2_5_3_13_short" xml:space="preserve">
+    <value>Альянс-13</value>
+  </data>
+  <data name="pm2_5_3_13_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_3_13_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_3_14" xml:space="preserve">
+    <value>Альянс-14. Оглушён, сломлен, уничтожен</value>
+  </data>
+  <data name="pm2_5_3_14_description_assistedKills" xml:space="preserve">
+    <value>Союзники должны уничтожить %(goal)s ед. техники противника, оглушённых вами.</value>
+  </data>
+  <data name="pm2_5_3_14_description_stunNumberInBattle" xml:space="preserve">
+    <value>Одновременно оглушить %(stunSeveralTargets)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_3_14_short" xml:space="preserve">
+    <value>Альянс-14</value>
+  </data>
+  <data name="pm2_5_3_14_title_assistedKills" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_5_3_14_title_stunNumberInBattle" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_5_3_15" xml:space="preserve">
+    <value>Альянс-15. Герой Альянса</value>
+  </data>
+  <data name="pm2_5_3_15_description_markOfMasteryI" xml:space="preserve">
+    <value>Получить знак классности «1 степень» или выше рангом.</value>
+  </data>
+  <data name="pm2_5_3_15_description_markOfMasteryMaster" xml:space="preserve">
+    <value>Получить знак классности «Мастер».</value>
+  </data>
+  <data name="pm2_5_3_15_short" xml:space="preserve">
+    <value>Альянс-15</value>
+  </data>
+  <data name="pm2_5_3_15_title_markOfMasteryI" xml:space="preserve">
+    <value>Знак классности</value>
+  </data>
+  <data name="pm2_5_3_15_title_markOfMasteryMaster" xml:space="preserve">
+    <value>Знак классности</value>
+  </data>
+  <data name="pm2_5_3_1_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_3_1_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_3_1_short" xml:space="preserve">
+    <value>Альянс-1</value>
+  </data>
+  <data name="pm2_5_3_1_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_3_1_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_3_2" xml:space="preserve">
+    <value>Альянс-2. Удар сверху</value>
+  </data>
+  <data name="pm2_5_3_2_description_stunNumber" xml:space="preserve">
+    <value>Оглушить %(goal)s разных ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_3_2_description_topByExp" xml:space="preserve">
+    <value>Попасть в Топ-3 по опыту в своей команде.</value>
+  </data>
+  <data name="pm2_5_3_2_short" xml:space="preserve">
+    <value>Альянс-2</value>
+  </data>
+  <data name="pm2_5_3_2_title_stunNumber" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_5_3_2_title_topByExp" xml:space="preserve">
+    <value>Топ-3</value>
+  </data>
+  <data name="pm2_5_3_3" xml:space="preserve">
+    <value>Альянс-3. И никаких больше засад</value>
+  </data>
+  <data name="pm2_5_3_3_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона ПТ-САУ противника.</value>
+  </data>
+  <data name="pm2_5_3_3_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_3_3_short" xml:space="preserve">
+    <value>Альянс-3</value>
+  </data>
+  <data name="pm2_5_3_3_title_damage" xml:space="preserve">
+    <value>Урон по ПТ-САУ</value>
+  </data>
+  <data name="pm2_5_3_3_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_3_4" xml:space="preserve">
+    <value>Альянс-4. Всевидящее око</value>
+  </data>
+  <data name="pm2_5_3_4_description_spotNumber" xml:space="preserve">
+    <value>Обнаружить %(goal)s ед. техники противника, оставаясь необнаруженным.</value>
+  </data>
+  <data name="pm2_5_3_4_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_5_3_4_short" xml:space="preserve">
+    <value>Альянс-4</value>
+  </data>
+  <data name="pm2_5_3_4_title_spotNumber" xml:space="preserve">
+    <value>Обнаружение</value>
+  </data>
+  <data name="pm2_5_3_4_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_5_3_5" xml:space="preserve">
+    <value>Альянс-5. Срубить острие атаки</value>
+  </data>
+  <data name="pm2_5_3_5_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_3_5_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. тяжёлых танков противника.</value>
+  </data>
+  <data name="pm2_5_3_5_short" xml:space="preserve">
+    <value>Альянс-5</value>
+  </data>
+  <data name="pm2_5_3_5_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_3_5_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_3_6" xml:space="preserve">
+    <value>Альянс-6. Как об стенку горох</value>
+  </data>
+  <data name="pm2_5_3_6_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_3_6_description_blockedDamage" xml:space="preserve">
+    <value>Заблокировать не менее %(goal)s урона.</value>
+  </data>
+  <data name="pm2_5_3_6_short" xml:space="preserve">
+    <value>Альянс-6</value>
+  </data>
+  <data name="pm2_5_3_6_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_3_6_title_blockedDamage" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_5_3_7" xml:space="preserve">
+    <value>Альянс-7. Пока не кончатся снаряды</value>
+  </data>
+  <data name="pm2_5_3_7_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_3_7_description_topByExp" xml:space="preserve">
+    <value>Занять первое место по опыту в своей команде.</value>
+  </data>
+  <data name="pm2_5_3_7_short" xml:space="preserve">
+    <value>Альянс-7</value>
+  </data>
+  <data name="pm2_5_3_7_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_3_7_title_topByExp" xml:space="preserve">
+    <value>Топ-1</value>
+  </data>
+  <data name="pm2_5_3_8" xml:space="preserve">
+    <value>Альянс-8. От осколков не уйдут</value>
+  </data>
+  <data name="pm2_5_3_8_description_stunNumber" xml:space="preserve">
+    <value>Одновременно оглушить %(stunSeveralTargets)s ед. техники противника, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_5_3_8_description_stunTimeInBattle" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на %(goal)s сек.</value>
+  </data>
+  <data name="pm2_5_3_8_short" xml:space="preserve">
+    <value>Альянс-8</value>
+  </data>
+  <data name="pm2_5_3_8_title_stunNumber" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_5_3_8_title_stunTimeInBattle" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_5_3_9" xml:space="preserve">
+    <value>Альянс-9. Сокращение штата</value>
+  </data>
+  <data name="pm2_5_3_9_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_3_9_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника, принадлежащей Альянсу.</value>
+  </data>
+  <data name="pm2_5_3_9_short" xml:space="preserve">
+    <value>Альянс-9</value>
+  </data>
+  <data name="pm2_5_3_9_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_3_9_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_4_1" xml:space="preserve">
+    <value>Коалиция-1. Основная цель</value>
+  </data>
+  <data name="pm2_5_4_10" xml:space="preserve">
+    <value>Коалиция-10. Образцовые бои</value>
+  </data>
+  <data name="pm2_5_4_10_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_4_10_description_topByExp" xml:space="preserve">
+    <value>Занять первое место по опыту в своей команде.</value>
+  </data>
+  <data name="pm2_5_4_10_short" xml:space="preserve">
+    <value>Коалиция-10</value>
+  </data>
+  <data name="pm2_5_4_10_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_4_10_title_topByExp" xml:space="preserve">
+    <value>Топ-1</value>
+  </data>
+  <data name="pm2_5_4_11" xml:space="preserve">
+    <value>Коалиция-11. Истребление истребителей танков</value>
+  </data>
+  <data name="pm2_5_4_11_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_4_11_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ПТ-САУ противника.</value>
+  </data>
+  <data name="pm2_5_4_11_short" xml:space="preserve">
+    <value>Коалиция-11</value>
+  </data>
+  <data name="pm2_5_4_11_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_4_11_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_4_12" xml:space="preserve">
+    <value>Коалиция-12. Непоправимый ущерб</value>
+  </data>
+  <data name="pm2_5_4_12_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_4_12_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_4_12_short" xml:space="preserve">
+    <value>Коалиция-12</value>
+  </data>
+  <data name="pm2_5_4_12_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_4_12_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_4_13" xml:space="preserve">
+    <value>Коалиция-13. Пламенный привет</value>
+  </data>
+  <data name="pm2_5_4_13_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_4_13_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s САУ противника.</value>
+  </data>
+  <data name="pm2_5_4_13_short" xml:space="preserve">
+    <value>Коалиция-13</value>
+  </data>
+  <data name="pm2_5_4_13_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_4_13_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_4_14" xml:space="preserve">
+    <value>Коалиция-14. Не время отсиживаться</value>
+  </data>
+  <data name="pm2_5_4_14_description_hitsInBattle" xml:space="preserve">
+    <value>Нанести урон выстрелами %(goal)s раз в первые %(timeLimit)s минуты боя.</value>
+  </data>
+  <data name="pm2_5_4_14_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_4_14_short" xml:space="preserve">
+    <value>Коалиция-14</value>
+  </data>
+  <data name="pm2_5_4_14_title_hitsInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_4_14_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_4_15" xml:space="preserve">
+    <value>Коалиция-15. Я — легенда</value>
+  </data>
+  <data name="pm2_5_4_15_description_battleHeroMedals" xml:space="preserve">
+    <value>Заслужить суммарно %(goal)s шт. наград категории «Герои битвы» и/или эпических медалей.</value>
+  </data>
+  <data name="pm2_5_4_15_description_battleHeroMedalsInBattle" xml:space="preserve">
+    <value>Заслужить суммарно %(goal)s шт. наград категории «Герои битвы» и/или эпических медалей за бой.</value>
+  </data>
+  <data name="pm2_5_4_15_short" xml:space="preserve">
+    <value>Коалиция-15</value>
+  </data>
+  <data name="pm2_5_4_15_title_battleHeroMedals" xml:space="preserve">
+    <value>Комплексное условие</value>
+  </data>
+  <data name="pm2_5_4_15_title_battleHeroMedalsInBattle" xml:space="preserve">
+    <value>Комплексное условие</value>
+  </data>
+  <data name="pm2_5_4_1_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона ТТ противника.</value>
+  </data>
+  <data name="pm2_5_4_1_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_4_1_short" xml:space="preserve">
+    <value>Коалиция-1</value>
+  </data>
+  <data name="pm2_5_4_1_title_damage" xml:space="preserve">
+    <value>Урон по ТТ</value>
+  </data>
+  <data name="pm2_5_4_1_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_4_2" xml:space="preserve">
+    <value>Коалиция-2. Живого места нет</value>
+  </data>
+  <data name="pm2_5_4_2_description_crits" xml:space="preserve">
+    <value>Вывести из строя или ранить суммарно %(goal)s внутренних модулей или членов экипажа противника.</value>
+  </data>
+  <data name="pm2_5_4_2_description_stunNumberInBattle" xml:space="preserve">
+    <value>Одновременно оглушить %(stunSeveralTargets)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_4_2_short" xml:space="preserve">
+    <value>Коалиция-2</value>
+  </data>
+  <data name="pm2_5_4_2_title_crits" xml:space="preserve">
+    <value>Крит. попадания</value>
+  </data>
+  <data name="pm2_5_4_2_title_stunNumberInBattle" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_5_4_3" xml:space="preserve">
+    <value>Коалиция-3. Здоровая конкуренция</value>
+  </data>
+  <data name="pm2_5_4_3_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_4_3_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника, не принадлежащей Коалиции.</value>
+  </data>
+  <data name="pm2_5_4_3_short" xml:space="preserve">
+    <value>Коалиция-3</value>
+  </data>
+  <data name="pm2_5_4_3_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_4_3_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_4_4" xml:space="preserve">
+    <value>Коалиция-4. Указующий перст</value>
+  </data>
+  <data name="pm2_5_4_4_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_4_4_description_assist" xml:space="preserve">
+    <value>Помочь союзникам нанести %(goal)s урона технике противника, передавая разведданные или обездвижив её.</value>
+  </data>
+  <data name="pm2_5_4_4_short" xml:space="preserve">
+    <value>Коалиция-4</value>
+  </data>
+  <data name="pm2_5_4_4_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_4_4_title_assist" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_5_4_5" xml:space="preserve">
+    <value>Коалиция-5. Раскол</value>
+  </data>
+  <data name="pm2_5_4_5_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника, не принадлежащей Коалиции.</value>
+  </data>
+  <data name="pm2_5_4_5_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_5_4_5_short" xml:space="preserve">
+    <value>Коалиция-5</value>
+  </data>
+  <data name="pm2_5_4_5_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_4_5_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_4_6" xml:space="preserve">
+    <value>Коалиция-6. Вершина Олимпа</value>
+  </data>
+  <data name="pm2_5_4_6_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_5_4_6_description_topByDamage" xml:space="preserve">
+    <value>Занять первое место по урону в своей команде.</value>
+  </data>
+  <data name="pm2_5_4_6_short" xml:space="preserve">
+    <value>Коалиция-6</value>
+  </data>
+  <data name="pm2_5_4_6_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_5_4_6_title_topByDamage" xml:space="preserve">
+    <value>Топ-1</value>
+  </data>
+  <data name="pm2_5_4_7" xml:space="preserve">
+    <value>Коалиция-7. Игра на равных</value>
+  </data>
+  <data name="pm2_5_4_7_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_5_4_7_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника своего уровня или выше.</value>
+  </data>
+  <data name="pm2_5_4_7_short" xml:space="preserve">
+    <value>Коалиция-7</value>
+  </data>
+  <data name="pm2_5_4_7_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_4_7_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_4_8" xml:space="preserve">
+    <value>Коалиция-8. Не без вашей помощи</value>
+  </data>
+  <data name="pm2_5_4_8_description_assistedKills" xml:space="preserve">
+    <value>Союзники должны уничтожить %(goal)s ед. техники противника по вашим разведданным или после попадания, сбившего гусеницу.</value>
+  </data>
+  <data name="pm2_5_4_8_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить обездвиженную машину противника.</value>
+  </data>
+  <data name="pm2_5_4_8_short" xml:space="preserve">
+    <value>Коалиция-8</value>
+  </data>
+  <data name="pm2_5_4_8_title_assistedKills" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_5_4_8_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_5_4_9" xml:space="preserve">
+    <value>Коалиция-9. Лицом к лицу</value>
+  </data>
+  <data name="pm2_5_4_9_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона в первые %(timeLimit)s минуты боя.</value>
+  </data>
+  <data name="pm2_5_4_9_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_5_4_9_short" xml:space="preserve">
+    <value>Коалиция-9</value>
+  </data>
+  <data name="pm2_5_4_9_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_5_4_9_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_1_1" xml:space="preserve">
+    <value>Союз-1. На первых позициях...</value>
+  </data>
+  <data name="pm2_6_1_10" xml:space="preserve">
+    <value>Союз-10. Ближе не подпускать!</value>
+  </data>
+  <data name="pm2_6_1_10_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_1_10_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника с расстояния %(distanceGreatOrEqual)s метров и более.</value>
+  </data>
+  <data name="pm2_6_1_10_short" xml:space="preserve">
+    <value>Союз-10</value>
+  </data>
+  <data name="pm2_6_1_10_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_1_10_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_1_11" xml:space="preserve">
+    <value>Союз-11. «Я буду твоими глазами»</value>
+  </data>
+  <data name="pm2_6_1_11_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_1_11_description_spotNumber" xml:space="preserve">
+    <value>Обнаружить %(goal)s ед. техники противника, оставаясь необнаруженным.</value>
+  </data>
+  <data name="pm2_6_1_11_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_1_11_short" xml:space="preserve">
+    <value>Союз-11</value>
+  </data>
+  <data name="pm2_6_1_11_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_1_11_title_spotNumber" xml:space="preserve">
+    <value>Обнаружение</value>
+  </data>
+  <data name="pm2_6_1_11_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_1_12" xml:space="preserve">
+    <value>Союз-12. До звона в ушах</value>
+  </data>
+  <data name="pm2_6_1_12_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_1_12_description_stunTime" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на %(goal)s сек.</value>
+  </data>
+  <data name="pm2_6_1_12_short" xml:space="preserve">
+    <value>Союз-12</value>
+  </data>
+  <data name="pm2_6_1_12_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_1_12_title_stunTime" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_6_1_13" xml:space="preserve">
+    <value>Союз-13. Комплексный обед</value>
+  </data>
+  <data name="pm2_6_1_13_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_1_13_description_killsDiversity" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника %(uniqueGoal)s разных типов.</value>
+  </data>
+  <data name="pm2_6_1_13_short" xml:space="preserve">
+    <value>Союз-13</value>
+  </data>
+  <data name="pm2_6_1_13_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_1_13_title_killsDiversity" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_1_14" xml:space="preserve">
+    <value>Союз-14. Сухим из воды</value>
+  </data>
+  <data name="pm2_6_1_14_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_1_14_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника, не потеряв очков прочности до этого момента.</value>
+  </data>
+  <data name="pm2_6_1_14_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_1_14_short" xml:space="preserve">
+    <value>Союз-14</value>
+  </data>
+  <data name="pm2_6_1_14_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_1_14_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_1_14_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_1_15" xml:space="preserve">
+    <value>Союз-15. Доспехи бога</value>
+  </data>
+  <data name="pm2_6_1_15_description_damageDealtReceivedAndBlocked" xml:space="preserve">
+    <value>Сумма нанесённого, полученного и заблокированного бронёй урона должна составлять %(goal)s</value>
+  </data>
+  <data name="pm2_6_1_15_description_totalDamagePercent" xml:space="preserve">
+    <value>Нанести 25%% от суммарного урона своей команды.</value>
+  </data>
+  <data name="pm2_6_1_15_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_1_15_short" xml:space="preserve">
+    <value>Союз-15</value>
+  </data>
+  <data name="pm2_6_1_15_title_damageDealtReceivedAndBlocked" xml:space="preserve">
+    <value>Комплексное условие</value>
+  </data>
+  <data name="pm2_6_1_15_title_totalDamagePercent" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_1_15_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_1_1_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_1_1_description_topByExp" xml:space="preserve">
+    <value>Попасть в Топ-3 по опыту в своей команде.</value>
+  </data>
+  <data name="pm2_6_1_1_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_1_1_short" xml:space="preserve">
+    <value>Союз-1</value>
+  </data>
+  <data name="pm2_6_1_1_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_1_1_title_topByExp" xml:space="preserve">
+    <value>Топ-3</value>
+  </data>
+  <data name="pm2_6_1_1_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_1_2" xml:space="preserve">
+    <value>Союз-2. ...и в первых рядах</value>
+  </data>
+  <data name="pm2_6_1_2_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_1_2_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники в первые %(timeLimit)s минуты боя.</value>
+  </data>
+  <data name="pm2_6_1_2_short" xml:space="preserve">
+    <value>Союз-2</value>
+  </data>
+  <data name="pm2_6_1_2_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_1_2_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_1_3" xml:space="preserve">
+    <value>Союз-3. С пользой для команды</value>
+  </data>
+  <data name="pm2_6_1_3_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_1_3_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_1_3_description_topByExp" xml:space="preserve">
+    <value>Попасть в Топ-3 по опыту в своей команде.</value>
+  </data>
+  <data name="pm2_6_1_3_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_1_3_short" xml:space="preserve">
+    <value>Союз-3</value>
+  </data>
+  <data name="pm2_6_1_3_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_1_3_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_1_3_title_topByExp" xml:space="preserve">
+    <value>Топ-3</value>
+  </data>
+  <data name="pm2_6_1_3_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_1_4" xml:space="preserve">
+    <value>Союз-4. «И все они падут»</value>
+  </data>
+  <data name="pm2_6_1_4_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_1_4_description_killsDiversity" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника %(uniqueGoal)s разных типов.</value>
+  </data>
+  <data name="pm2_6_1_4_short" xml:space="preserve">
+    <value>Союз-4</value>
+  </data>
+  <data name="pm2_6_1_4_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_1_4_title_killsDiversity" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_1_5" xml:space="preserve">
+    <value>Союз-5. Снарядов хватит на всех</value>
+  </data>
+  <data name="pm2_6_1_5_description_hits" xml:space="preserve">
+    <value>Выстрелами нанести урон технике противника %(goal)s раз.</value>
+  </data>
+  <data name="pm2_6_1_5_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_1_5_short" xml:space="preserve">
+    <value>Союз-5</value>
+  </data>
+  <data name="pm2_6_1_5_title_hits" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_1_5_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_1_6" xml:space="preserve">
+    <value>Союз-6. Нарушить их планы</value>
+  </data>
+  <data name="pm2_6_1_6_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_1_6_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s машины противника в первые %(timeLimit)s минуты боя.</value>
+  </data>
+  <data name="pm2_6_1_6_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_1_6_short" xml:space="preserve">
+    <value>Союз-6</value>
+  </data>
+  <data name="pm2_6_1_6_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_1_6_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_1_6_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_1_7" xml:space="preserve">
+    <value>Союз-7. Попалась!</value>
+  </data>
+  <data name="pm2_6_1_7_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_1_7_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s САУ противника.</value>
+  </data>
+  <data name="pm2_6_1_7_description_spotAndDamage" xml:space="preserve">
+    <value>Обнаружить и нанести урон %(goal)s САУ противника.</value>
+  </data>
+  <data name="pm2_6_1_7_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_1_7_short" xml:space="preserve">
+    <value>Союз-7</value>
+  </data>
+  <data name="pm2_6_1_7_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_1_7_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_1_7_title_spotAndDamage" xml:space="preserve">
+    <value>Обнаружение/урон</value>
+  </data>
+  <data name="pm2_6_1_7_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_1_8" xml:space="preserve">
+    <value>Союз-8. А с виду — как новый</value>
+  </data>
+  <data name="pm2_6_1_8_description_crits" xml:space="preserve">
+    <value>Вывести из строя или ранить суммарно %(goal)s внутренних модулей или членов экипажа противника.</value>
+  </data>
+  <data name="pm2_6_1_8_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_1_8_short" xml:space="preserve">
+    <value>Союз-8</value>
+  </data>
+  <data name="pm2_6_1_8_title_crits" xml:space="preserve">
+    <value>Крит. попадания</value>
+  </data>
+  <data name="pm2_6_1_8_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_1_9" xml:space="preserve">
+    <value>Союз-9. Цель: тяжёлые танки</value>
+  </data>
+  <data name="pm2_6_1_9_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_1_9_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона тяжёлым танкам противника.</value>
+  </data>
+  <data name="pm2_6_1_9_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. тяжёлых танков противника.</value>
+  </data>
+  <data name="pm2_6_1_9_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_1_9_short" xml:space="preserve">
+    <value>Союз-9</value>
+  </data>
+  <data name="pm2_6_1_9_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_1_9_title_damage" xml:space="preserve">
+    <value>Урон по ТТ</value>
+  </data>
+  <data name="pm2_6_1_9_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_1_9_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_2_1" xml:space="preserve">
+    <value>Блок-1. Обычное дело</value>
+  </data>
+  <data name="pm2_6_2_10" xml:space="preserve">
+    <value>Блок-10. Зато внутри всё как новое</value>
+  </data>
+  <data name="pm2_6_2_10_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_2_10_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_2_10_description_noCrits" xml:space="preserve">
+    <value>Не иметь к моменту завершения боя повреждённых/выведенных из строя внутренних модулей или раненых членов экипажа.</value>
+  </data>
+  <data name="pm2_6_2_10_short" xml:space="preserve">
+    <value>Блок-10</value>
+  </data>
+  <data name="pm2_6_2_10_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_2_10_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_2_10_title_noCrits" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_2_11" xml:space="preserve">
+    <value>Блок-11. Боевой азарт</value>
+  </data>
+  <data name="pm2_6_2_11_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_2_11_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_2_11_short" xml:space="preserve">
+    <value>Блок-11</value>
+  </data>
+  <data name="pm2_6_2_11_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_2_11_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_2_12" xml:space="preserve">
+    <value>Блок-12. Первая скрипка</value>
+  </data>
+  <data name="pm2_6_2_12_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_2_12_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_2_12_description_topByDamage" xml:space="preserve">
+    <value>Занять первое место по урону в обеих командах.</value>
+  </data>
+  <data name="pm2_6_2_12_short" xml:space="preserve">
+    <value>Блок-12</value>
+  </data>
+  <data name="pm2_6_2_12_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_2_12_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_2_12_title_topByDamage" xml:space="preserve">
+    <value>Топ-1</value>
+  </data>
+  <data name="pm2_6_2_13" xml:space="preserve">
+    <value>Блок-13. Собирая коллекцию</value>
+  </data>
+  <data name="pm2_6_2_13_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_2_13_description_killsDiversity" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника %(uniqueGoal)s разных типов.</value>
+  </data>
+  <data name="pm2_6_2_13_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_2_13_short" xml:space="preserve">
+    <value>Блок-13</value>
+  </data>
+  <data name="pm2_6_2_13_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_2_13_title_killsDiversity" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_2_13_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_2_14" xml:space="preserve">
+    <value>Блок-14. Тяжёлый случай</value>
+  </data>
+  <data name="pm2_6_2_14_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона тяжёлым танкам противника.</value>
+  </data>
+  <data name="pm2_6_2_14_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_2_14_short" xml:space="preserve">
+    <value>Блок-14</value>
+  </data>
+  <data name="pm2_6_2_14_title_damage" xml:space="preserve">
+    <value>Урон по ТТ</value>
+  </data>
+  <data name="pm2_6_2_14_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_2_15" xml:space="preserve">
+    <value>Блок-15. Хищник</value>
+  </data>
+  <data name="pm2_6_2_15_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона ПТ-САУ противника.</value>
+  </data>
+  <data name="pm2_6_2_15_description_hits" xml:space="preserve">
+    <value>Нанести урон %(goal)s разным машинам противника.</value>
+  </data>
+  <data name="pm2_6_2_15_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_2_15_short" xml:space="preserve">
+    <value>Блок-15</value>
+  </data>
+  <data name="pm2_6_2_15_title_damage" xml:space="preserve">
+    <value>Урон по ПТ-САУ</value>
+  </data>
+  <data name="pm2_6_2_15_title_hits" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_2_15_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_2_1_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_2_1_description_topByExp" xml:space="preserve">
+    <value>Попасть в Топ-3 по опыту в своей команде.</value>
+  </data>
+  <data name="pm2_6_2_1_short" xml:space="preserve">
+    <value>Блок-1</value>
+  </data>
+  <data name="pm2_6_2_1_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_2_1_title_topByExp" xml:space="preserve">
+    <value>Топ-3</value>
+  </data>
+  <data name="pm2_6_2_2" xml:space="preserve">
+    <value>Блок-2. С хирургической точностью</value>
+  </data>
+  <data name="pm2_6_2_2_description_crits" xml:space="preserve">
+    <value>Вывести из строя или ранить суммарно %(goal)s внутренних модулей или членов экипажа противника.</value>
+  </data>
+  <data name="pm2_6_2_2_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_2_2_description_noCrits" xml:space="preserve">
+    <value>Не иметь к моменту завершения боя повреждённых/выведенных из строя внутренних модулей или раненых членов экипажа.</value>
+  </data>
+  <data name="pm2_6_2_2_short" xml:space="preserve">
+    <value>Блок-2</value>
+  </data>
+  <data name="pm2_6_2_2_title_crits" xml:space="preserve">
+    <value>Крит. попадания</value>
+  </data>
+  <data name="pm2_6_2_2_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_2_2_title_noCrits" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_2_3" xml:space="preserve">
+    <value>Блок-3. Прямой наводкой</value>
+  </data>
+  <data name="pm2_6_2_3_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике, не выходящей за дистанцию вашего текущего обзора (в т.ч. больше 445 метров).</value>
+  </data>
+  <data name="pm2_6_2_3_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_2_3_short" xml:space="preserve">
+    <value>Блок-3</value>
+  </data>
+  <data name="pm2_6_2_3_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_2_3_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_2_4" xml:space="preserve">
+    <value>Блок-4. Точные координаты</value>
+  </data>
+  <data name="pm2_6_2_4_description_assistedHits" xml:space="preserve">
+    <value>Передать разведданные для нанесения урона по %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_2_4_description_assistedKills" xml:space="preserve">
+    <value>Передать разведданные для уничтожения %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_2_4_short" xml:space="preserve">
+    <value>Блок-4</value>
+  </data>
+  <data name="pm2_6_2_4_title_assistedHits" xml:space="preserve">
+    <value>Разведданные</value>
+  </data>
+  <data name="pm2_6_2_4_title_assistedKills" xml:space="preserve">
+    <value>Разведданные</value>
+  </data>
+  <data name="pm2_6_2_5" xml:space="preserve">
+    <value>Блок-5. Долгожданная встреча</value>
+  </data>
+  <data name="pm2_6_2_5_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_2_5_description_hits" xml:space="preserve">
+    <value>Выстрелами нанести урон САУ, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_6_2_5_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s САУ противника.</value>
+  </data>
+  <data name="pm2_6_2_5_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_2_5_short" xml:space="preserve">
+    <value>Блок-5</value>
+  </data>
+  <data name="pm2_6_2_5_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_2_5_title_hits" xml:space="preserve">
+    <value>Урон по САУ</value>
+  </data>
+  <data name="pm2_6_2_5_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_2_5_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_2_6" xml:space="preserve">
+    <value>Блок-6. Силовая разведка</value>
+  </data>
+  <data name="pm2_6_2_6_description_hits" xml:space="preserve">
+    <value>Выстрелами нанести урон технике противника %(goal)s раз.</value>
+  </data>
+  <data name="pm2_6_2_6_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_2_6_description_spotNumber" xml:space="preserve">
+    <value>Обнаружить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_2_6_short" xml:space="preserve">
+    <value>Блок-6</value>
+  </data>
+  <data name="pm2_6_2_6_title_hits" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_2_6_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_2_6_title_spotNumber" xml:space="preserve">
+    <value>Обнаружение</value>
+  </data>
+  <data name="pm2_6_2_7" xml:space="preserve">
+    <value>Блок-7. Полная безнаказанность</value>
+  </data>
+  <data name="pm2_6_2_7_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_2_7_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника, оставаясь незамеченным в момент их уничтожения.</value>
+  </data>
+  <data name="pm2_6_2_7_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_2_7_short" xml:space="preserve">
+    <value>Блок-7</value>
+  </data>
+  <data name="pm2_6_2_7_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_2_7_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_2_7_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_2_8" xml:space="preserve">
+    <value>Блок-8. И вспыхнет пламя!</value>
+  </data>
+  <data name="pm2_6_2_8_description_hits" xml:space="preserve">
+    <value>Поджечь машину противника своего уровня или выше.</value>
+  </data>
+  <data name="pm2_6_2_8_description_topByExp" xml:space="preserve">
+    <value>Попасть в Топ-3 по опыту в своей команде.</value>
+  </data>
+  <data name="pm2_6_2_8_short" xml:space="preserve">
+    <value>Блок-8</value>
+  </data>
+  <data name="pm2_6_2_8_title_hits" xml:space="preserve">
+    <value>Поджог</value>
+  </data>
+  <data name="pm2_6_2_8_title_topByExp" xml:space="preserve">
+    <value>Топ-3</value>
+  </data>
+  <data name="pm2_6_2_9" xml:space="preserve">
+    <value>Блок-9. Парящий орёл</value>
+  </data>
+  <data name="pm2_6_2_9_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_2_9_description_assist" xml:space="preserve">
+    <value>Передать разведданные на %(goal)s урона.</value>
+  </data>
+  <data name="pm2_6_2_9_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_2_9_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_2_9_short" xml:space="preserve">
+    <value>Блок-9</value>
+  </data>
+  <data name="pm2_6_2_9_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_2_9_title_assist" xml:space="preserve">
+    <value>Разведданные</value>
+  </data>
+  <data name="pm2_6_2_9_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_2_9_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_3_1" xml:space="preserve">
+    <value>Альянс-1. Без малого треть успеха</value>
+  </data>
+  <data name="pm2_6_3_10" xml:space="preserve">
+    <value>Альянс-10. Достанется каждому</value>
+  </data>
+  <data name="pm2_6_3_10_description_assistedHits" xml:space="preserve">
+    <value>Помочь союзникам нанести урон %(goal)s ед. техники противника, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_6_3_10_description_assistedKills" xml:space="preserve">
+    <value>Помочь союзникам уничтожить %(goal)s ед. техники противника, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_6_3_10_short" xml:space="preserve">
+    <value>Альянс-10</value>
+  </data>
+  <data name="pm2_6_3_10_title_assistedHits" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_6_3_10_title_assistedKills" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_6_3_11" xml:space="preserve">
+    <value>Альянс-11. Цель: средние танки</value>
+  </data>
+  <data name="pm2_6_3_11_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_3_11_description_hits" xml:space="preserve">
+    <value>Выстрелами нанести урон средним танкам противника, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_6_3_11_description_kills" xml:space="preserve">
+    <value>Уничтожить средний танк противника.</value>
+  </data>
+  <data name="pm2_6_3_11_short" xml:space="preserve">
+    <value>Альянс-11</value>
+  </data>
+  <data name="pm2_6_3_11_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_3_11_title_hits" xml:space="preserve">
+    <value>Урон по СТ</value>
+  </data>
+  <data name="pm2_6_3_11_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_3_12" xml:space="preserve">
+    <value>Альянс-12. Тяжёлая мишень</value>
+  </data>
+  <data name="pm2_6_3_12_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_3_12_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_3_12_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. тяжёлых танков противника.</value>
+  </data>
+  <data name="pm2_6_3_12_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_3_12_short" xml:space="preserve">
+    <value>Альянс-12</value>
+  </data>
+  <data name="pm2_6_3_12_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_3_12_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_3_12_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_3_12_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_3_13" xml:space="preserve">
+    <value>Альянс-13. Кинжальный огонь</value>
+  </data>
+  <data name="pm2_6_3_13_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_3_13_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника с расстояния не более 100 метров.</value>
+  </data>
+  <data name="pm2_6_3_13_short" xml:space="preserve">
+    <value>Альянс-13</value>
+  </data>
+  <data name="pm2_6_3_13_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_3_13_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_3_14" xml:space="preserve">
+    <value>Альянс-14. Как снег на голову</value>
+  </data>
+  <data name="pm2_6_3_14_description_assist" xml:space="preserve">
+    <value>Сбить гусеницу противнику. Союзники должны нанести ему %(goal)s урона, пока он обездвижен.</value>
+  </data>
+  <data name="pm2_6_3_14_description_stunTime" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на %(goal)s сек.</value>
+  </data>
+  <data name="pm2_6_3_14_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_3_14_short" xml:space="preserve">
+    <value>Альянс-14</value>
+  </data>
+  <data name="pm2_6_3_14_title_assist" xml:space="preserve">
+    <value>Обездвиживание</value>
+  </data>
+  <data name="pm2_6_3_14_title_stunTime" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_6_3_14_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_3_15" xml:space="preserve">
+    <value>Альянс-15. Коммандо</value>
+  </data>
+  <data name="pm2_6_3_15_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_3_15_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_3_15_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_3_15_short" xml:space="preserve">
+    <value>Альянс-15</value>
+  </data>
+  <data name="pm2_6_3_15_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_3_15_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_3_15_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_3_1_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_3_1_description_totalDamagePercent" xml:space="preserve">
+    <value>Нанести 30%% от суммарного урона своей команды.</value>
+  </data>
+  <data name="pm2_6_3_1_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_3_1_short" xml:space="preserve">
+    <value>Альянс-1</value>
+  </data>
+  <data name="pm2_6_3_1_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_3_1_title_totalDamagePercent" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_3_1_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_3_2" xml:space="preserve">
+    <value>Альянс-2. Постой и послушай</value>
+  </data>
+  <data name="pm2_6_3_2_description_assist" xml:space="preserve">
+    <value>Сбить гусеницу противнику. Союзники должны нанести ему %(goal)s урона, пока он обездвижен.</value>
+  </data>
+  <data name="pm2_6_3_2_description_assistedKills" xml:space="preserve">
+    <value>Сбить гусеницы %(goal)s разным машинам противника. Союзники должны их уничтожить, пока они обездвижены.</value>
+  </data>
+  <data name="pm2_6_3_2_description_crits" xml:space="preserve">
+    <value>Сбить гусеницы %(goal)s разным машинам противника.</value>
+  </data>
+  <data name="pm2_6_3_2_short" xml:space="preserve">
+    <value>Альянс-2</value>
+  </data>
+  <data name="pm2_6_3_2_title_assist" xml:space="preserve">
+    <value>Обездвиживание</value>
+  </data>
+  <data name="pm2_6_3_2_title_assistedKills" xml:space="preserve">
+    <value>Обездвиживание</value>
+  </data>
+  <data name="pm2_6_3_2_title_crits" xml:space="preserve">
+    <value>Сбить гусеницу</value>
+  </data>
+  <data name="pm2_6_3_3" xml:space="preserve">
+    <value>Альянс-3. Возможны осадки в виде снарядов</value>
+  </data>
+  <data name="pm2_6_3_3_description_hitsInBattle" xml:space="preserve">
+    <value>Выстрелами нанести урон технике противника %(goal)s раз.</value>
+  </data>
+  <data name="pm2_6_3_3_description_stunNumber" xml:space="preserve">
+    <value>Оглушить технику противника, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_6_3_3_short" xml:space="preserve">
+    <value>Альянс-3</value>
+  </data>
+  <data name="pm2_6_3_3_title_hitsInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_3_3_title_stunNumber" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_6_3_4" xml:space="preserve">
+    <value>Альянс-4. Фактор внезапности</value>
+  </data>
+  <data name="pm2_6_3_4_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_3_4_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона, оставаясь незамеченным в момент его нанесения.</value>
+  </data>
+  <data name="pm2_6_3_4_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_3_4_short" xml:space="preserve">
+    <value>Альянс-4</value>
+  </data>
+  <data name="pm2_6_3_4_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_3_4_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_3_4_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_3_5" xml:space="preserve">
+    <value>Альянс-5. Гронд</value>
+  </data>
+  <data name="pm2_6_3_5_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_3_5_description_kills" xml:space="preserve">
+    <value>Уничтожить тараном машину противника и выжить при таране.</value>
+  </data>
+  <data name="pm2_6_3_5_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_3_5_short" xml:space="preserve">
+    <value>Альянс-5</value>
+  </data>
+  <data name="pm2_6_3_5_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_3_5_title_kills" xml:space="preserve">
+    <value>Таран</value>
+  </data>
+  <data name="pm2_6_3_5_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_3_6" xml:space="preserve">
+    <value>Альянс-6. Оглушительная тишина</value>
+  </data>
+  <data name="pm2_6_3_6_description_assistedKills" xml:space="preserve">
+    <value>Союзники должны уничтожить %(goal)s ед. техники противника, оглушённых или обездвиженных вами.</value>
+  </data>
+  <data name="pm2_6_3_6_description_stunTime" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на %(goal)s сек.</value>
+  </data>
+  <data name="pm2_6_3_6_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_3_6_short" xml:space="preserve">
+    <value>Альянс-6</value>
+  </data>
+  <data name="pm2_6_3_6_title_assistedKills" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_6_3_6_title_stunTime" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_6_3_6_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_3_7" xml:space="preserve">
+    <value>Альянс-7. Во главе колонны</value>
+  </data>
+  <data name="pm2_6_3_7_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_3_7_description_topByDamage" xml:space="preserve">
+    <value>Занять первое место по урону в своей команде.</value>
+  </data>
+  <data name="pm2_6_3_7_short" xml:space="preserve">
+    <value>Альянс-7</value>
+  </data>
+  <data name="pm2_6_3_7_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_3_7_title_topByDamage" xml:space="preserve">
+    <value>Топ-1</value>
+  </data>
+  <data name="pm2_6_3_8" xml:space="preserve">
+    <value>Альянс-8. Четырёхкратное превосходство</value>
+  </data>
+  <data name="pm2_6_3_8_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_3_8_description_damage" xml:space="preserve">
+    <value>Нанести в %(vehicleHealthFactor)s раза больше урона, чем прочность собственной машины.</value>
+  </data>
+  <data name="pm2_6_3_8_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_3_8_short" xml:space="preserve">
+    <value>Альянс-8</value>
+  </data>
+  <data name="pm2_6_3_8_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_3_8_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_3_8_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_3_9" xml:space="preserve">
+    <value>Альянс-9. Скрытное наблюдение</value>
+  </data>
+  <data name="pm2_6_3_9_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_3_9_description_assist" xml:space="preserve">
+    <value>Передать разведданные на %(goal)s урона.</value>
+  </data>
+  <data name="pm2_6_3_9_short" xml:space="preserve">
+    <value>Альянс-9</value>
+  </data>
+  <data name="pm2_6_3_9_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_3_9_title_assist" xml:space="preserve">
+    <value>Разведданные</value>
+  </data>
+  <data name="pm2_6_4_1" xml:space="preserve">
+    <value>Коалиция-1. Средняя степень тяжести</value>
+  </data>
+  <data name="pm2_6_4_10" xml:space="preserve">
+    <value>Коалиция-10. Настоящий воин</value>
+  </data>
+  <data name="pm2_6_4_10_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_4_10_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_4_10_short" xml:space="preserve">
+    <value>Коалиция-10</value>
+  </data>
+  <data name="pm2_6_4_10_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_4_10_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_4_11" xml:space="preserve">
+    <value>Коалиция-11. Силовое поле</value>
+  </data>
+  <data name="pm2_6_4_11_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_4_11_description_blockedDamage" xml:space="preserve">
+    <value>Заблокировать в %(vehicleHealthFactor)s раза больше урона, чем прочность собственной машины.</value>
+  </data>
+  <data name="pm2_6_4_11_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_4_11_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_4_11_short" xml:space="preserve">
+    <value>Коалиция-11</value>
+  </data>
+  <data name="pm2_6_4_11_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_4_11_title_blockedDamage" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_6_4_11_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_4_11_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_4_12" xml:space="preserve">
+    <value>Коалиция-12. Огонь из всех орудий</value>
+  </data>
+  <data name="pm2_6_4_12_description_hits" xml:space="preserve">
+    <value>Выстрелами нанести урон технике противника %(goal)s раз.</value>
+  </data>
+  <data name="pm2_6_4_12_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_4_12_short" xml:space="preserve">
+    <value>Коалиция-12</value>
+  </data>
+  <data name="pm2_6_4_12_title_hits" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_4_12_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_4_13" xml:space="preserve">
+    <value>Коалиция-13. Базы под атакой</value>
+  </data>
+  <data name="pm2_6_4_13_description_baseCaptureOrDropCapture" xml:space="preserve">
+    <value>Принять участие в успешном захвате или сбитии захвата союзной или нейтральной базы.</value>
+  </data>
+  <data name="pm2_6_4_13_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_4_13_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_4_13_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_4_13_short" xml:space="preserve">
+    <value>Коалиция-13</value>
+  </data>
+  <data name="pm2_6_4_13_title_baseCaptureOrDropCapture" xml:space="preserve">
+    <value>Захват/Защита</value>
+  </data>
+  <data name="pm2_6_4_13_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_4_13_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_4_13_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_4_14" xml:space="preserve">
+    <value>Коалиция-14. Огнём и мечом</value>
+  </data>
+  <data name="pm2_6_4_14_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_4_14_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_4_14_short" xml:space="preserve">
+    <value>Коалиция-14.</value>
+  </data>
+  <data name="pm2_6_4_14_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_4_14_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_4_15" xml:space="preserve">
+    <value>Коалиция-15. Универсальный солдат</value>
+  </data>
+  <data name="pm2_6_4_15_description_assistedKills" xml:space="preserve">
+    <value>Помочь союзникам уничтожить %(goal)s ед. техники противника, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_6_4_15_description_damageAndAssist" xml:space="preserve">
+    <value>Сумма нанесённого урона и урона, нанесённого с вашей помощью, должна составить %(goal)s</value>
+  </data>
+  <data name="pm2_6_4_15_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_4_15_short" xml:space="preserve">
+    <value>Коалиция-15</value>
+  </data>
+  <data name="pm2_6_4_15_title_assistedKills" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_6_4_15_title_damageAndAssist" xml:space="preserve">
+    <value>Комплексное условие</value>
+  </data>
+  <data name="pm2_6_4_15_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_4_1_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_4_1_description_kills" xml:space="preserve">
+    <value>Уничтожить суммарно %(goal)s ТТ и/или СТ противника.</value>
+  </data>
+  <data name="pm2_6_4_1_short" xml:space="preserve">
+    <value>Коалиция-1</value>
+  </data>
+  <data name="pm2_6_4_1_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_4_1_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_4_2" xml:space="preserve">
+    <value>Коалиция-2. Останавливающее действие</value>
+  </data>
+  <data name="pm2_6_4_2_description_crits" xml:space="preserve">
+    <value>Сбить гусеницы %(goal)s разным машинам противника.</value>
+  </data>
+  <data name="pm2_6_4_2_description_hits" xml:space="preserve">
+    <value>Выстрелами нанести урон обездвиженной технике противника, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_6_4_2_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. обездвиженной техники противника.</value>
+  </data>
+  <data name="pm2_6_4_2_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_4_2_short" xml:space="preserve">
+    <value>Коалиция-2</value>
+  </data>
+  <data name="pm2_6_4_2_title_crits" xml:space="preserve">
+    <value>Сбить гусеницу</value>
+  </data>
+  <data name="pm2_6_4_2_title_hits" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_4_2_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_4_2_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_4_3" xml:space="preserve">
+    <value>Коалиция-3. На вершине</value>
+  </data>
+  <data name="pm2_6_4_3_description_topByExp" xml:space="preserve">
+    <value>Занять первое место по опыту в обеих командах.</value>
+  </data>
+  <data name="pm2_6_4_3_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_4_3_short" xml:space="preserve">
+    <value>Коалиция-3</value>
+  </data>
+  <data name="pm2_6_4_3_title_topByExp" xml:space="preserve">
+    <value>Топ-1</value>
+  </data>
+  <data name="pm2_6_4_3_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_4_4" xml:space="preserve">
+    <value>Коалиция-4. Снаряд за снарядом</value>
+  </data>
+  <data name="pm2_6_4_4_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_4_4_description_hits" xml:space="preserve">
+    <value>Нанести урон %(goal)s разным машинам противника.</value>
+  </data>
+  <data name="pm2_6_4_4_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_4_4_short" xml:space="preserve">
+    <value>Коалиция-4</value>
+  </data>
+  <data name="pm2_6_4_4_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_4_4_title_hits" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_4_4_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_4_5" xml:space="preserve">
+    <value>Коалиция-5. На абордаж!</value>
+  </data>
+  <data name="pm2_6_4_5_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_4_5_description_kills" xml:space="preserve">
+    <value>Уничтожить тараном машину противника, потеряв меньше очков прочности, чем цель. Выжить при таране.</value>
+  </data>
+  <data name="pm2_6_4_5_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_4_5_short" xml:space="preserve">
+    <value>Коалиция-5</value>
+  </data>
+  <data name="pm2_6_4_5_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_4_5_title_kills" xml:space="preserve">
+    <value>Таран</value>
+  </data>
+  <data name="pm2_6_4_5_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_4_6" xml:space="preserve">
+    <value>Коалиция-6. Любая цель по зубам</value>
+  </data>
+  <data name="pm2_6_4_6_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_6_4_6_description_hits" xml:space="preserve">
+    <value>Выстрелами нанести урон технике противника своего уровня или выше, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_6_4_6_short" xml:space="preserve">
+    <value>Коалиция-6</value>
+  </data>
+  <data name="pm2_6_4_6_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_4_6_title_hits" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_4_7" xml:space="preserve">
+    <value>Коалиция-7. Сбить на взлёте</value>
+  </data>
+  <data name="pm2_6_4_7_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_4_7_description_kills" xml:space="preserve">
+    <value>Уничтожить лёгкий танк противника в первые %(timeLimit)s минуты боя.</value>
+  </data>
+  <data name="pm2_6_4_7_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_4_7_short" xml:space="preserve">
+    <value>Коалиция-7</value>
+  </data>
+  <data name="pm2_6_4_7_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_4_7_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_6_4_7_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_4_8" xml:space="preserve">
+    <value>Коалиция-8. Под первым номером</value>
+  </data>
+  <data name="pm2_6_4_8_description_alive" xml:space="preserve">
+    <value>Не быть уничтоженным по итогу боя.</value>
+  </data>
+  <data name="pm2_6_4_8_description_topByExp" xml:space="preserve">
+    <value>Занять первое место по опыту в своей команде.</value>
+  </data>
+  <data name="pm2_6_4_8_description_win" xml:space="preserve">
+    <value>Уничтожить противника / захватить базу / защитить базу (если вы в защите на Штурме).</value>
+  </data>
+  <data name="pm2_6_4_8_short" xml:space="preserve">
+    <value>Коалиция-8</value>
+  </data>
+  <data name="pm2_6_4_8_title_alive" xml:space="preserve">
+    <value>Выжить</value>
+  </data>
+  <data name="pm2_6_4_8_title_topByExp" xml:space="preserve">
+    <value>Топ-1</value>
+  </data>
+  <data name="pm2_6_4_8_title_win" xml:space="preserve">
+    <value>Победить</value>
+  </data>
+  <data name="pm2_6_4_9" xml:space="preserve">
+    <value>Коалиция-9. Держать дистанцию</value>
+  </data>
+  <data name="pm2_6_4_9_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона с расстояния не менее 250 метров.</value>
+  </data>
+  <data name="pm2_6_4_9_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_6_4_9_short" xml:space="preserve">
+    <value>Коалиция-9</value>
+  </data>
+  <data name="pm2_6_4_9_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_6_4_9_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_7_1_1" xml:space="preserve">
+    <value>Союз-1. Стабильная поддержка</value>
+  </data>
+  <data name="pm2_7_1_10" xml:space="preserve">
+    <value>Союз-10. Бастион</value>
+  </data>
+  <data name="pm2_7_1_10_description_blockedDamage" xml:space="preserve">
+    <value>Заблокировать не менее %(goal)s урона.</value>
+  </data>
+  <data name="pm2_7_1_10_description_blockedDamageAdv" xml:space="preserve">
+    <value>Заблокировать не менее %(goal)s урона.</value>
+  </data>
+  <data name="pm2_7_1_10_short" xml:space="preserve">
+    <value>Союз-10</value>
+  </data>
+  <data name="pm2_7_1_10_title_blockedDamage" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_7_1_10_title_blockedDamageAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_11" xml:space="preserve">
+    <value>Союз-11. Есть пробитие!</value>
+  </data>
+  <data name="pm2_7_1_11_description_piercings" xml:space="preserve">
+    <value>Совершить в среднем %(goal)s пробитий брони противника за бой.</value>
+  </data>
+  <data name="pm2_7_1_11_description_piercingsAdv" xml:space="preserve">
+    <value>Совершить в среднем %(goal)s пробитий брони противника за бой.</value>
+  </data>
+  <data name="pm2_7_1_11_description_piercingsInBattle" xml:space="preserve">
+    <value>Пробить броню противника, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_11_description_piercingsInBattleAdv" xml:space="preserve">
+    <value>Пробить броню противника, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_11_short" xml:space="preserve">
+    <value>Союз-11</value>
+  </data>
+  <data name="pm2_7_1_11_title_piercings" xml:space="preserve">
+    <value>Пробить броню</value>
+  </data>
+  <data name="pm2_7_1_11_title_piercingsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_12" xml:space="preserve">
+    <value>Союз-12. Максимальное содействие</value>
+  </data>
+  <data name="pm2_7_1_12_description_assist" xml:space="preserve">
+    <value>Помочь союзникам уничтожить %(goal)s ед. техники противника, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_1_12_description_assistAdv" xml:space="preserve">
+    <value>Помочь союзникам уничтожить %(goal)s ед. техники противника, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_1_12_short" xml:space="preserve">
+    <value>Союз-12</value>
+  </data>
+  <data name="pm2_7_1_12_title_assist" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_7_1_12_title_assistAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_13" xml:space="preserve">
+    <value>Союз-13. Воинская слава</value>
+  </data>
+  <data name="pm2_7_1_13_description_medal" xml:space="preserve">
+    <value>Заслужить награду «Воин».</value>
+  </data>
+  <data name="pm2_7_1_13_description_medalAdv" xml:space="preserve">
+    <value>Заслужить награду «Воин».</value>
+  </data>
+  <data name="pm2_7_1_13_short" xml:space="preserve">
+    <value>Союз-13</value>
+  </data>
+  <data name="pm2_7_1_13_title_medal" xml:space="preserve">
+    <value>«Герои битвы»</value>
+  </data>
+  <data name="pm2_7_1_13_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_14" xml:space="preserve">
+    <value>Союз-14. Метеоритный дождь</value>
+  </data>
+  <data name="pm2_7_1_14_description_stun" xml:space="preserve">
+    <value>Оглушить технику противника суммарно раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_14_description_stunAdv" xml:space="preserve">
+    <value>Оглушить технику противника суммарно раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_14_short" xml:space="preserve">
+    <value>Союз-14</value>
+  </data>
+  <data name="pm2_7_1_14_title_stun" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_7_1_14_title_stunAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_15" xml:space="preserve">
+    <value>Союз-15. Гордость Союза</value>
+  </data>
+  <data name="pm2_7_1_15_description_medal" xml:space="preserve">
+    <value>Получить знак классности «1 степень» или выше рангом.</value>
+  </data>
+  <data name="pm2_7_1_15_description_medalAdv" xml:space="preserve">
+    <value>Получить знак классности «Мастер».</value>
+  </data>
+  <data name="pm2_7_1_15_short" xml:space="preserve">
+    <value>Союз-15</value>
+  </data>
+  <data name="pm2_7_1_15_title_medal" xml:space="preserve">
+    <value>Знак классности</value>
+  </data>
+  <data name="pm2_7_1_15_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_1_description_assist" xml:space="preserve">
+    <value>Помочь союзникам нанести в среднем %(goal)s урона технике противника за бой, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_1_1_description_assistAdv" xml:space="preserve">
+    <value>Помочь союзникам нанести в среднем %(goal)s урона технике противника за бой, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_1_1_description_assistInBattle" xml:space="preserve">
+    <value>Помочь союзникам нанести %(goal)s урона технике противника за бой, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_1_1_description_assistInBattleAdv" xml:space="preserve">
+    <value>Помочь союзникам нанести %(goal)s урона технике противника за бой, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_1_1_short" xml:space="preserve">
+    <value>Союз-1</value>
+  </data>
+  <data name="pm2_7_1_1_title_assist" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_7_1_1_title_assistAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_2" xml:space="preserve">
+    <value>Союз-2. Результативный огонь</value>
+  </data>
+  <data name="pm2_7_1_2_description_damageInBattle" xml:space="preserve">
+    <value>Нанести в %(vehicleHealthFactor)s раза больше урона, чем прочность собственной машины.</value>
+  </data>
+  <data name="pm2_7_1_2_description_damageInBattleAdv" xml:space="preserve">
+    <value>Нанести в %(vehicleHealthFactor)s раза больше урона, чем прочность собственной машины.</value>
+  </data>
+  <data name="pm2_7_1_2_short" xml:space="preserve">
+    <value>Союз-2</value>
+  </data>
+  <data name="pm2_7_1_2_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_7_1_2_title_damageInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_3" xml:space="preserve">
+    <value>Союз-3. Программа-минимум</value>
+  </data>
+  <data name="pm2_7_1_3_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_7_1_3_description_killsAdv" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_7_1_3_short" xml:space="preserve">
+    <value>Союз-3</value>
+  </data>
+  <data name="pm2_7_1_3_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_7_1_3_title_killsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_4" xml:space="preserve">
+    <value>Союз-4. «Ты не пробьёшь!»</value>
+  </data>
+  <data name="pm2_7_1_4_description_blockedHits" xml:space="preserve">
+    <value>Среднее количество заблокированных попаданий должно составлять %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_4_description_blockedHitsAdv" xml:space="preserve">
+    <value>Среднее количество заблокированных попаданий должно составлять %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_4_description_blockedHitsInBattle" xml:space="preserve">
+    <value>Заблокировать попаданий: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_4_description_blockedHitsInBattleAdv" xml:space="preserve">
+    <value>Заблокировать попаданий: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_4_short" xml:space="preserve">
+    <value>Союз-4</value>
+  </data>
+  <data name="pm2_7_1_4_title_blockedHits" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_7_1_4_title_blockedHitsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_5" xml:space="preserve">
+    <value>Союз-5. В тройке лучших</value>
+  </data>
+  <data name="pm2_7_1_5_description_topByDamage" xml:space="preserve">
+    <value>Попасть в Топ-3 по урону в обеих командах.</value>
+  </data>
+  <data name="pm2_7_1_5_description_topByDamageAdv" xml:space="preserve">
+    <value>Занять первое место по урону в обеих командах.</value>
+  </data>
+  <data name="pm2_7_1_5_short" xml:space="preserve">
+    <value>Союз-5</value>
+  </data>
+  <data name="pm2_7_1_5_title_topByDamage" xml:space="preserve">
+    <value>Топ-3</value>
+  </data>
+  <data name="pm2_7_1_5_title_topByDamageAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_6" xml:space="preserve">
+    <value>Союз-6. Берсерк</value>
+  </data>
+  <data name="pm2_7_1_6_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_7_1_6_description_killsInBattleAdv" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_7_1_6_description_topByKills" xml:space="preserve">
+    <value>Уничтожить в бою больше машин противника, чем кто-либо из союзников.</value>
+  </data>
+  <data name="pm2_7_1_6_description_topByKillsAdv" xml:space="preserve">
+    <value>Уничтожить в бою больше машин противника, чем кто-либо из союзников.</value>
+  </data>
+  <data name="pm2_7_1_6_short" xml:space="preserve">
+    <value>Союз-6</value>
+  </data>
+  <data name="pm2_7_1_6_title_topByKills" xml:space="preserve">
+    <value>Первый результат</value>
+  </data>
+  <data name="pm2_7_1_6_title_topByKillsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_7" xml:space="preserve">
+    <value>Союз-7. Там внутри что-то есть</value>
+  </data>
+  <data name="pm2_7_1_7_description_crits" xml:space="preserve">
+    <value>Вывести из строя или ранить суммарно %(goal)s внутренних модуля или члена экипажа противника.</value>
+  </data>
+  <data name="pm2_7_1_7_description_critsAdv" xml:space="preserve">
+    <value>Вывести из строя или ранить суммарно %(goal)s внутренних модулей или членов экипажа противника.</value>
+  </data>
+  <data name="pm2_7_1_7_short" xml:space="preserve">
+    <value>Союз-7</value>
+  </data>
+  <data name="pm2_7_1_7_title_crits" xml:space="preserve">
+    <value>Крит. попадания</value>
+  </data>
+  <data name="pm2_7_1_7_title_critsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_8" xml:space="preserve">
+    <value>Союз-8. Стрелок на поражение</value>
+  </data>
+  <data name="pm2_7_1_8_description_medal" xml:space="preserve">
+    <value>Заслужить награду «Огонь на поражение», раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_8_description_medalAdv" xml:space="preserve">
+    <value>Заслужить награду «Огонь на поражение», раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_1_8_short" xml:space="preserve">
+    <value>Союз-8</value>
+  </data>
+  <data name="pm2_7_1_8_title_medal" xml:space="preserve">
+    <value>«Почётные звания»</value>
+  </data>
+  <data name="pm2_7_1_8_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_1_9" xml:space="preserve">
+    <value>Союз-9. Сезон охоты</value>
+  </data>
+  <data name="pm2_7_1_9_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_7_1_9_description_killsInBattleAdv" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_7_1_9_short" xml:space="preserve">
+    <value>Союз-9</value>
+  </data>
+  <data name="pm2_7_1_9_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_7_1_9_title_killsInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_1" xml:space="preserve">
+    <value>Блок-1. Безотказное орудие</value>
+  </data>
+  <data name="pm2_7_2_10" xml:space="preserve">
+    <value>Блок-10. Большая Берта</value>
+  </data>
+  <data name="pm2_7_2_10_description_medal" xml:space="preserve">
+    <value>Заслужить награду «Основной калибр», раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_10_description_medalAdv" xml:space="preserve">
+    <value>Заслужить награду «Основной калибр», раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_10_short" xml:space="preserve">
+    <value>Блок-10</value>
+  </data>
+  <data name="pm2_7_2_10_title_medal" xml:space="preserve">
+    <value>«Герои битвы»</value>
+  </data>
+  <data name="pm2_7_2_10_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_11" xml:space="preserve">
+    <value>Блок-11. Сафари</value>
+  </data>
+  <data name="pm2_7_2_11_description_hitsInBattle" xml:space="preserve">
+    <value>Нанести урон %(goal)s разным машинам противника.</value>
+  </data>
+  <data name="pm2_7_2_11_description_hitsInBattleAdv" xml:space="preserve">
+    <value>Нанести урон %(goal)s разным машинам противника.</value>
+  </data>
+  <data name="pm2_7_2_11_short" xml:space="preserve">
+    <value>Блок-11</value>
+  </data>
+  <data name="pm2_7_2_11_title_hitsInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_7_2_11_title_hitsInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_12" xml:space="preserve">
+    <value>Блок-12. Железный занавес</value>
+  </data>
+  <data name="pm2_7_2_12_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Заблокировать не менее %(goal)s урона.</value>
+  </data>
+  <data name="pm2_7_2_12_description_blockedDamageInBattleAdv" xml:space="preserve">
+    <value>Заблокировать не менее %(goal)s урона.</value>
+  </data>
+  <data name="pm2_7_2_12_description_topByBlockedDamage" xml:space="preserve">
+    <value>Заблокировать урона больше, чем кто-либо из союзников.</value>
+  </data>
+  <data name="pm2_7_2_12_description_topByBlockedDamageAdv" xml:space="preserve">
+    <value>Заблокировать урона больше, чем кто-либо из союзников.</value>
+  </data>
+  <data name="pm2_7_2_12_short" xml:space="preserve">
+    <value>Блок-12</value>
+  </data>
+  <data name="pm2_7_2_12_title_topByBlockedDamage" xml:space="preserve">
+    <value>Первый результат</value>
+  </data>
+  <data name="pm2_7_2_12_title_topByBlockedDamageAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_13" xml:space="preserve">
+    <value>Блок-13. Признак мастерства</value>
+  </data>
+  <data name="pm2_7_2_13_description_kills" xml:space="preserve">
+    <value>Уничтожить в среднем %(goal)s ед. техники противника за бой.</value>
+  </data>
+  <data name="pm2_7_2_13_description_killsAdv" xml:space="preserve">
+    <value>Уничтожить в среднем %(goal)s ед. техники противника за бой.</value>
+  </data>
+  <data name="pm2_7_2_13_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника за бой.</value>
+  </data>
+  <data name="pm2_7_2_13_description_killsInBattleAdv" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника за бой.</value>
+  </data>
+  <data name="pm2_7_2_13_short" xml:space="preserve">
+    <value>Блок-13</value>
+  </data>
+  <data name="pm2_7_2_13_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_7_2_13_title_killsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_14" xml:space="preserve">
+    <value>Блок-14. Покоритель вершин</value>
+  </data>
+  <data name="pm2_7_2_14_description_topByDamage" xml:space="preserve">
+    <value>Занять первое место по урону в своей команде.</value>
+  </data>
+  <data name="pm2_7_2_14_description_topByDamageAdv" xml:space="preserve">
+    <value>Занять первое место по урону в своей команде.</value>
+  </data>
+  <data name="pm2_7_2_14_short" xml:space="preserve">
+    <value>Блок-14</value>
+  </data>
+  <data name="pm2_7_2_14_title_topByDamage" xml:space="preserve">
+    <value>Первый результат</value>
+  </data>
+  <data name="pm2_7_2_14_title_topByDamageAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_15" xml:space="preserve">
+    <value>Блок-15. Что может быть проще</value>
+  </data>
+  <data name="pm2_7_2_15_description_medal" xml:space="preserve">
+    <value>Получить знак классности «1 степень» или выше рангом.</value>
+  </data>
+  <data name="pm2_7_2_15_description_medalAdv" xml:space="preserve">
+    <value>Получить знак классности «Мастер».</value>
+  </data>
+  <data name="pm2_7_2_15_short" xml:space="preserve">
+    <value>Блок-15</value>
+  </data>
+  <data name="pm2_7_2_15_title_medal" xml:space="preserve">
+    <value>Знак классности</value>
+  </data>
+  <data name="pm2_7_2_15_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_1_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_7_2_1_description_damageInBattleAdv" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_7_2_1_short" xml:space="preserve">
+    <value>Блок-1</value>
+  </data>
+  <data name="pm2_7_2_1_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_7_2_1_title_damageInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_2" xml:space="preserve">
+    <value>Блок-2. Абсолютно непробиваемый</value>
+  </data>
+  <data name="pm2_7_2_2_description_medal" xml:space="preserve">
+    <value>Заслужить награду «Непробиваемый», раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_2_description_medalAdv" xml:space="preserve">
+    <value>Заслужить награду «Непробиваемый», раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_2_short" xml:space="preserve">
+    <value>Блок-2</value>
+  </data>
+  <data name="pm2_7_2_2_title_medal" xml:space="preserve">
+    <value>«Почётные звания»</value>
+  </data>
+  <data name="pm2_7_2_2_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_3" xml:space="preserve">
+    <value>Блок-3. Пленных не брать!</value>
+  </data>
+  <data name="pm2_7_2_3_description_killsInBattle" xml:space="preserve">
+    <value>В бою уничтожить машин: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_3_description_killsInBattleAdv" xml:space="preserve">
+    <value>В бою уничтожить машин: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_3_short" xml:space="preserve">
+    <value>Блок-3</value>
+  </data>
+  <data name="pm2_7_2_3_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_7_2_3_title_killsInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_4" xml:space="preserve">
+    <value>Блок-4. Взаимовыручка</value>
+  </data>
+  <data name="pm2_7_2_4_description_assistedKillsInBattle" xml:space="preserve">
+    <value>Помочь союзникам уничтожить %(goal)s ед. техники противника, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_2_4_description_assistedKillsInBattleAdv" xml:space="preserve">
+    <value>Помочь союзникам уничтожить %(goal)s ед. техники противника, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_2_4_short" xml:space="preserve">
+    <value>Блок-4</value>
+  </data>
+  <data name="pm2_7_2_4_title_assistedKillsInBattle" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_7_2_4_title_assistedKillsInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_5" xml:space="preserve">
+    <value>Блок-5. Держать планку</value>
+  </data>
+  <data name="pm2_7_2_5_description_damage" xml:space="preserve">
+    <value>Иметь средний урон не менее %(goal)s ед.</value>
+  </data>
+  <data name="pm2_7_2_5_description_damageAdv" xml:space="preserve">
+    <value>Иметь средний урон не менее %(goal)s ед.</value>
+  </data>
+  <data name="pm2_7_2_5_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_7_2_5_description_damageInBattleAdv" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_7_2_5_short" xml:space="preserve">
+    <value>Блок-5</value>
+  </data>
+  <data name="pm2_7_2_5_title_damage" xml:space="preserve">
+    <value>Средний урон</value>
+  </data>
+  <data name="pm2_7_2_5_title_damageAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_6" xml:space="preserve">
+    <value>Блок-6. Снова и снова</value>
+  </data>
+  <data name="pm2_7_2_6_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника %(uniqueGoal)s разных типов.</value>
+  </data>
+  <data name="pm2_7_2_6_description_killsInBattleAdv" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника %(uniqueGoal)s разных типов.</value>
+  </data>
+  <data name="pm2_7_2_6_short" xml:space="preserve">
+    <value>Блок-6</value>
+  </data>
+  <data name="pm2_7_2_6_title_killsInBattle" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_7_2_6_title_killsInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_7" xml:space="preserve">
+    <value>Блок-7. Сократить численность</value>
+  </data>
+  <data name="pm2_7_2_7_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника за бой.</value>
+  </data>
+  <data name="pm2_7_2_7_description_killsInBattleAdv" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника за бой.</value>
+  </data>
+  <data name="pm2_7_2_7_description_topByKills" xml:space="preserve">
+    <value>Уничтожить техники больше, чем любой из игроков.</value>
+  </data>
+  <data name="pm2_7_2_7_description_topByKillsAdv" xml:space="preserve">
+    <value>Уничтожить техники больше, чем любой из игроков.</value>
+  </data>
+  <data name="pm2_7_2_7_short" xml:space="preserve">
+    <value>Блок-7</value>
+  </data>
+  <data name="pm2_7_2_7_title_topByKills" xml:space="preserve">
+    <value>Первый результат</value>
+  </data>
+  <data name="pm2_7_2_7_title_topByKillsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_8" xml:space="preserve">
+    <value>Блок-8. Под бронебойным дождём</value>
+  </data>
+  <data name="pm2_7_2_8_description_piercingsInBattle" xml:space="preserve">
+    <value>Пробить броню противника, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_8_description_piercingsInBattleAdv" xml:space="preserve">
+    <value>Пробить броню противника, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_2_8_short" xml:space="preserve">
+    <value>Блок-8</value>
+  </data>
+  <data name="pm2_7_2_8_title_piercingsInBattle" xml:space="preserve">
+    <value>Пробить броню</value>
+  </data>
+  <data name="pm2_7_2_8_title_piercingsInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_2_9" xml:space="preserve">
+    <value>Блок-9. Вспышка сверхновой</value>
+  </data>
+  <data name="pm2_7_2_9_description_assist" xml:space="preserve">
+    <value>Помочь союзникам нанести суммарно %(goal)s урона технике противника, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_2_9_description_assistAdv" xml:space="preserve">
+    <value>Помочь союзникам нанести суммарно %(goal)s урона технике противника, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_2_9_short" xml:space="preserve">
+    <value>Блок-9</value>
+  </data>
+  <data name="pm2_7_2_9_title_assist" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_7_2_9_title_assistAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_1" xml:space="preserve">
+    <value>Альянс-1. Поразительная стрельба</value>
+  </data>
+  <data name="pm2_7_3_10" xml:space="preserve">
+    <value>Альянс-10. Реализовать потенциал</value>
+  </data>
+  <data name="pm2_7_3_10_description_damageInBattle" xml:space="preserve">
+    <value>Нанести в %(vehicleHealthFactor)s раза больше урона, чем прочность собственной машины.</value>
+  </data>
+  <data name="pm2_7_3_10_description_damageInBattleAdv" xml:space="preserve">
+    <value>Нанести в %(vehicleHealthFactor)s раза больше урона, чем прочность собственной машины.</value>
+  </data>
+  <data name="pm2_7_3_10_short" xml:space="preserve">
+    <value>Альянс-10</value>
+  </data>
+  <data name="pm2_7_3_10_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_7_3_10_title_damageInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_11" xml:space="preserve">
+    <value>Альянс-11. В нужное время в нужном месте</value>
+  </data>
+  <data name="pm2_7_3_11_description_assistInBattle" xml:space="preserve">
+    <value>Помочь союзникам нанести суммарно %(goal)s урона технике противника, оглушённой вами.</value>
+  </data>
+  <data name="pm2_7_3_11_description_assistInBattleAdv" xml:space="preserve">
+    <value>Помочь союзникам нанести суммарно %(goal)s урона технике противника, оглушённой вами.</value>
+  </data>
+  <data name="pm2_7_3_11_short" xml:space="preserve">
+    <value>Альянс-11</value>
+  </data>
+  <data name="pm2_7_3_11_title_assistInBattle" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_7_3_11_title_assistInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_12" xml:space="preserve">
+    <value>Альянс-12. Как скала</value>
+  </data>
+  <data name="pm2_7_3_12_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Заблокировать не менее %(goal)s урона за бой.</value>
+  </data>
+  <data name="pm2_7_3_12_description_blockedDamageInBattleAdv" xml:space="preserve">
+    <value>Заблокировать не менее %(goal)s урона за бой.</value>
+  </data>
+  <data name="pm2_7_3_12_description_topByBlockedDamage" xml:space="preserve">
+    <value>Заблокировать урона больше, чем любой из игроков.</value>
+  </data>
+  <data name="pm2_7_3_12_description_topByBlockedDamageAdv" xml:space="preserve">
+    <value>Заблокировать урона больше, чем любой из игроков.</value>
+  </data>
+  <data name="pm2_7_3_12_short" xml:space="preserve">
+    <value>Альянс-12</value>
+  </data>
+  <data name="pm2_7_3_12_title_topByBlockedDamage" xml:space="preserve">
+    <value>Первый результат</value>
+  </data>
+  <data name="pm2_7_3_12_title_topByBlockedDamageAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_13" xml:space="preserve">
+    <value>Альянс-13. Выйти в лидеры</value>
+  </data>
+  <data name="pm2_7_3_13_description_topByExp" xml:space="preserve">
+    <value>Попасть в Топ-3 по опыту в обеих командах.</value>
+  </data>
+  <data name="pm2_7_3_13_description_topByExpAdv" xml:space="preserve">
+    <value>Занять первое место по опыту в обеих командах.</value>
+  </data>
+  <data name="pm2_7_3_13_short" xml:space="preserve">
+    <value>Альянс-13</value>
+  </data>
+  <data name="pm2_7_3_13_title_topByExp" xml:space="preserve">
+    <value>Топ-3</value>
+  </data>
+  <data name="pm2_7_3_13_title_topByExpAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_14" xml:space="preserve">
+    <value>Альянс-14. Собрать их все</value>
+  </data>
+  <data name="pm2_7_3_14_description_hits" xml:space="preserve">
+    <value>Нанести урон %(goal)s разным машинам противника.</value>
+  </data>
+  <data name="pm2_7_3_14_description_hitsAdv" xml:space="preserve">
+    <value>Нанести урон %(goal)s разным машинам противника.</value>
+  </data>
+  <data name="pm2_7_3_14_short" xml:space="preserve">
+    <value>Альянс-14</value>
+  </data>
+  <data name="pm2_7_3_14_title_hits" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_7_3_14_title_hitsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_15" xml:space="preserve">
+    <value>Альянс-15. За Альянс!</value>
+  </data>
+  <data name="pm2_7_3_15_description_medal" xml:space="preserve">
+    <value>Получить знак классности «1 степень» или выше рангом.</value>
+  </data>
+  <data name="pm2_7_3_15_description_medalAdv" xml:space="preserve">
+    <value>Получить знак классности «Мастер».</value>
+  </data>
+  <data name="pm2_7_3_15_short" xml:space="preserve">
+    <value>Альянс-15</value>
+  </data>
+  <data name="pm2_7_3_15_title_medal" xml:space="preserve">
+    <value>Знак классности</value>
+  </data>
+  <data name="pm2_7_3_15_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_1_description_medal" xml:space="preserve">
+    <value>Заслужить награду «Огонь на поражение».</value>
+  </data>
+  <data name="pm2_7_3_1_description_medalAdv" xml:space="preserve">
+    <value>Заслужить награду «Огонь на поражение».</value>
+  </data>
+  <data name="pm2_7_3_1_short" xml:space="preserve">
+    <value>Альянс-1</value>
+  </data>
+  <data name="pm2_7_3_1_title_medal" xml:space="preserve">
+    <value>«Почётные звания»</value>
+  </data>
+  <data name="pm2_7_3_1_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_2" xml:space="preserve">
+    <value>Альянс-2. Место на пьедестале</value>
+  </data>
+  <data name="pm2_7_3_2_description_topByDamage" xml:space="preserve">
+    <value>Попасть в Топ-3 по урону в своей команде.</value>
+  </data>
+  <data name="pm2_7_3_2_description_topByDamageAdv" xml:space="preserve">
+    <value>Занять первое место по урону в своей команде.</value>
+  </data>
+  <data name="pm2_7_3_2_short" xml:space="preserve">
+    <value>Альянс-2</value>
+  </data>
+  <data name="pm2_7_3_2_title_topByDamage" xml:space="preserve">
+    <value>Топ-3</value>
+  </data>
+  <data name="pm2_7_3_2_title_topByDamageAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_3" xml:space="preserve">
+    <value>Альянс-3. Снова в дозоре</value>
+  </data>
+  <data name="pm2_7_3_3_description_assistedKills" xml:space="preserve">
+    <value>Помочь союзникам уничтожить в среднем %(goal)s ед. техники противника за бой, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_3_3_description_assistedKillsAdv" xml:space="preserve">
+    <value>Помочь союзникам уничтожить в среднем %(goal)s ед. техники противника за бой, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_3_3_description_assistedKillsInBattle" xml:space="preserve">
+    <value>Помочь союзникам уничтожить %(goal)s ед. техники противника, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_3_3_description_assistedKillsInBattleAdv" xml:space="preserve">
+    <value>Помочь союзникам уничтожить %(goal)s ед. техники противника, передавая разведданные или сбивая гусеницы.</value>
+  </data>
+  <data name="pm2_7_3_3_short" xml:space="preserve">
+    <value>Альянс-3</value>
+  </data>
+  <data name="pm2_7_3_3_title_assistedKills" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_7_3_3_title_assistedKillsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_4" xml:space="preserve">
+    <value>Альянс-4. И это только пристрелка</value>
+  </data>
+  <data name="pm2_7_3_4_description_damage" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_7_3_4_description_damageAdv" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_7_3_4_short" xml:space="preserve">
+    <value>Альянс-4</value>
+  </data>
+  <data name="pm2_7_3_4_title_damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_7_3_4_title_damageAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_5" xml:space="preserve">
+    <value>Альянс-5. Головокружительный успех</value>
+  </data>
+  <data name="pm2_7_3_5_description_stunNumber" xml:space="preserve">
+    <value>Оглушить суммарно %(goal)s разных ед. техники противника.</value>
+  </data>
+  <data name="pm2_7_3_5_description_stunNumberAdv" xml:space="preserve">
+    <value>Оглушить суммарно %(goal)s разных ед. техники противника.</value>
+  </data>
+  <data name="pm2_7_3_5_short" xml:space="preserve">
+    <value>Альянс-5</value>
+  </data>
+  <data name="pm2_7_3_5_title_stunNumber" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_7_3_5_title_stunNumberAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_6" xml:space="preserve">
+    <value>Альянс-6. Надёжный соратник</value>
+  </data>
+  <data name="pm2_7_3_6_description_medal" xml:space="preserve">
+    <value>Заслужить награду «Поддержка».</value>
+  </data>
+  <data name="pm2_7_3_6_description_medalAdv" xml:space="preserve">
+    <value>Заслужить награду «Поддержка».</value>
+  </data>
+  <data name="pm2_7_3_6_short" xml:space="preserve">
+    <value>Альянс-6</value>
+  </data>
+  <data name="pm2_7_3_6_title_medal" xml:space="preserve">
+    <value>«Герои битвы»</value>
+  </data>
+  <data name="pm2_7_3_6_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_7" xml:space="preserve">
+    <value>Альянс-7. Броня не подведёт</value>
+  </data>
+  <data name="pm2_7_3_7_description_blockedDamage" xml:space="preserve">
+    <value>Средний заблокированный урон должен составлять %(goal)s</value>
+  </data>
+  <data name="pm2_7_3_7_description_blockedDamageAdv" xml:space="preserve">
+    <value>Средний заблокированный урон должен составлять %(goal)s</value>
+  </data>
+  <data name="pm2_7_3_7_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Заблокировать в бою не менее %(goal)s урона.</value>
+  </data>
+  <data name="pm2_7_3_7_description_blockedDamageInBattleAdv" xml:space="preserve">
+    <value>Заблокировать в бою не менее %(goal)s урона.</value>
+  </data>
+  <data name="pm2_7_3_7_short" xml:space="preserve">
+    <value>Альянс-7</value>
+  </data>
+  <data name="pm2_7_3_7_title_blockedDamage" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_7_3_7_title_blockedDamageAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_8" xml:space="preserve">
+    <value>Альянс-8. Фантомный удар</value>
+  </data>
+  <data name="pm2_7_3_8_description_crits" xml:space="preserve">
+    <value>Вывести из строя или ранить суммарно %(goal)s внутренних модулей или членов экипажа противника.</value>
+  </data>
+  <data name="pm2_7_3_8_description_critsAdv" xml:space="preserve">
+    <value>Вывести из строя или ранить суммарно %(goal)s внутренних модулей или членов экипажа противника.</value>
+  </data>
+  <data name="pm2_7_3_8_short" xml:space="preserve">
+    <value>Альянс-8</value>
+  </data>
+  <data name="pm2_7_3_8_title_crits" xml:space="preserve">
+    <value>Крит. попадания</value>
+  </data>
+  <data name="pm2_7_3_8_title_critsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_3_9" xml:space="preserve">
+    <value>Альянс-9. Искры из глаз</value>
+  </data>
+  <data name="pm2_7_3_9_description_stunTime" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на %(goal)s сек.</value>
+  </data>
+  <data name="pm2_7_3_9_description_stunTimeAdv" xml:space="preserve">
+    <value>Оглушить технику противника суммарно на %(goal)s сек.</value>
+  </data>
+  <data name="pm2_7_3_9_short" xml:space="preserve">
+    <value>Альянс-9</value>
+  </data>
+  <data name="pm2_7_3_9_title_stunTime" xml:space="preserve">
+    <value>Оглушить</value>
+  </data>
+  <data name="pm2_7_3_9_title_stunTimeAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_1" xml:space="preserve">
+    <value>Коалиция-1. Яростный боец</value>
+  </data>
+  <data name="pm2_7_4_10" xml:space="preserve">
+    <value>Коалиция-10. Вооружённым глазом</value>
+  </data>
+  <data name="pm2_7_4_10_description_assistInBattle" xml:space="preserve">
+    <value>Помочь союзникам нанести %(goal)s урона технике противника, передавая разведданные или обездвижив её.</value>
+  </data>
+  <data name="pm2_7_4_10_description_assistInBattleAdv" xml:space="preserve">
+    <value>Помочь союзникам нанести %(goal)s урона технике противника, передавая разведданные или обездвижив её.</value>
+  </data>
+  <data name="pm2_7_4_10_short" xml:space="preserve">
+    <value>Коалиция-10</value>
+  </data>
+  <data name="pm2_7_4_10_title_assistInBattle" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="pm2_7_4_10_title_assistInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_11" xml:space="preserve">
+    <value>Коалиция-11. Мастер-уничтожитель</value>
+  </data>
+  <data name="pm2_7_4_11_description_killsInBattle" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_7_4_11_description_killsInBattleAdv" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника.</value>
+  </data>
+  <data name="pm2_7_4_11_description_topByKills" xml:space="preserve">
+    <value>Уничтожить техники больше, чем любой из игроков.</value>
+  </data>
+  <data name="pm2_7_4_11_description_topByKillsAdv" xml:space="preserve">
+    <value>Уничтожить техники больше, чем любой из игроков.</value>
+  </data>
+  <data name="pm2_7_4_11_short" xml:space="preserve">
+    <value>Коалиция-11</value>
+  </data>
+  <data name="pm2_7_4_11_title_topByKills" xml:space="preserve">
+    <value>Первый результат</value>
+  </data>
+  <data name="pm2_7_4_11_title_topByKillsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_12" xml:space="preserve">
+    <value>Коалиция-12. Достойная служба</value>
+  </data>
+  <data name="pm2_7_4_12_description_medal" xml:space="preserve">
+    <value>Заслужить суммарно %(goal)s шт. наград категории «Герои битвы» и/или эпических медалей.</value>
+  </data>
+  <data name="pm2_7_4_12_description_medalAdv" xml:space="preserve">
+    <value>Заслужить суммарно %(goal)s шт. наград категории «Герои битвы» и/или эпических медалей.</value>
+  </data>
+  <data name="pm2_7_4_12_short" xml:space="preserve">
+    <value>Коалиция-12</value>
+  </data>
+  <data name="pm2_7_4_12_title_medal" xml:space="preserve">
+    <value>Комплексное условие</value>
+  </data>
+  <data name="pm2_7_4_12_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_13" xml:space="preserve">
+    <value>Коалиция-13. Закованный в латы</value>
+  </data>
+  <data name="pm2_7_4_13_description_blockedDamageInBattle" xml:space="preserve">
+    <value>Заблокировать в %(vehicleHealthFactor)s раза больше урона, чем прочность собственной машины.</value>
+  </data>
+  <data name="pm2_7_4_13_description_blockedDamageInBattleAdv" xml:space="preserve">
+    <value>Заблокировать в %(vehicleHealthFactor)s раза больше урона, чем прочность собственной машины.</value>
+  </data>
+  <data name="pm2_7_4_13_short" xml:space="preserve">
+    <value>Коалиция-13</value>
+  </data>
+  <data name="pm2_7_4_13_title_blockedDamageInBattle" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_7_4_13_title_blockedDamageInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_14" xml:space="preserve">
+    <value>Коалиция-14. Царь горы</value>
+  </data>
+  <data name="pm2_7_4_14_description_topByDamage" xml:space="preserve">
+    <value>В %(goal)s боях занять первое место по урону в обеих командах.</value>
+  </data>
+  <data name="pm2_7_4_14_description_topByDamageAdv" xml:space="preserve">
+    <value>В %(goal)s боях занять первое место по урону в обеих командах.</value>
+  </data>
+  <data name="pm2_7_4_14_short" xml:space="preserve">
+    <value>Коалиция-14</value>
+  </data>
+  <data name="pm2_7_4_14_title_topByDamage" xml:space="preserve">
+    <value>Первый результат</value>
+  </data>
+  <data name="pm2_7_4_14_title_topByDamageAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_15" xml:space="preserve">
+    <value>Коалиция-15. «Командование выражает благодарность»</value>
+  </data>
+  <data name="pm2_7_4_15_description_medal" xml:space="preserve">
+    <value>Получить знак классности «1 степень» или выше рангом.</value>
+  </data>
+  <data name="pm2_7_4_15_description_medalAdv" xml:space="preserve">
+    <value>Получить знак классности «Мастер».</value>
+  </data>
+  <data name="pm2_7_4_15_short" xml:space="preserve">
+    <value>Коалиция-15</value>
+  </data>
+  <data name="pm2_7_4_15_title_medal" xml:space="preserve">
+    <value>Знак классности</value>
+  </data>
+  <data name="pm2_7_4_15_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_1_description_medal" xml:space="preserve">
+    <value>Заслужить награду «Боец».</value>
+  </data>
+  <data name="pm2_7_4_1_description_medalAdv" xml:space="preserve">
+    <value>Заслужить награду «Боец».</value>
+  </data>
+  <data name="pm2_7_4_1_short" xml:space="preserve">
+    <value>Коалиция-1</value>
+  </data>
+  <data name="pm2_7_4_1_title_medal" xml:space="preserve">
+    <value>«Почётные звания»</value>
+  </data>
+  <data name="pm2_7_4_1_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_2" xml:space="preserve">
+    <value>Коалиция-2. Штурмовик</value>
+  </data>
+  <data name="pm2_7_4_2_description_damageInBattle" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_7_4_2_description_damageInBattleAdv" xml:space="preserve">
+    <value>Нанести %(goal)s урона технике противника.</value>
+  </data>
+  <data name="pm2_7_4_2_short" xml:space="preserve">
+    <value>Коалиция-2</value>
+  </data>
+  <data name="pm2_7_4_2_title_damageInBattle" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_7_4_2_title_damageInBattleAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_3" xml:space="preserve">
+    <value>Коалиция-3. Герой войны</value>
+  </data>
+  <data name="pm2_7_4_3_description_medal" xml:space="preserve">
+    <value>Заслужить суммарно %(goal)s шт. наград категории «Герои битвы» и/или эпических медалей.</value>
+  </data>
+  <data name="pm2_7_4_3_description_medalAdv" xml:space="preserve">
+    <value>Заслужить суммарно %(goal)s шт. наград категории «Герои битвы» и/или эпических медалей.</value>
+  </data>
+  <data name="pm2_7_4_3_short" xml:space="preserve">
+    <value>Коалиция-3</value>
+  </data>
+  <data name="pm2_7_4_3_title_medal" xml:space="preserve">
+    <value>Комплексное условие</value>
+  </data>
+  <data name="pm2_7_4_3_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_4" xml:space="preserve">
+    <value>Коалиция-4. Критический удар</value>
+  </data>
+  <data name="pm2_7_4_4_description_crits" xml:space="preserve">
+    <value>Вывести из строя или ранить суммарно %(goal)s внутренних модулей или членов экипажа противника.</value>
+  </data>
+  <data name="pm2_7_4_4_description_critsAdv" xml:space="preserve">
+    <value>Вывести из строя или ранить суммарно %(goal)s внутренних модулей или членов экипажа противника.</value>
+  </data>
+  <data name="pm2_7_4_4_short" xml:space="preserve">
+    <value>Коалиция-4</value>
+  </data>
+  <data name="pm2_7_4_4_title_crits" xml:space="preserve">
+    <value>Крит. попадания</value>
+  </data>
+  <data name="pm2_7_4_4_title_critsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_5" xml:space="preserve">
+    <value>Коалиция-5. Неприступная цитадель</value>
+  </data>
+  <data name="pm2_7_4_5_description_blockedHits" xml:space="preserve">
+    <value>Заблокировать %(goal)s попаданий.</value>
+  </data>
+  <data name="pm2_7_4_5_description_blockedHitsAdv" xml:space="preserve">
+    <value>Заблокировать %(goal)s попаданий.</value>
+  </data>
+  <data name="pm2_7_4_5_short" xml:space="preserve">
+    <value>Коалиция-5</value>
+  </data>
+  <data name="pm2_7_4_5_title_blockedHits" xml:space="preserve">
+    <value>Эффективность брони</value>
+  </data>
+  <data name="pm2_7_4_5_title_blockedHitsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_6" xml:space="preserve">
+    <value>Коалиция-6. Стилет</value>
+  </data>
+  <data name="pm2_7_4_6_description_piercings" xml:space="preserve">
+    <value>Пробить броню противника, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_4_6_description_piercingsAdv" xml:space="preserve">
+    <value>Пробить броню противника, раз: %(goal)s</value>
+  </data>
+  <data name="pm2_7_4_6_short" xml:space="preserve">
+    <value>Коалиция-6</value>
+  </data>
+  <data name="pm2_7_4_6_title_piercings" xml:space="preserve">
+    <value>Пробить броню</value>
+  </data>
+  <data name="pm2_7_4_6_title_piercingsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_7" xml:space="preserve">
+    <value>Коалиция-7. Ничего личного</value>
+  </data>
+  <data name="pm2_7_4_7_description_kills" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника %(uniqueGoal)s разных типов.</value>
+  </data>
+  <data name="pm2_7_4_7_description_killsAdv" xml:space="preserve">
+    <value>Уничтожить %(goal)s ед. техники противника %(uniqueGoal)s разных типов.</value>
+  </data>
+  <data name="pm2_7_4_7_short" xml:space="preserve">
+    <value>Коалиция-7</value>
+  </data>
+  <data name="pm2_7_4_7_title_kills" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="pm2_7_4_7_title_killsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_8" xml:space="preserve">
+    <value>Коалиция-8. «...и начинается мой дозор»</value>
+  </data>
+  <data name="pm2_7_4_8_description_medal" xml:space="preserve">
+    <value>Заслужить награду «Дозорный».</value>
+  </data>
+  <data name="pm2_7_4_8_description_medalAdv" xml:space="preserve">
+    <value>Заслужить награду «Дозорный».</value>
+  </data>
+  <data name="pm2_7_4_8_short" xml:space="preserve">
+    <value>Коалиция-8</value>
+  </data>
+  <data name="pm2_7_4_8_title_medal" xml:space="preserve">
+    <value>«Герои битвы»</value>
+  </data>
+  <data name="pm2_7_4_8_title_medalAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="pm2_7_4_9" xml:space="preserve">
+    <value>Коалиция-9. Будет им уроком</value>
+  </data>
+  <data name="pm2_7_4_9_description_hits" xml:space="preserve">
+    <value>Нанести урон в среднем %(goal)s разным машинам противника за бой.</value>
+  </data>
+  <data name="pm2_7_4_9_description_hitsAdv" xml:space="preserve">
+    <value>Нанести урон в среднем %(goal)s разным машинам противника за бой.</value>
+  </data>
+  <data name="pm2_7_4_9_description_hitsInBattle" xml:space="preserve">
+    <value>Нанести урон %(goal)s разным машинам противника за бой.</value>
+  </data>
+  <data name="pm2_7_4_9_description_hitsInBattleAdv" xml:space="preserve">
+    <value>Нанести урон %(goal)s разным машинам противника за бой.</value>
+  </data>
+  <data name="pm2_7_4_9_short" xml:space="preserve">
+    <value>Коалиция-9</value>
+  </data>
+  <data name="pm2_7_4_9_title_hits" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="pm2_7_4_9_title_hitsAdv" xml:space="preserve">
+    <value>Улучшить результат</value>
+  </data>
+  <data name="quest_biathlon_descr" xml:space="preserve">
+    <value>В каждой задаче этого типа есть ограниченное количество попыток на выполнение поставленного условия.
+
+Основное условие: за указанное количество попыток необходимо провести определённое количество боёв, в которых будет выполнено поставленное условие. Если количество оставшихся попыток будет меньше необходимого количества выполненных условий, то прогресс автоматически будет сброшен, а задача начнётся заново.
+
+Дополнительное условие аналогично основному, а прогресс по нему идёт параллельно. Само условие более сложное, а попыток на его выполнение отводится столько же. Дополнительное условие может быть провалено при том, что основное выполняется успешно. В таком случае дополнительное условие станет недоступно для повторного выполнения, пока не начнётся новая серия попыток.
+
+ВАЖНО: весь накопленный прогресс по задаче будет обнулён при отмене задачи.</value>
+  </data>
+  <data name="quest_biathlon_with_limit_descr" xml:space="preserve">
+    <value>В каждой задаче этого типа есть ограниченное количество попыток на выполнение поставленного условия.
+
+Основное условие: за указанное количество попыток необходимо провести определённое количество боёв, в которых будет выполнено поставленное условие. Если количество оставшихся попыток будет меньше необходимого количества выполненных условий, то прогресс автоматически будет сброшен, а задача начнётся заново.
+
+Дополнительное условие аналогично основному, а прогресс по нему идёт параллельно. Само условие более сложное, а попыток на его выполнение отводится столько же. Дополнительное условие может быть провалено при том, что основное выполняется успешно. В таком случае дополнительное условие станет недоступно для повторного выполнения, пока не начнётся новая серия попыток.
+
+Ограничение. По значению: в задаче указан определённый минимум, которого надо достичь, чтобы результат пошёл в «копилку». Если минимум достичь не получилось, в «копилку» за этот бой пойдёт ноль. По времени: зачтётся только результат, достигнутый за указанный промежуток времени.
+
+ВАЖНО: весь накопленный прогресс по задаче будет обнулён при отмене задачи.</value>
+  </data>
+  <data name="quest_every_descr" xml:space="preserve">
+    <value>В каждой задаче этого типа есть ограниченное количество попыток на выполнение поставленного условия.
+
+Основное условие нужно выполнять подряд в каждом бою серии. Неудача в одном бою прервёт серию, и нужно будет начинать заново.
+
+Дополнительное условие аналогично основному, а прогресс по нему идёт параллельно. Само условие более сложное, а попыток на его выполнение отводится столько же. Дополнительное условие может быть провалено при том, что основное выполняется успешно. В таком случае дополнительное условие станет недоступно для повторного выполнения, пока не начнётся новая серия попыток.
+
+ВАЖНО: весь накопленный прогресс по задаче будет обнулён при отмене задачи.</value>
+  </data>
+  <data name="quest_every_with_limit_descr" xml:space="preserve">
+    <value>В каждой задаче этого типа есть ограниченное количество попыток на выполнение поставленного условия.
+
+Основное условие нужно выполнять подряд в каждом бою серии. Неудача в одном бою прервёт серию, и нужно будет начинать заново.
+
+Дополнительное условие аналогично основному, а прогресс по нему идёт параллельно. Само условие более сложное, а попыток на его выполнение отводится столько же. Дополнительное условие может быть провалено при том, что основное выполняется успешно. В таком случае дополнительное условие станет недоступно для повторного выполнения, пока не начнётся новая серия попыток.
+
+Ограничение. По значению: в задаче указан определённый минимум, которого надо достичь, чтобы результат пошёл в «копилку». Если минимум достичь не получилось, в «копилку» за этот бой пойдёт ноль. По времени: зачтётся только результат, достигнутый за указанный промежуток времени.
+
+ВАЖНО: весь накопленный прогресс по задаче будет обнулён при отмене задачи.</value>
+  </data>
+  <data name="quest_result_descr" xml:space="preserve">
+    <value>Задачи этого типа накопительные, то есть требуют от игрока выполнения условий за несколько боёв.
+
+Основное условие: у вас есть неограниченное количество боёв, результат каждого из которых пойдёт в общую «копилку» до полного её наполнения.
+
+Дополнительное условие выполняется в рамках одного боя (прогресс не суммируется). Для получения награды требуется выполнить данное условие указанное количество раз, а также завершить основную часть задачи.
+
+Модификатор: при выполнении в бою дополнительного условия игрок получает специальный модификатор, который умножает весь полученный прогресс по основному условию, достигнутый в данном бою, на указанное значение.
+
+ВАЖНО: весь накопленный прогресс по задаче будет обнулён при отмене задачи.</value>
+  </data>
+  <data name="quest_result_with_limit_descr" xml:space="preserve">
+    <value>Задачи этого типа накопительные, то есть требуют от игрока выполнения условий за несколько боёв.
+
+Основное условие: у вас есть неограниченное количество боёв, результат каждого из которых пойдёт в общую «копилку» до полного её наполнения.
+
+Дополнительное условие выполняется в рамках одного боя (прогресс не суммируется). Для получения награды требуется выполнить данное условие указанное количество раз, а также завершить основную часть задачи.
+
+Модификатор: при выполнении в бою дополнительного условия игрок получает специальный модификатор, который умножает весь полученный прогресс по основному условию, достигнутый в данном бою, на указанное значение.
+
+Ограничение. По значению: в задаче указан определённый минимум, которого надо достичь, чтобы результат пошёл в «копилку». Если минимум достичь не получилось, в «копилку» за этот бой пойдёт ноль. По времени: зачтётся только результат, достигнутый за указанный промежуток времени.
+
+ВАЖНО: весь накопленный прогресс по задаче будет обнулён при отмене задачи.</value>
+  </data>
+  <data name="quest_standart_descr" xml:space="preserve">
+    <value>В задачах этого типа требуется выполнить поставленное условие за один бой.
+
+Для получения награды за дополнительное условие (одновременно с основным или же улучшая результат) необходимо обязательно выполнить и основное условие, иначе задача не будет зачтена и награда за дополнительное условие не будет получена.</value>
+  </data>
+  <data name="quest_success_descr" xml:space="preserve">
+    <value>Задачи этого типа накопительные, то есть требуют от игрока выполнения условий на протяжении нескольких боёв (не обязательно подряд).
+
+Основное условие вам нужно выполнить в указанном количестве боёв и не обязательно подряд. Засчитываться будут только успешные бои, при этом количество попыток — бесконечное.
+
+Дополнительное условие выполняется в рамках одного боя (прогресс не суммируется). Для получения награды требуется выполнить данное условие указанное количество раз, а также завершить основную часть задачи.
+
+Модификатор: при выполнении в бою основного и дополнительного условий в «копилку» по задаче записывается не один бой, а сразу 2 или 3 в зависимости от модификатора.
+
+ВАЖНО: весь накопленный прогресс по задаче будет обнулён при отмене задачи.</value>
+  </data>
+  <data name="quest_success_with_limit_descr" xml:space="preserve">
+    <value>Задачи этого типа накопительные, то есть требуют от игрока выполнения условий на протяжении нескольких боёв (не обязательно подряд).
+
+Основное условие вам нужно выполнить в указанном количестве боёв и не обязательно подряд. Засчитываться будут только успешные бои, при этом количество попыток — бесконечное.
+
+Дополнительное условие выполняется в рамках одного боя (прогресс не суммируется). Для получения награды требуется выполнить данное условие указанное количество раз, а также завершить основную часть задачи.
+
+Модификатор: при выполнении в бою основного и дополнительного условий в «копилку» по задаче записывается не один бой, а сразу 2 или 3 в зависимости от модификатора.
+
+Ограничение. По значению: в задаче указан определённый минимум, которого надо достичь, чтобы результат пошёл в «копилку». Если минимум достичь не получилось, в «копилку» за этот бой пойдёт ноль. По времени: зачтётся только результат, достигнутый за указанный промежуток времени.
+
+ВАЖНО: весь накопленный прогресс по задаче будет обнулён при отмене задачи.</value>
+  </data>
+  <data name="quest_sum_descr" xml:space="preserve">
+    <value>В каждой задаче этого типа есть ограниченное количество попыток на выполнение поставленного условия.
+
+Основное условие: результат каждого боя суммируется. Если необходимое значение не было достигнуто, а количество попыток закончилось, то задача считается проваленной, и прогресс сбрасывается. Нужно начинать заново.
+
+Дополнительное условие аналогично основному, а прогресс по нему идёт параллельно. Само условие более сложное, а попыток на его выполнение отводится столько же.
+
+ВАЖНО: весь накопленный прогресс по задаче будет обнулён при отмене задачи.</value>
+  </data>
+  <data name="quest_sum_with_limit_descr" xml:space="preserve">
+    <value>В каждой задаче этого типа есть ограниченное количество попыток на выполнение поставленного условия.
+
+Основное условие: результат каждого боя суммируется. Если необходимое значение не было достигнуто, а количество попыток закончилось, то задача считается проваленной, и прогресс сбрасывается. Нужно начинать заново.
+
+Дополнительное условие аналогично основному, а прогресс по нему идёт параллельно. Само условие более сложное, а попыток на его выполнение отводится столько же.
+
+Ограничение. По значению: в задаче указан определённый минимум, которого надо достичь, чтобы результат пошёл в «копилку». Если минимум достичь не получилось, в «копилку» за этот бой пойдёт ноль. По времени: зачтётся только результат, достигнутый за указанный промежуток времени.
+
+ВАЖНО: весь накопленный прогресс по задаче будет обнулён при отмене задачи.</value>
+  </data>
+</root>
