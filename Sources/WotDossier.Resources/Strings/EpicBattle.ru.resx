@@ -118,783 +118,783 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="abilityInfo/manage_abilities" xml:space="preserve">
-    <value> </value>
+    <value>Распределить резервы</value>
   </data>
   <data name="abilityInfo/manage_abilities_desc" xml:space="preserve">
-    <value>,     .</value>
+    <value>Нажмите, чтобы выбрать доступные боевые резервы.</value>
   </data>
   <data name="abilityInfo/params/airstrike/bombsNumber" xml:space="preserve">
-    <value />
+    <value>Бомбы</value>
   </data>
   <data name="abilityInfo/params/airstrike/dropArea" xml:space="preserve">
-    <value> </value>
+    <value>Зона сброса</value>
   </data>
   <data name="abilityInfo/params/airstrike/stun" xml:space="preserve">
-    <value />
+    <value>Оглушение</value>
   </data>
   <data name="abilityInfo/params/artillery/areaRadius" xml:space="preserve">
-    <value />
+    <value>Покрытие</value>
   </data>
   <data name="abilityInfo/params/artillery/duration" xml:space="preserve">
-    <value />
+    <value>Длительность</value>
   </data>
   <data name="abilityInfo/params/artillery/shotsNumber" xml:space="preserve">
-    <value />
+    <value>Снаряды</value>
   </data>
   <data name="abilityInfo/params/common/cooldownTime" xml:space="preserve">
-    <value />
+    <value>Перезарядка</value>
   </data>
   <data name="abilityInfo/params/common/delay" xml:space="preserve">
-    <value />
+    <value>Задержка</value>
   </data>
   <data name="abilityInfo/params/inspire/crewIncreaseFactor" xml:space="preserve">
-    <value> </value>
+    <value>Эффективность экипажа</value>
   </data>
   <data name="abilityInfo/params/inspire/duration" xml:space="preserve">
-    <value />
+    <value>Длительность</value>
   </data>
   <data name="abilityInfo/params/inspire/inactivationDelay" xml:space="preserve">
-    <value> </value>
+    <value>Остаточный эффект</value>
   </data>
   <data name="abilityInfo/params/inspire/radius" xml:space="preserve">
-    <value> </value>
+    <value>Радиус действия</value>
   </data>
   <data name="abilityInfo/params/passive_engineering/captureBlockBonusTime" xml:space="preserve">
-    <value>  </value>
+    <value>Время блокировки захвата</value>
   </data>
   <data name="abilityInfo/params/passive_engineering/captureSpeedFactor" xml:space="preserve">
-    <value> </value>
+    <value>Скорость захвата</value>
   </data>
   <data name="abilityInfo/params/passive_engineering/resupplyCooldownFactor" xml:space="preserve">
-    <value>  </value>
+    <value>Восстановление зоны пополнения</value>
   </data>
   <data name="abilityInfo/params/passive_engineering/resupplyHealthPointsFactor" xml:space="preserve">
-    <value> </value>
+    <value>Скорость пополнения</value>
   </data>
   <data name="abilityInfo/params/recon/revealedArea" xml:space="preserve">
-    <value> </value>
+    <value>Разведанная область</value>
   </data>
   <data name="abilityInfo/params/recon/revealedArea/value" xml:space="preserve">
-    <value>300 x 750</value>
+    <value>300м x 750м</value>
   </data>
   <data name="abilityInfo/params/recon/spottingDuration" xml:space="preserve">
-    <value> </value>
+    <value>Длительность разведки</value>
   </data>
   <data name="abilityInfo/params/smoke/projectilesNumber" xml:space="preserve">
-    <value> </value>
+    <value>Дымовые шашки</value>
   </data>
   <data name="abilityInfo/params/smoke/targetedArea" xml:space="preserve">
-    <value>  (, )</value>
+    <value>Область сброса (длина, ширина)</value>
   </data>
   <data name="abilityInfo/params/smoke/totalDuration" xml:space="preserve">
-    <value> </value>
+    <value>Длительность дымов</value>
   </data>
   <data name="abilityInfo/properties" xml:space="preserve">
-    <value />
+    <value>Информация</value>
   </data>
   <data name="abilityInfo/units/meter" xml:space="preserve">
-    <value />
+    <value>м</value>
   </data>
   <data name="abilityInfo/units/seconds" xml:space="preserve">
-    <value />
+    <value>с</value>
   </data>
   <data name="advance_message_txt" xml:space="preserve">
-    <value>  </value>
+    <value>Продвигайтесь на фронт</value>
   </data>
   <data name="advance_mission_txt" xml:space="preserve">
-    <value>  </value>
+    <value>Продвигайтесь на фронт</value>
   </data>
   <data name="after_battle_stats/bases_captured" xml:space="preserve">
-    <value> </value>
+    <value>Зон захвачено</value>
   </data>
   <data name="after_battle_stats/destroy_recover" xml:space="preserve">
-    <value>  /  </value>
+    <value>Вашей уничтоженной / восстановленной техники</value>
   </data>
   <data name="after_battle_stats/objectives_atk" xml:space="preserve">
-    <value>  /  </value>
+    <value>Зон захвачено / целей уничтожено</value>
   </data>
   <data name="after_battle_stats/objectives_def" xml:space="preserve">
-    <value> </value>
+    <value>Успешная оборона</value>
   </data>
   <data name="after_battle_stats/objectives_destroyed" xml:space="preserve">
-    <value> </value>
+    <value>Целей уничтожено</value>
   </data>
   <data name="after_battle_stats/objectives_reached" xml:space="preserve">
-    <value>   </value>
+    <value>Вы подобрались к ДОТам</value>
   </data>
   <data name="after_battle_stats/with_premium" xml:space="preserve">
-    <value> :</value>
+    <value>С премиум:</value>
   </data>
   <data name="base/contested_atk" xml:space="preserve">
-    <value />
+    <value>Оспаривается</value>
   </data>
   <data name="base/contested_def" xml:space="preserve">
-    <value />
+    <value>Атакуется</value>
   </data>
   <data name="battleResults/armor" xml:space="preserve">
-    <value> </value>
+    <value>Использование брони</value>
   </data>
   <data name="battleResults/assistance" xml:space="preserve">
-    <value />
+    <value>Содействие</value>
   </data>
   <data name="battleResults/crits" xml:space="preserve">
-    <value> </value>
+    <value>Критический урон</value>
   </data>
   <data name="battleResults/damage" xml:space="preserve">
-    <value />
+    <value>Урон</value>
   </data>
   <data name="battleResults/kill" xml:space="preserve">
-    <value />
+    <value>Уничтожено</value>
   </data>
   <data name="battleResults/spotting" xml:space="preserve">
-    <value />
+    <value>Обнаружено</value>
   </data>
   <data name="chat_shortcuts/attention_to_base_atk" xml:space="preserve">
-    <value> %(strArg1)s</value>
+    <value>Захватите %(strArg1)s</value>
   </data>
   <data name="chat_shortcuts/attention_to_base_def" xml:space="preserve">
-    <value> %(strArg1)s</value>
+    <value>Защищайте %(strArg1)s</value>
   </data>
   <data name="chat_shortcuts/attention_to_objective_atk" xml:space="preserve">
-    <value>  %(int32Arg1)s</value>
+    <value>Атакуйте цель %(int32Arg1)s</value>
   </data>
   <data name="chat_shortcuts/attention_to_objective_def" xml:space="preserve">
-    <value>  %(int32Arg1)s</value>
+    <value>Защищайте цель %(int32Arg1)s</value>
   </data>
   <data name="chat_shortcuts/attention_to_position" xml:space="preserve">
-    <value>  !</value>
+    <value>Внимание на позицию!</value>
   </data>
   <data name="command_shortcut/title" xml:space="preserve">
-    <value />
+    <value>Команды</value>
   </data>
   <data name="deploymentMap/lanePlayerLimitReached" xml:space="preserve">
-    <value>     </value>
+    <value>Направление заблокировано — достигнут максимум игроков</value>
   </data>
   <data name="deploymentMap/spgLimitReached" xml:space="preserve">
-    <value>       </value>
+    <value>Направление заблокировано — достигнут максимум по типам техники</value>
   </data>
   <data name="destroy_timers/airstrike_txt" xml:space="preserve">
-    <value> !</value>
+    <value>Покиньте зону!</value>
   </data>
   <data name="epicBattlesCarousel/lockedTooltip/body" xml:space="preserve">
-    <value>  VIII       .</value>
+    <value>Выберите машину VIII уровня для участия в режиме «Линия фронта».</value>
   </data>
   <data name="epicBattlesCarousel/lockedTooltip/header" xml:space="preserve">
-    <value> </value>
+    <value>Не подходит</value>
   </data>
   <data name="epicBattlesInfoView/battleModeTitle" xml:space="preserve">
-    <value> </value>
+    <value>ЛИНИЯ ФРОНТА</value>
   </data>
   <data name="epicBattlesInfoView/fameLabelHighlight" xml:space="preserve">
-    <value>  </value>
+    <value>Прогресс по уровням</value>
   </data>
   <data name="epicBattlesInfoView/maxLevel" xml:space="preserve">
-    <value>   </value>
+    <value>Вы достигли максимального уровня</value>
   </data>
   <data name="epicBattlesInfoView/maxMetaString" xml:space="preserve">
-    <value>.</value>
+    <value>макс.</value>
   </data>
   <data name="epicBattlesInfoView/metaLevel" xml:space="preserve">
-    <value />
+    <value>Уровень</value>
   </data>
   <data name="epicBattlesInfoView/panelDescription/abilities" xml:space="preserve">
-    <value>       .</value>
+    <value>Используйте очки снабжения для получения эффективных боевых резервов.</value>
   </data>
   <data name="epicBattlesInfoView/panelDescription/battlePerformance" xml:space="preserve">
-    <value>          .</value>
+    <value>Проявите себя в бою и получайте звания для повышения вашего уровня.</value>
   </data>
   <data name="epicBattlesInfoView/panelDescription/prestige" xml:space="preserve">
-    <value>     ,    .</value>
+    <value>Сбросьте ваш уровень и боевые резервы, чтобы получить особые награды.</value>
   </data>
   <data name="epicBattlesInfoView/panelDescription/rewards" xml:space="preserve">
-    <value>     30 .</value>
+    <value>Количество наград будет возрастать до 30 уровня.</value>
   </data>
   <data name="epicBattlesInfoView/panelTitle/abilities" xml:space="preserve">
-    <value> </value>
+    <value>БОЕВЫЕ РЕЗЕРВЫ</value>
   </data>
   <data name="epicBattlesInfoView/panelTitle/battlePerformance" xml:space="preserve">
-    <value>  </value>
+    <value>ПРОГРЕСС ПО УРОВНЯМ</value>
   </data>
   <data name="epicBattlesInfoView/panelTitle/prestige" xml:space="preserve">
-    <value>  </value>
+    <value>НАГРАДЫ ЗА ДОБЛЕСТЬ</value>
   </data>
   <data name="epicBattlesInfoView/panelTitle/rewards" xml:space="preserve">
-    <value>  </value>
+    <value>НАГРАДЫ ЗА УРОВНИ</value>
   </data>
   <data name="epicBattlesInfoView/ruleBattlePerformanceButton/label" xml:space="preserve">
-    <value> </value>
+    <value>Узнать больше</value>
   </data>
   <data name="epicBattlesInfoView/ruleRewardsButton/label" xml:space="preserve">
-    <value> </value>
+    <value>Обзор наград</value>
   </data>
   <data name="epicBattlesInfoView/ruleRewardsPrestigeButton/label" xml:space="preserve">
-    <value> </value>
+    <value>Получить награды</value>
   </data>
   <data name="epicBattlesPrestigeView/cancelButtonText" xml:space="preserve">
-    <value />
+    <value>Отмена</value>
   </data>
   <data name="epicBattlesPrestigeView/congratulations" xml:space="preserve">
-    <value>!</value>
+    <value>Поздравляем!</value>
   </data>
   <data name="epicBattlesPrestigeView/exchange" xml:space="preserve">
-    <value>    :</value>
+    <value>Взамен вы получите следующие награды:</value>
   </data>
   <data name="epicBattlesPrestigeView/mainTitle" xml:space="preserve">
-    <value>    </value>
+    <value>Сбросить прогресс режима «Линия фронта»</value>
   </data>
   <data name="epicBattlesPrestigeView/prestigeInfo" xml:space="preserve">
-    <value> : </value>
+    <value>Вы получите: </value>
   </data>
   <data name="epicBattlesPrestigeView/prestigeLevel" xml:space="preserve">
-    <value>%(level)s  </value>
+    <value>%(level)s уровень доблести</value>
   </data>
   <data name="epicBattlesPrestigeView/removeAbilities/desc" xml:space="preserve">
-    <value>       .</value>
+    <value>Вы потеряете все боевые резервы и очки снабжения.</value>
   </data>
   <data name="epicBattlesPrestigeView/removeAbilities/title" xml:space="preserve">
-    <value>  </value>
+    <value>Убрать боевые резервы</value>
   </data>
   <data name="epicBattlesPrestigeView/resetButtonText" xml:space="preserve">
-    <value />
+    <value>Сбросить</value>
   </data>
   <data name="epicBattlesPrestigeView/resetLevel/desc" xml:space="preserve">
-    <value>         .</value>
+    <value>Ваш уровень в режиме «Линия фронта» будет сброшен до первого.</value>
   </data>
   <data name="epicBattlesPrestigeView/resetLevel/title" xml:space="preserve">
-    <value> </value>
+    <value>Сбросить уровень</value>
   </data>
   <data name="epicBattlesPrestigeView/warning" xml:space="preserve">
-    <value>     !</value>
+    <value>Вы не сможете восстановить ваши уровни!</value>
   </data>
   <data name="epicBattlesWidgetTooltip/famePoints" xml:space="preserve">
-    <value>  </value>
+    <value>Прогресс по уровням</value>
   </data>
   <data name="epicBattlesWidgetTooltip/famePointsDescription" xml:space="preserve">
-    <value>  ,      </value>
+    <value>Повышайте ваш уровень, участвуя в боях режима «Линия фронта»</value>
   </data>
   <data name="epicBattlesWidgetTooltip/prestigeReached" xml:space="preserve">
-    <value>   .       .</value>
-  </data>
-  <data name="epictraining/info/otherLabel" xml:space="preserve">
-    <value> : %(total)s</value>
-  </data>
-  <data name="epictraining/info/team1LaneLabel" xml:space="preserve">
-    <value> [%(lane1)s|%(lane2)s|%(lane3)s]</value>
-  </data>
-  <data name="epictraining/info/team2LaneLabel" xml:space="preserve">
-    <value> [%(lane1)s|%(lane2)s|%(lane3)s]</value>
-  </data>
-  <data name="epic_battles_after_battle/Achieved_Rank" xml:space="preserve">
-    <value> </value>
-  </data>
-  <data name="epic_battles_after_battle/Level_Up_Max_Title" xml:space="preserve">
-    <value>  </value>
-  </data>
-  <data name="epic_battles_after_battle/Level_Up_Title" xml:space="preserve">
-    <value>   </value>
-  </data>
-  <data name="epic_battles_after_battle/Title" xml:space="preserve">
-    <value>!</value>
-  </data>
-  <data name="epic_battle_meta_view/abilities" xml:space="preserve">
-    <value> </value>
+    <value>Вы достигли максимального уровня. Сбросьте ваш уровень и получите дополнительные награды.</value>
   </data>
   <data name="epic_battle_meta_view/Acquire_skill" xml:space="preserve">
-    <value />
-  </data>
-  <data name="epic_battle_meta_view/commander_level" xml:space="preserve">
-    <value> </value>
+    <value>Выбрать</value>
   </data>
   <data name="epic_battle_meta_view/Max_skill" xml:space="preserve">
-    <value>.</value>
+    <value>Макс.</value>
+  </data>
+  <data name="epic_battle_meta_view/abilities" xml:space="preserve">
+    <value>Боевые резервы</value>
+  </data>
+  <data name="epic_battle_meta_view/commander_level" xml:space="preserve">
+    <value>Уровень командира</value>
+  </data>
+  <data name="epic_battles_after_battle/Achieved_Rank" xml:space="preserve">
+    <value>Полученное звание</value>
+  </data>
+  <data name="epic_battles_after_battle/Level_Up_Max_Title" xml:space="preserve">
+    <value>Достигнут максимальный уровень</value>
+  </data>
+  <data name="epic_battles_after_battle/Level_Up_Title" xml:space="preserve">
+    <value>Вы получаете новый уровень</value>
+  </data>
+  <data name="epic_battles_after_battle/Title" xml:space="preserve">
+    <value>Поздравляем!</value>
+  </data>
+  <data name="epictraining/info/otherLabel" xml:space="preserve">
+    <value>Нераспределённых бойцов: %(total)s</value>
+  </data>
+  <data name="epictraining/info/team1LaneLabel" xml:space="preserve">
+    <value>Атакующие [%(lane1)s|%(lane2)s|%(lane3)s]</value>
+  </data>
+  <data name="epictraining/info/team2LaneLabel" xml:space="preserve">
+    <value>Защищающиеся [%(lane1)s|%(lane2)s|%(lane3)s]</value>
   </data>
   <data name="fittingSelectPopover/ChangeOrder" xml:space="preserve">
-    <value> </value>
+    <value>Изменить порядок</value>
   </data>
   <data name="fittingSelectPopover/RemoveButton" xml:space="preserve">
-    <value />
+    <value>Удалить</value>
   </data>
   <data name="fittingSelectPopoverBattkeAbility/descText" xml:space="preserve">
-    <value>         .</value>
+    <value>Боевые резервы могут быть выбраны на экране распределения боевых резервов.</value>
   </data>
   <data name="fittingSelectPopoverBattkeAbility/titleText" xml:space="preserve">
-    <value>    .</value>
+    <value>Боевые резервы пока не выбраны.</value>
   </data>
   <data name="game/all_enemies_defeated" xml:space="preserve">
-    <value>   </value>
+    <value>Вся техника противника уничтожена</value>
   </data>
   <data name="game/all_hqs_destroyed" xml:space="preserve">
-    <value>  </value>
+    <value>Все цели уничтожены</value>
   </data>
   <data name="game/all_tanks_defeated" xml:space="preserve">
-    <value>   </value>
+    <value>Вся техника союзников уничтожена</value>
   </data>
   <data name="game/defeat" xml:space="preserve">
-    <value>!</value>
+    <value>Поражение!</value>
   </data>
   <data name="game/draw" xml:space="preserve">
-    <value>!</value>
+    <value>Ничья!</value>
   </data>
   <data name="game/time_over" xml:space="preserve">
-    <value>   </value>
+    <value>Цели не были уничтожены</value>
   </data>
   <data name="game/victory" xml:space="preserve">
-    <value>!</value>
+    <value>Победа!</value>
   </data>
   <data name="global_msg/atk/focus_hq_short" xml:space="preserve">
-    <value> !</value>
+    <value>Уничтожьте цели!</value>
   </data>
   <data name="global_msg/atk/time_short" xml:space="preserve">
-    <value> !</value>
+    <value>Захватите зону!</value>
   </data>
   <data name="global_msg/def/focus_hq_short" xml:space="preserve">
-    <value> !</value>
+    <value>Защищайте цели!</value>
   </data>
   <data name="global_msg/def/time_short" xml:space="preserve">
-    <value> !</value>
+    <value>Защищайте зоны!</value>
   </data>
   <data name="global_msg/lane/center_short" xml:space="preserve">
-    <value>   %(strArg1)s!</value>
+    <value>Нужно подкрепление в %(strArg1)s!</value>
   </data>
   <data name="global_msg/lane/east_short" xml:space="preserve">
-    <value>   %(strArg1)s!</value>
+    <value>Нужно подкрепление в %(strArg1)s!</value>
   </data>
   <data name="global_msg/lane/west_short" xml:space="preserve">
-    <value>   %(strArg1)s!</value>
+    <value>Нужно подкрепление в %(strArg1)s!</value>
   </data>
   <data name="global_msg/save_tanks_short" xml:space="preserve">
-    <value>  !</value>
+    <value>Не теряйте технику!</value>
   </data>
   <data name="help_window/communication" xml:space="preserve">
-    <value> </value>
+    <value>Зона покрытия</value>
   </data>
   <data name="help_window/communication/description" xml:space="preserve">
-    <value>      ,        ,          .</value>
+    <value>Вы можете получать команды только от союзников, которые находятся в пределах видимой части вашей миникарты, или когда цель команды находится в непосредственной близости от вас.</value>
   </data>
   <data name="help_window/overview_map" xml:space="preserve">
-    <value> </value>
+    <value>Стратегическая карта</value>
   </data>
   <data name="help_window/overview_map/description" xml:space="preserve">
-    <value>       .   ,            .</value>
+    <value>Используется для обзора текущей картины на поле боя. Когда карта открыта, можно общаться со всеми членами вашей команды и получать сообщения от них.</value>
   </data>
   <data name="help_window/recovery" xml:space="preserve">
-    <value />
+    <value>Восстановление</value>
   </data>
   <data name="help_window/recovery/description" xml:space="preserve">
-    <value>  ,       .       ,         .</value>
+    <value>Используйте возможность восстановления, если ваша машина застряла на поле боя. Учитывая продолжительное время боя и механику возрождения, данная опция позволит игрокам постоянно находиться в центре событий.</value>
   </data>
   <data name="help_window/reserves" xml:space="preserve">
-    <value> </value>
+    <value>Резерв техники</value>
   </data>
   <data name="help_window/reserves/description" xml:space="preserve">
-    <value>         .         .       ,      ,   ,     ,        .</value>
+    <value>Каждые несколько минут одна машина добавляется в ваш резерв техники. В резерве могут находиться не более двух машин одновременно. Если ваша техника была уничтожена в бою, а в резерве не осталось машин, вам придётся подождать, пока резерв техники не пополнится, после чего вы снова сможете выйти в бой.</value>
   </data>
   <data name="hq/under_attack_atk" xml:space="preserve">
-    <value />
+    <value>Выполнено</value>
   </data>
   <data name="hq/under_attack_def" xml:space="preserve">
-    <value />
-  </data>
-  <data name="inspire/inspired" xml:space="preserve">
-    <value />
-  </data>
-  <data name="inspire/inspiring" xml:space="preserve">
-    <value />
+    <value>Атакуется</value>
   </data>
   <data name="in_game_rank/experience_text" xml:space="preserve">
-    <value />
+    <value>Опыт</value>
+  </data>
+  <data name="inspire/inspired" xml:space="preserve">
+    <value>Воодушевлены</value>
+  </data>
+  <data name="inspire/inspiring" xml:space="preserve">
+    <value>Воодушевляются</value>
   </data>
   <data name="lane_central_name" xml:space="preserve">
-    <value />
+    <value>Центр</value>
   </data>
   <data name="lane_east_name" xml:space="preserve">
-    <value />
+    <value>Восток</value>
   </data>
   <data name="lane_west_name" xml:space="preserve">
-    <value />
+    <value>Запад</value>
   </data>
   <data name="metaAbilityScreen/Ability_level" xml:space="preserve">
-    <value> %(lvl)s</value>
+    <value>Уровень %(lvl)s</value>
   </data>
   <data name="metaAbilityScreen/Ability_locked" xml:space="preserve">
-    <value>  :     .</value>
+    <value>Выбор не доступен: у вас нет очков снабжения.</value>
   </data>
   <data name="metaAbilityScreen/Ability_max_level" xml:space="preserve">
-    <value>       .</value>
+    <value>Вы достигли максимального уровня для этого боевого резерва.</value>
   </data>
   <data name="metaAbilityScreen/Ability_not_points" xml:space="preserve">
-    <value>  :     .</value>
+    <value>Прокачка не доступна: у вас нет очков снабжения.</value>
   </data>
   <data name="metaAbilityScreen/Ability_not_unlocked" xml:space="preserve">
-    <value> </value>
+    <value>Не выбраны</value>
   </data>
   <data name="metaAbilityScreen/Acquire_skill" xml:space="preserve">
-    <value />
-  </data>
-  <data name="metaAbilityScreen/get_skill_points" xml:space="preserve">
-    <value>  ,       .</value>
+    <value>Выбрать</value>
   </data>
   <data name="metaAbilityScreen/Manage_abilities" xml:space="preserve">
-    <value>  </value>
+    <value>К экрану резервов</value>
   </data>
   <data name="metaAbilityScreen/Manage_reserves_header" xml:space="preserve">
-    <value> </value>
+    <value>РАСПРЕДЕЛИТЬ РЕЗЕРВЫ</value>
   </data>
   <data name="metaAbilityScreen/Unspent_points" xml:space="preserve">
-    <value>  :</value>
+    <value>Нераспределённых очков снабжения:</value>
   </data>
   <data name="metaAbilityScreen/Upgrade_skill" xml:space="preserve">
-    <value />
+    <value>Прокачать</value>
+  </data>
+  <data name="metaAbilityScreen/get_skill_points" xml:space="preserve">
+    <value>Получить очки снабжения, повысив ваш уровень в режиме «Линия фронта».</value>
   </data>
   <data name="mission/primary/title" xml:space="preserve">
-    <value> </value>
+    <value>Основная цель</value>
   </data>
   <data name="mission/title" xml:space="preserve">
-    <value />
+    <value>Задача</value>
   </data>
   <data name="mission/zone_closing_atk" xml:space="preserve">
-    <value>  : </value>
+    <value>Зона открывается через: </value>
   </data>
   <data name="mission/zone_closing_def" xml:space="preserve">
-    <value>   : </value>
+    <value>Авиаудар по противнику через: </value>
   </data>
   <data name="missions/primary/atk/base" xml:space="preserve">
-    <value> </value>
+    <value>Захватите зону</value>
   </data>
   <data name="missions/primary/atk/hq" xml:space="preserve">
-    <value> </value>
+    <value>Уничтожьте цель</value>
   </data>
   <data name="missions/primary/atk/hq_additional_info" xml:space="preserve">
-    <value>%(positiveOpen)s%(destroyed)s%(positiveClose)s  %(toDestroy)s</value>
+    <value>%(positiveOpen)s%(destroyed)s%(positiveClose)s из %(toDestroy)s</value>
   </data>
   <data name="missions/primary/atk/hq_sub_title" xml:space="preserve">
-    <value> :</value>
+    <value>Уничтожено целей:</value>
   </data>
   <data name="missions/primary/atk/longdescription" xml:space="preserve">
-    <value> ,      .</value>
+    <value>Захватывайте зоны, прорвитесь к ДОТам и уничтожьте их.</value>
   </data>
   <data name="missions/primary/def/base" xml:space="preserve">
-    <value> </value>
+    <value>Защищайте зону</value>
   </data>
   <data name="missions/primary/def/hq" xml:space="preserve">
-    <value> </value>
+    <value>Защищайте цель</value>
   </data>
   <data name="missions/primary/def/hq_additional_info" xml:space="preserve">
-    <value>%(negativeOpen)s%(destroyed)s%(negativeClose)s  %(toDestroy)s</value>
+    <value>%(negativeOpen)s%(destroyed)s%(negativeClose)s из %(toDestroy)s</value>
   </data>
   <data name="missions/primary/def/hq_sub_title" xml:space="preserve">
-    <value> :</value>
+    <value>Потеряно целей:</value>
   </data>
   <data name="missions/primary/def/longdescription" xml:space="preserve">
-    <value>      ,     ,     .</value>
+    <value>Защищайте зоны на пути к основным целям, пока время боя не истечёт, или уничтожьте всю технику атакующих.</value>
   </data>
   <data name="overtime/label" xml:space="preserve">
-    <value />
+    <value>ОВЕРТАЙМ</value>
   </data>
   <data name="primeTime/applyBtn" xml:space="preserve">
-    <value />
+    <value>Перейти</value>
   </data>
   <data name="primeTime/continueBtn" xml:space="preserve">
-    <value />
-  </data>
-  <data name="primeTime/servers" xml:space="preserve">
-    <value>   : %(server)s</value>
+    <value>Продолжить</value>
   </data>
   <data name="primeTime/serverTooltip" xml:space="preserve">
-    <value />
+    <value>Сервер</value>
+  </data>
+  <data name="primeTime/servers" xml:space="preserve">
+    <value>Доступные для игры серверы: %(server)s</value>
   </data>
   <data name="primeTime/status/disable" xml:space="preserve">
-    <value>           .</value>
+    <value>Вы можете перейти на сервер режима «Линия фронта» и продолжить предбоевую подготовку.</value>
   </data>
   <data name="primeTime/status/disableFirst" xml:space="preserve">
-    <value>       .</value>
+    <value>Режим «Линия фронта» временно недоступен на всех серверах.</value>
   </data>
   <data name="primeTime/status/thisEnable" xml:space="preserve">
-    <value>  %(server)s      %(time)s.</value>
+    <value>На сервере %(server)s режим «Линия фронта» доступен ещё %(time)s.</value>
   </data>
   <data name="primeTime/title" xml:space="preserve">
-    <value>  
- </value>
+    <value>РЕЖИМ «ЛИНИЯ ФРОНТА»
+ВРЕМЕННО НЕДОСТУПЕН</value>
   </data>
   <data name="primeTime/titleWelcome" xml:space="preserve">
-    <value> 
-   </value>
+    <value>ДОБРО ПОЖАЛОВАТЬ
+В РЕЖИМ «ЛИНИЯ ФРОНТА»</value>
   </data>
   <data name="primeTimeAlertMessageBlock/message" xml:space="preserve">
-    <value>  .    %(time)s.</value>
+    <value>Режим прекращения огня. Окончание через: %(time)s</value>
   </data>
   <data name="progress_timers/active" xml:space="preserve">
-    <value />
+    <value>Активна</value>
   </data>
   <data name="progress_timers/base_capture" xml:space="preserve">
-    <value> </value>
+    <value>Захват базы</value>
   </data>
   <data name="progress_timers/blocked" xml:space="preserve">
-    <value> </value>
+    <value>База оспаривается</value>
   </data>
   <data name="progress_timers/captured" xml:space="preserve">
-    <value> </value>
+    <value>База захвачена</value>
   </data>
   <data name="progress_timers/fully_equipped" xml:space="preserve">
-    <value> </value>
+    <value>Машина снаряжена</value>
   </data>
   <data name="progress_timers/resupply" xml:space="preserve">
-    <value> </value>
+    <value>Точка снабжения</value>
   </data>
   <data name="progress_timers/unavailable" xml:space="preserve">
-    <value />
+    <value>Недоступна</value>
   </data>
   <data name="rank/no_name" xml:space="preserve">
-    <value />
+    <value>Игрок</value>
   </data>
   <data name="rank/promotion" xml:space="preserve">
-    <value>  %(rank)s</value>
+    <value>получает звание %(rank)s</value>
   </data>
   <data name="rank/rank0" xml:space="preserve">
-    <value />
+    <value>Рядовой</value>
   </data>
   <data name="rank/rank1" xml:space="preserve">
-    <value />
+    <value>Сержант</value>
   </data>
   <data name="rank/rank2" xml:space="preserve">
-    <value />
+    <value>Лейтенант</value>
   </data>
   <data name="rank/rank3" xml:space="preserve">
-    <value />
+    <value>Капитан</value>
   </data>
   <data name="rank/rank4" xml:space="preserve">
-    <value />
+    <value>Майор</value>
   </data>
   <data name="rank/rank5" xml:space="preserve">
-    <value />
+    <value>Генерал</value>
   </data>
   <data name="recovery/Blocked" xml:space="preserve">
-    <value>
-</value>
+    <value>Временно
+заблокировано</value>
   </data>
   <data name="recovery/disabled" xml:space="preserve">
-    <value> </value>
+    <value>Восстановление недоступно</value>
   </data>
   <data name="recovery_panel/base_text" xml:space="preserve">
-    <value> 
- J</value>
+    <value>Для восстановления
+нажмите J</value>
   </data>
   <data name="recovery_panel/recovery_cancel" xml:space="preserve">
-    <value>    .</value>
+    <value>Переместитесь или выстрелите для отмены.</value>
   </data>
   <data name="recovery_panel/recovery_cancelled" xml:space="preserve">
-    <value>
-</value>
+    <value>Восстановление
+отменено</value>
   </data>
   <data name="recovery_panel/recovery_requested" xml:space="preserve">
-    <value> 
-</value>
+    <value>Вы запросили
+восстановление</value>
   </data>
   <data name="reinforcement/capture_next_base_text" xml:space="preserve">
-    <value>  </value>
+    <value>Захватите следующую зону</value>
   </data>
   <data name="reinforcement/reinforcement_in_text" xml:space="preserve">
-    <value>  </value>
+    <value>Подкрепление через </value>
   </data>
   <data name="reinforcement/unavailable" xml:space="preserve">
-    <value> </value>
+    <value>Подкрепление недоступно</value>
   </data>
   <data name="reinforcementsPanel/inText" xml:space="preserve">
-    <value />
+    <value>через</value>
   </data>
   <data name="respawn/auto_timer_txt" xml:space="preserve">
-    <value>%(seconds)s     .</value>
+    <value>%(seconds)s с до выхода в бой.</value>
   </data>
   <data name="respawn/deploy_button" xml:space="preserve">
-    <value> !</value>
+    <value>В бой!</value>
   </data>
   <data name="respawn/gold_ammo_not_available" xml:space="preserve">
-    <value>      .</value>
+    <value>Премиум снаряжение нельзя приобрести во время боя.</value>
   </data>
   <data name="respawn/shop_title" xml:space="preserve">
-    <value />
+    <value>Обслуживание</value>
   </data>
   <data name="respawn/tanks_left" xml:space="preserve">
-    <value> </value>
+    <value>машин осталось</value>
   </data>
   <data name="respawnScreen/headerTitle" xml:space="preserve">
-    <value>   </value>
+    <value>Выберите направление и технику</value>
   </data>
   <data name="respawnScreen/secondsTimerText" xml:space="preserve">
-    <value>%(seconds)s </value>
+    <value>%(seconds)s секунд</value>
   </data>
   <data name="retreat_message_txt" xml:space="preserve">
-    <value />
+    <value>Отступайте</value>
   </data>
   <data name="retreat_mission_txt" xml:space="preserve">
-    <value>   </value>
+    <value>Отступайте к следующей зоне</value>
   </data>
   <data name="scorePanel/stage1" xml:space="preserve">
-    <value> 1</value>
+    <value>Фаза 1</value>
   </data>
   <data name="scorePanel/stage2" xml:space="preserve">
-    <value> 2</value>
+    <value>Фаза 2</value>
   </data>
   <data name="scorePanel/stage3" xml:space="preserve">
-    <value> 3</value>
+    <value>Фаза 3</value>
   </data>
   <data name="selectorTooltip/epicBattle/disabled/desc" xml:space="preserve">
-    <value>      .       ,     .         VIII .</value>
+    <value>Бои в режиме «Линия фронта» пока недоступны. Вы можете подобрать соответствующее оборудование и снаряжение, а также распределить боевые резервы. Бои в режиме «Линия фронта» доступны на технике VIII уровня.</value>
   </data>
   <data name="selectorTooltip/epicBattle/disabled/startIn" xml:space="preserve">
-    <value>  :</value>
+    <value>До начала события:</value>
   </data>
   <data name="selectorTooltip/epicBattle/disabled/tillEnd" xml:space="preserve">
-    <value>  :</value>
+    <value>До окончания события:</value>
   </data>
   <data name="selectorTooltip/epicBattle/disabled/timeTable/empty" xml:space="preserve">
-    <value />
+    <value>—</value>
   </data>
   <data name="selectorTooltip/epicBattle/disabled/timeTable/title" xml:space="preserve">
-    <value> </value>
+    <value>Расписание события</value>
   </data>
   <data name="selectorTooltip/epicBattle/disabled/timeTable/today" xml:space="preserve">
-    <value />
+    <value>Сегодня</value>
   </data>
   <data name="selectorTooltip/epicBattle/disabled/timeTable/tomorrow" xml:space="preserve">
-    <value />
+    <value>Завтра</value>
   </data>
   <data name="selectorTooltip/epicBattle/disabled/title" xml:space="preserve">
-    <value>  </value>
+    <value>Режим временно недоступен</value>
   </data>
   <data name="selectorTooltip/epicBattle/enabled/attention/assuredLowPerformance" xml:space="preserve">
-    <value>      .        ,      .</value>
+    <value>Производительности вашего компьютера недостаточно для данного режима. Будут наблюдаться проблемы с графикой и перемещением техники, возможно также аварийное закрытие клиента игры.</value>
   </data>
   <data name="selectorTooltip/epicBattle/enabled/attention/informativeLowPerformance" xml:space="preserve">
-    <value>   .    ,    .</value>
+    <value>Режим требователен к компьютеру. В случае недостаточной производительности, попробуйте понизить настройки графики.</value>
   </data>
   <data name="selectorTooltip/epicBattle/enabled/attention/possibleLowPerformance" xml:space="preserve">
-    <value>   .    ,         .    ,    .</value>
+    <value>Режим требователен к компьютеру. Карта может долго загружаться, возможны проблемы с графикой и перемещением техники в бою. В случае недостаточной производительности, попробуйте понизить настройки графики.</value>
   </data>
   <data name="selectorTooltip/epicBattle/enabled/body" xml:space="preserve">
-    <value>      .
-  : /.
-  : 30 .
- : VIII  .</value>
+    <value>Бой с автоматическим подбором союзников и противника.
+• Тип боя: Атака/Оборона.
+• Состав команды: 30 игроков.
+• Ограничения: VIII уровень техники.</value>
   </data>
   <data name="selectorTooltip/epicBattle/enabled/header" xml:space="preserve">
     <value>«Линия фронта»</value>
   </data>
   <data name="smoke/In_smoke" xml:space="preserve">
-    <value> </value>
+    <value>В дымах</value>
   </data>
   <data name="spectator_mode/camera_controls_title" xml:space="preserve">
-    <value>   </value>
+    <value>Камера в режиме наблюдателя</value>
   </data>
   <data name="spectator_mode/camera_mouse_rotate" xml:space="preserve">
-    <value>   ,  .</value>
+    <value>Чтобы изменить направление камеры, используйте мышь.</value>
   </data>
   <data name="spectator_mode/camera_wasd" xml:space="preserve">
-    <value>  ,  W, A, S, D.</value>
+    <value>Чтобы переместить камеру, используйте W, A, S, D.</value>
   </data>
   <data name="spectator_mode/follow_text" xml:space="preserve">
-    <value> ,    .</value>
+    <value>Нажмите ЛКМ, чтобы следовать за машиной.</value>
   </data>
   <data name="spectator_mode/follow_title" xml:space="preserve">
-    <value />
+    <value>Следовать</value>
   </data>
   <data name="spectator_mode/msg_text" xml:space="preserve">
-    <value>   :</value>
+    <value>Следующая машина доступна через:</value>
   </data>
   <data name="spectator_mode/msg_title" xml:space="preserve">
-    <value>   !</value>
+    <value>Вся ваша техника уничтожена!</value>
   </data>
   <data name="spectator_mode/unfollow_text" xml:space="preserve">
-    <value> ,      .</value>
+    <value>Нажмите ЛКМ, чтобы вернуться в свободный режим камеры.</value>
   </data>
   <data name="spectator_mode/unfollow_title" xml:space="preserve">
-    <value> </value>
+    <value>Отставить цель</value>
   </data>
   <data name="status/timeLeft/days" xml:space="preserve">
-    <value>%(day)s .</value>
+    <value>%(day)s д.</value>
   </data>
   <data name="status/timeLeft/hours" xml:space="preserve">
-    <value>%(hour)s .</value>
+    <value>%(hour)s ч.</value>
   </data>
   <data name="status/timeLeft/lessMin" xml:space="preserve">
-    <value> </value>
+    <value>менее минуты</value>
   </data>
   <data name="status/timeLeft/min" xml:space="preserve">
-    <value>%(min)s .</value>
+    <value>%(min)s мин.</value>
   </data>
   <data name="super_platoon_panel/title" xml:space="preserve">
-    <value />
+    <value>Взвод</value>
   </data>
   <data name="tab_screen/show_all_lanes" xml:space="preserve">
-    <value> </value>
+    <value>Все направления</value>
   </data>
   <data name="tab_screen/show_my_lane" xml:space="preserve">
-    <value> </value>
+    <value>Моё направление</value>
   </data>
   <data name="team1Name" xml:space="preserve">
-    <value />
+    <value>Атакующий</value>
   </data>
   <data name="team2Name" xml:space="preserve">
-    <value />
+    <value>Защищающийся</value>
   </data>
   <data name="tooltip/epicBattle/availableIn" xml:space="preserve">
-    <value>  %(time)s.</value>
+    <value>Доступно через %(time)s.</value>
   </data>
   <data name="tutorial/hint/epicReservesBtnHint" xml:space="preserve">
-    <value> </value>
+    <value>ВЫБЕРИТЕ РЕЗЕРВЫ</value>
   </data>
   <data name="tutorial/hint/epicReservesSlotHint" xml:space="preserve">
-    <value> </value>
+    <value>БОЕВЫЕ РЕЗЕРВЫ</value>
   </data>
   <data name="zone/arrived_text" xml:space="preserve">
-    <value>!</value>
-  </data>
-  <data name="zone/captured_text" xml:space="preserve">
-    <value />
+    <value>прибыло!</value>
   </data>
   <data name="zone/capture_text" xml:space="preserve">
-    <value />
+    <value>Захватить</value>
+  </data>
+  <data name="zone/captured_text" xml:space="preserve">
+    <value>Захвачено</value>
   </data>
   <data name="zone/defend_text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="zone/destroyed_text" xml:space="preserve">
-    <value />
+    <value>Оборонять</value>
   </data>
   <data name="zone/destroy_text" xml:space="preserve">
-    <value />
+    <value>Уничтожить</value>
+  </data>
+  <data name="zone/destroyed_text" xml:space="preserve">
+    <value>Уничтожено</value>
   </data>
   <data name="zone/enemy_reinforced_text" xml:space="preserve">
-    <value> </value>
+    <value>Подкрепление противнику</value>
   </data>
   <data name="zone/headquarters_text" xml:space="preserve">
-    <value />
+    <value>Цели</value>
   </data>
   <data name="zone/leave_zone" xml:space="preserve">
-    <value> !</value>
+    <value>Покиньте зону!</value>
   </data>
   <data name="zone/lost_text" xml:space="preserve">
-    <value />
+    <value>Потеряно</value>
   </data>
   <data name="zone/reached_text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="zone/reinforcements_text" xml:space="preserve">
-    <value />
+    <value>Выполнено</value>
   </data>
   <data name="zone/reinforcement_timer_atk" xml:space="preserve">
-    <value> :</value>
+    <value>Подкрепление противнику:</value>
   </data>
   <data name="zone/reinforcement_timer_def" xml:space="preserve">
-    <value>:</value>
+    <value>Подкрепление:</value>
+  </data>
+  <data name="zone/reinforcements_text" xml:space="preserve">
+    <value>Подкрепление</value>
   </data>
   <data name="zone/time_added" xml:space="preserve">
-    <value> %(minutes)s</value>
+    <value>Добавлено %(minutes)s</value>
   </data>
   <data name="zone/time_left" xml:space="preserve">
-    <value> : %(minutes)s</value>
+    <value>Осталось минут: %(minutes)s</value>
   </data>
   <data name="zone/zone_text" xml:space="preserve">
-    <value />
+    <value>Зона</value>
   </data>
 </root>

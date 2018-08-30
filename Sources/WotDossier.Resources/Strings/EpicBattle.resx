@@ -268,10 +268,10 @@
     <value>Commands</value>
   </data>
   <data name="deploymentMap/lanePlayerLimitReached" xml:space="preserve">
-    <value>Front blockedplayer limit reached</value>
+    <value>Front blocked—player limit reached</value>
   </data>
   <data name="deploymentMap/spgLimitReached" xml:space="preserve">
-    <value>Front blockedvehicle type limit reached</value>
+    <value>Front blocked—vehicle type limit reached</value>
   </data>
   <data name="destroy_timers/airstrike_txt" xml:space="preserve">
     <value>Leave zone!</value>
@@ -748,7 +748,7 @@ requested</value>
     <value>Event ends in:</value>
   </data>
   <data name="selectorTooltip/epicBattle/disabled/timeTable/empty" xml:space="preserve">
-    <value />
+    <value>—</value>
   </data>
   <data name="selectorTooltip/epicBattle/disabled/timeTable/title" xml:space="preserve">
     <value>Event Schedule</value>
@@ -773,9 +773,9 @@ requested</value>
   </data>
   <data name="selectorTooltip/epicBattle/enabled/body" xml:space="preserve">
     <value>Battle with automatic matching of allies against random enemies.
- Battle Type: Attack/Defense
- Player limit: 30
- Tier allowed: VIII</value>
+• Battle Type: Attack/Defense
+• Player limit: 30
+• Tier allowed: VIII</value>
   </data>
   <data name="selectorTooltip/epicBattle/enabled/header" xml:space="preserve">
     <value>Frontline</value>

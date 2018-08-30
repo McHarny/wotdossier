@@ -627,8 +627,8 @@ with honors</value>
   <data name="PersonalMissionFirstEntryView/item0/blocks/0/descr" xml:space="preserve">
     <value>Missions, the conditions of which should be fulfilled during one battle.
 
- Fulfil the primary condition to complete the mission.
- You receive additional rewards for fulfilling both the primary and secondary mission conditions.</value>
+• Fulfil the primary condition to complete the mission.
+• You receive additional rewards for fulfilling both the primary and secondary mission conditions.</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item0/blocks/0/title" xml:space="preserve">
     <value>In One Battle</value>
@@ -636,8 +636,8 @@ with honors</value>
   <data name="PersonalMissionFirstEntryView/item0/blocks/1/descr" xml:space="preserve">
     <value>Mission progress in all battles is added together.
 
- The progress towards the completion of the primary condition will be multiplied by a particular coefficient after completion of the secondary conditions in a battle.
- Complete secondary conditions the indicated number of times to receive the reward.</value>
+• The progress towards the completion of the primary condition will be multiplied by a particular coefficient after completion of the secondary conditions in a battle.
+• Complete secondary conditions the indicated number of times to receive the reward.</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item0/blocks/1/title" xml:space="preserve">
     <value>Accumulative</value>
@@ -645,7 +645,7 @@ with honors</value>
   <data name="PersonalMissionFirstEntryView/item0/blocks/2/descr" xml:space="preserve">
     <value>The missions can be completed over a particular number of battles. If the condition is not fulfilled, the progress will be reset, and you will have to start over again.
 
- The secondary condition that provides rewards is similar to the primary one, but requires a much higher completion result.</value>
+• The secondary condition that provides rewards is similar to the primary one, but requires a much higher completion result.</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item0/blocks/2/title" xml:space="preserve">
     <value>In a Number of Battles</value>
@@ -667,8 +667,8 @@ Remember that the progress towards particular conditions is calculated after the
   <data name="PersonalMissionFirstEntryView/item1/blocks/1/descr" xml:space="preserve">
     <value>Particular missions have additional restrictions that should be considered in a battle:
 
- Certain time for fulfilment of conditions (or their parts).
- Limitation on the minimal value: for example, causing less than the required damage will result in zero progress towards the main condition, regardless of the actual amount of damage caused.</value>
+• Certain time for fulfilment of conditions (or their parts).
+• Limitation on the minimal value: for example, causing less than the required damage will result in zero progress towards the main condition, regardless of the actual amount of damage caused.</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item1/blocks/1/title" xml:space="preserve">
     <value>Restrictions</value>
@@ -693,10 +693,10 @@ Therefore, you can always check the mission description when in a battle if you 
   <data name="PersonalMissionFirstEntryView/item2/blocks/1/descr" xml:space="preserve">
     <value>Some missions require vehicles of specific nations, with no restrictions on types. All missions are distributed into 4 formations:
 
- Union: U.S.S.R., China.
- Bloc: Germany, Japan.
- Alliance: U.S.A., U.K., Poland.
- Coalition: France, Sweden, Czechoslovakia, Italy.</value>
+• Union: U.S.S.R., China.
+• Bloc: Germany, Japan.
+• Alliance: U.S.A., U.K., Poland.
+• Coalition: France, Sweden, Czechoslovakia, Italy.</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item2/blocks/1/title" xml:space="preserve">
     <value>Formations</value>
@@ -704,13 +704,13 @@ Therefore, you can always check the mission description when in a battle if you 
   <data name="PersonalMissionFirstEntryView/item2/blocks/2/descr" xml:space="preserve">
     <value>Each operation has its own requirements for the minimum vehicle tier used to complete missions:
 
- StuG IV: Tier IV-X vehicles.
- T28 HTC: Tier VX vehicles.
- Excalibur: Tier VI-X vehicles.
- T 55A: Tier VI-X vehicles.
- Object 260: Tier VI-X vehicles.
- Chimera: Tier VII-X vehicles.
- Object 279 (e): Tier VIII-X vehicles.</value>
+• StuG IV: Tier IV-X vehicles.
+• T28 HTC: Tier V–X vehicles.
+• Excalibur: Tier VI-X vehicles.
+• T 55A: Tier VI-X vehicles.
+• Object 260: Tier VI-X vehicles.
+• Chimera: Tier VII-X vehicles.
+• Object 279 (e): Tier VIII-X vehicles.</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item2/blocks/2/title" xml:space="preserve">
     <value>Vehicle Tier</value>
@@ -730,8 +730,8 @@ Therefore, you can always check the mission description when in a battle if you 
   <data name="PersonalMissionFirstEntryView/item3/blocks/0/descr" xml:space="preserve">
     <value>The main rewards are the unique vehicles that are awarded only for the completion of missions. Each campaign has its own rewards:
 
- Long-Awaited Backup: Stug IV, T28 HTC, T 55A, Object 260.
- Second Front: Excalibur, Chimera, Object 279 (e).</value>
+• Long-Awaited Backup: Stug IV, T28 HTC, T 55A, Object 260.
+• Second Front: Excalibur, Chimera, Object 279 (e).</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item3/blocks/0/title" xml:space="preserve">
     <value>Unique Vehicles</value>
@@ -739,8 +739,8 @@ Therefore, you can always check the mission description when in a battle if you 
   <data name="PersonalMissionFirstEntryView/item3/blocks/1/descr" xml:space="preserve">
     <value>Each award vehicle has specific parts. Collect all the parts to receive the vehicle:
 
- Componentsawarded for the completion of missions in the Long-Awaited Backup campaign.
- Blueprintsawarded for the completion of missions in the Second Front campaign.</value>
+• Components—awarded for the completion of missions in the Long-Awaited Backup campaign.
+• Blueprints—awarded for the completion of missions in the Second Front campaign.</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item3/blocks/1/title" xml:space="preserve">
     <value>Components and Blueprints</value>

@@ -18,6 +18,7 @@ using Castle.Components.DictionaryAdapter;
 using Ionic.Zip;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using NGettext;
 using NHibernate.Linq.Functions;
 using NHibernate.Util;
 using NUnit.Framework;
@@ -1077,97 +1078,94 @@ namespace WotDossier.Test
             {
                 //CopyScriptsForDecompileCopied(client);
 
-                EnshureScriptsCopied(client);
+                //EnshureScriptsCopied(client);
                 EnshureGameTextResources(client);
-                EnsureImportImages(client);
+                //EnsureImportImages(client);
 
                 Console.WriteLine("Generate string resources");
                 GenerateStringResources(client);
 
-                Console.WriteLine("Copy achievements definitions");
-                ImportAchievementsXml(client);
+                //Console.WriteLine("Copy achievements definitions");
+                //ImportAchievementsXml(client);
 
-                Console.WriteLine("Copy maps");
-                ImportMapsXml(client);
+                //Console.WriteLine("Copy maps");
+                //ImportMapsXml(client);
 
-                Console.WriteLine("Copy tanks components");
-                ImportShellsXml(client);
-                ImportArtefactXml(client);
+                //Console.WriteLine("Copy tanks components");
+                //ImportShellsXml(client);
+                //ImportArtefactXml(client);
 
-                Console.WriteLine("Copy tanks definitions");
-                ImportTanksXml(client);
-                ImportActionTanksXml();
+                //Console.WriteLine("Copy tanks definitions");
+                //ImportTanksXml(client);
+                //ImportActionTanksXml();
 
                 prevVer = client.PatchVer;
             }
 
 
-            CopyVehicleImages();
-            CheckTankImages();
-            CheckMinimapImageAttribute();
+            //CopyVehicleImages();
+            //CheckTankImages();
+            //CheckMinimapImageAttribute();
 
-            //CopyMinimapImages();
+            //--CopyMinimapImages();
 
-            ProcessExpectedValues();
+            //ProcessExpectedValues();
 
 
         }
 
 	    public void GenerateStringResources(ClientInfo client)
 	    {
-		    var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Strings");
+            var sourceRoot = Path.Combine(ResourcePath, $@"{client.PatchVer}\text");
+	        
+
+            var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Strings");
 		    if (!Directory.Exists(destination))
 			    Directory.CreateDirectory(destination);
 
-		    foreach (var src in Directory.GetFiles(
-			    Path.Combine(ResourcePath, $@"{client.PatchVer}\Resources\Text"), "*.resx"))
-		    {
-			    string locale = "";
-			    string fileName = Path.GetFileNameWithoutExtension(src);
+	        foreach (var lc in new List<string>{"ru", "en"})
+	        {
+	            var sourcePath = Path.Combine(sourceRoot, lc, "lc_messages");
 
-			    if (fileName.Contains(".ru"))
-			    {
-				    locale = ".ru";
-				    fileName = fileName.Replace(".ru", "");
-			    }
-			    var dict = new Dictionary<string, string>();
+                foreach (var src in Directory.GetFiles(sourcePath, "*.mo"))
+	            {
+	                var fileName = Path.GetFileNameWithoutExtension(src);
+                    var catalog = new Catalog(fileName, sourceRoot, new CultureInfo(lc));
 
-				var resultName = ResourceHelper.CorrectResourceName($"{fileName}{locale}.resx");
-				
-			    if (resultName.Contains(".en."))
-			    {
-				    resultName = resultName.Replace(".en.", ".");
-			    }
+	                var dict = new Dictionary<string, string>();
 
-				if (File.Exists(Path.Combine(destination, resultName)))
-			    {
-				    using (var rr = new ResXResourceReader(Path.Combine(destination, resultName)))
-				    {
-					    foreach (DictionaryEntry d in rr)
-					    {
-						    dict.Add(d.Key.ToString(), d.Value.ToString());
-					    }
-				    }
-			    }
-			    using (var rr = new ResXResourceReader(src))
-			    {
-				    foreach (DictionaryEntry d in rr)
-				    {
-					    if (dict.ContainsKey(d.Key.ToString()))
-						    dict[d.Key.ToString()] = d.Value.ToString();
-						else
-							dict.Add(d.Key.ToString(), d.Value.ToString());
-				    }
-			    }
-				using (ResXResourceWriter strs = new ResXResourceWriter(Path.Combine(destination, resultName)))
-			    {
-				    foreach (var pair in dict)
-				    {
-					    strs.AddResource(pair.Key, pair.Value);
-					}
-					strs.Generate();   
-				}
-		    }
+	                var resultName = ResourceHelper.CorrectResourceName($"{fileName}{((lc == "ru")?".ru":"")}.resx");
+
+	                if (File.Exists(Path.Combine(destination, resultName)))
+	                {
+	                    using (var rr = new ResXResourceReader(Path.Combine(destination, resultName)))
+	                    {
+	                        foreach (DictionaryEntry d in rr)
+	                        {
+	                            dict.Add(d.Key.ToString(), d.Value.ToString());
+	                        }
+	                    }
+	                }
+
+	                foreach (var pair in catalog.Translations.Where(p=>!String.IsNullOrWhiteSpace(p.Key)))
+	                {
+	                    if (dict.ContainsKey(pair.Key))
+	                        dict[pair.Key] = pair.Value[0];
+                        else
+                            dict.Add(pair.Key, pair.Value[0]);
+	                }
+
+	                using (ResXResourceWriter strs = new ResXResourceWriter(Path.Combine(destination, resultName)))
+	                {
+	                    foreach (var pair in dict)
+	                    {
+	                        strs.AddResource(pair.Key, pair.Value);
+	                    }
+
+	                    strs.Generate();
+	                }
+	            }
+	        }
 	    }
 
 
@@ -1233,13 +1231,15 @@ namespace WotDossier.Test
 
 		private void EnshureGameTextResources(ClientInfo client)
 	    {
-		    string destination;
+	        var destinationRoot = Path.Combine(ResourcePath, $@"{client.PatchVer}\text");
+            string destination;
 		    string source;
 		    Console.WriteLine("Copy resources");
 
 		    foreach(var lc in new List<(string path, string locale)> { (client.ClientPath, "ru"), (client.EnglishClientPath, "en") })
 			{
-				destination = Path.Combine(ResourcePath, $@"{client.PatchVer}\text\{lc.locale}");
+                
+                destination = Path.Combine(destinationRoot, lc.locale, "lc_messages");
 				source = Path.Combine(lc.path, @"res\text\lc_messages");
 
 				if (!Directory.Exists(destination))
@@ -1253,45 +1253,11 @@ namespace WotDossier.Test
 						FileInfo info = new FileInfo(resourceFile);
 						info.CopyTo(Path.Combine(destination, info.Name), true);
 					}
-
-					var res = Path.Combine(ResourcePath, $@"{client.PatchVer}\Resources\Text\{lc.locale}");
-					if (!Directory.Exists(res))
-					{
-						Directory.CreateDirectory(res);
-					}
-
-					string result;
-					using (var proc = new Process())
-					{
-						proc.StartInfo.CreateNoWindow = true;
-						proc.StartInfo.UseShellExecute = false;
-						proc.StartInfo.RedirectStandardOutput = true;
-						proc.StartInfo.FileName = Path.Combine(Environment.CurrentDirectory, @"Tools\convert.cmd");
-						proc.StartInfo.StandardOutputEncoding = Encoding.ASCII;
-						proc.StartInfo.Arguments = Path.Combine(ResourcePath, $@"{client.PatchVer}") + " " +
-						                           Path.Combine(Environment.CurrentDirectory, @"Tools") + " " + lc.locale;
-
-
-						proc.StartInfo.WorkingDirectory = destination;
-
-						proc.Start();
-
-						result = proc.StandardOutput.ReadToEnd();
-
-						Console.WriteLine(result);
-
-						//write log
-						proc.WaitForExit();
-					}
+				    
 				}
 
 			}		    
 	    }
-
-
-		
-
-        
 
 		[Test]
 	    public static void ProcessExpectedValues()
