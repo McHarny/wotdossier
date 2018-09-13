@@ -56,7 +56,7 @@ namespace WotDossier.Domain
             {
                 DossierCachePath = Folder.GetDefaultDossierCacheFolder()
             };
-            settingsDto.Save();
+            SaveCore(settingsDto);
             return settingsDto;
         }
 
@@ -66,11 +66,20 @@ namespace WotDossier.Domain
         /// <param name="settings">The settings.</param>
         public void Save()
         {
+            SaveCore(Instance);
+        }
+
+        /// <summary>
+        /// Saves the specified settings.
+        /// </summary>
+        /// <param name="settings">The settings.</param>
+        private static void SaveCore(AppSettings settings)
+        {
             var filePath = AppConfigSettings.SettingsPath;
 
             lock (_syncObject)
             {
-                File.WriteAllText(filePath, JsonConvert.SerializeObject(Instance, Formatting.Indented));
+                File.WriteAllText(filePath, JsonConvert.SerializeObject(settings, Formatting.Indented));
             }
         }
 

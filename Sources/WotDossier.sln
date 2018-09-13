@@ -44,6 +44,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External projects", "Extern
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WotDossier.Setup", "WotDossier.Setup\WotDossier.Setup.vdproj", "{553E1E15-C08C-4ABB-B5ED-08FCA5135B64}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IExpress", "IExpress", "{C753A6C3-5DAC-48CB-B319-8B768BB926AC}"
+	ProjectSection(SolutionItems) = preProject
+		.tools\IExpress\iexpress.exe = .tools\IExpress\iexpress.exe
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -709,14 +714,17 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C753A6C3-5DAC-48CB-B319-8B768BB926AC} = {3BA1A170-C59B-4522-A89E-9ECA2859F0DB}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		BuildVersion_AssemblyInfoFilename = WotDossier\Properties\AssemblyInfo.cs
-		BuildVersion_DetectChanges = False
-		BuildVersion_UpdateAssemblyVersion = True
-		BuildVersion_StartDate = 2000/1/1
-		BuildVersion_BuildVersioningStyle = None.YearStamp.MonthAndDayStamp.Increment
-		SolutionGuid = {6B36B677-423E-48BA-8D46-CBC86898B099}
-		BuildVersion_IncrementBeforeBuild = True
 		BuildVersion_UseGlobalSettings = True
+		BuildVersion_IncrementBeforeBuild = True
+		SolutionGuid = {6B36B677-423E-48BA-8D46-CBC86898B099}
+		BuildVersion_BuildVersioningStyle = None.YearStamp.MonthAndDayStamp.Increment
+		BuildVersion_StartDate = 2000/1/1
+		BuildVersion_UpdateAssemblyVersion = True
+		BuildVersion_DetectChanges = False
+		BuildVersion_AssemblyInfoFilename = WotDossier\Properties\AssemblyInfo.cs
 	EndGlobalSection
 EndGlobal
