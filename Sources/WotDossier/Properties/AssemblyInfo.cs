@@ -8,12 +8,8 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("WotDossier")]
-[assembly: AssemblyDescription("World Of Tanks Dossier Cache statistics")]
+[assembly: AssemblyDescription("WotDossier Main Module")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany(VersionInfo.CompanyName)]
-[assembly: AssemblyProduct(VersionInfo.ProductName)]
-[assembly: AssemblyCopyright(VersionInfo.Copyright)]
-[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -39,18 +35,3 @@ using System.Windows;
     //(used if a resource is not found in the page, 
     // app, or any theme specific resource dictionaries)
 )]
-
-
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Build and Revision Numbers 
-// by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("4.2018.0828.44")]
-[assembly: AssemblyInformationalVersion(VersionInfo.InformationVersion)]

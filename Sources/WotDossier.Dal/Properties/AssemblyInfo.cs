@@ -6,12 +6,8 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("WotDossier.Dal")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("WotDossier Data Access layer Module")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany(VersionInfo.CompanyName)]
-[assembly: AssemblyProduct(VersionInfo.ProductName)]
-[assembly: AssemblyCopyright(VersionInfo.Copyright)]
-[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -21,16 +17,3 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("b0987078-12c3-40ac-8649-09f049befd47")]
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Build and Revision Numbers 
-// by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("4.2018.0829.70")]
-[assembly: AssemblyInformationalVersion(VersionInfo.InformationVersion)]

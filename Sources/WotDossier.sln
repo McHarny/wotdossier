@@ -21,7 +21,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDossier.Update", "WotDos
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WotDossier.Setup", "WotDossier.Setup\WotDossier.Setup.vdproj", "{553E1E15-C08C-4ABB-B5ED-08FCA5135B64}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WotDossier.Shared", "WotDossier.Shared\WotDossier.Shared.shproj", "{0B0201DD-6E8F-4476-AE68-517BFB3D5761}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		WotDossier.Shared\WotDossier.Shared.projitems*{0b0201dd-6e8f-4476-ae68-517bfb3d5761}*SharedItemsImports = 13
+		WotDossier.Shared\WotDossier.Shared.projitems*{1268b707-a866-4723-89c7-2e9bd92e6aa6}*SharedItemsImports = 4
+		WotDossier.Shared\WotDossier.Shared.projitems*{27b67dfe-0bf1-4435-b036-e4c083eaea03}*SharedItemsImports = 4
+		WotDossier.Shared\WotDossier.Shared.projitems*{7cd82f33-099e-4c8f-b30a-7aacac5b37e1}*SharedItemsImports = 4
+		WotDossier.Shared\WotDossier.Shared.projitems*{a4ef480b-49b6-42c4-8ace-6127b15699f8}*SharedItemsImports = 4
+		WotDossier.Shared\WotDossier.Shared.projitems*{be01e7c1-5ee5-4eb6-ac4d-79ecbd42b75c}*SharedItemsImports = 4
+		WotDossier.Shared\WotDossier.Shared.projitems*{bef5308c-9e64-4369-b012-81600fdd97a3}*SharedItemsImports = 4
+		WotDossier.Shared\WotDossier.Shared.projitems*{d7399aab-a6ee-420e-839f-a6c07b6602f8}*SharedItemsImports = 4
+		WotDossier.Shared\WotDossier.Shared.projitems*{fc09ce1a-0c77-488d-8169-3d825d998e2c}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
